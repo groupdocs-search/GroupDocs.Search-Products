@@ -293,7 +293,7 @@ features:
           * **Update Index**: Update existing Index, whenever a document is modified, added or deleted. This keeps search results up to date.
 
           ```cs
-          // Create index
+           // Create index
           Index  index = new Index(@"c:\MyIndex");
           // Add documents to index
           index.AddToIndex(@"c:\MyDocuments");

@@ -335,7 +335,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-java.png"
           product: "GroupDocs.Search"
           platform: "Java"
-          link: "/search/java"
+          link: "/search/java/"
 
 ############################# Back to top ###############################
 back_to_top:

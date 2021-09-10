@@ -19,11 +19,11 @@ apis:
   api:
     # api loop
     - title: "GroupDocs.Search On Premise APIs Include"
-      link: "/search"
+      link: "/search/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/search/net"
+        - link: "/search/net/"
           img_alt: "GroupDocs.Search for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-net.png"
           product: "GroupDocs.Search for"
@@ -31,7 +31,7 @@ apis:
           content: "On Premise APIs for .NET applications to perform data indexing and text search in your documents."
 
         # api_product loop
-        - link: "/search/java"
+        - link: "/search/java/"
           img_alt: "GroupDocs.Search for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-java.png"
           product: "GroupDocs.Search for"

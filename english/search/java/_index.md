@@ -332,7 +332,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-net.png"
           product: "GroupDocs.Search"
           platform: ".NET"
-          link: "/search/net"
+          link: "/search/net/"
 
 ############################# Back to top ###############################
 back_to_top:

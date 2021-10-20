@@ -10,7 +10,7 @@ head_description: "Perform text searching & data Indexing on MS Office, OpenDocu
 
 ############################# Header ############################
 title: "Text Search & Indexing Solution for Documents"
-description: "‎Perform text search and indexing on Microsoft Office, OpenOffice, PDF and many other document file formats."
+description: "Perform text search and indexing on Microsoft Office, OpenOffice, PDF and many other document file formats."
 
 ############################# APIs ###############################
 apis:

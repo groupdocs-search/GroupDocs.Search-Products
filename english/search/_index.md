@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Search On Premise APIs Include"
+    - title: "GroupDocs.Search High Code APIs Include"
       link: "/search/"
-      label: "View All On Premise APIs"
+      label: "View All High Code APIs"
       api_product:
         # api_product loop
         - link: "/search/net/"
@@ -39,9 +39,9 @@ apis:
           content: "Java APIs that help developers to implement text search and data indexing for the provided documents in Java based applications."
 
     # api loop
-    - title: "GroupDocs.Search Cross Platform Apps Include"
+    - title: "GroupDocs.Search No Code Apps Include"
       link: "https://products.groupdocs.app/search"
-      label: "View All Cross Platform Apps"
+      label: "View All No Code Apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/search/total"

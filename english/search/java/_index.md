@@ -307,7 +307,7 @@ features:
           ```
       # more_feature_loop
       - title: "Merge Multiple Indices to Improve Search Efficiency"
-        content: "GroupDocs.Search for Java API provides the feature to merge multiple indexes into a common index. For an index which is modified frequently, several delta indexes are created. This approach however, makes the search performance slow. GroupDocs.Search for Java overcomes this bottle-neck by creating one common index through merging various delta indexes. This common merged index contains all the information of the merged delta indexes. This approach keeps the delta indexes unchanged while remarkably improving the search efficiency. You can configure various functionalities to further tweak this process.‎‎"
+        content: "GroupDocs.Search for Java API provides the feature to merge multiple indexes into a common index. For an index which is modified frequently, several delta indexes are created. This approach however, makes the search performance slow. GroupDocs.Search for Java overcomes this bottle-neck by creating one common index through merging various delta indexes. This common merged index contains all the information of the merged delta indexes. This approach keeps the delta indexes unchanged while remarkably improving the search efficiency. You can configure various functionalities to further tweak this process."
 
       # more_feature_loop
       - title: "Recognize Search Queries of Different Keyboard Layout"

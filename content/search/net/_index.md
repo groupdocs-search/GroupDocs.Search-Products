@@ -15,7 +15,7 @@ head_description: "C# .NET text searching API to smartly index & retrieve data f
 
 ############################# Header ############################
 title: ".NET API to Search & Index Documents"
-description: "‎API to Index Data & Perform Text Search in all Popular Document Formats using .NET Applications."
+description: "API to Index Data & Perform Text Search in all Popular Document Formats using .NET Applications."
 button:
     enable: true
 

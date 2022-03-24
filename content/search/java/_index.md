@@ -15,7 +15,7 @@ head_description: "Advanced text search API for Java applications to search, ind
 
 ############################# Header ############################
 title: "Search & Index Documents via Java API"
-description: "‎Build Java Applications to perform Text Search Manipulation in All Popular Document Formats.‎"
+description: "Build Java Applications to perform Text Search Manipulation in All Popular Document Formats."
 button:
     enable: true
 

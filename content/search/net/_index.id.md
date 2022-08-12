@@ -11,7 +11,7 @@ platform_tag: "net"
 head_title: "C# .NET Text Search & Indexing API untuk Word Excel PDF Email HTML"
 head_description: "API pencarian teks C# .NET untuk mengindeks & mengambil data dengan cerdas dari PDF, Microsoft Office Word, Excel, presentasi, OneNote, Email, ZIP, EPUB & file web."
 
-title: "..NET API untuk Mencari & Mengindeks Dokumen"
+title: ".NET API untuk Mencari & Mengindeks Dokumen"
 description: "API untuk Mengindeks Data & Melakukan Pencarian Teks di semua Format Dokumen Populer menggunakan Aplikasi .NET."
 button:
     enable: true

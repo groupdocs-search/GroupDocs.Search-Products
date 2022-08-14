@@ -121,7 +121,7 @@ overview:
 
       tab_three:
         description: |
-          Java용 GroupDocs.Search는 다음 운영 체제, 프레임워크 및 패키지 ‎관리자:‎를 지원합니다.
+          Java용 GroupDocs.Search는 다음 운영 체제, 프레임워크 및 패키지 관리자:를 지원합니다.
         
         left:
           enable: true
@@ -180,7 +180,7 @@ features:
         content: "다른 ZIP 아카이브 내에서 압축된 아카이브 색인 생성 및 아카이브에서 색인화된 파일 목록 가져오기"
 
       - icon: "fas fa-comment-slash"
-        content: "컴팩트 인덱싱 및 비밀번호 보안 문서 인덱싱으로 공간 절약‎"
+        content: "컴팩트 인덱싱 및 비밀번호 보안 문서 인덱싱으로 공간 절약"
 
       - icon: "fas fa-location-arrow"
         content: "인덱스 또는 소스 파일에서 문서 텍스트 추출"
@@ -261,7 +261,7 @@ features:
         content: "GroupDocs.Search for Java API는 여러 인덱스를 공통 인덱스로 병합하는 기능을 제공합니다. 자주 수정되는 인덱스의 경우 여러 개의 델타 인덱스가 생성됩니다. 그러나 이 접근 방식은 검색 성능을 저하시킵니다. GroupDocs.Search for Java는 다양한 델타 인덱스를 병합하여 하나의 공통 인덱스를 생성하여 이러한 병목 현상을 극복합니다. 이 공통 병합 인덱스에는 병합된 델타 인덱스의 모든 정보가 포함됩니다. 이 접근 방식은 델타 인덱스를 변경하지 않은 상태로 유지하면서 검색 효율성을 크게 향상시킵니다. 이 프로세스를 추가로 조정하기 위해 다양한 기능을 구성할 수 있습니다.."
 
       - title: "다양한 키보드 레이아웃의 검색어 인식"
-        content: "GroupDocs.Search for Java는 키보드 레이아웃과 일치하지 않는 검색어를 인식합니다. 현재 GroupDocs.Search for Java는 88개 언어와 164개 키보드 레이아웃을 성공적으로 인식할 수 있습니다.‎"
+        content: "GroupDocs.Search for Java는 키보드 레이아웃과 일치하지 않는 검색어를 인식합니다. 현재 GroupDocs.Search for Java는 88개 언어와 164개 키보드 레이아웃을 성공적으로 인식할 수 있습니다."
 
       - title: "형태소 단어 형식을 사용하여 검색"
         content: "GroupDocs.Search for Java를 사용하면 다양한 단어 형식을 자유롭게 검색할 수 있습니다. 특정 명사의 단수형과 복수형을 검색할 수 있습니다. 또는 동사의 모든 형태를 검색하도록 선택할 수 있습니다. 어근, 3인칭 단수, 단순과거 등 다양한 형태로 검색이 가능합니다. 영어가 아닌 언어의 경우 사용자 지정 단어 형식을 구성할 수 있습니다.."

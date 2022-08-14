@@ -136,7 +136,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Search for .NET supports following Operating Systems, Frameworks & Package Managers:‎
+          GroupDocs.Search for .NET supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -215,7 +215,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Extract Text from Index or Source File & Automatically Save Text File Encoding in Index‎"
+        content: "Extract Text from Index or Source File & Automatically Save Text File Encoding in Index"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -302,7 +302,7 @@ features:
           ```
       # more_feature_loop
       - title: "Merge Multiple Indices to Improve Search Efficiency"
-        content: "GroupDocs.Search for .NET is able to merge multiple indices into a singular index. If an index is frequently updated, it has several delta indices, but this approach reduces search performance. GroupDocs.Search for .NET API merges all delta indices into one consolidated index. The primary merged index will contain all the information from the merged delta indices; however, the delta indices will remain unchanged. This approach used by our API considerably improves the search efficiency. Index merging feature, provides numerous functionalities to tweak to further tweak this process.‎"
+        content: "GroupDocs.Search for .NET is able to merge multiple indices into a singular index. If an index is frequently updated, it has several delta indices, but this approach reduces search performance. GroupDocs.Search for .NET API merges all delta indices into one consolidated index. The primary merged index will contain all the information from the merged delta indices; however, the delta indices will remain unchanged. This approach used by our API considerably improves the search efficiency. Index merging feature, provides numerous functionalities to tweak to further tweak this process."
 
       # more_feature_loop
       - title: "Store Text in Index to Generate HTML Markup"

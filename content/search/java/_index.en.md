@@ -136,7 +136,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Search for Java supports following Operating Systems, Frameworks & Package ‎Managers:‎
+          GroupDocs.Search for Java supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -208,7 +208,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Save up Space by Compact Indexing & Password Secured Documents Indexing‎"
+        content: "Save up Space by Compact Indexing & Password Secured Documents Indexing"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -311,7 +311,7 @@ features:
 
       # more_feature_loop
       - title: "Recognize Search Queries of Different Keyboard Layout"
-        content: "GroupDocs.Search for Java recognizes search queries that do not match your keyboard layout. At the moment, 88 languages and 164 different keyboard layouts can successfully be recognized by GroupDocs.Search for Java.‎"
+        content: "GroupDocs.Search for Java recognizes search queries that do not match your keyboard layout. At the moment, 88 languages and 164 different keyboard layouts can successfully be recognized by GroupDocs.Search for Java."
 
       # more_feature_loop
       - title: "Search Using Morphological Word Form"

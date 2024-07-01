@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "API Java qui aident les développeurs à implémenter la recherche de texte et l'indexation des données pour les documents fournis dans les applications basées sur Java."
 
+        # api_product loop
+        - link: "/search/nodejs-java/"
+          img_alt: "GroupDocs.Search for Node.js via Java"
+          image: "/border/groupdocs-search-nodejs-java.svg"
+          product: "GroupDocs.Search for"
+          platform: "Node.js"
+          content: "Control your business data content using our Node.js APIs. Search and index data in documents with supported formats."
+
     # api loop
     - title: "GroupDocs.Search Aucune application de code n'inclut"
       link: "https://products.groupdocs.app/search"

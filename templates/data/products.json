@@ -1,0 +1,107 @@
+{
+  "products": {
+    "nameProduct": "Search",
+    "productShortName": "GroupDocs.Search",
+    "licensingUrl": "https://purchase.groupdocs.com/temporary-license/",
+    "pricingUrl": "https://purchase.groupdocs.com/pricing/search/net/",
+    "textWatermarker": "Watermarker",
+    "textWatermarkerBold": "**Watermarker**",
+    "textWatermarkBold": "**Watermark**",
+    "textSearchBold": "**Search**",
+    "textSearchCriteriaBold": "**SearchCriteria**",
+    "textTextSearchCriteria": "TextSearchCriteria",
+    "textSearchCriteria": "SearchCriteria",
+    "net": {
+      "environmentName": ".NET",
+      "environmentNameShort": ".NET",
+      "productCode": "net",
+      "productFullName": "GroupDocs.Search for .NET",
+
+      "programmingLanguage": "C#",
+      "srcFileExt": ".cs",
+      "syntax": "csharp",
+      "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
+
+      "productUrl": "https://products.groupdocs.com/search/net/",
+      "packageStoreName": "Nuget",
+      "packageUrl": "https://www.nuget.org/packages/GroupDocs.Search",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/search/net/",
+      "docsUrl": "https://docs.groupdocs.com/search/net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/search/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/watermark/net/adding-image-watermarks/#add-image-watermark-from-local-file/",
+      "sample2Url": "https://docs.groupdocs.com/watermark/net/modifing-found-watermark-properties/#replacing-text/",
+
+      "more_link": "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/search/net/"
+    },
+    "java": {
+      "environmentName": "Java",
+      "environmentNameShort": "Java",
+      "productCode": "java",
+      "productFullName": "GroupDocs.Search for Java",
+
+      "programmingLanguage": "Java",
+      "srcFileExt": ".java",
+      "syntax": "java",
+      "runtime": "Java runtime: J2SE 6.0 and above",
+
+      "productUrl": "https://products.groupdocs.com/search/java/",
+      "packageStoreName": "Maven",
+      "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-search/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/search/java/",
+      "docsUrl": "https://docs.groupdocs.com/search/java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/search/java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/",
+      "sample2Url": "https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/",
+
+      "more_link": "https://github.com/groupdocs-search/GroupDocs.Search-for-Java/",
+      "release_downloads": "https://releases.groupdocs.com/search/java/"
+    },
+    "nodejs-java": {
+      "environmentName": "Node.js via Java",
+      "environmentNameShort": "Node.js",
+      "productCode": "nodejs-java",
+      "productFullName": "GroupDocs.Search for Node.js via Java",
+
+      "programmingLanguage": "JavaScript",
+      "srcFileExt": ".js",
+      "syntax": "javascript",
+      "runtime": "Node.js",
+
+      "productUrl": "https://products.groupdocs.com/search/nodejs-java/",
+      "packageStoreName": "NPM",
+      "packageUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.search",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/search/nodejs-java/",
+      "docsUrl": "https://docs.groupdocs.com/search/nodejs-java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/search/java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/search/java/search-results/",
+      "sample2Url": "https://docs.groupdocs.com/search/java/regular-expression-search/",
+
+      "more_link": "https://github.com/groupdocs-search/GroupDocs.Search-for-Node.js-via-Java/",
+      "release_downloads": "https://releases.groupdocs.com/search/nodejs-java/"
+    },
+    "python-net": {
+      "environmentName": "Python via .NET",
+      "environmentNameShort": "Python",
+      "productCode": "python-net",
+      "productFullName": "GroupDocs.Search for Python via .NET",
+
+      "programmingLanguage": "Python",
+      "srcFileExt": ".py",
+      "syntax": "python",
+      "runtime": "Python",
+
+      "productUrl": "https://products.groupdocs.com/search/python-net/",
+      "packageStoreName": "PyPi",
+      "packageUrl": "https://pypi.org/project/groupdocs-search-net/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/search/python-net/",
+      "docsUrl": "https://docs.groupdocs.com/search/python-net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/search/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/watermark/net/adding-image-watermarks/#add-image-watermark-from-local-file/",
+      "sample2Url": "https://docs.groupdocs.com/watermark/net/modifing-found-watermark-properties/#replacing-text/",
+
+      "more_link": "https://github.com/groupdocs-search/GroupDocs.Search-for-Python-via-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/search/python-net/"
+    }
+  }
+}

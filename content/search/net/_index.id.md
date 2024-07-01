@@ -279,10 +279,17 @@ solutions:
 
     solution:
         - img_alt: "GroupDocs.Search for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-java.png"
+          image: "/border/groupdocs-search-java.svg"
           product: "GroupDocs.Search"
           platform: "Java"
           link: "/search/java/"
+
+        # solution loop
+        - img_alt: "GroupDocs.Search for Node.js"
+          image: "/border/groupdocs-search-nodejs-java.svg"
+          product: "GroupDocs.Search"
+          platform: "Node.js via Java"
+          link: "/search/nodejs-java/"
 
 back_to_top:
   enable: true

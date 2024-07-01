@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "/search/net/"
           img_alt: "GroupDocs.Search for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-net.png"
+          image: "/border/groupdocs-search-net.svg"
           product: "GroupDocs.Search for"
           platform: ".NET"
           content: "On Premise APIs for .NET applications to perform data indexing and text search in your documents."
@@ -33,10 +33,18 @@ apis:
         # api_product loop
         - link: "/search/java/"
           img_alt: "GroupDocs.Search for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-java.png"
+          image: "/border/groupdocs-search-java.svg"
           product: "GroupDocs.Search for"
           platform: "Java"
           content: "Java APIs that help developers to implement text search and data indexing for the provided documents in Java based applications."
+
+        # api_product loop
+        - link: "/search/nodejs-java/"
+          img_alt: "GroupDocs.Search for Node.js via Java"
+          image: "/border/groupdocs-search-nodejs-java.svg"
+          product: "GroupDocs.Search for"
+          platform: "Node.js"
+          content: "Control your business data content using our Node.js APIs. Search and index data in documents with supported formats."
 
     # api loop
     - title: "GroupDocs.Search No Code Apps Include"

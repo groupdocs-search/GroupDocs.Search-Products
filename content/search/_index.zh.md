@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "Java API 可帮助开发人员在基于 Java 的应用程序中为提供的文档实现文本搜索和数据索引."
 
+        # api_product loop
+        - link: "/search/nodejs-java/"
+          img_alt: "GroupDocs.Search for Node.js via Java"
+          image: "/border/groupdocs-search-nodejs-java.svg"
+          product: "GroupDocs.Search for"
+          platform: "Node.js"
+          content: "Control your business data content using our Node.js APIs. Search and index data in documents with supported formats."
+
     # api loop
     - title: "GroupDocs.Search 无代码应用程序包括"
       link: "https://products.groupdocs.app/search"

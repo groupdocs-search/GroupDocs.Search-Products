@@ -28,7 +28,7 @@ apis:
           image: "/border/groupdocs-search-net.svg"
           product: "GroupDocs.Search for"
           platform: ".NET"
-          content: "Локальные API-интерфейсы для приложений .NET для выполнения индексации данных и текстового поиска в ваших документах.."
+          content: "Локальные API-интерфейсы для приложений .NET для выполнения индексации данных и текстового поиска в ваших документах."
 
         # api_product loop
         - link: "/search/java/"
@@ -36,7 +36,15 @@ apis:
           image: "/border/groupdocs-search-java.svg"
           product: "GroupDocs.Search for"
           platform: "Java"
-          content: "API-интерфейсы Java, которые помогают разработчикам реализовать текстовый поиск и индексацию данных для предоставленных документов в приложениях на основе Java.."
+          content: "API-интерфейсы Java, которые помогают разработчикам реализовать текстовый поиск и индексацию данных для предоставленных документов в приложениях на основе Java."
+
+        # api_product loop
+        - link: "/search/nodejs-java/"
+          img_alt: "GroupDocs.Search for Node.js via Java"
+          image: "/border/groupdocs-search-nodejs-java.svg"
+          product: "GroupDocs.Search for"
+          platform: "Node.js"
+          content: "Control your business data content using our Node.js APIs. Search and index data in documents with supported formats."
 
     # api loop
     - title: "GroupDocs.Search Приложения без кода включают"

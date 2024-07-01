@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "csv": {
+        "name": "Find in CSV",
+        "description": "Comma Separated Values"
+      },
+      "doc": {
+        "name": "Find in DOC",
+        "description": "Microsoft Word 97 - 2007 Document"
+      },
+      "docx": {
+        "name": "Find in DOCX",
+        "description": "Microsoft Word Open XML Document"
+      },
+      "eml": {
+        "name": "Find in EML",
+        "description": "E-Mail Message"
+      },
+      "epub": {
+        "name": "Find in EPUB",
+        "description": "Open eBook File"
+      },
+      "fb2": {
+        "name": "Find in FB2",
+        "description": "FictionBook File"
+      },
+      "md": {
+        "name": "Find in MD",
+        "description": "Markdown Language"
+      },
+      "odp": {
+        "name": "Find in ODP",
+        "description": "OpenDocument Presentation Format"
+      },
+      "one": {
+        "name": "Find in ONE",
+        "description": "OneNote Document"
+      },
+      "pdf": {
+        "name": "Find in PDF",
+        "description": "Adobe Portable Document Format"
+      },
+      "pps": {
+        "name": "Find in PPS",
+        "description": "PowerPoint Slide Show"
+      },
+      "ppt": {
+        "name": "Find in PPT",
+        "description": "PowerPoint Presentation 97-2003"
+      },
+      "pptx": {
+        "name": "Find in PPTX",
+        "description": "PowerPoint Open XML Presentation"
+      },
+      "pst": {
+        "name": "Find in PST",
+        "description": "Outlook Personal Information Store File"
+      },
+      "rtf": {
+        "name": "Find in RTF",
+        "description": "Rich Text Format"
+      },
+      "tsv": {
+        "name": "Find in TSV",
+        "description": "Tab Separated Values"
+      },
+      "txt": {
+        "name": "Find in TXT",
+        "description": "Text Document"
+      },
+      "xls": {
+        "name": "Find in XLS",
+        "description": "Microsoft Excel Workbook 97-2003"
+      },
+      "xlsx": {
+        "name": "Find in XLSX",
+        "description": "Microsoft Excel Open XML Spreadsheet"
+      },
+      "xml": {
+        "name": "Find in XML",
+        "description": "XML File"
+      },
+      "zip": {
+        "name": "Find in ZIP",
+        "description": "Zip Archive"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copy",
+      "copy_tip": "click to copy",
+      "copy_done": "copied",
+      "links": {
+        "title_1": "More examples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Ready to get started?",
+      "description": "Try {{ProdShortName}} features for free or request a license",
+      "comment_1": "{{PackageStoreName}} download",
+      "comment_2": "Licensing"
+    },
+    "texts": {
+      "learn_more": "Learn more"
+    }
+  }
+}

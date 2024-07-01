@@ -19,17 +19,25 @@ apis:
       api_product:
         - link: "/search/net/"
           img_alt: "GroupDocs.Search for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-net.png"
+          image: "/border/groupdocs-search-net.svg"
           product: "GroupDocs.Search for"
           platform: ".NET"
           content: "문서에서 데이터 인덱싱 및 텍스트 검색을 수행하는 .NET 애플리케이션용 온프레미스 API."
 
         - link: "/search/java/"
           img_alt: "GroupDocs.Search for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-java.png"
+          image: "/border/groupdocs-search-java.svg"
           product: "GroupDocs.Search for"
           platform: "Java"
           content: "개발자가 Java 기반 애플리케이션에서 제공된 문서에 대한 텍스트 검색 및 데이터 인덱싱을 구현하는 데 도움이 되는 Java API."
+
+        # api_product loop
+        - link: "/search/nodejs-java/"
+          img_alt: "GroupDocs.Search for Node.js via Java"
+          image: "/border/groupdocs-search-nodejs-java.svg"
+          product: "GroupDocs.Search for"
+          platform: "Node.js"
+          content: "Control your business data content using our Node.js APIs. Search and index data in documents with supported formats."
 
     - title: "GroupDocs.Search 코드 없음 앱 포함"
       link: "https://products.groupdocs.app/search"

@@ -310,6 +310,13 @@ solutions:
           platform: ".NET"
           link: "/search/net/"
 
+        # solution loop
+        - img_alt: "GroupDocs.Search for Node.js"
+          image: "/border/groupdocs-search-nodejs-java.svg"
+          product: "GroupDocs.Search"
+          platform: "Node.js via Java"
+          link: "/search/nodejs-java/"
+
 ############################# Back to top ###############################
 back_to_top:
   enable: true

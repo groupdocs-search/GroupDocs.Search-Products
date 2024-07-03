@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-01T18:29:53
+date: 2024-07-03T09:53:11
 draft: false
 
 lang: en
@@ -169,62 +169,62 @@ features:
 
   items:
     # feature loop
-    - icon: "watermark_add"
+    - icon: "document_info"
       title: "Flexible Parameters"
       content: "Use Date Range & Case Sensitivity as Search Parameters"
 
     # feature loop
-    - icon: "watermark_style"
+    - icon: "detect"
       title: "Spell Check Search"
       content: "Use Search Phrases with Spell Check and Wild Cards & Skip Special Characters in Queries"
 
     # feature loop
-    - icon: "hidden_print"
+    - icon: "collect"
       title: "Results Filtering"
       content: "Set up Document Filtering in Search Results"
 
     # feature loop
-    - icon: "image_only"
+    - icon: "get"
       title: "Import & Export"
       content: "Perform Import or Use List to Modify Characters during Indexing & Export to a File"
 
     # feature loop
-    - icon: "image_frame"
+    - icon: "remove"
       title: "Skip Unnecessary Data"
       content: "Selectively Skip Indexing for Specific Files & Skip Specific Words to Index Faster"
 
     # feature loop
-    - icon: "attachments"
+    - icon: "style"
       title: "URL Processing"
       content: "HTML Formatted Text Extraction to a File & Produce URL to Navigate Search Results in HTML"
 
     # feature loop
-    - icon: "pdf_objects"
+    - icon: "detect"
       title: "Rapid Search"
       content: "Divide Search in Smaller Chunks to Rapidly Search Huge Indexes"
 
     # feature loop
-    - icon: "doc_background"
+    - icon: "manipulate"
       title: "Stream Processing"
       content: "Index Documents from Streams and Data Structures"
 
     # feature loop
-    - icon: "unreadable_characters"
+    - icon: "compare"
       title: "Handle Misspelling"
       content: "Enable Exact Number of Occurrences for each Found Word to Offer Alternative Word Suggestions in case of Misspelling"
 
     # feature loop
-    - icon: "watermark_text_search"
+    - icon: "unreadable_characters"
       title: "Archive Support"
       content: "Index Zipped Archives inside other ZIP Archives & Get List of Indexed Files in an Archive"
 
     # feature loop
-    - icon: "watermark_image_search"
+    - icon: "hidden_print"
       title: "Disk Space Saving"
       content: "Save up Space by Compact Indexing & Password Secured Documents Indexing"
 
     # feature loop
-    - icon: "document_info"
+    - icon: "style"
       title: "Custom Synonyms"
       content: "Add English Synonyms to Default Synonym Dictionary"
 
@@ -267,7 +267,7 @@ code_samples:
     # code sample loop
     - title: "Regular expressions are available for advanced search scenarios"
       content: |
-        GroupDocs.Search for Node.js via Java allows us to use regular expressions in order to narrow search result. [Deep into advanced search techniques](https://docs.groupdocs.com/search/java/regular-expression-search/).
+        GroupDocs.Search for Node.js via Java allows us to use regular expressions in order to narrow search result. [Dive into advanced search techniques](https://docs.groupdocs.com/search/java/regular-expression-search/).
         {{< landing/code title="How to search using regular expressions">}}
         ```javascript {style=abap}   
         // Create an index

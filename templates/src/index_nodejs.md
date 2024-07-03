@@ -171,62 +171,62 @@ features:
 
   items:
     # feature loop
-    - icon: "watermark_add"
+    - icon: "document_info"
       title: "<% "{index-content-nodejs-java.features.feature_1.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "watermark_style"
+    - icon: "detect"
       title: "<% "{index-content-nodejs-java.features.feature_2.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "hidden_print"
+    - icon: "collect"
       title: "<% "{index-content-nodejs-java.features.feature_3.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "image_only"
+    - icon: "get"
       title: "<% "{index-content-nodejs-java.features.feature_4.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "image_frame"
+    - icon: "remove"
       title: "<% "{index-content-nodejs-java.features.feature_5.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "attachments"
+    - icon: "style"
       title: "<% "{index-content-nodejs-java.features.feature_6.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "pdf_objects"
+    - icon: "detect"
       title: "<% "{index-content-nodejs-java.features.feature_7.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "doc_background"
+    - icon: "manipulate"
       title: "<% "{index-content-nodejs-java.features.feature_8.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "unreadable_characters"
+    - icon: "compare"
       title: "<% "{index-content-nodejs-java.features.feature_9.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_9.content}" %>"
 
     # feature loop
-    - icon: "watermark_text_search"
+    - icon: "unreadable_characters"
       title: "<% "{index-content-nodejs-java.features.feature_10.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_10.content}" %>"
 
     # feature loop
-    - icon: "watermark_image_search"
+    - icon: "hidden_print"
       title: "<% "{index-content-nodejs-java.features.feature_11.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_11.content}" %>"
 
     # feature loop
-    - icon: "document_info"
+    - icon: "style"
       title: "<% "{index-content-nodejs-java.features.feature_12.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_12.content}" %>"
 
@@ -256,8 +256,8 @@ code_samples:
         var result = index.search(query, options);
         
         // <% "{index-content.code_samples.sample_1.comment_4}" %>
-        System.out.println("Documents: " + result.getDocumentCount());
-        System.out.println("Total occurrences: " + result.getOccurrenceCount());
+        console.log("Documents: " + result.getDocumentCount());
+        console.log("Total occurrences: " + result.getOccurrenceCount());
         for (int i = 0; i < result.getDocumentCount(); i++) {
             FoundDocument document = result.getFoundDocument(i);
             console.log('Document: ${document.getDocumentInfo().getFilePath()}');

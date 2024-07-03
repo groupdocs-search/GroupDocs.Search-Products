@@ -340,11 +340,11 @@
     "overview_description": "{{EnvNameShort}} {{ProgLang}} library for text search",
     "overview_feature_1": {
       "title": "{{EnvNameShort}} Indexing and Search Operation",
-      "description": "Indexing is used by {{ProdFullName}} to collect data, as well as store and parse it for accurate and efficient search operations. {{ProdFullName}} uses such Indexes frequently for performing search."
+      "description": "Indexing is used by {{ProdFullName}} to collect data, as well as store and parse it for accurate and efficient search operations. Such Indexes are used frequently for search performing."
     },
     "overview_feature_2": {
       "title": "Merge Multiple Indexes to Improve Search Efficiency",
-      "description": "{{ProdFullName}} API provides the feature to merge multiple indexes into a common index. For an index which is modified frequently, several delta indexes are created. This approach however, makes the search performance slow. {{ProdFullName}} overcomes this bottle-neck by creating one common index through merging various delta indexes. This common merged index contains all the information of the merged delta indexes. This approach keeps the delta indexes unchanged while remarkably improving the search efficiency. You can configure various functionalities to further tweak this process."
+      "description": "{{ProdFullName}} API provides the feature to merge multiple indexes into a common one. For an index which is modified frequently, several delta indexes are created. This approach however, makes the search performance slow. Our solution overcomes this bottle-neck by creating one common index through merging various delta indexes. This common merged index contains all the information of the merged delta indexes. This approach keeps the delta indexes unchanged while remarkably improving the search efficiency. You can configure various functionalities to further tweak this process."
     },
     "overview_feature_3": {
       "title": "Recognize Search Queries of Different Keyboard Layout",
@@ -355,7 +355,7 @@
       "description": "Using {{ProdFullName}}, you have freedom of searching for various word forms. You may search for singular and plural form of specific noun. Or you can choose to search all forms of a verb. Root, third-person singular and simple past along with various other forms can also be searched. For non English languages, you can configure customized word forms."
     },
     "features": {
-      "title": "{{ProdFullName}}: Feature Set",
+      "title": "{{ProdFullName}} Features",
       "description": "Control business documents content using advanced search engine. Our solution supports most of the popular file formats including: PDF, DOCX, XLSX, PPTX, etc.",
       "feature_1": {
         "title": "Flexible Parameters",

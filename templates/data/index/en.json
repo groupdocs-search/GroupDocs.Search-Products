@@ -334,36 +334,36 @@
     "head_title": "{{EnvNameShort}} Text Search & Indexing Library for Documents, PDF, Office & Web",
     "head_description": "Advanced text search solution for {{EnvNameShort}} applications to search, index & collect data from documents: PDF, Word, Excel, presentations, email & web file formats.",
     "title": "Search & Index Documents using {{EnvNameShort}} API",
-    "description": "Improve {{EnvNameShort}} Applications by implementing Text Search in All Popular Document Formats.",
+    "description": "Enhance {{EnvNameShort}} Applications by implementing Text Search in All Popular Document Formats.",
     "actions_main": "Free NPM Download",
     "code_title": "Search in folder with {{ProgLang}}",
     "overview_description": "{{EnvNameShort}} {{ProgLang}} library for text search",
     "overview_feature_1": {
-      "title": "{{EnvNameShort}} Indexing and Search Operation",
-      "description": "Indexing is used by {{ProdFullName}} to collect data, as well as store and parse it for accurate and efficient search operations. Such Indexes are used frequently for search performing."
+      "title": "{{EnvNameShort}} Indexing and Search Operations",
+      "description": "Indexing in {{ProdFullName}} collects, stores, and parses data for precise and efficient search operations. These indexes are frequently used to perform searches."
     },
     "overview_feature_2": {
-      "title": "Merge Multiple Indexes to Improve Search Efficiency",
-      "description": "{{ProdFullName}} API provides the feature to merge multiple indexes into a common one. For an index which is modified frequently, several delta indexes are created. This approach however, makes the search performance slow. Our solution overcomes this bottle-neck by creating one common index through merging various delta indexes. This common merged index contains all the information of the merged delta indexes. This approach keeps the delta indexes unchanged while remarkably improving the search efficiency. You can configure various functionalities to further tweak this process."
+      "title": "Merge Multiple Indexes to Enhance Search Efficiency",
+      "description": "{{ProdFullName}} API allows the merging of multiple indexes into one. Frequent modifications create several delta indexes, which can slow down search performance. Our solution merges these delta indexes into a common index, containing all the information from the merged delta indexes, significantly improving search efficiency while keeping the delta indexes unchanged. Various functionalities can be configured to fine-tune this process."
     },
     "overview_feature_3": {
-      "title": "Recognize Search Queries of Different Keyboard Layout",
-      "description": "{{ProdFullName}} recognizes search queries that do not match your keyboard layout. At the moment, 88 languages and 164 different keyboard layouts can successfully be recognized by our solution."
+      "title": "Recognize Search Queries from Different Keyboard Layouts",
+      "description": "{{ProdFullName}} recognizes search queries that do not match the keyboard layout. Currently, 88 languages and 164 different keyboard layouts are supported."
     },
     "overview_feature_4": {
-      "title": "Search Using Morphological Word Form",
-      "description": "Using {{ProdFullName}}, you have freedom of searching for various word forms. You may search for singular and plural form of specific noun. Or you can choose to search all forms of a verb. Root, third-person singular and simple past along with various other forms can also be searched. For non English languages, you can configure customized word forms."
+      "title": "Search Using Morphological Word Forms",
+      "description": "With {{ProdFullName}}, you can search for various word forms, such as singular and plural nouns, or all forms of a verb. English and non-English languages can be customized for specific word forms."
     },
     "features": {
       "title": "{{ProdFullName}} Features",
-      "description": "Control business documents content using advanced search engine. Our solution supports most of the popular file formats including: PDF, DOCX, XLSX, PPTX, etc.",
+      "description": "Control business document content using our advanced search engine, supporting popular file formats including PDF, DOCX, XLSX, PPTX, and more.",
       "feature_1": {
         "title": "Flexible Parameters",
         "content": "Use Date Range & Case Sensitivity as Search Parameters"
       },
       "feature_2": {
         "title": "Spell Check Search",
-        "content": "Use Search Phrases with Spell Check and Wild Cards & Skip Special Characters in Queries"
+        "content": "Use Search Phrases with Spell Check and Wildcards & Skip Special Characters in Queries"
       },
       "feature_3": {
         "title": "Results Filtering",
@@ -379,11 +379,11 @@
       },
       "feature_6": {
         "title": "URL Processing",
-        "content": "HTML Formatted Text Extraction to a File & Produce URL to Navigate Search Results in HTML"
+        "content": "Extract HTML Formatted Text to a File & Generate URL to Navigate Search Results in HTML"
       },
       "feature_7": {
         "title": "Rapid Search",
-        "content": "Divide Search in Smaller Chunks to Rapidly Search Huge Indexes"
+        "content": "Divide Search into Smaller Chunks to Rapidly Search Large Indexes"
       },
       "feature_8": {
         "title": "Stream Processing",
@@ -395,11 +395,11 @@
       },
       "feature_10": {
         "title": "Archive Support",
-        "content": "Index Zipped Archives inside other ZIP Archives & Get List of Indexed Files in an Archive"
+        "content": "Index Zipped Archives inside other ZIP Archives & Retrieve List of Indexed Files in an Archive"
       },
       "feature_11": {
         "title": "Disk Space Saving",
-        "content": "Save up Space by Compact Indexing & Password Secured Documents Indexing"
+        "content": "Save Space with Compact Indexing & Index Password Secured Documents"
       },
       "feature_12": {
         "title": "Custom Synonyms",
@@ -407,9 +407,9 @@
       }
     },
     "platforms_description": "{{ProdFullName}} supports all popular operating systems and package managers.",
-    "formats_description": "{{ProdFullName}} empowers you to process a diverse range of file formats. [Explore the full list]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "Investigate {{ProdFullName}} functionalities with examples",
-    "code_title_sample_1": "Use 'fuzzy' search to increase productivity",
+    "formats_description": "{{ProdFullName}} enables processing a wide range of file formats. [Explore the full list]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Explore {{ProdFullName}} functionalities with examples",
+    "code_title_sample_1": "Use 'fuzzy' search to enhance productivity",
     "code_samples_sample_1_content": "Enjoy flexible {{ProdFullName}} functionality to enhance documents content control by sophisticated search algorithms. [Learn more]({{Sample1Url}}).",
     "code_title_sample_2": "Regular expressions are available for advanced search scenarios",
     "code_samples_sample_2_content": "{{ProdFullName}} allows us to use regular expressions in order to narrow search result. [Dive into advanced search techniques]({{Sample2Url}})."

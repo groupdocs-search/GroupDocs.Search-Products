@@ -1,0 +1,146 @@
+{
+  "index-content": {
+    "words_for": "untuk",
+    "release_title": "Versi {0} dirilis",
+    "release_notes": "Lihat apa yang baru",
+    "release_downloads": "Unduhan",
+    "code_more": "Lebih banyak contoh",
+    "code_comment_1": "Membuat indeks",
+    "code_comment_2": "Menambahkan dokumen ke indeks",
+    "code_comment_3": "Mencari berbagai kata seperti",
+    "overview_title": "{{ProdShortName}} sekilas",
+    "formats_title": "Format file yang didukung",
+    "platforms": {
+      "title": "Independensi platform",
+      "head_title": "Pilih platform Anda",
+      "description": "Pustaka {{ProdShortName}} mendukung sistem operasi dan kerangka kerja berikut:",
+      "learn_more": "Belajarlah lagi",
+      "any_other_text_editor": "Editor teks lainnya"
+    },
+    "formats": {
+      "title": "70+ format file didukung",
+      "description": "{{ProdShortName}} menyediakan pencarian dalam semua format file populer."
+    },
+    "code_samples": {
+      "title": "Contoh kode",
+      "sample_1": {
+        "code_title": "Cara memproses hasil pencarian",
+        "comment_1": "Buat indeks",
+        "comment_2": "Siapkan opsi pencarian",
+        "comment_3": "Telusuri dokumen yang mengandung kata 'air' atau kalimat 'Lorem ipsum'",
+        "comment_4": "Proses hasil pencarian"
+      },
+      "sample_2": {
+        "code_title": "Cara mencari menggunakan ekspresi reguler",
+        "comment_1": "Buat indeks",
+        "comment_2": "Cari frasa dalam bentuk teks",
+        "comment_3": "Karakter tanda sisipan pertama di awal menunjukkan bahwa ini adalah kueri penelusuran ekspresi reguler",
+        "comment_4": "Cari dua atau lebih karakter identik di awal kata"
+      }
+    },
+    "actions": {
+      "alt": "Perizinan",
+      "title": "Siap untuk memulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "description_index": "Coba fitur {{ProdShortName}} secara gratis di platform Anda"
+    },
+    "formats_groups": {
+      "title_1": "Format Office Populer",
+      "title_2": "Format Media",
+      "title_3": "Lainnya",
+      "format_portable": "Portabel",
+      "format_popular_images": "Format gambar populer",
+      "format_multi_images": "Gambar multi-halaman",
+      "format_multi_audio": "Audio",
+      "format_multi_video": "Video",
+      "format_web": "jaring",
+      "format_text": "Teks",
+      "format_email": "Surel",
+      "format_others": "Yang lain"
+    }
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{EnvNameShort}} Pencarian Teks & Perpustakaan Pengindeksan untuk Dokumen, PDF, Office & Web",
+    "head_description": "Solusi pencarian teks tingkat lanjut untuk aplikasi {{EnvNameShort}} untuk mencari, mengindeks & mengumpulkan data dari dokumen: PDF, Word, Excel, presentasi, email & format file web.",
+    "title": "Pencarian & Indeks Dokumen menggunakan API {{EnvNameShort}}",
+    "description": "Tingkatkan Aplikasi {{EnvNameShort}} dengan menerapkan Pencarian Teks di Semua Format Dokumen Populer.",
+    "actions_main": "Unduh NPM Gratis",
+    "code_title": "Cari di folder dengan {{ProgLang}}",
+    "overview_description": "Pustaka {{EnvNameShort}} {{ProgLang}} untuk pencarian teks",
+    "overview_feature_1": {
+      "title": "{{EnvNameShort}} Operasi Pengindeksan dan Pencarian",
+      "description": "Pengindeksan di {{ProdFullName}} mengumpulkan, menyimpan, dan menguraikan data untuk operasi pencarian yang tepat dan efisien. Indeks ini sering digunakan untuk melakukan pencarian."
+    },
+    "overview_feature_2": {
+      "title": "Gabungkan Beberapa Indeks untuk Meningkatkan Efisiensi Pencarian",
+      "description": "{{ProdFullName}} API memungkinkan penggabungan beberapa indeks menjadi satu. Modifikasi yang sering dilakukan membuat beberapa indeks delta, yang dapat memperlambat kinerja pencarian. Solusi kami menggabungkan indeks delta ini menjadi indeks umum, yang berisi semua informasi dari indeks delta gabungan, sehingga secara signifikan meningkatkan efisiensi pencarian sekaligus menjaga indeks delta tidak berubah. Berbagai fungsi dapat dikonfigurasi untuk menyempurnakan proses ini."
+    },
+    "overview_feature_3": {
+      "title": "Kenali Kueri Pencarian dari Berbagai Tata Letak Keyboard",
+      "description": "{{ProdFullName}} mengenali kueri penelusuran yang tidak cocok dengan tata letak keyboard. Saat ini, 88 bahasa dan 164 tata letak keyboard berbeda didukung."
+    },
+    "overview_feature_4": {
+      "title": "Pencarian Menggunakan Bentuk Kata Morfologis",
+      "description": "Dengan {{ProdFullName}}, Anda dapat mencari berbagai bentuk kata, seperti kata benda tunggal dan jamak, atau semua bentuk kata kerja. Bahasa Inggris dan non-Inggris dapat disesuaikan untuk bentuk kata tertentu."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Fitur",
+      "description": "Kontrol konten dokumen bisnis menggunakan mesin pencari canggih kami, mendukung format file populer termasuk PDF, DOCX, XLSX, PPTX, dan banyak lagi.",
+      "feature_1": {
+        "title": "Parameter Fleksibel",
+        "content": "Gunakan Rentang Tanggal & Sensitivitas Huruf sebagai Parameter Pencarian"
+      },
+      "feature_2": {
+        "title": "Pencarian Periksa Ejaan",
+        "content": "Gunakan Frasa Pencarian dengan Pemeriksaan Ejaan dan Wildcard & Lewati Karakter Khusus dalam Kueri"
+      },
+      "feature_3": {
+        "title": "Penyaringan Hasil",
+        "content": "Atur Pemfilteran Dokumen di Hasil Pencarian"
+      },
+      "feature_4": {
+        "title": "Ekspor Impor",
+        "content": "Lakukan Impor atau Gunakan Daftar untuk Memodifikasi Karakter selama Pengindeksan & Ekspor ke File"
+      },
+      "feature_5": {
+        "title": "Lewati Data yang Tidak Diperlukan",
+        "content": "Lewati Pengindeksan Secara Selektif untuk File Tertentu & Lewati Kata Tertentu untuk Mengindeks Lebih Cepat"
+      },
+      "feature_6": {
+        "title": "Pemrosesan URL",
+        "content": "Ekstrak Teks Berformat HTML ke File & Hasilkan URL untuk Menavigasi Hasil Pencarian dalam HTML"
+      },
+      "feature_7": {
+        "title": "Pencarian Cepat",
+        "content": "Bagilah Pencarian menjadi Bagian-bagian yang Lebih Kecil untuk Mencari Indeks Besar dengan Cepat"
+      },
+      "feature_8": {
+        "title": "Pemrosesan Aliran",
+        "content": "Dokumen Indeks dari Aliran dan Struktur Data"
+      },
+      "feature_9": {
+        "title": "Menangani Kesalahan Ejaan",
+        "content": "Aktifkan Jumlah Kemunculan Tepat untuk setiap Kata yang Ditemukan untuk Menawarkan Saran Kata Alternatif jika terjadi Kesalahan Ejaan"
+      },
+      "feature_10": {
+        "title": "Dukungan Arsip",
+        "content": "Indeks Arsip ZIP di dalam Arsip ZIP lainnya & Ambil Daftar File Terindeks dalam Arsip"
+      },
+      "feature_11": {
+        "title": "Penghematan Ruang Disk",
+        "content": "Hemat Ruang dengan Pengindeksan Ringkas & Indeks Dokumen Terlindungi Kata Sandi"
+      },
+      "feature_12": {
+        "title": "Sinonim Khusus",
+        "content": "Tambahkan Sinonim Bahasa Inggris ke Kamus Sinonim Default"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} mendukung semua sistem operasi dan pengelola paket populer.",
+    "formats_description": "{{ProdFullName}} memungkinkan pemrosesan berbagai format file. [Jelajahi daftar lengkapnya]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Jelajahi fungsi {{ProdFullName}} beserta contohnya",
+    "code_title_sample_1": "Gunakan pencarian fuzzy untuk meningkatkan produktivitas",
+    "code_samples_sample_1_content": "Nikmati fungsionalitas {{ProdFullName}} yang fleksibel untuk meningkatkan kontrol konten dokumen melalui algoritma pencarian yang canggih. [Pelajari lebih lanjut]({{Sample1Url}}).",
+    "code_title_sample_2": "Ekspresi reguler tersedia untuk skenario pencarian lanjutan",
+    "code_samples_sample_2_content": "{{ProdFullName}} memungkinkan kita menggunakan ekspresi reguler untuk mempersempit hasil pencarian. [Selami teknik penelusuran lanjutan]({{Sample2Url}})."
+  }
+}

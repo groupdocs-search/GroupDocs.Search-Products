@@ -37,7 +37,7 @@ apis:
           image: "/border/groupdocs-search-nodejs-java.svg"
           product: "GroupDocs.Search for"
           platform: "Node.js"
-          content: "Control your business data content using our Node.js APIs. Search and index data in documents with supported formats."
+          content: "Node.js API를 사용하여 비즈니스 데이터 콘텐츠를 제어하세요. 지원되는 형식의 문서에서 데이터를 검색하고 색인화합니다."
 
     - title: "GroupDocs.Search 코드 없음 앱 포함"
       link: "https://products.groupdocs.app/search"

@@ -1,0 +1,146 @@
+{
+  "index-content": {
+    "words_for": "vì",
+    "release_title": "Đã phát hành phiên bản {0}",
+    "release_notes": "Xem có gì mới",
+    "release_downloads": "Tải xuống",
+    "code_more": "Thêm ví dụ",
+    "code_comment_1": "Tạo chỉ mục",
+    "code_comment_2": "Thêm tài liệu vào chỉ mục",
+    "code_comment_3": "Tìm kiếm các từ khác nhau như",
+    "overview_title": "Sơ lược về {{ProdShortName}}",
+    "formats_title": "Các định dạng tập tin được hỗ trợ",
+    "platforms": {
+      "title": "Nền tảng độc lập",
+      "head_title": "Chọn nền tảng của bạn",
+      "description": "Thư viện {{ProdShortName}} hỗ trợ các hệ điều hành và khung sau:",
+      "learn_more": "Tìm hiểu thêm",
+      "any_other_text_editor": "Bất kỳ trình soạn thảo văn bản nào khác"
+    },
+    "formats": {
+      "title": "Hơn 70 định dạng tệp được hỗ trợ",
+      "description": "{{ProdShortName}} cung cấp khả năng tìm kiếm ở tất cả các định dạng tệp phổ biến."
+    },
+    "code_samples": {
+      "title": "Mẫu mã",
+      "sample_1": {
+        "code_title": "Cách xử lý kết quả tìm kiếm",
+        "comment_1": "Tạo một chỉ mục",
+        "comment_2": "Thiết lập tùy chọn tìm kiếm",
+        "comment_3": "Tìm kiếm tài liệu có chứa từ “nước” hoặc cụm từ “Lorem ipsum”",
+        "comment_4": "Xử lý kết quả tìm kiếm"
+      },
+      "sample_2": {
+        "code_title": "Cách tìm kiếm bằng biểu thức chính quy",
+        "comment_1": "Tạo một chỉ mục",
+        "comment_2": "Tìm kiếm cụm từ ở dạng văn bản",
+        "comment_3": "Ký tự dấu mũ đầu tiên ở đầu cho biết đây là truy vấn tìm kiếm biểu thức chính quy",
+        "comment_4": "Tìm kiếm hai hoặc nhiều ký tự giống nhau ở đầu một từ"
+      }
+    },
+    "actions": {
+      "alt": "Cấp phép",
+      "title": "Sẵn sàng để bắt đầu?",
+      "description": "Dùng thử miễn phí các tính năng của {{ProdShortName}} hoặc yêu cầu giấy phép",
+      "description_index": "Dùng thử miễn phí các tính năng của {{ProdShortName}} trên nền tảng của bạn"
+    },
+    "formats_groups": {
+      "title_1": "Các định dạng văn phòng phổ biến",
+      "title_2": "Định dạng phương tiện",
+      "title_3": "Khác",
+      "format_portable": "Cầm tay",
+      "format_popular_images": "Các định dạng hình ảnh phổ biến",
+      "format_multi_images": "Hình ảnh nhiều trang",
+      "format_multi_audio": "Âm thanh",
+      "format_multi_video": "Băng hình",
+      "format_web": "Web",
+      "format_text": "Chữ",
+      "format_email": "E-mail",
+      "format_others": "Người khác"
+    }
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{EnvNameShort}} Thư viện lập chỉ mục và tìm kiếm văn bản cho tài liệu, PDF, Office & Web",
+    "head_description": "Giải pháp tìm kiếm văn bản nâng cao dành cho ứng dụng {{EnvNameShort}} để tìm kiếm, lập chỉ mục và thu thập dữ liệu từ các tài liệu: PDF, Word, Excel, bản trình bày, email và các định dạng tệp web.",
+    "title": "Tìm kiếm & lập chỉ mục tài liệu bằng API {{EnvNameShort}}",
+    "description": "Nâng cao Ứng dụng {{EnvNameShort}} bằng cách triển khai Tìm kiếm văn bản ở tất cả các định dạng tài liệu phổ biến.",
+    "actions_main": "Tải xuống NPM miễn phí",
+    "code_title": "Tìm kiếm trong thư mục với {{ProgLang}}",
+    "overview_description": "Thư viện {{EnvNameShort}} {{ProgLang}} để tìm kiếm văn bản",
+    "overview_feature_1": {
+      "title": "Hoạt động tìm kiếm và lập chỉ mục {{EnvNameShort}}",
+      "description": "Lập chỉ mục trong {{ProdFullName}} thu thập, lưu trữ và phân tích dữ liệu để thực hiện các hoạt động tìm kiếm chính xác và hiệu quả. Các chỉ mục này thường được sử dụng để thực hiện tìm kiếm."
+    },
+    "overview_feature_2": {
+      "title": "Hợp nhất nhiều chỉ mục để nâng cao hiệu quả tìm kiếm",
+      "description": "API {{ProdFullName}} cho phép hợp nhất nhiều chỉ mục thành một. Việc sửa đổi thường xuyên sẽ tạo ra một số chỉ mục delta, có thể làm chậm hiệu suất tìm kiếm. Giải pháp của chúng tôi hợp nhất các chỉ mục delta này thành một chỉ mục chung, chứa tất cả thông tin từ các chỉ mục delta đã hợp nhất, cải thiện đáng kể hiệu quả tìm kiếm trong khi vẫn giữ nguyên các chỉ mục delta. Nhiều chức năng khác nhau có thể được cấu hình để tinh chỉnh quá trình này."
+    },
+    "overview_feature_3": {
+      "title": "Nhận dạng truy vấn tìm kiếm từ các bố cục bàn phím khác nhau",
+      "description": "{{ProdFullName}} nhận ra các truy vấn tìm kiếm không khớp với bố cục bàn phím. Hiện tại, 88 ngôn ngữ và 164 bố cục bàn phím khác nhau được hỗ trợ."
+    },
+    "overview_feature_4": {
+      "title": "Tìm kiếm bằng cách sử dụng các dạng từ hình thái",
+      "description": "Với {{ProdFullName}}, bạn có thể tìm kiếm nhiều dạng từ khác nhau, chẳng hạn như danh từ số ít và số nhiều hoặc tất cả các dạng của động từ. Ngôn ngữ tiếng Anh và không phải tiếng Anh có thể được tùy chỉnh cho các dạng từ cụ thể."
+    },
+    "features": {
+      "title": "Tính năng của {{ProdFullName}}",
+      "description": "Kiểm soát nội dung tài liệu kinh doanh bằng công cụ tìm kiếm nâng cao của chúng tôi, hỗ trợ các định dạng tệp phổ biến bao gồm PDF, DOCX, XLSX, PPTX, v.v.",
+      "feature_1": {
+        "title": "Thông số linh hoạt",
+        "content": "Sử dụng Phạm vi ngày và Phân biệt chữ hoa chữ thường làm tham số tìm kiếm"
+      },
+      "feature_2": {
+        "title": "Tìm kiếm kiểm tra chính tả",
+        "content": "Sử dụng cụm từ tìm kiếm có tính năng kiểm tra chính tả và ký tự đại diện & bỏ qua các ký tự đặc biệt trong truy vấn"
+      },
+      "feature_3": {
+        "title": "Lọc kết quả",
+        "content": "Thiết lập lọc tài liệu trong kết quả tìm kiếm"
+      },
+      "feature_4": {
+        "title": "Nhập khẩu xuất khẩu",
+        "content": "Thực hiện nhập hoặc sử dụng danh sách để sửa đổi ký tự trong quá trình lập chỉ mục và xuất thành tệp"
+      },
+      "feature_5": {
+        "title": "Bỏ qua dữ liệu không cần thiết",
+        "content": "Bỏ qua có chọn lọc việc lập chỉ mục cho các tệp cụ thể & Bỏ qua các từ cụ thể để lập chỉ mục nhanh hơn"
+      },
+      "feature_6": {
+        "title": "Xử lý URL",
+        "content": "Trích xuất văn bản có định dạng HTML vào tệp và tạo URL để điều hướng kết quả tìm kiếm trong HTML"
+      },
+      "feature_7": {
+        "title": "Tìm kiếm nhanh",
+        "content": "Chia tìm kiếm thành các phần nhỏ hơn để tìm kiếm nhanh các chỉ mục lớn"
+      },
+      "feature_8": {
+        "title": "Xử lý luồng",
+        "content": "Tài liệu chỉ mục từ luồng và cấu trúc dữ liệu"
+      },
+      "feature_9": {
+        "title": "Xử lý lỗi chính tả",
+        "content": "Kích hoạt số lần xuất hiện chính xác cho mỗi từ được tìm thấy để đưa ra gợi ý từ thay thế trong trường hợp sai chính tả"
+      },
+      "feature_10": {
+        "title": "Hỗ trợ lưu trữ",
+        "content": "Lập chỉ mục các kho lưu trữ đã nén bên trong các kho lưu trữ ZIP khác & Truy xuất danh sách các tệp được lập chỉ mục trong kho lưu trữ"
+      },
+      "feature_11": {
+        "title": "Tiết kiệm dung lượng ổ đĩa",
+        "content": "Tiết kiệm không gian với tài liệu được bảo mật bằng mật khẩu và lập chỉ mục nhỏ gọn"
+      },
+      "feature_12": {
+        "title": "Từ đồng nghĩa tùy chỉnh",
+        "content": "Thêm từ đồng nghĩa tiếng Anh vào từ điển đồng nghĩa mặc định"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} hỗ trợ tất cả các hệ điều hành và trình quản lý gói phổ biến.",
+    "formats_description": "{{ProdFullName}} cho phép xử lý nhiều định dạng tệp. [Khám phá danh sách đầy đủ]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Khám phá các chức năng của {{ProdFullName}} bằng các ví dụ",
+    "code_title_sample_1": "Sử dụng tìm kiếm mờ để nâng cao năng suất",
+    "code_samples_sample_1_content": "Tận hưởng chức năng {{ProdFullName}} linh hoạt để tăng cường kiểm soát nội dung tài liệu bằng các thuật toán tìm kiếm phức tạp. [Tìm hiểu thêm]({{Sample1Url}}).",
+    "code_title_sample_2": "Biểu thức thông thường có sẵn cho các tình huống tìm kiếm nâng cao",
+    "code_samples_sample_2_content": "{{ProdFullName}} cho phép chúng tôi sử dụng biểu thức chính quy để thu hẹp kết quả tìm kiếm. [Đi sâu vào các kỹ thuật tìm kiếm nâng cao]({{Sample2Url}})."
+  }
+}

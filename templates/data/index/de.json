@@ -1,0 +1,146 @@
+{
+  "index-content": {
+    "words_for": "für",
+    "release_title": "Version {0} veröffentlicht",
+    "release_notes": "Schau was neu ist",
+    "release_downloads": "Downloads",
+    "code_more": "Mehr Beispiele",
+    "code_comment_1": "Index erstellen",
+    "code_comment_2": "Dokumente zum Index hinzufügen",
+    "code_comment_3": "Suche nach verschiedenen Wörtern wie",
+    "overview_title": "{{ProdShortName}} auf einen Blick",
+    "formats_title": "Unterstützte Dateiformate",
+    "platforms": {
+      "title": "Plattformunabhängigkeit",
+      "head_title": "Wählen Sie Ihre Plattform",
+      "description": "Die Bibliothek {{ProdShortName}} unterstützt die folgenden Betriebssysteme und Frameworks:",
+      "learn_more": "Erfahren Sie mehr",
+      "any_other_text_editor": "Jeder andere Texteditor"
+    },
+    "formats": {
+      "title": "Über 70 Dateiformate werden unterstützt",
+      "description": "{{ProdShortName}} bietet die Suche in allen gängigen Dateiformaten."
+    },
+    "code_samples": {
+      "title": "Codebeispiele",
+      "sample_1": {
+        "code_title": "So verarbeiten Sie Suchergebnisse",
+        "comment_1": "Erstellen Sie einen Index",
+        "comment_2": "Suchoptionen einrichten",
+        "comment_3": "Suchen Sie nach Dokumenten, die das Wort „Wasser“ oder den Ausdruck „Lorem ipsum“ enthalten.",
+        "comment_4": "Suchergebnis verarbeiten"
+      },
+      "sample_2": {
+        "code_title": "So suchen Sie mit regulären Ausdrücken",
+        "comment_1": "Erstellen Sie einen Index",
+        "comment_2": "Suchen Sie nach der Phrase in Textform",
+        "comment_3": "Das erste Caret-Zeichen am Anfang zeigt an, dass es sich um eine Suchabfrage mit regulären Ausdrücken handelt",
+        "comment_4": "Suchen Sie nach zwei oder mehr identischen Zeichen am Anfang eines Worts"
+      }
+    },
+    "actions": {
+      "alt": "Lizenzierung",
+      "title": "Bereit anzufangen?",
+      "description": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos oder fordern Sie eine Lizenz an",
+      "description_index": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos auf Ihrer Plattform"
+    },
+    "formats_groups": {
+      "title_1": "Beliebte Office-Formate",
+      "title_2": "Medienformate",
+      "title_3": "Andere",
+      "format_portable": "tragbar",
+      "format_popular_images": "Beliebte Bildformate",
+      "format_multi_images": "Mehrseitige Bilder",
+      "format_multi_audio": "Audio",
+      "format_multi_video": "Video",
+      "format_web": "Netz",
+      "format_text": "Text",
+      "format_email": "Email",
+      "format_others": "Andere"
+    }
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{EnvNameShort}} Textsuch- und Indexierungsbibliothek für Dokumente, PDF, Office und Web",
+    "head_description": "Erweiterte Textsuchlösung für {{EnvNameShort}}-Anwendungen zum Suchen, Indizieren und Sammeln von Daten aus Dokumenten: PDF, Word, Excel, Präsentationen, E-Mail- und Webdateiformate.",
+    "title": "Suchen und indizieren Sie Dokumente mithilfe der {{EnvNameShort}}-API",
+    "description": "Verbessern Sie {{EnvNameShort}}-Anwendungen durch die Implementierung der Textsuche in allen gängigen Dokumentformaten.",
+    "actions_main": "Kostenloser NPM-Download",
+    "code_title": "Suche im Ordner mit {{ProgLang}}",
+    "overview_description": "{{EnvNameShort}} {{ProgLang}}-Bibliothek für die Textsuche",
+    "overview_feature_1": {
+      "title": "{{EnvNameShort}} Indexierung und Suchvorgänge",
+      "description": "Durch die Indexierung in {{ProdFullName}} werden Daten für präzise und effiziente Suchvorgänge gesammelt, gespeichert und analysiert. Diese Indizes werden häufig zur Durchführung von Suchen verwendet."
+    },
+    "overview_feature_2": {
+      "title": "Führen Sie mehrere Indizes zusammen, um die Sucheffizienz zu verbessern",
+      "description": "Die {{ProdFullName}}-API ermöglicht die Zusammenführung mehrerer Indizes zu einem. Durch häufige Änderungen entstehen mehrere Delta-Indizes, die die Suchleistung verlangsamen können. Unsere Lösung führt diese Delta-Indizes in einem gemeinsamen Index zusammen, der alle Informationen aus den zusammengeführten Delta-Indizes enthält, wodurch die Sucheffizienz erheblich verbessert wird, während die Delta-Indizes unverändert bleiben. Zur Feinabstimmung dieses Prozesses können verschiedene Funktionalitäten konfiguriert werden."
+    },
+    "overview_feature_3": {
+      "title": "Erkennen Sie Suchanfragen aus verschiedenen Tastaturlayouts",
+      "description": "{{ProdFullName}} erkennt Suchanfragen, die nicht zum Tastaturlayout passen. Derzeit werden 88 Sprachen und 164 verschiedene Tastaturlayouts unterstützt."
+    },
+    "overview_feature_4": {
+      "title": "Suche mit morphologischen Wortformen",
+      "description": "Mit {{ProdFullName}} können Sie nach verschiedenen Wortformen suchen, beispielsweise nach Substantiven im Singular und Plural oder nach allen Formen eines Verbs. Englische und nicht-englische Sprachen können für bestimmte Wortformen angepasst werden."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Funktionen",
+      "description": "Kontrollieren Sie den Inhalt von Geschäftsdokumenten mit unserer erweiterten Suchmaschine, die gängige Dateiformate wie PDF, DOCX, XLSX, PPTX und mehr unterstützt.",
+      "feature_1": {
+        "title": "Flexible Parameter",
+        "content": "Verwenden Sie Datumsbereich und Groß-/Kleinschreibung als Suchparameter"
+      },
+      "feature_2": {
+        "title": "Rechtschreibprüfungssuche",
+        "content": "Verwenden Sie Suchphrasen mit Rechtschreibprüfung und Platzhaltern und überspringen Sie Sonderzeichen in Abfragen"
+      },
+      "feature_3": {
+        "title": "Ergebnisfilterung",
+        "content": "Richten Sie die Dokumentfilterung in den Suchergebnissen ein"
+      },
+      "feature_4": {
+        "title": "Import Export",
+        "content": "Führen Sie einen Import durch oder verwenden Sie eine Liste, um Zeichen während der Indizierung und des Exports in eine Datei zu ändern"
+      },
+      "feature_5": {
+        "title": "Überspringen Sie unnötige Daten",
+        "content": "Überspringen Sie selektiv die Indizierung für bestimmte Dateien und überspringen Sie bestimmte Wörter, um sie schneller zu indizieren"
+      },
+      "feature_6": {
+        "title": "URL-Verarbeitung",
+        "content": "Extrahieren Sie HTML-formatierten Text in eine Datei und generieren Sie eine URL, um durch Suchergebnisse in HTML zu navigieren"
+      },
+      "feature_7": {
+        "title": "Schnelle Suche",
+        "content": "Teilen Sie die Suche in kleinere Abschnitte auf, um große Indizes schnell zu durchsuchen"
+      },
+      "feature_8": {
+        "title": "Stream-Verarbeitung",
+        "content": "Indizieren Sie Dokumente aus Streams und Datenstrukturen"
+      },
+      "feature_9": {
+        "title": "Behandeln Sie Rechtschreibfehler",
+        "content": "Aktivieren Sie die genaue Anzahl der Vorkommen für jedes gefundene Wort, um bei Rechtschreibfehlern alternative Wortvorschläge anzubieten"
+      },
+      "feature_10": {
+        "title": "Archivunterstützung",
+        "content": "Indizieren Sie gezippte Archive in anderen ZIP-Archiven und rufen Sie die Liste der indizierten Dateien in einem Archiv ab"
+      },
+      "feature_11": {
+        "title": "Speicherplatz sparen",
+        "content": "Sparen Sie Platz mit der kompakten Indizierung und Indexierung passwortgeschützter Dokumente"
+      },
+      "feature_12": {
+        "title": "Benutzerdefinierte Synonyme",
+        "content": "Fügen Sie englische Synonyme zum Standard-Synonymwörterbuch hinzu"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} unterstützt alle gängigen Betriebssysteme und Paketmanager.",
+    "formats_description": "{{ProdFullName}} ermöglicht die Verarbeitung einer Vielzahl von Dateiformaten. [Erkunden Sie die vollständige Liste]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Entdecken Sie die Funktionalitäten von {{ProdFullName}} anhand von Beispielen",
+    "code_title_sample_1": "Nutzen Sie die Fuzzy-Suche, um die Produktivität zu steigern",
+    "code_samples_sample_1_content": "Genießen Sie die flexible {{ProdFullName}}-Funktionalität, um die Inhaltskontrolle von Dokumenten durch ausgefeilte Suchalgorithmen zu verbessern. [Weitere Informationen]({{Sample1Url}}).",
+    "code_title_sample_2": "Für erweiterte Suchszenarien stehen reguläre Ausdrücke zur Verfügung",
+    "code_samples_sample_2_content": "{{ProdFullName}} ermöglicht uns die Verwendung regulärer Ausdrücke, um das Suchergebnis einzugrenzen. [Tauchen Sie ein in erweiterte Suchtechniken]({{Sample2Url}})."
+  }
+}

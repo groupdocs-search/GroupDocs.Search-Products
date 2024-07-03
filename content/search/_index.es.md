@@ -44,7 +44,7 @@ apis:
           image: "/border/groupdocs-search-nodejs-java.svg"
           product: "GroupDocs.Search for"
           platform: "Node.js"
-          content: "Control your business data content using our Node.js APIs. Search and index data in documents with supported formats."
+          content: "Controle el contenido de sus datos comerciales utilizando nuestras API de Node.js. Busque e indexe datos en documentos con formatos compatibles."
 
     # api loop
     - title: "GroupDocs.Search Sin código Las aplicaciones incluyen"

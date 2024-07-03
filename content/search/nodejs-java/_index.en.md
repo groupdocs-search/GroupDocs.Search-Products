@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-03T09:53:11
+date: 2024-07-03T19:47:25
 draft: false
 
 lang: en
@@ -29,7 +29,7 @@ head_description: "Advanced text search solution for Node.js applications to sea
 
 ############################# Header ############################
 title: "Search & Index Documents using Node.js API"
-description: "Improve Node.js Applications by implementing Text Search in All Popular Document Formats."
+description: "Enhance Node.js Applications by implementing Text Search in All Popular Document Formats."
 words:
   for: "for"
 
@@ -72,20 +72,20 @@ overview:
   description: "Node.js JavaScript library for text search"
   features:
     # feature loop
-    - title: "Node.js Indexing and Search Operation"
-      content: "Indexing is used by GroupDocs.Search for Node.js via Java to collect data, as well as store and parse it for accurate and efficient search operations. GroupDocs.Search for Node.js via Java uses such Indexes frequently for performing search."
+    - title: "Node.js Indexing and Search Operations"
+      content: "Indexing in GroupDocs.Search for Node.js via Java collects, stores, and parses data for precise and efficient search operations. These indexes are frequently used to perform searches."
 
     # feature loop
-    - title: "Merge Multiple Indexes to Improve Search Efficiency"
-      content: "GroupDocs.Search for Node.js via Java API provides the feature to merge multiple indexes into a common index. For an index which is modified frequently, several delta indexes are created. This approach however, makes the search performance slow. GroupDocs.Search for Node.js via Java overcomes this bottle-neck by creating one common index through merging various delta indexes. This common merged index contains all the information of the merged delta indexes. This approach keeps the delta indexes unchanged while remarkably improving the search efficiency. You can configure various functionalities to further tweak this process."
+    - title: "Merge Multiple Indexes to Enhance Search Efficiency"
+      content: "GroupDocs.Search for Node.js via Java API allows the merging of multiple indexes into one. Frequent modifications create several delta indexes, which can slow down search performance. Our solution merges these delta indexes into a common index, containing all the information from the merged delta indexes, significantly improving search efficiency while keeping the delta indexes unchanged. Various functionalities can be configured to fine-tune this process."
 
     # feature loop
-    - title: "Recognize Search Queries of Different Keyboard Layout"
-      content: "GroupDocs.Search for Node.js via Java recognizes search queries that do not match your keyboard layout. At the moment, 88 languages and 164 different keyboard layouts can successfully be recognized by our solution."
+    - title: "Recognize Search Queries from Different Keyboard Layouts"
+      content: "GroupDocs.Search for Node.js via Java recognizes search queries that do not match the keyboard layout. Currently, 88 languages and 164 different keyboard layouts are supported."
 
     # feature loop
-    - title: "Search Using Morphological Word Form"
-      content: "Using GroupDocs.Search for Node.js via Java, you have freedom of searching for various word forms. You may search for singular and plural form of specific noun. Or you can choose to search all forms of a verb. Root, third-person singular and simple past along with various other forms can also be searched. For non English languages, you can configure customized word forms."
+    - title: "Search Using Morphological Word Forms"
+      content: "With GroupDocs.Search for Node.js via Java, you can search for various word forms, such as singular and plural nouns, or all forms of a verb. English and non-English languages can be customized for specific word forms."
 
 ############################# Platforms ############################
 platforms:
@@ -132,7 +132,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Search for Node.js via Java empowers you to process a diverse range of file formats. [Explore the full list](https://docs.groupdocs.com/search/java/supported-document-formats/).
+    GroupDocs.Search for Node.js via Java enables processing a wide range of file formats. [Explore the full list](https://docs.groupdocs.com/search/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -164,8 +164,8 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Search for Node.js via Java: Feature Set"
-  description: "Control business documents content using advanced search engine. Our solution supports most of the popular file formats including: PDF, DOCX, XLSX, PPTX, etc."
+  title: "GroupDocs.Search for Node.js via Java Features"
+  description: "Control business document content using our advanced search engine, supporting popular file formats including PDF, DOCX, XLSX, PPTX, and more."
 
   items:
     # feature loop
@@ -176,7 +176,7 @@ features:
     # feature loop
     - icon: "detect"
       title: "Spell Check Search"
-      content: "Use Search Phrases with Spell Check and Wild Cards & Skip Special Characters in Queries"
+      content: "Use Search Phrases with Spell Check and Wildcards & Skip Special Characters in Queries"
 
     # feature loop
     - icon: "collect"
@@ -196,12 +196,12 @@ features:
     # feature loop
     - icon: "style"
       title: "URL Processing"
-      content: "HTML Formatted Text Extraction to a File & Produce URL to Navigate Search Results in HTML"
+      content: "Extract HTML Formatted Text to a File & Generate URL to Navigate Search Results in HTML"
 
     # feature loop
     - icon: "detect"
       title: "Rapid Search"
-      content: "Divide Search in Smaller Chunks to Rapidly Search Huge Indexes"
+      content: "Divide Search into Smaller Chunks to Rapidly Search Large Indexes"
 
     # feature loop
     - icon: "manipulate"
@@ -216,12 +216,12 @@ features:
     # feature loop
     - icon: "unreadable_characters"
       title: "Archive Support"
-      content: "Index Zipped Archives inside other ZIP Archives & Get List of Indexed Files in an Archive"
+      content: "Index Zipped Archives inside other ZIP Archives & Retrieve List of Indexed Files in an Archive"
 
     # feature loop
     - icon: "hidden_print"
       title: "Disk Space Saving"
-      content: "Save up Space by Compact Indexing & Password Secured Documents Indexing"
+      content: "Save Space with Compact Indexing & Index Password Secured Documents"
 
     # feature loop
     - icon: "style"
@@ -232,10 +232,10 @@ features:
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Investigate GroupDocs.Search for Node.js via Java functionalities with examples"
+  description: "Explore GroupDocs.Search for Node.js via Java functionalities with examples"
   items:
     # code sample loop
-    - title: "Use 'fuzzy' search to increase productivity"
+    - title: "Use 'fuzzy' search to enhance productivity"
       content: |
         Enjoy flexible GroupDocs.Search for Node.js via Java functionality to enhance documents content control by sophisticated search algorithms. [Learn more](https://docs.groupdocs.com/search/java/search-results/).
         {{< landing/code title="How to process search result">}}
@@ -254,8 +254,8 @@ code_samples:
         var result = index.search(query, options);
         
         // Process search result
-        System.out.println("Documents: " + result.getDocumentCount());
-        System.out.println("Total occurrences: " + result.getOccurrenceCount());
+        console.log("Documents: " + result.getDocumentCount());
+        console.log("Total occurrences: " + result.getOccurrenceCount());
         for (int i = 0; i < result.getDocumentCount(); i++) {
             FoundDocument document = result.getFoundDocument(i);
             console.log('Document: ${document.getDocumentInfo().getFilePath()}');

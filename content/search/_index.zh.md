@@ -44,7 +44,7 @@ apis:
           image: "/border/groupdocs-search-nodejs-java.svg"
           product: "GroupDocs.Search for"
           platform: "Node.js"
-          content: "Control your business data content using our Node.js APIs. Search and index data in documents with supported formats."
+          content: "使用我们的 Node.js API 控制您的业务数据内容。在支持格式的文档中搜索数据并建立索引。"
 
     # api loop
     - title: "GroupDocs.Search 无代码应用程序包括"

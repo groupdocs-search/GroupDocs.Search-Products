@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-03T19:47:25
+date: 2024-07-04T14:43:38
 draft: false
 
 lang: en
@@ -55,14 +55,14 @@ code:
   content: |
     ```javascript {style=abap}
     // Creating index
-    var index = new Index("c:\\MyIndex");
+    const index = new Index('c:/MyIndex');
 
     // Adding documents to index
-    index.addToIndex("c:\\MyDocuments");
+    index.add('c:/MyDocuments');
     
     // Searching for various words like
     // 'affect', 'effect', 'principles', 'principally'
-    var results = index.search("?ffect & princip?(2~4)");
+    const results = index.search('?ffect & princip?(2~4)');
     ```
 
 ############################# Overview ############################
@@ -241,8 +241,8 @@ code_samples:
         {{< landing/code title="How to process search result">}}
         ```javascript {style=abap}
         // Create an index
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
 
         // Set up search options
         var options = new SearchOptions();
@@ -271,8 +271,8 @@ code_samples:
         {{< landing/code title="How to search using regular expressions">}}
         ```javascript {style=abap}   
         // Create an index
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
  
         // Search for the phrase in text form
 

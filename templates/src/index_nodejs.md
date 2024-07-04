@@ -57,14 +57,14 @@ code:
   content: |
     ```javascript {style=abap}
     // <% "{index-content.code_comment_1}" %>
-    var index = new Index("c:\\MyIndex");
+    const index = new Index('c:/MyIndex');
 
     // <% "{index-content.code_comment_2}" %>
-    index.addToIndex("c:\\MyDocuments");
+    index.add('c:/MyDocuments');
     
     // <% "{index-content.code_comment_3}" %>
     // 'affect', 'effect', 'principles', 'principally'
-    var results = index.search("?ffect & princip?(2~4)");
+    const results = index.search('?ffect & princip?(2~4)');
     ```
 
 ############################# Overview ############################
@@ -243,8 +243,8 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```javascript {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
 
         // <% "{index-content.code_samples.sample_1.comment_2}" %>
         var options = new SearchOptions();
@@ -273,8 +273,8 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```javascript {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
  
         // <% "{index-content.code_samples.sample_2.comment_2}" %>
 

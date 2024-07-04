@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-03T19:47:25
+date: 2024-07-04T14:43:38
 draft: false
 
 lang: ko
@@ -55,14 +55,14 @@ code:
   content: |
     ```javascript {style=abap}
     // 색인 생성 중
-    var index = new Index("c:\\MyIndex");
+    const index = new Index('c:/MyIndex');
 
     // 색인에 문서 추가
-    index.addToIndex("c:\\MyDocuments");
+    index.add('c:/MyDocuments');
     
     // 다음과 같은 다양한 단어를 검색합니다.
     // 'affect', 'effect', 'principles', 'principally'
-    var results = index.search("?ffect & princip?(2~4)");
+    const results = index.search('?ffect & princip?(2~4)');
     ```
 
 ############################# Overview ############################
@@ -241,8 +241,8 @@ code_samples:
         {{< landing/code title="검색결과 처리 방법">}}
         ```javascript {style=abap}
         // 색인 만들기
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
 
         // 검색 옵션 설정
         var options = new SearchOptions();
@@ -271,8 +271,8 @@ code_samples:
         {{< landing/code title="정규식을 사용하여 검색하는 방법">}}
         ```javascript {style=abap}   
         // 색인 만들기
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
  
         // 텍스트 형태로 문구 검색
 

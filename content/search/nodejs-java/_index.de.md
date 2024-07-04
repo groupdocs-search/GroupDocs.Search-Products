@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-03T19:47:25
+date: 2024-07-04T14:43:38
 draft: false
 
 lang: de
@@ -55,14 +55,14 @@ code:
   content: |
     ```javascript {style=abap}
     // Index erstellen
-    var index = new Index("c:\\MyIndex");
+    const index = new Index('c:/MyIndex');
 
     // Dokumente zum Index hinzufügen
-    index.addToIndex("c:\\MyDocuments");
+    index.add('c:/MyDocuments');
     
     // Suche nach verschiedenen Wörtern wie
     // 'affect', 'effect', 'principles', 'principally'
-    var results = index.search("?ffect & princip?(2~4)");
+    const results = index.search('?ffect & princip?(2~4)');
     ```
 
 ############################# Overview ############################
@@ -241,8 +241,8 @@ code_samples:
         {{< landing/code title="So verarbeiten Sie Suchergebnisse">}}
         ```javascript {style=abap}
         // Erstellen Sie einen Index
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
 
         // Suchoptionen einrichten
         var options = new SearchOptions();
@@ -271,8 +271,8 @@ code_samples:
         {{< landing/code title="So suchen Sie mit regulären Ausdrücken">}}
         ```javascript {style=abap}   
         // Erstellen Sie einen Index
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
  
         // Suchen Sie nach der Phrase in Textform
 

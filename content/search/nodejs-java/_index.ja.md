@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-03T19:47:25
+date: 2024-07-04T14:43:38
 draft: false
 
 lang: ja
@@ -55,14 +55,14 @@ code:
   content: |
     ```javascript {style=abap}
     // インデックスの作成
-    var index = new Index("c:\\MyIndex");
+    const index = new Index('c:/MyIndex');
 
     // ドキュメントをインデックスに追加する
-    index.addToIndex("c:\\MyDocuments");
+    index.add('c:/MyDocuments');
     
     // などのさまざまな単語を検索すると、
     // 'affect', 'effect', 'principles', 'principally'
-    var results = index.search("?ffect & princip?(2~4)");
+    const results = index.search('?ffect & princip?(2~4)');
     ```
 
 ############################# Overview ############################
@@ -241,8 +241,8 @@ code_samples:
         {{< landing/code title="検索結果の処理方法">}}
         ```javascript {style=abap}
         // インデックスを作成する
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
 
         // 検索オプションを設定する
         var options = new SearchOptions();
@@ -271,8 +271,8 @@ code_samples:
         {{< landing/code title="正規表現を使って検索する方法">}}
         ```javascript {style=abap}   
         // インデックスを作成する
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
  
         // テキスト形式で語句を検索します
 

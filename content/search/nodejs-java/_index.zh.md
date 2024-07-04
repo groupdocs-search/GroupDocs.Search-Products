@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-03T19:47:25
+date: 2024-07-04T14:43:38
 draft: false
 
 lang: zh
@@ -55,14 +55,14 @@ code:
   content: |
     ```javascript {style=abap}
     // 创建索引
-    var index = new Index("c:\\MyIndex");
+    const index = new Index('c:/MyIndex');
 
     // 将文档添加到索引
-    index.addToIndex("c:\\MyDocuments");
+    index.add('c:/MyDocuments');
     
     // 搜索各种单词，例如
     // 'affect', 'effect', 'principles', 'principally'
-    var results = index.search("?ffect & princip?(2~4)");
+    const results = index.search('?ffect & princip?(2~4)');
     ```
 
 ############################# Overview ############################
@@ -241,8 +241,8 @@ code_samples:
         {{< landing/code title="如何处理搜索结果">}}
         ```javascript {style=abap}
         // 创建索引
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
 
         // 设置搜索选项
         var options = new SearchOptions();
@@ -271,8 +271,8 @@ code_samples:
         {{< landing/code title="如何使用正则表达式进行搜索">}}
         ```javascript {style=abap}   
         // 创建索引
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
  
         // 以文本形式搜索短语
 

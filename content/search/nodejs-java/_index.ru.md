@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-03T19:47:25
+date: 2024-07-04T14:43:38
 draft: false
 
 lang: ru
@@ -55,14 +55,14 @@ code:
   content: |
     ```javascript {style=abap}
     // Создание индекса
-    var index = new Index("c:\\MyIndex");
+    const index = new Index('c:/MyIndex');
 
     // Добавление документов в индекс
-    index.addToIndex("c:\\MyDocuments");
+    index.add('c:/MyDocuments');
     
     // Поиск различных слов, таких как
     // 'affect', 'effect', 'principles', 'principally'
-    var results = index.search("?ffect & princip?(2~4)");
+    const results = index.search('?ffect & princip?(2~4)');
     ```
 
 ############################# Overview ############################
@@ -241,8 +241,8 @@ code_samples:
         {{< landing/code title="Как обработать результат поиска">}}
         ```javascript {style=abap}
         // Создать индекс
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
 
         // Настройка параметров поиска
         var options = new SearchOptions();
@@ -271,8 +271,8 @@ code_samples:
         {{< landing/code title="Как искать с помощью регулярных выражений">}}
         ```javascript {style=abap}   
         // Создать индекс
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
  
         // Поиск фразы в текстовой форме
 

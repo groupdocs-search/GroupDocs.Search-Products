@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-03T19:47:25
+date: 2024-07-04T14:43:38
 draft: false
 
 lang: fr
@@ -55,14 +55,14 @@ code:
   content: |
     ```javascript {style=abap}
     // Création d'un index
-    var index = new Index("c:\\MyIndex");
+    const index = new Index('c:/MyIndex');
 
     // Ajout de documents à l'index
-    index.addToIndex("c:\\MyDocuments");
+    index.add('c:/MyDocuments');
     
     // Recherche de différents mots comme
     // 'affect', 'effect', 'principles', 'principally'
-    var results = index.search("?ffect & princip?(2~4)");
+    const results = index.search('?ffect & princip?(2~4)');
     ```
 
 ############################# Overview ############################
@@ -241,8 +241,8 @@ code_samples:
         {{< landing/code title="Comment traiter le résultat de la recherche">}}
         ```javascript {style=abap}
         // Créer un index
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
 
         // Configurer les options de recherche
         var options = new SearchOptions();
@@ -271,8 +271,8 @@ code_samples:
         {{< landing/code title="Comment effectuer une recherche à l'aide d'expressions régulières">}}
         ```javascript {style=abap}   
         // Créer un index
-        var index = new Index("C:\\IndexFolder");
-        index.add("C:\\DocumentFolder");
+        const index = new Index('c:/IndexFolder');
+        index.add('c:/DocumentFolder');
  
         // Rechercher l'expression sous forme de texte
 

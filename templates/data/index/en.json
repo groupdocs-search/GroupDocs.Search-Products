@@ -12,11 +12,9 @@
     "release_downloads": "Downloads",
     "code_more": "More examples",
     "overview_title": "{{ProdShortName}} Overview",
-    "code_comment_1": "Path to the main template",
-    "code_comment_2": "Retrieve managers' productivity data from the source",
-    "code_comment_3": "Create an instance of {{DataSourceInfo}} with the data",
-    "code_comment_4": "Set chart colors using another {{DataSourceInfo}}",
-    "code_comment_5": "Fill the template with data and save it to the output",
+    "code_comment_1": "Create an index for your documents",
+    "code_comment_2": "Add documents to the index for efficient searching",
+    "code_comment_3": "Search for specific words or phrases, such as",
     "formats_title": "Supported file formats",
     "platforms": {
       "title": "Platform independence",
@@ -138,163 +136,194 @@
       }
     },
     "formats_groups": {
-      "title_1": "Microsoft Office formats",
-      "title_2": "Images & Other Formats",
-      "title_3": "Other formats",
+      "title_1": "Popular Office Formats",
+      "title_2": "Media Formats",
+      "title_3": "Other",
       "format_portable": "Portable",
-      "format_other_office": "Other office formats",
-      "format_images": "Images",
+      "format_popular_images": "Popular image formats",
+      "format_multi_images": "Multi-page images",
+      "format_multi_audio": "Audio",
+      "format_multi_video": "Video",
       "format_web": "Web",
-      "format_emails": "Emails",
-      "format_other": "Other"
+      "format_text": "Text",
+      "format_email": "Email",
+      "format_others": "Others"
     }
   },
   "index-content-net": {
-    "head_title": ".NET API for Document Automation, Assembly & Report Generation",
-    "head_description": "C# .NET API for document automation, assembly, and report generation. Create PDF, Word, Excel, PPTX, HTML, and email documents from custom templates.",
-    "title": ".NET Document Automation & Reporting API",
-    "description": "Generate reports in .NET applications by defining templates and merging data.",
-    "actions_main": "Download Trial via NuGet",
-    "code_title": "Fill a Chart in DOCX Using C#",
-    "overview_description": ".NET solution for automating document creation with advanced data integration.",
+    "head_title": "{{EnvNameShort}} Document Search and Indexing Library for PDFs, Office Files, and More",
+    "head_description": "Powerful {{EnvNameShort}} solution for text search and indexing in documents like PDFs, Word, Excel, presentations, emails, and web formats.",
+    "title": "Advanced Document Search and Indexing with {{EnvNameShort}} API",
+    "description": "Boost {{EnvNameShort}} applications with cutting-edge text search capabilities across popular document formats.",
+    "actions_main": "Download {{PackageStoreName}} for Free",
+    "code_title": "Search a Directory Using {{ProgLang}}",
+    "overview_description": "Explore {{EnvNameShort}} {{ProgLang}} library for robust text search and indexing.",
     "overview_feature_1": {
-      "title": "Add Business Data to Document Templates with C#",
-      "description": "Report generation made easy: With {{ProdFullName}}, you can effortlessly insert data from sources like JSON or XML into predefined templates."
+      "title": "{{EnvNameShort}} Indexing and Search Features",
+      "description": "Efficiently index, store, and process document data with {{ProdFullName}} for highly accurate and fast search operations."
     },
     "overview_feature_2": {
-      "title": "Process Native Data Objects",
-      "description": "Supported document types include embedded objects like diagrams, charts, tables, and lists that can be populated automatically with data."
+      "title": "Combine Indexes for Better Search Speed",
+      "description": "{{ProdFullName}} lets you merge multiple indexes to optimize performance. Reduce the impact of delta indexes by combining them into a comprehensive index for smoother searches."
     },
     "overview_feature_3": {
-      "title": "Additional Features",
-      "description": "{{ProdFullName}} provides extensive customization options. Programmatically design data objects, generate barcodes, use online data sources via URLs, and save output in various formats."
+      "title": "Search Across Different Keyboard Layouts",
+      "description": "Easily handle search queries across 88 languages and 164 keyboard layouts with {{ProdFullName}}’s intelligent recognition."
+    },
+    "overview_feature_4": {
+      "title": "Morphological Word Searches",
+      "description": "{{ProdFullName}} supports searches for word variations like singular/plural nouns and different verb forms, customizable for various languages."
     },
     "features": {
-      "title": "{{ProdShortName}} Features",
-      "description": "Create documents and reports using advanced data models.",
+      "title": "Key Features of {{ProdFullName}}",
+      "description": "Streamline document management with advanced search capabilities in popular formats like PDF, DOCX, XLSX, PPTX, and more.",
       "feature_1": {
-        "title": "Advanced Data Representation",
-        "content": "Supports a wide range of data objects such as charts, lists, tables, images, and more."
+        "title": "Flexible Search Parameters",
+        "content": "Use filters like date ranges and case sensitivity to refine your search."
       },
       "feature_2": {
-        "title": "Data Manipulation",
-        "content": "Apply formulas and sequential operations to format and display data effectively."
+        "title": "Smart Spell Check",
+        "content": "Search phrases with spell correction, wildcards, and ignored special characters."
       },
       "feature_3": {
-        "title": "Wide Range of Supported Formats",
-        "content": "Work seamlessly with all common document formats for templates or output files."
+        "title": "Filtered Search Results",
+        "content": "Customize and filter search results by document type or criteria."
       },
       "feature_4": {
-        "title": "Rich Template Markup",
-        "content": "Leverage ordinal, cardinal, and alphabetic numeric formatting in templates."
+        "title": "Index Import & Export",
+        "content": "Import data, modify indexing settings, and export indexed results."
       },
       "feature_5": {
-        "title": "Embed Barcodes",
-        "content": "Generate barcode images dynamically and insert them into your documents."
+        "title": "Exclude Irrelevant Data",
+        "content": "Optimize indexing by skipping specific files or words."
       },
       "feature_6": {
-        "title": "Data Formatting",
-        "content": "Format strings in templates as uppercase, lowercase, capitalized, or first-letter capital styles."
+        "title": "URL Extraction",
+        "content": "Convert HTML-formatted text to files and generate links for search results."
       },
       "feature_7": {
-        "title": "Document Content Manipulation",
-        "content": "Dynamically insert content from external documents into your reports."
+        "title": "High-Speed Search",
+        "content": "Divide large indexes into smaller parts for faster processing."
       },
       "feature_8": {
-        "title": "Save in Multiple Formats",
-        "content": "Specify the output file format using file extensions or detailed configurations."
+        "title": "Streamlined Data Handling",
+        "content": "Index documents directly from data streams and structures."
       },
       "feature_9": {
-        "title": "Flexible Data Processing",
-        "content": "Insert images and documents dynamically using Base64-encoded bytes."
+        "title": "Misspelling Detection",
+        "content": "Suggest alternative words and track occurrences for improved accuracy."
+      },
+      "feature_10": {
+        "title": "Archive Support",
+        "content": "Index nested ZIP archives and retrieve file details within them."
+      },
+      "feature_11": {
+        "title": "Efficient Indexing",
+        "content": "Save disk space with compact indexing and process password-protected documents."
+      },
+      "feature_12": {
+        "title": "Custom Synonyms",
+        "content": "Add and manage synonyms for tailored search results."
       }
     },
-    "platforms_description": "{{ProdFullName}} is compatible with the following operating systems, frameworks, and package managers.",
-    "formats_description": "{{ProdFullName}} can process the following [file formats](https://docs.groupdocs.com/assembly/net/supported-document-formats/).",
-    "code_samples_description": "Code snippets for typical {{ProdShortName}} operations.",
-    "code_title_sample_1": "Bulleted List in a Microsoft Word Document",
-    "code_samples_sample_1_content_1": "[Bulleted lists](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/) are a common way to present business data.",
-    "code_samples_sample_1_content_2": "Here's an example of adding a list to a Word document using {{ProdShortName}}.",
-    "code_title_sample_2": "Pie Charts in PPTX Presentations",
-    "code_samples_sample_2_content_1": "You can create [Pie Charts](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/) using templates and XML data.",
-    "code_samples_sample_2_content_2": "Enhance your reports with visually appealing data representations."
+    "platforms_description": "{{ProdFullName}} works seamlessly across major operating systems and package managers.",
+    "formats_description": "Process an extensive range of file formats with {{ProdFullName}}. [View all supported formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Discover the powerful capabilities of {{ProdFullName}} with hands-on examples.",
+    "code_title_sample_1": "Boost Productivity with Fuzzy Search",
+    "code_samples_sample_1_content": "Leverage {{ProdFullName}} for flexible and accurate content control through advanced search algorithms. [Explore more]({{Sample1Url}}).",
+    "code_title_sample_2": "Advanced Search with Regular Expressions",
+    "code_samples_sample_2_content": "{{ProdFullName}} supports regular expressions for precise searches. [Learn advanced techniques]({{Sample2Url}})."
   },
   "index-content-java": {
-    "head_title": "Java Library for Document Creation, Automation & Reporting",
-    "head_description": "Java library for automating document creation and generating reports. Create PDF, Word, Excel, PPTX, HTML, and email documents using custom templates.",
-    "title": "Java API for Automating Reports and Documents",
-    "description": "Simplify report generation in Java by merging data with templates.",
-    "actions_main": "Get Trial via NuGet",
-    "code_title": "Generate a Chart in DOCX with Java",
-    "overview_description": "A Java library designed for automated document creation and seamless data integration.",
+    "head_title": "{{EnvNameShort}} Document Search & Indexing Solution for PDFs, Office Files, and Web Content",
+    "head_description": "Powerful text search and indexing for {{EnvNameShort}} applications. Easily search and organize data in PDFs, Word, Excel, presentations, emails, and web formats.",
+    "title": "Efficient Document Search and Indexing with {{EnvNameShort}} API",
+    "description": "Empower {{EnvNameShort}} applications with robust text search features across all popular document formats.",
+    "actions_main": "Download {{PackageStoreName}} for Free",
+    "code_title": "Search Files in a Directory with {{ProgLang}}",
+    "overview_description": "Discover the powerful text search capabilities of the {{EnvNameShort}} {{ProgLang}} library.",
     "overview_feature_1": {
-      "title": "Merge Business Data into Templates with Java",
-      "description": "Easily create professional reports by embedding data from JSON, XML, or other sources into pre-designed templates using {{ProdFullName}}."
+      "title": "Indexing and Search Operations in {{EnvNameShort}}",
+      "description": "With {{ProdFullName}}, you can collect, store, and analyze data efficiently to create detailed indexes for faster, more accurate searches."
     },
     "overview_feature_2": {
-      "title": "Work with Embedded Objects",
-      "description": "Automatically populate elements like tables, charts, and diagrams in documents using data from external sources."
+      "title": "Optimize Search by Merging Indexes",
+      "description": "Easily combine multiple indexes with {{ProdFullName}} to streamline searches. Reduce the impact of smaller delta indexes by consolidating them into a single, high-performance index."
     },
     "overview_feature_3": {
-      "title": "Advanced Customization",
-      "description": "{{ProdFullName}} offers flexible features like generating barcodes, pulling online data through URLs, and exporting output in different formats."
+      "title": "Support for Multilingual Keyboard Layouts",
+      "description": "Search across different languages and keyboard layouts with {{ProdFullName}}. It supports 88 languages and 164 keyboard configurations for unmatched versatility."
+    },
+    "overview_feature_4": {
+      "title": "Morphological Search Capabilities",
+      "description": "Find different word forms like singular/plural nouns or verb variations using {{ProdFullName}}. Customize search options for English and other languages."
     },
     "features": {
-      "title": "Key Capabilities of {{ProdShortName}}",
-      "description": "Create professional documents and reports with advanced data handling.",
+      "title": "Features of {{ProdFullName}}",
+      "description": "Manage document content effectively with advanced search capabilities supporting formats like PDF, DOCX, XLSX, PPTX, and more.",
       "feature_1": {
-        "title": "Visual Data Elements",
-        "content": "Add and format elements like charts, tables, images, and lists directly in your documents."
+        "title": "Customizable Search Parameters",
+        "content": "Refine searches using date ranges and case sensitivity filters."
       },
       "feature_2": {
-        "title": "Data Transformation",
-        "content": "Use formulas, sorting, and other tools to organize and present your data effectively."
+        "title": "Enhanced Spell Check",
+        "content": "Search efficiently with spell check, wildcards, and by ignoring special characters."
       },
       "feature_3": {
-        "title": "Support for Multiple Formats",
-        "content": "Easily work with common file types for both templates and output files."
+        "title": "Filtered Search Results",
+        "content": "Apply filters to focus search results based on specific document types or criteria."
       },
       "feature_4": {
-        "title": "Enhanced Template Formatting",
-        "content": "Customize templates with numeric, alphabetic, and other advanced formatting options."
+        "title": "Import and Export Index Data",
+        "content": "Easily import data for indexing or export results to files for further use."
       },
       "feature_5": {
-        "title": "Dynamic Barcode Generation",
-        "content": "Quickly create and insert barcode images into documents as needed."
+        "title": "Skip Unneeded Files",
+        "content": "Optimize indexing by excluding specific files or words."
       },
       "feature_6": {
-        "title": "Flexible Text Styling",
-        "content": "Apply text transformations like uppercase, lowercase, title case, or other styles in templates."
+        "title": "HTML and URL Processing",
+        "content": "Extract HTML content to files and generate URLs for navigation through search results."
       },
       "feature_7": {
-        "title": "Import External Content",
-        "content": "Embed content from external files dynamically while generating documents."
+        "title": "Fast Search in Large Indexes",
+        "content": "Speed up search operations by dividing large indexes into manageable chunks."
       },
       "feature_8": {
-        "title": "Export in Multiple Formats",
-        "content": "Save final documents in various file formats using specified extensions or configurations."
+        "title": "Stream-Based Indexing",
+        "content": "Index data directly from streams or data structures."
       },
       "feature_9": {
-        "title": "Dynamic Media Embedding",
-        "content": "Insert images or other content using Base64-encoded data during document creation."
+        "title": "Handle Misspelled Queries",
+        "content": "Detect misspellings and suggest alternative words for better search accuracy."
+      },
+      "feature_10": {
+        "title": "Comprehensive Archive Support",
+        "content": "Index nested archives and retrieve detailed lists of files within ZIP files."
+      },
+      "feature_11": {
+        "title": "Space-Saving Indexing",
+        "content": "Compact indexes to save disk space and process password-protected files."
+      },
+      "feature_12": {
+        "title": "Custom Synonym Support",
+        "content": "Expand the synonym dictionary to enhance search accuracy with tailored options."
       }
     },
-    "platforms_description": "{{ProdFullName}} works seamlessly with popular operating systems, development frameworks, and package managers.",
-    "formats_description": "{{ProdFullName}} supports a wide range of [document formats](https://docs.groupdocs.com/assembly/java/supported-document-formats/).",
-    "code_samples_description": "Explore sample code for common tasks with {{ProdShortName}}.",
-    "code_title_sample_1": "Create a Bulleted List in Word",
-    "code_samples_sample_1_content_1": "Learn how to add [bulleted lists](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/) to Word documents for organized data representation.",
-    "code_samples_sample_1_content_2": "This example shows how to generate a list in Word using {{ProdShortName}}.",
-    "code_title_sample_2": "Create Pie Charts in PPTX",
-    "code_samples_sample_2_content_1": "Use templates and XML to add [pie charts](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) to your presentations.",
-    "code_samples_sample_2_content_2": "Make your reports more engaging by including pie charts to visualize data."
+    "platforms_description": "{{ProdFullName}} is compatible with major operating systems and package managers.",
+    "formats_description": "Work with a wide range of file formats using {{ProdFullName}}. [View the full list]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Try out {{ProdFullName}} features with these code examples.",
+    "code_title_sample_1": "Boost Search Accuracy with Fuzzy Matching",
+    "code_samples_sample_1_content": "Explore the flexibility of {{ProdFullName}} for managing content with advanced fuzzy search capabilities. [Learn more]({{Sample1Url}}).",
+    "code_title_sample_2": "Refine Results with Regular Expressions",
+    "code_samples_sample_2_content": "Use regular expressions in {{ProdFullName}} to create precise and detailed search results. [Discover advanced techniques]({{Sample2Url}})."
   },
   "index-content-nodejs-java": {
     "head_title": "{{EnvNameShort}} Text Search & Indexing Library for Documents, PDF, Office & Web",
     "head_description": "Advanced text search solution for {{EnvNameShort}} applications to search, index & collect data from documents: PDF, Word, Excel, presentations, email & web file formats.",
     "title": "Search & Index Documents using {{EnvNameShort}} API",
     "description": "Enhance {{EnvNameShort}} Applications by implementing Text Search in All Popular Document Formats.",
-    "actions_main": "Free NPM Download",
+    "actions_main": "Free {{PackageStoreName}} Download",
     "code_title": "Search in folder with {{ProgLang}}",
     "overview_description": "{{EnvNameShort}} {{ProgLang}} library for text search",
     "overview_feature_1": {

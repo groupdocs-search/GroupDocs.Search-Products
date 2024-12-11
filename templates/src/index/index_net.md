@@ -7,8 +7,8 @@ date: <% date "utcnow" %>
 draft: false
 
 lang: <% lower ( get "lang") %>
-product: "Watermark"
-product_tag: "watermark"
+product: "Search"
+product_tag: "search"
 platform: "Net"
 platform_tag: "net"
 
@@ -24,9 +24,6 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
-    # supported_platforms loop
-    - title: "Python"
-      tag: "python-net"
 
 ############################# Head ############################
 head_title: "<% "{index-content-net.head_title}" %>"
@@ -55,24 +52,19 @@ code:
   title: "<% "{index-content-net.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
   more_link: "<% dict "products.net.more_link" %>"
-  install: "dotnet add package GroupDocs.Watermark"
+  install: "dotnet add package GroupDocs.Search"
   content: |
     ```csharp {style=abap}   
     // <% "{index-content.code_comment_1}" %>
-    PdfLoadOptions loadOptions = new PdfLoadOptions();
-    using (Watermarker watermarker = 
-        new Watermarker("source.pdf", loadOptions))
-    {
-        // <% "{index-content.code_comment_2}" %>
-        TextWatermark textWatermark = 
-            new TextWatermark("Approved", new Font("Arial", 8));
-        
-        // <% "{index-content.code_comment_3}" %>
-        watermarker.Add(textWatermark);
+    Index index = new Index("c:/MyIndex");
 
-        // <% "{index-content.code_comment_4}" %>
-        watermarker.Save("result.pdf");
-    }
+    // <% "{index-content.code_comment_2}" %>
+    index.Add("c:/MyDocuments");
+    
+    // <% "{index-content.code_comment_3}" %>
+    // 'affect', 'effect', 'principles', 'principally'
+    SearchResult results = 
+        index.Search("'"?ffect & princip?(2~4)"'");
     ```
 
 ############################# Overview ############################
@@ -140,22 +132,27 @@ formats:
       content: |
         ### <% "{index-content.formats_groups.title_1}" %>
         * **<% "{index-content.formats_groups.format_portable}" %>:** PDF 
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
-        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
-        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
-        * **OpenDocument:** ODT, ODP, ODS
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM
+        * **Excel:** XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
+        * **PowerPoint:** PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
+        * **OpenDocument:** ODT, ODP, ODS, OTT, OTS
+        * **<% "{index-content.formats_groups.format_text}" %>:** TXT, RTF
     # group loop
     - color: "blue"
       content: |
         ### <% "{index-content.formats_groups.title_2}" %>
-        * **<% "{index-content.formats_groups.format_popular_images}" %>:** BMP, JPG, JPEG, PNG
+        * **<% "{index-content.formats_groups.format_popular_images}" %>:** BMP, JP2, PNG, EMF, WMF, JPG, PSD
         * **<% "{index-content.formats_groups.format_multi_images}" %>:** GIF, WEBP, TIFF
+        * **<% "{index-content.formats_groups.format_multi_audio}" %>:** MP3, WAV
+        * **<% "{index-content.formats_groups.format_multi_video}" %>:** AVI, MOV, QT, FLV, ASF
       # group loop
     - color: "red"
       content: |
         ### <% "{index-content.formats_groups.title_3}" %>
-        * **Outlook:** EML, EMLX, MSG, OFT
-        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
+        * **<% "{index-content.formats_groups.format_email}" %>:**  PST, OST, MSG, EML, EMLX
+        * **Microsoft Visio:** VSD, VSS
+        * **<% "{index-content.formats_groups.format_web}" %>:**  XML, HTM, HTML, XHTML, MHT, MHTML
+        * **<% "{index-content.formats_groups.format_others}" %>:**  TORRENT, ZIP, DCM, DJVU, EPUB, FB2
 
 ############################# Features ############################
 features:
@@ -165,62 +162,62 @@ features:
 
   items:
     # feature loop
-    - icon: "watermark_add"
+    - icon: "document_info"
       title: "<% "{index-content-net.features.feature_1.title}" %>"
       content: "<% "{index-content-net.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "watermark_style"
+    - icon: "detect"
       title: "<% "{index-content-net.features.feature_2.title}" %>"
       content: "<% "{index-content-net.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "hidden_print"
+    - icon: "collect"
       title: "<% "{index-content-net.features.feature_3.title}" %>"
       content: "<% "{index-content-net.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "image_only"
+    - icon: "get"
       title: "<% "{index-content-net.features.feature_4.title}" %>"
       content: "<% "{index-content-net.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "image_frame"
+    - icon: "remove"
       title: "<% "{index-content-net.features.feature_5.title}" %>"
       content: "<% "{index-content-net.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "attachments"
+    - icon: "style"
       title: "<% "{index-content-net.features.feature_6.title}" %>"
       content: "<% "{index-content-net.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "pdf_objects"
+    - icon: "detect"
       title: "<% "{index-content-net.features.feature_7.title}" %>"
       content: "<% "{index-content-net.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "doc_background"
+    - icon: "manipulate"
       title: "<% "{index-content-net.features.feature_8.title}" %>"
       content: "<% "{index-content-net.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "unreadable_characters"
+    - icon: "compare"
       title: "<% "{index-content-net.features.feature_9.title}" %>"
       content: "<% "{index-content-net.features.feature_9.content}" %>"
 
     # feature loop
-    - icon: "watermark_text_search"
+    - icon: "unreadable_characters"
       title: "<% "{index-content-net.features.feature_10.title}" %>"
       content: "<% "{index-content-net.features.feature_10.content}" %>"
 
     # feature loop
-    - icon: "watermark_image_search"
+    - icon: "hidden_print"
       title: "<% "{index-content-net.features.feature_11.title}" %>"
       content: "<% "{index-content-net.features.feature_11.content}" %>"
 
     # feature loop
-    - icon: "document_info"
+    - icon: "style"
       title: "<% "{index-content-net.features.feature_12.title}" %>"
       content: "<% "{index-content-net.features.feature_12.content}" %>"
 
@@ -237,17 +234,27 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```csharp {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        using (Watermarker watermarker = new Watermarker("document.pdf"))
-        {
-            // <% "{index-content.code_samples.sample_1.comment_2}" %>
-            using (ImageWatermark watermark = new ImageWatermark("watermark.jpg"))
-            {
-                // <% "{index-content.code_samples.sample_1.comment_3}" %>
-                watermarker.Add(watermark);
+        Index index = new Index("C:/IndexFolder");
+        index.Add("C:/DocumentFolder");
 
-                watermarker.Save("result.pdf");
+        // <% "{index-content.code_samples.sample_1.comment_2}" %>
+        SearchOptions options = new SearchOptions();
+        options.FuzzySearch.Enabled = true;
+        options.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(3);
+
+        // <% "{index-content.code_samples.sample_1.comment_3}" %>
+        string query = "water OR \"Lorem ipsum\"";
+        SearchResult result = index.Search(query, options);
+        
+        // <% "{index-content.code_samples.sample_1.comment_4}" %>
+        Console.WriteLine("Document: " + document.DocumentInfo.FilePath);
+        Console.WriteLine("Occurrences: " + document.OccurrenceCount);
+        for (int i = 0; i < result.DocumentCount; i++) {
+            FoundDocument document = result.GetFoundDocument(i);
+            Console.WriteLine("Document: " + document.DocumentInfo.FilePath);
+            Console.WriteLine("Occurrences: " + document.OccurrenceCount);
             }
-        }
+
         ```
         {{< /landing/code >}}
     # code sample loop
@@ -257,20 +264,16 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```csharp {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        using (Watermarker watermarker = new Watermarker("document.pdf"))
-        {
-            // <% "{index-content.code_samples.sample_2.comment_2}" %>
-            TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
-            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
-            foreach (PossibleWatermark watermark in watermarks)
-            {
-                // <% "{index-content.code_samples.sample_2.comment_3}" %>
-                watermark.Text = "New Text";
-            }
+        Index index = new Index("c:/IndexFolder");
+        index.Add("c:/DocumentFolder");
+ 
+        // <% "{index-content.code_samples.sample_2.comment_2}" %>
 
-            // <% "{index-content.code_samples.sample_2.comment_4}" %>
-            watermarker.Save("document.pdf");
-        }
+        // <% "{index-content.code_samples.sample_2.comment_3}" %>
+        string query = "^^(.)\\1{1,}";
+        // <% "{index-content.code_samples.sample_2.comment_4}" %>
+        SearchResult result = index.Search(query);
+ 
         ```
         {{< /landing/code >}}
 

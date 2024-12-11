@@ -56,8 +56,10 @@ code:
   install: "npm i @groupdocs/groupdocs.search"
   content: |
     ```javascript {style=abap}
+    const searchLib = require('@groupdocs/groupdocs.search');
+
     // <% "{index-content.code_comment_1}" %>
-    const index = new Index('c:/MyIndex');
+    const index = new searchLib.Index('c:/MyIndex');
 
     // <% "{index-content.code_comment_2}" %>
     index.add('c:/MyDocuments');
@@ -242,26 +244,28 @@ code_samples:
         <% "{index-content-nodejs-java.code_samples_sample_1_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```javascript {style=abap}
+        const searchLib = require('@groupdocs/groupdocs.search');
+
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        const index = new Index('c:/IndexFolder');
+        const index = new searchLib.Index('c:/IndexFolder');
         index.add('c:/DocumentFolder');
 
         // <% "{index-content.code_samples.sample_1.comment_2}" %>
-        var options = new SearchOptions();
+        const options = new searchLib.SearchOptions();
         options.getFuzzySearch().setEnabled(true);
         options.getFuzzySearch().setFuzzyAlgorithm(new TableDiscreteFunction(3));
 
         // <% "{index-content.code_samples.sample_1.comment_3}" %>
-        var query = "water OR \"Lorem ipsum\"";
-        var result = index.search(query, options);
+        const query = 'water OR "Lorem ipsum"';
+        const result = index.search(query, options);
         
         // <% "{index-content.code_samples.sample_1.comment_4}" %>
-        console.log("Documents: " + result.getDocumentCount());
-        console.log("Total occurrences: " + result.getOccurrenceCount());
-        for (int i = 0; i < result.getDocumentCount(); i++) {
-            FoundDocument document = result.getFoundDocument(i);
-            console.log('Document: ${document.getDocumentInfo().getFilePath()}');
-            console.log('Occurrences: ${document.getOccurrenceCount()}');
+        console.log('Documents: ' + result.getDocumentCount());
+        console.log('Total occurrences: ' + result.getOccurrenceCount());
+        for (let i = 0; i < result.getDocumentCount(); i++) {
+            const document = result.getFoundDocument(i);
+            console.log('Document: ' + document.getDocumentInfo().getFilePath());
+            console.log('Occurrences:  + document.getOccurrenceCount());
             }
 
         ```
@@ -272,16 +276,18 @@ code_samples:
         <% "{index-content-nodejs-java.code_samples_sample_2_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```javascript {style=abap}   
+        const searchLib = require('@groupdocs/groupdocs.search');
+
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        const index = new Index('c:/IndexFolder');
+        const index = new searchLib.Index('c:/IndexFolder');
         index.add('c:/DocumentFolder');
  
         // <% "{index-content.code_samples.sample_2.comment_2}" %>
 
         // <% "{index-content.code_samples.sample_2.comment_3}" %>
-        var query = "^^(.)\\1{1,}";
+        const query = '^^(.)\\1{1,}';
         // <% "{index-content.code_samples.sample_2.comment_4}" %>
-        var result = index.search(query);
+        const result = index.search(query);
  
         ```
         {{< /landing/code >}}

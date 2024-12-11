@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-12-11T12:28:50
+date:  2024-12-11T15:07:52
 draft: false
 
 product: "Search"
@@ -216,7 +216,7 @@ code_samples:
           color: "green"
           content: |
             ```javascript {style=abap}   
-            const searchLib = require('@groupdocs/groupdocs.search')
+            const searchLib = require('@groupdocs/groupdocs.search');
 
             // Create an instance of the Index class, specifying the folder for storing indexes.
             const index = new searchLib.Index('\\Index Folder');

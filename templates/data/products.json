@@ -28,8 +28,8 @@
       "pricesUrl": "https://purchase.groupdocs.com/pricing/search/net/",
       "docsUrl": "https://docs.groupdocs.com/search/net/",
       "supportedFormatsUrl": "https://docs.groupdocs.com/search/net/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/watermark/net/adding-image-watermarks/#add-image-watermark-from-local-file/",
-      "sample2Url": "https://docs.groupdocs.com/watermark/net/modifing-found-watermark-properties/#replacing-text/",
+      "sample1Url": "https://docs.groupdocs.com/search/net/search-results/",
+      "sample2Url": "https://docs.groupdocs.com/search/net/regular-expression-search/",
 
       "more_link": "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/",
       "release_downloads": "https://releases.groupdocs.com/search/net/"
@@ -51,8 +51,8 @@
       "pricesUrl": "https://purchase.groupdocs.com/pricing/search/java/",
       "docsUrl": "https://docs.groupdocs.com/search/java/",
       "supportedFormatsUrl": "https://docs.groupdocs.com/search/java/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/",
-      "sample2Url": "https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/",
+      "sample1Url": "https://docs.groupdocs.com/search/java/search-results/",
+      "sample2Url": "https://docs.groupdocs.com/search/java/regular-expression-search/",
 
       "more_link": "https://github.com/groupdocs-search/GroupDocs.Search-for-Java/",
       "release_downloads": "https://releases.groupdocs.com/search/java/"
@@ -73,35 +73,12 @@
       "packageUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.search",
       "pricesUrl": "https://purchase.groupdocs.com/pricing/search/nodejs-java/",
       "docsUrl": "https://docs.groupdocs.com/search/nodejs-java/",
-      "supportedFormatsUrl": "https://docs.groupdocs.com/search/java/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/search/java/search-results/",
-      "sample2Url": "https://docs.groupdocs.com/search/java/regular-expression-search/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/search/nodejs-java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/search/nodejs-java/search-results/",
+      "sample2Url": "https://docs.groupdocs.com/search/nodejs-java/regular-expression-search/",
 
       "more_link": "https://github.com/groupdocs-search/GroupDocs.Search-for-Node.js-via-Java/",
       "release_downloads": "https://releases.groupdocs.com/search/nodejs-java/"
-    },
-    "python-net": {
-      "environmentName": "Python via .NET",
-      "environmentNameShort": "Python",
-      "productCode": "python-net",
-      "productFullName": "GroupDocs.Search for Python via .NET",
-
-      "programmingLanguage": "Python",
-      "srcFileExt": ".py",
-      "syntax": "python",
-      "runtime": "Python",
-
-      "productUrl": "https://products.groupdocs.com/search/python-net/",
-      "packageStoreName": "PyPi",
-      "packageUrl": "https://pypi.org/project/groupdocs-search-net/",
-      "pricesUrl": "https://purchase.groupdocs.com/pricing/search/python-net/",
-      "docsUrl": "https://docs.groupdocs.com/search/python-net/",
-      "supportedFormatsUrl": "https://docs.groupdocs.com/search/net/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/watermark/net/adding-image-watermarks/#add-image-watermark-from-local-file/",
-      "sample2Url": "https://docs.groupdocs.com/watermark/net/modifing-found-watermark-properties/#replacing-text/",
-
-      "more_link": "https://github.com/groupdocs-search/GroupDocs.Search-for-Python-via-.NET/",
-      "release_downloads": "https://releases.groupdocs.com/search/python-net/"
     }
   }
 }

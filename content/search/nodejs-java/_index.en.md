@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-04T14:43:38
+date: 2024-12-11T15:07:52
 draft: false
 
 lang: en
@@ -38,8 +38,8 @@ actions:
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.search"
   alt: "Licensing"
   alt_link: "https://purchase.groupdocs.com/pricing/search/nodejs-java/"
-  title: "Ready to get started?"
-  description: "Try GroupDocs.Search features for free or request a license"
+  title: "Start Your Journey Today!"
+  description: "Explore the capabilities of GroupDocs.Search for free or secure a license to unlock its full potential."
 
 release:
   title: "Version {0} released"
@@ -54,13 +54,15 @@ code:
   install: "npm i @groupdocs/groupdocs.search"
   content: |
     ```javascript {style=abap}
-    // Creating index
-    const index = new Index('c:/MyIndex');
+    const searchLib = require('@groupdocs/groupdocs.search');
 
-    // Adding documents to index
+    // Create an index for your documents
+    const index = new searchLib.Index('c:/MyIndex');
+
+    // Add documents to the index for efficient searching
     index.add('c:/MyDocuments');
     
-    // Searching for various words like
+    // Search for specific words or phrases, such as
     // 'affect', 'effect', 'principles', 'principally'
     const results = index.search('?ffect & princip?(2~4)');
     ```
@@ -68,7 +70,7 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Search at a glance"
+  title: "GroupDocs.Search Overview"
   description: "Node.js JavaScript library for text search"
   features:
     # feature loop
@@ -132,7 +134,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Search for Node.js via Java enables processing a wide range of file formats. [Explore the full list](https://docs.groupdocs.com/search/java/supported-document-formats/).
+    GroupDocs.Search for Node.js via Java enables processing a wide range of file formats. [Explore the full list](https://docs.groupdocs.com/search/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -237,29 +239,31 @@ code_samples:
     # code sample loop
     - title: "Use 'fuzzy' search to enhance productivity"
       content: |
-        Enjoy flexible GroupDocs.Search for Node.js via Java functionality to enhance documents content control by sophisticated search algorithms. [Learn more](https://docs.groupdocs.com/search/java/search-results/).
+        Enjoy flexible GroupDocs.Search for Node.js via Java functionality to enhance documents content control by sophisticated search algorithms. [Learn more](https://docs.groupdocs.com/search/nodejs-java/search-results/).
         {{< landing/code title="How to process search result">}}
         ```javascript {style=abap}
+        const searchLib = require('@groupdocs/groupdocs.search');
+
         // Create an index
-        const index = new Index('c:/IndexFolder');
+        const index = new searchLib.Index('c:/IndexFolder');
         index.add('c:/DocumentFolder');
 
         // Set up search options
-        var options = new SearchOptions();
+        const options = new searchLib.SearchOptions();
         options.getFuzzySearch().setEnabled(true);
         options.getFuzzySearch().setFuzzyAlgorithm(new TableDiscreteFunction(3));
 
         // Search for documents containing the word 'water' or the phrase 'Lorem ipsum'
-        var query = "water OR \"Lorem ipsum\"";
-        var result = index.search(query, options);
+        const query = 'water OR "Lorem ipsum"';
+        const result = index.search(query, options);
         
         // Process search result
-        console.log("Documents: " + result.getDocumentCount());
-        console.log("Total occurrences: " + result.getOccurrenceCount());
-        for (int i = 0; i < result.getDocumentCount(); i++) {
-            FoundDocument document = result.getFoundDocument(i);
-            console.log('Document: ${document.getDocumentInfo().getFilePath()}');
-            console.log('Occurrences: ${document.getOccurrenceCount()}');
+        console.log('Documents: ' + result.getDocumentCount());
+        console.log('Total occurrences: ' + result.getOccurrenceCount());
+        for (let i = 0; i < result.getDocumentCount(); i++) {
+            const document = result.getFoundDocument(i);
+            console.log('Document: ' + document.getDocumentInfo().getFilePath());
+            console.log('Occurrences:  + document.getOccurrenceCount());
             }
 
         ```
@@ -267,19 +271,21 @@ code_samples:
     # code sample loop
     - title: "Regular expressions are available for advanced search scenarios"
       content: |
-        GroupDocs.Search for Node.js via Java allows us to use regular expressions in order to narrow search result. [Dive into advanced search techniques](https://docs.groupdocs.com/search/java/regular-expression-search/).
+        GroupDocs.Search for Node.js via Java allows us to use regular expressions in order to narrow search result. [Dive into advanced search techniques](https://docs.groupdocs.com/search/nodejs-java/regular-expression-search/).
         {{< landing/code title="How to search using regular expressions">}}
         ```javascript {style=abap}   
+        const searchLib = require('@groupdocs/groupdocs.search');
+
         // Create an index
-        const index = new Index('c:/IndexFolder');
+        const index = new searchLib.Index('c:/IndexFolder');
         index.add('c:/DocumentFolder');
  
         // Search for the phrase in text form
 
         // The first caret character at the beginning indicates that this is a regular expression search query
-        var query = "^^(.)\\1{1,}";
+        const query = '^^(.)\\1{1,}';
         // Search for two or more identical characters at the beginning of a word
-        var result = index.search(query);
+        const result = index.search(query);
  
         ```
         {{< /landing/code >}}

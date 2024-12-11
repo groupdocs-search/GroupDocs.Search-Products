@@ -218,7 +218,7 @@ code_samples:
           color: "green"
           content: |
             ```javascript {style=abap}   
-            const searchLib = require('@groupdocs/groupdocs.search')
+            const searchLib = require('@groupdocs/groupdocs.search');
 
             // <% "{index-content.code_samples.sample_index.comment_1}" %>
             const index = new searchLib.Index('\\Index Folder');

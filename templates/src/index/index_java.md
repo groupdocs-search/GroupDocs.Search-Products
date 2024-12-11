@@ -7,8 +7,8 @@ date: <% date "utcnow" %>
 draft: false
 
 lang: <% lower ( get "lang") %>
-product: "Watermark"
-product_tag: "watermark"
+product: "Search"
+product_tag: "search"
 platform: "Java"
 platform_tag: "java"
 
@@ -24,9 +24,6 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
-    # supported_platforms loop
-    - title: "Python"
-      tag: "python-net"
 
 ############################# Head ############################
 head_title: "<% "{index-content-java.head_title}" %>"
@@ -55,30 +52,25 @@ code:
   title: "<% "{index-content-java.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
   more_link: "<% dict "products.java.more_link" %>"
+  install_title : "Maven XML"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-watermark</artifactId>
+      <artifactId>groupdocs-search</artifactId>
       <version>{0}</version>
     </dependency>
   content: |
     ```java {style=abap}  
     // <% "{index-content.code_comment_1}" %>
-    PdfLoadOptions loadOptions = new PdfLoadOptions();
-    Watermarker watermarker = 
-        new Watermarker("source.pdf", loadOptions);
+    Index index = new Index("c:/MyIndex");
 
     // <% "{index-content.code_comment_2}" %>
-    TextWatermark textWatermark = 
-        new TextWatermark("Approved", new Font("Arial", 8));
-
+    index.add("c:/MyDocuments");
+    
     // <% "{index-content.code_comment_3}" %>
-    watermarker.add(textWatermark);
-
-    // <% "{index-content.code_comment_4}" %>
-    watermarker.save("result.pdf");
-    watermarker.close();
-      
+    // 'affect', 'effect', 'principles', 'principally'
+    SearchResult results = 
+        index.search("?ffect & princip?(2~4)");
     ```
 
 ############################# Overview ############################
@@ -146,22 +138,27 @@ formats:
       content: |
         ### <% "{index-content.formats_groups.title_1}" %>
         * **<% "{index-content.formats_groups.format_portable}" %>:** PDF 
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
-        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
-        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
-        * **OpenDocument:** ODT, ODP, ODS
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM
+        * **Excel:** XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
+        * **PowerPoint:** PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
+        * **OpenDocument:** ODT, ODP, ODS, OTT, OTS
+        * **<% "{index-content.formats_groups.format_text}" %>:** TXT, RTF
     # group loop
     - color: "blue"
       content: |
         ### <% "{index-content.formats_groups.title_2}" %>
-        * **<% "{index-content.formats_groups.format_popular_images}" %>:** BMP, JPG, JPEG, PNG
+        * **<% "{index-content.formats_groups.format_popular_images}" %>:** BMP, JP2, PNG, EMF, WMF, JPG, PSD
         * **<% "{index-content.formats_groups.format_multi_images}" %>:** GIF, WEBP, TIFF
+        * **<% "{index-content.formats_groups.format_multi_audio}" %>:** MP3, WAV
+        * **<% "{index-content.formats_groups.format_multi_video}" %>:** AVI, MOV, QT, FLV, ASF
       # group loop
     - color: "red"
       content: |
         ### <% "{index-content.formats_groups.title_3}" %>
-        * **Outlook:** EML, EMLX, MSG, OFT
-        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
+        * **<% "{index-content.formats_groups.format_email}" %>:**  PST, OST, MSG, EML, EMLX
+        * **Microsoft Visio:** VSD, VSS
+        * **<% "{index-content.formats_groups.format_web}" %>:**  XML, HTM, HTML, XHTML, MHT, MHTML
+        * **<% "{index-content.formats_groups.format_others}" %>:**  TORRENT, ZIP, DCM, DJVU, EPUB, FB2
 
 ############################# Features ############################
 features:
@@ -171,62 +168,62 @@ features:
 
   items:
     # feature loop
-    - icon: "watermark_add"
+    - icon: "document_info"
       title: "<% "{index-content-java.features.feature_1.title}" %>"
       content: "<% "{index-content-java.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "watermark_style"
+    - icon: "detect"
       title: "<% "{index-content-java.features.feature_2.title}" %>"
       content: "<% "{index-content-java.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "hidden_print"
+    - icon: "collect"
       title: "<% "{index-content-java.features.feature_3.title}" %>"
       content: "<% "{index-content-java.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "image_only"
+    - icon: "get"
       title: "<% "{index-content-java.features.feature_4.title}" %>"
       content: "<% "{index-content-java.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "image_frame"
+    - icon: "remove"
       title: "<% "{index-content-java.features.feature_5.title}" %>"
       content: "<% "{index-content-java.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "attachments"
+    - icon: "style"
       title: "<% "{index-content-java.features.feature_6.title}" %>"
       content: "<% "{index-content-java.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "pdf_objects"
+    - icon: "detect"
       title: "<% "{index-content-java.features.feature_7.title}" %>"
       content: "<% "{index-content-java.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "doc_background"
+    - icon: "manipulate"
       title: "<% "{index-content-java.features.feature_8.title}" %>"
       content: "<% "{index-content-java.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "unreadable_characters"
+    - icon: "compare"
       title: "<% "{index-content-java.features.feature_9.title}" %>"
       content: "<% "{index-content-java.features.feature_9.content}" %>"
 
     # feature loop
-    - icon: "watermark_text_search"
+    - icon: "unreadable_characters"
       title: "<% "{index-content-java.features.feature_10.title}" %>"
       content: "<% "{index-content-java.features.feature_10.content}" %>"
 
     # feature loop
-    - icon: "watermark_image_search"
+    - icon: "hidden_print"
       title: "<% "{index-content-java.features.feature_11.title}" %>"
       content: "<% "{index-content-java.features.feature_11.content}" %>"
 
     # feature loop
-    - icon: "document_info"
+    - icon: "style"
       title: "<% "{index-content-java.features.feature_12.title}" %>"
       content: "<% "{index-content-java.features.feature_12.content}" %>"
 
@@ -243,17 +240,26 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```java {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        Watermarker watermarker = new Watermarker("document.pdf");
-        
+        Index index = new Index("C:/IndexFolder");
+        index.add("C:/DocumentFolder");
+
         // <% "{index-content.code_samples.sample_1.comment_2}" %>
-        ImageWatermark watermark = new ImageWatermark("watermark.jpg");
+        SearchOptions options = new SearchOptions();
+        options.getFuzzySearch().setEnabled(true);
+        options.getFuzzySearch().setFuzzyAlgorithm(new TableDiscreteFunction(3));
 
         // <% "{index-content.code_samples.sample_1.comment_3}" %>
-        watermarker.add(watermark); 
-        watermarker.save("result.pdf");
-
-        watermark.close();                                                                                               
-        watermarker.close();
+        String query = "water OR \"Lorem ipsum\"";
+        SearchResult result = index.search(query, options);
+        
+        // <% "{index-content.code_samples.sample_1.comment_4}" %>
+        System.out.println("Documents: " + result.getDocumentCount());
+        System.out.println("Total occurrences: " + result.getOccurrenceCount());
+        for (int i = 0; i < result.getDocumentCount(); i++) {
+            FoundDocument document = result.getFoundDocument(i);
+            System.out.println("Document: " + document.getDocumentInfo().getFilePath());
+            System.out.println("Occurrences " + document.getOccurrenceCount());
+            }
 
         ```
         {{< /landing/code >}}
@@ -264,22 +270,16 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```java {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        Watermarker watermarker = new Watermarker("document.pdf");
-
+        Index index = new Index("C:/IndexFolder");
+        index.add("c:/DocumentFolder");
+ 
         // <% "{index-content.code_samples.sample_2.comment_2}" %>
-        TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);                               
-        PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);                             
 
         // <% "{index-content.code_samples.sample_2.comment_3}" %>
-        for (PossibleWatermark watermark : watermarks)                                                           
-        {  
-            watermark.setText("New Text");
-        }
-
+        String query = "^^(.)\\1{1,}";
         // <% "{index-content.code_samples.sample_2.comment_4}" %>
-        watermarker.Save("document.pdf");
-        watermarker.close();
-
+        SearchResult result = index.search(query);
+ 
         ```
         {{< /landing/code >}}
 

@@ -1,350 +1,278 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2024-12-11T15:07:52
 draft: false
 
+lang: en
 product: "Search"
 product_tag: "search"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: "C# .NET Text Search & Indexing API for Word Excel PDF Email HTML"
-head_description: "C# .NET text searching API to smartly index & retrieve data from PDF, Microsoft Office Word, Excel, presentations, OneNote, Email, ZIP, EPUB & web files."
+head_title: ".NET Document Search and Indexing Library for PDFs, Office Files, and More"
+head_description: "Powerful .NET solution for text search and indexing in documents like PDFs, Word, Excel, presentations, emails, and web formats."
 
 ############################# Header ############################
-title: ".NET API to Search & Index Documents"
-description: "API to Index Data & Perform Text Search in all Popular Document Formats using .NET Applications."
-button:
-    enable: true
+title: "Advanced Document Search and Indexing with .NET API"
+description: "Boost .NET applications with cutting-edge text search capabilities across popular document formats."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Download Nuget for Free"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Search"
+  alt: "Licensing"
+  alt_link: "https://purchase.groupdocs.com/pricing/search/net/"
+  title: "Start Your Journey Today!"
+  description: "Explore the capabilities of GroupDocs.Search for free or secure a license to unlock its full potential."
+
+release:
+  title: "Version {0} released"
+  notes: "See what’s new"
+  downloads: "Downloads"
+
+code:
+  title: "Search a Directory Using C#"
+  more: "More examples"
+  more_link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
+  install: "dotnet add package GroupDocs.Search"
+  content: |
+    ```csharp {style=abap}   
+    // Create an index for your documents
+    Index index = new Index("c:/MyIndex");
+
+    // Add documents to the index for efficient searching
+    index.Add("c:/MyDocuments");
     
-    left:
-        img_alt: "GroupDocs.Search for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-net.png"
-        product: "GroupDocs.Search"
-        platform: ".NET"
-
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overview"
-
-            # button loop
-            - link: "#features"
-              text: "Features"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/search"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/search/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/search"
-        link_learn: "https://docs.groupdocs.com/search/net/"
-        link_buy: "https://purchase.groupdocs.com"
+    // Search for specific words or phrases, such as
+    // 'affect', 'effect', 'principles', 'principally'
+    SearchResult results = 
+        index.Search("'"?ffect & princip?(2~4)"'");
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Search for .NET is a document and text search API for business applications developed in C#, ASP.NET and other .NET technologies. This .NET API supports basic to advanced search features, e.g., creation and merging of multiple indexes, searching through indexes using Simple, Boolean, Fuzzy, Regular Expression (regex) and other query types to fetch your required data, from files, documents and emails, through smart search. If you want to build a fast, reliable, smart and feature-rich search application for your end-users, supporting all popular file formats, GroupDocs.Search for .NET is all that you need.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Following is an overview of GroupDocs.Search for .NET:
-      
-        left:
-          enable: true
-          icon: "fas fa-search"
-          title: "Indexing"
-          content: |
-            * Create & Manage
-            * Merge Multiple Indexes
-            * Multi-Threading Async Indexing
-            * Compact Indexing
-            * Archived Files Indexing
-        
-        right:
-          enable: true
-          icon: "fas fa-search-plus"
-          title: "Advanced Search & Search Queries"
-          content: |
-            * Fuzzy Search
-            * Synonym Search
-            * Email Search
-            * Handling of Homophonic Terms
-            * Searching Protected Files
-            * Simple
-            * Wild Card
-            * Regular Expression (Regex)
-            * Faceted & Boolean
-            * Case Sensitive
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Search for .NET supports following [document file formats](https://docs.groupdocs.com/search/net/supported-document-formats/):
+  enable: true
+  title: "GroupDocs.Search Overview"
+  description: "Explore .NET C# library for robust text search and indexing."
+  features:
+    # feature loop
+    - title: ".NET Indexing and Search Features"
+      content: "Efficiently index, store, and process document data with GroupDocs.Search for .NET for highly accurate and fast search operations."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office Formats"
-              content: |
-                * **Word**: DOC, DOCX, DOCM, DOT, DOTX, DOTM
-                * **Excel**: XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
-                * **PowerPoint**: PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
-                * **Project**: MPP
-                * **Diagram**: VSD, VSS
-                * **Microsoft Compiled HTML**: CHM
-                * **OneNote**: ONE
+    # feature loop
+    - title: "Combine Indexes for Better Search Speed"
+      content: "GroupDocs.Search for .NET lets you merge multiple indexes to optimize performance. Reduce the impact of delta indexes by combining them into a comprehensive index for smoother searches."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument & Other Formats"
-              content: |
-                * **Portable Document Format**: PDF
-                * **OpenDocument**: ODT, OTT, ODS, OTS, ODP
-                * **Email**: PST, OST, MSG, EML, EMLX
-                * **Web File Formats**: XML, HTM, HTML, XHTML, MHT, MHTML
-                * **Audio**: MP3, WAV
-                * **Video**: AVI, MOV, QT, FLV, ASF
-                * **Text**: TXT
-                * **Rich Text Format**: RTF
-                * **Markdown Documentation File**: MD
-                * **Images**: BMP, GIF, JP2, PNG, WEBP, TIFF, EMF, WMF, JPG, PSD
-                * **Others**: TORRENT, ZIP, DCM, DJVU, EPUB, FB2
+    # feature loop
+    - title: "Search Across Different Keyboard Layouts"
+      content: "Easily handle search queries across 88 languages and 164 keyboard layouts with GroupDocs.Search for .NET’s intelligent recognition."
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Search for .NET supports following Operating Systems, Frameworks & Package Managers:‎
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
+    # feature loop
+    - title: "Morphological Word Searches"
+      content: "GroupDocs.Search for .NET supports searches for word variations like singular/plural nouns and different verb forms, customizable for various languages."
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platform independence"
+  description: "GroupDocs.Search for .NET works seamlessly across major operating systems and package managers."
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Package Manager"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Development Environments"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Supported file formats"
+  description: |
+    Process an extensive range of file formats with GroupDocs.Search for .NET. [View all supported formats](https://docs.groupdocs.com/search/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Popular Office Formats
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM
+        * **Excel:** XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
+        * **PowerPoint:** PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
+        * **OpenDocument:** ODT, ODP, ODS, OTT, OTS
+        * **Text:** TXT, RTF
+    # group loop
+    - color: "blue"
+      content: |
+        ### Media Formats
+        * **Popular image formats:** BMP, JP2, PNG, EMF, WMF, JPG, PSD
+        * **Multi-page images:** GIF, WEBP, TIFF
+        * **Audio:** MP3, WAV
+        * **Video:** AVI, MOV, QT, FLV, ASF
+      # group loop
+    - color: "red"
+      content: |
+        ### Other
+        * **Email:**  PST, OST, MSG, EML, EMLX
+        * **Microsoft Visio:** VSD, VSS
+        * **Web:**  XML, HTM, HTML, XHTML, MHT, MHTML
+        * **Others:**  TORRENT, ZIP, DCM, DJVU, EPUB, FB2
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Search for .NET Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Create Index in Memory or on Disk & Perform Multi-threaded Indexing & Merging"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Prevent Indexing for Already Indexed Files or with a Specific String in its Name"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "View Progress Percentage of Index Creation and Updation & Get Search Report"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Faster Indexing by Excluding Specific Words & Index Status Notification for Recently Processed Files"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Index ZIP Archives within ZIP Archives & Get List of Indexed Files contained in an Archive"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Use List or Import to Replace Characters during Indexing & Export them to a File"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Index & Search Password Protected Files & Compact Indexing to Save Disk Space"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Extract Text from Index or Source File & Automatically Save Text File Encoding in Index‎"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Add Arbitrary Additional Fields to each Document during Indexing"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Set up Document Filtering in Search Results"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Handle Typing Mistakes through Fuzzy Search, Set Similarity Level in Fuzzy Search & Display Best Results Only"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Index Documents from Streams and Data Structures"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Search Complete Phrase with Stop Words and Combine Faceted Search with Boolean Search"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Search based on Homophonic Terms, Synonyms, Date Range, Wild Cards & Case Sensitivity"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Index & Search Emails from Outlook & Browse using Aspose.Email API"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Supports Spell Check & Wild Cards in Search Queries & Skip Special Characters in Search Phrases"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Limit Results for Each Term in Search Query as well as for All Results"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Extract HTML Text to a File & Generate URL to Navigate HTML-Formatted Search Results"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Combine Multiple Queries into Single Object Tree"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Alert User for Non-Supportive Settings & Auto-Index Reload in case of Indexing Error"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Enable Exact Number of Occurrences for each Found Word to Offer Alternative Word Suggestions in case of Misspelling"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Add Text Attributes to Indexed Documents without Re-indexing"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Perform Indexing and Searching Operations Based on Characters"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Index Metadata of Non-Textual Document Formats"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Indexing & Search"
-        content: |
-          GroupDocs.Search for .NET API frequently uses index in order to perform search. Indexes are used to collect, parse or store data for fast and accurate searching.
-
-          * **Create Index**: Create Index folder and add/index documents to that folder.
-          * **Load Index**: Load an existing Index.
-          * **Add Documents to Index**: Add documents to existing Index, asynchronously.
-          * **Update Index**: Update existing Index, whenever a document is modified, added or deleted. This keeps search results up to date.
-
-          ```cs
-           // Create index
-          Index  index = new Index(@"c:\MyIndex");
-          // Add documents to index
-          index.AddToIndex(@"c:\MyDocuments");
-          // Search in index
-          SearchResults searchResults =  index.Search("searchTerm");
-          ```
-      # more_feature_loop
-      - title: "Merge Multiple Indices to Improve Search Efficiency"
-        content: "GroupDocs.Search for .NET is able to merge multiple indices into a singular index. If an index is frequently updated, it has several delta indices, but this approach reduces search performance. GroupDocs.Search for .NET API merges all delta indices into one consolidated index. The primary merged index will contain all the information from the merged delta indices; however, the delta indices will remain unchanged. This approach used by our API considerably improves the search efficiency. Index merging feature, provides numerous functionalities to tweak to further tweak this process.‎"
-
-      # more_feature_loop
-      - title: "Store Text in Index to Generate HTML Markup"
-        content: "GroupDocs.Search for .NET can cache text of indexed documents in an index. This cached text is then used to rapidly generate HTML markup by highlighting search results. This approach is lot faster than extracting text directly from files. Retrieving text from cache will be available even if the source files are no longer available. The cached text can be stored by applying various compression levels to occupy lesser disk space and faster indexing time."
-
-      # more_feature_loop
-      - title: "Get Related Documents by Fuzzy & Regex Search"
-        content: "When you perform Fuzzy or Regex search, you can get the list of documents that exactly matches your provided input. However, you will also get a list of documents that contain words or terms similar to your input. For example, if using GroupDocs.Search for .NET, you perform fuzzy search for query “cost”, you will get documents containing word “cost” and documents containing similar words such as “coat”. The results will be dependent on what level of fuzziness you have configured using this API."
-
-      # more_feature_loop
-      - title: "Recognize Search Queries of Different Keyboard Layout"
-        content: "GroupDocs.Search for .Net can recognize search queries written in a language that does not match your keyboard layout. Currently, this .NET API can successfully recognize 88 languages and 164 different keyboard layouts."
-
-      # more_feature_loop
-      - title: "Search Using Morphological Word Form"
-        content: "GroupDocs.Search for .NET API allows you to search for various word forms. For example, for a noun you can search for its singular and plural forms. For a verb, you can search for all forms of that verb. You can also search for root, third-person singular, simple past and various other forms. For languages other than English, you can implement customized word forms."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Search offers document viewing APIs for other popular development environments"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Search for Java"
-          image: "/border/groupdocs-search-java.svg"
-          product: "GroupDocs.Search"
-          platform: "Java"
-          link: "/search/java/"
-
-        # solution loop
-        - img_alt: "GroupDocs.Search for Node.js"
-          image: "/border/groupdocs-search-nodejs-java.svg"
-          product: "GroupDocs.Search"
-          platform: "Node.js via Java"
-          link: "/search/nodejs-java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Key Features of GroupDocs.Search for .NET"
+  description: "Streamline document management with advanced search capabilities in popular formats like PDF, DOCX, XLSX, PPTX, and more."
+
+  items:
+    # feature loop
+    - icon: "document_info"
+      title: "Flexible Search Parameters"
+      content: "Use filters like date ranges and case sensitivity to refine your search."
+
+    # feature loop
+    - icon: "detect"
+      title: "Smart Spell Check"
+      content: "Search phrases with spell correction, wildcards, and ignored special characters."
+
+    # feature loop
+    - icon: "collect"
+      title: "Filtered Search Results"
+      content: "Customize and filter search results by document type or criteria."
+
+    # feature loop
+    - icon: "get"
+      title: "Index Import & Export"
+      content: "Import data, modify indexing settings, and export indexed results."
+
+    # feature loop
+    - icon: "remove"
+      title: "Exclude Irrelevant Data"
+      content: "Optimize indexing by skipping specific files or words."
+
+    # feature loop
+    - icon: "style"
+      title: "URL Extraction"
+      content: "Convert HTML-formatted text to files and generate links for search results."
+
+    # feature loop
+    - icon: "detect"
+      title: "High-Speed Search"
+      content: "Divide large indexes into smaller parts for faster processing."
+
+    # feature loop
+    - icon: "manipulate"
+      title: "Streamlined Data Handling"
+      content: "Index documents directly from data streams and structures."
+
+    # feature loop
+    - icon: "compare"
+      title: "Misspelling Detection"
+      content: "Suggest alternative words and track occurrences for improved accuracy."
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "Archive Support"
+      content: "Index nested ZIP archives and retrieve file details within them."
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "Efficient Indexing"
+      content: "Save disk space with compact indexing and process password-protected documents."
+
+    # feature loop
+    - icon: "style"
+      title: "Custom Synonyms"
+      content: "Add and manage synonyms for tailored search results."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Code samples"
+  description: "Discover the powerful capabilities of GroupDocs.Search for .NET with hands-on examples."
+  items:
+    # code sample loop
+    - title: "Boost Productivity with Fuzzy Search"
+      content: |
+        Leverage GroupDocs.Search for .NET for flexible and accurate content control through advanced search algorithms. [Explore more](https://docs.groupdocs.com/search/net/search-results/).
+        {{< landing/code title="How to process search result">}}
+        ```csharp {style=abap}
+        // Create an index
+        Index index = new Index("C:/IndexFolder");
+        index.Add("C:/DocumentFolder");
+
+        // Set up search options
+        SearchOptions options = new SearchOptions();
+        options.FuzzySearch.Enabled = true;
+        options.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(3);
+
+        // Search for documents containing the word 'water' or the phrase 'Lorem ipsum'
+        string query = "water OR \"Lorem ipsum\"";
+        SearchResult result = index.Search(query, options);
+        
+        // Process search result
+        Console.WriteLine("Document: " + document.DocumentInfo.FilePath);
+        Console.WriteLine("Occurrences: " + document.OccurrenceCount);
+        for (int i = 0; i < result.DocumentCount; i++) {
+            FoundDocument document = result.GetFoundDocument(i);
+            Console.WriteLine("Document: " + document.DocumentInfo.FilePath);
+            Console.WriteLine("Occurrences: " + document.OccurrenceCount);
+            }
+
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Advanced Search with Regular Expressions"
+      content: |
+        GroupDocs.Search for .NET supports regular expressions for precise searches. [Learn advanced techniques](https://docs.groupdocs.com/search/net/regular-expression-search/).
+        {{< landing/code title="How to search using regular expressions">}}
+        ```csharp {style=abap}   
+        // Create an index
+        Index index = new Index("c:/IndexFolder");
+        index.Add("c:/DocumentFolder");
+ 
+        // Search for the phrase in text form
+
+        // The first caret character at the beginning indicates that this is a regular expression search query
+        string query = "^^(.)\\1{1,}";
+        // Search for two or more identical characters at the beginning of a word
+        SearchResult result = index.Search(query);
+ 
+        ```
+        {{< /landing/code >}}
+
 ---

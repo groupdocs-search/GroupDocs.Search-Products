@@ -1,5 +1,5 @@
-<% configRef "..\\configs\\index\\index_nodejs.yml" %>
-<% include "..\\data\\platform_data.md" %>
+<% configRef "..\\..\\configs\\index\\index_nodejs.yml" %>
+<% include "..\\..\\data\\platform_data.md" %>
 ---
 ############################# Static ############################
 layout: "landing"

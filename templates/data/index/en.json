@@ -1,28 +1,68 @@
 {
   "index-content": {
+    "head_title": "Document Text Search & Indexing | APIs & Free Web App",
+    "head_description": "Perform efficient text search and data indexing on PDF, MS Office, OpenDocument, and other popular file formats using our APIs or the free online Document Search app.",
+    "title": "Comprehensive Document Search & Indexing Solution",
+    "description_1": "Perform text search and indexing on PDF, Microsoft Office, OpenOffice and many other document file formats.",
+    "description_2": "Quickly locate information in large document collections with advanced full-text search capabilities.",
+    "description_3": "Customize search features like synonyms, fuzzy search, and stemming to enhance accuracy and results.",
     "words_for": "for",
     "release_title": "Version {0} released",
     "release_notes": "See what’s new",
     "release_downloads": "Downloads",
     "code_more": "More examples",
-    "code_comment_1": "Creating index",
-    "code_comment_2": "Adding documents to index",
-    "code_comment_3": "Searching for various words like",
-    "overview_title": "{{ProdShortName}} at a glance",
+    "overview_title": "{{ProdShortName}} Overview",
+    "code_comment_1": "Path to the main template",
+    "code_comment_2": "Retrieve managers' productivity data from the source",
+    "code_comment_3": "Create an instance of {{DataSourceInfo}} with the data",
+    "code_comment_4": "Set chart colors using another {{DataSourceInfo}}",
+    "code_comment_5": "Fill the template with data and save it to the output",
     "formats_title": "Supported file formats",
     "platforms": {
       "title": "Platform independence",
       "head_title": "Choose your platform",
-      "description": "{{ProdShortName}} library supports the following operating systems and frameworks:",
+      "description": "{{ProdShortName}} is compatible with the following operating systems and frameworks:",
       "learn_more": "Learn more",
       "any_other_text_editor": "Any other text editor"
     },
+    "features": {
+      "title": "Key Features of {{ProdShortName}}",
+      "description": "{{ProdShortName}} provides powerful tools for indexing and searching text in popular document formats. Simplify and enhance document management with advanced search functionality.",
+      "feature_1": {
+        "title": "Advanced text search",
+        "content": "Perform fast and accurate text searches across indexed documents."
+      },
+      "feature_2": {
+        "title": "Customizable search options",
+        "content": "Utilize features like fuzzy search, synonyms, and stemming for more precise results."
+      },
+      "feature_3": {
+        "title": "Support for multiple formats",
+        "content": "Index and search content in Microsoft Office, PDF, OpenOffice, and other common formats."
+      },
+      "feature_4": {
+        "title": "Efficient indexing",
+        "content": "Quickly build and maintain indexes for large document collections."
+      }
+    },
     "formats": {
-      "title": "70+ file formats supported",
-      "description": "{{ProdShortName}} provides search in all popular file formats."
+      "title": "Supports 70+ file formats",
+      "description": "{{ProdShortName}} supports almost all widely used file formats"
     },
     "code_samples": {
       "title": "Code samples",
+      "index_title": "Searching text in popular document formats",
+      "index_description": "{{ProdShortName}} code examples",
+      "more_examples": "More examples",
+      "sample_index": {
+        "title": "Text Search",
+        "content": "{{ProdShortName}} is a powerful tool for finding text in documents. You can search through multiple documents in various formats stored in a specific folder. The search results are saved in a separate folder, allowing you to access and reuse them without running the search again.",
+        "comment_1": "Create an instance of the {{textIndex}} class, specifying the folder for storing indexes.",
+        "comment_2": "Specify the path to the documents where the search will be performed.",
+        "comment_3": "Create an instance of the {{textSearchOptions}} object.",
+        "comment_4": "Perform the search for the desired text.",
+        "comment_5": "Handle and process the search results."
+      },
       "sample_1": {
         "code_title": "How to process search result",
         "comment_1": "Create an index",
@@ -38,26 +78,216 @@
         "comment_4": "Search for two or more identical characters at the beginning of a word"
       }
     },
+    "metrics": {
+      "title": "Our Product Stats",
+      "description": "Discover key metrics showcasing our performance, reach, and growth.",
+      "item_1": {
+        "title": "Supported Formats",
+        "description": "We provide compatibility with over 70 popular document formats."
+      },
+      "item_2": {
+        "title": "NuGet Downloads",
+        "description": "{{ProdShortName}} for .NET has been downloaded more than 500,000 times on NuGet."
+      },
+      "item_3": {
+        "title": "Maven Downloads",
+        "description": "Java developers have downloaded {{ProdShortName}} over 12,000 times from Maven."
+      },
+      "item_4": {
+        "title": "Satisfied Customers",
+        "description": "Developers and leading businesses worldwide rely on our products for innovative solutions."
+      }
+    },
+    "customers": {
+      "title": "Our Happy Customers",
+      "description": "GroupDocs libraries are trusted by leading brands and organizations worldwide."
+    },
     "actions": {
       "alt": "Licensing",
-      "title": "Ready to get started?",
-      "description": "Try {{ProdShortName}} features for free or request a license",
-      "description_index": "Try {{ProdShortName}} features for free on your platform"
+      "title": "Start Your Journey Today!",
+      "description": "Explore the capabilities of {{ProdShortName}} for free or secure a license to unlock its full potential.",
+      "description_index": "Experience {{ProdShortName}} for free on your preferred platform."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to common questions about {{ProdShortName}}.",
+      "item_1": {
+        "question": "Does {{ProdShortName}} require external tools for searching documents?",
+        "answer": "No, {{ProdShortName}} works as a standalone solution and does not need additional tools or software like Adobe Acrobat or Microsoft Office to perform searches."
+      },
+      "item_2": {
+        "question": "Can I test {{ProdShortName}} before purchasing?",
+        "answer": "Yes, you can! {{ProdShortName}} offers a free trial. You can explore its features, though the trial version may include limitations such as watermarks or restricted functionality. To unlock all features, you can request a free 30-day temporary license. Learn more on the [temporary license]({{LicensingUrl}}) page."
+      },
+      "item_3": {
+        "question": "What licensing options are available?",
+        "answer": "We provide several licensing models for {{ProdShortName}}, tailored to different needs. Choose a license based on your team size, usage scenario, or whether you need the SDK/API for client distribution. For flexible usage, consider a metered license where you pay based on actual usage. Learn more about your options on the [pricing]({{PricingUrl}}) page."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Web Apps",
+      "description": "Explore {{ProdShortName}} with our free web application. Perform text searches and indexing on over 70 popular file formats directly in your browser—completely free.",
+      "item_1": {
+        "content": "Search within PDF, Excel, Word, PowerPoint, and other file types straight from your web browser."
+      },
+      "item_2": {
+        "content": "Upload DOCX to perform advanced text searches without needing to install software."
+      },
+      "item_3": {
+        "content": "Test PDFs indexing and retrieval capabilities on various formats for free."
+      }
     },
     "formats_groups": {
-      "title_1": "Popular Office Formats",
-      "title_2": "Media Formats",
-      "title_3": "Other",
+      "title_1": "Microsoft Office formats",
+      "title_2": "Images & Other Formats",
+      "title_3": "Other formats",
       "format_portable": "Portable",
-      "format_popular_images": "Popular image formats",
-      "format_multi_images": "Multi-page images",
-      "format_multi_audio": "Audio",
-      "format_multi_video": "Video",
+      "format_other_office": "Other office formats",
+      "format_images": "Images",
       "format_web": "Web",
-      "format_text": "Text",
-      "format_email": "Email",
-      "format_others": "Others"
+      "format_emails": "Emails",
+      "format_other": "Other"
     }
+  },
+  "index-content-net": {
+    "head_title": ".NET API for Document Automation, Assembly & Report Generation",
+    "head_description": "C# .NET API for document automation, assembly, and report generation. Create PDF, Word, Excel, PPTX, HTML, and email documents from custom templates.",
+    "title": ".NET Document Automation & Reporting API",
+    "description": "Generate reports in .NET applications by defining templates and merging data.",
+    "actions_main": "Download Trial via NuGet",
+    "code_title": "Fill a Chart in DOCX Using C#",
+    "overview_description": ".NET solution for automating document creation with advanced data integration.",
+    "overview_feature_1": {
+      "title": "Add Business Data to Document Templates with C#",
+      "description": "Report generation made easy: With {{ProdFullName}}, you can effortlessly insert data from sources like JSON or XML into predefined templates."
+    },
+    "overview_feature_2": {
+      "title": "Process Native Data Objects",
+      "description": "Supported document types include embedded objects like diagrams, charts, tables, and lists that can be populated automatically with data."
+    },
+    "overview_feature_3": {
+      "title": "Additional Features",
+      "description": "{{ProdFullName}} provides extensive customization options. Programmatically design data objects, generate barcodes, use online data sources via URLs, and save output in various formats."
+    },
+    "features": {
+      "title": "{{ProdShortName}} Features",
+      "description": "Create documents and reports using advanced data models.",
+      "feature_1": {
+        "title": "Advanced Data Representation",
+        "content": "Supports a wide range of data objects such as charts, lists, tables, images, and more."
+      },
+      "feature_2": {
+        "title": "Data Manipulation",
+        "content": "Apply formulas and sequential operations to format and display data effectively."
+      },
+      "feature_3": {
+        "title": "Wide Range of Supported Formats",
+        "content": "Work seamlessly with all common document formats for templates or output files."
+      },
+      "feature_4": {
+        "title": "Rich Template Markup",
+        "content": "Leverage ordinal, cardinal, and alphabetic numeric formatting in templates."
+      },
+      "feature_5": {
+        "title": "Embed Barcodes",
+        "content": "Generate barcode images dynamically and insert them into your documents."
+      },
+      "feature_6": {
+        "title": "Data Formatting",
+        "content": "Format strings in templates as uppercase, lowercase, capitalized, or first-letter capital styles."
+      },
+      "feature_7": {
+        "title": "Document Content Manipulation",
+        "content": "Dynamically insert content from external documents into your reports."
+      },
+      "feature_8": {
+        "title": "Save in Multiple Formats",
+        "content": "Specify the output file format using file extensions or detailed configurations."
+      },
+      "feature_9": {
+        "title": "Flexible Data Processing",
+        "content": "Insert images and documents dynamically using Base64-encoded bytes."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} is compatible with the following operating systems, frameworks, and package managers.",
+    "formats_description": "{{ProdFullName}} can process the following [file formats](https://docs.groupdocs.com/assembly/net/supported-document-formats/).",
+    "code_samples_description": "Code snippets for typical {{ProdShortName}} operations.",
+    "code_title_sample_1": "Bulleted List in a Microsoft Word Document",
+    "code_samples_sample_1_content_1": "[Bulleted lists](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/) are a common way to present business data.",
+    "code_samples_sample_1_content_2": "Here's an example of adding a list to a Word document using {{ProdShortName}}.",
+    "code_title_sample_2": "Pie Charts in PPTX Presentations",
+    "code_samples_sample_2_content_1": "You can create [Pie Charts](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/) using templates and XML data.",
+    "code_samples_sample_2_content_2": "Enhance your reports with visually appealing data representations."
+  },
+  "index-content-java": {
+    "head_title": "Java Library for Document Creation, Automation & Reporting",
+    "head_description": "Java library for automating document creation and generating reports. Create PDF, Word, Excel, PPTX, HTML, and email documents using custom templates.",
+    "title": "Java API for Automating Reports and Documents",
+    "description": "Simplify report generation in Java by merging data with templates.",
+    "actions_main": "Get Trial via NuGet",
+    "code_title": "Generate a Chart in DOCX with Java",
+    "overview_description": "A Java library designed for automated document creation and seamless data integration.",
+    "overview_feature_1": {
+      "title": "Merge Business Data into Templates with Java",
+      "description": "Easily create professional reports by embedding data from JSON, XML, or other sources into pre-designed templates using {{ProdFullName}}."
+    },
+    "overview_feature_2": {
+      "title": "Work with Embedded Objects",
+      "description": "Automatically populate elements like tables, charts, and diagrams in documents using data from external sources."
+    },
+    "overview_feature_3": {
+      "title": "Advanced Customization",
+      "description": "{{ProdFullName}} offers flexible features like generating barcodes, pulling online data through URLs, and exporting output in different formats."
+    },
+    "features": {
+      "title": "Key Capabilities of {{ProdShortName}}",
+      "description": "Create professional documents and reports with advanced data handling.",
+      "feature_1": {
+        "title": "Visual Data Elements",
+        "content": "Add and format elements like charts, tables, images, and lists directly in your documents."
+      },
+      "feature_2": {
+        "title": "Data Transformation",
+        "content": "Use formulas, sorting, and other tools to organize and present your data effectively."
+      },
+      "feature_3": {
+        "title": "Support for Multiple Formats",
+        "content": "Easily work with common file types for both templates and output files."
+      },
+      "feature_4": {
+        "title": "Enhanced Template Formatting",
+        "content": "Customize templates with numeric, alphabetic, and other advanced formatting options."
+      },
+      "feature_5": {
+        "title": "Dynamic Barcode Generation",
+        "content": "Quickly create and insert barcode images into documents as needed."
+      },
+      "feature_6": {
+        "title": "Flexible Text Styling",
+        "content": "Apply text transformations like uppercase, lowercase, title case, or other styles in templates."
+      },
+      "feature_7": {
+        "title": "Import External Content",
+        "content": "Embed content from external files dynamically while generating documents."
+      },
+      "feature_8": {
+        "title": "Export in Multiple Formats",
+        "content": "Save final documents in various file formats using specified extensions or configurations."
+      },
+      "feature_9": {
+        "title": "Dynamic Media Embedding",
+        "content": "Insert images or other content using Base64-encoded data during document creation."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} works seamlessly with popular operating systems, development frameworks, and package managers.",
+    "formats_description": "{{ProdFullName}} supports a wide range of [document formats](https://docs.groupdocs.com/assembly/java/supported-document-formats/).",
+    "code_samples_description": "Explore sample code for common tasks with {{ProdShortName}}.",
+    "code_title_sample_1": "Create a Bulleted List in Word",
+    "code_samples_sample_1_content_1": "Learn how to add [bulleted lists](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/) to Word documents for organized data representation.",
+    "code_samples_sample_1_content_2": "This example shows how to generate a list in Word using {{ProdShortName}}.",
+    "code_title_sample_2": "Create Pie Charts in PPTX",
+    "code_samples_sample_2_content_1": "Use templates and XML to add [pie charts](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) to your presentations.",
+    "code_samples_sample_2_content_2": "Make your reports more engaging by including pie charts to visualize data."
   },
   "index-content-nodejs-java": {
     "head_title": "{{EnvNameShort}} Text Search & Indexing Library for Documents, PDF, Office & Web",

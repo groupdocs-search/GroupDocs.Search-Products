@@ -1,34 +1,36 @@
+﻿<% configRef "..\\..\\configs\\index\\index.yml" %>
+<% include "..\\..\\data\\family_data.md" %>
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-12-11T12:28:50
+date:  <% date "utcnow" %>
 draft: false
 
 product: "Search"
 product_tag: "search"
 
-lang: en
+lang: <% lower ( get "lang") %>
 
 ############################# Head ############################
-head_title: "Document Text Search & Indexing | APIs & Free Web App"
-head_description: "Perform efficient text search and data indexing on PDF, MS Office, OpenDocument, and other popular file formats using our APIs or the free online Document Search app."
+head_title: "<% "{index-content.head_title}" %>"
+head_description: "<% "{index-content.head_description}" %>"
 
 ############################# Header ############################
-title: "Comprehensive Document Search & Indexing Solution"
+title: "<% "{index-content.title}" %>"
 description:  |
-  Perform text search and indexing on PDF, Microsoft Office, OpenOffice and many other document file formats.
+  <% "{index-content.description_1}" %>
 
-  Quickly locate information in large document collections with advanced full-text search capabilities.
+  <% "{index-content.description_2}" %>
 
-  Customize search features like synonyms, fuzzy search, and stemming to enhance accuracy and results.
+  <% "{index-content.description_3}" %>
 
 ############################# Supported Platforms ###############################
 supported_platforms:
   enable: true
-  head_title: "Choose your platform"
-  title: "Platform independence"
-  description: "GroupDocs.Search is compatible with the following operating systems and frameworks:"
-  details_link_title: "Learn more"
+  head_title: "<% "{index-content.platforms.head_title}" %>"
+  title: "<% "{index-content.platforms.title}" %>"
+  description: "<% "{index-content.platforms.description}" %>"
+  details_link_title: "<% "{index-content.platforms.learn_more}" %>"
 
   items:
     # items loop
@@ -110,7 +112,7 @@ supported_platforms:
           # features loop
           - rows: "3"
             content: |
-                    Atom <br> Visual Studio Code <br> Any other text editor
+                    Atom <br> Visual Studio Code <br> <% "{index-content.platforms.any_other_text_editor}" %>
       
           # features loop
           - rows: "1"
@@ -121,58 +123,58 @@ supported_platforms:
 ############################# Features ###############################
 features:
   enable: true
-  title: "Key Features of GroupDocs.Search"
-  description: "GroupDocs.Search provides powerful tools for indexing and searching text in popular document formats. Simplify and enhance document management with advanced search functionality."
+  title: "<% "{index-content.features.title}" %>"
+  description: "<% "{index-content.features.description}" %>"
 
   items:
     # items loop
     - icon: "view"
-      title: "Advanced text search"
-      content: "Perform fast and accurate text searches across indexed documents."
+      title: "<% "{index-content.features.feature_1.title}" %>"
+      content: "<% "{index-content.features.feature_1.content}" %>"
 
     # items loop
     - icon: "manipulate"
-      title: "Customizable search options"
-      content: "Utilize features like fuzzy search, synonyms, and stemming for more precise results."
+      title: "<% "{index-content.features.feature_2.title}" %>"
+      content: "<% "{index-content.features.feature_2.content}" %>"
 
     # items loop
     - icon: "merge"
-      title: "Support for multiple formats"
-      content: "Index and search content in Microsoft Office, PDF, OpenOffice, and other common formats."
+      title: "<% "{index-content.features.feature_3.title}" %>"
+      content: "<% "{index-content.features.feature_3.content}" %>"
 
     # items loop
     - icon: "additional"
-      title: "Efficient indexing"
-      content: "Quickly build and maintain indexes for large document collections."
+      title: "<% "{index-content.features.feature_4.title}" %>"
+      content: "<% "{index-content.features.feature_4.content}" %>"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Searching text in popular document formats"
-  description: "GroupDocs.Search code examples"
+  title: "<% "{index-content.code_samples.index_title}" %>"
+  description: "<% "{index-content.code_samples.index_description}" %>"
   items:
     # code sample loop
-    - title: "Text Search"
+    - title: "<% "{index-content.code_samples.sample_index.title}" %>"
       content: |
-       GroupDocs.Search is a powerful tool for finding text in documents. You can search through multiple documents in various formats stored in a specific folder. The search results are saved in a separate folder, allowing you to access and reuse them without running the search again.
+       <% "{index-content.code_samples.sample_index.content}" %>
       samples:
         - language: "C#"
           color: "blue"
           content: |
             ```csharp {style=abap}   
-            // Create an instance of the Index class, specifying the folder for storing indexes.
+            // <% "{index-content.code_samples.sample_index.comment_1}" %>
             Index index = new Index("\\Index Folder");
 
-            //Specify the path to the documents where the search will be performed.
+            //<% "{index-content.code_samples.sample_index.comment_2}" %>
             index.Add("\\Documents Folder");
 
-            //Create an instance of the SearchOptions object.
+            //<% "{index-content.code_samples.sample_index.comment_3}" %>
             SearchOptions options = new SearchOptions();
 
-            //Perform the search for the desired text.
+            //<% "{index-content.code_samples.sample_index.comment_4}" %>
             SearchResult result = index.Search("ipsum dolor", options);
 
-            //Handle and process the search results.
+            //<% "{index-content.code_samples.sample_index.comment_5}" %>
             if (result.DocumentCount > 0){
                 Console.WriteLine("Documents: " + result.DocumentCount);
                 for (int i = 0; i < result.DocumentCount; i++)
@@ -188,19 +190,19 @@ code_samples:
           color: "red"
           content: |
             ```java {style=abap}   
-            // Create an instance of the Index class, specifying the folder for storing indexes.
+            // <% "{index-content.code_samples.sample_index.comment_1}" %>
             Index index = new Index("\\Index Folder");
 
-            //Specify the path to the documents where the search will be performed.
+            //<% "{index-content.code_samples.sample_index.comment_2}" %>
             index.add("\\Documents Folder");
 
-            //Create an instance of the SearchOptions object.
+            //<% "{index-content.code_samples.sample_index.comment_3}" %>
             SearchOptions options = new SearchOptions();
 
-            //Perform the search for the desired text.
+            //<% "{index-content.code_samples.sample_index.comment_4}" %>
             SearchResult result = index.search("ipsum dolor", options);
 
-            //Handle and process the search results.
+            //<% "{index-content.code_samples.sample_index.comment_5}" %>
             if (result.getDocumentCount() > 0){
                 System.out.println("Documents: " + result.getDocumentCount());
                 for (int i = 0; i < result.getDocumentCount(); i++)
@@ -218,19 +220,19 @@ code_samples:
             ```javascript {style=abap}   
             const searchLib = require('@groupdocs/groupdocs.search')
 
-            // Create an instance of the Index class, specifying the folder for storing indexes.
+            // <% "{index-content.code_samples.sample_index.comment_1}" %>
             const index = new searchLib.Index('\\Index Folder');
 
-            //Specify the path to the documents where the search will be performed.
+            //<% "{index-content.code_samples.sample_index.comment_2}" %>
             index.add('\\Documents Folder');
 
-            //Create an instance of the SearchOptions object.
+            //<% "{index-content.code_samples.sample_index.comment_3}" %>
             const options = new searchLib.SearchOptions();
 
-            //Perform the search for the desired text.
+            //<% "{index-content.code_samples.sample_index.comment_4}" %>
             const result = index.search('ipsum dolor', options);
 
-            //Handle and process the search results.
+            //<% "{index-content.code_samples.sample_index.comment_5}" %>
             if (result.getDocumentCount() > 0){
                 console.log('Documents: ' + result.getDocumentCount());
                 for (int i = 0; i < result.getDocumentCount(); i++)
@@ -247,42 +249,42 @@ code_samples:
 ############################# Supported Formats ###############################
 formats:
   enable: true
-  title: "Supports 70+ file formats"
-  description: "GroupDocs.Search supports almost all widely used file formats"
+  title: "<% "{index-content.formats.title}" %>"
+  description: "<% "{index-content.formats.description}" %>"
 
 ############################# Metrics ###############################
 metrics:
   enable: true
-  title: "Our Product Stats"
-  description: "Discover key metrics showcasing our performance, reach, and growth."
+  title: "<% "{index-content.metrics.title}" %>"
+  description: "<% "{index-content.metrics.description}" %>"
 
   items:
     # items loop
     - number: "70+"
-      title: "Supported Formats"
-      content: "We provide compatibility with over 70 popular document formats."
+      title: "<% "{index-content.metrics.item_1.title}" %>"
+      content: "<% "{index-content.metrics.item_1.description}" %>"
 
     # items loop
     - number: "500k"
-      title: "NuGet Downloads"
-      content: "GroupDocs.Search for .NET has been downloaded more than 500,000 times on NuGet."
+      title: "<% "{index-content.metrics.item_2.title}" %>"
+      content: "<% "{index-content.metrics.item_2.description}" %>"
 
     # items loop
     - number: "12k"
-      title: "Maven Downloads"
-      content: "Java developers have downloaded GroupDocs.Search over 12,000 times from Maven."
+      title: "<% "{index-content.metrics.item_3.title}" %>"
+      content: "<% "{index-content.metrics.item_3.description}" %>"
 
     # items loop
     - number: "150+"
-      title: "Satisfied Customers"
-      content: "Developers and leading businesses worldwide rely on our products for innovative solutions."
+      title: "<% "{index-content.metrics.item_4.title}" %>"
+      content: "<% "{index-content.metrics.item_4.description}" %>"
 
 
 ############################# Customers ###############################
 customers:
   enable: true
-  title: "Our Happy Customers"
-  description: "GroupDocs libraries are trusted by leading brands and organizations worldwide."
+  title: "<% "{index-content.customers.title}" %>"
+  description: "<% "{index-content.customers.description}" %>"
 
   items:
     # items loop
@@ -329,8 +331,8 @@ customers:
 ############################# Actions ###############################
 actions:
   enable: true
-  title: "Start Your Journey Today!"
-  description: "Experience GroupDocs.Search for free on your preferred platform."
+  title: "<% "{index-content.actions.title}" %>"
+  description: "<% "{index-content.actions.description_index}" %>"
 
   items:
     # items loop
@@ -346,44 +348,44 @@ actions:
 ############################# FAQ ###############################
 faq:
   enable: true
-  title: "Frequently Asked Questions"
-  description: "Find answers to common questions about GroupDocs.Search."
+  title: "<% "{index-content.faq.title}" %>"
+  description: "<% "{index-content.faq.description}" %>"
 
   items:
     # items loop
-    - question: "Does GroupDocs.Search require external tools for searching documents?"
-      answer: "No, GroupDocs.Search works as a standalone solution and does not need additional tools or software like Adobe Acrobat or Microsoft Office to perform searches."
+    - question: "<% "{index-content.faq.item_1.question}" %>"
+      answer: "<% "{index-content.faq.item_1.answer}" %>"
 
     # items loop
-    - question: "Can I test GroupDocs.Search before purchasing?"
-      answer: "Yes, you can! GroupDocs.Search offers a free trial. You can explore its features, though the trial version may include limitations such as watermarks or restricted functionality. To unlock all features, you can request a free 30-day temporary license. Learn more on the [temporary license](https://purchase.groupdocs.com/temporary-license/) page."
+    - question: "<% "{index-content.faq.item_2.question}" %>"
+      answer: "<% "{index-content.faq.item_2.answer}" %>"
 
     # items loop
-    - question: "What licensing options are available?"
-      answer: "We provide several licensing models for GroupDocs.Search, tailored to different needs. Choose a license based on your team size, usage scenario, or whether you need the SDK/API for client distribution. For flexible usage, consider a metered license where you pay based on actual usage. Learn more about your options on the [pricing](https://purchase.groupdocs.com/pricing/search/net/) page."
+    - question: "<% "{index-content.faq.item_3.question}" %>"
+      answer: "<% "{index-content.faq.item_3.answer}" %>"
 
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "GroupDocs.Search Web Apps"
-  description: "Explore GroupDocs.Search with our free web application. Perform text searches and indexing on over 70 popular file formats directly in your browser—completely free."
+  title: "<% "{index-content.app_links.title}" %>"
+  description: "<% "{index-content.app_links.description}" %>"
 
   items:
     # items loop
     - title: "GroupDocs.Search Total"
-      content: "Search within PDF, Excel, Word, PowerPoint, and other file types straight from your web browser."
+      content: "<% "{index-content.app_links.item_1.content}" %>"
       icon: "groupdocs_watermark-app"
       link: "https://products.groupdocs.app/search/total"
 
     # items loop
     - title: "GroupDocs.Search Word"
-      content: "Upload DOCX to perform advanced text searches without needing to install software."
+      content: "<% "{index-content.app_links.item_2.content}" %>"
       icon: "groupdocs_words-app"
       link: "https://products.groupdocs.app/search/docx"
 
     # items loop
     - title: "GroupDocs.Search PDF"
-      content: "Test PDFs indexing and retrieval capabilities on various formats for free."
+      content: "<% "{index-content.app_links.item_3.content}" %>"
       icon: "groupdocs_pdf-app"
       link: "https://products.groupdocs.app/search/pdf"
 

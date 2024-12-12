@@ -156,7 +156,7 @@
     "title": "Advanced Document Search and Indexing with {{EnvNameShort}} API",
     "description": "Boost {{EnvNameShort}} applications with cutting-edge text search capabilities across popular document formats.",
     "actions_main": "Download {{PackageStoreName}} for Free",
-    "code_title": "Search a Directory Using {{ProgLang}}",
+    "code_title": "Search Text in Directory Files",
     "overview_description": "Explore {{EnvNameShort}} {{ProgLang}} library for robust text search and indexing.",
     "overview_feature_1": {
       "title": "{{EnvNameShort}} Indexing and Search Features",
@@ -240,7 +240,7 @@
     "title": "Efficient Document Search and Indexing with {{EnvNameShort}} API",
     "description": "Empower {{EnvNameShort}} applications with robust text search features across all popular document formats.",
     "actions_main": "Download {{PackageStoreName}} for Free",
-    "code_title": "Search Files in a Directory with {{ProgLang}}",
+    "code_title": "Find Text in Files Using {{ProgLang}}",
     "overview_description": "Discover the powerful text search capabilities of the {{EnvNameShort}} {{ProgLang}} library.",
     "overview_feature_1": {
       "title": "Indexing and Search Operations in {{EnvNameShort}}",
@@ -324,7 +324,7 @@
     "title": "Search & Index Documents using {{EnvNameShort}} API",
     "description": "Enhance {{EnvNameShort}} Applications by implementing Text Search in All Popular Document Formats.",
     "actions_main": "Free {{PackageStoreName}} Download",
-    "code_title": "Search in folder with {{ProgLang}}",
+    "code_title": "Perform Text Search in a Folder with {{ProgLang}}",
     "overview_description": "{{EnvNameShort}} {{ProgLang}} library for text search",
     "overview_feature_1": {
       "title": "{{EnvNameShort}} Indexing and Search Operations",

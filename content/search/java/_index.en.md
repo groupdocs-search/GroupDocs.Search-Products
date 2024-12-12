@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-11T15:07:52
+date: 2024-12-12T11:48:50
 draft: false
 
 lang: en
@@ -47,7 +47,7 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "Search Files in a Directory with Java"
+  title: "Find Text in Files Using Java"
   more: "More examples"
   more_link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Java/"
   install_title : "Maven XML"

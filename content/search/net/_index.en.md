@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-11T15:07:52
+date: 2024-12-12T11:48:50
 draft: false
 
 lang: en
@@ -47,7 +47,7 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "Search a Directory Using C#"
+  title: "Search Text in Directory Files"
   more: "More examples"
   more_link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
   install: "dotnet add package GroupDocs.Search"

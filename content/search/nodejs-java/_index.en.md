@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-11T15:07:52
+date: 2024-12-12T11:48:50
 draft: false
 
 lang: en
@@ -48,7 +48,7 @@ release:
   link: "https://releases.groupdocs.com/search/nodejs-java/"
 
 code:
-  title: "Search in folder with JavaScript"
+  title: "Perform Text Search in a Folder with JavaScript"
   more: "More examples"
   more_link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.search"

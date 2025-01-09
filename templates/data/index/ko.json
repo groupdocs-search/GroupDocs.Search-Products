@@ -1,146 +1,405 @@
 {
   "index-content": {
-    "words_for": "~을 위한",
-    "release_title": "버전 {0} 출시됨",
-    "release_notes": "새로운 소식 보기",
+    "head_title": "문서 텍스트 검색 및 인덱싱 | API 및 무료 웹 애플리케이션",
+    "head_description": " 우리의 API 또는 무료 온라인 문서 검색 앱을 사용하여 PDF, MS Office, OpenDocument 및 기타 인기 파일 형식에서 효율적인 텍스트 검색과 데이터 인덱싱을 수행하십시오.",
+    "title": "포괄적인 문서 검색 및 인덱싱 솔루션",
+    "description_1": "PDF, Microsoft Office, OpenOffice 및 많은 다른 문서 파일 형식에서 텍스트 검색 및 인덱싱을 수행하십시오.",
+    "description_2": "고급 전체 텍스트 검색 기능을 통해 대규모 문서 컬렉션에서 정보를 신속하게 찾아보십시오.",
+    "description_3": "정확도와 결과를 높이기 위해 동의어, 모호 검색 및 어간 추출과 같은 검색 기능을 사용자 정의하십시오.",
+    "words_for": "을 위한",
+    "release_title": "버전 {0} 출시",
+    "release_notes": "새로운 기능 보기",
     "release_downloads": "다운로드",
-    "code_more": "더 많은 예시",
-    "code_comment_1": "색인 생성 중",
-    "code_comment_2": "색인에 문서 추가",
-    "code_comment_3": "다음과 같은 다양한 단어를 검색합니다.",
+    "code_more": "더 많은 예제",
     "overview_title": "{{ProdShortName}} 개요",
+    "code_comment_1": "문서의 인덱스 생성",
+    "code_comment_2": "효율적인 검색을 위해 인덱스에 문서 추가",
+    "code_comment_3": "예를 들어, 특정 단어 또는 구문 검색",
     "formats_title": "지원되는 파일 형식",
     "platforms": {
       "title": "플랫폼 독립성",
-      "head_title": "플랫폼을 선택하세요",
-      "description": "{{ProdShortName}} 라이브러리는 다음 운영 체제 및 프레임워크를 지원합니다.",
-      "learn_more": "더 알아보기",
-      "any_other_text_editor": "다른 텍스트 편집기"
+      "head_title": "플랫폼 선택",
+      "description": "{{ProdShortName}}는 다음 운영 체제 및 프레임워크와 호환됩니다:",
+      "learn_more": "자세히 알아보기",
+      "any_other_text_editor": "기타 텍스트 편집기"
+    },
+    "features": {
+      "title": "{{ProdShortName}}의 주요 기능",
+      "description": "{{ProdShortName}}는 인기 있는 문서 형식에서 텍스트를 인덱싱하고 검색하기 위한 강력한 도구를 제공합니다. 고급 검색 기능으로 문서 관리를 간소화하고 향상시킵니다.",
+      "feature_1": {
+        "title": "고급 텍스트 검색",
+        "content": "인덱스된 문서에서 빠르고 정확한 텍스트 검색을 수행하십시오."
+      },
+      "feature_2": {
+        "title": "사용자 정의 가능한 검색 옵션",
+        "content": "정확한 결과를 얻기 위해 모호 검색, 동의어 및 어간 추출과 같은 기능을 활용하십시오."
+      },
+      "feature_3": {
+        "title": "다양한 형식 지원",
+        "content": "Microsoft Office, PDF, OpenOffice 및 기타 일반 형식에서 콘텐츠를 인덱스하고 검색하십시오."
+      },
+      "feature_4": {
+        "title": "효율적인 인덱싱",
+        "content": "대규모 문서 컬렉션에 대한 인덱스를 신속하게 생성하고 유지하십시오."
+      }
     },
     "formats": {
       "title": "70개 이상의 파일 형식 지원",
-      "description": "{{ProdShortName}}은 널리 사용되는 모든 파일 형식으로 검색 기능을 제공합니다."
+      "description": "{{ProdShortName}}는 거의 모든 널리 사용되는 파일 형식을 지원합니다."
     },
     "code_samples": {
       "title": "코드 샘플",
+      "index_title": "인기 문서 형식에서 텍스트 검색",
+      "index_description": "{{ProdShortName}} 코드 예제",
+      "more_examples": "더 많은 예제",
+      "sample_index": {
+        "title": "텍스트 검색",
+        "content": "{{ProdShortName}}는 문서에서 텍스트를 찾는 강력한 도구입니다. 특정 폴더에 저장된 여러 형식의 문서에서 검색할 수 있습니다. 검색 결과는 별도의 폴더에 저장되어 검색을 다시 수행하지 않고도 액세스 및 재사용할 수 있습니다.",
+        "comment_1": "{{textIndex}} 클래스의 인스턴스를 생성하고 인덱스를 저장할 폴더를 지정합니다.",
+        "comment_2": "검색이 수행될 문서의 경로를 지정합니다.",
+        "comment_3": "{{textSearchOptions}} 객체의 인스턴스를 생성합니다.",
+        "comment_4": "원하는 텍스트에 대해 검색을 수행합니다.",
+        "comment_5": "검색 결과를 처리하고 관리합니다."
+      },
       "sample_1": {
-        "code_title": "검색결과 처리 방법",
-        "comment_1": "색인 만들기",
+        "code_title": "검색 결과 처리 방법",
+        "comment_1": "인덱스 생성",
         "comment_2": "검색 옵션 설정",
-        "comment_3": "'water'라는 단어 또는 'Lorem ipsum'이라는 문구가 포함된 문서를 검색합니다.",
-        "comment_4": "프로세스 검색 결과"
+        "comment_3": "단어 'water' 또는 구문 'Lorem ipsum'이 포함된 문서를 검색합니다.",
+        "comment_4": "검색 결과 처리"
       },
       "sample_2": {
-        "code_title": "정규식을 사용하여 검색하는 방법",
-        "comment_1": "색인 만들기",
-        "comment_2": "텍스트 형태로 문구 검색",
-        "comment_3": "시작 부분의 첫 번째 캐럿 문자는 이것이 정규식 검색 쿼리임을 나타냅니다.",
-        "comment_4": "단어 시작 부분에서 두 개 이상의 동일한 문자를 검색합니다."
+        "code_title": "정규 표현식을 사용한 검색 방법",
+        "comment_1": "인덱스 생성",
+        "comment_2": "문자 형태로 구문 검색",
+        "comment_3": "처음에 나타나는 캐럿 문자는 이것이 정규 표현식 검색 쿼리임을 나타냅니다.",
+        "comment_4": "단어 시작 부분에 두 개 이상의 동일한 문자를 검색"
       }
     },
+    "metrics": {
+      "title": "우리 제품 통계",
+      "description": "우리의 성과, 도달 범위 및 성장률을 보여주는 주요 지표를 발견하십시오.",
+      "item_1": {
+        "title": "지원되는 형식",
+        "description": "70개 이상의 인기 문서 형식과의 호환성을 제공합니다."
+      },
+      "item_2": {
+        "title": "NuGet 다운로드",
+        "description": "{{ProdShortName}} for .NET는 NuGet에서 500,000회 이상 다운로드되었습니다."
+      },
+      "item_3": {
+        "title": "Maven 다운로드",
+        "description": "Java 개발자가 Maven에서 {{ProdShortName}}를 12,000회 이상 다운로드했습니다."
+      },
+      "item_4": {
+        "title": "만족한 고객",
+        "description": "전 세계의 개발자 및 주요 기업이 혁신적인 솔루션을 위해 우리 제품에 의존합니다."
+      }
+    },
+    "customers": {
+      "title": "우리의 행복한 고객들",
+      "description": "GroupDocs 라이브러리는 전 세계의 주요 브랜드와 조직으로부터 신뢰받고 있습니다."
+    },
     "actions": {
-      "alt": "라이선스",
-      "title": "시작할 준비가 되셨나요?",
-      "description": "{{ProdShortName}} 기능을 무료로 사용해 보거나 라이선스를 요청하세요",
-      "description_index": "귀하의 플랫폼에서 무료로 {{ProdShortName}} 기능을 사용해 보세요"
+      "alt": "라이센스",
+      "title": "지금 시작하세요!",
+      "description": "모든 기능을 잠금 해제하려면 {{ProdShortName}}의 기능을 무료로 탐색하거나 라이센스를 확보하십시오.",
+      "description_index": "선택한 플랫폼에서 {{ProdShortName}}을 무료로 체험하십시오."
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "{{ProdShortName}}에 대한 일반적인 질문에 대한 답을 찾으십시오.",
+      "item_1": {
+        "question": "{{ProdShortName}}는 문서 검색을 위해 외부 도구가 필요합니까?",
+        "answer": "아니요, {{ProdShortName}}는 독립형 솔루션으로 작동하며, 검색을 수행하기 위해 Adobe Acrobat이나 Microsoft Office와 같은 추가 도구나 소프트웨어가 필요하지 않습니다."
+      },
+      "item_2": {
+        "question": "{{ProdShortName}}를 구매하기 전에 테스트할 수 있습니까?",
+        "answer": "예, 가능합니다! {{ProdShortName}}는 무료 평가판을 제공합니다. 이 기능을 탐색할 수 있지만, 평가판 버전은 워터마크 또는 기능 제한과 같은 제한 사항이 포함될 수 있습니다. 모든 기능을 잠금 해제하려면 무료 30일 임시 라이센스를 요청할 수 있습니다. [임시 라이센스]({{LicensingUrl}}) 페이지에서 자세히 알아보십시오."
+      },
+      "item_3": {
+        "question": "어떤 라이센스 옵션이 있습니까?",
+        "answer": "{{ProdShortName}}에 대해 여러 라이센스 모델을 제공하며, 이는 다양한 요구에 맞춰 조정됩니다. 팀 크기, 사용 시나리오 또는 클라이언트 배포를 위한 SDK/API가 필요한지에 따라 라이센스를 선택하십시오. 유연한 사용을 원하시면 실제 사용량에 따라 비용을 지불하는 계량 라이센스를 고려하십시오. [가격 책정]({{PricingUrl}}) 페이지에서 옵션에 대해 자세히 알아보십시오."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} 웹 앱",
+      "description": "우리의 무료 웹 애플리케이션을 사용하여 {{ProdShortName}}을 탐색하십시오. 브라우저에서 직접 70개 이상의 인기 파일 형식에서 텍스트 검색 및 인덱싱을 수행하십시오—완전히 무료입니다.",
+      "item_1": {
+        "content": "PDF, Excel, Word, PowerPoint 및 기타 파일 형식에서 웹 브라우저로 직접 검색하십시오."
+      },
+      "item_2": {
+        "content": "소프트웨어 설치 없이 DOCX를 업로드하여 고급 텍스트 검색을 수행하십시오."
+      },
+      "item_3": {
+        "content": "다양한 형식에서 PDF 인덱싱 및 검색 기능을 무료로 테스트하십시오."
+      }
     },
     "formats_groups": {
-      "title_1": "인기 있는 Office 형식",
+      "title_1": "인기 사무용 형식",
       "title_2": "미디어 형식",
-      "title_3": "다른",
-      "format_portable": "가지고 다닐 수 있는",
-      "format_popular_images": "인기 있는 이미지 형식",
+      "title_3": "기타",
+      "format_portable": "휴대용",
+      "format_popular_images": "인기 이미지 형식",
       "format_multi_images": "다중 페이지 이미지",
       "format_multi_audio": "오디오",
-      "format_multi_video": "동영상",
-      "format_web": "편물",
+      "format_multi_video": "비디오",
+      "format_web": "웹",
       "format_text": "텍스트",
       "format_email": "이메일",
       "format_others": "기타"
     }
   },
-  "index-content-nodejs-java": {
-    "head_title": "{{EnvNameShort}} 문서, PDF, Office 및 웹용 텍스트 검색 및 색인 라이브러리",
-    "head_description": "PDF, Word, Excel, 프리젠테이션, 이메일 및 웹 파일 형식과 같은 문서에서 데이터를 검색, 색인화 및 수집하는 {{EnvNameShort}} 애플리케이션용 고급 텍스트 검색 솔루션입니다.",
-    "title": "{{EnvNameShort}} API를 사용하여 문서 검색 및 색인 생성",
-    "description": "모든 인기 있는 문서 형식에서 텍스트 검색을 구현하여 {{EnvNameShort}} 애플리케이션을 향상시킵니다.",
-    "actions_main": "무료 NPM 다운로드",
-    "code_title": "{{ProgLang}}으로 폴더에서 검색",
-    "overview_description": "텍스트 검색을 위한 {{EnvNameShort}} {{ProgLang}} 라이브러리",
+  "index-content-net": {
+    "head_title": "{{EnvNameShort}} PDF, Office 파일 및 기타에 대한 문서 검색 및 인덱싱 라이브러리",
+    "head_description": "PDF, Word, Excel, 발표, 이메일 및 웹 형식과 같은 문서에서 텍스트 검색 및 인덱싱을 위한 강력한 {{EnvNameShort}} 솔루션.",
+    "title": "{{EnvNameShort}} API로 고급 문서 검색 및 인덱싱",
+    "description": "{{EnvNameShort}} 애플리케이션에 인기 문서 형식의 최첨단 텍스트 검색 기능을 추가하십시오.",
+    "actions_main": "{{PackageStoreName}} 무료 다운로드",
+    "code_title": "디렉토리 파일의 텍스트 검색",
+    "overview_description": "{{EnvNameShort}} {{ProgLang}} 라이브러리를 통해 강력한 텍스트 검색 및 인덱싱을 탐색하십시오.",
     "overview_feature_1": {
-      "title": "{{EnvNameShort}} 색인 생성 및 검색 작업",
-      "description": "{{ProdFullName}}의 색인 생성은 정확하고 효율적인 검색 작업을 위해 데이터를 수집, 저장 및 구문 분석합니다. 이러한 인덱스는 검색을 수행하는 데 자주 사용됩니다."
+      "title": "{{EnvNameShort}} 인덱싱 및 검색 기능",
+      "description": "{{ProdFullName}}를 사용하여 문서 데이터를 효율적으로 인덱싱, 저장 및 처리하여 매우 정확하고 빠른 검색 작업을 수행합니다."
     },
     "overview_feature_2": {
-      "title": "여러 인덱스를 병합하여 검색 효율성 향상",
-      "description": "{{ProdFullName}} API를 사용하면 여러 색인을 하나로 병합할 수 있습니다. 자주 수정하면 여러 델타 인덱스가 생성되어 검색 성능이 저하될 수 있습니다. 우리의 솔루션은 이러한 델타 인덱스를 병합된 델타 인덱스의 모든 정보를 포함하는 공통 인덱스로 병합하여 델타 인덱스를 변경하지 않고 유지하면서 검색 효율성을 크게 향상시킵니다. 이 프로세스를 미세 조정하기 위해 다양한 기능을 구성할 수 있습니다."
+      "title": "검색 속도 향상을 위한 인덱스 결합",
+      "description": "{{ProdFullName}}를 사용하여 여러 인덱스를 병합하여 성능을 최적화하십시오. 델타 인덱스의 영향을 줄이기 위해 여러 인덱스를 포괄적인 인덱스로 결합하여 더 원활한 검색을 할 수 있습니다."
     },
     "overview_feature_3": {
-      "title": "다양한 키보드 레이아웃의 검색어 인식",
-      "description": "{{ProdFullName}}은 키보드 레이아웃과 일치하지 않는 검색어를 인식합니다. 현재 88개 언어와 164개 키보드 레이아웃이 지원됩니다."
+      "title": "다양한 키보드 레이아웃간 검색",
+      "description": "{{ProdFullName}}의 지능형 인식을 통해 88개 언어와 164개의 키보드 레이아웃에서 검색 쿼리를 쉽게 처리하십시오."
     },
     "overview_feature_4": {
-      "title": "형태론적 단어 형식을 사용하여 검색",
-      "description": "{{ProdFullName}}을(를) 사용하면 단수 및 복수 명사, 모든 형태의 동사 등 다양한 단어 형태를 검색할 수 있습니다. 영어와 영어가 아닌 언어는 특정 단어 형식에 맞게 사용자 정의할 수 있습니다."
+      "title": "형태론적 단어 검색",
+      "description": "{{ProdFullName}}는 단수/복수 명사 및 다양한 동사 형태와 같은 단어 변형에 대한 검색을 지원하며, 다양한 언어에 맞게 사용자 정의할 수 있습니다."
     },
     "features": {
-      "title": "{{ProdFullName}} 기능",
-      "description": "PDF, DOCX, XLSX, PPTX 등 널리 사용되는 파일 형식을 지원하는 고급 검색 엔진을 사용하여 비즈니스 문서 콘텐츠를 제어하세요.",
+      "title": "{{ProdFullName}}의 주요 기능",
+      "description": "PDF, DOCX, XLSX, PPTX 등과 같은 인기 형식에서 고급 검색 기능으로 문서 관리를 간소화하십시오.",
       "feature_1": {
-        "title": "유연한 매개변수",
-        "content": "날짜 범위 및 대소문자 구분을 검색 매개변수로 사용"
+        "title": "유연한 검색 매개변수",
+        "content": "기간 및 대소문자 구분과 같은 필터를 사용하여 검색을 세분화하십시오."
       },
       "feature_2": {
-        "title": "맞춤법 검사 검색",
-        "content": "맞춤법 검사 및 와일드카드와 함께 검색 문구 사용 및 쿼리에서 특수 문자 건너뛰기"
+        "title": "스마트 맞춤법 검사",
+        "content": "맞춤법 수정, 와일드카드 및 무시할 특수 문자로 검색 구문을 처리하십시오."
       },
       "feature_3": {
-        "title": "결과 필터링",
-        "content": "검색 결과에서 문서 필터링 설정"
+        "title": "필터링된 검색 결과",
+        "content": "문서 유형이나 기준에 따라 검색 결과를 사용자 정의하고 필터링하십시오."
       },
       "feature_4": {
-        "title": "수입 수출",
-        "content": "인덱싱 및 파일로 내보내기 중에 문자 수정을 위해 가져오기 또는 목록 사용 수행"
+        "title": "인덱스 가져오기 및 내보내기",
+        "content": "데이터를 가져오고 인덱싱 설정을 수정하며 인덱싱된 결과를 내보내십시오."
       },
       "feature_5": {
-        "title": "불필요한 데이터 건너뛰기",
-        "content": "특정 파일에 대한 인덱싱을 선택적으로 건너뛰고 특정 단어를 건너뛰어 더 빠르게 인덱싱합니다."
+        "title": "관련 없는 데이터 제외",
+        "content": "특정 파일이나 단어를 건너뛰어 인덱싱을 최적화하십시오."
       },
       "feature_6": {
-        "title": "URL 처리",
-        "content": "HTML 형식의 텍스트를 파일로 추출하고 URL을 생성하여 HTML에서 검색 결과 탐색"
+        "title": "URL 추출",
+        "content": "HTML 형식의 텍스트를 파일로 변환하고 검색 결과에 대한 링크를 생성하십시오."
       },
       "feature_7": {
-        "title": "신속한 검색",
-        "content": "큰 인덱스를 빠르게 검색하기 위해 검색을 더 작은 청크로 나누기"
+        "title": "고속 검색",
+        "content": "대용량 인덱스를 더 작은 부분으로 나누어 처리 속도를 높이십시오."
       },
       "feature_8": {
-        "title": "스트림 처리",
-        "content": "스트림 및 데이터 구조의 문서 색인"
+        "title": "데이터 스트림 처리",
+        "content": "데이터 스트림 및 구조에서 직접 문서를 인덱싱하십시오."
       },
       "feature_9": {
-        "title": "철자 오류 처리",
-        "content": "철자가 틀린 경우 대체 단어 제안을 제공하기 위해 발견된 각 단어에 대해 정확한 발생 횟수를 활성화합니다."
+        "title": "맞춤법 오류 감지",
+        "content": "대체 단어를 제안하고 발생 횟수를 추적하여 정확성을 향상시키십시오."
       },
       "feature_10": {
         "title": "아카이브 지원",
-        "content": "다른 ZIP 아카이브 내의 압축된 아카이브 색인화 및 아카이브에서 색인화된 파일 목록 검색"
+        "content": "중첩된 ZIP 아카이브를 인덱싱하고 그 안의 파일 세부정보를 검색하십시오."
       },
       "feature_11": {
-        "title": "디스크 공간 절약",
-        "content": "컴팩트 색인 및 색인 비밀번호 보안 문서로 공간 절약"
+        "title": "효율적인 인덱싱",
+        "content": "Compact indexing으로 디스크 공간을 절약하고 암호 보호 문서를 처리하십시오."
+      },
+      "feature_12": {
+        "title": "사용자 정의 동의어",
+        "content": "맞춤 검색 결과를 위해 동의어를 추가하고 관리하십시오."
+      }
+    },
+    "platforms_description": "{{ProdFullName}}는 주요 운영 체제와 패키지 관리자를 통해 원활하게 작동합니다.",
+    "formats_description": "{{ProdFullName}}를 사용하여 다양한 파일 형식을 처리하십시오. [지원되는 모든 형식 보기]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "{{ProdFullName}}의 강력한 기능을 실제 예제로 발견하십시오.",
+    "code_title_sample_1": "모호 검색으로 생산성 향상",
+    "code_samples_sample_1_content": "고급 검색 알고리즘을 통해 유연하고 정확한 콘텐츠 제어를 위해 {{ProdFullName}}를 활용하십시오. [자세히 알아보기]({{Sample1Url}}).",
+    "code_title_sample_2": "정규 표현식을 사용한 고급 검색",
+    "code_samples_sample_2_content": "{{ProdFullName}}는 정확한 검색을 위해 정규 표현식을 지원합니다. [고급 기술 알아보기]({{Sample2Url}})."
+  },
+  "index-content-java": {
+    "head_title": "{{EnvNameShort}} PDF, Office 파일 및 웹 콘텐츠에 대한 문서 검색 및 인덱싱 솔루션",
+    "head_description": "{{EnvNameShort}} 애플리케이션을 위한 강력한 텍스트 검색 및 인덱싱. PDF, Word, Excel, 발표, 이메일 및 웹 형식에서 데이터를 쉽게 검색하고 구성하십시오.",
+    "title": "{{EnvNameShort}} API로 효율적인 문서 검색 및 인덱싱",
+    "description": "{{EnvNameShort}} 애플리케이션을 모든 인기 문서 형식에서 강력한 텍스트 검색 기능으로 응원하십시오.",
+    "actions_main": "{{PackageStoreName}} 무료 다운로드",
+    "code_title": "{{ProgLang}}를 사용하여 파일에서 텍스트 찾기",
+    "overview_description": "{{EnvNameShort}} {{ProgLang}} 라이브러리의 강력한 텍스트 검색 기능을 발견하십시오.",
+    "overview_feature_1": {
+      "title": "{{EnvNameShort}}에서의 인덱싱 및 검색 작업",
+      "description": "{{ProdFullName}}를 사용하여 데이터를 효율적으로 수집, 저장 및 분석하여 더 빠르고 더 정확한 검색을 위한 상세 인덱스를 생성할 수 있습니다."
+    },
+    "overview_feature_2": {
+      "title": "인덱스를 병합하여 검색 최적화",
+      "description": "{{ProdFullName}}로 여러 인덱스를 쉽게 결합하여 검색을 간소화하십시오. 작은 델타 인덱스의 영향을 줄이기 위해 이를 단일 고성능 인덱스로 통합하십시오."
+    },
+    "overview_feature_3": {
+      "title": "다국어 키보드 레이아웃 지원",
+      "description": "{{ProdFullName}}로 다양한 언어와 키보드 레이아웃을 통해 검색하십시오. 88개 언어 및 164개의 키보드 구성으로 비교할 수 없는 다재다능성을 갖추고 있습니다."
+    },
+    "overview_feature_4": {
+      "title": "형태론적 검색 기능",
+      "description": "{{ProdFullName}}를 사용하여 단수/복수 명사 및 동사 변형과 같은 다양한 단어 형태를 찾으십시오. 검색 옵션은 영어 및 기타 언어에 맞게 사용자 정의할 수 있습니다."
+    },
+    "features": {
+      "title": "{{ProdFullName}}의 기능",
+      "description": "PDF, DOCX, XLSX, PPTX 등과 같은 형식을 지원하는 고급 검색 기능으로 문서 콘텐츠를 효과적으로 관리하십시오.",
+      "feature_1": {
+        "title": "사용자 정의 가능한 검색 매개변수",
+        "content": "기간 범위 및 대소문자 구분 필터를 사용하여 검색을 세분화하십시오."
+      },
+      "feature_2": {
+        "title": "향상된 맞춤법 검사",
+        "content": "효율적으로 검색하기 위해 맞춤법 검사, 와일드카드 및 특수 문자를 무시하십시오."
+      },
+      "feature_3": {
+        "title": "필터링된 검색 결과",
+        "content": "특정 문서 유형 또는 기준에 기반하여 검색 결과를 필터링하십시오."
+      },
+      "feature_4": {
+        "title": "인덱스 데이터 가져오기 및 내보내기",
+        "content": "인덱싱을 위한 데이터를 쉽게 가져오고, 결과를 파일로 내보내십시오."
+      },
+      "feature_5": {
+        "title": "불필요한 파일 건너뛰기",
+        "content": "특정 파일이나 단어를 제외하여 인덱싱을 최적화합니다."
+      },
+      "feature_6": {
+        "title": "HTML 및 URL 처리",
+        "content": "HTML 내용을 파일로 추출하고 검색 결과를 통해 내비게이션하는 URL을 생성하십시오."
+      },
+      "feature_7": {
+        "title": "대형 인덱스에서 고속 검색",
+        "content": "크고 관리하기 쉬운 청사진을 나누어 놓을 수 있는 방법을 사용할 수 있습니다."
+      },
+      "feature_8": {
+        "title": "스트림 기반 인덱싱",
+        "content": "스트림 또는 데이터 구조에서 직접 데이터를 인덱싱하십시오."
+      },
+      "feature_9": {
+        "title": "잘못된 쿼리 처리",
+        "content": "잘못된 철자 및 대체 단어를 제안하여 더 나은 검색 정확성을 기초하십시오."
+      },
+      "feature_10": {
+        "title": "포괄적인 아카이브 지원",
+        "content": "모든 ZIP 파일 내에서 중첩 아카이브를 인덱싱하고 파일의 세부사항을 검색하십시오."
+      },
+      "feature_11": {
+        "title": "공간 절약형 인덱싱",
+        "content": "디스크 공간을 절약할 수 있는 컴팩트한 인덱싱으로 사용하고 암호 보호된 문서를 처리하십시오."
+      },
+      "feature_12": {
+        "title": "사용자 지정 동의어 지원",
+        "content": "동의어 사전을 확대하여 맞춰진 옵션으로 검색 정확도를 향상시키십시오."
+      }
+    },
+    "platforms_description": "{{ProdFullName}}는 주요 운영 체제 및 패키지 관리자가 호환됩니다.",
+    "formats_description": "포괄적인 형식 범위를 사용할 수 있습니다. [전체 목록 보기]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "코드 예제를 통해 {{ProdFullName}}의 기능을 살펴보십시오.",
+    "code_title_sample_1": "모호 일치를 통해 검색 정확성 향상",
+    "code_samples_sample_1_content": "고급 모호 검색 기능으로 콘텐츠를 관리하기 위해 {{ProdFullName}}의 유연함을 활용하십시오. [더 알아보기]({{Sample1Url}}).",
+    "code_title_sample_2": "정규 표현식으로 결과 세분화",
+    "code_samples_sample_2_content": "{{ProdFullName}}에서 정규 표현식을 사용하여 정밀하고 상세한 검색을 수행하십시오. [고급 기술 탐색]({{Sample2Url}})."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{EnvNameShort}} 문서, PDF, Office 및 웹을 위한 텍스트 검색 및 인덱싱 라이브러리",
+    "head_description": "{{EnvNameShort}} 애플리케이션을 위한 고급 텍스트 검색 솔루션으로 문서에서 데이터를 검색하고 인덱싱 및 수집합니다: PDF, Word, Excel, 발표, 이메일 및 웹 파일 형식.",
+    "title": "{{EnvNameShort}} API를 사용하여 문서 검색 및 인덱싱",
+    "description": "{{EnvNameShort}} 애플리케이션을 향상시켜 모든 인기 문서 형식에서 텍스트 검색을 구현합니다.",
+    "actions_main": "{{PackageStoreName}} 무료 다운로드",
+    "code_title": "{{ProgLang}}로 폴더에서 텍스트 검색 수행",
+    "overview_description": "{{EnvNameShort}} {{ProgLang}} 라이브러리로 텍스트 검색",
+    "overview_feature_1": {
+      "title": "{{EnvNameShort}} 인덱싱 및 검색 작업",
+      "description": "{{ProdFullName}}에서 인덱싱은 데이터를 정확하고 효율적으로 수집, 저장 및 파싱하여 검색 운영을 수행합니다. 이 인덱스는 검색 수행에 자주 사용됩니다."
+    },
+    "overview_feature_2": {
+      "title": "검색 효율성을 높이기 위해 여러 인덱스 병합",
+      "description": "{{ProdFullName}} API는 여러 인덱스를 병합하여 하나로 만들 수 있습니다. 빈번한 수정으로 인해 여러 델타 인덱스가 생성될 수 있으며 이는 검색 성능을 저하시킬 수 있습니다. 우리의 솔루션은 이러한 델타 인덱스를 일반 인덱스로 병합하여 검색 효율성을 크게 향상시키는 동시에 델타 인덱스는 변경하지 않습니다. 다양한 기능을 구성하여 이 프로세스를 세부 조정할 수 있습니다."
+    },
+    "overview_feature_3": {
+      "title": "다른 키보드 레이아웃에서 검색 쿼리 인식",
+      "description": "{{ProdFullName}}는 키보드 레이아웃과 일치하지 않는 검색 쿼리를 인식합니다. 현재 88개 언어 및 164개의 키보드 레이아웃이 지원됩니다."
+    },
+    "overview_feature_4": {
+      "title": "형태론적 단어 형태 검색",
+      "description": "{{ProdFullName}}를 사용해서 다양한 단어 형태를 검색할 수 있습니다. 복수 및 단수 명사 또는 다양하게 변형된 동사를 사용해 검색할 수 있습니다. 영어 및 비영어 언어는 특정 단어 형태에 맞게 사용자 정의할 수 있습니다."
+    },
+    "features": {
+      "title": "{{ProdFullName}} 기능",
+      "description": "PDF, DOCX, XLSX, PPTX 및 기타 파일 형식에서 인기 있는 파일 형식을 지원하는 고급 검색 엔진을 통해 비즈니스 문서 콘텐츠를 제어하십시오.",
+      "feature_1": {
+        "title": "유연한 매개변수",
+        "content": "검색 매개변수로 기간 및 대소문자 구분 사용"
+      },
+      "feature_2": {
+        "title": "맞춤법 검사 검색",
+        "content": "특수 문자를 건너뛰고 검색 구문에 맞춤법 검사와 와일드카드를 사용하세요."
+      },
+      "feature_3": {
+        "title": "결과 필터링",
+        "content": "검색 결과에서 문서 필터링을 설정합니다."
+      },
+      "feature_4": {
+        "title": "가져오기 및 내보내기",
+        "content": "인덱싱 중 문자 수정을 위해 가져오기 수행하거나 목록을 사용하고 파일로 내보내기"
+      },
+      "feature_5": {
+        "title": "불필요한 데이터 건너뛰기",
+        "content": "특정 파일에 대한 인덱싱을 선택적으로 건너뛰고 특정 단어는 더 빠르게 인덱스할 수 있습니다."
+      },
+      "feature_6": {
+        "title": "URL 처리",
+        "content": "HTML 형식의 텍스트를 파일로 추출하고 검색 결과에서 HTML 내비게이션 URL을 생성합니다."
+      },
+      "feature_7": {
+        "title": "신속한 검색",
+        "content": "더 빠른 대형 인덱스를 위해 검색을 더 작은 청크로 나눕니다."
+      },
+      "feature_8": {
+        "title": "스트림 처리",
+        "content": "스트림 및 데이터 구조에서 문서 인덱싱"
+      },
+      "feature_9": {
+        "title": "맞춤법 처리",
+        "content": "잘못된 철자의 경우 발생 횟수를 정확하게 제시하여 대체 단어 제안을 제공합니다."
+      },
+      "feature_10": {
+        "title": "아카이브 지원",
+        "content": "ZIP 아카이브 내의 압축 아카이브 인덱싱 및 아카이브 내 인덱스된 파일 목록 검색"
+      },
+      "feature_11": {
+        "title": "공간 절약형 인덱싱",
+        "content": "Compact indexing 및 암호 보호된 문서 인덱싱"
       },
       "feature_12": {
         "title": "사용자 정의 동의어",
         "content": "기본 동의어 사전에 영어 동의어 추가"
       }
     },
-    "platforms_description": "{{ProdFullName}}은 널리 사용되는 모든 운영 체제 및 패키지 관리자를 지원합니다.",
-    "formats_description": "{{ProdFullName}}을(를) 사용하면 다양한 파일 형식을 처리할 수 있습니다. [전체 목록 살펴보기]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "예시를 통해 {{ProdFullName}} 기능 살펴보기",
-    "code_title_sample_1": "퍼지 검색을 사용하여 생산성 향상",
-    "code_samples_sample_1_content": "정교한 검색 알고리즘을 통해 문서 콘텐츠 제어를 강화하는 유연한 {{ProdFullName}} 기능을 즐겨보세요. [자세히 알아보기]({{Sample1Url}}).",
-    "code_title_sample_2": "고급 검색 시나리오에 정규식을 사용할 수 있습니다.",
-    "code_samples_sample_2_content": "{{ProdFullName}}에서는 검색 결과 범위를 좁히기 위해 정규 표현식을 사용할 수 있습니다. [고급 검색 기술을 살펴보세요]({{Sample2Url}})."
+    "platforms_description": "{{ProdFullName}}는 모든 인기 운영 체제 및 패키지 관리자를 지원합니다.",
+    "formats_description": "{{ProdFullName}}를 통해 다양한 파일 형식을 처리할 수 있습니다. [전체 목록 탐색]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "{{ProdFullName}} 기능을 예제를 통해 탐색하세요.",
+    "code_title_sample_1": "생산성 향상을 위한 '모호' 검색 사용",
+    "code_samples_sample_1_content": "정교한 검색 알고리즘을 통해 문서 내용 제어를 향상시키는 {{ProdFullName}}의 유연함을 즐기세요. [더 알아보기]({{Sample1Url}}).",
+    "code_title_sample_2": "고급 검색 시나리오에 대한 정규 표현식 사용 가능",
+    "code_samples_sample_2_content": "{{ProdFullName}}는 검색 결과를 좁히기 위해 정규 표현식을 사용할 수 있습니다. [고급 검색 기술 알아보기]({{Sample2Url}})."
   }
 }

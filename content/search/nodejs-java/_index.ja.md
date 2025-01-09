@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-04T14:43:38
+date: 2025-01-09T15:38:59
 draft: false
 
 lang: ja
@@ -24,43 +24,45 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Node.js ドキュメント、PDF、Office、Web 用のテキスト検索およびインデックス作成ライブラリ"
-head_description: "PDF、Word、Excel、プレゼンテーション、電子メール、Web ファイル形式などのドキュメントからデータを検索、インデックス付け、収集するための Node.js アプリケーション向けの高度なテキスト検索ソリューション。"
+head_title: "Node.js ドキュメント、PDF、Office、ウェブのテキスト検索およびインデックス作成ライブラリ"
+head_description: "Node.jsアプリケーション向けの高度なテキスト検索ソリューション。ドキュメント（PDF、Word、Excel、プレゼンテーション、メール、ウェブファイル形式）からデータを検索、インデックス化、および収集できます。"
 
 ############################# Header ############################
-title: "Node.js API を使用したドキュメントの検索とインデックス付け"
-description: "すべての一般的なドキュメント形式でテキスト検索を実装することで、Node.js アプリケーションを強化します。"
+title: "Node.js APIを使用してドキュメントを検索およびインデックス作成"
+description: "すべての一般的なドキュメント形式でテキスト検索を実装することにより、Node.jsアプリケーションを強化します。"
 words:
-  for: "のために"
+  for: "のための"
 
 actions:
-  main: "NPM の無料ダウンロード"
+  main: "無料のNPMダウンロード"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.search"
-  alt: "ライセンス"
+  alt: "ライセンス管理"
   alt_link: "https://purchase.groupdocs.com/pricing/search/nodejs-java/"
-  title: "始める準備はできていますか?"
-  description: "GroupDocs.Search の機能を無料で試すか、ライセンスをリクエストしてください"
+  title: "今日から旅を始めましょう！"
+  description: "GroupDocs.Searchの機能を無料で探索するか、ライセンスを取得してその可能性を最大限に活かしてください。"
 
 release:
-  title: "バージョン {0} がリリースされました"
-  notes: "新機能を見る"
+  title: "バージョン {0} リリース"
+  notes: "新着情報を確認する"
   downloads: "ダウンロード"
   link: "https://releases.groupdocs.com/search/nodejs-java/"
 
 code:
-  title: "JavaScript でフォルダ内を検索"
-  more: "他の例"
+  title: "JavaScriptを使用してフォルダー内でテキスト検索を実行"
+  more: "その他の例"
   more_link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.search"
   content: |
     ```javascript {style=abap}
-    // インデックスの作成
-    const index = new Index('c:/MyIndex');
+    const searchLib = require('@groupdocs/groupdocs.search');
 
-    // ドキュメントをインデックスに追加する
+    // ドキュメント用のインデックスを作成
+    const index = new searchLib.Index('c:/MyIndex');
+
+    // 効率的な検索のためにインデックスに文書を追加
     index.add('c:/MyDocuments');
     
-    // などのさまざまな単語を検索すると、
+    // 特定の単語やフレーズを検索。例:
     // 'affect', 'effect', 'principles', 'principally'
     const results = index.search('?ffect & princip?(2~4)');
     ```
@@ -68,30 +70,30 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Search の概要"
-  description: "テキスト検索用の Node.js JavaScript ライブラリ"
+  title: "GroupDocs.Search 概要"
+  description: "Node.js JavaScriptライブラリによるテキスト検索"
   features:
     # feature loop
-    - title: "Node.js インデックス作成と検索操作"
-      content: "GroupDocs.Search for Node.js via Java のインデックス作成により、データが収集、保存、解析され、正確かつ効率的な検索操作が可能になります。これらのインデックスは、検索を実行するために頻繁に使用されます。"
+    - title: "Node.jsにおけるインデックス作成と検索操作"
+      content: "GroupDocs.Search for Node.js via Javaのインデックス作成では、データを収集、保存し、正確で効率的な検索操作のために解析します。これらのインデックスは、検索を実行するためによく使用されます。"
 
     # feature loop
-    - title: "複数のインデックスを結合して検索効率を向上"
-      content: "GroupDocs.Search for Node.js via Java API を使用すると、複数のインデックスを 1 つに結合できます。頻繁に変更を行うと複数の差分インデックスが作成され、検索パフォーマンスが低下する可能性があります。当社のソリューションは、これらのデルタ インデックスを、マージされたデルタ インデックスからのすべての情報を含む共通インデックスにマージし、デルタ インデックスを変更せずに検索効率を大幅に向上させます。このプロセスを微調整するためにさまざまな機能を構成できます。"
+    - title: "検索効率を向上させるために複数のインデックスを結合"
+      content: "GroupDocs.Search for Node.js via Java APIは、複数のインデックスを1つに結合することを可能にします。頻繁な変更により、複数のデルタインデックスが作成され、検索パフォーマンスが低下する可能性があります。当社のソリューションでは、これらのデルタインデックスを共通インデックスに結合し、すべての情報を一元管理し、その結果、検索効率が大幅に向上します。"
 
     # feature loop
-    - title: "さまざまなキーボード レイアウトからの検索クエリを認識する"
-      content: "GroupDocs.Search for Node.js via Java は、キーボード レイアウトと一致しない検索クエリを認識します。現在、88 の言語と 164 の異なるキーボード レイアウトがサポートされています。"
+    - title: "異なるキーボードレイアウトからの検索クエリを認識"
+      content: "GroupDocs.Search for Node.js via Javaは、キーボードレイアウトと一致しない検索クエリを認識します。現在、88の言語と164の異なるキーボードレイアウトに対応しています。"
 
     # feature loop
-    - title: "形態学的単語形式を使用した検索"
-      content: "GroupDocs.Search for Node.js via Java を使用すると、名詞の単数形や複数形、動詞のすべての形など、さまざまな語形を検索できます。英語および英語以外の言語は、特定の語形に合わせてカスタマイズできます。"
+    - title: "形態素単語での検索が可能"
+      content: "GroupDocs.Search for Node.js via Javaを使用すれば、単数形と複数形の名詞や動詞全般といったさまざまな単語の形を検索できます。英語や他の言語に特化したカスタマイズが可能です。"
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "プラットフォームの独立性"
-  description: "GroupDocs.Search for Node.js via Java は、すべての一般的なオペレーティング システムとパッケージ マネージャーをサポートしています。"
+  description: "GroupDocs.Search for Node.js via Javaはすべての一般的なオペレーティングシステムおよびパッケージマネージャーをサポートしています。"
   items:
     # platform loop
     - title: "Windows"
@@ -130,33 +132,33 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "サポートされているファイル形式"
+  title: "サポートされるファイル形式"
   description: |
-    GroupDocs.Search for Node.js via Java を使用すると、幅広いファイル形式を処理できます。 [完全なリストを確認](https://docs.groupdocs.com/search/java/supported-document-formats/)。
+    GroupDocs.Search for Node.js via Javaを使用して幅広いファイル形式を処理します。[完全なリストを探る](https://docs.groupdocs.com/search/nodejs-java/supported-document-formats/)。
   groups:
     # group loop
     - color: "green"
       content: |
-        ### 一般的な Office フォーマット
+        ### 一般的なオフィス形式
         * **ポータブル:** PDF 
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM
         * **Excel:** XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
         * **PowerPoint:** PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
         * **OpenDocument:** ODT, ODP, ODS, OTT, OTS
-        * **文章:** TXT, RTF
+        * **テキスト:** TXT, RTF
     # group loop
     - color: "blue"
       content: |
-        ### メディアフォーマット
+        ### メディア形式
         * **一般的な画像形式:** BMP, JP2, PNG, EMF, WMF, JPG, PSD
-        * **複数ページの画像:** GIF, WEBP, TIFF
+        * **マルチページ画像:** GIF, WEBP, TIFF
         * **オーディオ:** MP3, WAV
         * **ビデオ:** AVI, MOV, QT, FLV, ASF
       # group loop
     - color: "red"
       content: |
-        ### 他の
-        * **Eメール:**  PST, OST, MSG, EML, EMLX
+        ### その他
+        * **メール:**  PST, OST, MSG, EML, EMLX
         * **Microsoft Visio:** VSD, VSS
         * **ウェブ:**  XML, HTM, HTML, XHTML, MHT, MHTML
         * **その他:**  TORRENT, ZIP, DCM, DJVU, EPUB, FB2
@@ -164,122 +166,126 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Search for Node.js via Java の機能"
-  description: "PDF、DOCX、XLSX、PPTX などの一般的なファイル形式をサポートする高度な検索エンジンを使用してビジネス ドキュメントのコンテンツを管理します。"
+  title: "GroupDocs.Search for Node.js via Javaの機能"
+  description: "PDF、DOCX、XLSX、PPTXなどの一般的なファイル形式をサポートする高度な検索エンジンを使用して、ビジネスドキュメントの内容を管理します。"
 
   items:
     # feature loop
     - icon: "document_info"
       title: "柔軟なパラメータ"
-      content: "検索パラメータとして日付範囲と大文字と小文字の区別を使用する"
+      content: "日付範囲および大文字小文字の区別を検索パラメータとして使用します。"
 
     # feature loop
     - icon: "detect"
       title: "スペルチェック検索"
-      content: "スペルチェックとワイルドカードを含む検索フレーズを使用し、クエリ内の特殊文字をスキップする"
+      content: "スペルチェックとワイルドカードを使用し、クエリで特殊文字をスキップします。"
 
     # feature loop
     - icon: "collect"
       title: "結果のフィルタリング"
-      content: "検索結果でのドキュメント フィルタリングの設定"
+      content: "検索結果において文書の種類を設定します。"
 
     # feature loop
     - icon: "get"
-      title: "インポート・エクスポート"
-      content: "インデックス作成およびファイルへのエクスポート中にインポートを実行するかリストを使用して文字を変更する"
+      title: "インポートおよびエクスポート"
+      content: "インポートを実行したり、インデックス化中に文字を修正するためのリストを使用してファイルにエクスポートします。"
 
     # feature loop
     - icon: "remove"
-      title: "不要なデータをスキップする"
-      content: "特定のファイルのインデックス作成を選択的にスキップし、特定の単語をスキップしてインデックスを高速化します"
+      title: "不必要なデータをスキップ"
+      content: "特定のファイルに対してインデックス化を選択的にスキップし、特定の単語をスキップして迅速にインデックス化します。"
 
     # feature loop
     - icon: "style"
       title: "URL処理"
-      content: "HTML 形式のテキストをファイルに抽出し、HTML で検索結果をナビゲートするための URL を生成します"
+      content: "HTML形式のテキストをファイルに抽出し、検索結果をHTMLでナビゲートするためのURLを生成します。"
 
     # feature loop
     - icon: "detect"
-      title: "迅速な検索"
-      content: "検索をより小さなチャンクに分割して、大規模なインデックスを迅速に検索する"
+      title: "迅速検索"
+      content: "検索を小さなチャンクに分割して、大きなインデックスを迅速に検索します。"
 
     # feature loop
     - icon: "manipulate"
       title: "ストリーム処理"
-      content: "ストリームとデータ構造からドキュメントにインデックスを付ける"
+      content: "ストリームおよびデータ構造から文書をインデックス化します。"
 
     # feature loop
     - icon: "compare"
-      title: "スペルミスの処理"
-      content: "見つかった各単語の正確な出現数を有効にして、スペルミスの場合に代替単語の提案を提供します"
+      title: "誤字を扱う"
+      content: "発見した各単語の出現回数を正確に提示し、誤字の場合に代替単語の提案を行います。"
 
     # feature loop
     - icon: "unreadable_characters"
-      title: "アーカイブサポート"
-      content: "他の ZIP アーカイブ内の ZIP アーカイブにインデックスを付け、アーカイブ内のインデックス付きファイルのリストを取得する"
+      title: "アーカイブのサポート"
+      content: "他のZIPアーカイブ内の圧縮アーカイブをインデックス化し、アーカイブ内のインデックスされたファイルのリストを取得します。"
 
     # feature loop
     - icon: "hidden_print"
-      title: "ディスク容量の節約"
-      content: "コンパクトなインデックス作成とパスワードで保護されたドキュメントのインデックス作成でスペースを節約"
+      title: "ディスクスペースの節約"
+      content: "コンパクトなインデックスでスペースを節約し、パスワード保護された文書のインデックスを作成します。"
 
     # feature loop
     - icon: "style"
       title: "カスタム同義語"
-      content: "英語の同義語をデフォルトの同義語辞書に追加"
+      content: "デフォルトの同義語辞書に英語の同義語を追加します。"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "コードサンプル"
-  description: "例を使用して GroupDocs.Search for Node.js via Java の機能を探索する"
+  description: "GroupDocs.Search for Node.js via Javaの機能例を探検してください。"
   items:
     # code sample loop
-    - title: "あいまい検索を使用して生産性を向上させる"
+    - title: "'ファジー'検索を使用して生産性を向上"
       content: |
-        柔軟な GroupDocs.Search for Node.js via Java 機能を利用して、洗練された検索アルゴリズムによってドキュメント コンテンツの制御を強化します。 [詳細](https://docs.groupdocs.com/search/java/search-results/)。
-        {{< landing/code title="検索結果の処理方法">}}
+        洗練された検索アルゴリズムによって文書のコンテンツ管理を向上させる柔軟なGroupDocs.Search for Node.js via Javaの機能を楽しみます。[さらに詳しく](https://docs.groupdocs.com/search/nodejs-java/search-results/)。
+        {{< landing/code title="検索結果を処理する方法">}}
         ```javascript {style=abap}
-        // インデックスを作成する
-        const index = new Index('c:/IndexFolder');
+        const searchLib = require('@groupdocs/groupdocs.search');
+
+        // インデックスを作成
+        const index = new searchLib.Index('c:/IndexFolder');
         index.add('c:/DocumentFolder');
 
-        // 検索オプションを設定する
-        var options = new SearchOptions();
+        // 検索オプションを設定
+        const options = new searchLib.SearchOptions();
         options.getFuzzySearch().setEnabled(true);
         options.getFuzzySearch().setFuzzyAlgorithm(new TableDiscreteFunction(3));
 
-        // 「water」という単語または「Lorem ipsum」という語句を含むドキュメントを検索する
-        var query = "water OR \"Lorem ipsum\"";
-        var result = index.search(query, options);
+        // 'water'という単語または'Lorem ipsum'というフレーズを含むドキュメントを検索
+        const query = 'water OR "Lorem ipsum"';
+        const result = index.search(query, options);
         
-        // プロセス検索結果
-        console.log("Documents: " + result.getDocumentCount());
-        console.log("Total occurrences: " + result.getOccurrenceCount());
-        for (int i = 0; i < result.getDocumentCount(); i++) {
-            FoundDocument document = result.getFoundDocument(i);
-            console.log('Document: ${document.getDocumentInfo().getFilePath()}');
-            console.log('Occurrences: ${document.getOccurrenceCount()}');
+        // 検索結果を処理
+        console.log('Documents: ' + result.getDocumentCount());
+        console.log('Total occurrences: ' + result.getOccurrenceCount());
+        for (let i = 0; i < result.getDocumentCount(); i++) {
+            const document = result.getFoundDocument(i);
+            console.log('Document: ' + document.getDocumentInfo().getFilePath());
+            console.log('Occurrences:  + document.getOccurrenceCount());
             }
 
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "正規表現は高度な検索シナリオで使用できます"
+    - title: "正規表現が高度な検索シナリオに役立つ"
       content: |
-        GroupDocs.Search for Node.js via Java では、正規表現を使用して検索結果を絞り込むことができます。 [高度な検索テクニックを詳しく見る](https://docs.groupdocs.com/search/java/regular-expression-search/)。
-        {{< landing/code title="正規表現を使って検索する方法">}}
+        GroupDocs.Search for Node.js via Javaによって正規表現を使用でき、検索結果を狭めます。[高度な検索テクニックに飛び込む](https://docs.groupdocs.com/search/nodejs-java/regular-expression-search/)。
+        {{< landing/code title="正規表現を使用して検索を行う方法">}}
         ```javascript {style=abap}   
-        // インデックスを作成する
-        const index = new Index('c:/IndexFolder');
+        const searchLib = require('@groupdocs/groupdocs.search');
+
+        // インデックスを作成
+        const index = new searchLib.Index('c:/IndexFolder');
         index.add('c:/DocumentFolder');
  
-        // テキスト形式で語句を検索します
+        // テキスト形式でフレーズを検索
 
-        // 先頭の最初のキャレット文字は、これが正規表現検索クエリであることを示します
-        var query = "^^(.)\\1{1,}";
-        // 単語の先頭にある 2 つ以上の同一の文字を検索します
-        var result = index.search(query);
+        // 最初のキャレット文字が先頭で、このクエリが正規表現検索であることを示します。
+        const query = '^^(.)\\1{1,}';
+        // 単語の先頭に同じ文字が2つ以上存在するか検索
+        const result = index.search(query);
  
         ```
         {{< /landing/code >}}

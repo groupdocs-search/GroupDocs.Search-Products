@@ -1,350 +1,278 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2025-01-09T15:38:59
 draft: false
 
+lang: zh
 product: "Search"
 product_tag: "search"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: "C# .NET 文本搜索和索引 API for Word Excel PDF 电子邮件 HTML"
-head_description: "C# .NET 文本搜索 API 智能地索引和检索 PDF、MS Office Word、Excel、演示文稿、OneNote、电子邮件、ZIP、EPUB 和 Web 文件中的数据。"
+head_title: ".NET 文档搜索和索引库，支持PDF、Office文件等"
+head_description: "强大的.NET解决方案，用于在文档（如PDF、Word、Excel、演示文稿、电子邮件和网页格式）中进行文本搜索和索引。"
 
 ############################# Header ############################
-title: ".NET API 来搜索和索引文档"
-description: "在所有流行文档格式中使用 .NET 应用程序索引数据和执行文本搜索的 API."
-button:
-    enable: true
+title: "使用.NET API进行高级文档搜索和索引"
+description: "提升.NET应用程序，通过流行文档格式提供尖端文本搜索能力。"
+words:
+  for: "为"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "免费下载Nuget"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Search"
+  alt: "许可"
+  alt_link: "https://purchase.groupdocs.com/pricing/search/net/"
+  title: "今天就开始您的旅程！"
+  description: "免费体验GroupDocs.Search的功能，或申请许可以解锁其全部潜力。"
+
+release:
+  title: "版本 {0} 已发布"
+  notes: "查看新功能"
+  downloads: "下载"
+
+code:
+  title: "在目录文件中搜索文本"
+  more: "更多示例"
+  more_link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
+  install: "dotnet add package GroupDocs.Search"
+  content: |
+    ```csharp {style=abap}   
+    // 为您的文档创建索引
+    Index index = new Index("c:/MyIndex");
+
+    // 将文档添加到索引中以实现高效搜索
+    index.Add("c:/MyDocuments");
     
-    left:
-        img_alt: "GroupDocs.Search for .NET"
-        image: "/border/groupdocs-search-net.svg"
-        product: "GroupDocs.Search"
-        platform: ".NET"
+    // 搜索特定单词或短语，例如
+    // 'affect', 'effect', 'principles', 'principally'
+    SearchResult results = 
+        index.Search("'"?ffect & princip?(2~4)"'");
+    ```
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "概述"
-
-            # button loop
-            - link: "#features"
-              text: "特征"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/search"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/search/net"
-              text: "价钱"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/search"
-        link_learn: "https://docs.groupdocs.com/search/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
-############################# 概述 ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Search for .NET 是一个文档和文本搜索 API，用于使用 C#、ASP.NET 和其他 .NET 技术开发的业务应用程序。这个 .NET API 支持从基本到高级的搜索功能，例如，创建和合并多个索引，使用简单的、布尔值、模糊、正则表达式 (regex) 和其他查询类型搜索索引以从文件、文档中获取所需的数据和电子邮件，通过智能搜索。如果您想为您的最终用户构建一个快速、可靠、智能且功能丰富的搜索应用程序，支持所有流行的文件格式，GroupDocs.Search for .NET 就是您所需要的。
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          以下是 GroupDocs.Search for .NET 的概述：
-      
-        left:
-          enable: true
-          icon: "fas fa-search"
-          title: "索引"
-          content: |
-            * 创建和管理
-            * 合并多个索引
-            * Multi-Threading Async 索引
-            * Compact 索引
-            * Archived Files 索引
-        
-        right:
-          enable: true
-          icon: "fas fa-search-plus"
-          title: "高级搜索和搜索查询"
-          content: |
-            * 模糊搜索
-            * 同义词搜索
-            * 电子邮件搜索
-            * 谐音词的处理
-            * 搜索受保护的文件
-            * 简单的
-            * 外卡
-            * 正则表达式 (Regex)
-            * 分面和布尔值
-            * 区分大小写
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Search for .NET 支持以下 [文档文件格式](https://docs.groupdocs.com/search/net/supported-document-formats/)：
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "微软办公格式"
-              content: |
-                * **Word**: DOC, DOCX, DOCM, DOT, DOTX, DOTM
-                * **Excel**: XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
-                * **PowerPoint**: PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
-                * **Project**: MPP
-                * **Diagram**: VSD, VSS
-                * **Microsoft Compiled HTML**: CHM
-                * **OneNote**: ONE
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument & 其他格式"
-              content: |
-                * **便携式文档格式**：PDF
-                * **OpenDocument**：ODT、OTT、ODS、OTS、ODP
-                * **电子邮件**：PST、OST、MSG、EML、EMLX
-                * **Web 文件格式**：XML、HTM、HTML、XHTML、MHT、MHTML
-                * **音频**：MP3、WAV
-                * **视频**：AVI、MOV、QT、FLV、ASF
-                * **文字**：TXT
-                * **富文本格式**：RTF
-                * **Markdown 文档文件**：MD
-                * **图像**：BMP、GIF、JP2、PNG、WEBP、TIFF、EMF、WMF、JPG、PSD
-                * **其他**：TORRENT、ZIP、DCM、DJVU、EPUB、FB2
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Search .NET 支持以下操作系统、框架和包管理器:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "操作系统"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "支持的框架"
-              content: |
-                * .NET Framework 2.0 或更高版本
-                * Mono 框架 1.2 或更高版本
-                * .NET 标准 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "包管理器"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "开发环境"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
-
-############################# 特征 ############################
-features:
-    enable: true
-    title: "GroupDocs.Search for .NET 特征"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "在内存或磁盘上创建索引并执行多线程索引和合并"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "防止已索引文件或名称中包含特定字符串的索引"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "查看索引创建和更新的进度百分比并获取搜索报告"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "通过排除最近处理的文件的特定单词和索引状态通知来加快索引"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "在 ZIP 存档中索引 ZIP 存档并获取存档中包含的索引文件列表"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "在索引期间使用列表或导入替换字符并将它们导出到文件"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "索引和搜索受密码保护的文件和紧凑索引以节省磁盘空间"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "从索引或源文件中提取文本并在索引中自动保存文本文件编码"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "在索引期间向每个文档添加任意附加字段"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "在搜索结果中设置文档过滤"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "通过模糊搜索处理输入错误，在模糊搜索中设置相似度并仅显示最佳结果"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "来自流和数据结构的索引文档"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "使用停用词搜索完整短语并将分面搜索与布尔搜索相结合"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "根据谐音词、同义词、日期范围、外卡和区分大小写进行搜索"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "使用 Aspose.Email API 索引和搜索 Outlook 中的电子邮件和浏览"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "支持搜索查询中的拼写检查和外卡和跳过搜索短语中的特殊字符"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "限制搜索查询中每个术语以及所有结果的结果"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "将 HTML 文本提取到文件并生成 URL 以导航 HTML 格式的搜索结果"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "将多个查询组合成单个对象树"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "在索引错误的情况下提醒用户非支持设置和自动索引重新加载"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "为每个找到的单词启用准确的出现次数，以在拼写错误的情况下提供替代单词建议"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "将文本属性添加到索引文档而不重新索引"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "基于字符执行索引和搜索操作"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "非文本文档格式的索引元数据"
-
-    more_feature:
-      # more_feature_loop
-      - title: "索引 & Search"
-        content: |
-          GroupDocs.Search for .NET API 经常使用索引来执行搜索。索引用于收集、解析或存储数据，以实现快速准确的搜索。
-
-          * **创建索引**：创建索引文件夹并将文档添加/索引到该文件夹​​。
-          * **加载索引**：加载现有索引。
-          * **将文档添加到索引**：将文档异步添加到现有索引。
-          * **更新索引**：在修改、添加或删除文档时更新现有索引。这使搜索结果保持最新。
-
-          ```cs
-           // 创建索引
-          Index  index = new Index(@"c:\MyIndex");
-          // 将文档添加到索引
-          index.AddToIndex(@"c:\MyDocuments");
-          // 在索引中搜索
-          SearchResults searchResults =  index.Search("searchTerm");
-          ```
-      # more_feature_loop
-      - title: "合并多个索引以提高搜索效率"
-        content: "GroupDocs.Search for .NET 能够将多个索引合并为一个单一索引。如果一个索引经常更新，它有几个增量索引，但这种方法会降低搜索性能。 GroupDocs.Search for .NET API 将所有增量索引合并到一个合并索引中。主合并索引将包含来自合并增量索引的所有信息；但是，delta 指数将保持不变。我们的 API 使用的这种方法大大提高了搜索效率。索引合并功能，提供许多功能来调整以进一步调整此过程。"
-
-      # more_feature_loop
-      - title: "在索引中存储文本以生成 HTML 标记"
-        content: "GroupDocs.Search for .NET 可以在索引中缓存索引文档的文本。然后，此缓存文本用于通过突出显示搜索结果快速生成 HTML 标记。这种方法比直接从文件中提取文本要快得多。即使源文件不再可用，也可以从缓存中检索文本。可以通过应用各种压缩级别来存储缓存的文本以占用更少的磁盘空间和更快的索引时间."
-
-      # more_feature_loop
-      - title: "通过模糊和正则表达式搜索获取相关文档"
-        content: "当您执行模糊或正则表达式搜索时，您可以获得与您提供的输入完全匹配的文档列表。但是，您还将获得包含与您的输入相似的单词或术语的文档列表。例如，如果使用 GroupDocs.Search for .NET，对查询“cost”执行模糊搜索，您将获得包含单词“cost”的文档和包含类似单词（如“coat”）的文档。结果将取决于您使用此 API 配置的模糊程度."
-
-      # more_feature_loop
-      - title: "识别不同键盘布局的搜索查询"
-        content: "GroupDocs.Search for .Net 可以识别以与您的键盘布局不匹配的语言编写的搜索查询。目前，这个 .NET API 可以成功识别 88 种语言和 164 种不同的键盘布局."
-
-      # more_feature_loop
-      - title: "使用形态词形式搜索"
-        content: "GroupDocs.Search for .NET API 允许您搜索各种单词形式。例如，对于一个名词，您可以搜索其单数和复数形式。对于动词，您可以搜索该动词的所有形式。您还可以搜索词根、第三人称单数、一般过去时和其他各种形式。对于英语以外的语言，您可以实现自定义单词形式."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Search 为其他流行的开发环境提供文档查看 API"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Search for Java"
-          image: "/border/groupdocs-search-java.svg"
-          product: "GroupDocs.Search"
-          platform: "Java"
-          link: "/search/java/"
-
-        # solution loop
-        - img_alt: "GroupDocs.Search for Node.js"
-          image: "/border/groupdocs-search-nodejs-java.svg"
-          product: "GroupDocs.Search"
-          platform: "Node.js via Java"
-          link: "/search/nodejs-java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Search 概述"
+  description: "探索.NET C#库，以实现强大的文本搜索和索引。"
+  features:
+    # feature loop
+    - title: ".NET 索引和搜索功能"
+      content: "有效索引、存储和处理文档数据，使用GroupDocs.Search for .NET进行高精度和快速搜索操作。"
+
+    # feature loop
+    - title: "合并索引以提高搜索速度"
+      content: "GroupDocs.Search for .NET允许您合并多个索引以优化性能。通过将多个增量索引合并为一个综合索引，减少增量索引的影响，以实现更顺畅的搜索。"
+
+    # feature loop
+    - title: "跨不同键盘布局搜索"
+      content: "使用GroupDocs.Search for .NET的智能识别，轻松处理来自88种语言和164种键盘布局的搜索查询。"
+
+    # feature loop
+    - title: "形态学单词搜索"
+      content: "GroupDocs.Search for .NET支持对单词变化（如单数/复数名词和不同动词形式）进行搜索，可以针对不同语言进行自定义。"
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "平台独立性"
+  description: "GroupDocs.Search for .NET 在各大操作系统和软件包管理器中无缝工作。"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "支持的文件格式"
+  description: |
+    使用GroupDocs.Search for .NET处理各种文件格式。[查看所有支持的格式](https://docs.groupdocs.com/search/net/supported-document-formats/)。
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### 流行的办公格式
+        * **便携式:** PDF 
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM
+        * **Excel:** XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
+        * **PowerPoint:** PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
+        * **OpenDocument:** ODT, ODP, ODS, OTT, OTS
+        * **文本:** TXT, RTF
+    # group loop
+    - color: "blue"
+      content: |
+        ### 媒体格式
+        * **流行图片格式:** BMP, JP2, PNG, EMF, WMF, JPG, PSD
+        * **多页图像:** GIF, WEBP, TIFF
+        * **音频:** MP3, WAV
+        * **视频:** AVI, MOV, QT, FLV, ASF
+      # group loop
+    - color: "red"
+      content: |
+        ### 其他
+        * **电子邮件:**  PST, OST, MSG, EML, EMLX
+        * **Microsoft Visio:** VSD, VSS
+        * **网页:**  XML, HTM, HTML, XHTML, MHT, MHTML
+        * **其他:**  TORRENT, ZIP, DCM, DJVU, EPUB, FB2
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Search for .NET 的主要功能"
+  description: "通过在流行格式（如PDF、DOCX、XLSX、PPTX等）中提供高级搜索能力，简化文档管理。"
+
+  items:
+    # feature loop
+    - icon: "document_info"
+      title: "灵活的搜索参数"
+      content: "使用日期范围和区分大小写等筛选器来改进搜索。"
+
+    # feature loop
+    - icon: "detect"
+      title: "智能拼写检查"
+      content: "使用拼写纠正、通配符和忽略特殊字符的搜索短语。"
+
+    # feature loop
+    - icon: "collect"
+      title: "过滤搜索结果"
+      content: "按文档类型或标准自定义和过滤搜索结果。"
+
+    # feature loop
+    - icon: "get"
+      title: "索引导入与导出"
+      content: "导入数据，修改索引设置，并导出已索引的结果。"
+
+    # feature loop
+    - icon: "remove"
+      title: "排除无关数据"
+      content: "通过跳过特定文件或单词来优化索引。"
+
+    # feature loop
+    - icon: "style"
+      title: "URL提取"
+      content: "将HTML格式的文本转换为文件，并为搜索结果生成链接。"
+
+    # feature loop
+    - icon: "detect"
+      title: "高速搜索"
+      content: "将大索引划分为小部分，以便更快地处理。"
+
+    # feature loop
+    - icon: "manipulate"
+      title: "简化数据处理"
+      content: "直接从数据流和结构中索引文档。"
+
+    # feature loop
+    - icon: "compare"
+      title: "拼写错误检测"
+      content: "建议替代词，并跟踪发生次数以提高准确性。"
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "归档支持"
+      content: "索引嵌套ZIP归档，并检索其中的文件详细信息。"
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "高效索引"
+      content: "通过紧凑的索引节省磁盘空间，并处理密码保护的文档。"
+
+    # feature loop
+    - icon: "style"
+      title: "自定义同义词"
+      content: "添加和管理同义词，以实现定制的搜索结果。"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "代码示例"
+  description: "通过示例发现GroupDocs.Search for .NET的强大能力。"
+  items:
+    # code sample loop
+    - title: "通过模糊搜索提升生产力"
+      content: |
+        利用GroupDocs.Search for .NET的先进搜索算法，通过灵活和准确的内容控制。 [探索更多](https://docs.groupdocs.com/search/net/search-results/)。
+        {{< landing/code title="如何处理搜索结果">}}
+        ```csharp {style=abap}
+        // 创建索引
+        Index index = new Index("C:/IndexFolder");
+        index.Add("C:/DocumentFolder");
+
+        // 设置搜索选项
+        SearchOptions options = new SearchOptions();
+        options.FuzzySearch.Enabled = true;
+        options.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(3);
+
+        // 搜索包含'water'这个词或短语'Lorem ipsum'的文档
+        string query = "water OR \"Lorem ipsum\"";
+        SearchResult result = index.Search(query, options);
+        
+        // 处理搜索结果
+        Console.WriteLine("Document: " + document.DocumentInfo.FilePath);
+        Console.WriteLine("Occurrences: " + document.OccurrenceCount);
+        for (int i = 0; i < result.DocumentCount; i++) {
+            FoundDocument document = result.GetFoundDocument(i);
+            Console.WriteLine("Document: " + document.DocumentInfo.FilePath);
+            Console.WriteLine("Occurrences: " + document.OccurrenceCount);
+            }
+
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "使用正则表达式进行高级搜索"
+      content: |
+        GroupDocs.Search for .NET支持正则表达式进行精准搜索。 [了解先进技术](https://docs.groupdocs.com/search/net/regular-expression-search/)。
+        {{< landing/code title="如何使用正则表达式搜索">}}
+        ```csharp {style=abap}   
+        // 创建索引
+        Index index = new Index("c:/IndexFolder");
+        index.Add("c:/DocumentFolder");
+ 
+        // 搜索文本形式的短语
+
+        // 第一个插入符号字符表示这是一个正则表达式搜索查询
+        string query = "^^(.)\\1{1,}";
+        // 搜索单词开头的两个或多个相同字符
+        SearchResult result = index.Search(query);
+ 
+        ```
+        {{< /landing/code >}}
+
 ---

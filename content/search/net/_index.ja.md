@@ -1,296 +1,278 @@
 ---
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+############################# Static ############################
+layout: "landing"
+date: 2025-01-09T15:38:59
 draft: false
 
+lang: ja
 product: "Search"
 product_tag: "search"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
-head_title: "C＃.NET Text Search＆Indexing API for Word Excel PDF Email HTML"
-head_description: "PDF、Microsoft Office Word、Excel、プレゼンテーション、OneNote、Eメール、ZIP、EPUB、およびWebファイルからデータをスマートにインデックス化および取得するためのC＃.NETテキスト検索API."
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
-title: ".ドキュメントを検索してインデックスを作成するためのNETAPI"
-description: ".NETアプリケーションを使用して、すべての一般的なドキュメント形式でデータのインデックスを作成し、テキスト検索を実行するAPI."
-button:
-    enable: true
+############################# Head ############################
+head_title: ".NET ドキュメント検索およびインデックス作成ライブラリ（PDF、Officeファイルなど）"
+head_description: "PDF、Word、Excel、プレゼンテーション、メール、およびウェブフォーマットのドキュメントにおけるテキスト検索とインデックス作成のための強力な.NETソリューション。"
 
-submenu:
-    enable: true
+############################# Header ############################
+title: ".NET APIによる高度なドキュメント検索およびインデックス作成"
+description: ".NETアプリケーションのために、一般的なドキュメント形式にわたる最先端のテキスト検索機能を強化します。"
+words:
+  for: "のための"
+
+actions:
+  main: "無料でNugetをダウンロード"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Search"
+  alt: "ライセンス管理"
+  alt_link: "https://purchase.groupdocs.com/pricing/search/net/"
+  title: "今日から旅を始めましょう！"
+  description: "GroupDocs.Searchの機能を無料で探索するか、ライセンスを取得してその可能性を最大限に活かしてください。"
+
+release:
+  title: "バージョン {0} リリース"
+  notes: "新着情報を確認する"
+  downloads: "ダウンロード"
+
+code:
+  title: "ディレクトリファイル内のテキストを検索"
+  more: "その他の例"
+  more_link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
+  install: "dotnet add package GroupDocs.Search"
+  content: |
+    ```csharp {style=abap}   
+    // ドキュメント用のインデックスを作成
+    Index index = new Index("c:/MyIndex");
+
+    // 効率的な検索のためにインデックスに文書を追加
+    index.Add("c:/MyDocuments");
     
-    left:
-        img_alt: "GroupDocs.Search for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-net.png"
-        product: "GroupDocs.Search"
-        platform: ".NET"
+    // 特定の単語やフレーズを検索。例:
+    // 'affect', 'effect', 'principles', 'principally'
+    SearchResult results = 
+        index.Search("'"?ffect & princip?(2~4)"'");
+    ```
 
-    middle:
-        button:
-            - link: "#overview"
-              text: "概要"
-
-            - link: "#features"
-              text: "特徴"
-
-            - link: "#support"
-              text: "サポート"
-
-            - link: "https://products.groupdocs.app/search"
-              text: "ライブデモ"
-
-            - link: "https://purchase.groupdocs.com/pricing/search/net"
-              text: "価格設定"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/search"
-        link_learn: "https://docs.groupdocs.com/search/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Search for .NETは、C＃、ASP.NET、およびその他の.NETテクノロジで開発されたビジネスアプリケーション用のドキュメントおよびテキスト検索APIです。この.NETAPIは、基本から高度な検索機能をサポートします。たとえば、複数のインデックスの作成とマージ、シンプル、ブール、ファジー、正規表現（regex）を使用したインデックスの検索、その他のクエリタイプを使用して、ファイル、ドキュメント、スマート検索による電子メール。エンドユーザー向けに高速で信頼性が高く、スマートで機能豊富な検索アプリケーションを構築し、一般的なすべてのファイル形式をサポートしたい場合は、GroupDocs.Searchfor.NETが必要です。
-    tabs:
-      enable: true
-      
-      tab_one:
-        description: |
-          以下は、GroupDocs.Searchfor.NETの概要です。
-      
-        left:
-          enable: true
-          icon: "fas fa-search"
-          title: "インデックス作成"
-          content: |
-            *作成および管理
-            *複数のインデックスをマージする
-            *マルチスレッド非同期インデックス
-            *コンパクトなインデックス作成
-            *アーカイブファイルのインデックス作成
-        
-        right:
-          enable: true
-          icon: "fas fa-search-plus"
-          title: "高度な検索と検索クエリ"
-          content: |
-            *あいまい検索
-            *同義語検索
-            *メール検索
-            *ホモフォニック用語の処理
-            *保護されたファイルの検索
-            * 単純
-            *ワイルドカード
-            *正規表現（Regex）
-            *ファセットとブール
-            * 大文字と小文字を区別
-      
-      tab_two:
-        description: |
-          GroupDocs.Search for .NETは、次の[ドキュメントファイル形式]（https://docs.groupdocs.com/search/net/supported-document-formats/）をサポートしています。
-
-        left:
-          enable: true
-          table:
-            - title: "MicrosoftOfficeの形式"
-              content: |
-                * ** Word **：DOC、DOCX、DOCM、DOT、DOTX、DOTM
-                * ** Excel **：XLS、XLSX、XLSM、XLT、XLTX、XLTM、XLSB、XLA、XLAM、CSV、TSV
-                * ** PowerPoint **：PPT、PPTX、POT、POTX、PPS、PPSX、PPTM、PPSM、POTM
-                * **プロジェクト**：MPP
-                * **図**：VSD、VSS
-                * ** Microsoft Compiled HTML **：CHM
-                * ** OneNote **：ONE
-
-        right:
-          enable: true
-          table:
-            - title: "OpenDocumentおよびその他の形式"
-              content: |
-                * **ポータブルドキュメントフォーマット**：PDF
-                * ** OpenDocument **：ODT、OTT、ODS、OTS、ODP
-                * **メール**：PST、OST、MSG、EML、EMLX
-                * ** Webファイル形式**：XML、HTM、HTML、XHTML、MHT、MHTML
-                * **オーディオ**：MP3、WAV
-                * **ビデオ**：AVI、MOV、QT、FLV、ASF
-                * **テキスト**：TXT
-                * **リッチテキスト形式**：RTF
-                * ** Markdownドキュメントファイル**：MD
-                * **画像**：BMP、GIF、JP2、PNG、WEBP、TIFF、EMF、WMF、JPG、PSD
-                * **その他**：TORRENT、ZIP、DCM、DJVU、EPUB、FB2
-
-      tab_three:
-        description: |
-          GroupDocs.Search for .NETは、次のオペレーティングシステム、フレームワーク、およびパッケージマネージャーをサポートしています。
-        
-        left:
-          enable: true
-          table:
-            - icon: "fab fa-windows"
-              title: "オペレーティングシステム"
-              content: |
-                *Windowsデスクトップ
-                * WindowsServer
-                * Windows Azure
-                * Linux
-
-            - icon: "fas fa-code"
-              title: "サポートされているフレームワーク"
-              content: |
-                * .NETFramework2.0以降
-                * MonoFramework1.2以降
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            - icon: "fas fa-box"
-              title: "パッケージマネージャー"
-              content: |
-                * NuGet
-
-            - icon: "fas fa-tools"
-              title: "開発環境"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
-
-features:
-    enable: true
-    title: "GroupDocs.Search for .NET Features"
-
-    feature:
-      - icon: "fas fa-copy"
-        content: "メモリまたはディスクにインデックスを作成し、マルチスレッドのインデックス作成とマージを実行します"
-
-      - icon: "fas fa-eye"
-        content: "すでにインデックスが作成されているファイル、または名前に特定の文字列が含まれているファイルのインデックス作成を防止する"
-
-      - icon: "fas fa-bolt"
-        content: "インデックスの作成と更新の進捗率を表示し、検索レポートを取得する"
-      
-      - icon: "fas fa-file-powerpoint"
-        content: "最近処理されたファイルの特定の単語とインデックスステータス通知を除外することによるインデックス作成の高速化"
-
-      - icon: "fas fa-code"
-        content: "ZIPアーカイブ内のZIPアーカイブにインデックスを付け、アーカイブに含まれるインデックスファイルのリストを取得する"
-
-      - icon: "fas fa-cloud"
-        content: "リストまたはインポートを使用して、インデックス作成中に文字を置き換え、ファイルにエクスポートします"
-
-      - icon: "fas fa-remove-format"
-        content: "パスワードで保護されたファイルのインデックス作成と検索、ディスクスペースを節約するためのコンパクトなインデックス作成"
-
-      - icon: "fas fa-comment-slash"
-        content: "インデックスまたはソースファイルからテキストを抽出し、テキストファイルのエンコーディングをインデックスに自動的に保存する"
-
-      - icon: "fas fa-location-arrow"
-        content: "インデックス作成中に各ドキュメントに任意の追加フィールドを追加する"
-
-      - icon: "fas fa-border-all"
-        content: "検索結果でドキュメントフィルタリングを設定する"
-
-      - icon: "fas fa-wrench"
-        content: "あいまい検索で入力ミスを処理し、あいまい検索で類似性レベルを設定し、最良の結果のみを表示する"
-
-      - icon: "fas fa-columns"
-        content: "ストリームとデータ構造からのインデックスドキュメント"
-
-      - icon: "fas fa-file-word"
-        content: "ストップワードを使用して完全なフレーズを検索し、ファセット検索とブール検索を組み合わせます"
-
-      - icon: "fas fa-envelope"
-        content: "ホモフォニック用語、同義語、日付範囲、ワイルドカード、大文字と小文字の区別に基づいて検索"
-
-      - icon: "fas fa-print"
-        content: "Outlookからの電子メールのインデックス作成と検索、およびAspose.EmailAPIを使用した参照"
-
-      - icon: "fas fa-file-archive"
-        content: "検索クエリでスペルチェックとワイルドカードをサポートし、検索フレーズで特殊文字をスキップします"
-
-      - icon: "fas fa-lock"
-        content: "検索クエリの各用語とすべての結果の結果を制限する"
-
-      - icon: "fas fa-file-code"
-        content: "HTMLテキストをファイルに抽出してURLを生成し、HTML形式の検索結果をナビゲートします"
-      
-      - icon: "fas fa-fill-drip"
-        content: "複数のクエリを1つのオブジェクトツリーに結合する"
-
-      - icon: "fas fa-file-excel"
-        content: "インデックス作成エラーが発生した場合に、サポートされていない設定と自動インデックスの再読み込みについてユーザーに警告する"
-
-      - icon: "fas fa-heading"
-        content: "見つかった単語ごとに正確な出現回数を有効にして、スペルミスの場合に代替単語の提案を提供します"
-
-      - icon: "fas fa-project-diagram"
-        content: "インデックスを再作成せずに、インデックス付きドキュメントにテキスト属性を追加する"
-
-      - icon: "fas fa-cube"
-        content: "文字に基づいて索引付けおよび検索操作を実行する"
-
-      - icon: "fab fa-uncharted"
-        content: "非テキストドキュメント形式のインデックスメタデータ"
-
-    more_feature:
-      - title: "インデックス作成と検索"
-        content: |
-          GroupDocs.Search for .NET APIは、検索を実行するためにインデックスを頻繁に使用します。インデックスは、高速で正確な検索のためにデータを収集、解析、または保存するために使用されます。
-
-          * **インデックスの作成**：インデックスフォルダを作成し、そのフォルダにドキュメントを追加/インデックス付けします。
-          * **ロードインデックス**：既存のインデックスをロードします。
-          * **ドキュメントをインデックスに追加**：ドキュメントを既存のインデックスに非同期で追加します。
-          * **インデックスの更新**：ドキュメントが変更、追加、または削除されるたびに、既存のインデックスを更新します。これにより、検索結果が最新の状態に保たれます。
-
-          ```cs
-           //インデックスを作成します
-          Index  index = new Index(@"c:\MyIndex");
-          //ドキュメントをインデックスに追加します
-          index.AddToIndex(@"c:\MyDocuments");
-          //インデックスで検索
-          SearchResults searchResults =  index.Search("searchTerm");
-          ```
-      - title: "複数のインデックスをマージして検索効率を向上させる"
-        content: "GroupDocs.Search for .NETは、複数のインデックスを単一のインデックスにマージできます。インデックスが頻繁に更新される場合、いくつかのデルタインデックスがありますが、このアプローチでは検索パフォーマンスが低下します。 GroupDocs.Search for .NET APIは、すべてのデルタインデックスを1つの統合インデックスにマージします。プライマリマージされたインデックスには、マージされたデルタインデックスからのすべての情報が含まれます。ただし、デルタインデックスは変更されません。 APIで使用されるこのアプローチにより、検索効率が大幅に向上します。インデックスマージ機能は、このプロセスをさらに微調整するために微調整するための多数の機能を提供します。"
-
-      - title: "HTMLマークアップを生成するために、テキストをインデックスに保存します"
-        content: "GroupDocs.Search for .NETは、インデックス付きドキュメントのテキストをインデックスにキャッシュできます。このキャッシュされたテキストは、検索結果を強調表示することにより、HTMLマークアップを迅速に生成するために使用されます。このアプローチは、ファイルから直接テキストを抽出するよりもはるかに高速です。ソースファイルが使用できなくなった場合でも、キャッシュからテキストを取得できます。キャッシュされたテキストは、さまざまな圧縮レベルを適用して、占有するディスクスペースを減らし、インデックス作成時間を短縮することで保存できます。."
-
-      - title: "Fuzzy＆RegexSearchで関連ドキュメントを取得する"
-        content: "ファジー検索または正規表現検索を実行すると、提供された入力に完全に一致するドキュメントのリストを取得できます。ただし、入力に類似した単語または用語を含むドキュメントのリストも表示されます。たとえば、GroupDocs.Search for .NETを使用して、クエリ「cost」のあいまい検索を実行すると、「cost」という単語を含むドキュメントと「coat」などの類似した単語を含むドキュメントが取得されます。結果は、このAPIを使用して構成したあいまいさのレベルによって異なります。."
-
-      - title: "さまざまなキーボードレイアウトの検索クエリを認識する"
-        content: "GroupDocs.Search for .Netは、キーボードレイアウトと一致しない言語で書かれた検索クエリを認識できます。現在、この.NET APIは、88の言語と164の異なるキーボードレイアウトを正常に認識できます。."
-
-      - title: "形態論的単語形式を使用した検索"
-        content: "GroupDocs.Search for .NET APIを使用すると、さまざまな単語形式を検索できます。たとえば、名詞の場合、その単数形と複数形を検索できます。動詞の場合、その動詞のすべての形式を検索できます。また、ルート、三人称単数、単純過去形、その他のさまざまな形を検索することもできます。英語以外の言語の場合、カスタマイズされた単語形式を実装できます."
-
-support:
-    enable: true
-
-solutions:
-    enable: true
-    title: "GroupDocs.Searchは、他の一般的な開発環境向けのドキュメント表示APIを提供します"
-
-    solution:
-        - img_alt: "GroupDocs.Search for Java"
-          image: "/border/groupdocs-search-java.svg"
-          product: "GroupDocs.Search"
-          platform: "Java"
-          link: "/search/java/"
-
-        # solution loop
-        - img_alt: "GroupDocs.Search for Node.js"
-          image: "/border/groupdocs-search-nodejs-java.svg"
-          product: "GroupDocs.Search"
-          platform: "Node.js via Java"
-          link: "/search/nodejs-java/"
-
-back_to_top:
   enable: true
+  title: "GroupDocs.Search 概要"
+  description: ".NET C#ライブラリによる堅牢なテキスト検索とインデックス作成。"
+  features:
+    # feature loop
+    - title: ".NETのインデックス作成および検索機能"
+      content: "GroupDocs.Search for .NETを使用して、ドキュメントデータを効率的にインデックス作成、保存、処理し、高度に正確で迅速な検索操作を実現します。"
+
+    # feature loop
+    - title: "インデックスを結合して検索速度を向上させる"
+      content: "GroupDocs.Search for .NETを使用して、複数のインデックスを統合してパフォーマンスを最適化できます。デルタインデックスの影響を減らすために、包括的なインデックスに結合し、スムーズな検索を実現します。"
+
+    # feature loop
+    - title: "異なるキーボードレイアウト間での検索"
+      content: "GroupDocs.Search for .NETのインテリジェントな認識を使用して、88言語および164のキーボードレイアウトにわたる検索クエリを簡単に処理します。"
+
+    # feature loop
+    - title: "形態素検索"
+      content: "GroupDocs.Search for .NETは単数/複数名詞や異なる動詞の形などの単語の変形を検索でき、さまざまな言語に合わせてカスタマイズできます。"
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "プラットフォームの独立性"
+  description: "GroupDocs.Search for .NETは主要なオペレーティングシステムおよびパッケージマネージャーとシームレスに機能します。"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "サポートされるファイル形式"
+  description: |
+    GroupDocs.Search for .NETを使用して幅広いファイル形式を処理します。[すべてのサポートされている形式を表示](https://docs.groupdocs.com/search/net/supported-document-formats/)。
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### 一般的なオフィス形式
+        * **ポータブル:** PDF 
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM
+        * **Excel:** XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
+        * **PowerPoint:** PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
+        * **OpenDocument:** ODT, ODP, ODS, OTT, OTS
+        * **テキスト:** TXT, RTF
+    # group loop
+    - color: "blue"
+      content: |
+        ### メディア形式
+        * **一般的な画像形式:** BMP, JP2, PNG, EMF, WMF, JPG, PSD
+        * **マルチページ画像:** GIF, WEBP, TIFF
+        * **オーディオ:** MP3, WAV
+        * **ビデオ:** AVI, MOV, QT, FLV, ASF
+      # group loop
+    - color: "red"
+      content: |
+        ### その他
+        * **メール:**  PST, OST, MSG, EML, EMLX
+        * **Microsoft Visio:** VSD, VSS
+        * **ウェブ:**  XML, HTM, HTML, XHTML, MHT, MHTML
+        * **その他:**  TORRENT, ZIP, DCM, DJVU, EPUB, FB2
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Search for .NETの主な機能"
+  description: "PDF、DOCX、XLSX、PPTXなどの一般的な形式の高度な検索機能で、ドキュメント管理を効率化します。"
+
+  items:
+    # feature loop
+    - icon: "document_info"
+      title: "柔軟な検索パラメータ"
+      content: "日付範囲や大文字小文字の区別を使用して検索を絞り込みます。"
+
+    # feature loop
+    - icon: "detect"
+      title: "スマートスペルチェック"
+      content: "スペル修正、ワイルドカード、無視する特別な文字を使用してフレーズを検索します。"
+
+    # feature loop
+    - icon: "collect"
+      title: "検索結果のフィルタリング"
+      content: "文書の種類または基準によって検索結果をカスタマイズおよびフィルタリングします。"
+
+    # feature loop
+    - icon: "get"
+      title: "インデックスのインポートとエクスポート"
+      content: "データをインポートし、インデックス作成設定を変更し、インデックス化された結果をエクスポートします。"
+
+    # feature loop
+    - icon: "remove"
+      title: "不必要なデータを除外"
+      content: "特定のファイルまたは単語をスキップしてインデックス化を最適化します。"
+
+    # feature loop
+    - icon: "style"
+      title: "URL抽出"
+      content: "HTML形式のテキストをファイルに変換し、検索結果用のリンクを生成します。"
+
+    # feature loop
+    - icon: "detect"
+      title: "高速検索"
+      content: "大きなインデックスをより小さな部分に分割して、より迅速に処理します。"
+
+    # feature loop
+    - icon: "manipulate"
+      title: "データ処理の効率化"
+      content: "データストリームや構造から直接文書をインデックス化します。"
+
+    # feature loop
+    - icon: "compare"
+      title: "誤記検出"
+      content: "改善された精度のために代替単語を提案し、出現を追跡します。"
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "アーカイブのサポート"
+      content: "ネストされたZIPアーカイブをインデックス化し、その中のファイルの詳細を取得します。"
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "効率的なインデックス作成"
+      content: "コンパクトなインデックス作成でディスクスペースを節約し、パスワード保護された文書を処理します。"
+
+    # feature loop
+    - icon: "style"
+      title: "カスタム同義語"
+      content: "特定の検索結果に合わせて同義語を追加および管理します。"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "コードサンプル"
+  description: "GroupDocs.Search for .NETの強力な機能をハンズオンの例とともに発見してください。"
+  items:
+    # code sample loop
+    - title: "ファジー検索で生産性を向上させる"
+      content: |
+        GroupDocs.Search for .NETを使用して、高度な検索アルゴリズムを通じて柔軟で正確なコンテンツコントロールを実現します。[詳しい情報を探る](https://docs.groupdocs.com/search/net/search-results/)。
+        {{< landing/code title="検索結果を処理する方法">}}
+        ```csharp {style=abap}
+        // インデックスを作成
+        Index index = new Index("C:/IndexFolder");
+        index.Add("C:/DocumentFolder");
+
+        // 検索オプションを設定
+        SearchOptions options = new SearchOptions();
+        options.FuzzySearch.Enabled = true;
+        options.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(3);
+
+        // 'water'という単語または'Lorem ipsum'というフレーズを含むドキュメントを検索
+        string query = "water OR \"Lorem ipsum\"";
+        SearchResult result = index.Search(query, options);
+        
+        // 検索結果を処理
+        Console.WriteLine("Document: " + document.DocumentInfo.FilePath);
+        Console.WriteLine("Occurrences: " + document.OccurrenceCount);
+        for (int i = 0; i < result.DocumentCount; i++) {
+            FoundDocument document = result.GetFoundDocument(i);
+            Console.WriteLine("Document: " + document.DocumentInfo.FilePath);
+            Console.WriteLine("Occurrences: " + document.OccurrenceCount);
+            }
+
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "正規表現による高度な検索"
+      content: |
+        GroupDocs.Search for .NETは正規表現をサポートしており、正確な検索が行えます。[高度なテクニックを学ぶ](https://docs.groupdocs.com/search/net/regular-expression-search/)。
+        {{< landing/code title="正規表現を使用して検索を行う方法">}}
+        ```csharp {style=abap}   
+        // インデックスを作成
+        Index index = new Index("c:/IndexFolder");
+        index.Add("c:/DocumentFolder");
+ 
+        // テキスト形式でフレーズを検索
+
+        // 最初のキャレット文字が先頭で、このクエリが正規表現検索であることを示します。
+        string query = "^^(.)\\1{1,}";
+        // 単語の先頭に同じ文字が2つ以上存在するか検索
+        SearchResult result = index.Search(query);
+ 
+        ```
+        {{< /landing/code >}}
+
 ---

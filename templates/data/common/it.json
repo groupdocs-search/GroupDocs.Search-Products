@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "csv": {
+        "name": "Trova in CSV",
+        "description": "Valori Separati da Virgole"
+      },
+      "doc": {
+        "name": "Trova in DOC",
+        "description": "Documento Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Trova in DOCX",
+        "description": "Documento Microsoft Word Open XML"
+      },
+      "eml": {
+        "name": "Trova in EML",
+        "description": "Messaggio E-Mail"
+      },
+      "epub": {
+        "name": "Trova in EPUB",
+        "description": "File eBook Open"
+      },
+      "fb2": {
+        "name": "Trova in FB2",
+        "description": "File FictionBook"
+      },
+      "md": {
+        "name": "Trova in MD",
+        "description": "Linguaggio Markdown"
+      },
+      "odp": {
+        "name": "Trova in ODP",
+        "description": "Formato di Presentazione OpenDocument"
+      },
+      "one": {
+        "name": "Trova in ONE",
+        "description": "Documento OneNote"
+      },
+      "pdf": {
+        "name": "Trova in PDF",
+        "description": "Formato Documento Portabile Adobe"
+      },
+      "pps": {
+        "name": "Trova in PPS",
+        "description": "Presentazione PowerPoint"
+      },
+      "ppt": {
+        "name": "Trova in PPT",
+        "description": "Presentazione PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Trova in PPTX",
+        "description": "Presentazione PowerPoint Open XML"
+      },
+      "pst": {
+        "name": "Trova in PST",
+        "description": "File di Archivio Informazioni Personali di Outlook"
+      },
+      "rtf": {
+        "name": "Trova in RTF",
+        "description": "Formato di Testo Ricco"
+      },
+      "tsv": {
+        "name": "Trova in TSV",
+        "description": "Valori Separati da Tabulazioni"
+      },
+      "txt": {
+        "name": "Trova in TXT",
+        "description": "Documento di Testo"
+      },
+      "xls": {
+        "name": "Trova in XLS",
+        "description": "Workbook Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Trova in XLSX",
+        "description": "Foglio di calcolo Microsoft Excel Open XML"
+      },
+      "xml": {
+        "name": "Trova in XML",
+        "description": "File XML"
+      },
+      "zip": {
+        "name": "Trova in ZIP",
+        "description": "Archivio Zip"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copia",
+      "copy_tip": "clicca per copiare",
+      "copy_done": "copiato",
+      "links": {
+        "title_1": "Altri esempi",
+        "title_2": "Documentazione"
+      }
+    },
+    "format-actions": {
+      "title": "Pronto per iniziare?",
+      "description": "Prova le funzionalità di {{ProdShortName}} gratuitamente oppure richiedi una licenza",
+      "comment_1": "Download di {{PackageStoreName}}",
+      "comment_2": "Licenze"
+    },
+    "texts": {
+      "learn_more": "Scopri di più"
+    }
+  }
+}

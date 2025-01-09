@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "csv": {
+        "name": "Rechercher dans CSV",
+        "description": "Valeurs Séparées par des Virgules"
+      },
+      "doc": {
+        "name": "Rechercher dans DOC",
+        "description": "Document Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Rechercher dans DOCX",
+        "description": "Document Open XML de Microsoft Word"
+      },
+      "eml": {
+        "name": "Rechercher dans EML",
+        "description": "Message E-Mail"
+      },
+      "epub": {
+        "name": "Rechercher dans EPUB",
+        "description": "Fichier Open eBook"
+      },
+      "fb2": {
+        "name": "Rechercher dans FB2",
+        "description": "Fichier FictionBook"
+      },
+      "md": {
+        "name": "Rechercher dans MD",
+        "description": "Langage Markdown"
+      },
+      "odp": {
+        "name": "Rechercher dans ODP",
+        "description": "Format de Présentation OpenDocument"
+      },
+      "one": {
+        "name": "Rechercher dans ONE",
+        "description": "Document OneNote"
+      },
+      "pdf": {
+        "name": "Rechercher dans PDF",
+        "description": "Format de Document Portable Adobe"
+      },
+      "pps": {
+        "name": "Rechercher dans PPS",
+        "description": "Diaporama PowerPoint"
+      },
+      "ppt": {
+        "name": "Rechercher dans PPT",
+        "description": "Présentation PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Rechercher dans PPTX",
+        "description": "Présentation Open XML PowerPoint"
+      },
+      "pst": {
+        "name": "Rechercher dans PST",
+        "description": "Fichier de Stockage d'Informations Personnelles Outlook"
+      },
+      "rtf": {
+        "name": "Rechercher dans RTF",
+        "description": "Format de Texte Enrichi"
+      },
+      "tsv": {
+        "name": "Rechercher dans TSV",
+        "description": "Valeurs Séparées par des Tabulations"
+      },
+      "txt": {
+        "name": "Rechercher dans TXT",
+        "description": "Document Texte"
+      },
+      "xls": {
+        "name": "Rechercher dans XLS",
+        "description": "Classeur Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Rechercher dans XLSX",
+        "description": "Feuille de Calcul Open XML Microsoft Excel"
+      },
+      "xml": {
+        "name": "Rechercher dans XML",
+        "description": "Fichier XML"
+      },
+      "zip": {
+        "name": "Rechercher dans ZIP",
+        "description": "Archive Zip"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copier",
+      "copy_tip": "cliquez pour copier",
+      "copy_done": "copié",
+      "links": {
+        "title_1": "Plus d'exemples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Prêt à commencer ?",
+      "description": "Essayez les fonctionnalités de {{ProdShortName}} gratuitement ou demandez une licence",
+      "comment_1": "Téléchargement de {{PackageStoreName}}",
+      "comment_2": "Licences"
+    },
+    "texts": {
+      "learn_more": "En savoir plus"
+    }
+  }
+}

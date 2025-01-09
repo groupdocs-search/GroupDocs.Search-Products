@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "csv": {
+        "name": "Temukan dalam CSV",
+        "description": "Nilai Terpisah Koma"
+      },
+      "doc": {
+        "name": "Temukan dalam DOC",
+        "description": "Dokumen Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Temukan dalam DOCX",
+        "description": "Dokumen Microsoft Word Open XML"
+      },
+      "eml": {
+        "name": "Temukan dalam EML",
+        "description": "Pesan E-Mail"
+      },
+      "epub": {
+        "name": "Temukan dalam EPUB",
+        "description": "File eBook Terbuka"
+      },
+      "fb2": {
+        "name": "Temukan dalam FB2",
+        "description": "File FictionBook"
+      },
+      "md": {
+        "name": "Temukan dalam MD",
+        "description": "Bahasa Markdown"
+      },
+      "odp": {
+        "name": "Temukan dalam ODP",
+        "description": "Format Presentasi OpenDocument"
+      },
+      "one": {
+        "name": "Temukan dalam ONE",
+        "description": "Dokumen OneNote"
+      },
+      "pdf": {
+        "name": "Temukan dalam PDF",
+        "description": "Format Dokumen Portabel Adobe"
+      },
+      "pps": {
+        "name": "Temukan dalam PPS",
+        "description": "Tayangan Slide PowerPoint"
+      },
+      "ppt": {
+        "name": "Temukan dalam PPT",
+        "description": "Presentasi PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Temukan dalam PPTX",
+        "description": "Presentasi PowerPoint Open XML"
+      },
+      "pst": {
+        "name": "Temukan dalam PST",
+        "description": "File Penyimpanan Informasi Pribadi Outlook"
+      },
+      "rtf": {
+        "name": "Temukan dalam RTF",
+        "description": "Format Teks Kaya"
+      },
+      "tsv": {
+        "name": "Temukan dalam TSV",
+        "description": "Nilai Terpisah Tab"
+      },
+      "txt": {
+        "name": "Temukan dalam TXT",
+        "description": "Dokumen Teks"
+      },
+      "xls": {
+        "name": "Temukan dalam XLS",
+        "description": "Workbook Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Temukan dalam XLSX",
+        "description": "Spreadsheet Microsoft Excel Open XML"
+      },
+      "xml": {
+        "name": "Temukan dalam XML",
+        "description": "File XML"
+      },
+      "zip": {
+        "name": "Temukan dalam ZIP",
+        "description": "Arsip Zip"
+      }
+    },
+    "format-code": {
+      "copy_title": "Salin",
+      "copy_tip": "klik untuk menyalin",
+      "copy_done": "disalin",
+      "links": {
+        "title_1": "Lebih banyak contoh",
+        "title_2": "Dokumentasi"
+      }
+    },
+    "format-actions": {
+      "title": "Siap untuk memulai?",
+      "description": "Cobalah fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "comment_1": "Unduhan {{PackageStoreName}}",
+      "comment_2": "Lisensi"
+    },
+    "texts": {
+      "learn_more": "Pelajari lebih lanjut"
+    }
+  }
+}

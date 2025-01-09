@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-04T14:43:38
+date: 2025-01-09T15:38:59
 draft: false
 
 lang: es
@@ -24,22 +24,22 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Node.js Biblioteca de indexación y búsqueda de texto para documentos, PDF, Office y Web"
-head_description: "Solución avanzada de búsqueda de texto para aplicaciones Node.js para buscar, indexar y recopilar datos de documentos: PDF, Word, Excel, presentaciones, correo electrónico y formatos de archivos web."
+head_title: "Biblioteca de Búsqueda de Texto Node.js e Indexación para Documentos, PDF, Office y Web"
+head_description: "Solución avanzada de búsqueda de texto para aplicaciones Node.js para buscar, indexar y recopilar datos de documentos: PDF, Word, Excel, presentaciones, correos electrónicos y formatos web."
 
 ############################# Header ############################
-title: "Buscar e indexar documentos utilizando la API Node.js"
-description: "Mejore las aplicaciones Node.js implementando la búsqueda de texto en todos los formatos de documentos populares."
+title: "Buscar e Indexar Documentos usando Node.js API"
+description: "Mejora Aplicaciones Node.js implementando Búsqueda de Texto en Todos los Formatos de Documentos Populares."
 words:
   for: "para"
 
 actions:
-  main: "Descarga gratuita de NPM"
+  main: "Descarga Gratuita de NPM"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.search"
-  alt: "Licencia"
+  alt: "Licenciamiento"
   alt_link: "https://purchase.groupdocs.com/pricing/search/nodejs-java/"
-  title: "¿Listo para comenzar?"
-  description: "Pruebe las funciones de GroupDocs.Search gratis o solicite una licencia"
+  title: "¡Comienza Tu Aventura Hoy!"
+  description: "Explora las capacidades de GroupDocs.Search de forma gratuita o asegura una licencia para desbloquear todo su potencial."
 
 release:
   title: "Versión {0} lanzada"
@@ -48,19 +48,21 @@ release:
   link: "https://releases.groupdocs.com/search/nodejs-java/"
 
 code:
-  title: "Buscar en la carpeta con JavaScript"
+  title: "Realiza Búsqueda de Texto en una Carpeta con JavaScript"
   more: "Más ejemplos"
   more_link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.search"
   content: |
     ```javascript {style=abap}
-    // Creando índice
-    const index = new Index('c:/MyIndex');
+    const searchLib = require('@groupdocs/groupdocs.search');
 
-    // Agregar documentos al índice
+    // Crea un índice para tus documentos
+    const index = new searchLib.Index('c:/MyIndex');
+
+    // Agrega documentos al índice para búsquedas eficientes
     index.add('c:/MyDocuments');
     
-    // Buscando varias palabras como
+    // Busca palabras o frases específicas, como
     // 'affect', 'effect', 'principles', 'principally'
     const results = index.search('?ffect & princip?(2~4)');
     ```
@@ -68,24 +70,24 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Search de un vistazo"
-  description: "Biblioteca Node.js JavaScript para búsqueda de texto"
+  title: "GroupDocs.Search Descripción General"
+  description: "Biblioteca JavaScript de Node.js para búsqueda de texto"
   features:
     # feature loop
-    - title: "Node.js Operaciones de indexación y búsqueda"
+    - title: "Operaciones de Indexación y Búsqueda Node.js"
       content: "La indexación en GroupDocs.Search for Node.js via Java recopila, almacena y analiza datos para operaciones de búsqueda precisas y eficientes. Estos índices se utilizan frecuentemente para realizar búsquedas."
 
     # feature loop
-    - title: "Fusione varios índices para mejorar la eficiencia de la búsqueda"
-      content: "La API GroupDocs.Search for Node.js via Java permite fusionar varios índices en uno. Las modificaciones frecuentes crean varios índices delta, lo que puede ralentizar el rendimiento de la búsqueda. Nuestra solución fusiona estos índices delta en un índice común, que contiene toda la información de los índices delta fusionados, lo que mejora significativamente la eficiencia de la búsqueda y mantiene los índices delta sin cambios. Se pueden configurar varias funcionalidades para ajustar este proceso."
+    - title: "Combina Múltiples Índices para Mejorar la Eficiencia de Búsqueda"
+      content: "La API GroupDocs.Search for Node.js via Java permite fusionar múltiples índices en uno. Las modificaciones frecuentes crean varios índices delta, lo que puede ralentizar el rendimiento de búsqueda. Nuestra solución fusiona estos índices delta en un índice común, que contiene toda la información de los índices delta fusionados, mejorando significativamente la eficiencia de búsqueda mientras mantiene los índices delta sin cambios. Se pueden configurar diversas funcionalidades para afinar este proceso."
 
     # feature loop
-    - title: "Reconocer consultas de búsqueda desde diferentes diseños de teclado"
-      content: "GroupDocs.Search for Node.js via Java reconoce consultas de búsqueda que no coinciden con la distribución del teclado. Actualmente, se admiten 88 idiomas y 164 diseños de teclado diferentes."
+    - title: "Reconocer Consultas de Búsqueda de Diferentes Disposiciones de Teclado"
+      content: "GroupDocs.Search for Node.js via Java reconoce consultas de búsqueda que no coinciden con la disposición del teclado. Actualmente, se soportan 88 idiomas y 164 disposiciones de teclado diferentes."
 
     # feature loop
-    - title: "Buscar utilizando formas de palabras morfológicas"
-      content: "Con GroupDocs.Search for Node.js via Java, puedes buscar varias formas de palabras, como sustantivos en singular y plural, o todas las formas de un verbo. Los idiomas inglés y no inglés se pueden personalizar para formas de palabras específicas."
+    - title: "Buscar Usando Formas de Palabras Morfológicas"
+      content: "Con GroupDocs.Search for Node.js via Java, puedes buscar diversas formas de palabras, como sustantivos en singular y plural, o todas las formas de un verbo. Inglés y otros idiomas pueden personalizarse para formas de palabras específicas."
 
 ############################# Platforms ############################
 platforms:
@@ -130,15 +132,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "Formatos de archivo admitidos"
+  title: "Formatos de archivo soportados"
   description: |
-    GroupDocs.Search for Node.js via Java permite procesar una amplia gama de formatos de archivos. [Explore la lista completa](https://docs.groupdocs.com/search/java/supported-document-formats/).
+    GroupDocs.Search for Node.js via Java permite procesar una amplia gama de formatos de archivo. [Explora la lista completa](https://docs.groupdocs.com/search/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### Formatos de oficina populares
-        * **Portátil:** PDF 
+        ### Formatos de Oficina Populares
+        * **Portable:** PDF 
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM
         * **Excel:** XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
         * **PowerPoint:** PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
@@ -147,16 +149,16 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### Formatos de medios
+        ### Formatos de Medios
         * **Formatos de imagen populares:** BMP, JP2, PNG, EMF, WMF, JPG, PSD
         * **Imágenes de varias páginas:** GIF, WEBP, TIFF
         * **Audio:** MP3, WAV
-        * **Video:** AVI, MOV, QT, FLV, ASF
+        * **Vídeo:** AVI, MOV, QT, FLV, ASF
       # group loop
     - color: "red"
       content: |
-        ### Otro
-        * **Correo electrónico:**  PST, OST, MSG, EML, EMLX
+        ### Otros
+        * **Email:**  PST, OST, MSG, EML, EMLX
         * **Microsoft Visio:** VSD, VSS
         * **Web:**  XML, HTM, HTML, XHTML, MHT, MHTML
         * **Otros:**  TORRENT, ZIP, DCM, DJVU, EPUB, FB2
@@ -164,69 +166,69 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "Funciones de GroupDocs.Search for Node.js via Java"
-  description: "Controle el contenido de los documentos comerciales utilizando nuestro motor de búsqueda avanzado, compatible con formatos de archivos populares, incluidos PDF, DOCX, XLSX, PPTX y más."
+  title: "Características de GroupDocs.Search for Node.js via Java"
+  description: "Controla el contenido de documentos empresariales usando nuestro motor de búsqueda avanzado, compatible con formatos populares que incluyen PDF, DOCX, XLSX, PPTX y más."
 
   items:
     # feature loop
     - icon: "document_info"
-      title: "Parámetros flexibles"
-      content: "Utilice el rango de fechas y la distinción entre mayúsculas y minúsculas como parámetros de búsqueda"
+      title: "Parámetros Flexibles"
+      content: "Usa Rango de Fechas y Sensibilidad de Mayúsculas como Parámetros de Búsqueda"
 
     # feature loop
     - icon: "detect"
-      title: "Búsqueda de revisión ortográfica"
-      content: "Utilice frases de búsqueda con corrector ortográfico y comodines y omita caracteres especiales en consultas"
+      title: "Búsqueda con Corrección Ortográfica"
+      content: "Usa Frases de Búsqueda con Corrección Ortográfica y comodines y omite caracteres especiales en las consultas"
 
     # feature loop
     - icon: "collect"
-      title: "Filtrado de resultados"
-      content: "Configurar el filtrado de documentos en los resultados de búsqueda"
+      title: "Filtrado de Resultados"
+      content: "Establece Filtrado de Documentos en los Resultados de Búsqueda"
 
     # feature loop
     - icon: "get"
-      title: "Importación y exportación"
-      content: "Realizar importación o uso de lista para modificar caracteres durante la indexación y exportación a un archivo"
+      title: "Importar y Exportar"
+      content: "Realiza Importaciones o Usa Listas para Modificar Caracteres durante la Indexación y Exportar a un Archivo"
 
     # feature loop
     - icon: "remove"
-      title: "Saltar datos innecesarios"
-      content: "Omita selectivamente la indexación de archivos específicos y omita palabras específicas para indexar más rápido"
+      title: "Omitir Datos Innecesarios"
+      content: "Omitir Selectivamente la Indexación de Archivos Específicos & Omitir Palabras Específicas para Indexar Más Rápido"
 
     # feature loop
     - icon: "style"
       title: "Procesamiento de URL"
-      content: "Extraiga texto con formato HTML a un archivo y genere una URL para navegar por los resultados de búsqueda en HTML"
+      content: "Extraer Texto en Formato HTML a un Archivo y Generar una URL para Navegar Resultados de Búsqueda en HTML"
 
     # feature loop
     - icon: "detect"
-      title: "Búsqueda rápida"
-      content: "Divida la búsqueda en partes más pequeñas para buscar rápidamente en índices grandes"
+      title: "Búsqueda Rápida"
+      content: "Dividir la Búsqueda en Fragmentos Más Pequeños para Buscar Rápidamente en Índices Grandes"
 
     # feature loop
     - icon: "manipulate"
-      title: "Procesamiento de flujo"
-      content: "Indexar documentos de flujos y estructuras de datos"
+      title: "Procesamiento por Flujos"
+      content: "Indexar Documentos desde Flujos y Estructuras de Datos"
 
     # feature loop
     - icon: "compare"
-      title: "Manejar errores ortográficos"
-      content: "Habilite el número exacto de apariciones de cada palabra encontrada para ofrecer sugerencias de palabras alternativas en caso de errores ortográficos"
+      title: "Manejo de Errores Tipográficos"
+      content: "Habilita el Número Exacto de Ocurrencias para cada Palabra Encontrada para Ofrecer Sugerencias de Palabras Alternativas en caso de Errores Tipográficos"
 
     # feature loop
     - icon: "unreadable_characters"
-      title: "Soporte de archivo"
-      content: "Indexar archivos comprimidos dentro de otros archivos ZIP y recuperar la lista de archivos indexados en un archivo"
+      title: "Soporte para Archivos Comprimidos"
+      content: "Indexar Archivos ZIP dentro de otros Archivos ZIP y Recuperar Lista de Archivos Indexados en un Archivo"
 
     # feature loop
     - icon: "hidden_print"
-      title: "Ahorro de espacio en disco"
-      content: "Ahorre espacio con indexación compacta y documentos protegidos con contraseña de índice"
+      title: "Ahorro de Espacio en Disco"
+      content: "Ahorrar Espacio con Indexación Compacta & Indexar Documentos Protegidos por Contraseña"
 
     # feature loop
     - icon: "style"
-      title: "Sinónimos personalizados"
-      content: "Agregar sinónimos en inglés al diccionario de sinónimos predeterminado"
+      title: "Sinónimos Personalizados"
+      content: "Agregar Sinónimos en Inglés al Diccionario de Sinónimos Predeterminado"
 
 ############################# Code samples ############################
 code_samples:
@@ -235,51 +237,55 @@ code_samples:
   description: "Explora las funcionalidades de GroupDocs.Search for Node.js via Java con ejemplos"
   items:
     # code sample loop
-    - title: "Utilice la búsqueda difusa para mejorar la productividad"
+    - title: "Usa la búsqueda 'difusa' para aumentar la productividad"
       content: |
-        Disfrute de la funcionalidad flexible de GroupDocs.Search for Node.js via Java para mejorar el control del contenido de los documentos mediante sofisticados algoritmos de búsqueda. [Más información](https://docs.groupdocs.com/search/java/search-results/).
-        {{< landing/code title="Cómo procesar el resultado de la búsqueda">}}
+        Disfruta de la funcionalidad flexible de GroupDocs.Search for Node.js via Java para mejorar el control del contenido de documentos mediante algoritmos de búsqueda sofisticados. [Aprende más](https://docs.groupdocs.com/search/nodejs-java/search-results/).
+        {{< landing/code title="Cómo procesar el resultado de búsqueda">}}
         ```javascript {style=abap}
-        // Crear un índice
-        const index = new Index('c:/IndexFolder');
+        const searchLib = require('@groupdocs/groupdocs.search');
+
+        // Crea un índice
+        const index = new searchLib.Index('c:/IndexFolder');
         index.add('c:/DocumentFolder');
 
-        // Configurar opciones de búsqueda
-        var options = new SearchOptions();
+        // Configura las opciones de búsqueda
+        const options = new searchLib.SearchOptions();
         options.getFuzzySearch().setEnabled(true);
         options.getFuzzySearch().setFuzzyAlgorithm(new TableDiscreteFunction(3));
 
-        // Busque documentos que contengan la palabra 'agua' o la frase 'Lorem ipsum'
-        var query = "water OR \"Lorem ipsum\"";
-        var result = index.search(query, options);
+        // Busca documentos que contengan la palabra 'agua' o la frase 'Lorem ipsum'
+        const query = 'water OR "Lorem ipsum"';
+        const result = index.search(query, options);
         
-        // Procesar resultado de búsqueda
-        console.log("Documents: " + result.getDocumentCount());
-        console.log("Total occurrences: " + result.getOccurrenceCount());
-        for (int i = 0; i < result.getDocumentCount(); i++) {
-            FoundDocument document = result.getFoundDocument(i);
-            console.log('Document: ${document.getDocumentInfo().getFilePath()}');
-            console.log('Occurrences: ${document.getOccurrenceCount()}');
+        // Procesa el resultado de la búsqueda
+        console.log('Documents: ' + result.getDocumentCount());
+        console.log('Total occurrences: ' + result.getOccurrenceCount());
+        for (let i = 0; i < result.getDocumentCount(); i++) {
+            const document = result.getFoundDocument(i);
+            console.log('Document: ' + document.getDocumentInfo().getFilePath());
+            console.log('Occurrences:  + document.getOccurrenceCount());
             }
 
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Las expresiones regulares están disponibles para escenarios de búsqueda avanzada."
+    - title: "Las expresiones regulares están disponibles para escenarios de búsqueda avanzados"
       content: |
-        GroupDocs.Search for Node.js via Java nos permite utilizar expresiones regulares para limitar el resultado de la búsqueda. [Sumérgete en técnicas de búsqueda avanzada](https://docs.groupdocs.com/search/java/regular-expression-search/).
-        {{< landing/code title="Cómo buscar usando expresiones regulares">}}
+        GroupDocs.Search for Node.js via Java nos permite usar expresiones regulares para acotar resultados de búsqueda. [Profundiza en técnicas de búsqueda avanzadas](https://docs.groupdocs.com/search/nodejs-java/regular-expression-search/).
+        {{< landing/code title="Cómo buscar utilizando expresiones regulares">}}
         ```javascript {style=abap}   
-        // Crear un índice
-        const index = new Index('c:/IndexFolder');
+        const searchLib = require('@groupdocs/groupdocs.search');
+
+        // Crea un índice
+        const index = new searchLib.Index('c:/IndexFolder');
         index.add('c:/DocumentFolder');
  
-        // Busque la frase en forma de texto.
+        // Busca la frase en forma de texto
 
-        // El primer carácter de intercalación al principio indica que se trata de una consulta de búsqueda de expresión regular.
-        var query = "^^(.)\\1{1,}";
-        // Buscar dos o más caracteres idénticos al principio de una palabra
-        var result = index.search(query);
+        // El primer carácter de caret al principio indica que esta es una consulta de búsqueda de expresión regular
+        const query = '^^(.)\\1{1,}';
+        // Busca dos o más caracteres idénticos al principio de una palabra
+        const result = index.search(query);
  
         ```
         {{< /landing/code >}}

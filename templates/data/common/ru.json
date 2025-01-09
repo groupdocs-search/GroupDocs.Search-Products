@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "csv": {
+        "name": "Поиск в CSV",
+        "description": "Значения, разделенные запятой"
+      },
+      "doc": {
+        "name": "Поиск в DOC",
+        "description": "Документ Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Поиск в DOCX",
+        "description": "Документ Microsoft Word Open XML"
+      },
+      "eml": {
+        "name": "Поиск в EML",
+        "description": "Сообщение электронной почты"
+      },
+      "epub": {
+        "name": "Поиск в EPUB",
+        "description": "Файл открытой электронной книги"
+      },
+      "fb2": {
+        "name": "Поиск в FB2",
+        "description": "Файл FictionBook"
+      },
+      "md": {
+        "name": "Поиск в MD",
+        "description": "Язык разметки Markdown"
+      },
+      "odp": {
+        "name": "Поиск в ODP",
+        "description": "Формат презентации OpenDocument"
+      },
+      "one": {
+        "name": "Поиск в ONE",
+        "description": "Документ OneNote"
+      },
+      "pdf": {
+        "name": "Поиск в PDF",
+        "description": "Формат переносимого документа Adobe"
+      },
+      "pps": {
+        "name": "Поиск в PPS",
+        "description": "Слайд-шоу PowerPoint"
+      },
+      "ppt": {
+        "name": "Поиск в PPT",
+        "description": "Презентация PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Поиск в PPTX",
+        "description": "Презентация PowerPoint Open XML"
+      },
+      "pst": {
+        "name": "Поиск в PST",
+        "description": "Файл личного хранилища информации Outlook"
+      },
+      "rtf": {
+        "name": "Поиск в RTF",
+        "description": "Формат удобного текста"
+      },
+      "tsv": {
+        "name": "Поиск в TSV",
+        "description": "Значения, разделенные табуляцией"
+      },
+      "txt": {
+        "name": "Поиск в TXT",
+        "description": "Текстовый документ"
+      },
+      "xls": {
+        "name": "Поиск в XLS",
+        "description": "Рабочая книга Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Поиск в XLSX",
+        "description": "Электронная таблица Microsoft Excel Open XML"
+      },
+      "xml": {
+        "name": "Поиск в XML",
+        "description": "XML файл"
+      },
+      "zip": {
+        "name": "Поиск в ZIP",
+        "description": "ZIP-архив"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копировать",
+      "copy_tip": "нажмите, чтобы скопировать",
+      "copy_done": "скопировано",
+      "links": {
+        "title_1": "Больше примеров",
+        "title_2": "Документация"
+      }
+    },
+    "format-actions": {
+      "title": "Готовы начать?",
+      "description": "Попробуйте возможности {{ProdShortName}} бесплатно или запросите лицензию",
+      "comment_1": "Скачивание {{PackageStoreName}}",
+      "comment_2": "Лицензирование"
+    },
+    "texts": {
+      "learn_more": "Узнать больше"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "csv": {
+        "name": "CSVで検索",
+        "description": "カンマ区切り値"
+      },
+      "doc": {
+        "name": "DOCで検索",
+        "description": "Microsoft Word 97 - 2007 ドキュメント"
+      },
+      "docx": {
+        "name": "DOCXで検索",
+        "description": "Microsoft Word オープンXMLドキュメント"
+      },
+      "eml": {
+        "name": "EMLで検索",
+        "description": "電子メールメッセージ"
+      },
+      "epub": {
+        "name": "EPUBで検索",
+        "description": "オープン電子書籍ファイル"
+      },
+      "fb2": {
+        "name": "FB2で検索",
+        "description": "FictionBookファイル"
+      },
+      "md": {
+        "name": "MDで検索",
+        "description": "Markdown言語"
+      },
+      "odp": {
+        "name": "ODPで検索",
+        "description": "OpenDocumentプレゼンテーション形式"
+      },
+      "one": {
+        "name": "ONEで検索",
+        "description": "OneNoteドキュメント"
+      },
+      "pdf": {
+        "name": "PDFで検索",
+        "description": "Adobeポータブルドキュメント形式"
+      },
+      "pps": {
+        "name": "PPSで検索",
+        "description": "PowerPointスライドショー"
+      },
+      "ppt": {
+        "name": "PPTで検索",
+        "description": "PowerPointプレゼンテーション 97-2003"
+      },
+      "pptx": {
+        "name": "PPTXで検索",
+        "description": "PowerPointオープンXMLプレゼンテーション"
+      },
+      "pst": {
+        "name": "PSTで検索",
+        "description": "Outlook個人情報保存ファイル"
+      },
+      "rtf": {
+        "name": "RTFで検索",
+        "description": "リッチテキスト形式"
+      },
+      "tsv": {
+        "name": "TSVで検索",
+        "description": "タブ区切り値"
+      },
+      "txt": {
+        "name": "TXTで検索",
+        "description": "テキストドキュメント"
+      },
+      "xls": {
+        "name": "XLSで検索",
+        "description": "Microsoft Excel ワークブック 97-2003"
+      },
+      "xlsx": {
+        "name": "XLSXで検索",
+        "description": "Microsoft ExcelオープンXMLスプレッドシート"
+      },
+      "xml": {
+        "name": "XMLで検索",
+        "description": "XMLファイル"
+      },
+      "zip": {
+        "name": "ZIPで検索",
+        "description": "ZIPアーカイブ"
+      }
+    },
+    "format-code": {
+      "copy_title": "コピー",
+      "copy_tip": "クリックしてコピー",
+      "copy_done": "コピーしました",
+      "links": {
+        "title_1": "さらに例を見る",
+        "title_2": "ドキュメンテーション"
+      }
+    },
+    "format-actions": {
+      "title": "始める準備はできましたか？",
+      "description": "{{ProdShortName}}の機能を無料で試すか、ライセンスをリクエストしてください",
+      "comment_1": "{{PackageStoreName}}のダウンロード",
+      "comment_2": "ライセンス"
+    },
+    "texts": {
+      "learn_more": "詳細を見る"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "csv": {
+        "name": "Encontrar em CSV",
+        "description": "Valores Separados por Vírgula"
+      },
+      "doc": {
+        "name": "Encontrar em DOC",
+        "description": "Documento Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Encontrar em DOCX",
+        "description": "Documento Microsoft Word Open XML"
+      },
+      "eml": {
+        "name": "Encontrar em EML",
+        "description": "Mensagem de E-Mail"
+      },
+      "epub": {
+        "name": "Encontrar em EPUB",
+        "description": "Arquivo Open eBook"
+      },
+      "fb2": {
+        "name": "Encontrar em FB2",
+        "description": "Arquivo FictionBook"
+      },
+      "md": {
+        "name": "Encontrar em MD",
+        "description": "Linguagem Markdown"
+      },
+      "odp": {
+        "name": "Encontrar em ODP",
+        "description": "Formato de Apresentação OpenDocument"
+      },
+      "one": {
+        "name": "Encontrar em ONE",
+        "description": "Documento OneNote"
+      },
+      "pdf": {
+        "name": "Encontrar em PDF",
+        "description": "Formato de Documento Portátil Adobe"
+      },
+      "pps": {
+        "name": "Encontrar em PPS",
+        "description": "Apresentação PowerPoint"
+      },
+      "ppt": {
+        "name": "Encontrar em PPT",
+        "description": "Apresentação PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Encontrar em PPTX",
+        "description": "Apresentação PowerPoint Open XML"
+      },
+      "pst": {
+        "name": "Encontrar em PST",
+        "description": "Arquivo de Armazenamento de Informações Pessoais do Outlook"
+      },
+      "rtf": {
+        "name": "Encontrar em RTF",
+        "description": "Formato de Texto Rico"
+      },
+      "tsv": {
+        "name": "Encontrar em TSV",
+        "description": "Valores Separados por Tabulação"
+      },
+      "txt": {
+        "name": "Encontrar em TXT",
+        "description": "Documento de Texto"
+      },
+      "xls": {
+        "name": "Encontrar em XLS",
+        "description": "Pasta de Trabalho Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Encontrar em XLSX",
+        "description": "Planilha Microsoft Excel Open XML"
+      },
+      "xml": {
+        "name": "Encontrar em XML",
+        "description": "Arquivo XML"
+      },
+      "zip": {
+        "name": "Encontrar em ZIP",
+        "description": "Arquivo Zip"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copiar",
+      "copy_tip": "clique para copiar",
+      "copy_done": "copiado",
+      "links": {
+        "title_1": "Mais exemplos",
+        "title_2": "Documentação"
+      }
+    },
+    "format-actions": {
+      "title": "Pronto para começar?",
+      "description": "Experimente as funcionalidades do {{ProdShortName}} gratuitamente ou solicite uma licença",
+      "comment_1": "Download do {{PackageStoreName}}",
+      "comment_2": "Licenciamento"
+    },
+    "texts": {
+      "learn_more": "Saiba mais"
+    }
+  }
+}

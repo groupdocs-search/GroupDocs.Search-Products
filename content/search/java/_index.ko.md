@@ -1,292 +1,284 @@
 ---
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+############################# Static ############################
+layout: "landing"
+date: 2025-01-09T15:38:59
 draft: false
 
+lang: ko
 product: "Search"
 product_tag: "search"
 platform: "Java"
 platform_tag: "java"
 
-head_title: "문서, PDF, Office 및 웹용 Java 텍스트 검색 및 인덱싱 API"
-head_description: "PDF, Word, Excel, 프레젠테이션, 이메일 및 웹 파일 형식과 같은 문서에서 데이터를 검색, 색인화 및 검색하는 Java 애플리케이션용 고급 텍스트 검색 API."
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
-title: "Java API를 통한 문서 검색 및 색인 생성"
-description: "모든 인기 있는 문서 형식에서 텍스트 검색 조작을 수행하는 Java 애플리케이션 빌드."
-button:
-    enable: true
+############################# Head ############################
+head_title: "Java PDF, Office 파일 및 웹 콘텐츠에 대한 문서 검색 및 인덱싱 솔루션"
+head_description: "Java 애플리케이션을 위한 강력한 텍스트 검색 및 인덱싱. PDF, Word, Excel, 발표, 이메일 및 웹 형식에서 데이터를 쉽게 검색하고 구성하십시오."
 
-submenu:
-    enable: true
+############################# Header ############################
+title: "Java API로 효율적인 문서 검색 및 인덱싱"
+description: "Java 애플리케이션을 모든 인기 문서 형식에서 강력한 텍스트 검색 기능으로 응원하십시오."
+words:
+  for: "을 위한"
+
+actions:
+  main: "Maven 무료 다운로드"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-search/"
+  alt: "라이센스"
+  alt_link: "https://purchase.groupdocs.com/pricing/search/java/"
+  title: "지금 시작하세요!"
+  description: "모든 기능을 잠금 해제하려면 GroupDocs.Search의 기능을 무료로 탐색하거나 라이센스를 확보하십시오."
+
+release:
+  title: "버전 {0} 출시"
+  notes: "새로운 기능 보기"
+  downloads: "다운로드"
+
+code:
+  title: "Java를 사용하여 파일에서 텍스트 찾기"
+  more: "더 많은 예제"
+  more_link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Java/"
+  install_title : "Maven XML"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-search</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // 문서의 인덱스 생성
+    Index index = new Index("c:/MyIndex");
+
+    // 효율적인 검색을 위해 인덱스에 문서 추가
+    index.add("c:/MyDocuments");
     
-    left:
-        img_alt: "GroupDocs.Search for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-java.png"
-        product: "GroupDocs.Search"
-        platform: "Java"
+    // 예를 들어, 특정 단어 또는 구문 검색
+    // 'affect', 'effect', 'principles', 'principally'
+    SearchResult results = 
+        index.search("?ffect & princip?(2~4)");
+    ```
 
-    middle:
-        button:
-            - link: "#overview"
-              text: "개요"
-
-            - link: "#features"
-              text: "특징"
-
-            - link: "#support"
-              text: "지원하다"
-
-            - link: "https://products.groupdocs.app/search"
-              text: "라이브 데모"
-
-            - link: "https://purchase.groupdocs.com/pricing/search/java"
-              text: "가격"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/search"
-        link_learn: "https://docs.groupdocs.com/search/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Search for Java를 사용하면 최종 사용자가 이전과는 다른 방식으로 검색 작업을 수행할 수 있도록 하는 비즈니스 응용 프로그램을 생성할 수 있습니다. Java API를 사용하면 기본에서 고급 수준의 텍스트 검색 기능을 작동할 수 있습니다. 여러 인덱스를 만들고 병합합니다. 단순, 부울, 정규식(Regex), 퍼지 및 기타 유형의 쿼리를 사용하여 인덱스를 빠르고 스마트하게 검색합니다. GroupDocs.Search for Java는 널리 사용되는 모든 파일 형식을 지원하므로 파일, 문서, 이메일 및 아카이브에서 필요한 정보를 가져올 수 있습니다.
-    tabs:
-      enable: true     
-      
-      tab_one:
-        description: |
-          다음은 GroupDocs.Search for Java의 개요입니다.
-
-        left:
-          enable: true
-          icon: "fas fa-search"
-          title: "인덱싱"
-          content: |
-            * 생성 및 관리
-            * 여러 인덱스 병합
-            * 멀티 스레딩 비동기 인덱싱
-            * 컴팩트 인덱싱
-            * 아카이브 파일 인덱싱
-        
-        right:
-          enable: true
-          icon: "fas fa-search-plus"
-          title: "고급 검색 및 검색어"
-          content: |
-            * 퍼지 검색
-            * 동의어 검색
-            * 이메일 검색
-            * 동음이의어 용어 처리
-            * 보호된 파일 검색
-            * 단순한
-            * 와일드카드
-            * 정규식(Regex)
-            * 패싯 및 부울
-            * 대소문자 구분
-      
-      tab_two:
-        description: |
-          GroupDocs.Search for Java는 Microsoft Office, 이미지, 다이어그램 및 기타 여러 가지를 포함하여 널리 사용되는 모든 [문서 파일 형식](https://docs.groupdocs.com/search/java/supported-document-formats/)을 지원합니다.
-
-        left:
-          enable: true
-          table:
-            - title: "마이크로소프트 오피스 형식"
-              content: |
-                * **단어**: DOC, DOCX, DOCM, DOT, DOTX, DOTM
-                * **엑셀**: XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
-                * **파워포인트**: PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
-                * **프로젝트**: MPP
-                * **다이어그램**: VSD, VSS
-                * **Microsoft 컴파일 HTML**: CHM
-                * **원노트**: 하나
-
-        right:
-          enable: true
-          table:
-            - title: "OpenDocument 및 기타 형식"
-              content: |
-                * **Portable Document Format**: PDF
-                * **OpenDocument**: ODT, OTT, ODS, OTS, ODP
-                * **이메일**: PST, OST, MSG, EML, EMLX
-                * **웹 파일 형식**: XML, HTM, HTML, XHTML, MHT, MHTML
-                * **오디오**: MP3, WAV
-                * **동영상**: AVI, MOV, QT, FLV, ASF
-                * **텍스트**: TXT
-                * **서식 있는 텍스트 형식**: RTF
-                * **마크다운 문서 파일**: MD
-                * **이미지**: BMP, GIF, JP2, PNG, WEBP, TIFF, EMF, WMF, JPG, PSD
-                * **기타**: 토렌트, ZIP, DCM, DJVU, EPUB, FB2
-
-      tab_three:
-        description: |
-          Java용 GroupDocs.Search는 다음 운영 체제, 프레임워크 및 패키지 ‎관리자:‎를 지원합니다.
-        
-        left:
-          enable: true
-          table:
-            - icon: "fab fa-windows"
-              title: "운영체제"
-              content: |
-                * 마이크로소프트 윈도우 데스크탑
-                * 마이크로소프트 윈도우 서버
-                * 리눅스
-                * 맥 OS
-
-            - icon: "fas fa-code"
-              title: "지원되는 프레임워크"
-              content: |
-                * 자바 7(1.7) 이상
-
-        right:
-          enable: true
-          table:
-            - icon: "fas fa-cogs"
-              title: "개발 환경"
-              content: |
-                * 넷빈
-                * IntelliJ 아이디어
-                * 이클립스
-            - icon: "fas fa-tools"
-              title: "빌드 자동화 도구"
-              content: |
-                * 메이븐
-
-features:
-    enable: true
-    title: "GroupDocs.Java 기능 검색"
-
-    feature:
-      - icon: "fas fa-copy"
-        content: "비동기 멀티스레딩을 사용하여 디스크 또는 메모리에 인덱스 구축"
-
-      - icon: "fas fa-eye"
-        content: "인덱스 생성 및 업데이트 진행 상황 보기"
-
-      - icon: "fas fa-bolt"
-        content: "특정 파일에 대한 인덱싱을 선택적으로 건너뛰고 특정 단어를 건너뛰어 더 빠르게 인덱싱"
-      
-      - icon: "fas fa-file-powerpoint"
-        content: "가져오기를 수행하거나 목록을 사용하여 인덱싱 및 파일로 내보내기 중 문자 수정"
-
-      - icon: "fas fa-code"
-        content: "오류 인덱싱 및 모순 설정에 대한 경고 사용자의 경우 인덱스 다시 로드"
-
-      - icon: "fas fa-cloud"
-        content: "최근 처리된 파일에 대한 색인 상태 알림"
-
-      - icon: "fas fa-remove-format"
-        content: "다른 ZIP 아카이브 내에서 압축된 아카이브 색인 생성 및 아카이브에서 색인화된 파일 목록 가져오기"
-
-      - icon: "fas fa-comment-slash"
-        content: "컴팩트 인덱싱 및 비밀번호 보안 문서 인덱싱으로 공간 절약‎"
-
-      - icon: "fas fa-location-arrow"
-        content: "인덱스 또는 소스 파일에서 문서 텍스트 추출"
-
-      - icon: "fas fa-border-all"
-        content: "HTML 형식의 텍스트를 파일로 추출하고 HTML에서 검색 결과를 탐색하기 위한 URL 생성"
-
-      - icon: "fas fa-wrench"
-        content: "인덱싱하는 동안 각 문서에 임의의 추가 필드 추가"
-
-      - icon: "fas fa-columns"
-        content: "퍼지 검색에 대한 유사성 수준 구성 및 최상의 결과 표시"
-
-      - icon: "fas fa-file-word"
-        content: "Fuzzy Search를 통한 스마트한 오타 관리"
-
-      - icon: "fas fa-envelope"
-        content: "패싯 및 부울 검색을 동시에 사용"
-
-      - icon: "fas fa-print"
-        content: "동의어 검색 구성 및 수행 및 동음이의어 용어를 현명하게 처리"
-
-      - icon: "fas fa-file-archive"
-        content: "날짜 범위 및 대소문자 구분을 검색 매개변수로 사용"
-
-      - icon: "fas fa-lock"
-        content: "Aspose.Email API를 통해 이메일 메시지를 검색하고 찾아보기 위한 색인 만들기"
-
-      - icon: "fas fa-file-code"
-        content: "맞춤법 검사 및 와일드 카드와 함께 검색 구문 사용 및 쿼리에서 특수 문자 건너뛰기"
-      
-      - icon: "fas fa-fill-drip"
-        content: "여러 쿼리를 결합하여 단일 개체 트리 만들기"
-
-      - icon: "fas fa-file-excel"
-        content: "거대한 인덱스를 빠르게 검색하기 위해 검색을 더 작은 청크로 분할"
-
-      - icon: "fas fa-heading"
-        content: "스트림 및 데이터 구조에서 문서 색인 생성"
-
-      - icon: "fas fa-project-diagram"
-        content: "검색 결과에서 문서 필터링 설정"
-
-      - icon: "fas fa-cube"
-        content: "기본 동의어 사전에 영어 동의어 추가"
-
-      - icon: "fab fa-uncharted"
-        content: "철자가 틀린 경우 대체 단어 제안을 제공하기 위해 찾은 각 단어의 정확한 발생 횟수 활성화"
-
-      - icon: "fab fa-uncharted"
-        content: "다시 인덱싱하지 않고 인덱싱된 문서에 텍스트 속성 추가"
-
-      - icon: "fab fa-uncharted"
-        content: "문자를 기반으로 인덱싱 및 검색 작업 수행"
-
-      - icon: "fab fa-uncharted"
-        content: "비텍스트 문서 형식의 인덱스 메타데이터"
-
-    more_feature:
-      - title: "인덱싱 및 검색 작업"
-        content: |
-          인덱싱은 GroupDocs.Search for Java에서 데이터를 수집하고 정확하고 효율적인 검색 작업을 위해 데이터를 저장 및 구문 분석하는 데 사용됩니다. Java용 GroupDocs.Search는 검색을 수행하기 위해 이러한 색인을 자주 사용합니다.
-
-          * **Create Index**: Index 폴더를 생성하고 해당 폴더에 문서를 추가/인덱싱합니다.
-          * **인덱스 로드**: 기존 인덱스를 로드합니다.
-          * **색인에 문서 추가**: 기존 색인에 문서를 비동기식으로 추가합니다.
-          * **인덱스 업데이트**: 문서가 수정, 추가 또는 삭제될 때마다 기존 인덱스를 업데이트합니다. 이렇게 하면 검색 결과가 최신 상태로 유지됩니다.
-          
-          ```java
-          / Creating index
-          Index index = new Index("c:\\MyIndex");
-          // 인덱스에 문서 추가
-          index.addToIndex("c:\\MyDocuments");
-          // 'principal', 'principle', 'principles', 'principally'가 있는 문서에서 '영향' 또는 '효과' 단어 검색
-          SearchResults results = index.search("?ffect & princip?(2~4)");
-          ```
-      - title: "여러 인덱스를 병합하여 검색 효율성 향상"
-        content: "GroupDocs.Search for Java API는 여러 인덱스를 공통 인덱스로 병합하는 기능을 제공합니다. 자주 수정되는 인덱스의 경우 여러 개의 델타 인덱스가 생성됩니다. 그러나 이 접근 방식은 검색 성능을 저하시킵니다. GroupDocs.Search for Java는 다양한 델타 인덱스를 병합하여 하나의 공통 인덱스를 생성하여 이러한 병목 현상을 극복합니다. 이 공통 병합 인덱스에는 병합된 델타 인덱스의 모든 정보가 포함됩니다. 이 접근 방식은 델타 인덱스를 변경하지 않은 상태로 유지하면서 검색 효율성을 크게 향상시킵니다. 이 프로세스를 추가로 조정하기 위해 다양한 기능을 구성할 수 있습니다.."
-
-      - title: "다양한 키보드 레이아웃의 검색어 인식"
-        content: "GroupDocs.Search for Java는 키보드 레이아웃과 일치하지 않는 검색어를 인식합니다. 현재 GroupDocs.Search for Java는 88개 언어와 164개 키보드 레이아웃을 성공적으로 인식할 수 있습니다.‎"
-
-      - title: "형태소 단어 형식을 사용하여 검색"
-        content: "GroupDocs.Search for Java를 사용하면 다양한 단어 형식을 자유롭게 검색할 수 있습니다. 특정 명사의 단수형과 복수형을 검색할 수 있습니다. 또는 동사의 모든 형태를 검색하도록 선택할 수 있습니다. 어근, 3인칭 단수, 단순과거 등 다양한 형태로 검색이 가능합니다. 영어가 아닌 언어의 경우 사용자 지정 단어 형식을 구성할 수 있습니다.."
-
-support:
-    enable: true
-
-solutions:
-    enable: true
-    title: "GroupDocs.Search는 다른 인기 있는 개발 환경을 위한 문서 보기 API를 제공합니다."
-
-    solution:
-        - img_alt: "GroupDocs.Search for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-net.png"
-          product: "GroupDocs.Search"
-          platform: ".NET"
-          link: "/search/net/"
-
-        # solution loop
-        - img_alt: "GroupDocs.Search for Node.js"
-          image: "/border/groupdocs-search-nodejs-java.svg"
-          product: "GroupDocs.Search"
-          platform: "Node.js via Java"
-          link: "/search/nodejs-java/"
-
-back_to_top:
   enable: true
+  title: "GroupDocs.Search 개요"
+  description: "Java Java 라이브러리의 강력한 텍스트 검색 기능을 발견하십시오."
+  features:
+    # feature loop
+    - title: "Java에서의 인덱싱 및 검색 작업"
+      content: "GroupDocs.Search for Java를 사용하여 데이터를 효율적으로 수집, 저장 및 분석하여 더 빠르고 더 정확한 검색을 위한 상세 인덱스를 생성할 수 있습니다."
+
+    # feature loop
+    - title: "인덱스를 병합하여 검색 최적화"
+      content: "GroupDocs.Search for Java로 여러 인덱스를 쉽게 결합하여 검색을 간소화하십시오. 작은 델타 인덱스의 영향을 줄이기 위해 이를 단일 고성능 인덱스로 통합하십시오."
+
+    # feature loop
+    - title: "다국어 키보드 레이아웃 지원"
+      content: "GroupDocs.Search for Java로 다양한 언어와 키보드 레이아웃을 통해 검색하십시오. 88개 언어 및 164개의 키보드 구성으로 비교할 수 없는 다재다능성을 갖추고 있습니다."
+
+    # feature loop
+    - title: "형태론적 검색 기능"
+      content: "GroupDocs.Search for Java를 사용하여 단수/복수 명사 및 동사 변형과 같은 다양한 단어 형태를 찾으십시오. 검색 옵션은 영어 및 기타 언어에 맞게 사용자 정의할 수 있습니다."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "플랫폼 독립성"
+  description: "GroupDocs.Search for Java는 주요 운영 체제 및 패키지 관리자가 호환됩니다."
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "지원되는 파일 형식"
+  description: |
+    포괄적인 형식 범위를 사용할 수 있습니다. [전체 목록 보기](https://docs.groupdocs.com/search/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### 인기 사무용 형식
+        * **휴대용:** PDF 
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM
+        * **Excel:** XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
+        * **PowerPoint:** PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
+        * **OpenDocument:** ODT, ODP, ODS, OTT, OTS
+        * **텍스트:** TXT, RTF
+    # group loop
+    - color: "blue"
+      content: |
+        ### 미디어 형식
+        * **인기 이미지 형식:** BMP, JP2, PNG, EMF, WMF, JPG, PSD
+        * **다중 페이지 이미지:** GIF, WEBP, TIFF
+        * **오디오:** MP3, WAV
+        * **비디오:** AVI, MOV, QT, FLV, ASF
+      # group loop
+    - color: "red"
+      content: |
+        ### 기타
+        * **이메일:**  PST, OST, MSG, EML, EMLX
+        * **Microsoft Visio:** VSD, VSS
+        * **웹:**  XML, HTM, HTML, XHTML, MHT, MHTML
+        * **기타:**  TORRENT, ZIP, DCM, DJVU, EPUB, FB2
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Search for Java의 기능"
+  description: "PDF, DOCX, XLSX, PPTX 등과 같은 형식을 지원하는 고급 검색 기능으로 문서 콘텐츠를 효과적으로 관리하십시오."
+
+  items:
+    # feature loop
+    - icon: "document_info"
+      title: "사용자 정의 가능한 검색 매개변수"
+      content: "기간 범위 및 대소문자 구분 필터를 사용하여 검색을 세분화하십시오."
+
+    # feature loop
+    - icon: "detect"
+      title: "향상된 맞춤법 검사"
+      content: "효율적으로 검색하기 위해 맞춤법 검사, 와일드카드 및 특수 문자를 무시하십시오."
+
+    # feature loop
+    - icon: "collect"
+      title: "필터링된 검색 결과"
+      content: "특정 문서 유형 또는 기준에 기반하여 검색 결과를 필터링하십시오."
+
+    # feature loop
+    - icon: "get"
+      title: "인덱스 데이터 가져오기 및 내보내기"
+      content: "인덱싱을 위한 데이터를 쉽게 가져오고, 결과를 파일로 내보내십시오."
+
+    # feature loop
+    - icon: "remove"
+      title: "불필요한 파일 건너뛰기"
+      content: "특정 파일이나 단어를 제외하여 인덱싱을 최적화합니다."
+
+    # feature loop
+    - icon: "style"
+      title: "HTML 및 URL 처리"
+      content: "HTML 내용을 파일로 추출하고 검색 결과를 통해 내비게이션하는 URL을 생성하십시오."
+
+    # feature loop
+    - icon: "detect"
+      title: "대형 인덱스에서 고속 검색"
+      content: "크고 관리하기 쉬운 청사진을 나누어 놓을 수 있는 방법을 사용할 수 있습니다."
+
+    # feature loop
+    - icon: "manipulate"
+      title: "스트림 기반 인덱싱"
+      content: "스트림 또는 데이터 구조에서 직접 데이터를 인덱싱하십시오."
+
+    # feature loop
+    - icon: "compare"
+      title: "잘못된 쿼리 처리"
+      content: "잘못된 철자 및 대체 단어를 제안하여 더 나은 검색 정확성을 기초하십시오."
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "포괄적인 아카이브 지원"
+      content: "모든 ZIP 파일 내에서 중첩 아카이브를 인덱싱하고 파일의 세부사항을 검색하십시오."
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "공간 절약형 인덱싱"
+      content: "디스크 공간을 절약할 수 있는 컴팩트한 인덱싱으로 사용하고 암호 보호된 문서를 처리하십시오."
+
+    # feature loop
+    - icon: "style"
+      title: "사용자 지정 동의어 지원"
+      content: "동의어 사전을 확대하여 맞춰진 옵션으로 검색 정확도를 향상시키십시오."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "코드 샘플"
+  description: "코드 예제를 통해 GroupDocs.Search for Java의 기능을 살펴보십시오."
+  items:
+    # code sample loop
+    - title: "모호 일치를 통해 검색 정확성 향상"
+      content: |
+        고급 모호 검색 기능으로 콘텐츠를 관리하기 위해 GroupDocs.Search for Java의 유연함을 활용하십시오. [더 알아보기](https://docs.groupdocs.com/search/java/search-results/).
+        {{< landing/code title="검색 결과 처리 방법">}}
+        ```java {style=abap}
+        // 인덱스 생성
+        Index index = new Index("C:/IndexFolder");
+        index.add("C:/DocumentFolder");
+
+        // 검색 옵션 설정
+        SearchOptions options = new SearchOptions();
+        options.getFuzzySearch().setEnabled(true);
+        options.getFuzzySearch().setFuzzyAlgorithm(new TableDiscreteFunction(3));
+
+        // 단어 'water' 또는 구문 'Lorem ipsum'이 포함된 문서를 검색합니다.
+        String query = "water OR \"Lorem ipsum\"";
+        SearchResult result = index.search(query, options);
+        
+        // 검색 결과 처리
+        System.out.println("Documents: " + result.getDocumentCount());
+        System.out.println("Total occurrences: " + result.getOccurrenceCount());
+        for (int i = 0; i < result.getDocumentCount(); i++) {
+            FoundDocument document = result.getFoundDocument(i);
+            System.out.println("Document: " + document.getDocumentInfo().getFilePath());
+            System.out.println("Occurrences " + document.getOccurrenceCount());
+            }
+
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "정규 표현식으로 결과 세분화"
+      content: |
+        GroupDocs.Search for Java에서 정규 표현식을 사용하여 정밀하고 상세한 검색을 수행하십시오. [고급 기술 탐색](https://docs.groupdocs.com/search/java/regular-expression-search/).
+        {{< landing/code title="정규 표현식을 사용한 검색 방법">}}
+        ```java {style=abap}   
+        // 인덱스 생성
+        Index index = new Index("C:/IndexFolder");
+        index.add("c:/DocumentFolder");
+ 
+        // 문자 형태로 구문 검색
+
+        // 처음에 나타나는 캐럿 문자는 이것이 정규 표현식 검색 쿼리임을 나타냅니다.
+        String query = "^^(.)\\1{1,}";
+        // 단어 시작 부분에 두 개 이상의 동일한 문자를 검색
+        SearchResult result = index.search(query);
+ 
+        ```
+        {{< /landing/code >}}
+
 ---

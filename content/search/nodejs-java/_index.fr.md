@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-04T14:43:38
+date: 2025-01-09T15:38:59
 draft: false
 
 lang: fr
@@ -24,11 +24,11 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Node.js Bibliothèque de recherche et d'indexation de texte pour documents, PDF, Office et Web"
-head_description: "Solution de recherche de texte avancée pour les applications Node.js permettant de rechercher, d'indexer et de collecter des données à partir de documents : PDF, Word, Excel, présentations, formats de fichiers de courrier électronique et Web."
+head_title: "Bibliothèque de recherche et d'indexation de texte Node.js pour documents, PDF, fichiers bureautiques et web"
+head_description: "Solution avancée de recherche de texte pour les applications Node.js pour rechercher, indexer et collecter des données à partir de documents : PDF, Word, Excel, présentations, e-mails et formats de fichiers web."
 
 ############################# Header ############################
-title: "Rechercher et indexer des documents à l'aide de l'API Node.js"
+title: "Recherche et indexation de documents utilisant l'API Node.js"
 description: "Améliorez les applications Node.js en implémentant la recherche de texte dans tous les formats de documents populaires."
 words:
   for: "pour"
@@ -36,31 +36,33 @@ words:
 actions:
   main: "Téléchargement gratuit de NPM"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.search"
-  alt: "Licence"
+  alt: "Licences"
   alt_link: "https://purchase.groupdocs.com/pricing/search/nodejs-java/"
-  title: "Prêt à commencer?"
-  description: "Essayez GroupDocs.Search fonctionnalités gratuitement ou demandez une licence"
+  title: "Commencez votre expérience dès aujourd'hui !"
+  description: "Explorez les capacités de GroupDocs.Search gratuitement ou obtenez une licence pour débloquer son plein potentiel."
 
 release:
-  title: "Version {0} publiée"
-  notes: "Regardez ce qu'il y a de nouveau"
+  title: "Version {0} publiée"
+  notes: "Voir les nouveautés"
   downloads: "Téléchargements"
   link: "https://releases.groupdocs.com/search/nodejs-java/"
 
 code:
-  title: "Rechercher dans le dossier avec JavaScript"
+  title: "Effectuer une recherche de texte dans un dossier avec JavaScript"
   more: "Plus d'exemples"
   more_link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.search"
   content: |
     ```javascript {style=abap}
-    // Création d'un index
-    const index = new Index('c:/MyIndex');
+    const searchLib = require('@groupdocs/groupdocs.search');
 
-    // Ajout de documents à l'index
+    // Créez un index pour vos documents
+    const index = new searchLib.Index('c:/MyIndex');
+
+    // Ajoutez des documents à l'index pour une recherche efficace
     index.add('c:/MyDocuments');
     
-    // Recherche de différents mots comme
+    // Recherchez des mots ou des phrases spécifiques, tels que
     // 'affect', 'effect', 'principles', 'principally'
     const results = index.search('?ffect & princip?(2~4)');
     ```
@@ -68,30 +70,30 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Search en un coup d'oeil"
+  title: "Aperçu de GroupDocs.Search"
   description: "Bibliothèque Node.js JavaScript pour la recherche de texte"
   features:
     # feature loop
-    - title: "Node.js Opérations d'indexation et de recherche"
-      content: "L'indexation dans GroupDocs.Search for Node.js via Java collecte, stocke et analyse les données pour des opérations de recherche précises et efficaces. Ces index sont fréquemment utilisés pour effectuer des recherches."
+    - title: "Opérations d'indexation et de recherche Node.js"
+      content: "L'indexation dans GroupDocs.Search for Node.js via Java collecte, stocke et analyse les données pour des opérations de recherche précises et efficaces. Ces index sont couramment utilisés pour effectuer des recherches."
 
     # feature loop
-    - title: "Fusionner plusieurs index pour améliorer l'efficacité de la recherche"
-      content: "L'API GroupDocs.Search for Node.js via Java permet la fusion de plusieurs index en un seul. Des modifications fréquentes créent plusieurs index delta, ce qui peut ralentir les performances de recherche. Notre solution fusionne ces index delta en un index commun, contenant toutes les informations des index delta fusionnés, améliorant considérablement l'efficacité de la recherche tout en gardant les index delta inchangés. Diverses fonctionnalités peuvent être configurées pour affiner ce processus."
+    - title: "Fusionner plusieurs index pour améliorer l'efficacité de recherche"
+      content: "GroupDocs.Search for Node.js via Java API permet la fusion de plusieurs index en un seul. Des modifications fréquentes créent plusieurs index de delta, ce qui peut ralentir les performances de recherche. Notre solution fusionne ces index de delta en un index commun, contenant toutes les informations provenant des index de delta fusionnés, améliorant ainsi considérablement l'efficacité de recherche tout en maintenant les index de delta inchangés. Différentes fonctionnalités peuvent être configurées pour peaufiner ce processus."
 
     # feature loop
-    - title: "Reconnaître les requêtes de recherche à partir de différentes dispositions de clavier"
-      content: "GroupDocs.Search for Node.js via Java reconnaît les requêtes de recherche qui ne correspondent pas à la disposition du clavier. Actuellement, 88 langues et 164 configurations de clavier différentes sont prises en charge."
+    - title: "Reconnaître les requêtes de recherche à partir de différentes mises en page de clavier"
+      content: "GroupDocs.Search for Node.js via Java reconnaît les requêtes de recherche qui ne correspondent pas à la mise en page du clavier. Actuellement, 88 langues et 164 différentes mises en page de clavier sont prises en charge."
 
     # feature loop
-    - title: "Recherche à l'aide de formes de mots morphologiques"
-      content: "Avec GroupDocs.Search for Node.js via Java, vous pouvez rechercher diverses formes de mots, telles que des noms au singulier et au pluriel, ou toutes les formes d'un verbe. Les langues anglaises et non anglaises peuvent être personnalisées pour des formes de mots spécifiques."
+    - title: "Rechercher à l'aide de formes morphologiques de mots"
+      content: "Avec GroupDocs.Search for Node.js via Java, vous pouvez rechercher différentes formes de mots, telles que les noms singuliers et pluriels, ou toutes les formes d'un verbe. L'anglais et les langues non anglaises peuvent être personnalisés pour des formes de mots spécifiques."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Indépendance de la plateforme"
-  description: "GroupDocs.Search for Node.js via Java prend en charge tous les systèmes d'exploitation et gestionnaires de packages courants."
+  description: "GroupDocs.Search for Node.js via Java prend en charge tous les systèmes d'exploitation populaires et gestionnaires de packages."
   items:
     # platform loop
     - title: "Windows"
@@ -132,7 +134,7 @@ formats:
   enable: true
   title: "Formats de fichiers pris en charge"
   description: |
-    GroupDocs.Search for Node.js via Java permet de traiter un large éventail de formats de fichiers. [Explorez la liste complète](https://docs.groupdocs.com/search/java/supported-document-formats/).
+    GroupDocs.Search for Node.js via Java permet de traiter une large gamme de formats de fichiers. [Explorez la liste complète](https://docs.groupdocs.com/search/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -147,139 +149,143 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### Formats multimédias
-        * **Formats d'images populaires:** BMP, JP2, PNG, EMF, WMF, JPG, PSD
+        ### Formats multimédia
+        * **Formats d'image populaires:** BMP, JP2, PNG, EMF, WMF, JPG, PSD
         * **Images multipages:** GIF, WEBP, TIFF
-        * **l'audio:** MP3, WAV
+        * **Audio:** MP3, WAV
         * **Vidéo:** AVI, MOV, QT, FLV, ASF
       # group loop
     - color: "red"
       content: |
-        ### Autre
+        ### Autres
         * **E-mail:**  PST, OST, MSG, EML, EMLX
         * **Microsoft Visio:** VSD, VSS
-        * **la toile:**  XML, HTM, HTML, XHTML, MHT, MHTML
+        * **Web:**  XML, HTM, HTML, XHTML, MHT, MHTML
         * **Autres:**  TORRENT, ZIP, DCM, DJVU, EPUB, FB2
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Search for Node.js via Java Fonctionnalités"
-  description: "Contrôlez le contenu des documents professionnels à l'aide de notre moteur de recherche avancé, prenant en charge les formats de fichiers les plus courants, notamment PDF, DOCX, XLSX, PPTX, etc."
+  title: "Fonctionnalités de GroupDocs.Search for Node.js via Java"
+  description: "Contrôlez le contenu des documents commerciaux grâce à notre moteur de recherche avancé, prenant en charge les formats de fichiers populaires, y compris PDF, DOCX, XLSX, PPTX, et plus encore."
 
   items:
     # feature loop
     - icon: "document_info"
       title: "Paramètres flexibles"
-      content: "Utiliser la plage de dates et la sensibilité à la casse comme paramètres de recherche"
+      content: "Utilisez des plages de dates et la sensibilité à la casse comme paramètres de recherche"
 
     # feature loop
     - icon: "detect"
-      title: "Recherche de vérification orthographique"
-      content: "Utilisez des expressions de recherche avec la vérification orthographique et les caractères génériques et ignorez les caractères spéciaux dans les requêtes"
+      title: "Recherche avec vérification orthographique"
+      content: "Utilisez des phrases de recherche avec vérification orthographique et caractères génériques, en sautant les caractères spéciaux dans les requêtes"
 
     # feature loop
     - icon: "collect"
       title: "Filtrage des résultats"
-      content: "Configurer le filtrage des documents dans les résultats de recherche"
+      content: "Configurez le filtrage des documents dans les résultats de recherche"
 
     # feature loop
     - icon: "get"
-      title: "Importer / Exporter"
-      content: "Effectuer une importation ou utiliser une liste pour modifier des caractères lors de l'indexation et de l'exportation vers un fichier"
+      title: "Importation et exportation"
+      content: "Effectuez des importations ou utilisez une liste pour modifier les caractères lors de l'indexation et exportez dans un fichier"
 
     # feature loop
     - icon: "remove"
-      title: "Ignorer les données inutiles"
-      content: "Ignorer sélectivement l'indexation de fichiers spécifiques et ignorer des mots spécifiques pour indexer plus rapidement"
+      title: "Exclusion des données non nécessaires"
+      content: "Ignorer sélectivement l'indexation pour des fichiers spécifiques et des mots spécifiques pour une indexation plus rapide"
 
     # feature loop
     - icon: "style"
       title: "Traitement des URL"
-      content: "Extrayez le texte au format HTML dans un fichier et générez une URL pour parcourir les résultats de recherche en HTML"
+      content: "Extrayez le texte au format HTML dans un fichier et générez une URL pour naviguer dans les résultats de recherche en HTML"
 
     # feature loop
     - icon: "detect"
       title: "Recherche rapide"
-      content: "Divisez la recherche en morceaux plus petits pour rechercher rapidement des index volumineux"
+      content: "Divisez la recherche en morceaux plus petits pour rechercher rapidement de grands index"
 
     # feature loop
     - icon: "manipulate"
       title: "Traitement des flux"
-      content: "Indexer des documents à partir de flux et de structures de données"
+      content: "Indexez les documents à partir de flux et de structures de données"
 
     # feature loop
     - icon: "compare"
-      title: "Gérer les fautes d’orthographe"
-      content: "Activer le nombre exact d'occurrences pour chaque mot trouvé afin de proposer des suggestions de mots alternatifs en cas de faute d'orthographe"
+      title: "Gérer les erreurs de frappe"
+      content: "Permettre un nombre exact d'occurrences pour chaque mot trouvé afin d'offrir des suggestions alternatives en cas d'erreur typographique"
 
     # feature loop
     - icon: "unreadable_characters"
-      title: "Prise en charge des archives"
-      content: "Indexer les archives compressées dans d'autres archives ZIP et récupérer la liste des fichiers indexés dans une archive"
+      title: "Support des archives"
+      content: "Indexez les archives compressées à l'intérieur d'autres archives ZIP et récupérez la liste des fichiers indexés dans une archive"
 
     # feature loop
     - icon: "hidden_print"
       title: "Économie d'espace disque"
-      content: "Économisez de l'espace avec l'indexation compacte et l'indexation des documents sécurisés par mot de passe"
+      content: "Économisez de l'espace avec une indexation compacte et indexez des documents protégés par mot de passe"
 
     # feature loop
     - icon: "style"
       title: "Synonymes personnalisés"
-      content: "Ajouter des synonymes anglais au dictionnaire de synonymes par défaut"
+      content: "Ajoutez des synonymes anglais au dictionnaire de synonymes par défaut"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Exemples de codes"
+  title: "Exemples de code"
   description: "Explorez les fonctionnalités de GroupDocs.Search for Node.js via Java avec des exemples"
   items:
     # code sample loop
-    - title: "Utiliser la recherche floue pour améliorer la productivité"
+    - title: "Utilisez la recherche 'floue' pour améliorer la productivité"
       content: |
-        Profitez de la fonctionnalité flexible GroupDocs.Search for Node.js via Java pour améliorer le contrôle du contenu des documents grâce à des algorithmes de recherche sophistiqués. [En savoir plus](https://docs.groupdocs.com/search/java/search-results/).
+        Profitez de la flexibilité de GroupDocs.Search for Node.js via Java pour améliorer le contrôle du contenu des documents grâce à des algorithmes de recherche sophistiqués. [En savoir plus](https://docs.groupdocs.com/search/nodejs-java/search-results/).
         {{< landing/code title="Comment traiter le résultat de la recherche">}}
         ```javascript {style=abap}
-        // Créer un index
-        const index = new Index('c:/IndexFolder');
+        const searchLib = require('@groupdocs/groupdocs.search');
+
+        // Créez un index
+        const index = new searchLib.Index('c:/IndexFolder');
         index.add('c:/DocumentFolder');
 
-        // Configurer les options de recherche
-        var options = new SearchOptions();
+        // Configurez les options de recherche
+        const options = new searchLib.SearchOptions();
         options.getFuzzySearch().setEnabled(true);
         options.getFuzzySearch().setFuzzyAlgorithm(new TableDiscreteFunction(3));
 
-        // Rechercher des documents contenant le mot « eau » ou l'expression « Lorem ipsum »
-        var query = "water OR \"Lorem ipsum\"";
-        var result = index.search(query, options);
+        // Recherchez des documents contenant le mot 'eau' ou la phrase 'Lorem ipsum'
+        const query = 'water OR "Lorem ipsum"';
+        const result = index.search(query, options);
         
-        // Résultat de la recherche de processus
-        console.log("Documents: " + result.getDocumentCount());
-        console.log("Total occurrences: " + result.getOccurrenceCount());
-        for (int i = 0; i < result.getDocumentCount(); i++) {
-            FoundDocument document = result.getFoundDocument(i);
-            console.log('Document: ${document.getDocumentInfo().getFilePath()}');
-            console.log('Occurrences: ${document.getOccurrenceCount()}');
+        // Traitez le résultat de la recherche
+        console.log('Documents: ' + result.getDocumentCount());
+        console.log('Total occurrences: ' + result.getOccurrenceCount());
+        for (let i = 0; i < result.getDocumentCount(); i++) {
+            const document = result.getFoundDocument(i);
+            console.log('Document: ' + document.getDocumentInfo().getFilePath());
+            console.log('Occurrences:  + document.getOccurrenceCount());
             }
 
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Les expressions régulières sont disponibles pour les scénarios de recherche avancée"
+    - title: "Les expressions régulières sont disponibles pour des scénarios de recherche avancés"
       content: |
-        GroupDocs.Search for Node.js via Java nous permet d'utiliser des expressions régulières afin d'affiner les résultats de recherche. [Plongez dans les techniques de recherche avancées](https://docs.groupdocs.com/search/java/regular-expression-search/).
-        {{< landing/code title="Comment effectuer une recherche à l'aide d'expressions régulières">}}
+        GroupDocs.Search for Node.js via Java vous permet d'utiliser des expressions régulières afin de restreindre les résultats de recherche. [Plongez dans des techniques de recherche avancées](https://docs.groupdocs.com/search/nodejs-java/regular-expression-search/).
+        {{< landing/code title="Comment rechercher avec des expressions régulières">}}
         ```javascript {style=abap}   
-        // Créer un index
-        const index = new Index('c:/IndexFolder');
+        const searchLib = require('@groupdocs/groupdocs.search');
+
+        // Créez un index
+        const index = new searchLib.Index('c:/IndexFolder');
         index.add('c:/DocumentFolder');
  
-        // Rechercher l'expression sous forme de texte
+        // Recherchez la phrase sous forme de texte
 
-        // Le premier caractère caret au début indique qu'il s'agit d'une requête de recherche d'expression régulière
-        var query = "^^(.)\\1{1,}";
-        // Rechercher deux ou plusieurs caractères identiques au début d'un mot
-        var result = index.search(query);
+        // Le premier caractère de caret au début indique qu'il s'agit d'une requête de recherche d'expressions régulières
+        const query = '^^(.)\\1{1,}';
+        // Recherchez deux caractères identiques ou plus au début d'un mot
+        const result = index.search(query);
  
         ```
         {{< /landing/code >}}

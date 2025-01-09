@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "csv": {
+        "name": "ค้นหาใน CSV",
+        "description": "ค่าที่คั่นด้วยเครื่องหมายจุลภาค"
+      },
+      "doc": {
+        "name": "ค้นหาใน DOC",
+        "description": "เอกสาร Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "ค้นหาใน DOCX",
+        "description": "เอกสาร Microsoft Word Open XML"
+      },
+      "eml": {
+        "name": "ค้นหาใน EML",
+        "description": "ข้อความอีเมล"
+      },
+      "epub": {
+        "name": "ค้นหาใน EPUB",
+        "description": "ไฟล์ eBook แบบเปิด"
+      },
+      "fb2": {
+        "name": "ค้นหาใน FB2",
+        "description": "ไฟล์ FictionBook"
+      },
+      "md": {
+        "name": "ค้นหาใน MD",
+        "description": "ภาษา Markdown"
+      },
+      "odp": {
+        "name": "ค้นหาใน ODP",
+        "description": "รูปแบบการนำเสนอ OpenDocument"
+      },
+      "one": {
+        "name": "ค้นหาใน ONE",
+        "description": "เอกสาร OneNote"
+      },
+      "pdf": {
+        "name": "ค้นหาใน PDF",
+        "description": "รูปแบบเอกสารพกพา Adobe"
+      },
+      "pps": {
+        "name": "ค้นหาใน PPS",
+        "description": "การนำเสนอ PowerPoint"
+      },
+      "ppt": {
+        "name": "ค้นหาใน PPT",
+        "description": "การนำเสนอ PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "ค้นหาใน PPTX",
+        "description": "การนำเสนอ PowerPoint Open XML"
+      },
+      "pst": {
+        "name": "ค้นหาใน PST",
+        "description": "ไฟล์ข้อมูลส่วนบุคคลของ Outlook"
+      },
+      "rtf": {
+        "name": "ค้นหาใน RTF",
+        "description": "รูปแบบข้อความริช"
+      },
+      "tsv": {
+        "name": "ค้นหาใน TSV",
+        "description": "ค่าที่คั่นด้วยแท็บ"
+      },
+      "txt": {
+        "name": "ค้นหาใน TXT",
+        "description": "เอกสารข้อความ"
+      },
+      "xls": {
+        "name": "ค้นหาใน XLS",
+        "description": "สมุดงาน Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "ค้นหาใน XLSX",
+        "description": "สเปรดชีต Microsoft Excel Open XML"
+      },
+      "xml": {
+        "name": "ค้นหาใน XML",
+        "description": "ไฟล์ XML"
+      },
+      "zip": {
+        "name": "ค้นหาใน ZIP",
+        "description": "ไฟล์ Zip"
+      }
+    },
+    "format-code": {
+      "copy_title": "คัดลอก",
+      "copy_tip": "คลิกเพื่อคัดลอก",
+      "copy_done": "คัดลอกแล้ว",
+      "links": {
+        "title_1": "ตัวอย่างเพิ่มเติม",
+        "title_2": "เอกสาร"
+      }
+    },
+    "format-actions": {
+      "title": "พร้อมเริ่มต้นแล้วหรือยัง?",
+      "description": "ทดลองคุณสมบัติของ {{ProdShortName}} ฟรี หรือขอใบอนุญาต",
+      "comment_1": "ดาวน์โหลด {{PackageStoreName}}",
+      "comment_2": "การอนุญาต"
+    },
+    "texts": {
+      "learn_more": "เรียนรู้เพิ่มเติม"
+    }
+  }
+}

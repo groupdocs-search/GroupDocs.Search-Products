@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "csv": {
+        "name": "在 CSV 中查找",
+        "description": "逗号分隔值"
+      },
+      "doc": {
+        "name": "在 DOC 中查找",
+        "description": "Microsoft Word 97 - 2007 文档"
+      },
+      "docx": {
+        "name": "在 DOCX 中查找",
+        "description": "Microsoft Word Open XML 文档"
+      },
+      "eml": {
+        "name": "在 EML 中查找",
+        "description": "电子邮件消息"
+      },
+      "epub": {
+        "name": "在 EPUB 中查找",
+        "description": "开放电子书文件"
+      },
+      "fb2": {
+        "name": "在 FB2 中查找",
+        "description": "小说书籍文件"
+      },
+      "md": {
+        "name": "在 MD 中查找",
+        "description": "Markdown 语言"
+      },
+      "odp": {
+        "name": "在 ODP 中查找",
+        "description": "开放文档演示格式"
+      },
+      "one": {
+        "name": "在 ONE 中查找",
+        "description": "OneNote 文档"
+      },
+      "pdf": {
+        "name": "在 PDF 中查找",
+        "description": "Adobe 便携式文档格式"
+      },
+      "pps": {
+        "name": "在 PPS 中查找",
+        "description": "PowerPoint 幻灯片放映"
+      },
+      "ppt": {
+        "name": "在 PPT 中查找",
+        "description": "PowerPoint 演示文稿 97-2003"
+      },
+      "pptx": {
+        "name": "在 PPTX 中查找",
+        "description": "PowerPoint Open XML 演示文稿"
+      },
+      "pst": {
+        "name": "在 PST 中查找",
+        "description": "Outlook 个人信息存储文件"
+      },
+      "rtf": {
+        "name": "在 RTF 中查找",
+        "description": "富文本格式"
+      },
+      "tsv": {
+        "name": "在 TSV 中查找",
+        "description": "制表符分隔值"
+      },
+      "txt": {
+        "name": "在 TXT 中查找",
+        "description": "文本文档"
+      },
+      "xls": {
+        "name": "在 XLS 中查找",
+        "description": "Microsoft Excel 工作簿 97-2003"
+      },
+      "xlsx": {
+        "name": "在 XLSX 中查找",
+        "description": "Microsoft Excel Open XML 电子表格"
+      },
+      "xml": {
+        "name": "在 XML 中查找",
+        "description": "XML 文件"
+      },
+      "zip": {
+        "name": "在 ZIP 中查找",
+        "description": "压缩文件"
+      }
+    },
+    "format-code": {
+      "copy_title": "复制",
+      "copy_tip": "点击以复制",
+      "copy_done": "已复制",
+      "links": {
+        "title_1": "更多示例",
+        "title_2": "文档"
+      }
+    },
+    "format-actions": {
+      "title": "准备好开始了吗？",
+      "description": "免费试用 {{ProdShortName}} 的功能或请求许可证",
+      "comment_1": "{{PackageStoreName}} 下载",
+      "comment_2": "许可证"
+    },
+    "texts": {
+      "learn_more": "了解更多"
+    }
+  }
+}

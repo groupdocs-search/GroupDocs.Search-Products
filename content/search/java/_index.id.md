@@ -1,292 +1,284 @@
 ---
-layout: "product"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "landing"
+date: 2025-01-09T15:38:59
 draft: false
 
+lang: id
 product: "Search"
 product_tag: "search"
 platform: "Java"
 platform_tag: "java"
 
-head_title: "API Pencarian & Pengindeksan Teks Java untuk Dokumen, PDF, Office & Web"
-head_description: "API pencarian teks lanjutan untuk aplikasi Java untuk mencari, mengindeks & mengambil data dari dokumen: PDF, Word, Excel, presentasi, email & format file web."
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
-title: "Cari & Indeks Dokumen melalui Java API"
-description: "Bangun Aplikasi Java untuk melakukan Manipulasi Pencarian Teks di Semua Format Dokumen Populer."
-button:
-    enable: true
+############################# Head ############################
+head_title: "Solusi Pencarian & Pengindeksan Dokumen Java untuk PDF, File Office, dan Konten Web"
+head_description: "Pencarian teks dan pengindeksan yang kuat untuk aplikasi Java. Dengan mudah mencari dan mengorganisir data di PDF, Word, Excel, presentasi, email, dan format web."
 
-submenu:
-    enable: true
+############################# Header ############################
+title: "Pencarian dan Pengindeksan Dokumen yang Efisien dengan API Java"
+description: "Memberdayakan aplikasi Java dengan fitur pencarian teks yang kuat di semua format dokumen populer."
+words:
+  for: "untuk"
+
+actions:
+  main: "Unduh Maven Secara Gratis"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-search/"
+  alt: "Lisensi"
+  alt_link: "https://purchase.groupdocs.com/pricing/search/java/"
+  title: "Mulai Perjalanan Anda Hari Ini!"
+  description: "Jelajahi kemampuan GroupDocs.Search secara gratis atau amankan lisensi untuk membuka potensi penuhnya."
+
+release:
+  title: "Versi {0} dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Unduhan"
+
+code:
+  title: "Temukan Teks di File Menggunakan Java"
+  more: "Contoh lebih banyak"
+  more_link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Java/"
+  install_title : "Maven XML"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-search</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // Buat indeks untuk dokumen Anda
+    Index index = new Index("c:/MyIndex");
+
+    // Tambahkan dokumen ke indeks untuk pencarian yang efisien
+    index.add("c:/MyDocuments");
     
-    left:
-        img_alt: "GroupDocs.Search for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-java.png"
-        product: "GroupDocs.Search"
-        platform: "Java"
+    // Cari kata atau frasa tertentu, seperti
+    // 'affect', 'effect', 'principles', 'principally'
+    SearchResult results = 
+        index.search("?ffect & princip?(2~4)");
+    ```
 
-    middle:
-        button:
-            - link: "#overview"
-              text: "Ringkasan"
-
-            - link: "#features"
-              text: "Fitur"
-
-            - link: "#support"
-              text: "Mendukung"
-
-            - link: "https://products.groupdocs.app/search"
-              text: "Demo Langsung"
-
-            - link: "https://purchase.groupdocs.com/pricing/search/java"
-              text: "Harga"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/search"
-        link_learn: "https://docs.groupdocs.com/search/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Search for Java memungkinkan Anda menghasilkan aplikasi bisnis yang memungkinkan pengguna akhir Anda melakukan operasi pencarian yang belum pernah ada sebelumnya. Java API kami memungkinkan pengguna untuk mengoperasikan fungsi pencarian teks tingkat dasar hingga lanjutan. Buat dan gabungkan beberapa indeks. Gunakan Simple, Boolean, Regular Expression (Regex), Fuzzy, dan jenis kueri lainnya untuk menelusuri indeks dengan cepat dan cerdas. Anda dapat mengambil informasi yang diperlukan, dari file, dokumen, email, dan arsip, karena GroupDocs.Search for Java mendukung semua format file populer.
-    tabs:
-      enable: true     
-      
-      tab_one:
-        description: |
-          Berikut ini adalah ikhtisar GroupDocs.Search for Java:
-
-        left:
-          enable: true
-          icon: "fas fa-search"
-          title: "Pengindeksan"
-          content: |
-            * Buat & Kelola
-            * Gabungkan Beberapa Indeks
-            * Pengindeksan Async Multi-Threading
-            * Pengindeksan Ringkas
-            * Pengindeksan File yang Diarsipkan
-        
-        right:
-          enable: true
-          icon: "fas fa-search-plus"
-          title: "Pencarian Lanjutan & Kueri Pencarian"
-          content: |
-            * Pencarian Fuzzy
-            * Pencarian Sinonim
-            * Pencarian Email
-            * Penanganan Istilah Homophonic
-            * Mencari File yang Dilindungi
-            * Sederhana
-            * Kartu Liar
-            * Ekspresi Reguler (Regex)
-            * Segi & Boolean
-            * Hal - hal sensitif
-      
-      tab_two:
-        description: |
-          GroupDocs.Search for Java mendukung semua [format file dokumen](https://docs.groupdocs.com/search/java/supported-document-formats/) yang populer termasuk: Microsoft Office, gambar, diagram, dan banyak lainnya.
-
-        left:
-          enable: true
-          table:
-            - title: "Format Microsoft Office"
-              content: |
-                * **Kata**: DOC, DOCX, DOCM, DOT, DOTX, DOTM
-                * **Excel**: XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
-                * **PowerPoint**: PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
-                * **Proyek**: MPP
-                * **Diagram**: VSD, VSS
-                * **Microsoft Compiled HTML**: CHM
-                * **OneNote**: SATU
-
-        right:
-          enable: true
-          table:
-            - title: "OpenDocument & Format Lainnya"
-              content: |
-                * **Format Dokumen Portabel**: PDF
-                * **OpenDocument**: ODT, OTT, ODS, OTS, ODP
-                * **Email**: PST, OST, MSG, EML, EMLX
-                * **Format File Web**: XML, HTM, HTML, XHTML, MHT, MHTML
-                * **Audio**: MP3, WAV
-                * **Video**: AVI, MOV, QT, FLV, ASF
-                * **Teks**: TXT
-                * **Format Teks Kaya**: RTF
-                * **File Dokumentasi Penurunan Harga**: MD
-                * **Gambar**: BMP, GIF, JP2, PNG, WEBP, TIFF, EMF, WMF, JPG, PSD
-                * **Lainnya**: TORRENT, ZIP, DCM, DJVU, EPUB, FB2
-
-      tab_three:
-        description: |
-          GroupDocs.Search for Java mendukung Sistem Operasi, Kerangka & Manajer Paket berikut:
-        
-        left:
-          enable: true
-          table:
-            - icon: "fab fa-windows"
-              title: "Sistem operasi"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            - icon: "fas fa-code"
-              title: "Kerangka yang Didukung"
-              content: |
-                * Java 7 (1.7) ke atas
-
-        right:
-          enable: true
-          table:
-            - icon: "fas fa-cogs"
-              title: "Lingkungan Pengembangan"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            - icon: "fas fa-tools"
-              title: "Bangun Alat Otomatisasi"
-              content: |
-                * Maven
-
-features:
-    enable: true
-    title: "GroupDocs.Search untuk Fitur Java"
-
-    feature:
-      - icon: "fas fa-copy"
-        content: "Bangun Indeks di Disk atau di Memori dengan Async Multithreading"
-
-      - icon: "fas fa-eye"
-        content: "Lihat Kemajuan Pembuatan & Pembaruan Indeks"
-
-      - icon: "fas fa-bolt"
-        content: "Secara Selektif Lewati Pengindeksan untuk File Tertentu & Lewati Kata Tertentu untuk Mengindeks Lebih Cepat"
-      
-      - icon: "fas fa-file-powerpoint"
-        content: "Lakukan Impor atau Gunakan Daftar untuk Memodifikasi Karakter selama Pengindeksan & Ekspor ke File"
-
-      - icon: "fas fa-code"
-        content: "Muat Ulang Indeks jika Pengindeksan Kesalahan & Pengguna Peringatan untuk Pengaturan Bertentangan"
-
-      - icon: "fas fa-cloud"
-        content: "Pemberitahuan Status Indeks tentang File yang Diproses Terbaru"
-
-      - icon: "fas fa-remove-format"
-        content: "Indeks Arsip Zipped di dalam Arsip ZIP lain & Dapatkan Daftar File Terindeks di Arsip"
-
-      - icon: "fas fa-comment-slash"
-        content: "Hemat Ruang dengan Pengindeksan Ringkas & Pengindeksan Dokumen Aman dengan Kata Sandi"
-
-      - icon: "fas fa-location-arrow"
-        content: "Ekstraksi Teks Dokumen dari Indeks atau File Sumber"
-
-      - icon: "fas fa-border-all"
-        content: "Ekstraksi Teks Berformat HTML ke File & Menghasilkan URL untuk Menavigasi Hasil Pencarian dalam HTML"
-
-      - icon: "fas fa-wrench"
-        content: "Tambahkan Bidang Tambahan Sewenang-wenang ke setiap Dokumen selama Pengindeksan"
-
-      - icon: "fas fa-columns"
-        content: "Konfigurasikan Tingkat Kesamaan untuk Pencarian Fuzzy & Tampilkan Hasil Terbaik"
-
-      - icon: "fas fa-file-word"
-        content: "Manajemen Ketik yang Cerdas melalui Pencarian Fuzzy"
-
-      - icon: "fas fa-envelope"
-        content: "Gunakan Pencarian Faceted & Boolean Secara Bersamaan"
-
-      - icon: "fas fa-print"
-        content: "Konfigurasi & Lakukan Pencarian Sinonim & Menangani Istilah Homofonik dengan Cerdas"
-
-      - icon: "fas fa-file-archive"
-        content: "Gunakan Rentang Tanggal & Sensitivitas Huruf Besar sebagai Parameter Pencarian"
-
-      - icon: "fas fa-lock"
-        content: "Buat Indeks untuk Mencari & Menelusuri Pesan Email melalui Aspose.Email API"
-
-      - icon: "fas fa-file-code"
-        content: "Gunakan Frasa Pencarian dengan Periksa Ejaan dan Kartu Liar & Lewati Karakter Khusus dalam Kueri"
-      
-      - icon: "fas fa-fill-drip"
-        content: "Buat Pohon Objek Tunggal dengan Menggabungkan Banyak Kueri"
-
-      - icon: "fas fa-file-excel"
-        content: "Bagi Pencarian dalam Potongan yang Lebih Kecil untuk Mencari Indeks Besar dengan Cepat"
-
-      - icon: "fas fa-heading"
-        content: "Mengindeks Dokumen dari Aliran dan Struktur Data"
-
-      - icon: "fas fa-project-diagram"
-        content: "Siapkan Pemfilteran Dokumen di Hasil Pencarian"
-
-      - icon: "fas fa-cube"
-        content: "Tambahkan Sinonim Bahasa Inggris ke Kamus Sinonim Default"
-
-      - icon: "fab fa-uncharted"
-        content: "Aktifkan Jumlah Tepat Kejadian untuk setiap Kata yang Ditemukan untuk Menawarkan Saran Kata Alternatif jika terjadi Salah Eja"
-
-      - icon: "fab fa-uncharted"
-        content: "Tambahkan Atribut Teks ke Dokumen yang Diindeks tanpa Pengindeksan Ulang"
-
-      - icon: "fab fa-uncharted"
-        content: "Lakukan Pengindeksan dan Operasi Pencarian Berdasarkan Karakter"
-
-      - icon: "fab fa-uncharted"
-        content: "Metadata Indeks Format Dokumen Non-Tekstual"
-
-    more_feature:
-      - title: "Pengindeksan dan Operasi Pencarian"
-        content: |
-          Pengindeksan digunakan oleh GroupDocs.Search for Java untuk mengumpulkan data, serta menyimpan dan menguraikannya untuk operasi pencarian yang akurat dan efisien. GroupDocs.Search for Java sering menggunakan Indeks tersebut untuk melakukan pencarian.
-
-          * **Buat Indeks**: Buat folder Indeks dan tambahkan/indeks dokumen ke folder itu.
-          * **Muat Indeks**: Muat Indeks yang ada.
-          * **Tambahkan Dokumen ke Indeks**: Tambahkan dokumen ke Indeks yang ada, secara asinkron.
-          * **Perbarui Indeks**: Perbarui Indeks yang ada, setiap kali dokumen diubah, ditambahkan, atau dihapus. Ini membuat hasil pencarian tetap up to date.
-          
-          ```java
-          / Creating index
-          Index index = new Index("c:\\MyIndex");
-          // Menambahkan dokumen ke indeks
-          index.addToIndex("c:\\MyDocuments");
-          // Mencari kata 'affect' atau 'effect' dalam dokumen dengan 'principal', 'principle', 'principles', atau 'principal'
-          SearchResults results = index.search("?ffect & princip?(2~4)");
-          ```
-      - title: "Gabungkan Beberapa Indeks untuk Meningkatkan Efisiensi Pencarian"
-        content: "GroupDocs.Search for Java API menyediakan fitur untuk menggabungkan beberapa indeks menjadi indeks umum. Untuk indeks yang sering dimodifikasi, beberapa indeks delta dibuat. Namun pendekatan ini, membuat kinerja pencarian menjadi lambat. GroupDocs.Search for Java mengatasi kemacetan ini dengan membuat satu indeks umum melalui penggabungan berbagai indeks delta. Indeks gabungan umum ini berisi semua informasi indeks delta gabungan. Pendekatan ini menjaga indeks delta tidak berubah sementara sangat meningkatkan efisiensi pencarian. Anda dapat mengonfigurasi berbagai fungsi untuk lebih men-tweak proses ini."
-
-      - title: "Kenali Kueri Pencarian dari Tata Letak Keyboard yang Berbeda"
-        content: "GroupDocs.Search for Java mengenali kueri penelusuran yang tidak cocok dengan tata letak keyboard Anda. Saat ini, 88 bahasa dan 164 tata letak keyboard yang berbeda berhasil dikenali oleh GroupDocs.Search for Java."
-
-      - title: "Cari Menggunakan Bentuk Kata Morfologis"
-        content: "Menggunakan GroupDocs.Search untuk Java, Anda memiliki kebebasan mencari berbagai bentuk kata. Anda dapat mencari bentuk tunggal dan jamak dari kata benda tertentu. Atau Anda dapat memilih untuk mencari semua bentuk kata kerja. Root, orang ketiga tunggal dan masa lalu sederhana bersama dengan berbagai bentuk lainnya juga dapat dicari. Untuk bahasa non-Inggris, Anda dapat mengonfigurasi bentuk kata yang disesuaikan."
-
-support:
-    enable: true
-
-solutions:
-    enable: true
-    title: "GroupDocs.Search menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
-
-    solution:
-        - img_alt: "GroupDocs.Search for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-search-net.png"
-          product: "GroupDocs.Search"
-          platform: ".NET"
-          link: "/search/net/"
-
-        # solution loop
-        - img_alt: "GroupDocs.Search for Node.js"
-          image: "/border/groupdocs-search-nodejs-java.svg"
-          product: "GroupDocs.Search"
-          platform: "Node.js via Java"
-          link: "/search/nodejs-java/"
-
-back_to_top:
   enable: true
+  title: "Ikhtisar GroupDocs.Search"
+  description: "Temukan kemampuan pencarian teks yang kuat dari perpustakaan Java Java."
+  features:
+    # feature loop
+    - title: "Operasi Pengindeksan dan Pencarian di Java"
+      content: "Dengan GroupDocs.Search for Java, Anda dapat mengumpulkan, menyimpan, dan menganalisis data secara efisien untuk membuat indeks yang detail untuk pencarian yang lebih cepat dan lebih akurat."
+
+    # feature loop
+    - title: "Optimalkan Pencarian dengan Menggabungkan Indeks"
+      content: "Dengan mudah menggabungkan beberapa indeks menggunakan GroupDocs.Search for Java untuk menyederhanakan pencarian. Kurangi dampak dari indeks delta yang lebih kecil dengan mengkonsolidasikan mereka menjadi satu indeks berkinerja tinggi."
+
+    # feature loop
+    - title: "Dukungan untuk Layout Keyboard Multibahasa"
+      content: "Cari di berbagai bahasa dan layout keyboard dengan GroupDocs.Search for Java. Ini mendukung 88 bahasa dan 164 konfigurasi keyboard untuk fleksibilitas yang tak tertandingi."
+
+    # feature loop
+    - title: "Kemampuan Pencarian Morfologi"
+      content: "Temukan berbagai bentuk kata seperti kata benda tunggal/jamak atau variasi kata kerja menggunakan GroupDocs.Search for Java. Sesuaikan opsi pencarian untuk bahasa Inggris dan bahasa lainnya."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Independensi Platform"
+  description: "GroupDocs.Search for Java kompatibel dengan sistem operasi dan pengelola paket utama."
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Format file yang didukung"
+  description: |
+    Bekerja dengan berbagai format file menggunakan GroupDocs.Search for Java. [Lihat daftar lengkap](https://docs.groupdocs.com/search/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Format Kantor Populer
+        * **Portabel:** PDF 
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM
+        * **Excel:** XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
+        * **PowerPoint:** PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
+        * **OpenDocument:** ODT, ODP, ODS, OTT, OTS
+        * **Teks:** TXT, RTF
+    # group loop
+    - color: "blue"
+      content: |
+        ### Format Media
+        * **Format gambar populer:** BMP, JP2, PNG, EMF, WMF, JPG, PSD
+        * **Gambar multi-halaman:** GIF, WEBP, TIFF
+        * **Audio:** MP3, WAV
+        * **Video:** AVI, MOV, QT, FLV, ASF
+      # group loop
+    - color: "red"
+      content: |
+        ### Lainnya
+        * **Email:**  PST, OST, MSG, EML, EMLX
+        * **Microsoft Visio:** VSD, VSS
+        * **Web:**  XML, HTM, HTML, XHTML, MHT, MHTML
+        * **Lainnya:**  TORRENT, ZIP, DCM, DJVU, EPUB, FB2
+
+############################# Features ############################
+features:
+  enable: true
+  title: "Fitur dari GroupDocs.Search for Java"
+  description: "Kelola konten dokumen secara efektif dengan kemampuan pencarian canggih yang mendukung format seperti PDF, DOCX, XLSX, PPTX, dan lainnya."
+
+  items:
+    # feature loop
+    - icon: "document_info"
+      title: "Parameter Pencarian yang Dapat Disesuaikan"
+      content: "Perbaiki pencarian menggunakan rentang tanggal dan filter sensitivitas huruf."
+
+    # feature loop
+    - icon: "detect"
+      title: "Pemeriksaan Ejaan yang Ditingkatkan"
+      content: "Cari dengan efisien menggunakan pemeriksaan ejaan, wildcard, dan dengan mengabaikan karakter khusus."
+
+    # feature loop
+    - icon: "collect"
+      title: "Hasil Pencarian yang Difilter"
+      content: "Terapkan filter untuk fokus pada hasil pencarian berdasarkan jenis dokumen tertentu atau kriteria."
+
+    # feature loop
+    - icon: "get"
+      title: "Impor dan Ekspor Data Indeks"
+      content: "Dengan mudah impor data untuk pengindeksan atau ekspor hasil ke file untuk digunakan lebih lanjut."
+
+    # feature loop
+    - icon: "remove"
+      title: "Lewati File yang Tidak Diperlukan"
+      content: "Optimalisasi pengindeksan dengan mengecualikan file atau kata tertentu."
+
+    # feature loop
+    - icon: "style"
+      title: "Pemrosesan HTML dan URL"
+      content: "Ekstrak konten HTML ke file dan buat URL untuk navigasi melalui hasil pencarian."
+
+    # feature loop
+    - icon: "detect"
+      title: "Pencarian Cepat di Indeks Besar"
+      content: "Percepat operasi pencarian dengan membagi indeks besar menjadi bagian yang dapat dikelola."
+
+    # feature loop
+    - icon: "manipulate"
+      title: "Pengindeksan Berdasarkan Aliran"
+      content: "Indeks data langsung dari aliran atau struktur data."
+
+    # feature loop
+    - icon: "compare"
+      title: "Tangani Kueri yang Salah Eja"
+      content: "Deteksi kesalahan pengetikan dan usulkan kata alternatif untuk akurasi pencarian yang lebih baik."
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "Dukungan Arsip yang Komprehensif"
+      content: "Indeks arsip bersarang dan ambil daftar rinci file dalam file ZIP."
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "Pengindeksan yang Menghemat Ruang"
+      content: "Indeks yang ringkas untuk menghemat ruang disk dan memproses file yang dilindungi kata sandi."
+
+    # feature loop
+    - icon: "style"
+      title: "Dukungan Sinonim Kustom"
+      content: "Perluas kamus sinonim untuk meningkatkan akurasi pencarian dengan opsi yang disesuaikan."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Contoh kode"
+  description: "Coba fitur GroupDocs.Search for Java dengan contoh kode ini."
+  items:
+    # code sample loop
+    - title: "Tingkatkan Akurasi Pencarian dengan Pencocokan Fuzzy"
+      content: |
+        Jelajahi fleksibilitas GroupDocs.Search for Java dalam mengelola konten dengan kemampuan pencarian fuzzy yang canggih. [Pelajari lebih lanjut](https://docs.groupdocs.com/search/java/search-results/).
+        {{< landing/code title="Cara mengolah hasil pencarian">}}
+        ```java {style=abap}
+        // Buat indeks
+        Index index = new Index("C:/IndexFolder");
+        index.add("C:/DocumentFolder");
+
+        // Atur opsi pencarian
+        SearchOptions options = new SearchOptions();
+        options.getFuzzySearch().setEnabled(true);
+        options.getFuzzySearch().setFuzzyAlgorithm(new TableDiscreteFunction(3));
+
+        // Cari dokumen yang mengandung kata 'air' atau frasa 'Lorem ipsum'
+        String query = "water OR \"Lorem ipsum\"";
+        SearchResult result = index.search(query, options);
+        
+        // Proses hasil pencarian
+        System.out.println("Documents: " + result.getDocumentCount());
+        System.out.println("Total occurrences: " + result.getOccurrenceCount());
+        for (int i = 0; i < result.getDocumentCount(); i++) {
+            FoundDocument document = result.getFoundDocument(i);
+            System.out.println("Document: " + document.getDocumentInfo().getFilePath());
+            System.out.println("Occurrences " + document.getOccurrenceCount());
+            }
+
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Perbaiki Hasil dengan Ekspresi Reguler"
+      content: |
+        Gunakan ekspresi reguler di GroupDocs.Search for Java untuk menghasilkan hasil pencarian yang tepat dan terperinci. [Temukan teknik lanjutan](https://docs.groupdocs.com/search/java/regular-expression-search/).
+        {{< landing/code title="Cara mencari menggunakan ekspresi reguler">}}
+        ```java {style=abap}   
+        // Buat indeks
+        Index index = new Index("C:/IndexFolder");
+        index.add("c:/DocumentFolder");
+ 
+        // Cari frasa dalam bentuk teks
+
+        // Karakter caret pertama di awal menunjukkan bahwa ini adalah kueri pencarian ekspresi reguler
+        String query = "^^(.)\\1{1,}";
+        // Cari dua atau lebih karakter yang identik di awal kata
+        SearchResult result = index.search(query);
+ 
+        ```
+        {{< /landing/code >}}
+
 ---

@@ -1,146 +1,405 @@
 {
   "index-content": {
+    "head_title": "Ricerca e indicizzazione del testo dei documenti | API e Web App gratuite",
+    "head_description": "Esegui ricerche di testo e indicizzazione dei dati in PDF, MS Office, OpenDocument e altri formati di file popolari utilizzando le nostre API o l'app gratuita per la ricerca dei documenti.",
+    "title": "Soluzione completa per la ricerca e l'indicizzazione dei documenti",
+    "description_1": "Esegui ricerche di testo e indicizzazione su PDF, Microsoft Office, OpenOffice e molti altri formati di file documentali.",
+    "description_2": "Trova rapidamente informazioni in ampie collezioni di documenti con avanzate capacità di ricerca full-text.",
+    "description_3": "Personalizza le funzionalità di ricerca come sinonimi, ricerca fuzzy e stemming per migliorare l'accuratezza e i risultati.",
     "words_for": "per",
     "release_title": "Versione {0} rilasciata",
     "release_notes": "Scopri le novità",
     "release_downloads": "Download",
     "code_more": "Altri esempi",
-    "code_comment_1": "Creazione dell'indice",
-    "code_comment_2": "Aggiunta di documenti all'indice",
-    "code_comment_3": "Ricerca di varie parole come",
-    "overview_title": "{{ProdShortName}} in breve",
+    "overview_title": "Panoramica di {{ProdShortName}}",
+    "code_comment_1": "Crea un indice per i tuoi documenti",
+    "code_comment_2": "Aggiungi documenti all'indice per ricerche efficienti",
+    "code_comment_3": "Cerca parole o frasi specifiche, come",
     "formats_title": "Formati di file supportati",
     "platforms": {
       "title": "Indipendenza dalla piattaforma",
       "head_title": "Scegli la tua piattaforma",
-      "description": "La libreria {{ProdShortName}} supporta i seguenti sistemi operativi e framework:",
-      "learn_more": "Saperne di più",
+      "description": "{{ProdShortName}} è compatibile con i seguenti sistemi operativi e framework:",
+      "learn_more": "Scopri di più",
       "any_other_text_editor": "Qualsiasi altro editor di testo"
     },
+    "features": {
+      "title": "Caratteristiche principali di {{ProdShortName}}",
+      "description": "{{ProdShortName}} offre strumenti potenti per indicizzare e ricercare testo in formati di documenti popolari. Semplifica e migliora la gestione dei documenti con funzionalità di ricerca avanzate.",
+      "feature_1": {
+        "title": "Ricerca testuale avanzata",
+        "content": "Esegui ricerche di testo rapide e accurate su documenti indicizzati."
+      },
+      "feature_2": {
+        "title": "Opzioni di ricerca personalizzabili",
+        "content": "Utilizza funzionalità come ricerca fuzzy, sinonimi e stemming per risultati più precisi."
+      },
+      "feature_3": {
+        "title": "Supporto per più formati",
+        "content": "Indicizza e cerca contenuti in Microsoft Office, PDF, OpenOffice e altri formati comuni."
+      },
+      "feature_4": {
+        "title": "Indicizzazione efficiente",
+        "content": "Crea e mantieni rapidamente indici per ampie collezioni di documenti."
+      }
+    },
     "formats": {
-      "title": "Sono supportati oltre 70 formati di file",
-      "description": "{{ProdShortName}} fornisce la ricerca in tutti i formati di file più diffusi."
+      "title": "Supporta oltre 70 formati di file",
+      "description": "{{ProdShortName}} supporta quasi tutti i formati di file ampiamente utilizzati."
     },
     "code_samples": {
-      "title": "Esempi di codici",
+      "title": "Esempi di codice",
+      "index_title": "Ricerca di testo in formati di documenti popolari",
+      "index_description": "{{ProdShortName}} esempi di codice",
+      "more_examples": "Altri esempi",
+      "sample_index": {
+        "title": "Ricerca di testo",
+        "content": "{{ProdShortName}} è uno strumento potente per trovare testo nei documenti. Puoi cercare attraverso più documenti in vari formati memorizzati in una cartella specifica. I risultati della ricerca vengono salvati in una cartella separata, consentendoti di accedervi e riutilizzarli senza dover eseguire nuovamente la ricerca.",
+        "comment_1": "Crea un'istanza della classe {{textIndex}}, specificando la cartella per memorizzare gli indici.",
+        "comment_2": "Specifica il percorso ai documenti in cui verrà eseguita la ricerca.",
+        "comment_3": "Crea un'istanza dell'oggetto {{textSearchOptions}}.",
+        "comment_4": "Esegui la ricerca per il testo desiderato.",
+        "comment_5": "Gestisci e elabora i risultati della ricerca."
+      },
       "sample_1": {
         "code_title": "Come elaborare il risultato della ricerca",
         "comment_1": "Crea un indice",
-        "comment_2": "Imposta le opzioni di ricerca",
-        "comment_3": "Cercare documenti contenenti la parola 'acqua' o la frase 'Lorem ipsum'",
+        "comment_2": "Configura le opzioni di ricerca",
+        "comment_3": "Cerca documenti contenenti la parola 'acqua' o la frase 'Lorem ipsum'",
         "comment_4": "Elabora il risultato della ricerca"
       },
       "sample_2": {
-        "code_title": "Come effettuare ricerche utilizzando le espressioni regolari",
+        "code_title": "Come cercare utilizzando espressioni regolari",
         "comment_1": "Crea un indice",
-        "comment_2": "Cerca la frase in forma testuale",
-        "comment_3": "Il primo carattere di accento circonflesso all'inizio indica che si tratta di una query di ricerca di espressioni regolari",
+        "comment_2": "Cerca la frase in forma di testo",
+        "comment_3": "Il primo carattere caret all'inizio indica che questa è una ricerca con espressione regolare",
         "comment_4": "Cerca due o più caratteri identici all'inizio di una parola"
       }
     },
+    "metrics": {
+      "title": "Statistiche del nostro prodotto",
+      "description": "Scopri le metriche chiave che mostrano le nostre prestazioni, portata e crescita.",
+      "item_1": {
+        "title": "Formati supportati",
+        "description": "Forniamo compatibilità con oltre 70 formati di documenti popolari."
+      },
+      "item_2": {
+        "title": "Download NuGet",
+        "description": "{{ProdShortName}} per .NET è stato scaricato più di 500.000 volte su NuGet."
+      },
+      "item_3": {
+        "title": "Download Maven",
+        "description": "Gli sviluppatori Java hanno scaricato {{ProdShortName}} oltre 12.000 volte da Maven."
+      },
+      "item_4": {
+        "title": "Clienti soddisfatti",
+        "description": "Sviluppatori e aziende leader in tutto il mondo si affidano ai nostri prodotti per soluzioni innovative."
+      }
+    },
+    "customers": {
+      "title": "I nostri clienti soddisfatti",
+      "description": "Le librerie GroupDocs sono fidate da marchi e organizzazioni leader a livello mondiale."
+    },
     "actions": {
-      "alt": "Licenza",
-      "title": "Pronti per iniziare?",
-      "description": "Prova gratuitamente le funzionalità di {{ProdShortName}} o richiedi una licenza",
-      "description_index": "Prova gratuitamente le funzionalità di {{ProdShortName}} sulla tua piattaforma"
+      "alt": "Licenze",
+      "title": "Inizia il tuo viaggio oggi!",
+      "description": "Esplora le funzionalità di {{ProdShortName}} gratuitamente o ottieni una licenza per sbloccare il suo pieno potenziale.",
+      "description_index": "Sperimenta {{ProdShortName}} gratuitamente sulla tua piattaforma preferita."
+    },
+    "faq": {
+      "title": "Domande frequenti",
+      "description": "Trova risposte a domande comuni su {{ProdShortName}}.",
+      "item_1": {
+        "question": "Richiede {{ProdShortName}} strumenti esterni per cercare documenti?",
+        "answer": "No, {{ProdShortName}} funziona come soluzione autonoma e non necessita di strumenti o software aggiuntivi come Adobe Acrobat o Microsoft Office per eseguire ricerche."
+      },
+      "item_2": {
+        "question": "Posso testare {{ProdShortName}} prima di acquistarlo?",
+        "answer": "Sì, puoi! {{ProdShortName}} offre una prova gratuita. Puoi esplorare le sue funzionalità, anche se la versione di prova può includere limitazioni come filigrane o funzionalità restrittive. Per sbloccare tutte le funzionalità, puoi richiedere una licenza temporanea gratuita di 30 giorni. Scopri di più nella pagina [licenza temporanea]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Quali opzioni di licenza sono disponibili?",
+        "answer": "Forniamo diversi modelli di licenza per {{ProdShortName}}, adattati a diverse esigenze. Scegli una licenza in base alla dimensione del tuo team, allo scenario d'uso, o se hai bisogno dell'SDK/API per la distribuzione ai clienti. Per un uso flessibile, considera una licenza a consumo in cui paghi in base all'uso effettivo. Scopri di più sulle tue opzioni nella pagina [prezzi]({{PricingUrl}})."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Web Apps",
+      "description": "Esplora {{ProdShortName}} con la nostra applicazione web gratuita. Esegui ricerche di testo e indicizzazione su oltre 70 formati di file popolari direttamente nel tuo browser—completamente gratuito.",
+      "item_1": {
+        "content": "Cerca all'interno di PDF, Excel, Word, PowerPoint e altri tipi di file direttamente dal tuo browser."
+      },
+      "item_2": {
+        "content": "Carica DOCX per eseguire ricerche di testo avanzate senza bisogno di installare software."
+      },
+      "item_3": {
+        "content": "Metti alla prova le capacità di indicizzazione e recupero di PDF su vari formati gratuitamente."
+      }
     },
     "formats_groups": {
-      "title_1": "Formati Office più diffusi",
+      "title_1": "Formati Office popolari",
       "title_2": "Formati multimediali",
       "title_3": "Altro",
-      "format_portable": "Portatile",
-      "format_popular_images": "Formati di immagine più diffusi",
-      "format_multi_images": "Immagini multipagina",
+      "format_portable": "Portabile",
+      "format_popular_images": "Formati di immagine popolari",
+      "format_multi_images": "Immagini multi-pagina",
       "format_multi_audio": "Audio",
-      "format_multi_video": "video",
-      "format_web": "ragnatela",
+      "format_multi_video": "Video",
+      "format_web": "Web",
       "format_text": "Testo",
-      "format_email": "E-mail",
-      "format_others": "Altri"
+      "format_email": "Email",
+      "format_others": "Altro"
     }
   },
-  "index-content-nodejs-java": {
-    "head_title": "{{EnvNameShort}} Libreria di ricerca testo e indicizzazione per documenti, PDF, Office e Web",
-    "head_description": "Soluzione di ricerca testuale avanzata per applicazioni {{EnvNameShort}} per cercare, indicizzare e raccogliere dati da documenti: PDF, Word, Excel, presentazioni, email e formati di file web.",
-    "title": "Cerca e indicizza documenti utilizzando l'API {{EnvNameShort}}",
-    "description": "Migliora le applicazioni {{EnvNameShort}} implementando la ricerca di testo in tutti i formati di documenti più diffusi.",
-    "actions_main": "Download gratuito di NPM",
-    "code_title": "Cerca nella cartella con {{ProgLang}}",
-    "overview_description": "Libreria {{EnvNameShort}} {{ProgLang}} per la ricerca di testo",
+  "index-content-net": {
+    "head_title": "Biblioteca di ricerca e indicizzazione documenti {{EnvNameShort}} per PDF, file Office e altro",
+    "head_description": "Potente soluzione {{EnvNameShort}} per la ricerca di testo e indicizzazione in documenti come PDF, Word, Excel, presentazioni, email e formati web.",
+    "title": "Ricerca avanzata e indicizzazione dei documenti con l'API {{EnvNameShort}}",
+    "description": "Potenzia le applicazioni {{EnvNameShort}} con capacità di ricerca testuale all'avanguardia in formati di documenti popolari.",
+    "actions_main": "Scarica {{PackageStoreName}} gratuitamente",
+    "code_title": "Cerca testo nei file di una directory",
+    "overview_description": "Esplora la libreria {{EnvNameShort}} {{ProgLang}} per una ricerca e indicizzazione robusta del testo.",
     "overview_feature_1": {
-      "title": "{{EnvNameShort}} Operazioni di indicizzazione e ricerca",
-      "description": "L'indicizzazione in {{ProdFullName}} raccoglie, archivia e analizza i dati per operazioni di ricerca precise ed efficienti. Questi indici vengono spesso utilizzati per eseguire ricerche."
+      "title": "Funzionalità di indicizzazione e ricerca {{EnvNameShort}}",
+      "description": "Indicizza, memorizza e tratta i dati documentali in modo efficiente con {{ProdFullName}} per operazioni di ricerca altamente accurate e veloci."
     },
     "overview_feature_2": {
-      "title": "Unisci più indici per migliorare l'efficienza della ricerca",
-      "description": "L'API {{ProdFullName}} consente l'unione di più indici in uno solo. Le modifiche frequenti creano diversi indici delta, che possono rallentare le prestazioni della ricerca. La nostra soluzione unisce questi indici delta in un indice comune, contenente tutte le informazioni degli indici delta uniti, migliorando significativamente l'efficienza della ricerca mantenendo invariati gli indici delta. È possibile configurare varie funzionalità per ottimizzare questo processo."
+      "title": "Combina indici per una migliore velocità di ricerca",
+      "description": "{{ProdFullName}} consente di unire più indici per ottimizzare le prestazioni. Riduci l'impatto degli indici delta unendoli in un indice completo per ricerche più fluide."
     },
     "overview_feature_3": {
-      "title": "Riconoscere le query di ricerca da diversi layout di tastiera",
-      "description": "{{ProdFullName}} riconosce le query di ricerca che non corrispondono al layout della tastiera. Attualmente sono supportate 88 lingue e 164 layout di tastiera diversi."
+      "title": "Cerca attraverso diverse layout di tastiera",
+      "description": "Gestisci facilmente le query di ricerca in 88 lingue e 164 layout di tastiera con il riconoscimento intelligente di {{ProdFullName}}."
     },
     "overview_feature_4": {
-      "title": "Ricerca utilizzando forme di parole morfologiche",
-      "description": "Con {{ProdFullName}} puoi cercare varie forme di parole, come nomi singolari e plurali, o tutte le forme di un verbo. Le lingue inglesi e non inglesi possono essere personalizzate per forme di parole specifiche."
+      "title": "Ricerche morfologiche di parole",
+      "description": "{{ProdFullName}} supporta ricerche per varianti di parole come nomi singolari/plurali e diverse forme verbali, personalizzabili per varie lingue."
     },
     "features": {
-      "title": "Funzionalità di {{ProdFullName}}",
-      "description": "Controlla il contenuto dei documenti aziendali utilizzando il nostro motore di ricerca avanzato, che supporta i formati di file più diffusi tra cui PDF, DOCX, XLSX, PPTX e altri.",
+      "title": "Caratteristiche principali di {{ProdFullName}}",
+      "description": "Semplifica la gestione dei documenti con capacità avanzate di ricerca in formati popolari come PDF, DOCX, XLSX, PPTX e altro.",
       "feature_1": {
-        "title": "Parametri flessibili",
-        "content": "Utilizza l'intervallo di date e la distinzione tra maiuscole e minuscole come parametri di ricerca"
+        "title": "Parametri di ricerca flessibili",
+        "content": "Utilizza filtri come intervalli di date e sensibilità al maiuscolo per affinare la tua ricerca."
       },
       "feature_2": {
-        "title": "Ricerca per il controllo ortografico",
-        "content": "Utilizza frasi di ricerca con controllo ortografico e caratteri jolly e salta caratteri speciali nelle query"
+        "title": "Controllo ortografico intelligente",
+        "content": "Cerca frasi con correzione ortografica, caratteri jolly e caratteri speciali ignorati."
       },
       "feature_3": {
-        "title": "Filtraggio dei risultati",
-        "content": "Configura il filtro dei documenti nei risultati della ricerca"
+        "title": "Risultati di ricerca filtrati",
+        "content": "Personalizza e filtra i risultati di ricerca per tipo o criteri di documento."
       },
       "feature_4": {
-        "title": "Importa ed esporta",
-        "content": "Esegui l'importazione o l'utilizzo dell'elenco per modificare i caratteri durante l'indicizzazione e l'esportazione in un file"
+        "title": "Importazione ed esportazione di indici",
+        "content": "Importa dati, modifica le impostazioni di indicizzazione ed esporta risultati indicizzati."
       },
       "feature_5": {
-        "title": "Salta i dati non necessari",
-        "content": "Salta selettivamente l'indicizzazione per file specifici e salta parole specifiche per indicizzare più velocemente"
+        "title": "Escludi dati irrilevanti",
+        "content": "Ottimizza l'indicizzazione saltando file o parole specifiche."
       },
       "feature_6": {
-        "title": "Elaborazione dell'URL",
-        "content": "Estrai testo formattato HTML in un file e genera URL per navigare nei risultati di ricerca in HTML"
+        "title": "Estrazione URL",
+        "content": "Converti testi in formato HTML in file e genera link per i risultati della ricerca."
       },
       "feature_7": {
-        "title": "Ricerca rapida",
-        "content": "Dividi la ricerca in blocchi più piccoli per eseguire rapidamente ricerche in indici di grandi dimensioni"
+        "title": "Ricerca ad alta velocità",
+        "content": "Dividi grandi indici in parti più piccole per una elaborazione più veloce."
       },
       "feature_8": {
-        "title": "Elaborazione del flusso",
-        "content": "Indicizzare documenti da flussi e strutture dati"
+        "title": "Gestione dei dati semplificata",
+        "content": "Indicizza documenti direttamente da stream e strutture dati."
       },
       "feature_9": {
-        "title": "Gestire gli errori di ortografia",
-        "content": "Abilita il numero esatto di occorrenze per ciascuna parola trovata per offrire suggerimenti di parole alternative in caso di errori di ortografia"
+        "title": "Rilevamento di errori di battitura",
+        "content": "Suggerisci parole alternative e tieni traccia delle occorrenze per migliorare l'accuratezza."
       },
       "feature_10": {
-        "title": "Supporto per l'archivio",
-        "content": "Indicizza gli archivi compressi all'interno di altri archivi ZIP e recupera l'elenco dei file indicizzati in un archivio"
+        "title": "Supporto per archivi",
+        "content": "Indicizza archivi ZIP annidati e recupera i dettagli dei file in essi."
       },
       "feature_11": {
-        "title": "Risparmio di spazio su disco",
-        "content": "Risparmia spazio con l'indicizzazione compatta e l'indicizzazione dei documenti protetti da password"
+        "title": "Indicizzazione efficiente",
+        "content": "Risparmia spazio su disco con indicizzazione compatta e elabora documenti protetti da password."
       },
       "feature_12": {
         "title": "Sinonimi personalizzati",
-        "content": "Aggiungi sinonimi inglesi al dizionario dei sinonimi predefinito"
+        "content": "Aggiungi e gestisci sinonimi per risultati di ricerca su misura."
       }
     },
-    "platforms_description": "{{ProdFullName}} supporta tutti i sistemi operativi e i gestori di pacchetti più diffusi.",
-    "formats_description": "{{ProdFullName}} consente l'elaborazione di un'ampia gamma di formati di file. [Esplora l'elenco completo]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "Esplora le funzionalità di {{ProdFullName}} con esempi",
-    "code_title_sample_1": "Utilizza la ricerca fuzzy per migliorare la produttività",
-    "code_samples_sample_1_content": "Goditi la funzionalità flessibile di {{ProdFullName}} per migliorare il controllo del contenuto dei documenti tramite sofisticati algoritmi di ricerca. [Ulteriori informazioni]({{Sample1Url}}).",
-    "code_title_sample_2": "Le espressioni regolari sono disponibili per scenari di ricerca avanzata",
-    "code_samples_sample_2_content": "{{ProdFullName}} ci consente di utilizzare espressioni regolari per restringere i risultati della ricerca. [Approfondisci le tecniche di ricerca avanzata]({{Sample2Url}})."
+    "platforms_description": "{{ProdFullName}} funziona senza problemi su principali sistemi operativi e gestori di pacchetti.",
+    "formats_description": "Elabora un'ampia gamma di formati di file con {{ProdFullName}}. [Visualizza tutti i formati supportati]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Scopri le potenti capacità di {{ProdFullName}} con esempi pratici.",
+    "code_title_sample_1": "Aumenta la produttività con ricerca fuzzy",
+    "code_samples_sample_1_content": "Sfrutta {{ProdFullName}} per il controllo dei contenuti flessibile e accurato attraverso algoritmi di ricerca avanzati. [Esplora di più]({{Sample1Url}}).",
+    "code_title_sample_2": "Ricerca avanzata con espressioni regolari",
+    "code_samples_sample_2_content": "{{ProdFullName}} supporta espressioni regolari per ricerche precise. [Scopri tecniche avanzate]({{Sample2Url}})."
+  },
+  "index-content-java": {
+    "head_title": "Soluzione di ricerca e indicizzazione documenti {{EnvNameShort}} per PDF, file Office e contenuti web",
+    "head_description": "Ricerca testo potente e indicizzazione per applicazioni {{EnvNameShort}}. Cerca e organizza facilmente i dati in PDF, Word, Excel, presentazioni, email e formati web.",
+    "title": "Ricerca e indicizzazione dei documenti efficienti con l'API {{EnvNameShort}}",
+    "description": "Potenzia le applicazioni {{EnvNameShort}} con robuste funzionalità di ricerca testuale in tutti i formati di documenti popolari.",
+    "actions_main": "Scarica {{PackageStoreName}} gratuitamente",
+    "code_title": "Trova testo nei file utilizzando {{ProgLang}}",
+    "overview_description": "Scopri le potenti capacità di ricerca testuale della libreria {{EnvNameShort}} {{ProgLang}}.",
+    "overview_feature_1": {
+      "title": "Operazioni di indicizzazione e ricerca in {{EnvNameShort}}",
+      "description": "Con {{ProdFullName}}, puoi raccogliere, memorizzare e analizzare i dati in modo efficiente per creare indici dettagliati per ricerche più veloci e accurate."
+    },
+    "overview_feature_2": {
+      "title": "Ottimizza la ricerca unendo indici",
+      "description": "Combina facilmente più indici con {{ProdFullName}} per semplificare le ricerche. Riduci l'impatto degli indici delta più piccoli consolidandoli in un indice ad alte prestazioni."
+    },
+    "overview_feature_3": {
+      "title": "Supporto per layout di tastiera multilingue",
+      "description": "Cerca attraverso diverse lingue e layout di tastiera con {{ProdFullName}}. Supporta 88 lingue e 164 configurazioni di tastiera per un'elasticità senza pari."
+    },
+    "overview_feature_4": {
+      "title": "Capacità di ricerca morfologica",
+      "description": "Trova diverse forme di parole come nomi singolari/plurali o varianti dei verbi utilizzando {{ProdFullName}}. Personalizza le opzioni di ricerca per l'inglese e altre lingue."
+    },
+    "features": {
+      "title": "Caratteristiche di {{ProdFullName}}",
+      "description": "Gestisci efficacemente i contenuti dei documenti con capacità di ricerca avanzate che supportano formati come PDF, DOCX, XLSX, PPTX e altro.",
+      "feature_1": {
+        "title": "Parametri di ricerca personalizzabili",
+        "content": "Affina le ricerche utilizzando intervalli di date e filtri di sensibilità al maiuscolo."
+      },
+      "feature_2": {
+        "title": "Controllo ortografico avanzato",
+        "content": "Cerca in modo efficiente con controllo ortografico, caratteri jolly e ignorando caratteri speciali."
+      },
+      "feature_3": {
+        "title": "Risultati di ricerca filtrati",
+        "content": "Applica filtri per focalizzare i risultati della ricerca in base a tipi di documento specifici o criteri."
+      },
+      "feature_4": {
+        "title": "Importazione ed esportazione di dati di indici",
+        "content": "Importa facilmente dati per indicizzazione o esporta i risultati in file per ulteriori utilizzi."
+      },
+      "feature_5": {
+        "title": "Salta file non necessari",
+        "content": "Ottimizza l'indicizzazione escludendo file o parole specifiche."
+      },
+      "feature_6": {
+        "title": "Elaborazione di HTML e URL",
+        "content": "Estrai contenuti HTML in file e genera URL per la navigazione attraverso i risultati della ricerca."
+      },
+      "feature_7": {
+        "title": "Ricerca veloce in grandi indici",
+        "content": "Accelera le operazioni di ricerca dividendo grandi indici in pezzi gestibili."
+      },
+      "feature_8": {
+        "title": "Indicizzazione basata su stream",
+        "content": "Indicizza i dati direttamente da stream o strutture dati."
+      },
+      "feature_9": {
+        "title": "Gestisci query con errori di battitura",
+        "content": "Rileva errori di ortografia e suggerisci parole alternative per un'accuratezza migliore nella ricerca."
+      },
+      "feature_10": {
+        "title": "Supporto completo per archivi",
+        "content": "Indicizza archivi annidati e recupera elenchi dettagliati di file all'interno dei file ZIP."
+      },
+      "feature_11": {
+        "title": "Indicizzazione salva spazio",
+        "content": "Indici compatti per risparmiare spazio su disco e elaborare file protetti da password."
+      },
+      "feature_12": {
+        "title": "Supporto per sinonimi personalizzati",
+        "content": "Espandi il dizionario dei sinonimi per migliorare l'accuratezza della ricerca con opzioni su misura."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} è compatibile con i principali sistemi operativi e gestori di pacchetti.",
+    "formats_description": "Lavora con un'ampia gamma di formati di file utilizzando {{ProdFullName}}. [Visualizza l'elenco completo]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Prova le funzionalità di {{ProdFullName}} con questi esempi di codice.",
+    "code_title_sample_1": "Aumenta l'accuratezza della ricerca con il matching fuzzy",
+    "code_samples_sample_1_content": "Esplora la flessibilità di {{ProdFullName}} per gestire i contenuti con potenti capacità di ricerca fuzzy. [Scopri di più]({{Sample1Url}}).",
+    "code_title_sample_2": "Affina i risultati con espressioni regolari",
+    "code_samples_sample_2_content": "Utilizza espressioni regolari in {{ProdFullName}} per creare risultati di ricerca precisi e dettagliati. [Scopri tecniche avanzate]({{Sample2Url}})."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Library di ricerca e indicizzazione dei documenti {{EnvNameShort}} per documenti, PDF, Office e Web",
+    "head_description": "Soluzione avanzata di ricerca testuale per applicazioni {{EnvNameShort}} per cercare, indicizzare e raccogliere dati da documenti: PDF, Word, Excel, presentazioni, email e formati di file web.",
+    "title": "Cerca e indicizza documenti utilizzando l'API {{EnvNameShort}}",
+    "description": "Migliora le applicazioni {{EnvNameShort}} implementando la ricerca testuale in tutti i formati di documenti popolari.",
+    "actions_main": "Download gratuito di {{PackageStoreName}}",
+    "code_title": "Esegui ricerca di testo in una cartella con {{ProgLang}}",
+    "overview_description": "Libreria {{EnvNameShort}} {{ProgLang}} per ricerca di testo",
+    "overview_feature_1": {
+      "title": "Operazioni di indicizzazione e ricerca {{EnvNameShort}}",
+      "description": "L'indicizzazione in {{ProdFullName}} raccoglie, memorizza e analizza i dati per ricerche precise ed efficienti. Questi indici sono frequentemente utilizzati per eseguire ricerche."
+    },
+    "overview_feature_2": {
+      "title": "Unisci più indici per migliorare l'efficienza della ricerca",
+      "description": "L'API {{ProdFullName}} consente di unire più indici in uno solo. Le modifiche frequenti creano vari indici delta, che possono rallentare le prestazioni di ricerca. La nostra soluzione unisce questi indici delta in un indice comune, contenente tutte le informazioni degli indici delta uniti, migliorando notevolmente l'efficienza della ricerca mantenendo invariati gli indici delta. Diverse funzionalità possono essere configurate per affinare questo processo."
+    },
+    "overview_feature_3": {
+      "title": "Riconosci le query di ricerca da diversi layout di tastiera",
+      "description": "{{ProdFullName}} riconosce le query di ricerca che non corrispondono al layout di tastiera. Attualmente sono supportate 88 lingue e 164 diversi layout di tastiera."
+    },
+    "overview_feature_4": {
+      "title": "Cerca utilizzando forme morfologiche di parole",
+      "description": "Con {{ProdFullName}} puoi cercare varie forme di parole, come nomi singolari e plurali o tutte le forme di un verbo. È possibile personalizzare le lingue per forme di parole specifiche."
+    },
+    "features": {
+      "title": "Caratteristiche di {{ProdFullName}}",
+      "description": "Controlla i contenuti dei documenti aziendali utilizzando il nostro motore di ricerca avanzato, che supporta formati di file popolari inclusi PDF, DOCX, XLSX, PPTX e altro.",
+      "feature_1": {
+        "title": "Parametri flessibili",
+        "content": "Utilizza intervallo di date e sensibilità al maiuscolo come parametri di ricerca."
+      },
+      "feature_2": {
+        "title": "Ricerca con controllo ortografico",
+        "content": "Usa frasi di ricerca con controllo ortografico e caratteri jolly e saltando caratteri speciali nelle query."
+      },
+      "feature_3": {
+        "title": "Filtraggio dei risultati",
+        "content": "Imposta un filtro sui documenti nei risultati di ricerca."
+      },
+      "feature_4": {
+        "title": "Importazione ed esportazione",
+        "content": "Esegui importazione o utilizza un elenco per modificare i caratteri durante l'indicizzazione ed esporta in un file."
+      },
+      "feature_5": {
+        "title": "Salta dati non necessari",
+        "content": "Salta selettivamente l'indicizzazione di file specifici e parole specifiche per indicizzare più rapidamente."
+      },
+      "feature_6": {
+        "title": "Elaborazione URL",
+        "content": "Estrai testo formattato HTML in un file e genera un URL per navigare nei risultati della ricerca in HTML."
+      },
+      "feature_7": {
+        "title": "Ricerca rapida",
+        "content": "Dividi le ricerche in pezzi più piccoli per cercare rapidamente in grandi indici."
+      },
+      "feature_8": {
+        "title": "Elaborazione basata su stream",
+        "content": "Indicizza documenti da stream e strutture dati."
+      },
+      "feature_9": {
+        "title": "Gestire gli errori di battitura",
+        "content": "Abilita il numero esatto di occorrenze per ogni parola trovata per offrire suggerimenti di parole alternative in caso di errori di battitura."
+      },
+      "feature_10": {
+        "title": "Supporto per archivi",
+        "content": "Indicizza archivi ZIP all'interno di altri archivi ZIP e recupera l'elenco dei file indicizzati in un archivio."
+      },
+      "feature_11": {
+        "title": "Risparmio di spazio su disco",
+        "content": "Risparmia spazio con l'indicizzazione compatta e indicizza i documenti protetti da password."
+      },
+      "feature_12": {
+        "title": "Sinonimi personalizzati",
+        "content": "Aggiungi sinonimi in inglese al dizionario sinonimi predefinito."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} supporta tutti i principali sistemi operativi e gestori di pacchetti.",
+    "formats_description": "{{ProdFullName}} consente di elaborare un'ampia gamma di formati di file. [Esplora l'elenco completo]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Esplora le funzionalità di {{ProdFullName}} con esempi.",
+    "code_title_sample_1": "Utilizza la ricerca 'fuzzy' per aumentare la produttività",
+    "code_samples_sample_1_content": "Goditi la flessibile funzionalità di {{ProdFullName}} per migliorare il controllo del contenuto dei documenti tramite algoritmi di ricerca sofisticati. [Scopri di più]({{Sample1Url}}).",
+    "code_title_sample_2": "Le espressioni regolari sono disponibili per scenari di ricerca avanzati",
+    "code_samples_sample_2_content": "{{ProdFullName}} ci consente di utilizzare espressioni regolari per restringere il risultato della ricerca. [Scopri tecniche di ricerca avanzate]({{Sample2Url}})."
   }
 }

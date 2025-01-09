@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "csv": {
+        "name": "Знайти в CSV",
+        "description": "Текстові дані, розділені комами"
+      },
+      "doc": {
+        "name": "Знайти в DOC",
+        "description": "Документ Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Знайти в DOCX",
+        "description": "Документ Microsoft Word Open XML"
+      },
+      "eml": {
+        "name": "Знайти в EML",
+        "description": "Електронне повідомлення"
+      },
+      "epub": {
+        "name": "Знайти в EPUB",
+        "description": "Файл відкритої електронної книги"
+      },
+      "fb2": {
+        "name": "Знайти в FB2",
+        "description": "Файл FictionBook"
+      },
+      "md": {
+        "name": "Знайти в MD",
+        "description": "Мова Markdown"
+      },
+      "odp": {
+        "name": "Знайти в ODP",
+        "description": "Формат презентації OpenDocument"
+      },
+      "one": {
+        "name": "Знайти в ONE",
+        "description": "Документ OneNote"
+      },
+      "pdf": {
+        "name": "Знайти в PDF",
+        "description": "Adobe Portable Document Format"
+      },
+      "pps": {
+        "name": "Знайти в PPS",
+        "description": "Слайд-шоу PowerPoint"
+      },
+      "ppt": {
+        "name": "Знайти в PPT",
+        "description": "Презентація PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Знайти в PPTX",
+        "description": "Презентація PowerPoint Open XML"
+      },
+      "pst": {
+        "name": "Знайти в PST",
+        "description": "Файл особистої інформації Outlook"
+      },
+      "rtf": {
+        "name": "Знайти в RTF",
+        "description": "Формат багатого тексту"
+      },
+      "tsv": {
+        "name": "Знайти в TSV",
+        "description": "Значення, розділені табуляцією"
+      },
+      "txt": {
+        "name": "Знайти в TXT",
+        "description": "Текстовий документ"
+      },
+      "xls": {
+        "name": "Знайти в XLS",
+        "description": "Робоча книга Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Знайти в XLSX",
+        "description": "Таблиця Microsoft Excel Open XML"
+      },
+      "xml": {
+        "name": "Знайти в XML",
+        "description": "XML файл"
+      },
+      "zip": {
+        "name": "Знайти в ZIP",
+        "description": "Архів ZIP"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копіювати",
+      "copy_tip": "клікніть для копіювання",
+      "copy_done": "скопійовано",
+      "links": {
+        "title_1": "Більше прикладів",
+        "title_2": "Документація"
+      }
+    },
+    "format-actions": {
+      "title": "Готові почати?",
+      "description": "Спробуйте функції {{ProdShortName}} безкоштовно або запитайте ліцензію",
+      "comment_1": "завантаження {{PackageStoreName}}",
+      "comment_2": "Ліцензування"
+    },
+    "texts": {
+      "learn_more": "Дізнатися більше"
+    }
+  }
+}

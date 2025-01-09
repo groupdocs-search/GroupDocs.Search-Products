@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "csv": {
+        "name": "CSV에서 찾기",
+        "description": "쉼표로 구분된 값"
+      },
+      "doc": {
+        "name": "DOC에서 찾기",
+        "description": "Microsoft Word 97 - 2007 문서"
+      },
+      "docx": {
+        "name": "DOCX에서 찾기",
+        "description": "Microsoft Word Open XML 문서"
+      },
+      "eml": {
+        "name": "EML에서 찾기",
+        "description": "이메일 메시지"
+      },
+      "epub": {
+        "name": "EPUB에서 찾기",
+        "description": "오픈 eBook 파일"
+      },
+      "fb2": {
+        "name": "FB2에서 찾기",
+        "description": "FictionBook 파일"
+      },
+      "md": {
+        "name": "MD에서 찾기",
+        "description": "마크다운 언어"
+      },
+      "odp": {
+        "name": "ODP에서 찾기",
+        "description": "OpenDocument 프레젠테이션 형식"
+      },
+      "one": {
+        "name": "ONE에서 찾기",
+        "description": "OneNote 문서"
+      },
+      "pdf": {
+        "name": "PDF에서 찾기",
+        "description": "Adobe 휴대용 문서 형식"
+      },
+      "pps": {
+        "name": "PPS에서 찾기",
+        "description": "PowerPoint 슬라이드 쇼"
+      },
+      "ppt": {
+        "name": "PPT에서 찾기",
+        "description": "PowerPoint 프레젠테이션 97-2003"
+      },
+      "pptx": {
+        "name": "PPTX에서 찾기",
+        "description": "PowerPoint Open XML 프레젠테이션"
+      },
+      "pst": {
+        "name": "PST에서 찾기",
+        "description": "Outlook 개인 정보 저장소 파일"
+      },
+      "rtf": {
+        "name": "RTF에서 찾기",
+        "description": "리치 텍스트 형식"
+      },
+      "tsv": {
+        "name": "TSV에서 찾기",
+        "description": "탭으로 구분된 값"
+      },
+      "txt": {
+        "name": "TXT에서 찾기",
+        "description": "텍스트 문서"
+      },
+      "xls": {
+        "name": "XLS에서 찾기",
+        "description": "Microsoft Excel 통합 문서 97-2003"
+      },
+      "xlsx": {
+        "name": "XLSX에서 찾기",
+        "description": "Microsoft Excel Open XML 스프레드시트"
+      },
+      "xml": {
+        "name": "XML에서 찾기",
+        "description": "XML 파일"
+      },
+      "zip": {
+        "name": "ZIP에서 찾기",
+        "description": "ZIP 아카이브"
+      }
+    },
+    "format-code": {
+      "copy_title": "복사",
+      "copy_tip": "복사하려면 클릭",
+      "copy_done": "복사됨",
+      "links": {
+        "title_1": "더 많은 예제",
+        "title_2": "문서화"
+      }
+    },
+    "format-actions": {
+      "title": "시작할 준비가 되셨습니까?",
+      "description": "{{ProdShortName}} 기능을 무료로 시험해 보거나 라이센스를 요청하세요.",
+      "comment_1": "{{PackageStoreName}} 다운로드",
+      "comment_2": "라이센스"
+    },
+    "texts": {
+      "learn_more": "자세히 알아보기"
+    }
+  }
+}

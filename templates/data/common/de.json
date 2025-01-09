@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "csv": {
+        "name": "In CSV suchen",
+        "description": "Kommagetrennte Werte"
+      },
+      "doc": {
+        "name": "In DOC suchen",
+        "description": "Microsoft Word 97 - 2007 Dokument"
+      },
+      "docx": {
+        "name": "In DOCX suchen",
+        "description": "Microsoft Word Open XML Dokument"
+      },
+      "eml": {
+        "name": "In EML suchen",
+        "description": "E-Mail-Nachricht"
+      },
+      "epub": {
+        "name": "In EPUB suchen",
+        "description": "Open eBook Datei"
+      },
+      "fb2": {
+        "name": "In FB2 suchen",
+        "description": "FictionBook Datei"
+      },
+      "md": {
+        "name": "In MD suchen",
+        "description": "Markdown-Sprache"
+      },
+      "odp": {
+        "name": "In ODP suchen",
+        "description": "OpenDocument Präsentationsformat"
+      },
+      "one": {
+        "name": "In ONE suchen",
+        "description": "OneNote Dokument"
+      },
+      "pdf": {
+        "name": "In PDF suchen",
+        "description": "Adobe Portable Document Format"
+      },
+      "pps": {
+        "name": "In PPS suchen",
+        "description": "PowerPoint-Präsentation"
+      },
+      "ppt": {
+        "name": "In PPT suchen",
+        "description": "PowerPoint Präsentation 97-2003"
+      },
+      "pptx": {
+        "name": "In PPTX suchen",
+        "description": "PowerPoint Open XML Präsentation"
+      },
+      "pst": {
+        "name": "In PST suchen",
+        "description": "Outlook persönliche Informationsdatei"
+      },
+      "rtf": {
+        "name": "In RTF suchen",
+        "description": "Rich Text Format"
+      },
+      "tsv": {
+        "name": "In TSV suchen",
+        "description": "Tabulatorgetrennte Werte"
+      },
+      "txt": {
+        "name": "In TXT suchen",
+        "description": "Textdokument"
+      },
+      "xls": {
+        "name": "In XLS suchen",
+        "description": "Microsoft Excel Arbeitsmappe 97-2003"
+      },
+      "xlsx": {
+        "name": "In XLSX suchen",
+        "description": "Microsoft Excel Open XML Tabelle"
+      },
+      "xml": {
+        "name": "In XML suchen",
+        "description": "XML Datei"
+      },
+      "zip": {
+        "name": "In ZIP suchen",
+        "description": "Zip-Archiv"
+      }
+    },
+    "format-code": {
+      "copy_title": "Kopieren",
+      "copy_tip": "Klicken zum Kopieren",
+      "copy_done": "kopiert",
+      "links": {
+        "title_1": "Weitere Beispiele",
+        "title_2": "Dokumentation"
+      }
+    },
+    "format-actions": {
+      "title": "Bereit zum Starten?",
+      "description": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos oder fordern Sie eine Lizenz an",
+      "comment_1": "{{PackageStoreName}} Download",
+      "comment_2": "Lizenzierung"
+    },
+    "texts": {
+      "learn_more": "Erfahren Sie mehr"
+    }
+  }
+}

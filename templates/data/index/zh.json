@@ -1,118 +1,377 @@
 {
   "index-content": {
-    "words_for": "为了",
+    "head_title": "文档文本搜索和索引 | API和免费网络应用",
+    "head_description": "使用我们的API或免费在线文档搜索应用程序，在PDF、MS Office、OpenDocument和其他流行文件格式上执行高效文本搜索和数据索引。",
+    "title": "综合文档搜索和索引解决方案",
+    "description_1": "在PDF、Microsoft Office、OpenOffice和许多其他文档文件格式上执行文本搜索和索引。",
+    "description_2": "借助先进的全文搜索功能，快速定位大型文档集合中的信息。",
+    "description_3": "自定义搜索功能，如同义词、模糊搜索和词干提取，以提高准确性和结果。",
+    "words_for": "为",
     "release_title": "版本 {0} 已发布",
-    "release_notes": "看看有什么新鲜事",
+    "release_notes": "查看新功能",
     "release_downloads": "下载",
     "code_more": "更多示例",
-    "code_comment_1": "创建索引",
-    "code_comment_2": "将文档添加到索引",
-    "code_comment_3": "搜索各种单词，例如",
-    "overview_title": "{{ProdShortName}} 一目了然",
+    "overview_title": "{{ProdShortName}} 概述",
+    "code_comment_1": "为您的文档创建索引",
+    "code_comment_2": "将文档添加到索引中以实现高效搜索",
+    "code_comment_3": "搜索特定单词或短语，例如",
     "formats_title": "支持的文件格式",
     "platforms": {
       "title": "平台独立性",
       "head_title": "选择您的平台",
-      "description": "{{ProdShortName}} 库支持以下操作系统和框架：",
+      "description": "{{ProdShortName}} 与以下操作系统和框架兼容：",
       "learn_more": "了解更多",
       "any_other_text_editor": "任何其他文本编辑器"
     },
+    "features": {
+      "title": "{{ProdShortName}} 的主要功能",
+      "description": "{{ProdShortName}} 提供强大的工具，用于在流行的文档格式中进行索引和搜索文本。通过先进的搜索功能简化和增强文档管理。",
+      "feature_1": {
+        "title": "高级文本搜索",
+        "content": "在索引文档中执行快速且准确的文本搜索。"
+      },
+      "feature_2": {
+        "title": "可定制搜索选项",
+        "content": "利用模糊搜索、同义词和词干提取等功能，以获取更精确的结果。"
+      },
+      "feature_3": {
+        "title": "支持多种格式",
+        "content": "在Microsoft Office、PDF、OpenOffice 和其他常见格式中索引和搜索内容。"
+      },
+      "feature_4": {
+        "title": "高效索引",
+        "content": "快速构建和维护大型文档集合的索引。"
+      }
+    },
     "formats": {
-      "title": "支持 70 多种文件格式",
-      "description": "{{ProdShortName}} 提供所有流行文件格式的搜索。"
+      "title": "支持70多种文件格式",
+      "description": "{{ProdShortName}}几乎支持所有广泛使用的文件格式"
     },
     "code_samples": {
       "title": "代码示例",
+      "index_title": "在流行文档格式中搜索文本",
+      "index_description": "{{ProdShortName}} 代码示例",
+      "more_examples": "更多示例",
+      "sample_index": {
+        "title": "文本搜索",
+        "content": "{{ProdShortName}} 是一个强大的工具，用于在文档中查找文本。您可以在特定文件夹中搜索多个不同格式的文档。搜索结果保存在单独的文件夹中，允许您访问和重用，而无须再次进行搜索。",
+        "comment_1": "创建一个 {{textIndex}} 类的实例，指定用于存储索引的文件夹。",
+        "comment_2": "指定将在其中进行搜索的文档路径。",
+        "comment_3": "创建 {{textSearchOptions}} 对象的实例。",
+        "comment_4": "执行所需文本的搜索。",
+        "comment_5": "处理和处理搜索结果。"
+      },
       "sample_1": {
         "code_title": "如何处理搜索结果",
         "comment_1": "创建索引",
         "comment_2": "设置搜索选项",
-        "comment_3": "搜索包含单词“water”或短语“Lorem ipsum”的文档",
+        "comment_3": "搜索包含'water'这个词或短语'Lorem ipsum'的文档",
         "comment_4": "处理搜索结果"
       },
       "sample_2": {
-        "code_title": "如何使用正则表达式进行搜索",
+        "code_title": "如何使用正则表达式搜索",
         "comment_1": "创建索引",
-        "comment_2": "以文本形式搜索短语",
-        "comment_3": "开头的第一个插入字符表示这是正则表达式搜索查询",
+        "comment_2": "搜索文本形式的短语",
+        "comment_3": "第一个插入符号字符表示这是一个正则表达式搜索查询",
         "comment_4": "搜索单词开头的两个或多个相同字符"
       }
     },
+    "metrics": {
+      "title": "我们的产品统计",
+      "description": "发现展示我们性能、覆盖范围和增长的关键指标。",
+      "item_1": {
+        "title": "支持的格式",
+        "description": "我们提供超过70种流行文档格式的兼容性。"
+      },
+      "item_2": {
+        "title": "NuGet下载",
+        "description": "{{ProdShortName}} for .NET 在NuGet上已被下载超过500,000次。"
+      },
+      "item_3": {
+        "title": "Maven下载",
+        "description": "Java开发者在Maven上下载了{{ProdShortName}}超过12,000次。"
+      },
+      "item_4": {
+        "title": "满意的客户",
+        "description": "全球开发者和领先企业依赖我们的产品提供创新解决方案。"
+      }
+    },
+    "customers": {
+      "title": "我们的满意客户",
+      "description": "GroupDocs库获得全球领先品牌和组织的信任。"
+    },
     "actions": {
       "alt": "许可",
-      "title": "准备好开始了吗？",
-      "description": "免费试用 {{ProdShortName}} 功能或申请许可证",
-      "description_index": "在您的平台上免费试用 {{ProdShortName}} 功能"
+      "title": "今天就开始您的旅程！",
+      "description": "免费体验{{ProdShortName}}的功能，或申请许可以解锁其全部潜力。",
+      "description_index": "在您首选的平台上体验{{ProdShortName}}的免费服务。"
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "查找有关{{ProdShortName}}的常见问题答案。",
+      "item_1": {
+        "question": "{{ProdShortName}}是否需要外部工具来搜索文档？",
+        "answer": "不需要，{{ProdShortName}}作为独立解决方案工作，无需其他工具或软件（如Adobe Acrobat或Microsoft Office）即可执行搜索。"
+      },
+      "item_2": {
+        "question": "我可以在购买之前测试{{ProdShortName}}吗？",
+        "answer": "可以！{{ProdShortName}}提供免费试用。您可以探索其特点，尽管试用版本可能包含水印或功能限制。要解锁所有功能，请申请免费的30天临时许可。了解更多信息，请访问[临时许可]({{LicensingUrl}})页面。"
+      },
+      "item_3": {
+        "question": "有哪些许可选项可供选择？",
+        "answer": "我们为{{ProdShortName}}提供几种许可模式，以满足不同的需求。根据团队规模、使用场景或是否需要SDK/API进行客户端分发，选择一种许可。为了灵活使用，您可以考虑按照实际使用量支付的计量许可。有关您的选项的更多信息，请访问[定价]({{PricingUrl}})页面。"
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} 网络应用",
+      "description": "使用我们的免费网络应用程序探索 {{ProdShortName}}。直接在您的浏览器中对超过70种流行文件格式执行文本搜索和索引——完全免费。",
+      "item_1": {
+        "content": "直接从网页浏览器中搜索PDF、Excel、Word、PowerPoint和其他文件类型。"
+      },
+      "item_2": {
+        "content": "上传DOCX以便执行不需要安装软件的高级文本搜索。"
+      },
+      "item_3": {
+        "content": "免费测试PDF的索引和检索功能，支持各种格式。"
+      }
     },
     "formats_groups": {
       "title_1": "流行的办公格式",
       "title_2": "媒体格式",
       "title_3": "其他",
-      "format_portable": "便携的",
-      "format_popular_images": "流行的图像格式",
+      "format_portable": "便携式",
+      "format_popular_images": "流行图片格式",
       "format_multi_images": "多页图像",
-      "format_multi_audio": "声音的",
+      "format_multi_audio": "音频",
       "format_multi_video": "视频",
-      "format_web": "网络",
+      "format_web": "网页",
       "format_text": "文本",
       "format_email": "电子邮件",
-      "format_others": "其他的"
+      "format_others": "其他"
     }
   },
-  "index-content-nodejs-java": {
-    "head_title": "{{EnvNameShort}} 用于文档、PDF、Office 和 Web 的文本搜索和索引库",
-    "head_description": "适用于 {{EnvNameShort}} 应用程序的高级文本搜索解决方案，用于搜索、索引和收集文档中的数据：PDF、Word、Excel、演示文稿、电子邮件和网络文件格式。",
-    "title": "使用 {{EnvNameShort}} API 搜索和索引文档",
-    "description": "通过在所有流行文档格式中实施文本搜索来增强 {{EnvNameShort}} 应用程序。",
-    "actions_main": "免费 NPM 下载",
-    "code_title": "在带有 {{ProgLang}} 的文件夹中搜索",
-    "overview_description": "用于文本搜索的 {{EnvNameShort}} {{ProgLang}} 库",
+  "index-content-net": {
+    "head_title": "{{EnvNameShort}} 文档搜索和索引库，支持PDF、Office文件等",
+    "head_description": "强大的{{EnvNameShort}}解决方案，用于在文档（如PDF、Word、Excel、演示文稿、电子邮件和网页格式）中进行文本搜索和索引。",
+    "title": "使用{{EnvNameShort}} API进行高级文档搜索和索引",
+    "description": "提升{{EnvNameShort}}应用程序，通过流行文档格式提供尖端文本搜索能力。",
+    "actions_main": "免费下载{{PackageStoreName}}",
+    "code_title": "在目录文件中搜索文本",
+    "overview_description": "探索{{EnvNameShort}} {{ProgLang}}库，以实现强大的文本搜索和索引。",
     "overview_feature_1": {
-      "title": "{{EnvNameShort}} 索引和搜索操作",
-      "description": "{{ProdFullName}} 中的索引收集、存储和解析数据，以实现精确、高效的搜索操作。这些索引经常用于执行搜索。"
+      "title": "{{EnvNameShort}} 索引和搜索功能",
+      "description": "有效索引、存储和处理文档数据，使用{{ProdFullName}}进行高精度和快速搜索操作。"
     },
     "overview_feature_2": {
-      "title": "合并多个索引以提高搜索效率",
-      "description": "{{ProdFullName}} API 允许将多个索引合并为一个。频繁的修改会创建多个增量索引，这会降低搜索性能。我们的解决方案将这些增量索引合并为一个公共索引，包含合并后增量索引的所有信息，在保持增量索引不变的情况下显着提高搜索效率。可以配置各种功能来微调此过程。"
+      "title": "合并索引以提高搜索速度",
+      "description": "{{ProdFullName}}允许您合并多个索引以优化性能。通过将多个增量索引合并为一个综合索引，减少增量索引的影响，以实现更顺畅的搜索。"
     },
     "overview_feature_3": {
-      "title": "识别不同键盘布局的搜索查询",
-      "description": "{{ProdFullName}} 可以识别与键盘布局不匹配的搜索查询。目前支持 88 种语言和 164 种不同的键盘布局。"
+      "title": "跨不同键盘布局搜索",
+      "description": "使用{{ProdFullName}}的智能识别，轻松处理来自88种语言和164种键盘布局的搜索查询。"
     },
     "overview_feature_4": {
-      "title": "使用形态词形式进行搜索",
-      "description": "使用 {{ProdFullName}}，您可以搜索各种单词形式，例如单数和复数名词，或动词的所有形式。英语和非英语语言可以定制特定的词形。"
+      "title": "形态学单词搜索",
+      "description": "{{ProdFullName}}支持对单词变化（如单数/复数名词和不同动词形式）进行搜索，可以针对不同语言进行自定义。"
     },
     "features": {
-      "title": "{{ProdFullName}} 功能",
-      "description": "使用我们的高级搜索引擎控制业务文档内容，支持流行的文件格式，包括 PDF、DOCX、XLSX、PPTX 等。",
+      "title": "{{ProdFullName}} 的主要功能",
+      "description": "通过在流行格式（如PDF、DOCX、XLSX、PPTX等）中提供高级搜索能力，简化文档管理。",
       "feature_1": {
-        "title": "灵活的参数",
+        "title": "灵活的搜索参数",
+        "content": "使用日期范围和区分大小写等筛选器来改进搜索。"
+      },
+      "feature_2": {
+        "title": "智能拼写检查",
+        "content": "使用拼写纠正、通配符和忽略特殊字符的搜索短语。"
+      },
+      "feature_3": {
+        "title": "过滤搜索结果",
+        "content": "按文档类型或标准自定义和过滤搜索结果。"
+      },
+      "feature_4": {
+        "title": "索引导入与导出",
+        "content": "导入数据，修改索引设置，并导出已索引的结果。"
+      },
+      "feature_5": {
+        "title": "排除无关数据",
+        "content": "通过跳过特定文件或单词来优化索引。"
+      },
+      "feature_6": {
+        "title": "URL提取",
+        "content": "将HTML格式的文本转换为文件，并为搜索结果生成链接。"
+      },
+      "feature_7": {
+        "title": "高速搜索",
+        "content": "将大索引划分为小部分，以便更快地处理。"
+      },
+      "feature_8": {
+        "title": "简化数据处理",
+        "content": "直接从数据流和结构中索引文档。"
+      },
+      "feature_9": {
+        "title": "拼写错误检测",
+        "content": "建议替代词，并跟踪发生次数以提高准确性。"
+      },
+      "feature_10": {
+        "title": "归档支持",
+        "content": "索引嵌套ZIP归档，并检索其中的文件详细信息。"
+      },
+      "feature_11": {
+        "title": "高效索引",
+        "content": "通过紧凑的索引节省磁盘空间，并处理密码保护的文档。"
+      },
+      "feature_12": {
+        "title": "自定义同义词",
+        "content": "添加和管理同义词，以实现定制的搜索结果。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 在各大操作系统和软件包管理器中无缝工作。",
+    "formats_description": "使用{{ProdFullName}}处理各种文件格式。[查看所有支持的格式]({{SupportedFormatsUrl}})。",
+    "code_samples_description": "通过示例发现{{ProdFullName}}的强大能力。",
+    "code_title_sample_1": "通过模糊搜索提升生产力",
+    "code_samples_sample_1_content": "利用{{ProdFullName}}的先进搜索算法，通过灵活和准确的内容控制。 [探索更多]({{Sample1Url}})。",
+    "code_title_sample_2": "使用正则表达式进行高级搜索",
+    "code_samples_sample_2_content": "{{ProdFullName}}支持正则表达式进行精准搜索。 [了解先进技术]({{Sample2Url}})。"
+  },
+  "index-content-java": {
+    "head_title": "{{EnvNameShort}} 文档搜索和索引解决方案，支持PDF、Office文件和网页内容",
+    "head_description": "强大的文本搜索和索引能力用于{{EnvNameShort}}应用程序。轻松搜索和组织PDF、Word、Excel、演示文稿、电子邮件和网页格式中的数据。",
+    "title": "使用{{EnvNameShort}} API进行高效文档搜索和索引",
+    "description": "通过在所有流行文档格式上实施强大的文本搜索功能，增强{{EnvNameShort}}应用程序。",
+    "actions_main": "免费下载{{PackageStoreName}}",
+    "code_title": "使用{{ProgLang}}寻找文件中的文本",
+    "overview_description": "发现{{EnvNameShort}} {{ProgLang}}库的强大文本搜索能力。",
+    "overview_feature_1": {
+      "title": "{{EnvNameShort}} 中的索引和搜索操作",
+      "description": "使用{{ProdFullName}}，您可以有效地收集、存储和分析数据，以创建详细的索引，从而实现更快速、更准确的搜索。"
+    },
+    "overview_feature_2": {
+      "title": "通过合并索引优化搜索",
+      "description": "轻松结合多个索引，使用{{ProdFullName}}来优化搜索。通过将多个增量索引合并为单个高性能索引来减少小的增量索引的影响。"
+    },
+    "overview_feature_3": {
+      "title": "支持多语言键盘布局",
+      "description": "使用{{ProdFullName}}跨不同语言和键盘布局进行搜索。它支持88种语言和164种键盘配置，灵活多变无与伦比。"
+    },
+    "overview_feature_4": {
+      "title": "形态学搜索能力",
+      "description": "使用{{ProdFullName}}查找不同的单词形式，例如单数/复数名词或动词变化。为英语和其他语言定制搜索选项。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} 的功能",
+      "description": "有效管理文档内容，提供支持PDF、DOCX、XLSX、PPTX等格式的高级搜索能力。",
+      "feature_1": {
+        "title": "可定制的搜索参数",
+        "content": "使用日期范围和区分大小写筛选器来改进搜索。"
+      },
+      "feature_2": {
+        "title": "增强的拼写检查",
+        "content": "通过拼写检查、通配符和忽略特殊字符有效搜索。"
+      },
+      "feature_3": {
+        "title": "过滤搜索结果",
+        "content": "应用筛选器，以根据特定文档类型或标准关注搜索结果。"
+      },
+      "feature_4": {
+        "title": "数据的导入和导出",
+        "content": "轻松导入索引数据或将结果导出到文件以供进一步使用。"
+      },
+      "feature_5": {
+        "title": "跳过不必要的文件",
+        "content": "通过排除特定文件或单词来优化索引。"
+      },
+      "feature_6": {
+        "title": "HTML和URL处理",
+        "content": "提取HTML内容到文件，并为搜索结果生成URL链接。"
+      },
+      "feature_7": {
+        "title": "在大型索引中快速搜索",
+        "content": "通过将大型索引分割为可管理的块来加速搜索操作。"
+      },
+      "feature_8": {
+        "title": "基于流的索引",
+        "content": "直接从流或数据结构中索引数据。"
+      },
+      "feature_9": {
+        "title": "处理拼写错误的查询",
+        "content": "检测拼写错误，并建议替代词以提高搜索准确性。"
+      },
+      "feature_10": {
+        "title": "全面的归档支持",
+        "content": "索引嵌套归档，并检索ZIP文件中详细的文件列表。"
+      },
+      "feature_11": {
+        "title": "节省磁盘空间的索引",
+        "content": "通过紧凑的索引节省磁盘空间，并处理受密码保护的文件。"
+      },
+      "feature_12": {
+        "title": "自定义同义词支持",
+        "content": "扩展同义词字典，以增强搜索精度，提供定制选项。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 与主要操作系统和软件包管理器兼容。",
+    "formats_description": "使用{{ProdFullName}}处理广泛的文件格式。[查看完整列表]({{SupportedFormatsUrl}})。",
+    "code_samples_description": "通过这些代码示例试用{{ProdFullName}}功能。",
+    "code_title_sample_1": "通过模糊匹配提升搜索准确性",
+    "code_samples_sample_1_content": "探索{{ProdFullName}}的灵活性，通过先进的模糊搜索功能，管理内容。 [了解更多]({{Sample1Url}})。",
+    "code_title_sample_2": "使用正则表达式精细化结果",
+    "code_samples_sample_2_content": "在{{ProdFullName}}中使用正则表达式，以创建精确且详细的搜索结果。 [探索先进技术]({{Sample2Url}})。"
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{EnvNameShort}} 文本搜索和索引库，支持文档、PDF、Office和网页",
+    "head_description": "针对{{EnvNameShort}}应用程序的高级文本搜索解决方案，以搜索、索引和收集文档中的数据：PDF、Word、Excel、演示文稿、电子邮件和网页文件格式。",
+    "title": "使用{{EnvNameShort}} API搜索和索引文档",
+    "description": "通过在所有流行文档格式中实施文本搜索，增强{{EnvNameShort}}应用程序。",
+    "actions_main": "免费{{PackageStoreName}}下载",
+    "code_title": "使用{{ProgLang}}在文件夹中执行文本搜索",
+    "overview_description": "{{EnvNameShort}} {{ProgLang}}库进行文本搜索",
+    "overview_feature_1": {
+      "title": "{{EnvNameShort}} 索引和搜索操作",
+      "description": "在{{ProdFullName}}中进行索引，收集、存储和解析数据，以实现精确和高效的搜索操作。这些索引通常用于执行搜索。"
+    },
+    "overview_feature_2": {
+      "title": "合并多个索引以增强搜索效率",
+      "description": "{{ProdFullName}} API允许将多个索引合并为一个。频繁的修改会创建多个增量索引，可能会减慢搜索性能。我们的解决方案将这些增量索引合并为一个公共索引，包含所有合并增量索引的信息，显著提高搜索效率，同时保持增量索引不变。可以配置多种功能以微调此过程。"
+    },
+    "overview_feature_3": {
+      "title": "识别来自不同键盘布局的搜索查询",
+      "description": "{{ProdFullName}}可以识别与键盘布局不匹配的搜索查询。目前支持88种语言和164种不同的键盘布局。"
+    },
+    "overview_feature_4": {
+      "title": "使用形态学单词形式搜索",
+      "description": "使用{{ProdFullName}}，您可以搜索多种单词形式，例如单数和复数名词，或动词的所有形式。英语和非英语语言可以针对特定单词形式进行自定义。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} 的功能",
+      "description": "使用我们的高级搜索引擎控制业务文档内容，支持流行的文件格式，包括PDF、DOCX、XLSX、PPTX等。",
+      "feature_1": {
+        "title": "灵活参数",
         "content": "使用日期范围和区分大小写作为搜索参数"
       },
       "feature_2": {
         "title": "拼写检查搜索",
-        "content": "使用带有拼写检查和通配符的搜索短语并在查询中跳过特殊字符"
+        "content": "使用拼写检查和通配符的搜索短语，跳过查询中的特殊字符"
       },
       "feature_3": {
         "title": "结果过滤",
         "content": "在搜索结果中设置文档过滤"
       },
       "feature_4": {
-        "title": "进出口",
-        "content": "在索引和导出到文件期间执行导入或使用列表修改字符"
+        "title": "导入和导出",
+        "content": "导入或使用列表修改索引期间的字符，并导出到文件"
       },
       "feature_5": {
         "title": "跳过不必要的数据",
-        "content": "有选择地跳过特定文件的索引并跳过特定单词以更快地建立索引"
+        "content": "有选择性地跳过特定文件的索引，和跳过特定单词以更快地索引"
       },
       "feature_6": {
-        "title": "网址处理",
-        "content": "将 HTML 格式的文本提取到文件并生成 URL 以在 HTML 中导航搜索结果"
+        "title": "URL处理",
+        "content": "提取HTML格式的文本到文件，并生成URL以在HTML中导航搜索结果"
       },
       "feature_7": {
         "title": "快速搜索",
-        "content": "将搜索分成较小的块以快速搜索大型索引"
+        "content": "将搜索分解为更小的块，以快速搜索大型索引"
       },
       "feature_8": {
         "title": "流处理",
@@ -120,27 +379,27 @@
       },
       "feature_9": {
         "title": "处理拼写错误",
-        "content": "为每个找到的单词启用准确的出现次数，以便在出现拼写错误时提供替代单词建议"
+        "content": "为每个找到的单词提供准确的出现次数，并在拼写错误时提供替代词建议"
       },
       "feature_10": {
-        "title": "存档支持",
-        "content": "在其他 ZIP 档案中索引压缩档案并检索档案中的索引文件列表"
+        "title": "归档支持",
+        "content": "索引嵌套的ZIP归档，并检索归档中索引文件的列表"
       },
       "feature_11": {
         "title": "节省磁盘空间",
-        "content": "通过紧凑索引和索引密码保护文档节省空间"
+        "content": "以压缩的方式索引，占用更少空间，并索引密码保护的文档"
       },
       "feature_12": {
         "title": "自定义同义词",
-        "content": "将英语同义词添加到默认同义词词典"
+        "content": "将英语同义词添加到默认同义词字典"
       }
     },
-    "platforms_description": "{{ProdFullName}} 支持所有流行的操作系统和包管理器。",
-    "formats_description": "{{ProdFullName}} 可以处理多种文件格式。 [浏览完整列表]({{SupportedFormatsUrl}})。",
-    "code_samples_description": "通过示例探索 {{ProdFullName}} 功能",
-    "code_title_sample_1": "使用模糊搜索提高生产力",
-    "code_samples_sample_1_content": "享受灵活的 {{ProdFullName}} 功能，通过复杂的搜索算法增强文档内容控制。 [了解更多]({{Sample1Url}})。",
+    "platforms_description": "{{ProdFullName}}支持所有流行操作系统和软件包管理器。",
+    "formats_description": "{{ProdFullName}}可以处理广泛的文件格式。[探索完整列表]({{SupportedFormatsUrl}})。",
+    "code_samples_description": "通过示例探索{{ProdFullName}}的功能",
+    "code_title_sample_1": "使用'模糊'搜索提升生产力",
+    "code_samples_sample_1_content": "享受{{ProdFullName}}的灵活功能，通过复杂的搜索算法增强文档内容控制。[了解更多]({{Sample1Url}})。",
     "code_title_sample_2": "正则表达式可用于高级搜索场景",
-    "code_samples_sample_2_content": "{{ProdFullName}} 允许我们使用正则表达式来缩小搜索结果范围。 [深入研究高级搜索技术]({{Sample2Url}})。"
+    "code_samples_sample_2_content": "{{ProdFullName}}允许我们使用正则表达式来缩小搜索结果。[深入了解高级搜索技术]({{Sample2Url}})。"
   }
 }

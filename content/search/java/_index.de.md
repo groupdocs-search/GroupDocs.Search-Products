@@ -1,339 +1,284 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2025-01-09T15:38:59
 draft: false
 
+lang: de
 product: "Search"
 product_tag: "search"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: "Java-Textsuche & Indizierung API für Dokumente, PDF, Office und Web"
-head_description: "Erweiterte Textsuch-API für Java-Anwendungen zum Suchen, Indexieren und Abrufen von Daten aus Dokumenten: PDF, Word, Excel, Präsentationen, E-Mail und Web-Dateiformate."
+head_title: "Java Dokumentensuche & Indizierungslösung für PDFs, Office-Dateien und Webinhalte"
+head_description: "Leistungsstarke Textsuche und Indizierung für Java-Anwendungen. Suchen und organisieren Sie Daten in PDFs, Word, Excel, Präsentationen, E-Mails und Webformaten."
 
 ############################# Header ############################
-title: "Suchen und Indexieren von Dokumenten über die Java-API"
-description: "Erstellen Sie Java-Anwendungen, um die Textsuche in allen gängigen Dokumentformaten durchzuführen.."
-button:
-    enable: true
+title: "Effiziente Dokumentensuche und Indizierung mit der Java API"
+description: "Befähigen Sie Java-Anwendungen mit robusten Textsuchfunktionen in allen gängigen Dokumentformaten."
+words:
+  for: "für"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Laden Sie Maven kostenlos herunter"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-search/"
+  alt: "Lizenzierung"
+  alt_link: "https://purchase.groupdocs.com/pricing/search/java/"
+  title: "Beginnen Sie Ihre Reise noch heute!"
+  description: "Entdecken Sie die Möglichkeiten von GroupDocs.Search kostenlos oder sichern Sie sich eine Lizenz, um das volle Potenzial auszuschöpfen."
+
+release:
+  title: "Version {0} veröffentlicht"
+  notes: "Sehen Sie sich an, was neu ist"
+  downloads: "Downloads"
+
+code:
+  title: "Text in Dateien mit Java finden"
+  more: "Weitere Beispiele"
+  more_link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Java/"
+  install_title : "Maven XML"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-search</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // Erstellen Sie ein Index für Ihre Dokumente
+    Index index = new Index("c:/MyIndex");
+
+    // Fügen Sie Dokumente zum Index hinzu, um eine effiziente Suche zu ermöglichen
+    index.add("c:/MyDocuments");
     
-    left:
-        img_alt: "GroupDocs.Search for Java"
-        image: "/border/groupdocs-search-java.svg"
-        product: "GroupDocs.Search"
-        platform: "Java"
+    // Suchen Sie nach bestimmten Wörtern oder Phrasen, wie zum Beispiel
+    // 'affect', 'effect', 'principles', 'principally'
+    SearchResult results = 
+        index.search("?ffect & princip?(2~4)");
+    ```
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Überblick"
-
-            # button loop
-            - link: "#features"
-              text: "Merkmale"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/search"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/search/java"
-              text: "Preisgestaltung"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/search"
-        link_learn: "https://docs.groupdocs.com/search/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
-############################# Überblick ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Mit GroupDocs.Search für Java können Sie Geschäftsanwendungen erstellen, mit denen Ihre Endbenutzer Suchvorgänge wie nie zuvor durchführen können. Unsere Java-API ermöglicht es Benutzern, einfache bis fortgeschrittene Textsuchfunktionen zu betreiben. Erstellen und führen Sie mehrere Indizes zusammen. Verwenden Sie einfache, boolesche, reguläre Ausdrücke (Regex), Fuzzy und andere Arten von Abfragen, um Indizes schnell und intelligent zu durchsuchen. Sie können Ihre benötigten Informationen aus Dateien, Dokumenten, E-Mails und Archiven abrufen, da GroupDocs.Search für Java alle gängigen Dateiformate unterstützt.
-    tabs:
-      enable: true     
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Nachfolgend finden Sie eine Übersicht über GroupDocs.Search für Java:
-
-        left:
-          enable: true
-          icon: "fas fa-search"
-          title: "Indizierung"
-          content: |
-            * Erstellen & verwalten
-            * Mehrere Indizes zusammenführen
-            * Multi-Threading Async Indizierung
-            * Compact Indizierung
-            * Archived Files Indizierung
-        
-        right:
-          enable: true
-          icon: "fas fa-search-plus"
-          title: "Erweiterte Suche & Suchanfragen"
-          content: |
-            * Ungenaue Suche
-            * Synonymsuche
-            * E-Mail-Suche
-            * Umgang mit homophonen Begriffen
-            * Suche nach geschützten Dateien
-            * Einfach
-            * Wildcard
-            * Regulärer Ausdruck (Regex)
-            * Facettiert & Boolesch
-            * Groß-/Kleinschreibung beachten
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Search für Java unterstützt alle gängigen [Dokumentdateiformate](https://docs.groupdocs.com/search/java/supported-document-formats/) einschließlich: Microsoft Office, Bilder, Diagramme und viele andere.
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office-Formate"
-              content: |
-                * **Word**: DOC, DOCX, DOCM, DOT, DOTX, DOTM
-                * **Excel**: XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
-                * **PowerPoint**: PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
-                * **Project**: MPP
-                * **Diagram**: VSD, VSS
-                * **Microsoft Compiled HTML**: CHM
-                * **OneNote**: ONE
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument & Andere Formate"
-              content: |
-                * **Portable Document Format**: PDF
-                * **OpenDocument**: ODT, OTT, ODS, OTS, ODP
-                * **E-Mail**: PST, OST, MSG, EML, EMLX
-                * **Webdateiformate**: XML, HTM, HTML, XHTML, MHT, MHTML
-                * **Audio**: MP3, WAV
-                * **Video**: AVI, MOV, QT, FLV, ASF
-                * **Text**: TXT
-                * **Rich-Text-Format**: RTF
-                * **Markdown-Dokumentationsdatei**: MD
-                * **Bilder**: BMP, GIF, JP2, PNG, WEBP, TIFF, EMF, WMF, JPG, PSD
-                * **Andere**: TORRENT, ZIP, DCM, DJVU, EPUB, FB2
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Search for Java unterstützt das Folgen Betriebssysteme, Frameworks & Paketmanager:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Betriebssysteme"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Unterstützte Frameworks"
-              content: |
-                * Java 7 (1.7) und höher
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Entwicklungsumgebungen"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Build-Automatisierungstool"
-              content: |
-                * Maven
-
-############################# Merkmale ############################
-features:
-    enable: true
-    title: "GroupDocs.Search for Java Merkmale"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Erstellen Sie einen Index auf der Festplatte oder im Arbeitsspeicher mit asynchronem Multithreading"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Zeigen Sie den Fortschritt der Indexerstellung und -aktualisierung an"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Überspringen Sie selektiv die Indizierung für bestimmte Dateien und überspringen Sie bestimmte Wörter, um schneller zu indizieren"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Führen Sie den Import durch oder verwenden Sie die Liste, um Zeichen während der Indizierung zu ändern und in eine Datei zu exportieren"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Index bei Fehlerindizierung neu laden & Benutzer bei widersprüchlichen Einstellungen warnen"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Indexstatusbenachrichtigung bezüglich der zuletzt verarbeiteten Dateien"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Indizieren Sie gezippte Archive in anderen ZIP-Archiven und erhalten Sie eine Liste der indizierten Dateien in einem Archiv"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Sparen Sie Platz durch kompakte Indizierung & passwortgeschützte Indizierung von Dokumenten"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Dokumenttextextraktion aus Index oder Quelldatei"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "HTML-formatierte Textextraktion in eine Datei und URL erzeugen, um durch Suchergebnisse in HTML zu navigieren"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Fügen Sie bei der Indizierung jedem Dokument beliebige Zusatzfelder hinzu"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Konfigurieren Sie den Ähnlichkeitsgrad für Ungenaue Suche und zeigen Sie die besten Ergebnisse"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Konfigurieren und führen Sie eine Synonymsuche durch und gehen Sie intelligent mit homophonen Begriffen um"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Verwenden Sie Datumsbereich und Groß-/Kleinschreibung als Suchparameter"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Erstellen Sie einen Index zum Suchen und Durchsuchen von E-Mail-Nachrichten über die Aspose.Email-API"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Verwenden Sie Suchphrasen mit Rechtschreibprüfung und Platzhaltern und überspringen Sie Sonderzeichen in Abfragen"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Erstellen Sie einen einzelnen Objektbaum, indem Sie mehrere Abfragen kombinieren"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Unterteilen Sie die Suche in kleinere Blöcke, um schnell riesige Indizes zu durchsuchen"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Indizieren Sie Dokumente aus Streams und Datenstrukturen"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Richten Sie die Dokumentenfilterung in den Suchergebnissen ein"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Englische Synonyme zum Standard-Synonym-Wörterbuch hinzufügen"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Aktivieren Sie die genaue Anzahl der Vorkommen für jedes gefundene Wort, um bei Rechtschreibfehlern alternative Wortvorschläge anzubieten"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Hinzufügen von Textattributen zu indizierten Dokumenten ohne Neuindizierung"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Perform Indizierung and Searching Operations Based on Characters"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Index-Metadaten von nicht-textuellen Dokumentformaten"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Indizierung and Search Operation"
-        content: |
-          Indizierung wird von GroupDocs.Search für Java verwendet, um Daten zu sammeln, zu speichern und für genaue und effiziente Suchvorgänge zu parsen. GroupDocs.Search für Java verwendet solche Indizes häufig zur Durchführung von Suchen.
-
-          * **Index erstellen**: Indexordner erstellen und Dokumente zu diesem Ordner hinzufügen/indizieren.
-          * **Index laden**: Laden Sie einen bestehenden Index.
-          * **Dokumente zum Index hinzufügen**: Dokumente asynchron zum bestehenden Index hinzufügen.
-          * **Index aktualisieren**: Aktualisieren Sie den bestehenden Index, wenn ein Dokument geändert, hinzugefügt oder gelöscht wird. Dadurch bleiben die Suchergebnisse aktuell.
-          
-          ```java
-          // Index erstellen
-          Index index = new Index("c:\\MyIndex");
-          // Hinzufügen von Dokumenten zum Index
-          index.addToIndex("c:\\MyDocuments");
-          // Suche nach Wörtern 'affect' or 'effect' in einem Dokument mit 'principal', 'principle', 'principles', or 'principally'
-          SearchResults results = index.search("?ffect & princip?(2~4)");
-          ```
-      # more_feature_loop
-      - title: "Führen Sie mehrere Indizes zusammen, um die Sucheffizienz zu verbessern"
-        content: "GroupDocs.Search for Java API bietet die Funktion, mehrere Indizes zu einem gemeinsamen Index zusammenzuführen. Für einen Index, der häufig geändert wird, werden mehrere Delta-Indizes erstellt. Dieser Ansatz verlangsamt jedoch die Suchleistung. GroupDocs.Search für Java überwindet diesen Engpass, indem es durch Zusammenführen verschiedener Delta-Indizes einen gemeinsamen Index erstellt. Dieser gemeinsame zusammengeführte Index enthält alle Informationen der zusammengeführten Delta-Indizes. Dieser Ansatz hält die Delta-Indizes unverändert, während die Sucheffizienz bemerkenswert verbessert wird. Sie können verschiedene Funktionen konfigurieren, um diesen Prozess weiter zu optimieren."
-
-      # more_feature_loop
-      - title: "Erkennen Sie Suchanfragen mit unterschiedlichem Tastaturlayout"
-        content: "GroupDocs.Search für Java erkennt Suchanfragen, die nicht zu Ihrem Tastaturlayout passen. Derzeit können 88 Sprachen und 164 verschiedene Tastaturlayouts erfolgreich von GroupDocs.Search for Java erkannt werden."
-
-      # more_feature_loop
-      - title: "Suche mit morphologischer Wortform"
-        content: "Mit GroupDocs.Search für Java haben Sie die Freiheit, nach verschiedenen Wortformen zu suchen. Sie können nach Singular- und Pluralform eines bestimmten Substantivs suchen. Oder Sie können alle Formen eines Verbs durchsuchen. Wurzel, Singular der dritten Person und Präteritum sowie verschiedene andere Formen können ebenfalls durchsucht werden. Für nicht englische Sprachen können Sie benutzerdefinierte Wortformen konfigurieren."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Search bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Search for .NET"
-          image: "/border/groupdocs-search-net.svg"
-          product: "GroupDocs.Search"
-          platform: ".NET"
-          link: "/search/net/"
-
-        # solution loop
-        - img_alt: "GroupDocs.Search for Node.js"
-          image: "/border/groupdocs-search-nodejs-java.svg"
-          product: "GroupDocs.Search"
-          platform: "Node.js via Java"
-          link: "/search/nodejs-java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Search Übersicht"
+  description: "Entdecken Sie die leistungsstarken Textsuchmöglichkeiten der Java Java-Bibliothek."
+  features:
+    # feature loop
+    - title: "Indizierungs- und Suchoperationen in Java"
+      content: "Mit GroupDocs.Search for Java können Sie Daten effizient sammeln, speichern und analysieren, um detaillierte Indizes für schnellere und genauere Suchen zu erstellen."
+
+    # feature loop
+    - title: "Optimieren Sie die Suche durch Zusammenführen von Indizes"
+      content: "Kombinieren Sie mit GroupDocs.Search for Java mehrere Indizes, um Suchen zu beschleunigen. Reduzieren Sie den Einfluss kleinerer Delta-Indizes, indem Sie diese zu einem einzigen, leistungsfähigen Index zusammenführen."
+
+    # feature loop
+    - title: "Unterstützung für mehrsprachige Tastaturlayouts"
+      content: "Suchen Sie über verschiedene Sprachen und Tastaturlayouts hinweg mit GroupDocs.Search for Java. Es unterstützt 88 Sprachen und 164 Tastaturkonfigurationen für unvergleichliche Vielseitigkeit."
+
+    # feature loop
+    - title: "Morphologische Suchfähigkeiten"
+      content: "Finden Sie verschiedene Wortformen wie Singular/Plural Nomen oder Verbvariationen mit GroupDocs.Search for Java. Passen Sie die Suchoptionen für Englisch und andere Sprachen an."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Plattformunabhängigkeit"
+  description: "GroupDocs.Search for Java ist mit den größten Betriebssystemen und Paketmanagern kompatibel."
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Unterstützte Dateiformate"
+  description: |
+    Arbeiten Sie mit einer Vielzahl von Dateiformaten mit GroupDocs.Search for Java. [Die vollständige Liste anzeigen](https://docs.groupdocs.com/search/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Beliebte Büroformate
+        * **Portabel:** PDF 
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM
+        * **Excel:** XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, XLA, XLAM, CSV, TSV
+        * **PowerPoint:** PPT, PPTX, POT, POTX, PPS, PPSX, PPTM, PPSM, POTM
+        * **OpenDocument:** ODT, ODP, ODS, OTT, OTS
+        * **Text:** TXT, RTF
+    # group loop
+    - color: "blue"
+      content: |
+        ### Medienformate
+        * **Beliebte Bildformate:** BMP, JP2, PNG, EMF, WMF, JPG, PSD
+        * **Mehrseitige Bilder:** GIF, WEBP, TIFF
+        * **Audio:** MP3, WAV
+        * **Video:** AVI, MOV, QT, FLV, ASF
+      # group loop
+    - color: "red"
+      content: |
+        ### Andere
+        * **E-Mail:**  PST, OST, MSG, EML, EMLX
+        * **Microsoft Visio:** VSD, VSS
+        * **Web:**  XML, HTM, HTML, XHTML, MHT, MHTML
+        * **Sonstige:**  TORRENT, ZIP, DCM, DJVU, EPUB, FB2
+
+############################# Features ############################
+features:
+  enable: true
+  title: "Merkmale von GroupDocs.Search for Java"
+  description: "Verwalten Sie Dokumenteninhalte effektiv mit fortschrittlichen Suchfähigkeiten, die Formate wie PDF, DOCX, XLSX, PPTX und mehr unterstützen."
+
+  items:
+    # feature loop
+    - icon: "document_info"
+      title: "Anpassbare Suchparameter"
+      content: "Verfeinern Sie Suchen mit Datumsbereichen und Groß-/Kleinschreibung."
+
+    # feature loop
+    - icon: "detect"
+      title: "Erweiterte Rechtschreibprüfung"
+      content: "Suchen Sie effizient mit Rechtschreibprüfung, Platzhaltern und ignorierten Sonderzeichen."
+
+    # feature loop
+    - icon: "collect"
+      title: "Gefilterte Suchergebnisse"
+      content: "Bewerben Sie Filter, um sich auf Suchergebnisse basierend auf spezifischen Dokumenttypen oder Kriterien zu konzentrieren."
+
+    # feature loop
+    - icon: "get"
+      title: "Importieren und Exportieren von Indexdaten"
+      content: "Daten zum Indizieren einfach importieren oder Ergebnisse zur weiteren Verwendung in Dateien exportieren."
+
+    # feature loop
+    - icon: "remove"
+      title: "Nicht benötigte Dateien überspringen"
+      content: "Optimieren Sie die Indizierung, indem Sie bestimmte Dateien oder Wörter ausschließen."
+
+    # feature loop
+    - icon: "style"
+      title: "HTML- und URL-Verarbeitung"
+      content: "Extrahieren Sie HTML-Inhalte in Dateien und generieren Sie URLs zur Navigation durch Suchergebnisse."
+
+    # feature loop
+    - icon: "detect"
+      title: "Schnelle Suche in großen Indizes"
+      content: "Beschleunigen Sie Suchoperationen, indem Sie große Indizes in handhabbare Teile teilen."
+
+    # feature loop
+    - icon: "manipulate"
+      title: "Stream-basiertes Indizieren"
+      content: "Indizieren Sie Daten direkt aus Streams oder Datenstrukturen."
+
+    # feature loop
+    - icon: "compare"
+      title: "Umgang mit fehlerhaften Anfragen"
+      content: "Erkennen Sie Rechtschreibfehler und schlagen Sie alternative Wörter für bessere Suchgenauigkeit vor."
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "Umfassende Archivunterstützung"
+      content: "Indizieren Sie geschachtelte Archive und rufen Sie detaillierte Listen von Dateien innerhalb von ZIP-Dateien ab."
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "Platzsparende Indizierung"
+      content: "Kompakte Indizes speichern Speicherplatz und verarbeiten passwortgeschützte Dateien."
+
+    # feature loop
+    - icon: "style"
+      title: "Benutzerdefinierte Synonymunterstützung"
+      content: "Erweitern Sie das Synonymwörterbuch, um die Suchgenauigkeit mit maßgeschneiderten Optionen zu verbessern."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Codebeispiele"
+  description: "Probieren Sie die Funktionen von GroupDocs.Search for Java mit diesen Codebeispielen aus."
+  items:
+    # code sample loop
+    - title: "Auf der Suche nach genauerer Übereinstimmung mit unscharfer Suche"
+      content: |
+        Erforschen Sie die Flexibilität von GroupDocs.Search for Java zur Verwaltung von Inhalten mit fortschrittlichen unscharfen Suchfähigkeiten. [Erfahren Sie mehr](https://docs.groupdocs.com/search/java/search-results/).
+        {{< landing/code title="Wie man das Suchergebnis verarbeitet">}}
+        ```java {style=abap}
+        // Erstellen Sie ein Index
+        Index index = new Index("C:/IndexFolder");
+        index.add("C:/DocumentFolder");
+
+        // Richten Sie Suchoptionen ein
+        SearchOptions options = new SearchOptions();
+        options.getFuzzySearch().setEnabled(true);
+        options.getFuzzySearch().setFuzzyAlgorithm(new TableDiscreteFunction(3));
+
+        // Suchen Sie nach Dokumenten, die das Wort 'Wasser' oder die Phrase 'Lorem ipsum' enthalten
+        String query = "water OR \"Lorem ipsum\"";
+        SearchResult result = index.search(query, options);
+        
+        // Bearbeiten Sie das Suchergebnis
+        System.out.println("Documents: " + result.getDocumentCount());
+        System.out.println("Total occurrences: " + result.getOccurrenceCount());
+        for (int i = 0; i < result.getDocumentCount(); i++) {
+            FoundDocument document = result.getFoundDocument(i);
+            System.out.println("Document: " + document.getDocumentInfo().getFilePath());
+            System.out.println("Occurrences " + document.getOccurrenceCount());
+            }
+
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Verfeinern Sie die Ergebnisse mit regulären Ausdrücken"
+      content: |
+        Verwenden Sie reguläre Ausdrücke in GroupDocs.Search for Java für präzise und detaillierte Suchergebnisse. [Entdecken Sie fortgeschrittene Techniken](https://docs.groupdocs.com/search/java/regular-expression-search/).
+        {{< landing/code title="Wie man mit regulären Ausdrücken sucht">}}
+        ```java {style=abap}   
+        // Erstellen Sie ein Index
+        Index index = new Index("C:/IndexFolder");
+        index.add("c:/DocumentFolder");
+ 
+        // Suchen Sie nach der Phrase in Textform
+
+        // Das erste Caret-Zeichen am Anfang zeigt an, dass es sich um eine reguläre Ausdrucks-Suchanfrage handelt
+        String query = "^^(.)\\1{1,}";
+        // Suchen Sie nach zwei oder mehr identischen Zeichen am Anfang eines Wortes
+        SearchResult result = index.search(query);
+ 
+        ```
+        {{< /landing/code >}}
+
 ---

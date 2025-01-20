@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-01-09T15:38:59
+date:  2025-01-20T14:28:24
 draft: false
 
 product: "Search"
@@ -342,6 +342,11 @@ actions:
     - title: "Java"
       color: "red"
       link: "/search/java/"
+
+    # items loop
+    - title: "Node.js via Java"
+      color: "green"
+      link: "/search/nodejs-java/"
 
 ############################# FAQ ###############################
 faq:

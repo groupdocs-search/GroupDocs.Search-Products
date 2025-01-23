@@ -15,6 +15,7 @@
       "environmentName": ".NET",
       "environmentNameShort": ".NET",
       "productCode": "net",
+      "productPlatformLink": "/search/net/",
       "productFullName": "GroupDocs.Search for .NET",
 
       "programmingLanguage": "C#",
@@ -38,6 +39,7 @@
       "environmentName": "Java",
       "environmentNameShort": "Java",
       "productCode": "java",
+      "productPlatformLink": "/search/java/",
       "productFullName": "GroupDocs.Search for Java",
 
       "programmingLanguage": "Java",
@@ -61,6 +63,7 @@
       "environmentName": "Node.js via Java",
       "environmentNameShort": "Node.js",
       "productCode": "nodejs-java",
+      "productPlatformLink": "/search/nodejs-java/",
       "productFullName": "GroupDocs.Search for Node.js via Java",
 
       "programmingLanguage": "JavaScript",

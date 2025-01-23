@@ -345,6 +345,11 @@ actions:
       color: "red"
       link: "/search/java/"
 
+    # items loop
+    - title: "Node.js via Java"
+      color: "green"
+      link: "/search/nodejs-java/"
+
 ############################# FAQ ###############################
 faq:
   enable: true

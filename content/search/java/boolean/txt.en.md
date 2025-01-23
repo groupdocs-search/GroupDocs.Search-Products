@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-23T10:13:32
+date:  2025-01-23T14:09:57
 draft: false
 lang: en
 format: Txt
@@ -12,12 +12,12 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Search Queries using Boolean Operators (AND, OR, NOT) via Java"
-head_description: "Create and insert barcode signatures into TXT documents in Java with ease. GroupDocs.Search enables versatile signature integration for multiple formats."
+head_title: "Boolean search in TXT with Java"
+head_description: "With GroupDocs.Search for Java, developers can perform document searches using Boolean operators like AND, OR, and NOT."
 
 ############################# Header ############################
-title: "Generate barcode for TXT" 
-description: "Add barcodes of popular formats to any position in your business documents with GroupDocs.Search for Java. Our solution provides extensive options to customize barcode signatures."
+title: "Boolean text search" 
+description: "Use GroupDocs.Search for Java to create advanced boolean (AND, OR, NOT) search queries in your Java projects with ease."
 subtitle: "GroupDocs.Search for Java" 
 
 header_actions:
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Search for Java"
+    title: "About GroupDocs.Search"
     link: "/search/java/"
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for Java](/search/java/) is an advanced signing solution that supports a wide range of signature types. You can sign documents with text, images, barcodes, digital certificates, stamps, and more across 60+ file formats, including PDF, MS Office, images, ZIP files, and other popular business formats. Additionally, signatures in signed documents can be searched, verified, modified, or deleted at any time.
+       [GroupDocs.Search for Java](/search/java/) is a versatile library designed for text search and data indexing in documents. It supports over 70 file types, including PDF, Word, Excel, images, and ZIP archives, enabling efficient searches through large data collections.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps to generate and add a barcode to TXT file"
+    title: "How to perform boolean searches in TXT documents"
     content: |
-      [GroupDocs.Search](/search/java/) can generate barcodes in various popular formats and place them on TXT pages. With support for over 60 barcode types, Java applications can easily be enhanced with barcode signing capabilities by incorporating our library.
+      [GroupDocs.Search](/search/java/) enables easy text searches within TXT documents. With support for boolean conditions, you can enhance search accuracy in Java applications.
       
-      1. Provide the TXT file or stream to be processed.
-      2. Pass the barcode text to the {{BarcodeSignOptions}} instance.
-      3. Customize barcode options such as position, size, etc.
-      4. Save the file with the newly added barcode.
+      1. Specify the folder to store the search index.
+      2. Select the folder containing TXT documents.
+      3. Execute the search query and retrieve results.
+      4. Process the obtained results.
    
     code:
       platform: "java"
@@ -85,87 +85,66 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Create a new {{TextSignature}} instance with the document path
-        Signature signature = new Signature("input.txt");
+        // Set the path for the index folder
+        Index index = new Index("c:/MyIndex");
 
-        // Use {{BarcodeSignOptions}} to add a barcode to the document
-        BarcodeSignOptions options = new BarcodeSignOptions("Business data");
+        // Provide the folder path containing documents for the search
+        index.add("c:/MyDocuments");
 
-        // Set up the barcode type and other properties
-        options.setEncodeType(BarcodeTypes.Code128);
-        options.setLeft(100);
-        options.setTop(100);
-
-        // Save the signed file
-        signature.sign("output.txt", options);
-
+        // Run a search with a complex query
+        SearchResult result = index.search("theory AND relativity");
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Enhance or protect document content with signatures"
-  description: "The GroupDocs.Search for Java library is designed for signing and further processing popular file formats. Quickly and easily add, modify, verify, or delete various types of signatures."
+  title: "Powerful tools for document search and indexing"
+  description: "GroupDocs.Search for Java simplifies text searches and data indexing for over 70 formats. Its advanced tools let you find and manage content effortlessly."
   image: "/img/search/features_boolean.webp" # 500x500 px
-  image_description: "Features of GroupDocs.Search"
+  image_description: "Key features of GroupDocs.Search"
   features:
     # feature loop
-    - title: "Document signing"
-      content: "Sign any page of supported documents with text, images, barcodes, QR codes, or stamps. Add hidden metadata like EXIF in images or protect document content from unauthorized changes using digital certificates."
+    - title: "Comprehensive text search"
+      content: "Search across multiple formats like PDFs, Word documents, spreadsheets, and more. Use options such as exact matching, fuzzy search, and wildcard queries to refine results."
 
     # feature loop
-    - title: "Signature search and verification"
-      content: "There’s much more you can do with a signed document. We offer verification of signatures to ensure everything is in order. Additionally, you can retrieve a list of all document signatures through a search."
+    - title: "Efficient data indexing"
+      content: "Build and maintain indexes for faster document searches. This feature organizes data efficiently, making it easy to handle large document collections."
 
     # feature loop
-    - title: "Modify signatures"
-      content: "Most previously added signatures can be modified. Easily correct text, adjust position, or change color."
+    - title: "Multi-language support"
+      content: "Search in documents written in over 80 languages. Enhance accuracy by leveraging morphological word forms and different keyboard layouts."
 
     # feature loop
-    - title: "Delete signatures"
-      content: "Our solution supports full CRUD operations for signatures. Many types of signatures can be deleted from a document when necessary."
+    - title: "Flexible search customization"
+      content: "Adjust search settings with features like case sensitivity, date range filters, and exclusions to refine your results."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "How to create a barcode signature"
+    - title: "Using complex boolean search queries"
       content: |
-        This example demonstrates how to place a customized barcode on TXT document pages.
+        This example demonstrates how to perform Boolean searches in TXT files.
       code:
         title: "Java"
         content: |
           ```java {style=abap}
-          // Provide the document to be signed
-          Signature signature = new Signature("input.txt");
+          // Set the folder for the search index
+          Index index = new Index("c:/MyIndex");
+              
+          // Provide the path to the documents to search
+          index.add("c:/MyDocuments");
 
-          // Create signature options with the desired text
-          BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted");
-          signOptions.setEncodeType(BarcodeTypes.Code39FullASCII);
+          // Construct the query using Boolean logic
+          SearchQuery wordQuery1 = SearchQuery.createWordQuery("Lorem");
+          SearchQuery wordQuery2 = SearchQuery.createWordQuery("ipsum");
+          SearchQuery booleanQuery = SearchQuery.createAndQuery(wordQuery1, wordQuery2);
 
-          // Set the relative barcode position on the page
-          signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
-          signOptions.setHorizontalAlignment(HorizontalAlignment.Left);
-
-          // Set the barcode padding from the page edge
-          Padding padding = new Padding();
-          padding.setLeft(20);
-          padding.setTop(180);
-          signOptions.setMargin(padding);
-
-          // Set the color of the bars
-          signOptions.setForeColor(Color.RED);
-
-          // Define the message font style
-          SignatureFont font = new SignatureFont();
-          font.setSize(12);
-          font.setFamilyName("Arial");
-          signOptions.setFont(font);
-
-          // Specify the message position
-          signOptions.setCodeTextAlignment(CodeTextAlignment.Above);
-
-          // Sign and save the document
-          SignResult signResult = signature.sign("output.txt", signOptions);
-
+          // Retrieve the search results
+          SearchResult result = index.search(booleanQuery);
+          
+          // Process the retrieved results
+          System.out.println("Documents: " + result.getDocumentCount());
+          System.out.println("Occurrences: " + result.getDocumentCount());
           ```
         platform: "java"
         copy_title: "Copy"
@@ -225,9 +204,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Discover our core capabilities"
+    title: "Key features at a glance"
     exclude: "boolean"
-    description: "We proudly present an extensive variety of supported signatures and functions"
+    description: "Unlock powerful and efficient search capabilities"
     items: 
           
         # operation loop 1
@@ -265,9 +244,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Sign documents in other formats"
+    title: "Search popular document formats"
     exclude: "TXT"
-    description: "Over 60 formats can be signed using our Java API. Apply various signatures to any page or position within the document."
+    description: "GroupDocs.Search supports over 70 file formats, enabling you to customize search rules and use indexing to optimize performance."
     items: 
         # format loop 1
         - name: "Search in DOCX"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-23T10:13:32
+date:  2025-01-23T14:09:57
 draft: false
 lang: en
 format: Xlsx
@@ -12,42 +12,42 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Search in XLSX docs via .NET using boolean operators"
-head_description: "GroupDocs.Search for .NET API enables C# developers to search for data in document content with queries based on Boolean operators AND, OR, NOT."
+head_title: "Search XLSX in .NET using boolean operators"
+head_description: "The GroupDocs.Search for .NET API allows C# developers to search document content using boolean operators like AND, OR, and NOT."
 
 ############################# Header ############################
-title: "Text search with boolean conditions" 
-description: "GroupDocs.Search for .NET makes it easy to develop complex search queries using boolean operators (AND, OR, NOT) inside their .NET applications."
+title: "Boolean logic text search" 
+description: "GroupDocs.Search for .NET makes it simple to create advanced search queries using boolean operators (AND, OR, NOT) within your .NET applications."
 subtitle: "GroupDocs.Search for .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for free"
+    - title: "Download for Free"
       link: "https://releases.groupdocs.com/search/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Search"
+    title: "What is GroupDocs.Search?"
     link: "/search/net/"
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for .NET](/search/net/) is a powerful library for text search and data indexing in documents. It supports over 70 file formats, including PDF, Word, Excel, images, and ZIP files. With our solution, you can efficiently search through large volumes of information.
+       [GroupDocs.Search for .NET](/search/net/) is a comprehensive library for searching and indexing text in documents. It supports over 70 file formats, such as PDF, Word, Excel, images, and ZIP files, enabling efficient processing of large amounts of information.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to search in XLSX document content using boolean logic"
+    title: "How to search XLSX document content using boolean logic"
     content: |
-      [GroupDocs.Search](/search/net/) makes it easy to text search through XLSX documents content. To improve search results in .NET applications many options like boolean logic search conditions are presented.
+      [GroupDocs.Search](/search/net/) makes searching XLSX document content straightforward. It provides Boolean logic search conditions to refine results in .NET applications.
       
-      1. Provide folder where searching index will be build.
-      2. Point th a folder where XLSX files are situated.
-      3. Perform search procedure and get result.
-      4. Process the result.
+      1. Specify the folder to store the search index.
+      2. Choose the folder containing XLSX files.
+      3. Run the search and retrieve results.
+      4. Process the results.
    
     code:
       platform: "net"
@@ -69,64 +69,64 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Specify the path to the index folder
+        // Set the path to the index folder
         Index index = new Index("c:/MyIndex");
 
-        // Specify the path to a folder containing documents to search
+        // Specify the folder containing documents to search
         index.Add("c:/MyDocuments");
 
-        // Perform search with complex query
+        // Run a search using a complex query
         SearchResult result = index.Search("theory AND relativity");
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Discover Powerful Features for Document Search and Indexing"
-  description: "The GroupDocs.Search for .NET library is built to make text search and data indexing easy and efficient for 70+ file formats. Find and manage information quickly with advanced search capabilities."
+  title: "Explore advanced features for document search and indexing"
+  description: "The GroupDocs.Search for .NET library simplifies text search and indexing for more than 70 file formats. Easily locate and manage information with advanced search tools."
   image: "/img/search/features_boolean.webp" # 500x500 px
-  image_description: "Key Features of GroupDocs.Search"
+  image_description: "Main features of GroupDocs.Search"
   features:
     # feature loop
-    - title: "Advanced Text Search"
-      content: "Quickly search for text across multiple file formats, including PDFs, Word documents, spreadsheets, and more. Use flexible options like exact matches, fuzzy search, and wildcards to find what you need."
+    - title: "Powerful text search"
+      content: "Search for text across various file types, including PDFs, Word documents, and spreadsheets. Use features like exact matches, fuzzy searches, and wildcards to refine results."
 
     # feature loop
-    - title: "Index Large Volumes of Data"
-      content: "Create and manage indexes for faster searches. Indexing organizes and stores data, making it easier to search through large collections of documents efficiently."
+    - title: "Index large data sets"
+      content: "Create and maintain indexes for quicker searches. Indexing structures and organizes data, making it easier to search extensive document collections."
 
     # feature loop
-    - title: "Support for Multiple Languages"
-      content: "Search documents in different languages with support for over 80 languages and various keyboard layouts. Improve results with morphological word forms for specific languages."
+    - title: "Supports multiple languages"
+      content: "Search documents in over 80 languages, with support for different keyboard layouts and morphological word forms to enhance search accuracy."
 
     # feature loop
-    - title: "Customizable Search Options"
-      content: "Tailor your search experience with features like case sensitivity, date range filtering, and the ability to skip certain words or data during indexing."
+    - title: "Customizable search options"
+      content: "Adjust search settings with features like case sensitivity, date range filters, and the ability to exclude specific words or data during indexing."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "How to use compound search queries"
+    - title: "Using advanced boolean search queries"
       content: |
-        This example shows how to use boolean queries for XLSX search.
+        This example demonstrates how to apply boolean queries for searching XLSX documents.
       code:
         title: "C#"
         content: |
           ```csharp {style=abap}
-          // Provide folder for search index
+          // Set the folder for the search index
           Index index = new Index("c:/MyIndex");
               
-          // Pass path to documents to be processed
+          // Specify the path to the documents to be searched
           index.Add("c:/MyDocuments");
 
-          // Use object query for search
+          // Create a search query using Boolean logic
           SearchQuery wordQuery1 = SearchQuery.CreateWordQuery("Lorem");
           SearchQuery wordQuery2 = SearchQuery.CreateWordQuery("ipsum");
           SearchQuery booleanQuery = SearchQuery.CreateAndQuery(wordQuery1, wordQuery2);
 
-          // Get search results
+          // Retrieve the search results
           SearchResult result = index.Search(booleanQuery);
           
-          // Process search result
+          // Process the search results
           Console.WriteLine("Documents: " + result.DocumentCount);
           Console.WriteLine("Occurrences: " + result.OccurrenceCount);
           ```
@@ -173,9 +173,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore Our Key Features"
+    title: "Discover key features"
     exclude: "boolean"
-    description: "Discover powerful and efficient search capabilities"
+    description: "Explore advanced and efficient search functionalities."
     items: 
           
         # operation loop 1
@@ -213,9 +213,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Search in documents of popular formats"
+    title: "Search across popular document formats"
     exclude: "XLSX"
-    description: "GroupDocs.Search supports searching in over 70 file formats. Customize search rules and use indexing to save time and effort."
+    description: "GroupDocs.Search supports over 70 file formats. Customize search rules and leverage indexing to save time and effort."
     items: 
         # format loop 1
         - name: "Search in DOCX"

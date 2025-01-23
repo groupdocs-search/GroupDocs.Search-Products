@@ -74,18 +74,13 @@ steps:
         const searchLib = require('@groupdocs/groupdocs.search')
 
         // <% "{examples.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+        const index = new searchLib.Index("c:/MyIndex");
 
         // <% "{examples.comment_2}" %>
-        const options = new signatureLib.BarcodeSignOptions('Business data');
+        index.add("c:/MyDocuments");
 
         // <% "{examples.comment_3}" %>
-        options.setEncodeType(signatureLib.BarcodeTypes.Code128);
-        options.setLeft(100);
-        options.setTop(100);
-  
-        // <% "{examples.comment_4}" %>
-        signature.sign('output.<% get "fileformat" %>', options);
+        const result = index.search("theory AND relativity");
         ```            
 
 ############################# More features ############################
@@ -124,37 +119,22 @@ more_features:
           const searchLib = require('@groupdocs/groupdocs.search')
           
           // <% "{code_1.comment_1}" %>
-          const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+          const index = new searchLib.Index("c:/MyIndex");
+              
+          // <% "{code_1.comment_2}" %>
+          index.add("c:/MyDocuments");
 
-          // <% "{examples.comment_2}" %>
-          const signOptions = new signatureLib.BarcodeSignOptions('Accepted');
-          signOptions.setEncodeType(signatureLib.BarcodeTypes.Code39FullASCII);
-
-          // <% "{examples.comment_3}" %>
-          signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-          signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Left);
+          // <% "{code_1.comment_3}" %>
+          const wordQuery1 = searchLib.SearchQuery.createWordQuery("Lorem");
+          const wordQuery2 = searchLib.SearchQuery.createWordQuery("ipsum");
+          const booleanQuery = searchLib.SearchQuery.createAndQuery(wordQuery1, wordQuery2);
 
           // <% "{code_1.comment_4}" %>
-          const padding = new signatureLib.Padding();
-          padding.setLeft(20);
-          padding.setTop(180);
-          signOptions.setMargin(padding);
-
+          const result = index.search(booleanQuery);
+          
           // <% "{code_1.comment_5}" %>
-          signOptions.setForeColor(signatureLib.Color.RED);
-
-          // <% "{code_1.comment_6}" %>
-          const font = new signatureLib.SignatureFont();
-          font.setSize(12);
-          font.setFamilyName('Arial');
-          signOptions.setFont(font);
-
-          // <% "{code_1.comment_7}" %>
-          signOptions.setCodeTextAlignment(signatureLib.CodeTextAlignment.Above);
-
-          // <% "{code_1.comment_8}" %>
-          signature.sign('output.<% get "fileformat" %>', signOptions);
-
+          console.log('Documents: ' + result.getDocumentCount());
+          console.log('Occurrences: ' + result.getOccurrenceCount());
           ```
         platform: "nodejs-java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

@@ -88,19 +88,13 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+        Index index = new Index("c:/MyIndex");
 
         // <% "{examples.comment_2}" %>
-        BarcodeSignOptions options = new BarcodeSignOptions("Business data");
+        index.add("c:/MyDocuments");
 
         // <% "{examples.comment_3}" %>
-        options.setEncodeType(BarcodeTypes.Code128);
-        options.setLeft(100);
-        options.setTop(100);
-
-        // <% "{examples.comment_4}" %>
-        signature.sign("output.<% get "fileformat" %>", options);
-
+        SearchResult result = index.search("theory AND relativity");
         ```            
 
 ############################# More features ############################
@@ -137,37 +131,22 @@ more_features:
         content: |
           ```java {style=abap}
           // <% "{code_1.comment_1}" %>
-          Signature signature = new Signature("input.<% get "fileformat" %>");
-
+          Index index = new Index("c:/MyIndex");
+              
           // <% "{code_1.comment_2}" %>
-          BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted");
-          signOptions.setEncodeType(BarcodeTypes.Code39FullASCII);
+          index.add("c:/MyDocuments");
 
           // <% "{code_1.comment_3}" %>
-          signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
-          signOptions.setHorizontalAlignment(HorizontalAlignment.Left);
+          SearchQuery wordQuery1 = SearchQuery.createWordQuery("Lorem");
+          SearchQuery wordQuery2 = SearchQuery.createWordQuery("ipsum");
+          SearchQuery booleanQuery = SearchQuery.createAndQuery(wordQuery1, wordQuery2);
 
           // <% "{code_1.comment_4}" %>
-          Padding padding = new Padding();
-          padding.setLeft(20);
-          padding.setTop(180);
-          signOptions.setMargin(padding);
-
+          SearchResult result = index.search(booleanQuery);
+          
           // <% "{code_1.comment_5}" %>
-          signOptions.setForeColor(Color.RED);
-
-          // <% "{code_1.comment_6}" %>
-          SignatureFont font = new SignatureFont();
-          font.setSize(12);
-          font.setFamilyName("Arial");
-          signOptions.setFont(font);
-
-          // <% "{code_1.comment_7}" %>
-          signOptions.setCodeTextAlignment(CodeTextAlignment.Above);
-
-          // <% "{code_1.comment_8}" %>
-          SignResult signResult = signature.sign("output.<% get "fileformat" %>", signOptions);
-
+          System.out.println("Documents: " + result.getDocumentCount());
+          System.out.println("Occurrences: " + result.getDocumentCount());
           ```
         platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

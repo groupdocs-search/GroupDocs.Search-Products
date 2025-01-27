@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-23T14:09:57
+date:  2025-01-27T20:14:10
 draft: false
 lang: en
 format: Pdf
@@ -76,7 +76,7 @@ steps:
         index.Add("c:/MyDocuments");
 
         // Run a search using a complex query
-        SearchResult result = index.Search("theory AND relativity");
+        SearchResult result = index.Search("lorem AND impsum");
         ```            
 
 ############################# More features ############################

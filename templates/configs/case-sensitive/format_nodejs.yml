@@ -1,0 +1,17 @@
+inherits: ..\\languages-formats.yml
+
+dimensions:
+- alias: product
+  values: [nodejs-java]
+- alias:  operation
+  values: [case-sensitive]
+- alias:  fileformat
+  values: [ docx, pdf, pptx, txt, xlsx ]
+
+generationRules:
+  include:
+  - fileformat[docx, pdf, pptx, txt, xlsx]
+  
+outputPath: "search\\{product}\\{operation}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

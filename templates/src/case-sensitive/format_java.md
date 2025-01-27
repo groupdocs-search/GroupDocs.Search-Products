@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\boolean\\format_nodejs.yml" %>
+<% configRef "..\\..\\configs\\case-sensitive\\format_java.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Search"
 product_tag: "search"
-platform: "Node.js via Java"
-platform_tag: "nodejs-java"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -52,13 +52,29 @@ steps:
       4. <% "{steps.content.step_4}" %>
    
     code:
-      platform: "nodejs-java"
+      platform: "java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command: "npm i @groupdocs/groupdocs.search"
+        command_title: "Maven XML"
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-search</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,17 +86,19 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```javascript {style=abap}
-        const searchLib = require('@groupdocs/groupdocs.search')
-
+        ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        const index = new searchLib.Index("c:/MyIndex");
+        Index index = new Index("c:/MyIndex");
 
         // <% "{examples.comment_2}" %>
         index.add("c:/MyDocuments");
 
         // <% "{examples.comment_3}" %>
-        const result = index.search("lorem AND impsum");
+        SearchOptions options = new SearchOptions();
+        options.setUseCaseSensitiveSearch(true);
+
+        // <% "{examples.comment_4}" %>
+        SearchResult result = index.search("Lorem", options);
         ```            
 
 ############################# More features ############################
@@ -88,7 +106,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/search/features_boolean.webp" # 500x500 px
+  image: "/img/search/features_case-sensitive.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -113,33 +131,48 @@ more_features:
       content: |
         <% "{code_1.content}" %>
       code:
-        title: "JavaScript"
+        title: "Java"
         content: |
-          ```javascript {style=abap}
-          const searchLib = require('@groupdocs/groupdocs.search')
-          
+          ```java {style=abap}
           // <% "{code_1.comment_1}" %>
-          const index = new searchLib.Index("c:/MyIndex");
+          Index index = new Index("c:/MyIndex");
               
           // <% "{code_1.comment_2}" %>
           index.add("c:/MyDocuments");
 
           // <% "{code_1.comment_3}" %>
-          const wordQuery1 = searchLib.SearchQuery.createWordQuery("Lorem");
-          const wordQuery2 = searchLib.SearchQuery.createWordQuery("ipsum");
-          const booleanQuery = searchLib.SearchQuery.createAndQuery(wordQuery1, wordQuery2);
+          SearchQuery wordQuery = SearchQuery.createWordQuery("Lorem");
 
-          // <% "{code_1.comment_4}" %>
-          const result = index.search(booleanQuery);
-          
           // <% "{code_1.comment_5}" %>
-          console.log('Documents: ' + result.getDocumentCount());
-          console.log('Occurrences: ' + result.getOccurrenceCount());
+          SearchOptions options = new SearchOptions();
+          options.setUseCaseSensitiveSearch(true);
+
+          // <% "{code_1.comment_6}" %>
+          SearchResult result = index.search(wordQuery, options);
+          
+          // <% "{code_1.comment_7}" %>
+          System.out.println("Documents: " + result.getDocumentCount());
+          System.out.println("Occurrences: " + result.getDocumentCount());
           ```
-        platform: "nodejs-java"
+        platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"
         install:
-          command: "npm i @groupdocs/groupdocs.search"
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-search</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
           copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
           copy_done: "<% "{common-content.format-code.copy_done}" %>"
         top_links:
@@ -159,7 +192,7 @@ more_features:
             
 
 
-############################# Actions ############################
+############################## Actions ############################
 
 actions:
   enable: true

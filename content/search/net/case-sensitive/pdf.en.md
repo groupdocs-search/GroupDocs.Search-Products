@@ -5,19 +5,19 @@ layout: "format"
 date:  2025-01-27T20:14:10
 draft: false
 lang: en
-format: Pptx
+format: Pdf
 product: "Search"
 product_tag: "search"
 platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Search PPTX in .NET using boolean operators"
-head_description: "The GroupDocs.Search for .NET API allows C# developers to search document content using boolean operators like AND, OR, and NOT."
+head_title: "Case-Sensitive Search in PDF Using .NET"
+head_description: "The GroupDocs.Search for .NET API enables C# developers to perform case-sensitive searches across various documents."
 
 ############################# Header ############################
-title: "Boolean logic text search" 
-description: "GroupDocs.Search for .NET makes it simple to create advanced search queries using boolean operators (AND, OR, NOT) within your .NET applications."
+title: "Case-Sensitive Search" 
+description: "GroupDocs.Search for .NET makes it easy to create advanced case-sensitive search queries within your .NET applications."
 subtitle: "GroupDocs.Search for .NET" 
 
 header_actions:
@@ -35,17 +35,17 @@ about:
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for .NET](/search/net/) is a comprehensive library for searching and indexing text in documents. It supports over 70 file formats, such as PDF, Word, Excel, images, and ZIP files, enabling efficient processing of large amounts of information.
+       [GroupDocs.Search for .NET](/search/net/) is a robust library for text search and indexing in documents. It supports over 70 file formats, including PDF, Word, Excel, images, and ZIP files, ensuring efficient handling of large data volumes.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to search PPTX document content using boolean logic"
+    title: "How to Perform Case-Sensitive Search in PDF Documents"
     content: |
-      [GroupDocs.Search](/search/net/) makes searching PPTX document content straightforward. It provides Boolean logic search conditions to refine results in .NET applications.
+      [GroupDocs.Search](/search/net/) simplifies case-sensitive search in PDF documents. Use it to refine results in .NET applications.
       
-      1. Specify the folder to store the search index.
-      2. Choose the folder containing PPTX files.
+      1. Define the folder to store the search index.
+      2. Choose the folder containing PDF files.
       3. Run the search and retrieve results.
       4. Process the results.
    
@@ -72,42 +72,46 @@ steps:
         // Set the path to the index folder
         Index index = new Index("c:/MyIndex");
 
-        // Specify the folder containing documents to search
+        // Specify the folder containing the documents to search
         index.Add("c:/MyDocuments");
 
-        // Run a search using a complex query
-        SearchResult result = index.Search("lorem AND impsum");
+        // Enable case-sensitive search in options
+        SearchOptions options = new SearchOptions();
+        options.UseCaseSensitiveSearch = true;
+
+        // Run the search
+        SearchResult result = index.Search("Lorem", options);
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Explore advanced features for document search and indexing"
-  description: "The GroupDocs.Search for .NET library simplifies text search and indexing for more than 70 file formats. Easily locate and manage information with advanced search tools."
-  image: "/img/search/features_boolean.webp" # 500x500 px
-  image_description: "Main features of GroupDocs.Search"
+  title: "Advanced Features for Document Search and Indexing"
+  description: "The GroupDocs.Search for .NET library simplifies text search and indexing across 70+ file formats. Easily locate and manage information with powerful search tools."
+  image: "/img/search/features_case-sensitive.webp" # 500x500 px
+  image_description: "Key Features of GroupDocs.Search"
   features:
     # feature loop
-    - title: "Powerful text search"
-      content: "Search for text across various file types, including PDFs, Word documents, and spreadsheets. Use features like exact matches, fuzzy searches, and wildcards to refine results."
+    - title: "Advanced Text Search"
+      content: "Search text across various file formats, including PDFs, Word documents, and spreadsheets. Use options like exact matches, fuzzy search, and wildcards for precise results."
 
     # feature loop
-    - title: "Index large data sets"
-      content: "Create and maintain indexes for quicker searches. Indexing structures and organizes data, making it easier to search extensive document collections."
+    - title: "Index Large Data Sets"
+      content: "Build and maintain indexes for faster searches. Organized indexing simplifies searching extensive collections of documents."
 
     # feature loop
-    - title: "Supports multiple languages"
-      content: "Search documents in over 80 languages, with support for different keyboard layouts and morphological word forms to enhance search accuracy."
+    - title: "Multi-Language Support"
+      content: "Search across documents in over 80 languages, with support for different keyboard layouts and word forms for more accurate results."
 
     # feature loop
-    - title: "Customizable search options"
-      content: "Adjust search settings with features like case sensitivity, date range filters, and the ability to exclude specific words or data during indexing."
+    - title: "Customizable Search Options"
+      content: "Customize search settings with case sensitivity, date range filters, and the ability to exclude specific words or data during indexing."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Using advanced boolean search queries"
+    - title: "Using Case-Sensitive Search Queries"
       content: |
-        This example demonstrates how to apply boolean queries for searching PPTX documents.
+        This example shows how to use case-sensitive queries for searching PDF documents.
       code:
         title: "C#"
         content: |
@@ -118,13 +122,15 @@ more_features:
           // Specify the path to the documents to be searched
           index.Add("c:/MyDocuments");
 
-          // Create a search query using Boolean logic
-          SearchQuery wordQuery1 = SearchQuery.CreateWordQuery("Lorem");
-          SearchQuery wordQuery2 = SearchQuery.CreateWordQuery("ipsum");
-          SearchQuery booleanQuery = SearchQuery.CreateAndQuery(wordQuery1, wordQuery2);
+          // Create a search query
+          SearchQuery wordQuery = SearchQuery.CreateWordQuery("Lorem");
 
-          // Retrieve the search results
-          SearchResult result = index.Search(booleanQuery);
+          // Enable case-sensitive search options
+          SearchOptions options = new SearchOptions();
+          options.UseCaseSensitiveSearch = true;
+
+          // Search for text in the documents
+          SearchResult result = index.Search(wordQuery, options);
           
           // Process the search results
           Console.WriteLine("Documents: " + result.DocumentCount);
@@ -140,7 +146,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/search/formats/searchboolean.pptx"
+            link: "/examples/search/formats/searchcase-sensitive.pdf"
         links:
           #  loop
           - title: "More examples"
@@ -173,39 +179,39 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Discover key features"
-    exclude: "boolean"
+    title: "Discover Key Features"
+    exclude: "case-sensitive"
     description: "Explore advanced and efficient search functionalities."
     items: 
           
         # operation loop 1
         - name: "Search by condition"
           operation: "boolean"
-          link: "/search/net/boolean/pptx/"
+          link: "/search/net/boolean/pdf/"
           description: "Find information in documents using boolean conditions"
 
         # operation loop 2
         - name: "Case-sensitive search"
           operation: "case-sensitive"
-          link: "/search/net/case-sensitive/pptx/"
+          link: "/search/net/case-sensitive/pdf/"
           description: "Improve search accuracy by considering case sensitivity"
 
         # operation loop 3
         - name: "Document indexing"
           operation: "document"
-          link: "/search/net/document/pptx/"
+          link: "/search/net/document/pdf/"
           description: "Index documents once and reuse the index for multiple searches"
 
         # operation loop 4
         - name: "Search filters"
           operation: "filters"
-          link: "/search/net/filters/pptx/"
+          link: "/search/net/filters/pdf/"
           description: "Use filters to narrow down the data being processed"
 
         # operation loop 5
         - name: "Exact phrase"
           operation: "phrase"
-          link: "/search/net/phrase/pptx/"
+          link: "/search/net/phrase/pdf/"
           description: "Search for a specific sentence or phrase"
           
         
@@ -213,38 +219,38 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Search across popular document formats"
-    exclude: "PPTX"
-    description: "GroupDocs.Search supports over 70 file formats. Customize search rules and leverage indexing to save time and effort."
+    title: "Search Popular Document Formats"
+    exclude: "PDF"
+    description: "GroupDocs.Search supports over 70 file formats. Customize search rules and use indexing to save time and effort."
     items: 
         # format loop 1
         - name: "Search in DOCX"
           format: "DOCX"
-          link: "/search/net/boolean/docx/"
+          link: "/search/net/case-sensitive/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Search in PDF"
           format: "PDF"
-          link: "/search/net/boolean/pdf/"
+          link: "/search/net/case-sensitive/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
         - name: "Search in PPTX"
           format: "PPTX"
-          link: "/search/net/boolean/pptx/"
+          link: "/search/net/case-sensitive/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
         - name: "Search in TXT"
           format: "TXT"
-          link: "/search/net/boolean/txt/"
+          link: "/search/net/case-sensitive/txt/"
           description: "Text Document"
           
         # format loop 5
         - name: "Search in XLSX"
           format: "XLSX"
-          link: "/search/net/boolean/xlsx/"
+          link: "/search/net/case-sensitive/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
   
 

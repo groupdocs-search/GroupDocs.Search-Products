@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Case-Sensitive Search in {{FileFormatUp}} Using {{EnvNameShort}}",
+    "description": "The {{ProdFullName}} API enables {{ProgLang}} developers to perform case-sensitive searches across various documents."
+  },
+  "header": {
+    "title": "Case-Sensitive Search",
+    "description": "{{ProdFullName}} makes it easy to create advanced case-sensitive search queries within your {{EnvNameShort}} applications.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download for Free"
+  },
+  "about": {
+    "title": "What is {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a robust library for text search and indexing in documents. It supports over 70 file formats, including PDF, Word, Excel, images, and ZIP files, ensuring efficient handling of large data volumes."
+  },
+  "more_features": {
+    "title": "Advanced Features for Document Search and Indexing",
+    "description": "The {{ProdFullName}} library simplifies text search and indexing across 70+ file formats. Easily locate and manage information with powerful search tools.",
+    "image_description": "Key Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Advanced Text Search",
+      "content": "Search text across various file formats, including PDFs, Word documents, and spreadsheets. Use options like exact matches, fuzzy search, and wildcards for precise results."
+    },
+    "feature_2": {
+      "title": "Index Large Data Sets",
+      "content": "Build and maintain indexes for faster searches. Organized indexing simplifies searching extensive collections of documents."
+    },
+    "feature_3": {
+      "title": "Multi-Language Support",
+      "content": "Search across documents in over 80 languages, with support for different keyboard layouts and word forms for more accurate results."
+    },
+    "feature_4": {
+      "title": "Customizable Search Options",
+      "content": "Customize search settings with case sensitivity, date range filters, and the ability to exclude specific words or data during indexing."
+    }
+  },
+  "formats": {
+    "title": "Search Popular Document Formats",
+    "description": "{{ProdShortName}} supports over 70 file formats. Customize search rules and use indexing to save time and effort."
+  },
+  "operations": {
+    "title": "Discover Key Features",
+    "description": "Explore advanced and efficient search functionalities."
+  },
+  "examples": {
+    "comment_1": "Set the path to the index folder",
+    "comment_2": "Specify the folder containing the documents to search",
+    "comment_3": "Enable case-sensitive search in options",
+    "comment_4": "Run the search"
+  },
+  "steps": {
+    "title": "How to Perform Case-Sensitive Search in {{FileFormatUp}} Documents",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifies case-sensitive search in {{FileFormatUp}} documents. Use it to refine results in {{EnvName}} applications.",
+      "step_1": "Define the folder to store the search index.",
+      "step_2": "Choose the folder containing {{FileFormatUp}} files.",
+      "step_3": "Run the search and retrieve results.",
+      "step_4": "Process the results."
+    }
+  },
+  "code_1": {
+    "title": "Using Case-Sensitive Search Queries",
+    "content": "This example shows how to use case-sensitive queries for searching {{FileFormatUp}} documents.",
+    "comment_1": "Set the folder for the search index",
+    "comment_2": "Specify the path to the documents to be searched",
+    "comment_3": "Create a search query",
+    "comment_4": "Enable case-sensitive search options",
+    "comment_5": "Search for text in the documents",
+    "comment_6": "Process the search results"
+  }
+}

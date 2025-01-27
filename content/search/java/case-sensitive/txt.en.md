@@ -5,49 +5,49 @@ layout: "format"
 date:  2025-01-27T20:14:10
 draft: false
 lang: en
-format: Pdf
+format: Txt
 product: "Search"
 product_tag: "search"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Boolean search in PDF with Java"
-head_description: "With GroupDocs.Search for Java, developers can perform document searches using Boolean operators like AND, OR, and NOT."
+head_title: "Perform Case-Sensitive Searches in TXT with Java"
+head_description: "The GroupDocs.Search for Java API helps Java developers run case-sensitive searches across multiple document types."
 
 ############################# Header ############################
-title: "Boolean text search" 
-description: "Use GroupDocs.Search for Java to create advanced boolean (AND, OR, NOT) search queries in your Java projects with ease."
+title: "Case-Sensitive Document Search" 
+description: "GroupDocs.Search for Java allows you to implement precise case-sensitive search functionality in your Java projects."
 subtitle: "GroupDocs.Search for Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Get It for Free"
       link: "https://releases.groupdocs.com/search/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Search"
+    title: "Learn About GroupDocs.Search"
     link: "/search/java/"
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for Java](/search/java/) is a versatile library designed for text search and data indexing in documents. It supports over 70 file types, including PDF, Word, Excel, images, and ZIP archives, enabling efficient searches through large data collections.
+       [GroupDocs.Search for Java](/search/java/) is a versatile tool for text search and indexing across various documents. It supports over 70 formats like PDFs, Word files, Excel sheets, images, and ZIPs, enabling you to efficiently handle extensive datasets.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to perform boolean searches in PDF documents"
+    title: "Guide to Case-Sensitive Search in TXT Files"
     content: |
-      [GroupDocs.Search](/search/java/) enables easy text searches within PDF documents. With support for boolean conditions, you can enhance search accuracy in Java applications.
+      Using [GroupDocs.Search](/search/java/), you can easily perform case-sensitive searches in TXT documents, enhancing your Java projects.
       
-      1. Specify the folder to store the search index.
-      2. Select the folder containing PDF documents.
-      3. Execute the search query and retrieve results.
-      4. Process the obtained results.
+      1. Set the folder for storing the search index.
+      2. Select the folder containing TXT files.
+      3. Run the case-sensitive search and collect results.
+      4. Process and use the search results.
    
     code:
       platform: "java"
@@ -85,64 +85,70 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Set the path for the index folder
+        // Define the location for the index storage
         Index index = new Index("c:/MyIndex");
 
-        // Provide the folder path containing documents for the search
+        // Point to the folder containing documents to search
         index.add("c:/MyDocuments");
 
-        // Run a search with a complex query
-        SearchResult result = index.search("lorem AND impsum");
+        // Enable case-sensitive mode in the search settings
+        SearchOptions options = new SearchOptions();
+        options.setUseCaseSensitiveSearch(true);
+
+        // Execute the search
+        SearchResult result = index.search("Lorem", options);
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Powerful tools for document search and indexing"
-  description: "GroupDocs.Search for Java simplifies text searches and data indexing for over 70 formats. Its advanced tools let you find and manage content effortlessly."
-  image: "/img/search/features_boolean.webp" # 500x500 px
-  image_description: "Key features of GroupDocs.Search"
+  title: "Enhanced Search and Indexing Tools"
+  description: "With GroupDocs.Search for Java, you can streamline document search and indexing for more than 70 formats, making it easier to locate and organize information."
+  image: "/img/search/features_case-sensitive.webp" # 500x500 px
+  image_description: "Highlights of GroupDocs.Search"
   features:
     # feature loop
-    - title: "Comprehensive text search"
-      content: "Search across multiple formats like PDFs, Word documents, spreadsheets, and more. Use options such as exact matching, fuzzy search, and wildcard queries to refine results."
+    - title: "Flexible Text Search"
+      content: "Search through documents such as PDFs, Word files, and spreadsheets with ease. Use tools like exact match, fuzzy search, and wildcard support to refine your results."
 
     # feature loop
-    - title: "Efficient data indexing"
-      content: "Build and maintain indexes for faster document searches. This feature organizes data efficiently, making it easy to handle large document collections."
+    - title: "Efficient Index Management"
+      content: "Organize and index large datasets to improve search speed and performance when handling big document collections."
 
     # feature loop
-    - title: "Multi-language support"
-      content: "Search in documents written in over 80 languages. Enhance accuracy by leveraging morphological word forms and different keyboard layouts."
+    - title: "Support for Global Languages"
+      content: "Perform searches in more than 80 languages, accommodating different keyboard layouts and linguistic variations for better accuracy."
 
     # feature loop
-    - title: "Flexible search customization"
-      content: "Adjust search settings with features like case sensitivity, date range filters, and exclusions to refine your results."
+    - title: "Customizable Search Filters"
+      content: "Adjust search criteria with options like case sensitivity, date range filtering, and exclusion of unwanted words or data during indexing."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Using complex boolean search queries"
+    - title: "Example: Case-Sensitive Search Queries"
       content: |
-        This example demonstrates how to perform Boolean searches in PDF files.
+        This example demonstrates how to implement case-sensitive searches for TXT documents.
       code:
         title: "Java"
         content: |
           ```java {style=abap}
-          // Set the folder for the search index
+          // Define the directory for the search index
           Index index = new Index("c:/MyIndex");
               
-          // Provide the path to the documents to search
+          // Specify the location of the document folder
           index.add("c:/MyDocuments");
 
-          // Construct the query using Boolean logic
-          SearchQuery wordQuery1 = SearchQuery.createWordQuery("Lorem");
-          SearchQuery wordQuery2 = SearchQuery.createWordQuery("ipsum");
-          SearchQuery booleanQuery = SearchQuery.createAndQuery(wordQuery1, wordQuery2);
+          // Set up a search query
+          SearchQuery wordQuery = SearchQuery.createWordQuery("Lorem");
 
-          // Retrieve the search results
-          SearchResult result = index.search(booleanQuery);
-          
+          // Perform the document search
+          SearchOptions options = new SearchOptions();
+          options.setUseCaseSensitiveSearch(true);
+
           // Process the retrieved results
+          SearchResult result = index.search(wordQuery, options);
+          
+          // {code_1.comment_7}
           System.out.println("Documents: " + result.getDocumentCount());
           System.out.println("Occurrences: " + result.getDocumentCount());
           ```
@@ -171,7 +177,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/search/formats/search_boolean.pdf"
+            link: "/examples/search/formats/search_case-sensitive.txt"
         links:
           #  loop
           - title: "More examples"
@@ -204,39 +210,39 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Key features at a glance"
-    exclude: "boolean"
-    description: "Unlock powerful and efficient search capabilities"
+    title: "Key Features Overview"
+    exclude: "case-sensitive"
+    description: "Discover the robust and effective search capabilities offered by GroupDocs.Search for Java."
     items: 
           
         # operation loop 1
         - name: "Search by condition"
           operation: "boolean"
-          link: "/search/java/boolean/pdf/"
+          link: "/search/java/boolean/txt/"
           description: "Find information in documents using boolean conditions"
 
         # operation loop 2
         - name: "Case-sensitive search"
           operation: "case-sensitive"
-          link: "/search/java/case-sensitive/pdf/"
+          link: "/search/java/case-sensitive/txt/"
           description: "Improve search accuracy by considering case sensitivity"
 
         # operation loop 3
         - name: "Document indexing"
           operation: "document"
-          link: "/search/java/document/pdf/"
+          link: "/search/java/document/txt/"
           description: "Index documents once and reuse the index for multiple searches"
 
         # operation loop 4
         - name: "Search filters"
           operation: "filters"
-          link: "/search/java/filters/pdf/"
+          link: "/search/java/filters/txt/"
           description: "Use filters to narrow down the data being processed"
 
         # operation loop 5
         - name: "Exact phrase"
           operation: "phrase"
-          link: "/search/java/phrase/pdf/"
+          link: "/search/java/phrase/txt/"
           description: "Search for a specific sentence or phrase"
           
         
@@ -244,38 +250,38 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Search popular document formats"
-    exclude: "PDF"
-    description: "GroupDocs.Search supports over 70 file formats, enabling you to customize search rules and use indexing to optimize performance."
+    title: "Supported File Formats for Searching"
+    exclude: "TXT"
+    description: "GroupDocs.Search works with over 70 popular document formats, offering customizable search settings and efficient indexing."
     items: 
         # format loop 1
         - name: "Search in DOCX"
           format: "DOCX"
-          link: "/search/java/boolean/docx/"
+          link: "/search/java/case-sensitive/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Search in PDF"
           format: "PDF"
-          link: "/search/java/boolean/pdf/"
+          link: "/search/java/case-sensitive/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
         - name: "Search in PPTX"
           format: "PPTX"
-          link: "/search/java/boolean/pptx/"
+          link: "/search/java/case-sensitive/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
         - name: "Search in TXT"
           format: "TXT"
-          link: "/search/java/boolean/txt/"
+          link: "/search/java/case-sensitive/txt/"
           description: "Text Document"
           
         # format loop 5
         - name: "Search in XLSX"
           format: "XLSX"
-          link: "/search/java/boolean/xlsx/"
+          link: "/search/java/case-sensitive/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
   
 

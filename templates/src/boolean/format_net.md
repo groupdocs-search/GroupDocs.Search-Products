@@ -78,7 +78,7 @@ steps:
         index.Add("c:/MyDocuments");
 
         // <% "{examples.comment_3}" %>
-        SearchResult result = index.Search("theory AND relativity");
+        SearchResult result = index.Search("lorem AND impsum");
         ```            
 
 ############################# More features ############################

@@ -94,7 +94,7 @@ steps:
         index.add("c:/MyDocuments");
 
         // <% "{examples.comment_3}" %>
-        SearchResult result = index.search("theory AND relativity");
+        SearchResult result = index.search("lorem AND impsum");
         ```            
 
 ############################# More features ############################

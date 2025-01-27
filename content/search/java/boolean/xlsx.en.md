@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-23T14:09:57
+date:  2025-01-27T20:14:10
 draft: false
 lang: en
 format: Xlsx
@@ -92,7 +92,7 @@ steps:
         index.add("c:/MyDocuments");
 
         // Run a search with a complex query
-        SearchResult result = index.search("theory AND relativity");
+        SearchResult result = index.search("lorem AND impsum");
         ```            
 
 ############################# More features ############################

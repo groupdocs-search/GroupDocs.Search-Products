@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\boolean\\format_nodejs.yml" %>
+<% configRef "..\\..\\configs\\case-sensitive\\format_nodejs.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -80,7 +80,11 @@ steps:
         index.add("c:/MyDocuments");
 
         // <% "{examples.comment_3}" %>
-        const result = index.search("lorem AND impsum");
+        const options = new groupdocs.search.SearchOptions();
+        options.setUseCaseSensitiveSearch(true);
+
+        // <% "{examples.comment_4}" %>
+        const result = index.search("Lorem", options);
         ```            
 
 ############################# More features ############################
@@ -88,7 +92,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/search/features_boolean.webp" # 500x500 px
+  image: "/img/search/features_case-sensitive.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -125,14 +129,16 @@ more_features:
           index.add("c:/MyDocuments");
 
           // <% "{code_1.comment_3}" %>
-          const wordQuery1 = searchLib.SearchQuery.createWordQuery("Lorem");
-          const wordQuery2 = searchLib.SearchQuery.createWordQuery("ipsum");
-          const booleanQuery = searchLib.SearchQuery.createAndQuery(wordQuery1, wordQuery2);
+          const wordQuery = searchLib.SearchQuery.createWordQuery("Lorem");
 
           // <% "{code_1.comment_4}" %>
-          const result = index.search(booleanQuery);
-          
+          const options = new groupdocs.search.SearchOptions();
+          options.setUseCaseSensitiveSearch(true);
+
           // <% "{code_1.comment_5}" %>
+          const result = index.search(wordQuery, options);
+          
+          // <% "{code_1.comment_6}" %>
           console.log('Documents: ' + result.getDocumentCount());
           console.log('Occurrences: ' + result.getOccurrenceCount());
           ```

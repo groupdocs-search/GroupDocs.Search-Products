@@ -5,26 +5,26 @@ layout: "format"
 date:  2025-01-27T20:14:10
 draft: false
 lang: en
-format: Docx
+format: Txt
 product: "Search"
 product_tag: "search"
 platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Boolean DOCX search via Node.js"
-head_description: "Use GroupDocs.Search for Node.js via Java API to execute advanced searches in document content with boolean operators like AND, OR, and NOT, tailored for JavaScript developers."
+head_title: "Perform Case-Sensitive Searches in TXT with Node.js"
+head_description: "The GroupDocs.Search for Node.js via Java API allows JavaScript developers to execute case-sensitive searches across different document types."
 
 ############################# Header ############################
-title: "Perform boolean logic searches" 
-description: "With GroupDocs.Search for Node.js via Java, you can create advanced search queries using boolean operators (AND, OR, NOT) seamlessly within your Node.js environment."
+title: "Case-Sensitive Search" 
+description: "GroupDocs.Search for Node.js via Java lets you easily implement advanced case-sensitive search functionality in your Node.js applications."
 subtitle: "GroupDocs.Search for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Now"
+    - title: "Download for Free"
       link: "https://releases.groupdocs.com/search/nodejs-java/"
       
 ############################# About ############################
@@ -35,19 +35,19 @@ about:
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) is a robust tool for searching and indexing text within documents. It supports over 70 formats like PDF, Word, Excel, images, and ZIP files, making it easy to process large amounts of information efficiently.
+       [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) is a powerful library for searching and indexing text in documents. It supports over 70 formats, including PDFs, Word, Excel, images, and ZIP files, enabling efficient handling of large amounts of data.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to search in DOCX documents using boolean operators"
+    title: "Steps for Performing Case-Sensitive Searches in TXT Files"
     content: |
-      [GroupDocs.Search](/search/nodejs-java/) allows you to search content in DOCX files effectively. With boolean logic, you can refine your search queries in Node.js via Java applications for improved accuracy.
+      [GroupDocs.Search](/search/nodejs-java/) makes it easy to carry out case-sensitive searches in TXT files, enhancing your Node.js via Java workflows.
       
-      1. Set up the folder to store the search index.
-      2. Select the folder containing DOCX files for the search.
-      3. Run the search query and retrieve results.
-      4. Process and analyze the search results.
+      1. Set up a folder to store the search index.
+      2. Select the folder containing TXT files.
+      3. Run the search and get the results.
+      4. Process and use the results.
    
     code:
       platform: "nodejs-java"
@@ -71,45 +71,49 @@ steps:
         ```javascript {style=abap}
         const searchLib = require('@groupdocs/groupdocs.search')
 
-        // Set the location for the index folder
+        // Specify the path for the index folder
         const index = new searchLib.Index("c:/MyIndex");
 
-        // Specify the folder containing documents to search
+        // Set the folder containing the documents to search
         index.add("c:/MyDocuments");
 
-        // Execute a search query with advanced logic
-        const result = index.search("lorem AND impsum");
+        // Enable case-sensitive search in the settings
+        const options = new groupdocs.search.SearchOptions();
+        options.setUseCaseSensitiveSearch(true);
+
+        // Execute the search
+        const result = index.search("Lorem", options);
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Powerful tools for document search and indexing"
-  description: "GroupDocs.Search for Node.js via Java streamlines text search and indexing for over 70 file types, helping you find and manage information faster and with precision."
-  image: "/img/search/features_boolean.webp" # 500x500 px
-  image_description: "Key features of GroupDocs.Search"
+  title: "Key Features for Document Search and Indexing"
+  description: "With GroupDocs.Search for Node.js via Java, you can easily search and index text in over 70 file formats. Access and organize information effortlessly using advanced search tools."
+  image: "/img/search/features_case-sensitive.webp" # 500x500 px
+  image_description: "Core Features of GroupDocs.Search"
   features:
     # feature loop
-    - title: "Enhanced text search"
-      content: "Find text quickly across various formats such as PDFs, Word documents, and spreadsheets. Use features like exact matches, wildcard searches, and fuzzy search for precise results."
+    - title: "Comprehensive Text Search"
+      content: "Find text in various document types like PDFs, Word files, and spreadsheets. Use options such as exact matches, fuzzy searches, and wildcards for accurate results."
 
     # feature loop
-    - title: "Efficient data indexing"
-      content: "Build and manage indexes to speed up searches in large document collections. Indexing ensures fast and structured access to your data."
+    - title: "Efficient Data Indexing"
+      content: "Create and manage indexes to speed up searches. Indexing helps you organize and quickly locate data in large document collections."
 
     # feature loop
-    - title: "Multilingual support"
-      content: "Search in documents written in over 80 languages. Morphological support and keyboard layout compatibility enhance search results in different languages."
+    - title: "Supports Multiple Languages"
+      content: "Search documents in over 80 languages with support for diverse keyboard layouts and word variations, ensuring accurate search results."
 
     # feature loop
-    - title: "Flexible search settings"
-      content: "Customize your search by enabling case sensitivity, applying date filters, or skipping specific words and data during indexing."
+    - title: "Customizable Search Settings"
+      content: "Adjust search settings, including case sensitivity, date filters, and exclusion of specific terms or data during indexing."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Example of advanced boolean search"
+    - title: "Example: Case-Sensitive Search Implementation"
       content: |
-        This example demonstrates how to create Boolean-based queries for searching content in DOCX documents.
+        This example demonstrates how to perform case-sensitive searches for TXT documents.
       code:
         title: "JavaScript"
         content: |
@@ -119,18 +123,20 @@ more_features:
           // Define the folder for the search index
           const index = new searchLib.Index("c:/MyIndex");
               
-          // Provide the location of the documents to search
+          // Provide the path to the document folder
           index.add("c:/MyDocuments");
 
-          // Build a query using Boolean operators
-          const wordQuery1 = searchLib.SearchQuery.createWordQuery("Lorem");
-          const wordQuery2 = searchLib.SearchQuery.createWordQuery("ipsum");
-          const booleanQuery = searchLib.SearchQuery.createAndQuery(wordQuery1, wordQuery2);
+          // Set up a search query
+          const wordQuery = searchLib.SearchQuery.createWordQuery("Lorem");
 
-          // Retrieve search results
-          const result = index.search(booleanQuery);
+          // Activate case-sensitive search settings
+          const options = new groupdocs.search.SearchOptions();
+          options.setUseCaseSensitiveSearch(true);
+
+          // Search for the text in documents
+          const result = index.search(wordQuery, options);
           
-          // Process and use the search results
+          // Process and handle the results
           console.log('Documents: ' + result.getDocumentCount());
           console.log('Occurrences: ' + result.getOccurrenceCount());
           ```
@@ -144,7 +150,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/search/formats/searchboolean.docx"
+            link: "/examples/search/formats/searchcase-sensitive.txt"
         links:
           #  loop
           - title: "More examples"
@@ -177,39 +183,39 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Key capabilities of GroupDocs.Search"
-    exclude: "boolean"
-    description: "Unlock advanced, efficient, and customizable search features."
+    title: "Key Functionalities"
+    exclude: "case-sensitive"
+    description: "Explore advanced features for fast and precise document searching."
     items: 
           
         # operation loop 1
         - name: "Search by condition"
           operation: "boolean"
-          link: "/search/nodejs-java/boolean/docx/"
+          link: "/search/nodejs-java/boolean/txt/"
           description: "Find information in documents using boolean conditions"
 
         # operation loop 2
         - name: "Case-sensitive search"
           operation: "case-sensitive"
-          link: "/search/nodejs-java/case-sensitive/docx/"
+          link: "/search/nodejs-java/case-sensitive/txt/"
           description: "Improve search accuracy by considering case sensitivity"
 
         # operation loop 3
         - name: "Document indexing"
           operation: "document"
-          link: "/search/nodejs-java/document/docx/"
+          link: "/search/nodejs-java/document/txt/"
           description: "Index documents once and reuse the index for multiple searches"
 
         # operation loop 4
         - name: "Search filters"
           operation: "filters"
-          link: "/search/nodejs-java/filters/docx/"
+          link: "/search/nodejs-java/filters/txt/"
           description: "Use filters to narrow down the data being processed"
 
         # operation loop 5
         - name: "Exact phrase"
           operation: "phrase"
-          link: "/search/nodejs-java/phrase/docx/"
+          link: "/search/nodejs-java/phrase/txt/"
           description: "Search for a specific sentence or phrase"
           
         
@@ -217,38 +223,38 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Search popular document formats"
-    exclude: "DOCX"
-    description: "GroupDocs.Search supports over 70 file formats, providing flexible search rules and efficient indexing to save time and effort."
+    title: "Compatible Document Formats"
+    exclude: "TXT"
+    description: "GroupDocs.Search supports over 70 document formats. Customize your search options and save time with indexing."
     items: 
         # format loop 1
         - name: "Search in DOCX"
           format: "DOCX"
-          link: "/search/nodejs-java/boolean/docx/"
+          link: "/search/nodejs-java/case-sensitive/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Search in PDF"
           format: "PDF"
-          link: "/search/nodejs-java/boolean/pdf/"
+          link: "/search/nodejs-java/case-sensitive/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
         - name: "Search in PPTX"
           format: "PPTX"
-          link: "/search/nodejs-java/boolean/pptx/"
+          link: "/search/nodejs-java/case-sensitive/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
         - name: "Search in TXT"
           format: "TXT"
-          link: "/search/nodejs-java/boolean/txt/"
+          link: "/search/nodejs-java/case-sensitive/txt/"
           description: "Text Document"
           
         # format loop 5
         - name: "Search in XLSX"
           format: "XLSX"
-          link: "/search/nodejs-java/boolean/xlsx/"
+          link: "/search/nodejs-java/case-sensitive/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
   
 

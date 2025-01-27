@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-23T14:09:58
+date:  2025-01-27T20:14:10
 draft: false
 lang: en
 format: Pptx
@@ -78,7 +78,7 @@ steps:
         index.add("c:/MyDocuments");
 
         // Execute a search query with advanced logic
-        const result = index.search("theory AND relativity");
+        const result = index.search("lorem AND impsum");
         ```            
 
 ############################# More features ############################

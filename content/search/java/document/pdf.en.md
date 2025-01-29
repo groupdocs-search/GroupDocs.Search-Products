@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-29T12:47:53
+date:  2025-01-29T16:07:41
 draft: false
 lang: en
 format: Pdf
@@ -12,42 +12,42 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Boolean search in PDF with Java"
-head_description: "With GroupDocs.Search for Java, developers can perform document searches using Boolean operators like AND, OR, and NOT."
+head_title: "Find text in PDF docs with GroupDocs.Search for Java"
+head_description: "GroupDocs.Search for Java helps Java developers quickly search text within various document formats."
 
 ############################# Header ############################
-title: "Boolean text search" 
-description: "Use GroupDocs.Search for Java to create advanced boolean (AND, OR, NOT) search queries in your Java projects with ease."
+title: "Smart document text search" 
+description: "With GroupDocs.Search for Java, you can seamlessly search and extract text from multiple document types in your Java applications."
 subtitle: "GroupDocs.Search for Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Get Free Trial"
       link: "https://releases.groupdocs.com/search/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Search"
+    title: "What does GroupDocs.Search do?"
     link: "/search/java/"
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for Java](/search/java/) is a versatile library designed for text search and data indexing in documents. It supports over 70 file types, including PDF, Word, Excel, images, and ZIP archives, enabling efficient searches through large data collections.
+       [GroupDocs.Search for Java](/search/java/) is a robust document search and indexing library that supports over 70 file formats, including PDF, Word, Excel, images, and ZIP archives. It enables fast, precise, and scalable search capabilities for large document collections.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to perform boolean searches in PDF documents"
+    title: "Perform textual searches in PDF files"
     content: |
-      [GroupDocs.Search](/search/java/) enables easy text searches within PDF documents. With support for boolean conditions, you can enhance search accuracy in Java applications.
+      [GroupDocs.Search](/search/java/) makes it easy to search PDF files using sophisticated logic and indexing, improving search accuracy in Java applications.
       
-      1. Specify the folder to store the search index.
-      2. Select the folder containing PDF documents.
-      3. Execute the search query and retrieve results.
-      4. Process the obtained results.
+      1. Set up a directory to store the search index.
+      2. Choose a folder containing PDF files.
+      3. Define additional search options.
+      4. Execute the search and analyze the results.
    
     code:
       platform: "java"
@@ -85,72 +85,71 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Set the path for the index folder
+        // Set the directory for storing the search index
         Index index = new Index("c:/MyIndex");
 
-        // Provide the folder path containing documents for the search
+        // Specify the folder containing searchable documents
         index.add("c:/MyDocuments");
 
-        // Run a search with a complex query
+        // Enable homophone search to match words with similar pronunciation
         SearchOptions options = new SearchOptions();
         options.setUseHomophoneSearch(true);
 
-        // {examples.comment_4}
+        // Execute an advanced search query
         SearchResult result = index.search("metis");
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Powerful tools for document search and indexing"
-  description: "GroupDocs.Search for Java simplifies text searches and data indexing for over 70 formats. Its advanced tools let you find and manage content effortlessly."
+  title: "Enhanced search and indexing capabilities"
+  description: "GroupDocs.Search for Java simplifies text searching and indexing across 70+ document formats, providing efficient tools to manage and retrieve information quickly."
   image: "/img/search/features_document.webp" # 500x500 px
-  image_description: "Key features of GroupDocs.Search"
+  image_description: "Core Features of GroupDocs.Search"
   features:
     # feature loop
     - title: "Comprehensive text search"
-      content: "Search across multiple formats like PDFs, Word documents, spreadsheets, and more. Use options such as exact matching, fuzzy search, and wildcard queries to refine results."
+      content: "Find text across multiple document formats like PDFs, Word files, and spreadsheets. Use exact matches, fuzzy search, and wildcard operators for refined search results."
 
     # feature loop
-    - title: "Efficient data indexing"
-      content: "Build and maintain indexes for faster document searches. This feature organizes data efficiently, making it easy to handle large document collections."
+    - title: "Optimized indexing for large data"
+      content: "Create structured indexes to speed up searches, making it easy to navigate through extensive document repositories efficiently."
 
     # feature loop
-    - title: "Multi-language support"
-      content: "Search in documents written in over 80 languages. Enhance accuracy by leveraging morphological word forms and different keyboard layouts."
+    - title: "Supports multiple languages"
+      content: "Perform searches in 80+ languages with built-in support for different keyboard layouts and word morphology variations, improving accuracy."
 
     # feature loop
-    - title: "Flexible search customization"
-      content: "Adjust search settings with features like case sensitivity, date range filters, and exclusions to refine your results."
+    - title: "Flexible search settings"
+      content: "Customize searches with options like case sensitivity, date-based filtering, and the ability to exclude specific words for precise results."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Using complex boolean search queries"
+    - title: "Implementing advanced search queries"
       content: |
-        This example demonstrates how to perform Boolean searches in PDF files.
+        This example illustrates how to use search queries to search within PDF docs efficiently.
       code:
         title: "Java"
         content: |
           ```java {style=abap}
-          // Set the folder for the search index
+          // Define the directory for search indexing
           Index index = new Index("c:/MyIndex");
               
-          // Provide the path to the documents to search
+          // Provide the file path for the documents
           index.add("c:/MyDocuments");
 
-          // Construct the query using Boolean logic
-          index.getDictionaries().getDocumentPasswords()
-            .add("protected.pdf", "123456");
+          // Enter the password for encrypted documents
+          index.getDictionaries().getDocumentPasswords().add("protected.pdf", "123456");
 
-          // Retrieve the search results
+          // Activate fuzzy search to detect similar words
           SearchOptions options = new SearchOptions();
           options.getFuzzySearch().setEnabled(true);
           options.getFuzzySearch().setFuzzyAlgorithm(new SimilarityLevel(0.8));
 
-          // Process the retrieved results
+          // Fetch search results
           SearchResult result = index.Search("Loarem", options);
           
-          // {code_1.comment_6}
+          // Process and analyze search results
           System.out.println("Documents: " + result.getDocumentCount());
           System.out.println("Occurrences: " + result.getDocumentCount());
           ```
@@ -179,7 +178,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/search/formats/search_document.pdf"
+            link: "/examples/search/formats/searchdocument.pdf"
         links:
           #  loop
           - title: "More examples"
@@ -212,9 +211,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Key features at a glance"
+    title: "Key features overview"
     exclude: "document"
-    description: "Unlock powerful and efficient search capabilities"
+    description: "Discover high-performance text search functionalities designed for efficiency and precision."
     items: 
           
         # operation loop 1
@@ -252,9 +251,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Search popular document formats"
+    title: "Find information across PDF documents with GroupDocs.Search"
     exclude: "PDF"
-    description: "GroupDocs.Search supports over 70 file formats, enabling you to customize search rules and use indexing to optimize performance."
+    description: "GroupDocs.Search supports over 70 formats, including office files, enabling fast searches with advanced indexing features."
     items: 
         # format loop 1
         - name: "Search in DOCX"

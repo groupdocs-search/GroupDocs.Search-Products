@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-29T12:47:53
+date:  2025-01-29T16:07:41
 draft: false
 lang: en
 format: Txt
@@ -12,12 +12,12 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Search TXT in .NET documents with .NET"
-head_description: "The GroupDocs.Search for .NET API allows C# developers to search for text in various document formats."
+head_title: "Search TXT documents in .NET with GroupDocs.Search"
+head_description: "Use GroupDocs.Search for .NET to perform efficient text searches in various document formats with C#."
 
 ############################# Header ############################
 title: "Advanced document text search" 
-description: "GroupDocs.Search for .NET makes it simple to create advanced search queries for documents in popular formats within your .NET applications."
+description: "GroupDocs.Search for .NET simplifies text search in popular document formats, allowing you to create powerful search queries in your .NET applications."
 subtitle: "GroupDocs.Search for .NET" 
 
 header_actions:
@@ -35,19 +35,19 @@ about:
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for .NET](/search/net/) is a comprehensive library for searching and indexing text in documents. It supports over 70 file formats, such as PDF, Word, Excel, images, and ZIP files, enabling efficient processing of large amounts of information.
+       [GroupDocs.Search for .NET](/search/net/) is a powerful library designed for full-text search and indexing in documents. It supports over 70 file formats, including PDF, Word, Excel, images, and ZIP files, ensuring fast and accurate search results.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to search TXT document content using boolean logic"
+    title: "How to perform text search in TXT documents"
     content: |
-      [GroupDocs.Search](/search/net/) makes searching TXT document content straightforward. It provides Boolean logic search conditions to refine results in .NET applications.
+      [GroupDocs.Search](/search/net/) enables advanced content search operations in TXT documents, allowing refined search results in .NET applications.
       
-      1. Specify the folder to store the search index.
+      1. Set up the folder to store the search index.
       2. Choose the folder containing TXT files.
-      3. Provide additional options.
-      4. Run the search and retrieve results.
+      3. Configure additional search options.
+      4. Run the search and review results.
    
     code:
       platform: "net"
@@ -69,71 +69,71 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Set the path to the index folder
+        // Define the path for the search index
         Index index = new Index("c:/MyIndex");
 
-        // Specify the folder containing documents to search
+        // Select the folder containing documents to be searched
         index.Add("c:/MyDocuments");
 
-        // Enable homophone search (find words that sound the same).
+        // Enable homophone search to find words that sound alike
         SearchOptions options = new SearchOptions();
         options.UseHomophoneSearch = true;
 
-        // Run a search using a complex query
+        // Execute a complex search query
         SearchResult result = index.Search("metis", options);
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Explore advanced features for document search and indexing"
-  description: "The GroupDocs.Search for .NET library simplifies text search and indexing for more than 70 file formats. Easily locate and manage information with advanced search tools."
+  title: "Advanced search and indexing features"
+  description: "GroupDocs.Search for .NET enhances text search and indexing across more than 70 file formats, providing efficient tools for locating and managing information."
   image: "/img/search/features_document.webp" # 500x500 px
-  image_description: "Main features of GroupDocs.Search"
+  image_description: "Key Features of GroupDocs.Search"
   features:
     # feature loop
     - title: "Powerful text search"
-      content: "Search for text across various file types, including PDFs, Word documents, and spreadsheets. Use features like exact matches, fuzzy searches, and wildcards to refine results."
+      content: "Search for text across multiple document types, including PDFs, Word files, and spreadsheets. Use features like exact matches, fuzzy search, and wildcards to refine your results."
 
     # feature loop
-    - title: "Index large data sets"
-      content: "Create and maintain indexes for quicker searches. Indexing structures and organizes data, making it easier to search extensive document collections."
+    - title: "Fast indexing for large data sets"
+      content: "Create and manage search indexes for quick retrieval of information. Indexing optimizes searches across extensive document collections."
 
     # feature loop
-    - title: "Supports multiple languages"
-      content: "Search documents in over 80 languages, with support for different keyboard layouts and morphological word forms to enhance search accuracy."
+    - title: "Multi-language support"
+      content: "Perform searches in over 80 languages, with support for different keyboard layouts and word variations to improve accuracy."
 
     # feature loop
-    - title: "Customizable search options"
-      content: "Adjust search settings with features like case sensitivity, date range filters, and the ability to exclude specific words or data during indexing."
+    - title: "Customizable search settings"
+      content: "Fine-tune search parameters with options like case sensitivity, date range filters, and word exclusions for better results."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Using advanced boolean search queries"
+    - title: "Executing advanced search queries"
       content: |
-        This example demonstrates how to apply boolean queries for searching TXT documents.
+        This example demonstrates how to apply search queries for TXT documents.
       code:
         title: "C#"
         content: |
           ```csharp {style=abap}
-          // Set the folder for the search index
+          // Define the folder for the search index
           Index index = new Index("c:/MyIndex");
               
-          // Specify the path to the documents to be searched
+          // Specify the path to the document files
           index.Add("c:/MyDocuments");
 
-          // Provide password for protected document
+          // Provide a password for protected documents
           index.Dictionaries.DocumentPasswords.Add("protected.txt", "123456");
 
-          // Enabling the fuzzy search to find similar words
+          // Enable fuzzy search to find similar words
           SearchOptions options = new SearchOptions();
           options.FuzzySearch.Enabled = true;
           options.FuzzySearch.FuzzyAlgorithm = new SimilarityLevel(0.8);
 
-          // Retrieve the search results
+          // Retrieve search results
           SearchResult result = index.Search("Loarem", options);
           
-          // Process the search results
+          // Process the search output
           Console.WriteLine("Documents: " + result.DocumentCount);
           Console.WriteLine("Occurrences: " + result.OccurrenceCount);
           ```
@@ -180,9 +180,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Discover key features"
+    title: "Explore key features"
     exclude: "document"
-    description: "Explore advanced and efficient search functionalities."
+    description: "Take advantage of advanced and high-performance search functionalities."
     items: 
           
         # operation loop 1
@@ -222,7 +222,7 @@ more_formats:
     enable: true
     title: "Search across your business documents"
     exclude: "TXT"
-    description: "GroupDocs.Search supports over 70 file formats including office documents. Use powerful indexes to save time and effort."
+    description: "GroupDocs.Search supports more than 70 file formats, including office documents, enabling quick and efficient searches with indexing capabilities."
     items: 
         # format loop 1
         - name: "Search in DOCX"

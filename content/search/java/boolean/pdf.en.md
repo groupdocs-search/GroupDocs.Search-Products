@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-27T20:14:10
+date:  2025-01-29T16:07:41
 draft: false
 lang: en
 format: Pdf
@@ -171,7 +171,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/search/formats/search_boolean.pdf"
+            link: "/examples/search/formats/searchboolean.pdf"
         links:
           #  loop
           - title: "More examples"

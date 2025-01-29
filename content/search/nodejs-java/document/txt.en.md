@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-29T12:47:53
+date:  2025-01-29T16:07:41
 draft: false
 lang: en
 format: Txt
@@ -12,42 +12,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Boolean TXT search via Node.js"
-head_description: "Use GroupDocs.Search for Node.js via Java API to execute advanced searches in document content with boolean operators like AND, OR, and NOT, tailored for JavaScript developers."
+head_title: "Find text in TXT with GroupDocs.Search in Node.js"
+head_description: "Use GroupDocs.Search for Node.js via Java with JavaScript to search text efficiently in various document formats."
 
 ############################# Header ############################
-title: "Perform boolean logic searches" 
-description: "With GroupDocs.Search for Node.js via Java, you can create advanced search queries using boolean operators (AND, OR, NOT) seamlessly within your Node.js environment."
+title: "Smart document search solution" 
+description: "Easily locate text in different document formats using GroupDocs.Search for Node.js via Java. Create advanced search queries within your Node.js applications."
 subtitle: "GroupDocs.Search for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Now"
+    - title: "Try for Free"
       link: "https://releases.groupdocs.com/search/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "What is GroupDocs.Search?"
+    title: "Introduction to GroupDocs.Search"
     link: "/search/nodejs-java/"
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) is a robust tool for searching and indexing text within documents. It supports over 70 formats like PDF, Word, Excel, images, and ZIP files, making it easy to process large amounts of information efficiently.
+       [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) is a high-performance library for full-text search and document indexing. It supports 70+ file types, including PDF, Word, Excel, images, and ZIP archives, ensuring fast and accurate results.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to search in TXT documents using boolean operators"
+    title: "Perform search in TXT files"
     content: |
-      [GroupDocs.Search](/search/nodejs-java/) allows you to search content in TXT files effectively. With boolean logic, you can refine your search queries in Node.js via Java applications for improved accuracy.
+      [GroupDocs.Search](/search/nodejs-java/) allows you to execute searches in TXT files, refining results in Node.js via Java applications.
       
-      1. Set up the folder to store the search index.
-      2. Select the folder containing TXT files for the search.
-      3. Run the search query and retrieve results.
-      4. Process and analyze the search results.
+      1. Define a storage folder for the search index.
+      2. Select a folder with TXT files.
+      3. Set additional search parameters.
+      4. Run the search and analyze results.
    
     code:
       platform: "nodejs-java"
@@ -71,74 +71,73 @@ steps:
         ```javascript {style=abap}
         const searchLib = require('@groupdocs/groupdocs.search')
 
-        // Set the location for the index folder
+        // Specify the directory for search index storage
         const index = new searchLib.Index("c:/MyIndex");
 
-        // Specify the folder containing documents to search
+        // Choose the folder containing documents to search
         index.add("c:/MyDocuments");
 
-        // Execute a search query with advanced logic
+        // Enable homophone search for words that sound similar
         const options = new SearchOptions();
         options.setUseHomophoneSearch(true);
 
-        // {examples.comment_4}
+        // Run a complex search query
         const result = index.search("metis");
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Powerful tools for document search and indexing"
-  description: "GroupDocs.Search for Node.js via Java streamlines text search and indexing for over 70 file types, helping you find and manage information faster and with precision."
+  title: "Advanced search & indexing capabilities"
+  description: "GroupDocs.Search for Node.js via Java provides powerful text search and indexing tools across 70+ document formats, making it easy to find and organize information."
   image: "/img/search/features_document.webp" # 500x500 px
-  image_description: "Key features of GroupDocs.Search"
+  image_description: "Key Benefits of GroupDocs.Search"
   features:
     # feature loop
-    - title: "Enhanced text search"
-      content: "Find text quickly across various formats such as PDFs, Word documents, and spreadsheets. Use features like exact matches, wildcard searches, and fuzzy search for precise results."
+    - title: "Comprehensive text search"
+      content: "Locate text in multiple document types, including PDFs, Word files, and spreadsheets. Use exact matches, fuzzy search, and wildcards for refined results."
 
     # feature loop
-    - title: "Efficient data indexing"
-      content: "Build and manage indexes to speed up searches in large document collections. Indexing ensures fast and structured access to your data."
+    - title: "Efficient indexing for large data"
+      content: "Speed up searches by creating structured indexes, making it easier to retrieve information from large document collections."
 
     # feature loop
-    - title: "Multilingual support"
-      content: "Search in documents written in over 80 languages. Morphological support and keyboard layout compatibility enhance search results in different languages."
+    - title: "Supports 80+ languages"
+      content: "Search across documents in different languages, with automatic recognition of various word forms and keyboard layouts."
 
     # feature loop
-    - title: "Flexible search settings"
-      content: "Customize your search by enabling case sensitivity, applying date filters, or skipping specific words and data during indexing."
+    - title: "Custom search settings"
+      content: "Adjust search options such as case sensitivity, date filters, and word exclusions to get precise results."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Example of advanced boolean search"
+    - title: "Using search for TXT documents"
       content: |
-        This example demonstrates how to create Boolean-based queries for searching content in TXT documents.
+        This example shows how to use search queries within TXT documents.
       code:
         title: "JavaScript"
         content: |
           ```javascript {style=abap}
           const searchLib = require('@groupdocs/groupdocs.search')
           
-          // Define the folder for the search index
+          // Set the directory for search indexing
           const index = new searchLib.Index("c:/MyIndex");
               
-          // Provide the location of the documents to search
+          // Provide the file path for document storage
           index.add("c:/MyDocuments");
 
-          // Build a query using Boolean operators
-          index.getDictionaries().getDocumentPasswords().
-            add("protected.txt", '123456');
+          // Enter the password for protected files
+          index.getDictionaries().getDocumentPasswords().add("protected.txt", '123456');
 
-          // Retrieve search results
+          // Enable fuzzy search for similar word detection
           const options = new SearchOptions();
           options.getFuzzySearch().setEnabled(true);
           options.getFuzzySearch().setFuzzyAlgorithm(new searchLib.SimilarityLevel(0.8));
 
-          // Process and use the search results
+          // Extract search results
           const result = index.Search("Loarem", options);
           
-          // {code_1.comment_6}
+          // Process and review the results
           console.log('Documents: ' + result.getDocumentCount());
           console.log('Occurrences: ' + result.getOccurrenceCount());
           ```
@@ -185,9 +184,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Key capabilities of GroupDocs.Search"
+    title: "Explore key features"
     exclude: "document"
-    description: "Unlock advanced, efficient, and customizable search features."
+    description: "Discover high-speed search features designed to enhance efficiency and accuracy."
     items: 
           
         # operation loop 1
@@ -225,9 +224,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Search popular document formats"
+    title: "Search in a variety of documents"
     exclude: "TXT"
-    description: "GroupDocs.Search supports over 70 file formats, providing flexible search rules and efficient indexing to save time and effort."
+    description: "GroupDocs.Search works with over 70 file formats, including office documents, ensuring quick and accurate searches with indexing support."
     items: 
         # format loop 1
         - name: "Search in DOCX"

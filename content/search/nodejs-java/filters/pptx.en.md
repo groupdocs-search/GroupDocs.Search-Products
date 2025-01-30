@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-30T15:48:03
+date:  2025-01-30T16:44:28
 draft: false
 lang: en
 format: Pptx
@@ -12,42 +12,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Find text in PPTX with GroupDocs.Search in Node.js"
-head_description: "Use GroupDocs.Search for Node.js via Java with JavaScript to search text efficiently in various document formats."
+head_title: "Search in PPTX documents using Node.js"
+head_description: "GroupDocs.Search for Node.js via Java adds fast and accurate text search capabilities to JavaScript applications, supporting multiple document formats."
 
 ############################# Header ############################
-title: "Smart document search solution" 
-description: "Easily locate text in different document formats using GroupDocs.Search for Node.js via Java. Create advanced search queries within your Node.js applications."
+title: "Find text in business documents" 
+description: "GroupDocs.Search for Node.js via Java provides powerful and flexible search functionality for documents. Easily integrate text search into Node.js applications."
 subtitle: "GroupDocs.Search for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Try for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/search/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Introduction to GroupDocs.Search"
+    title: "What is GroupDocs.Search?"
     link: "/search/nodejs-java/"
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) is a high-performance library for full-text search and document indexing. It supports 70+ file types, including PDF, Word, Excel, images, and ZIP archives, ensuring fast and accurate results.
+       [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) is a robust search and indexing library that enables fast text retrieval in documents. It supports over 70 file formats, including PDFs, Word, Excel, and PowerPoint, ensuring precise and efficient searches.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Perform search in PPTX files"
+    title: "How to perform a search in PPTX documents"
     content: |
-      [GroupDocs.Search](/search/nodejs-java/) allows you to execute searches in PPTX files, refining results in Node.js via Java applications.
+      [GroupDocs.Search](/search/nodejs-java/) makes searching text in PPTX documents simple and efficient for Node.js via Java applications.
       
-      1. Define a storage folder for the search index.
-      2. Select a folder with PPTX files.
-      3. Set additional search parameters.
-      4. Run the search and analyze results.
+      1. Create a directory to store the search index.
+      2. Choose the folder that contains the documents.
+      3. Set search options to include only PPTX files.
+      4. Run the search and retrieve the results.
    
     code:
       platform: "nodejs-java"
@@ -71,57 +71,57 @@ steps:
         ```javascript {style=abap}
         const searchLib = require('@groupdocs/groupdocs.search')
 
-        // Specify the directory for search index storage
+        // Define a directory for storing the search index
         const index = new searchLib.Index("c:/MyIndex");
 
-        // Choose the folder containing documents to search
+        // Specify the folder containing searchable documents
         index.add("c:/MyDocuments");
 
-        // Enable homophone search for words that sound similar
+        // Restrict search to specific file formats
         const options = new searchLib.SearchOptions();
         options.SearchDocumentFilter = 
             searchLib.SearchDocumentFilter.createFileExtension(".pptx");
 
-        // Run a complex search query
+        // Retrieve and process search results
         const result = index.search("Lorem");
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Advanced search & indexing capabilities"
-  description: "GroupDocs.Search for Node.js via Java provides powerful text search and indexing tools across 70+ document formats, making it easy to find and organize information."
+  title: "Advanced search capabilities"
+  description: "GroupDocs.Search for Node.js via Java enhances document search efficiency by indexing over 70 file formats. Optimize content retrieval with advanced search techniques."
   image: "/img/search/features_filters.webp" # 500x500 px
-  image_description: "Key Benefits of GroupDocs.Search"
+  image_description: "Key features of GroupDocs.Search"
   features:
     # feature loop
     - title: "Comprehensive text search"
-      content: "Locate text in multiple document types, including PDFs, Word files, and spreadsheets. Use exact matches, fuzzy search, and wildcards for refined results."
+      content: "Extract and locate text in popular document formats, such as PDFs, Word files, spreadsheets, and presentations. Supports fuzzy search, homophones, and wildcard queries."
 
     # feature loop
-    - title: "Efficient indexing for large data"
-      content: "Speed up searches by creating structured indexes, making it easier to retrieve information from large document collections."
+    - title: "Optimized indexing for performance"
+      content: "Accelerate searches by creating reusable indexes. Enhances speed and efficiency when working with large document collections."
 
     # feature loop
-    - title: "Supports 80+ languages"
-      content: "Search across documents in different languages, with automatic recognition of various word forms and keyboard layouts."
+    - title: "Multi-language support"
+      content: "Search through documents in over 80 languages. Recognizes keyboard layouts and word variations for better accuracy."
 
     # feature loop
-    - title: "Custom search settings"
-      content: "Adjust search options such as case sensitivity, date filters, and word exclusions to get precise results."
+    - title: "Customizable search options"
+      content: "Fine-tune search results with filters, regular expressions, case sensitivity, and other flexible settings."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Using search for PPTX documents"
+    - title: "Filter searchable documents"
       content: |
-        This example shows how to use search queries within PPTX documents.
+        Learn how to refine document searches using filters.
       code:
         title: "JavaScript"
         content: |
           ```javascript {style=abap}
           const searchLib = require('@groupdocs/groupdocs.search')
           
-          // Set the directory for search indexing
+          // Configure an index to exclude unwanted file formats
           IndexSettings settings = new IndexSettings();
           DocumentFilter fileExtensionFilter = 
             searchLib.DocumentFilter.createFileExtension(".odp", ".png", ".rtf");
@@ -132,13 +132,13 @@ more_features:
 
           Index index = new searchLib.Index("c:/MyIndex", settings);
               
-          // Provide the file path for document storage
+          // Specify the directory containing documents
           index.add("c:/MyDocuments");
 
-          // Enable fuzzy search for similar word detection
+          // Process search output for further use
           const result = index.Search("Lorem", options);
           
-          // Enable fuzzy search for similar word detection
+          // Process search output for further use
           console.log('Documents: ' + result.getDocumentCount());
           console.log('Occurrences: ' + result.getOccurrenceCount());
           ```
@@ -185,9 +185,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore key features"
+    title: "Key functionalities"
     exclude: "filters"
-    description: "Discover high-speed search features designed to enhance efficiency and accuracy."
+    description: "Perform fast and precise text searches across documents."
     items: 
           
         # operation loop 1
@@ -225,9 +225,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Search in a variety of documents"
+    title: "Search in diverse document formats"
     exclude: "PPTX"
-    description: "GroupDocs.Search works with over 70 file formats, including office documents, ensuring quick and accurate searches with indexing support."
+    description: "GroupDocs.Search supports over 70 file types, allowing efficient text search across various office and business documents."
     items: 
         # format loop 1
         - name: "Search in DOCX"

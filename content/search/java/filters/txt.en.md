@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-30T15:48:03
+date:  2025-01-30T16:44:28
 draft: false
 lang: en
 format: Txt
@@ -12,42 +12,42 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Find text in TXT docs with GroupDocs.Search for Java"
-head_description: "GroupDocs.Search for Java helps Java developers quickly search text within various document formats."
+head_title: "Search in TXT documents using Java"
+head_description: "GroupDocs.Search for Java adds powerful text search to Java applications, supporting various business document formats."
 
 ############################# Header ############################
-title: "Smart document text search" 
-description: "With GroupDocs.Search for Java, you can seamlessly search and extract text from multiple document types in your Java applications."
+title: "Find text in business documents" 
+description: "GroupDocs.Search for Java lets you search text in documents using flexible and precise queries. Easily integrate search functionality into Java applications."
 subtitle: "GroupDocs.Search for Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Get Free Trial"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/search/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "What does GroupDocs.Search do?"
+    title: "What is GroupDocs.Search?"
     link: "/search/java/"
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for Java](/search/java/) is a robust document search and indexing library that supports over 70 file formats, including PDF, Word, Excel, images, and ZIP archives. It enables fast, precise, and scalable search capabilities for large document collections.
+       [GroupDocs.Search for Java](/search/java/) is a robust library for fast text search and document indexing. It supports over 70 file formats, including industry standards like PDF, Word, Excel, and PowerPoint. Enhance your applications with high-speed, accurate search capabilities.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Perform textual searches in TXT files"
+    title: "How to search in TXT documents"
     content: |
-      [GroupDocs.Search](/search/java/) makes it easy to search TXT files using sophisticated logic and indexing, improving search accuracy in Java applications.
+      [GroupDocs.Search](/search/java/) allows fast and efficient text searches in TXT documents, perfect for Java applications.
       
-      1. Set up a directory to store the search index.
-      2. Choose a folder containing TXT files.
-      3. Define additional search options.
-      4. Execute the search and analyze the results.
+      1. Specify a folder to store the search index.
+      2. Select the folder containing your documents.
+      3. Configure search options to limit results to TXT documents.
+      4. Run the search and get results.
    
     code:
       platform: "java"
@@ -85,55 +85,55 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Set the directory for storing the search index
+        // Directory to store the reusable search index
         Index index = new Index("c:/MyIndex");
 
-        // Specify the folder containing searchable documents
+        // Folder containing the documents
         index.add("c:/MyDocuments");
 
-        // Enable homophone search to match words with similar pronunciation
+        // Filter searches by document format
         SearchOptions options = new SearchOptions();
         options.SearchDocumentFilter = 
             SearchDocumentFilter.createFileExtension(".txt");
 
-        // Execute an advanced search query
+        // Retrieve search results
         SearchResult result = index.search("Lorem");
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Enhanced search and indexing capabilities"
-  description: "GroupDocs.Search for Java simplifies text searching and indexing across 70+ document formats, providing efficient tools to manage and retrieve information quickly."
+  title: "Enhanced search capabilities"
+  description: "GroupDocs.Search for Java provides advanced text search across more than 70 file formats. Indexing speeds up searches and improves document management efficiency."
   image: "/img/search/features_filters.webp" # 500x500 px
-  image_description: "Core Features of GroupDocs.Search"
+  image_description: "Key features of GroupDocs.Search"
   features:
     # feature loop
-    - title: "Comprehensive text search"
-      content: "Find text across multiple document formats like PDFs, Word files, and spreadsheets. Use exact matches, fuzzy search, and wildcard operators for refined search results."
+    - title: "Powerful text search"
+      content: "Find text in popular document formats such as PDFs, Word files, presentations, and spreadsheets. Supports multiple search methods, including fuzzy search, homophones, and wildcards."
 
     # feature loop
-    - title: "Optimized indexing for large data"
-      content: "Create structured indexes to speed up searches, making it easy to navigate through extensive document repositories efficiently."
+    - title: "Optimized indexing for better performance"
+      content: "Create and reuse search indexes to enhance search speed and efficiency, especially in large document collections."
 
     # feature loop
-    - title: "Supports multiple languages"
-      content: "Perform searches in 80+ languages with built-in support for different keyboard layouts and word morphology variations, improving accuracy."
+    - title: "Multilingual search support"
+      content: "Search within documents written in over 80 languages. Detects different keyboard layouts and word variations for improved accuracy."
 
     # feature loop
-    - title: "Flexible search settings"
-      content: "Customize searches with options like case sensitivity, date-based filtering, and the ability to exclude specific words for precise results."
+    - title: "Customizable search options"
+      content: "Narrow down search results with filters, regular expressions, and other advanced search settings."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Implementing advanced search queries"
+    - title: "Filter documents before searching"
       content: |
-        This example illustrates how to use search queries to search within TXT docs efficiently.
+        Learn how to refine searches using filters
       code:
         title: "Java"
         content: |
           ```java {style=abap}
-          // Define the directory for search indexing
+          // Set up an index that excludes certain file formats
           IndexSettings settings = new IndexSettings();
           DocumentFilter fileExtensionFilter = 
             DocumentFilter.createFileExtension(".odp", ".png", ".rtf");
@@ -143,13 +143,13 @@ more_features:
 
           Index index = new Index("c:/MyIndex", settings);
               
-          // Provide the file path for the documents
+          // Specify the document storage path
           index.add("c:/MyDocuments");
 
-          // Enter the password for encrypted documents
+          // Retrieve search results
           SearchResult result = index.Search("Lorem", options);
           
-          // Activate fuzzy search to detect similar words
+          // Process and use search results
           System.out.println("Documents: " + result.getDocumentCount());
           System.out.println("Occurrences: " + result.getDocumentCount());
           ```
@@ -211,9 +211,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Key features overview"
+    title: "Key features"
     exclude: "filters"
-    description: "Discover high-performance text search functionalities designed for efficiency and precision."
+    description: "Perform precise and efficient text searches."
     items: 
           
         # operation loop 1
@@ -251,9 +251,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Find information across TXT documents with GroupDocs.Search"
+    title: "Search in business documents"
     exclude: "TXT"
-    description: "GroupDocs.Search supports over 70 formats, including office files, enabling fast searches with advanced indexing features."
+    description: "GroupDocs.Search supports over 70 file formats, making it easy to search through widely used office documents."
     items: 
         # format loop 1
         - name: "Search in DOCX"

@@ -1,71 +1,69 @@
 {
   "head": {
-    "title": "Find text in {{FileFormatUp}} with {{ProdShortName}} in {{EnvNameShort}}",
-    "description": "Use {{ProdFullName}} with {{ProgLang}} to search text efficiently in various document formats."
+    "title": "Search in {{FileFormatUp}} documents using {{EnvNameShort}}",
+    "description": "{{ProdFullName}} adds fast and accurate text search capabilities to {{ProgLang}} applications, supporting multiple document formats."
   },
   "header": {
-    "title": "Smart document search solution",
-    "description": "Easily locate text in different document formats using {{ProdFullName}}. Create advanced search queries within your {{EnvNameShort}} applications.",
+    "title": "Find text in business documents",
+    "description": "{{ProdFullName}} provides powerful and flexible search functionality for documents. Easily integrate text search into {{EnvNameShort}} applications.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Try for Free"
+    "action_title": "Download for free"
   },
   "about": {
-    "title": "Introduction to {{ProdShortName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a high-performance library for full-text search and document indexing. It supports 70+ file types, including PDF, Word, Excel, images, and ZIP archives, ensuring fast and accurate results."
+    "title": "What is {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a robust search and indexing library that enables fast text retrieval in documents. It supports over 70 file formats, including PDFs, Word, Excel, and PowerPoint, ensuring precise and efficient searches."
   },
   "more_features": {
-    "title": "Advanced search & indexing capabilities",
-    "description": "{{ProdFullName}} provides powerful text search and indexing tools across 70+ document formats, making it easy to find and organize information.",
-    "image_description": "Key Benefits of {{ProdShortName}}",
+    "title": "Advanced search capabilities",
+    "description": "{{ProdFullName}} enhances document search efficiency by indexing over 70 file formats. Optimize content retrieval with advanced search techniques.",
+    "image_description": "Key features of {{ProdShortName}}",
     "feature_1": {
       "title": "Comprehensive text search",
-      "content": "Locate text in multiple document types, including PDFs, Word files, and spreadsheets. Use exact matches, fuzzy search, and wildcards for refined results."
+      "content": "Extract and locate text in popular document formats, such as PDFs, Word files, spreadsheets, and presentations. Supports fuzzy search, homophones, and wildcard queries."
     },
     "feature_2": {
-      "title": "Efficient indexing for large data",
-      "content": "Speed up searches by creating structured indexes, making it easier to retrieve information from large document collections."
+      "title": "Optimized indexing for performance",
+      "content": "Accelerate searches by creating reusable indexes. Enhances speed and efficiency when working with large document collections."
     },
     "feature_3": {
-      "title": "Supports 80+ languages",
-      "content": "Search across documents in different languages, with automatic recognition of various word forms and keyboard layouts."
+      "title": "Multi-language support",
+      "content": "Search through documents in over 80 languages. Recognizes keyboard layouts and word variations for better accuracy."
     },
     "feature_4": {
-      "title": "Custom search settings",
-      "content": "Adjust search options such as case sensitivity, date filters, and word exclusions to get precise results."
+      "title": "Customizable search options",
+      "content": "Fine-tune search results with filters, regular expressions, case sensitivity, and other flexible settings."
     }
   },
   "formats": {
-    "title": "Search in a variety of documents",
-    "description": "{{ProdShortName}} works with over 70 file formats, including office documents, ensuring quick and accurate searches with indexing support."
+    "title": "Search in diverse document formats",
+    "description": "{{ProdShortName}} supports over 70 file types, allowing efficient text search across various office and business documents."
   },
   "operations": {
-    "title": "Explore key features",
-    "description": "Discover high-speed search features designed to enhance efficiency and accuracy."
+    "title": "Key functionalities",
+    "description": "Perform fast and precise text searches across documents."
   },
   "examples": {
-    "comment_1": "Specify the directory for search index storage",
-    "comment_2": "Choose the folder containing documents to search",
-    "comment_3": "Enable homophone search for words that sound similar",
-    "comment_4": "Run a complex search query"
+    "comment_1": "Define a directory for storing the search index",
+    "comment_2": "Specify the folder containing searchable documents",
+    "comment_3": "Restrict search to specific file formats",
+    "comment_4": "Retrieve and process search results"
   },
   "steps": {
-    "title": "Perform search in {{FileFormatUp}} files",
+    "title": "How to perform a search in {{FileFormatUp}} documents",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows you to execute searches in {{FileFormatUp}} files, refining results in {{EnvName}} applications.",
-      "step_1": "Define a storage folder for the search index.",
-      "step_2": "Select a folder with {{FileFormatUp}} files.",
-      "step_3": "Set additional search parameters.",
-      "step_4": "Run the search and analyze results."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes searching text in {{FileFormatUp}} documents simple and efficient for {{EnvName}} applications.",
+      "step_1": "Create a directory to store the search index.",
+      "step_2": "Choose the folder that contains the documents.",
+      "step_3": "Set search options to include only {{FileFormatUp}} files.",
+      "step_4": "Run the search and retrieve the results."
     }
   },
   "code_1": {
-    "title": "Using search for {{FileFormatUp}} documents",
-    "content": "This example shows how to use search queries within {{FileFormatUp}} documents.",
-    "comment_1": "Set the directory for search indexing",
-    "comment_2": "Provide the file path for document storage",
-    "comment_3": "Enter the password for protected files",
-    "comment_4": "Enable fuzzy search for similar word detection",
-    "comment_5": "Extract search results",
-    "comment_6": "Process and review the results"
+    "title": "Filter searchable documents",
+    "content": "Learn how to refine document searches using filters.",
+    "comment_1": "Configure an index to exclude unwanted file formats",
+    "comment_2": "Specify the directory containing documents",
+    "comment_3": "Retrieve and display search results",
+    "comment_4": "Process search output for further use"
   }
 }

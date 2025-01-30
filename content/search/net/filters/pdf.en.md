@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-30T15:48:03
+date:  2025-01-30T16:44:28
 draft: false
 lang: en
 format: Pdf
@@ -13,18 +13,18 @@ platform_tag: "net"
 
 ############################# Head ############################
 head_title: "Search in PDF documents using .NET"
-head_description: "GroupDocs.Search for .NET is able to enrich C# applications by efficient text searches in various business document formats."
+head_description: "GroupDocs.Search for .NET enhances C# applications with efficient text search across various business document formats."
 
 ############################# Header ############################
 title: "Search for text in business documents" 
-description: "GroupDocs.Search for .NET provides text search in your documents, by powerful and flexible queries. Add search ability to .NET applications."
+description: "GroupDocs.Search for .NET enables powerful and flexible text searches in your documents. Easily integrate search functionality into .NET applications."
 subtitle: "GroupDocs.Search for .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/search/net/"
       
 ############################# About ############################
@@ -35,19 +35,19 @@ about:
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for .NET](/search/net/) is a mature library designed for efficient text search and documents indexing. We support over 70 file formats, including such industry standard docs as PDF, Word, Excel, Presentation, etc. Fast and accurate search might improve your solution.
+       [GroupDocs.Search for .NET](/search/net/) is a powerful library for efficient text search and document indexing. It supports over 70 file formats, including industry-standard documents such as PDF, Word, Excel, and PowerPoint. Improve search performance with fast and accurate results.
 
 ############################# Steps ############################
 steps:
     enable: true
     title: "How to search in PDF data"
     content: |
-      [GroupDocs.Search](/search/net/) provides efficient search for PDF documents, which could be used in .NET apps.
+      [GroupDocs.Search](/search/net/) enables efficient text searches in PDF documents, making it ideal for .NET applications.
       
-      1. Set up the folder to store the search index.
-      2. Choose the folder containing files.
-      3. Provide search options to process only PDF documents.
-      4. Get search results.
+      1. Set up a folder for storing the search index.
+      2. Select the folder containing your files.
+      3. Configure search options to process only PDF documents.
+      4. Execute the search and retrieve results.
    
     code:
       platform: "net"
@@ -69,18 +69,18 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Path for the reusable search index
+        // Path to store the reusable search index
         Index index = new Index("c:/MyIndex");
 
-        // Folder with documents
+        // Folder containing documents
         index.Add("c:/MyDocuments");
 
-        // Search only in documents with demanded format
+        // Search only within specific file formats
         SearchOptions options = new SearchOptions();
         options.SearchDocumentFilter = 
             SearchDocumentFilter.CreateFileExtension(".pdf");
 
-        // Get search result
+        // Retrieve search results
         SearchResult result = index.Search("Lorem", options);
         ```            
 
@@ -88,36 +88,36 @@ steps:
 more_features:
   enable: true
   title: "Advanced searching features"
-  description: "GroupDocs.Search for .NET implements sophisticated text search across more than 70 file formats. Index constructing increases efficiency of locating and managing document information."
+  description: "GroupDocs.Search for .NET enables sophisticated text searches across more than 70 file formats. Indexing improves search efficiency and helps manage document content effectively."
   image: "/img/search/features_filters.webp" # 500x500 px
   image_description: "Main features of GroupDocs.Search"
   features:
     # feature loop
     - title: "Advanced text search"
-      content: "Get suitable text from business documents of popular types, including PDFs, Word, Presentations and spreadsheets. Many types of search like fuzzy search, homophone search, wildcards, etc. are supported."
+      content: "Extract relevant text from popular business documents, including PDFs, Word files, presentations, and spreadsheets. Supports multiple search techniques such as fuzzy search, homophone detection, and wildcards."
 
     # feature loop
-    - title: "Building search index increase usability"
-      content: "Build and reuse search indexes in order to increase efficiency. Indexing optimizes searches across extensive document collections."
+    - title: "Optimized indexing for faster searches"
+      content: "Build and reuse search indexes to enhance search speed. Indexing optimizes performance when searching through large document collections."
 
     # feature loop
-    - title: "Frequently used languages support"
-      content: "Searches in documents written on over 80 languages. Use different keyboard layouts and word variations to improve accuracy."
+    - title: "Support for multiple languages"
+      content: "Perform searches in documents written in over 80 languages. Detects different keyboard layouts and word variations to improve accuracy."
 
     # feature loop
     - title: "Flexible search settings"
-      content: "Reduce amount of result data by using various options, settings, filters, regular expressions."
+      content: "Refine search results with customizable options, including filters, regular expressions, and case sensitivity settings."
       
   code_samples_ext:
     # code sample ext loop
     - title: "Filter documents to be processed"
       content: |
-        Examine how to reduce number of processed docs by filters.
+        Learn how to narrow down document searches using filters
       code:
         title: "C#"
         content: |
           ```csharp {style=abap}
-          // Provide search index not considering some formats.
+          // Set up an index that excludes certain file formats
           IndexSettings settings = new IndexSettings();
           DocumentFilter fileExtensionFilter = 
             DocumentFilter.CreateFileExtension(".odp", ".png", ".rtf");
@@ -127,13 +127,13 @@ more_features:
 
           Index index = new Index("c:/MyIndex", settings);
               
-          // Path to documents
+          // Specify the document directory
           index.Add("c:/MyDocuments");
 
           // Retrieve search results
           SearchResult result = index.Search("Lorem");
           
-          // Use search results
+          // Process and use the search output
           Console.WriteLine("Documents: " + result.DocumentCount);
           Console.WriteLine("Occurrences: " + result.OccurrenceCount);
           ```
@@ -182,7 +182,7 @@ more_operations:
     enable: true
     title: "Key features"
     exclude: "filters"
-    description: "Use effective data search procedures."
+    description: "Perform accurate and efficient data searches."
     items: 
           
         # operation loop 1
@@ -222,7 +222,7 @@ more_formats:
     enable: true
     title: "Find data in your business documents"
     exclude: "PDF"
-    description: "Supporting 70+ file formats GroupDocs.Search enable processing of the most popular office documents."
+    description: "GroupDocs.Search supports 70+ file formats, allowing efficient processing and searching of popular office documents."
     items: 
         # format loop 1
         - name: "Search in DOCX"

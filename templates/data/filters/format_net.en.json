@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Search in {{FileFormatUp}} documents using {{EnvNameShort}}",
+    "description": "{{ProdFullName}} is able to enrich {{ProgLang}} applications by efficient text searches in various business document formats."
+  },
+  "header": {
+    "title": "Search for text in business documents",
+    "description": "{{ProdFullName}} provides text search in your documents, by powerful and flexible queries. Add search ability to {{EnvNameShort}} applications.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download for Free"
+  },
+  "about": {
+    "title": "What is {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a mature library designed for efficient text search and documents indexing. We support over 70 file formats, including such industry standard docs as PDF, Word, Excel, Presentation, etc. Fast and accurate search might improve your solution."
+  },
+  "more_features": {
+    "title": "Advanced searching features",
+    "description": "{{ProdFullName}} implements sophisticated text search across more than 70 file formats. Index constructing increases efficiency of locating and managing document information.",
+    "image_description": "Main features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Advanced text search",
+      "content": "Get suitable text from business documents of popular types, including PDFs, Word, Presentations and spreadsheets. Many types of search like fuzzy search, homophone search, wildcards, etc. are supported."
+    },
+    "feature_2": {
+      "title": "Building search index increase usability",
+      "content": "Build and reuse search indexes in order to increase efficiency. Indexing optimizes searches across extensive document collections."
+    },
+    "feature_3": {
+      "title": "Frequently used languages support",
+      "content": "Searches in documents written on over 80 languages. Use different keyboard layouts and word variations to improve accuracy."
+    },
+    "feature_4": {
+      "title": "Flexible search settings",
+      "content": "Reduce amount of result data by using various options, settings, filters, regular expressions."
+    }
+  },
+  "formats": {
+    "title": "Find data in your business documents",
+    "description": "Supporting 70+ file formats {{ProdShortName}} enable processing of the most popular office documents."
+  },
+  "operations": {
+    "title": "Key features",
+    "description": "Use effective data search procedures."
+  },
+  "examples": {
+    "comment_1": "Path for the reusable search index",
+    "comment_2": "Folder with documents",
+    "comment_3": "Search only in documents with demanded format",
+    "comment_4": "Get search result"
+  },
+  "steps": {
+    "title": "How to search in {{FileFormatUp}} data",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) provides efficient search for {{FileFormatUp}} documents, which could be used in {{EnvName}} apps.",
+      "step_1": "Set up the folder to store the search index.",
+      "step_2": "Choose the folder containing files.",
+      "step_3": "Provide search options to process only {{FileFormatUp}} documents.",
+      "step_4": "Get search results."
+    }
+  },
+  "code_1": {
+    "title": "Filter documents to be processed",
+    "content": "Examine how to reduce number of processed docs by filters",
+    "comment_1": "Provide search index not considering some formats",
+    "comment_2": "Path to documents",
+    "comment_3": "Retrieve search results",
+    "comment_4": "Use search results"
+  }
+}

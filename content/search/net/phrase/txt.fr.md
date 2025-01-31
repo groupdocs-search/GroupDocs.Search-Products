@@ -2,7 +2,7 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "fr/search/net/phrase /txt/"
+path: "fr/search/net/phrase/txt/"
 otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM ODT OTT RTF XLS XLT XLSX XLSM XLSB XLTX XLTM XLA XLAM ODS OTS CSV TSV XML PPT PPS POT PPTX PPTM POTX POTM PPSX PPSM ODP PST OST EML EMLX MSG ONE ZIP XHTML MHTML MD CHM EPUB  FB2 
 
 ############################# Head ############################

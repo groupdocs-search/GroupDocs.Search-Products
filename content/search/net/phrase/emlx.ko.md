@@ -2,7 +2,7 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "ko/search/net/phrase /emlx/"
+path: "ko/search/net/phrase/emlx/"
 otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF XLS XLT XLSX XLSM XLSB XLTX XLTM XLA XLAM ODS OTS CSV TSV XML PPT PPS POT PPTX PPTM POTX POTM PPSX PPSM ODP PST OST EML MSG ONE ZIP XHTML MHTML MD CHM EPUB  FB2 
 
 ############################# Head ############################

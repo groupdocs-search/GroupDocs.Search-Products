@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Search phrases in {{FileFormatUp}} using {{EnvNameShort}}",
+    "description": "The {{ProdFullName}} includes in {{ProgLang}} applications abilities to search text or whole phrases in document content."
+  },
+  "header": {
+    "title": "Search for phrase in documents",
+    "description": "Search for specific phrases using {{ProdFullName}}. Enrich {{EnvNameShort}} applications by efficient data search procedures.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download"
+  },
+  "about": {
+    "title": "{{ProdShortName}} features",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive library for searching and indexing text in documents. It supports over 70 file formats, such as PDF, Word, Excel, images, and ZIP files, enabling efficient processing of large amounts of information."
+  },
+  "more_features": {
+    "title": "Be known about {{EnvNameShort}} document search engine",
+    "description": "The {{ProdFullName}} library allows search for specific phrases in 70+ file formats. Easily locate and manage data using our search tools.",
+    "image_description": "Main {{ProdShortName}} features",
+    "feature_1": {
+      "title": "Phrase search",
+      "content": "Search for phrases across business documents, including PDFs, Words, Presentations and Spreadsheets. If you do not know the exact phrase use wildcards and other options."
+    },
+    "feature_2": {
+      "title": "Data indexing",
+      "content": "Reusable search indexes allows to make document search more efficient. Create document data index structure and use it for text and phrases searching."
+    },
+    "feature_3": {
+      "title": "Languages support",
+      "content": "Process documents written in 80 languages, using different keyboard layouts support and morphological word forms to enhance search efficiency."
+    },
+    "feature_4": {
+      "title": "Flexible search options",
+      "content": "Our search options opens access to features like case sensitivity, fuzzy and homophone search, documents filtering and many other."
+    }
+  },
+  "formats": {
+    "title": "Phrase search in business document",
+    "description": "{{ProdShortName}} provide search in 70+ document formats. Leverage search options and use indexing to save time and effort."
+  },
+  "operations": {
+    "title": "Advanced features",
+    "description": "Explore advanced and efficient search functionalities."
+  },
+  "examples": {
+    "comment_1": "Index path",
+    "comment_2": "Documents folder",
+    "comment_3": "Set up searching options",
+    "comment_4": "Perform search"
+  },
+  "steps": {
+    "title": "How to search phrases in {{FileFormatUp}} documents",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes searching data in {{FileFormatUp}} documents easier. It provides many options to get appropriate search results in {{EnvName}} applications.",
+      "step_1": "Folder of search index.",
+      "step_2": "Folder containing {{FileFormatUp}} files.",
+      "step_3": "Provide search options.",
+      "step_4": "Get search results."
+    }
+  },
+  "code_1": {
+    "title": "Using advanced search techniques",
+    "content": "How to construct queries for searching in {{FileFormatUp}}.",
+    "comment_1": "Folder for the search index",
+    "comment_2": "Path to the documents to be searched",
+    "comment_3": "Create a search query for specific phrase",
+    "comment_4": "Retrieve the search results",
+    "comment_5": "Process the search results"
+  }
+}

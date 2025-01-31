@@ -1,69 +1,70 @@
 {
   "head": {
-    "title": "Boolean {{FileFormatUp}} search via {{EnvNameShort}}",
-    "description": "Use {{ProdFullName}} API to execute advanced searches in document content with boolean operators like AND, OR, and NOT, tailored for {{ProgLang}} developers."
+    "title": "Search phrases in {{FileFormatUp}} using {{EnvNameShort}}",
+    "description": "{{ProdFullName}} adds powerful phrase search functionality to {{ProgLang}} applications for efficient document search."
   },
   "header": {
-    "title": "Perform boolean logic searches",
-    "description": "With {{ProdFullName}}, you can create advanced search queries using boolean operators (AND, OR, NOT) seamlessly within your {{EnvNameShort}} environment.",
+    "title": "Find phrases in documents",
+    "description": "Quickly locate specific phrases with {{ProdFullName}}. Integrate fast and accurate search capabilities into your {{EnvNameShort}} applications.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Now"
+    "action_title": "Download"
   },
   "about": {
-    "title": "What is {{ProdShortName}}?",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a robust tool for searching and indexing text within documents. It supports over 70 formats like PDF, Word, Excel, images, and ZIP files, making it easy to process large amounts of information efficiently."
+    "title": "{{ProdShortName}} features",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a high-performance library for indexing and searching text in documents. It supports over 70 file formats, including PDFs, Word documents, Excel spreadsheets, images, and ZIP archives, ensuring accurate and fast search results."
   },
   "more_features": {
-    "title": "Powerful tools for document search and indexing",
-    "description": "{{ProdFullName}} streamlines text search and indexing for over 70 file types, helping you find and manage information faster and with precision.",
-    "image_description": "Key features of {{ProdShortName}}",
+    "title": "Discover {{EnvNameShort}} document search engine",
+    "description": "{{ProdFullName}} enables phrase searches across 70+ file formats, making it easy to find and organize data with advanced search features.",
+    "image_description": "Key capabilities of {{ProdShortName}}",
     "feature_1": {
-      "title": "Enhanced text search",
-      "content": "Find text quickly across various formats such as PDFs, Word documents, and spreadsheets. Use features like exact matches, wildcard searches, and fuzzy search for precise results."
+      "title": "Phrase search",
+      "content": "Find exact phrases in business documents like PDFs, Word files, presentations, and spreadsheets. Use wildcards and flexible search options when the full phrase is unknown."
     },
     "feature_2": {
-      "title": "Efficient data indexing",
-      "content": "Build and manage indexes to speed up searches in large document collections. Indexing ensures fast and structured access to your data."
+      "title": "Optimized data indexing",
+      "content": "Boost search performance by creating reusable indexes. Structured indexing speeds up document searches and improves accuracy."
     },
     "feature_3": {
-      "title": "Multilingual support",
-      "content": "Search in documents written in over 80 languages. Morphological support and keyboard layout compatibility enhance search results in different languages."
+      "title": "Multi-language compatibility",
+      "content": "Search documents in over 80 languages with support for different keyboard layouts and morphological word variations, ensuring precise results."
     },
     "feature_4": {
-      "title": "Flexible search settings",
-      "content": "Customize your search by enabling case sensitivity, applying date filters, or skipping specific words and data during indexing."
+      "title": "Advanced search options",
+      "content": "Customize searches with case sensitivity, fuzzy matching, homophone detection, document filtering, and other powerful features."
     }
   },
   "formats": {
-    "title": "Search popular document formats",
-    "description": "{{ProdShortName}} supports over 70 file formats, providing flexible search rules and efficient indexing to save time and effort."
+    "title": "Search phrases in business documents",
+    "description": "{{ProdShortName}} supports phrase searches in 70+ document formats. Use advanced options and indexing to streamline the search process."
   },
   "operations": {
-    "title": "Key capabilities of {{ProdShortName}}",
-    "description": "Unlock advanced, efficient, and customizable search features."
+    "title": "Advanced search capabilities",
+    "description": "Leverage powerful search features for faster and more accurate results."
   },
   "examples": {
-    "comment_1": "Set the location for the index folder",
-    "comment_2": "Specify the folder containing documents to search",
-    "comment_3": "Execute a search query with advanced logic"
+    "comment_1": "Specify the path for storing the search index",
+    "comment_2": "Set the folder containing documents",
+    "comment_3": "Configure search settings",
+    "comment_4": "Run the search query"
   },
   "steps": {
-    "title": "How to search in {{FileFormatUp}} documents using boolean operators",
+    "title": "How to find phrases in {{FileFormatUp}} documents",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows you to search content in {{FileFormatUp}} files effectively. With boolean logic, you can refine your search queries in {{EnvName}} applications for improved accuracy.",
-      "step_1": "Set up the folder to store the search index.",
-      "step_2": "Select the folder containing {{FileFormatUp}} files for the search.",
-      "step_3": "Run the search query and retrieve results.",
-      "step_4": "Process and analyze the search results."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes phrase searching in {{FileFormatUp}} documents easy. Apply different search options to refine results in {{EnvName}} applications.",
+      "step_1": "Set up a search index folder.",
+      "step_2": "Define the folder containing {{FileFormatUp}} files.",
+      "step_3": "Configure search parameters.",
+      "step_4": "Retrieve and process search results."
     }
   },
   "code_1": {
-    "title": "Example of advanced boolean search",
-    "content": "This example demonstrates how to create Boolean-based queries for searching content in {{FileFormatUp}} documents.",
-    "comment_1": "Define the folder for the search index",
-    "comment_2": "Provide the location of the documents to search",
-    "comment_3": "Build a query using Boolean operators",
-    "comment_4": "Retrieve search results",
-    "comment_5": "Process and use the search results"
+    "title": "Using advanced search techniques",
+    "content": "Learn how to construct queries for searching in {{FileFormatUp}}.",
+    "comment_1": "Define the search index directory",
+    "comment_2": "Set the path to the target documents",
+    "comment_3": "Create a query for the desired phrase",
+    "comment_4": "Retrieve the search results",
+    "comment_5": "Process and use the results"
   }
 }

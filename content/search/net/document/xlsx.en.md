@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-29T16:07:41
+date:  2025-02-03T21:11:52
 draft: false
 lang: en
 format: Xlsx
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for .NET](/search/net/) is a powerful library designed for full-text search and indexing in documents. It supports over 70 file formats, including PDF, Word, Excel, images, and ZIP files, ensuring fast and accurate search results.
+       [GroupDocs.Search for .NET](/search/net/) is a powerful library designed for full-text search and indexing in documents. It supports over 70 file formats, including PDF, Word, PowerPoint, Excel, images, and ZIP files, ensuring fast and accurate search results.
 
 ############################# Steps ############################
 steps:
@@ -93,7 +93,7 @@ more_features:
   features:
     # feature loop
     - title: "Powerful text search"
-      content: "Search for text across multiple document types, including PDFs, Word files, and spreadsheets. Use features like exact matches, fuzzy search, and wildcards to refine your results."
+      content: "Search for text across multiple document types, including PDFs, Word documents, PowerPoint presentations, and spreadsheets. Use features like exact matches, fuzzy search, and wildcards to refine your results."
 
     # feature loop
     - title: "Fast indexing for large data sets"

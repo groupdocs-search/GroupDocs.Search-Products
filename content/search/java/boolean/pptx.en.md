@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-29T16:07:41
+date:  2025-02-03T21:11:50
 draft: false
 lang: en
 format: Pptx
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for Java](/search/java/) is a versatile library designed for text search and data indexing in documents. It supports over 70 file types, including PDF, Word, Excel, images, and ZIP archives, enabling efficient searches through large data collections.
+       [GroupDocs.Search for Java](/search/java/) is a versatile library designed for text search and data indexing in documents. It supports over 70 file types, including PDF, Word, Excel, PowerPoint images, and ZIP archives, enabling efficient searches through large data collections.
 
 ############################# Steps ############################
 steps:
@@ -105,7 +105,7 @@ more_features:
   features:
     # feature loop
     - title: "Comprehensive text search"
-      content: "Search across multiple formats like PDFs, Word documents, spreadsheets, and more. Use options such as exact matching, fuzzy search, and wildcard queries to refine results."
+      content: "Search across multiple formats like PDFs, Word documents, presentations, spreadsheets, and more. Use options such as exact matching, fuzzy search, and wildcard queries to refine results."
 
     # feature loop
     - title: "Efficient data indexing"

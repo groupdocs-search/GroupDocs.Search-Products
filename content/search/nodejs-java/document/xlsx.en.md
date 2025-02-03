@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-29T16:07:41
+date:  2025-02-03T21:11:52
 draft: false
 lang: en
 format: Xlsx
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) is a high-performance library for full-text search and document indexing. It supports 70+ file types, including PDF, Word, Excel, images, and ZIP archives, ensuring fast and accurate results.
+       [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) is a high-performance library for full-text search and document indexing. It supports 70+ file types, including PDF, Word, PowerPoint, Excel, images, and ZIP archives, ensuring fast and accurate results.
 
 ############################# Steps ############################
 steps:
@@ -78,11 +78,11 @@ steps:
         index.add("c:/MyDocuments");
 
         // Enable homophone search for words that sound similar
-        const options = new SearchOptions();
+        const options = new searchLib.SearchOptions();
         options.setUseHomophoneSearch(true);
 
         // Run a complex search query
-        const result = index.search("metis");
+        const result = index.search("metis", options);
         ```            
 
 ############################# More features ############################
@@ -95,7 +95,7 @@ more_features:
   features:
     # feature loop
     - title: "Comprehensive text search"
-      content: "Locate text in multiple document types, including PDFs, Word files, and spreadsheets. Use exact matches, fuzzy search, and wildcards for refined results."
+      content: "Locate text in multiple document types, including PDFs, Word documents, PowerPoint presentations, and spreadsheets. Use exact matches, fuzzy search, and wildcards for refined results."
 
     # feature loop
     - title: "Efficient indexing for large data"
@@ -130,12 +130,12 @@ more_features:
           index.getDictionaries().getDocumentPasswords().add("protected.xlsx", '123456');
 
           // Enable fuzzy search for similar word detection
-          const options = new SearchOptions();
+          const options = new searchLib.SearchOptions();
           options.getFuzzySearch().setEnabled(true);
           options.getFuzzySearch().setFuzzyAlgorithm(new searchLib.SimilarityLevel(0.8));
 
           // Extract search results
-          const result = index.Search("Loarem", options);
+          const result = index.search("Loarem", options);
           
           // Process and review the results
           console.log('Documents: ' + result.getDocumentCount());

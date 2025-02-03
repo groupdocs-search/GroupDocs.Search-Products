@@ -11,7 +11,7 @@
   },
   "about": {
     "title": "What does {{ProdShortName}} do?",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a robust document search and indexing library that supports over 70 file formats, including PDF, Word, Excel, images, and ZIP archives. It enables fast, precise, and scalable search capabilities for large document collections."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a robust document search and indexing library that supports over 70 file formats, including PDF, Word, PowerPoint, Excel, images, and ZIP archives. It enables fast, precise, and scalable search capabilities for large document collections."
   },
   "more_features": {
     "title": "Enhanced search and indexing capabilities",
@@ -19,7 +19,7 @@
     "image_description": "Core Features of {{ProdShortName}}",
     "feature_1": {
       "title": "Comprehensive text search",
-      "content": "Find text across multiple document formats like PDFs, Word files, and spreadsheets. Use exact matches, fuzzy search, and wildcard operators for refined search results."
+      "content": "Find text across multiple document formats like PDFs, Word documents, PowerPoint presentations, and spreadsheets. Use exact matches, fuzzy search, and wildcard operators for refined search results."
     },
     "feature_2": {
       "title": "Optimized indexing for large data",

@@ -149,7 +149,7 @@ more_features:
           index.add("c:/MyDocuments");
 
           // <% "{code_1.comment_3}" %>
-          SearchResult result = index.Search("Lorem", options);
+          SearchResult result = index.search("Lorem", options);
           
           // <% "{code_1.comment_4}" %>
           System.out.println("Documents: " + result.getDocumentCount());

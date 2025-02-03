@@ -143,14 +143,14 @@ more_features:
           // <% "{code_1.comment_3}" %>
           SearchQuery wordQuery = SearchQuery.createWordQuery("Lorem");
 
-          // <% "{code_1.comment_5}" %>
+          // <% "{code_1.comment_4}" %>
           SearchOptions options = new SearchOptions();
           options.setUseCaseSensitiveSearch(true);
 
-          // <% "{code_1.comment_6}" %>
+          // <% "{code_1.comment_5}" %>
           SearchResult result = index.search(wordQuery, options);
           
-          // <% "{code_1.comment_7}" %>
+          // <% "{code_1.comment_6}" %>
           System.out.println("Documents: " + result.getDocumentCount());
           System.out.println("Occurrences: " + result.getDocumentCount());
           ```

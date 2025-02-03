@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-29T16:07:41
+date:  2025-02-03T21:11:52
 draft: false
 lang: en
 format: Txt
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for Java](/search/java/) is a robust document search and indexing library that supports over 70 file formats, including PDF, Word, Excel, images, and ZIP archives. It enables fast, precise, and scalable search capabilities for large document collections.
+       [GroupDocs.Search for Java](/search/java/) is a robust document search and indexing library that supports over 70 file formats, including PDF, Word, PowerPoint, Excel, images, and ZIP archives. It enables fast, precise, and scalable search capabilities for large document collections.
 
 ############################# Steps ############################
 steps:
@@ -96,7 +96,7 @@ steps:
         options.setUseHomophoneSearch(true);
 
         // Execute an advanced search query
-        SearchResult result = index.search("metis");
+        SearchResult result = index.search("metis", options);
         ```            
 
 ############################# More features ############################
@@ -109,7 +109,7 @@ more_features:
   features:
     # feature loop
     - title: "Comprehensive text search"
-      content: "Find text across multiple document formats like PDFs, Word files, and spreadsheets. Use exact matches, fuzzy search, and wildcard operators for refined search results."
+      content: "Find text across multiple document formats like PDFs, Word documents, PowerPoint presentations, and spreadsheets. Use exact matches, fuzzy search, and wildcard operators for refined search results."
 
     # feature loop
     - title: "Optimized indexing for large data"

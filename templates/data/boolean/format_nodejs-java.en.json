@@ -11,7 +11,7 @@
   },
   "about": {
     "title": "What is {{ProdShortName}}?",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a robust tool for searching and indexing text within documents. It supports over 70 formats like PDF, Word, Excel, images, and ZIP files, making it easy to process large amounts of information efficiently."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a robust tool for searching and indexing text within documents. It supports over 70 formats like PDF, Word, Excel, PowerPoint, images, and ZIP files, making it easy to process large amounts of information efficiently."
   },
   "more_features": {
     "title": "Powerful tools for document search and indexing",
@@ -19,7 +19,7 @@
     "image_description": "Key features of {{ProdShortName}}",
     "feature_1": {
       "title": "Enhanced text search",
-      "content": "Find text quickly across various formats such as PDFs, Word documents, and spreadsheets. Use features like exact matches, wildcard searches, and fuzzy search for precise results."
+      "content": "Find text quickly across various formats such as PDFs, Word documents, presentations, and spreadsheets. Use features like exact matches, wildcard searches, and fuzzy search for precise results."
     },
     "feature_2": {
       "title": "Efficient data indexing",

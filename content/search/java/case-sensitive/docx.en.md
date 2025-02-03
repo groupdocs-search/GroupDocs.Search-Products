@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-27T20:14:10
+date:  2025-02-03T21:11:51
 draft: false
 lang: en
 format: Docx
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for Java](/search/java/) is a versatile tool for text search and indexing across various documents. It supports over 70 formats like PDFs, Word files, Excel sheets, images, and ZIPs, enabling you to efficiently handle extensive datasets.
+       [GroupDocs.Search for Java](/search/java/) is a versatile tool for text search and indexing across various documents. It supports over 70 formats like PDFs, Word files, PowePoint presentations, Excel sheets, images, and ZIPs, enabling you to efficiently handle extensive datasets.
 
 ############################# Steps ############################
 steps:
@@ -109,7 +109,7 @@ more_features:
   features:
     # feature loop
     - title: "Flexible Text Search"
-      content: "Search through documents such as PDFs, Word files, and spreadsheets with ease. Use tools like exact match, fuzzy search, and wildcard support to refine your results."
+      content: "Search through documents such as PDFs, Word files, spreadsheets, and presentations with ease. Use tools like exact match, fuzzy search, and wildcard support to refine your results."
 
     # feature loop
     - title: "Efficient Index Management"
@@ -141,14 +141,14 @@ more_features:
           // Set up a search query
           SearchQuery wordQuery = SearchQuery.createWordQuery("Lorem");
 
-          // Perform the document search
+          // Activate case sensitivity in search options
           SearchOptions options = new SearchOptions();
           options.setUseCaseSensitiveSearch(true);
 
-          // Process the retrieved results
+          // Perform the document search
           SearchResult result = index.search(wordQuery, options);
           
-          // {code_1.comment_7}
+          // Process the retrieved results
           System.out.println("Documents: " + result.getDocumentCount());
           System.out.println("Occurrences: " + result.getDocumentCount());
           ```
@@ -177,7 +177,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/search/formats/search_case-sensitive.docx"
+            link: "/examples/search/formats/searchcase-sensitive.docx"
         links:
           #  loop
           - title: "More examples"

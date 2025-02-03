@@ -80,11 +80,11 @@ steps:
         index.add("c:/MyDocuments");
 
         // <% "{examples.comment_3}" %>
-        const options = new SearchOptions();
+        const options = new searchLib.SearchOptions();
         options.setUseHomophoneSearch(true);
 
         // <% "{examples.comment_4}" %>
-        const result = index.search("metis");
+        const result = index.search("metis", options);
         ```            
 
 ############################# More features ############################
@@ -132,12 +132,12 @@ more_features:
           index.getDictionaries().getDocumentPasswords().add("protected.<% get "fileformat" %>", '123456');
 
           // <% "{code_1.comment_4}" %>
-          const options = new SearchOptions();
+          const options = new searchLib.SearchOptions();
           options.getFuzzySearch().setEnabled(true);
           options.getFuzzySearch().setFuzzyAlgorithm(new searchLib.SimilarityLevel(0.8));
 
           // <% "{code_1.comment_5}" %>
-          const result = index.Search("Loarem", options);
+          const result = index.search("Loarem", options);
           
           // <% "{code_1.comment_6}" %>
           console.log('Documents: ' + result.getDocumentCount());

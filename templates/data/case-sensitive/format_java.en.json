@@ -11,7 +11,7 @@
   },
   "about": {
     "title": "Learn About {{ProdShortName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a versatile tool for text search and indexing across various documents. It supports over 70 formats like PDFs, Word files, Excel sheets, images, and ZIPs, enabling you to efficiently handle extensive datasets."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a versatile tool for text search and indexing across various documents. It supports over 70 formats like PDFs, Word files, PowePoint presentations, Excel sheets, images, and ZIPs, enabling you to efficiently handle extensive datasets."
   },
   "more_features": {
     "title": "Enhanced Search and Indexing Tools",
@@ -19,7 +19,7 @@
     "image_description": "Highlights of {{ProdShortName}}",
     "feature_1": {
       "title": "Flexible Text Search",
-      "content": "Search through documents such as PDFs, Word files, and spreadsheets with ease. Use tools like exact match, fuzzy search, and wildcard support to refine your results."
+      "content": "Search through documents such as PDFs, Word files, spreadsheets, and presentations with ease. Use tools like exact match, fuzzy search, and wildcard support to refine your results."
     },
     "feature_2": {
       "title": "Efficient Index Management",

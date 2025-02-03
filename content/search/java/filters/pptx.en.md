@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-30T16:44:28
+date:  2025-02-03T21:11:53
 draft: false
 lang: en
 format: Pptx
@@ -147,7 +147,7 @@ more_features:
           index.add("c:/MyDocuments");
 
           // Retrieve search results
-          SearchResult result = index.Search("Lorem", options);
+          SearchResult result = index.search("Lorem", options);
           
           // Process and use search results
           System.out.println("Documents: " + result.getDocumentCount());

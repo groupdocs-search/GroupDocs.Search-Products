@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-27T20:14:10
+date:  2025-02-03T21:11:51
 draft: false
 lang: en
 format: Pptx
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_search.svg" # 480 X 400
     content: |
-       [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) is a robust tool for searching and indexing text within documents. It supports over 70 formats like PDF, Word, Excel, images, and ZIP files, making it easy to process large amounts of information efficiently.
+       [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) is a robust tool for searching and indexing text within documents. It supports over 70 formats like PDF, Word, Excel, PowerPoint, images, and ZIP files, making it easy to process large amounts of information efficiently.
 
 ############################# Steps ############################
 steps:
@@ -91,7 +91,7 @@ more_features:
   features:
     # feature loop
     - title: "Enhanced text search"
-      content: "Find text quickly across various formats such as PDFs, Word documents, and spreadsheets. Use features like exact matches, wildcard searches, and fuzzy search for precise results."
+      content: "Find text quickly across various formats such as PDFs, Word documents, presentations, and spreadsheets. Use features like exact matches, wildcard searches, and fuzzy search for precise results."
 
     # feature loop
     - title: "Efficient data indexing"

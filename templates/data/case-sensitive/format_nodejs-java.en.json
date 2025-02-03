@@ -11,7 +11,7 @@
   },
   "about": {
     "title": "What is {{ProdShortName}}?",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful library for searching and indexing text in documents. It supports over 70 formats, including PDFs, Word, Excel, images, and ZIP files, enabling efficient handling of large amounts of data."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful library for searching and indexing text in documents. It supports over 70 formats, including PDFs, Word, Excel, PowePoint, images, and ZIP files, enabling efficient handling of large amounts of data."
   },
   "more_features": {
     "title": "Key Features for Document Search and Indexing",
@@ -19,7 +19,7 @@
     "image_description": "Core Features of {{ProdShortName}}",
     "feature_1": {
       "title": "Comprehensive Text Search",
-      "content": "Find text in various document types like PDFs, Word files, and spreadsheets. Use options such as exact matches, fuzzy searches, and wildcards for accurate results."
+      "content": "Find text in various document types like PDFs, Word files, spreadsheets, and presentations. Use options such as exact matches, fuzzy searches, and wildcards for accurate results."
     },
     "feature_2": {
       "title": "Efficient Data Indexing",

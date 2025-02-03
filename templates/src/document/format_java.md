@@ -98,7 +98,7 @@ steps:
         options.setUseHomophoneSearch(true);
 
         // <% "{examples.comment_4}" %>
-        SearchResult result = index.search("metis");
+        SearchResult result = index.search("metis", options);
         ```            
 
 ############################# More features ############################

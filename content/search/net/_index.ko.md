@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-09T15:38:59
+date: 2025-02-03T08:17:12
 draft: false
 
 lang: ko
@@ -62,7 +62,7 @@ code:
     // 예를 들어, 특정 단어 또는 구문 검색
     // 'affect', 'effect', 'principles', 'principally'
     SearchResult results = 
-        index.Search("'"?ffect & princip?(2~4)"'");
+        index.Search("?ffect & princip?(2~4)");
     ```
 
 ############################# Overview ############################

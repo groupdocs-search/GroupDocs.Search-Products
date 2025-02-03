@@ -64,7 +64,7 @@ code:
     // <% "{index-content.code_comment_3}" %>
     // 'affect', 'effect', 'principles', 'principally'
     SearchResult results = 
-        index.Search("'"?ffect & princip?(2~4)"'");
+        index.Search("?ffect & princip?(2~4)");
     ```
 
 ############################# Overview ############################

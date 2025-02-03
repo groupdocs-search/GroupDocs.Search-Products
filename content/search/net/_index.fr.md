@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-09T15:38:59
+date: 2025-02-03T08:17:12
 draft: false
 
 lang: fr
@@ -62,7 +62,7 @@ code:
     // Recherchez des mots ou des phrases spécifiques, tels que
     // 'affect', 'effect', 'principles', 'principally'
     SearchResult results = 
-        index.Search("'"?ffect & princip?(2~4)"'");
+        index.Search("?ffect & princip?(2~4)");
     ```
 
 ############################# Overview ############################

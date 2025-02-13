@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-03T21:11:51
+date:  2025-02-13T15:29:05
 draft: false
 lang: en
 format: Pptx
@@ -224,31 +224,31 @@ more_formats:
     description: "GroupDocs.Search supports over 70 file formats. Customize search rules and use indexing to save time and effort."
     items: 
         # format loop 1
-        - name: "Search in DOCX"
+        - name: "DOCX case-sensitive search"
           format: "DOCX"
           link: "/search/net/case-sensitive/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Search in PDF"
+        - name: "PDF case-sensitive search"
           format: "PDF"
           link: "/search/net/case-sensitive/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Search in PPTX"
+        - name: "PPTX case-sensitive search"
           format: "PPTX"
           link: "/search/net/case-sensitive/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Search in TXT"
+        - name: "TXT case-sensitive search"
           format: "TXT"
           link: "/search/net/case-sensitive/txt/"
           description: "Text Document"
           
         # format loop 5
-        - name: "Search in XLSX"
+        - name: "XLSX case-sensitive search"
           format: "XLSX"
           link: "/search/net/case-sensitive/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

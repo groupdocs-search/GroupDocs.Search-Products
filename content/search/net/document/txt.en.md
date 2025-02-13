@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-03T21:11:52
+date:  2025-02-13T15:29:06
 draft: false
 lang: en
 format: Txt
@@ -225,31 +225,31 @@ more_formats:
     description: "GroupDocs.Search supports more than 70 file formats, including office documents, enabling quick and efficient searches with indexing capabilities."
     items: 
         # format loop 1
-        - name: "Search in DOCX"
+        - name: "Search in DOCX document"
           format: "DOCX"
           link: "/search/net/document/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Search in PDF"
+        - name: "Search in PDF document"
           format: "PDF"
           link: "/search/net/document/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Search in PPTX"
+        - name: "Search in PPTX document"
           format: "PPTX"
           link: "/search/net/document/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Search in TXT"
+        - name: "Search in TXT document"
           format: "TXT"
           link: "/search/net/document/txt/"
           description: "Text Document"
           
         # format loop 5
-        - name: "Search in XLSX"
+        - name: "Search in XLSX document"
           format: "XLSX"
           link: "/search/net/document/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

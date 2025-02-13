@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-03T21:11:53
+date:  2025-02-13T15:29:06
 draft: false
 lang: en
 format: Pdf
@@ -225,31 +225,31 @@ more_formats:
     description: "GroupDocs.Search supports 70+ file formats, allowing efficient processing and searching of popular office documents."
     items: 
         # format loop 1
-        - name: "Search in DOCX"
+        - name: "Search filters for DOCX"
           format: "DOCX"
           link: "/search/net/filters/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Search in PDF"
+        - name: "Search filters for PDF"
           format: "PDF"
           link: "/search/net/filters/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Search in PPTX"
+        - name: "Search filters for PPTX"
           format: "PPTX"
           link: "/search/net/filters/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Search in TXT"
+        - name: "Search filters for TXT"
           format: "TXT"
           link: "/search/net/filters/txt/"
           description: "Text Document"
           
         # format loop 5
-        - name: "Search in XLSX"
+        - name: "Search filters for XLSX"
           format: "XLSX"
           link: "/search/net/filters/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

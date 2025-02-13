@@ -28,35 +28,35 @@
         "docx": "Boolean search DOCX",
         "xlsx": "Boolean search XLSX",
         "pptx": "Boolean search PPTX",
-        "jpeg": "Boolean search JPEG"
+        "txt": "Boolean search TXT"
       },
       "case-sensitive": {
         "pdf": "PDF case-sensitive search",
         "docx": "DOCX case-sensitive search",
         "xlsx": "XLSX case-sensitive search",
         "pptx": "PPTX case-sensitive search",
-        "jpeg": "JPEG case-sensitive search"
+        "txt": "TXT case-sensitive search"
       },
       "document": {
         "pdf": "Search in PDF document",
         "docx": "Search in DOCX document",
         "xlsx": "Search in XLSX document",
         "pptx": "Search in PPTX document",
-        "jpeg": "Search in JPEG document"
+        "txt": "Search in TXT document"
       },
       "filters": {
         "pdf": "Search filters for PDF",
         "docx": "Search filters for DOCX",
         "xlsx": "Search filters for XLSX",
         "pptx": "Search filters for PPTX",
-        "jpeg": "Search filters for JPEG"
+        "txt": "Search filters for TXT"
       },
       "phrase": {
         "pdf": "PDF phrase search",
         "docx": "DOCX phrase search",
         "xlsx": "XLSX phrase search",
         "pptx": "PPTX phrase search",
-        "jpeg": "JPEG phrase search"
+        "txt": "TXT phrase search"
       }
     },
     "format-code": {

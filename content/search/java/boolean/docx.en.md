@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-03T21:11:50
+date:  2025-02-13T15:29:05
 draft: false
 lang: en
 format: Docx
@@ -249,31 +249,31 @@ more_formats:
     description: "GroupDocs.Search supports over 70 file formats, enabling you to customize search rules and use indexing to optimize performance."
     items: 
         # format loop 1
-        - name: "Search in DOCX"
+        - name: "Boolean search DOCX"
           format: "DOCX"
           link: "/search/java/boolean/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Search in PDF"
+        - name: "Boolean search PDF"
           format: "PDF"
           link: "/search/java/boolean/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Search in PPTX"
+        - name: "Boolean search PPTX"
           format: "PPTX"
           link: "/search/java/boolean/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Search in TXT"
+        - name: "Boolean search TXT"
           format: "TXT"
           link: "/search/java/boolean/txt/"
           description: "Text Document"
           
         # format loop 5
-        - name: "Search in XLSX"
+        - name: "Boolean search XLSX"
           format: "XLSX"
           link: "/search/java/boolean/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

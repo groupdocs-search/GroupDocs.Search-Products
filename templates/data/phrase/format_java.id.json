@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Cari frasa dalam {{FileFormatUp}} menggunakan {{EnvNameShort}}",
+    "description": "{{ProdFullName}} memperkaya aplikasi {{ProgLang}} dengan kemampuan pencarian frasa yang canggih untuk konten dokumen."
+  },
+  "header": {
+    "title": "Temukan frasa dalam dokumen",
+    "description": "Dengan {{ProdFullName}}, temukan frasa spesifik dengan cepat. Tambahkan fungsionalitas pencarian yang kuat ke aplikasi {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh"
+  },
+  "about": {
+    "title": "Fitur {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah pustaka yang kuat untuk mengindeks dan mencari teks dalam dokumen. Ini mendukung lebih dari 70 format file, termasuk PDF, dokumen Word, spreadsheet Excel, gambar, dan file ZIP, memastikan hasil pencarian yang cepat dan tepat."
+  },
+  "more_features": {
+    "title": "Jelajahi mesin pencarian dokumen {{EnvNameShort}}",
+    "description": "{{ProdFullName}} memungkinkan pencarian frasa di lebih dari 70 format file. Temukan dan atur data dengan mudah menggunakan fitur pencarian canggih.",
+    "image_description": "Kemampuan kunci dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Pencarian frasa",
+      "content": "Temukan frasa tepat dalam dokumen bisnis, seperti PDF, file Word, presentasi, dan spreadsheet. Gunakan karakter wildcard dan opsi lainnya saat frasa yang tepat tidak diketahui."
+    },
+    "feature_2": {
+      "title": "Pengindeksan data yang dioptimalkan",
+      "content": "Percepat pencarian dokumen dengan membuat dan menggunakan kembali indeks pencarian. Pengindeksan mengatur data secara efisien untuk pencarian yang lebih cepat dan lebih akurat."
+    },
+    "feature_3": {
+      "title": "Kompatibilitas multi-bahasa",
+      "content": "Cari dokumen dalam lebih dari 80 bahasa. Mendukung tata letak keyboard yang berbeda dan analisis morfologi untuk meningkatkan ketepatan pencarian."
+    },
+    "feature_4": {
+      "title": "Opsi pencarian canggih",
+      "content": "Sesuaikan pencarian dengan sensitivitas huruf besar, pencarian fuzzy, pencocokan homofon, pemfilteran dokumen, dan fitur kuat lainnya."
+    }
+  },
+  "formats": {
+    "title": "Pencarian frasa dalam dokumen bisnis",
+    "description": "{{ProdShortName}} memungkinkan pencarian frasa dalam lebih dari 70 format dokumen. Manfaatkan opsi canggih dan pengindeksan untuk pencarian yang efisien."
+  },
+  "operations": {
+    "title": "Kemampuan pencarian canggih",
+    "description": "Manfaatkan fungsionalitas pencarian mutakhir untuk meningkatkan ketepatan dan kinerja."
+  },
+  "examples": {
+    "comment_1": "Tentukan jalur indeks pencarian",
+    "comment_2": "Tentukan folder yang berisi dokumen",
+    "comment_3": "Atur preferensi pencarian",
+    "comment_4": "Eksekusi kueri pencarian"
+  },
+  "steps": {
+    "title": "Cara menemukan frasa dalam dokumen {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) menyederhanakan pencarian frasa dalam dokumen {{FileFormatUp}}. Gunakan berbagai opsi untuk memperbaiki hasil pencarian dalam aplikasi {{EnvName}}.",
+      "step_1": "Buat direktori indeks pencarian.",
+      "step_2": "Tentukan folder dengan file {{FileFormatUp}}.",
+      "step_3": "Sesuaikan parameter pencarian.",
+      "step_4": "Ambil dan analisis hasil pencarian."
+    }
+  },
+  "code_1": {
+    "title": "Menggunakan metode pencarian canggih",
+    "content": "Pelajari cara menyusun kueri untuk pencarian dalam {{FileFormatUp}}.",
+    "comment_1": "Tentukan direktori untuk indeks pencarian",
+    "comment_2": "Atur jalur ke dokumen target",
+    "comment_3": "Buat kueri pencarian untuk frasa tertentu",
+    "comment_4": "Ambil hasil pencarian",
+    "comment_5": "Proses dan gunakan hasil yang diperoleh"
+  }
+}

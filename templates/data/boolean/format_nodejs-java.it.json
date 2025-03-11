@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Ricerca booleana {{FileFormatUp}} tramite {{EnvNameShort}}",
+    "description": "Utilizza l'API {{ProdFullName}} per eseguire ricerche avanzate nel contenuto dei documenti con operatori booleani come AND, OR e NOT, progettata per sviluppatori {{ProgLang}}."
+  },
+  "header": {
+    "title": "Esegui ricerche logiche booleane",
+    "description": "Con {{ProdFullName}}, puoi creare query di ricerca avanzate utilizzando operatori booleani (AND, OR, NOT) senza soluzione di continuità all'interno del tuo ambiente {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica ora"
+  },
+  "about": {
+    "title": "Che cos'è {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è uno strumento robusto per cercare e indicizzare testi all'interno di documenti. Supporta oltre 70 formati come PDF, Word, Excel, PowerPoint, immagini e file ZIP, facilitando il trattamento di grandi quantità di informazioni in modo efficiente."
+  },
+  "more_features": {
+    "title": "Strumenti potenti per la ricerca e l'indicizzazione dei documenti",
+    "description": "{{ProdFullName}} semplifica la ricerca di testo e l'indicizzazione per oltre 70 tipi di file, aiutandoti a trovare e gestire le informazioni più rapidamente e con precisione.",
+    "image_description": "Caratteristiche principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ricerca testuale avanzata",
+      "content": "Trova rapidamente il testo all'interno di vari formati come PDF, documenti Word, presentazioni e fogli di calcolo. Usa funzionalità come corrispondenze esatte, ricerche wildcard e ricerca fuzzy per risultati precisi."
+    },
+    "feature_2": {
+      "title": "Indicizzazione dei dati efficiente",
+      "content": "Crea e gestisci indici per accelerare le ricerche in grandi raccolte di documenti. L'indicizzazione garantisce un accesso rapido e strutturato ai tuoi dati."
+    },
+    "feature_3": {
+      "title": "Supporto multilingue",
+      "content": "Cerca in documenti scritti in oltre 80 lingue. Il supporto morfologico e la compatibilità con i layout di tastiera migliorano i risultati delle ricerche in diverse lingue."
+    },
+    "feature_4": {
+      "title": "Impostazioni di ricerca flessibili",
+      "content": "Personalizza la tua ricerca abilitando la sensibilità alle maiuscole, applicando filtri temporali o escludendo parole e dati specifici durante l'indicizzazione."
+    }
+  },
+  "formats": {
+    "title": "Cerca formati di documenti popolari",
+    "description": "{{ProdShortName}} supporta oltre 70 formati di file, fornendo regole di ricerca flessibili e indicizzazione efficiente per risparmiare tempo e sforzo."
+  },
+  "operations": {
+    "title": "Capacità chiave di {{ProdShortName}}",
+    "description": "Sblocca funzionalità di ricerca avanzate, efficienti e personalizzabili."
+  },
+  "examples": {
+    "comment_1": "Imposta la posizione della cartella dell'indice",
+    "comment_2": "Specifica la cartella contenente i documenti da cercare",
+    "comment_3": "Esegui una query di ricerca con logica avanzata"
+  },
+  "steps": {
+    "title": "Come cercare in documenti {{FileFormatUp}} usando operatori booleani",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) consente di cercare contenuti in file {{FileFormatUp}} in modo efficace. Con la logica booleana, puoi affinare le tue query di ricerca nelle applicazioni {{EnvName}} per una maggiore precisione.",
+      "step_1": "Configura la cartella per memorizzare l'indice di ricerca.",
+      "step_2": "Seleziona la cartella contenente i file {{FileFormatUp}} per la ricerca.",
+      "step_3": "Esegui la query di ricerca e recupera i risultati.",
+      "step_4": "Elabora e analizza i risultati della ricerca."
+    }
+  },
+  "code_1": {
+    "title": "Esempio di ricerca booleana avanzata",
+    "content": "Questo esempio dimostra come creare query basate su Boolean per cercare contenuti in documenti {{FileFormatUp}}.",
+    "comment_1": "Definisci la cartella per l'indice di ricerca",
+    "comment_2": "Fornisci la posizione dei documenti da cercare",
+    "comment_3": "Costruisci una query utilizzando operatori booleani",
+    "comment_4": "Recupera i risultati della ricerca",
+    "comment_5": "Elabora e utilizza i risultati della ricerca"
+  }
+}

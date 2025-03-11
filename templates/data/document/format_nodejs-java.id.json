@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Temukan teks dalam {{FileFormatUp}} dengan {{ProdShortName}} di {{EnvNameShort}}",
+    "description": "Gunakan {{ProdFullName}} dengan {{ProgLang}} untuk mencari teks secara efisien dalam berbagai format dokumen."
+  },
+  "header": {
+    "title": "Solusi pencarian dokumen cerdas",
+    "description": "Temukan teks dalam berbagai format dokumen dengan {{ProdFullName}}. Buat kueri pencarian lanjutan dalam aplikasi {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Coba Gratis"
+  },
+  "about": {
+    "title": "Pendahuluan ke {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah perpustakaan berkinerja tinggi untuk pencarian teks penuh dan pengindeksan dokumen. Ini mendukung lebih dari 70 jenis file, termasuk PDF, Word, PowerPoint, Excel, gambar, dan arsip ZIP, sehingga memastikan hasil yang cepat dan akurat."
+  },
+  "more_features": {
+    "title": "Kemampuan pencarian & pengindeksan lanjutan",
+    "description": "{{ProdFullName}} menyediakan alat pencarian teks dan pengindeksan yang kuat di lebih dari 70 format dokumen, memudahkan untuk menemukan dan mengatur informasi.",
+    "image_description": "Manfaat Utama dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Pencarian teks komprehensif",
+      "content": "Temukan teks dalam beberapa jenis dokumen, termasuk PDF, dokumen Word, presentasi PowerPoint, dan spreadsheet. Gunakan kecocokan tepat, pencarian fuzzy, dan wildcard untuk hasil yang lebih terperinci."
+    },
+    "feature_2": {
+      "title": "Pengindeksan efisien untuk data besar",
+      "content": "Percepat pencarian dengan membuat indeks terstruktur, memudahkan pengambilan informasi dari koleksi dokumen yang besar."
+    },
+    "feature_3": {
+      "title": "Mendukung lebih dari 80 bahasa",
+      "content": "Cari dalam dokumen dalam berbagai bahasa, dengan pengenalan otomatis berbagai bentuk kata dan tata letak keyboard."
+    },
+    "feature_4": {
+      "title": "Pengaturan pencarian kustom",
+      "content": "Sesuaikan opsi pencarian seperti sensitivitas huruf besar kecil, filter tanggal, dan pengecualian kata untuk mendapatkan hasil yang tepat."
+    }
+  },
+  "formats": {
+    "title": "Cari di berbagai dokumen",
+    "description": "{{ProdShortName}} bekerja dengan lebih dari 70 format file, termasuk dokumen kantor, memastikan pencarian yang cepat dan akurat dengan dukungan pengindeksan."
+  },
+  "operations": {
+    "title": "Jelajahi fitur utama",
+    "description": "Temukan fitur pencarian berkecepatan tinggi yang dirancang untuk meningkatkan efisiensi dan akurasi."
+  },
+  "examples": {
+    "comment_1": "Tentukan direktori untuk penyimpanan indeks pencarian",
+    "comment_2": "Pilih folder yang berisi dokumen untuk dicari",
+    "comment_3": "Aktifkan pencarian homofon untuk kata-kata yang terdengar mirip",
+    "comment_4": "Jalankan kueri pencarian kompleks"
+  },
+  "steps": {
+    "title": "Lakukan pencarian di file {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memungkinkan Anda untuk melakukan pencarian dalam file {{FileFormatUp}}, memperhalus hasil di aplikasi {{EnvName}}.",
+      "step_1": "Tentukan folder penyimpanan untuk indeks pencarian.",
+      "step_2": "Pilih folder dengan file {{FileFormatUp}}.",
+      "step_3": "Atur parameter pencarian tambahan.",
+      "step_4": "Jalankan pencarian dan analisis hasilnya."
+    }
+  },
+  "code_1": {
+    "title": "Menggunakan pencarian untuk dokumen {{FileFormatUp}}",
+    "content": "Contoh ini menunjukkan cara menggunakan kueri pencarian dalam dokumen {{FileFormatUp}}.",
+    "comment_1": "Setel direktori untuk pengindeksan pencarian",
+    "comment_2": "Berikan jalur file untuk penyimpanan dokumen",
+    "comment_3": "Masukkan kata sandi untuk file yang dilindungi",
+    "comment_4": "Aktifkan pencarian fuzzy untuk deteksi kata serupa",
+    "comment_5": "Ekstrak hasil pencarian",
+    "comment_6": "Proses dan tinjau hasilnya"
+  }
+}

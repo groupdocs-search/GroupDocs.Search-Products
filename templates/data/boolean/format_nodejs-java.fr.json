@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Recherche booléenne {{FileFormatUp}} via {{EnvNameShort}}",
+    "description": "Utilisez l'API {{ProdFullName}} pour effectuer des recherches avancées dans le contenu des documents avec des opérateurs booléens tels que AND, OR et NOT, adaptés aux développeurs {{ProgLang}}."
+  },
+  "header": {
+    "title": "Effectuer des recherches avec logique booléenne",
+    "description": "Avec {{ProdFullName}}, vous pouvez créer des requêtes de recherche avancées en utilisant des opérateurs booléens (AND, OR, NOT) de manière fluide dans votre environnement {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger maintenant"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdShortName}} ?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil robuste pour rechercher et indexer du texte au sein de documents. Il prend en charge plus de 70 formats comme PDF, Word, Excel, PowerPoint, images et fichiers ZIP, facilitant le traitement de grandes quantités d'informations de manière efficace."
+  },
+  "more_features": {
+    "title": "Outils puissants pour la recherche et l'indexation de documents",
+    "description": "{{ProdFullName}} rationalise la recherche de texte et l'indexation pour plus de 70 types de fichiers, vous aidant à trouver et à gérer les informations plus rapidement et avec précision.",
+    "image_description": "Caractéristiques clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Recherche de texte améliorée",
+      "content": "Trouvez du texte rapidement dans divers formats tels que PDFs, documents Word, présentations et feuilles de calcul. Utilisez des fonctionnalités telles que les correspondances exactes, les recherches avec jokers et la recherche approximative pour des résultats précis."
+    },
+    "feature_2": {
+      "title": "Indexation de données efficace",
+      "content": "Créez et gérez des index pour accélérer les recherches dans de grandes collections de documents. L'indexation garantit un accès rapide et structuré à vos données."
+    },
+    "feature_3": {
+      "title": "Support multilingue",
+      "content": "Recherchez dans des documents écrits dans plus de 80 langues. Le support morphologique et la compatibilité avec les dispositions de clavier améliorent les résultats de recherche dans différentes langues."
+    },
+    "feature_4": {
+      "title": "Paramètres de recherche flexibles",
+      "content": "Personnalisez votre recherche en activant la sensibilité à la casse, en appliquant des filtres de dates ou en ignorant des mots et données spécifiques lors de l'indexation."
+    }
+  },
+  "formats": {
+    "title": "Rechercher des formats de document populaires",
+    "description": "{{ProdShortName}} prend en charge plus de 70 formats de fichiers, offrant des règles de recherche flexibles et une indexation efficace pour gagner du temps et des efforts."
+  },
+  "operations": {
+    "title": "Fonctionnalités clés de {{ProdShortName}}",
+    "description": "Déverrouillez des fonctionnalités de recherche avancées, efficaces et personnalisables."
+  },
+  "examples": {
+    "comment_1": "Définir l'emplacement du dossier d'index",
+    "comment_2": "Préciser le dossier contenant les documents à rechercher",
+    "comment_3": "Exécuter une requête de recherche avec une logique avancée"
+  },
+  "steps": {
+    "title": "Comment rechercher dans des documents {{FileFormatUp}} à l'aide d'opérateurs booléens",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vous permet de rechercher du contenu dans des fichiers {{FileFormatUp}} de manière efficace. Grâce à la logique booléenne, vous pouvez affiner vos requêtes de recherche dans les applications {{EnvName}} pour une meilleure précision.",
+      "step_1": "Configurez le dossier pour stocker l'index de recherche.",
+      "step_2": "Sélectionnez le dossier contenant les fichiers {{FileFormatUp}} pour la recherche.",
+      "step_3": "Exécutez la requête de recherche et récupérez les résultats.",
+      "step_4": "Traitez et analysez les résultats de la recherche."
+    }
+  },
+  "code_1": {
+    "title": "Exemple de recherche booléenne avancée",
+    "content": "Cet exemple démontre comment créer des requêtes basées sur des booléens pour rechercher du contenu dans des documents {{FileFormatUp}}.",
+    "comment_1": "Définir le dossier pour l'index de recherche",
+    "comment_2": "Fournir l'emplacement des documents à rechercher",
+    "comment_3": "Construire une requête en utilisant des opérateurs booléens",
+    "comment_4": "Récupérer les résultats de la recherche",
+    "comment_5": "Traitez et utilisez les résultats de la recherche"
+  }
+}

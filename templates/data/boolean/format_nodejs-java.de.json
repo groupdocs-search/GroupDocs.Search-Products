@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Boolesche {{FileFormatUp}}-Suche über {{EnvNameShort}}",
+    "description": "Nutzen Sie die {{ProdFullName}}-API, um erweiterte Suchen im Dokumenteninhalt mit booleschen Operatoren wie AND, OR und NOT durchzuführen, maßgeschneidert für {{ProgLang}}-Entwickler."
+  },
+  "header": {
+    "title": "Durchführen von booleschen Logiksuchen",
+    "description": "Mit {{ProdFullName}} können Sie erweiterte Suchanfragen unter Verwendung von booleschen Operatoren (AND, OR, NOT) nahtlos in Ihrer {{EnvNameShort}}-Umgebung erstellen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Jetzt herunterladen"
+  },
+  "about": {
+    "title": "Was ist {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist ein leistungsstarkes Tool zum Suchen und Indizieren von Texten in Dokumenten. Es unterstützt über 70 Formate wie PDF, Word, Excel, PowerPoint, Bilder und ZIP-Dateien, was die Verarbeitung großer Informationsmengen effizient gestaltet."
+  },
+  "more_features": {
+    "title": "Leistungsstarke Werkzeuge für die Dokumentensuche und -indizierung",
+    "description": "{{ProdFullName}} optimiert die Textsuche und Indizierung für über 70 Dateitypen, sodass Sie Informationen schneller und präziser finden und verwalten können.",
+    "image_description": "Hauptfunktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Erweiterte Textsuche",
+      "content": "Schnelles Finden von Texten in verschiedenen Formaten wie PDFs, Word-Dokumenten, Präsentationen und Tabellenkalkulationen. Nutzen Sie Funktionen wie genaue Übereinstimmungen, Platzhalter-Suchen und unscharfe Suche für präzise Ergebnisse."
+    },
+    "feature_2": {
+      "title": "Effiziente Datenindizierung",
+      "content": "Erstellen und verwalten Sie Indizes, um die Suche in großen Dokumentensammlungen zu beschleunigen. Die Indizierung gewährleistet schnellen und strukturierten Zugriff auf Ihre Daten."
+    },
+    "feature_3": {
+      "title": "Mehrsprachige Unterstützung",
+      "content": "Suchen Sie in Dokumenten, die in über 80 Sprachen verfasst sind. Morphologische Unterstützung und Kompatibilität mit verschiedenen Tastaturlayouts verbessern die Suchergebnisse in unterschiedlichen Sprachen."
+    },
+    "feature_4": {
+      "title": "Flexible Sucheinstellungen",
+      "content": "Passen Sie Ihre Suche an, indem Sie Groß- und Kleinschreibung aktivieren, Datumsfilter anwenden oder bestimmte Wörter und Daten bei der Indizierung überspringen."
+    }
+  },
+  "formats": {
+    "title": "Suche in gängigen Dokumentenformaten",
+    "description": "{{ProdShortName}} unterstützt über 70 Dateiformate und bietet flexible Suchregeln sowie eine effiziente Indizierung, um Zeit und Aufwand zu sparen."
+  },
+  "operations": {
+    "title": "Wichtige Funktionen von {{ProdShortName}}",
+    "description": "Entfesseln Sie erweiterte, effiziente und anpassbare Suchfunktionen."
+  },
+  "examples": {
+    "comment_1": "Legen Sie den Speicherort für den Indexordner fest",
+    "comment_2": "Geben Sie den Ordner mit den zu durchsuchenden Dokumenten an",
+    "comment_3": "Führen Sie eine Suchanfrage mit erweiterter Logik aus"
+  },
+  "steps": {
+    "title": "So suchen Sie in {{FileFormatUp}}-Dokumenten mit booleschen Operatoren",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht Ihnen eine effektive Suche nach Inhalten in {{FileFormatUp}}-Dateien. Mit boolescher Logik können Sie Ihre Suchanfragen in {{EnvName}}-Anwendungen verfeinern, um die Genauigkeit zu verbessern.",
+      "step_1": "Richten Sie den Ordner ein, um den Suchindex zu speichern.",
+      "step_2": "Wählen Sie den Ordner mit {{FileFormatUp}}-Dateien für die Suche aus.",
+      "step_3": "Führen Sie die Suchanfrage aus und rufen Sie die Ergebnisse ab.",
+      "step_4": "Verarbeiten und analysieren Sie die Suchergebnisse."
+    }
+  },
+  "code_1": {
+    "title": "Beispiel für eine erweiterte boolesche Suche",
+    "content": "Dieses Beispiel zeigt, wie man auf Booleschen basierenden Abfragen zur Suche nach Inhalten in {{FileFormatUp}}-Dokumenten erstellt.",
+    "comment_1": "Definieren Sie den Ordner für den Suchindex",
+    "comment_2": "Geben Sie den Speicherort der zu durchsuchenden Dokumente an",
+    "comment_3": "Erstellen Sie eine Abfrage mit booleschen Operatoren",
+    "comment_4": "Rufen Sie die Suchergebnisse ab",
+    "comment_5": "Verarbeiten und verwenden Sie die Suchergebnisse"
+  }
+}

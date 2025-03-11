@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "在{{FileFormatUp}}中搜索短语，使用{{EnvNameShort}}",
+    "description": "{{ProdFullName}}为{{ProgLang}}应用程序添加强大的短语搜索功能，以实现高效的文档搜索。"
+  },
+  "header": {
+    "title": "在文档中查找短语",
+    "description": "使用{{ProdFullName}}快速定位特定短语。将快速且准确的搜索功能集成到您的{{EnvNameShort}}应用程序中。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载"
+  },
+  "about": {
+    "title": "{{ProdShortName}}功能",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})是一个高性能库，用于索引和搜索文档中的文本。它支持70多种文件格式，包括PDF、Word文档、Excel电子表格、图像和ZIP档案，确保准确且快速的搜索结果。"
+  },
+  "more_features": {
+    "title": "发现{{EnvNameShort}}文档搜索引擎",
+    "description": "{{ProdFullName}}支持在70多种文件格式中进行短语搜索，使得使用高级搜索功能查找和整理数据变得更加高效。",
+    "image_description": "{{ProdShortName}}的关键功能",
+    "feature_1": {
+      "title": "短语搜索",
+      "content": "在商业文档中查找确切短语，如PDF、Word文件、演示文稿和电子表格。在不完全知道短语的情况下，使用通配符和灵活的搜索选项。"
+    },
+    "feature_2": {
+      "title": "优化的数据索引",
+      "content": "通过创建可重用的索引来提升搜索性能。结构化索引加快文档搜索速度，并提高准确性。"
+    },
+    "feature_3": {
+      "title": "多语言兼容性",
+      "content": "在80多种语言的文档中进行搜索，支持不同的键盘布局和形态变化，确保精确结果。"
+    },
+    "feature_4": {
+      "title": "高级搜索选项",
+      "content": "通过区分大小写、模糊匹配、同音词检测、文档过滤和其他强大功能定制搜索。"
+    }
+  },
+  "formats": {
+    "title": "在商业文档中搜索短语",
+    "description": "{{ProdShortName}}支持在70多种文档格式中进行短语搜索。利用高级选项和索引简化搜索过程。"
+  },
+  "operations": {
+    "title": "高级搜索功能",
+    "description": "利用强大的搜索功能实现更快速和更准确的结果。"
+  },
+  "examples": {
+    "comment_1": "指定存储搜索索引的路径",
+    "comment_2": "设置包含文档的文件夹",
+    "comment_3": "配置搜索设置",
+    "comment_4": "运行搜索查询"
+  },
+  "steps": {
+    "title": "如何在{{FileFormatUp}}文档中查找短语",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})使在{{FileFormatUp}}文档中进行短语搜索成为可能。应用不同的搜索选项以优化{{EnvName}}应用程序中的结果。",
+      "step_1": "设置搜索索引文件夹。",
+      "step_2": "定义包含{{FileFormatUp}}文件的文件夹。",
+      "step_3": "配置搜索参数。",
+      "step_4": "获取并处理搜索结果。"
+    }
+  },
+  "code_1": {
+    "title": "使用高级搜索技术",
+    "content": "学习如何构造查询以在{{FileFormatUp}}中进行搜索。",
+    "comment_1": "定义搜索索引目录",
+    "comment_2": "设置目标文档的路径",
+    "comment_3": "为所需短语创建查询",
+    "comment_4": "获取搜索结果",
+    "comment_5": "处理并使用结果"
+  }
+}

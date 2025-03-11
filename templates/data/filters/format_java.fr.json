@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Recherchez dans les documents {{FileFormatUp}} en utilisant {{EnvNameShort}}",
+    "description": "{{ProdFullName}} ajoute une recherche textuelle puissante aux applications {{ProgLang}}, prenant en charge divers formats de documents professionnels."
+  },
+  "header": {
+    "title": "Trouver du texte dans des documents professionnels",
+    "description": "{{ProdFullName}} vous permet de rechercher du texte dans des documents en utilisant des requêtes flexibles et précises. Intégrez facilement la fonctionnalité de recherche dans les applications {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une bibliothèque robuste pour une recherche textuelle rapide et un indexage de documents. Elle prend en charge plus de 70 formats de fichiers, y compris les normes de l'industrie comme PDF, Word, Excel et PowerPoint. Améliorez vos applications avec des capacités de recherche précises et à grande vitesse."
+  },
+  "more_features": {
+    "title": "Capacités de recherche avancées",
+    "description": "{{ProdFullName}} offre une recherche textuelle avancée dans plus de 70 formats de fichiers. L'indexation accélère les recherches et améliore l'efficacité de la gestion des documents.",
+    "image_description": "Caractéristiques clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Recherche textuelle puissante",
+      "content": "Trouvez du texte dans des formats de documents populaires tels que les PDF, les fichiers Word, les présentations et les tableurs. Prend en charge plusieurs méthodes de recherche, y compris la recherche floue, les homophones et les jokers."
+    },
+    "feature_2": {
+      "title": "Indexation optimisée pour de meilleures performances",
+      "content": "Créez et réutilisez des index de recherche pour améliorer la vitesse et l'efficacité de la recherche, notamment dans de grandes collections de documents."
+    },
+    "feature_3": {
+      "title": "Support de recherche multilingue",
+      "content": "Recherchez dans des documents écrits en plus de 80 langues. Détecte différentes dispositions de clavier et variations de mots pour une meilleure précision."
+    },
+    "feature_4": {
+      "title": "Options de recherche personnalisables",
+      "content": "Affinez les résultats de la recherche à l'aide de filtres, d'expressions régulières et d'autres paramètres de recherche avancés."
+    }
+  },
+  "formats": {
+    "title": "Recherchez dans des documents professionnels",
+    "description": "{{ProdShortName}} prend en charge plus de 70 formats de fichiers, facilitant la recherche dans des documents de bureau largement utilisés."
+  },
+  "operations": {
+    "title": "Caractéristiques clés",
+    "description": "Effectuez des recherches textuelles précises et efficaces."
+  },
+  "examples": {
+    "comment_1": "Dossier pour stocker l'index de recherche réutilisable",
+    "comment_2": "Dossier contenant les documents",
+    "comment_3": "Filtrer les recherches par format de document",
+    "comment_4": "Récupérer les résultats de recherche"
+  },
+  "steps": {
+    "title": "Comment rechercher dans des documents {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permet des recherches textuelles rapides et efficaces dans des documents {{FileFormatUp}}, parfait pour les applications {{EnvName}}.",
+      "step_1": "Spécifiez un dossier pour stocker l'index de recherche.",
+      "step_2": "Sélectionnez le dossier contenant vos documents.",
+      "step_3": "Configurez les options de recherche pour limiter les résultats aux documents {{FileFormatUp}}.",
+      "step_4": "Lancez la recherche et obtenez les résultats."
+    }
+  },
+  "code_1": {
+    "title": "Filtrer les documents avant de rechercher",
+    "content": "Découvrez comment affiner les recherches à l'aide de filtres",
+    "comment_1": "Configurer un index qui exclut certains formats de fichiers",
+    "comment_2": "Spécifier le chemin de stockage des documents",
+    "comment_3": "Récupérer les résultats de recherche",
+    "comment_4": "Traiter et utiliser les résultats de recherche"
+  }
+}

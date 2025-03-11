@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Esegui ricerche sensibili al maiuscolo in {{FileFormatUp}} con {{EnvNameShort}}",
+    "description": "L'API {{ProdFullName}} aiuta gli sviluppatori {{ProgLang}} a eseguire ricerche sensibili al maiuscolo su più tipi di documenti."
+  },
+  "header": {
+    "title": "Ricerca Documentale Sensibile al Maiuscolo",
+    "description": "{{ProdFullName}} ti consente di implementare una funzionalità di ricerca sensibile al maiuscolo nei tuoi progetti {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtienilo Gratuitamente"
+  },
+  "about": {
+    "title": "Scopri di più su {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è uno strumento versatile per la ricerca e indicizzazione del testo su vari documenti. Supporta oltre 70 formati come PDF, file Word, presentazioni PowerPoint, fogli Excel, immagini e ZIP, consentendoti di gestire in modo efficace ampie raccolte di dati."
+  },
+  "more_features": {
+    "title": "Strumenti Avanzati di Ricerca e Indicizzazione",
+    "description": "Con {{ProdFullName}}, puoi semplificare la ricerca e l'indicizzazione dei documenti per oltre 70 formati, rendendo più semplice localizzare e organizzare le informazioni.",
+    "image_description": "Punti salienti di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ricerca Testuale Flessibile",
+      "content": "Cerca attraverso documenti come PDF, file Word, fogli di calcolo e presentazioni con precisione. Usa strumenti come corrispondenza esatta, ricerca fuzzy e supporto per caratteri jolly per affinare i risultati."
+    },
+    "feature_2": {
+      "title": "Gestione Efficiente degli Indici",
+      "content": "Organizza e indicizza grandi set di dati per migliorare velocità e prestazioni della ricerca, gestendo collezioni documentali estese."
+    },
+    "feature_3": {
+      "title": "Supporto per Lingue Globali",
+      "content": "Esegui ricerche in oltre 80 lingue, adattandoti a diversi layout di tastiera e variazioni linguistiche per una maggiore accuratezza."
+    },
+    "feature_4": {
+      "title": "Filtri di Ricerca Personalizzabili",
+      "content": "Regola i criteri di ricerca con opzioni come sensibilità al maiuscolo, filtro per intervallo di date ed esclusione di parole o dati indesiderati durante l'indicizzazione."
+    }
+  },
+  "formats": {
+    "title": "Formati di File Supportati per la Ricerca",
+    "description": "{{ProdShortName}} lavora con oltre 70 formati di documento popolari, offrendo impostazioni di ricerca personalizzabili e un'indicizzazione efficiente."
+  },
+  "operations": {
+    "title": "Panoramica delle Caratteristiche Chiave",
+    "description": "Scopri le robuste ed efficaci capacità di ricerca offerte da {{ProdFullName}}."
+  },
+  "examples": {
+    "comment_1": "Definire la posizione per l'archiviazione dell'indice",
+    "comment_2": "Indirizzare alla cartella contenente i documenti da cercare",
+    "comment_3": "Abilitare la modalità sensibile al maiuscolo nelle impostazioni di ricerca",
+    "comment_4": "Eseguire la ricerca"
+  },
+  "steps": {
+    "title": "Guida alla Ricerca Sensibile al Maiuscolo in File {{FileFormatUp}}",
+    "content": {
+      "title": "Utilizzando [{{ProdShortName}}]({{PlatformLink}}), puoi eseguire ricerche sensibili al maiuscolo in documenti {{FileFormatUp}}, migliorando i tuoi progetti {{EnvName}}.",
+      "step_1": "Imposta la cartella per la memorizzazione dell'indice di ricerca.",
+      "step_2": "Seleziona la cartella contenente i file {{FileFormatUp}}.",
+      "step_3": "Esegui la ricerca sensibile al maiuscolo e raccogli i risultati.",
+      "step_4": "Elabora e utilizza i risultati della ricerca."
+    }
+  },
+  "code_1": {
+    "title": "Esempio: Query di Ricerca Sensibile al Maiuscolo",
+    "content": "Questo esempio dimostra come implementare ricerche sensibili al maiuscolo per documenti {{FileFormatUp}}.",
+    "comment_1": "Definire la directory per l'indice di ricerca",
+    "comment_2": "Specificare la posizione della cartella dei documenti",
+    "comment_3": "Impostare una query di ricerca",
+    "comment_4": "Attivare la sensibilità al maiuscolo nelle opzioni di ricerca",
+    "comment_5": "Eseguire la ricerca nei documenti",
+    "comment_6": "Elaborare i risultati ottenuti"
+  }
+}

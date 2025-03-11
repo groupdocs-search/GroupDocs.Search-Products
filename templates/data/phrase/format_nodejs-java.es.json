@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Buscar frases en {{FileFormatUp}} utilizando {{EnvNameShort}}",
+    "description": "{{ProdFullName}} añade una potente funcionalidad de búsqueda de frases a las aplicaciones de {{ProgLang}} para una búsqueda eficiente de documentos."
+  },
+  "header": {
+    "title": "Encuentra frases en documentos",
+    "description": "Localiza rápidamente frases específicas con {{ProdFullName}}. Integra capacidades de búsqueda rápidas y precisas en tus aplicaciones de {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar"
+  },
+  "about": {
+    "title": "Características de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una biblioteca de alto rendimiento para indexar y buscar texto en documentos. Soporta más de 70 formatos de archivo, incluyendo PDFs, documentos de Word, hojas de cálculo de Excel, imágenes y archivos ZIP, asegurando resultados de búsqueda precisos y rápidos."
+  },
+  "more_features": {
+    "title": "Descubre el motor de búsqueda de documentos {{EnvNameShort}}",
+    "description": "{{ProdFullName}} permite búsquedas de frases en más de 70 formatos de archivo, facilitando la organización y búsqueda de datos con características de búsqueda avanzadas.",
+    "image_description": "Principales capacidades de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Búsqueda de frases",
+      "content": "Encuentra frases exactas en documentos de negocios como PDFs, archivos de Word, presentaciones y hojas de cálculo. Utiliza comodines y opciones de búsqueda flexibles cuando la frase completa es desconocida."
+    },
+    "feature_2": {
+      "title": "Indexación de datos optimizada",
+      "content": "Aumenta el rendimiento de búsqueda creando índices reutilizables. La indexación estructurada acelera las búsquedas de documentos y mejora la precisión."
+    },
+    "feature_3": {
+      "title": "Compatibilidad multilenguaje",
+      "content": "Busca documentos en más de 80 idiomas con soporte para diferentes distribuciones de teclado y variaciones morfológicas, asegurando resultados precisos."
+    },
+    "feature_4": {
+      "title": "Opciones de búsqueda avanzadas",
+      "content": "Personaliza las búsquedas con sensibilidad a mayúsculas, coincidencia difusa, detección de homófonos, filtrado de documentos y otras potentes características."
+    }
+  },
+  "formats": {
+    "title": "Buscar frases en documentos de negocios",
+    "description": "{{ProdShortName}} soporta búsquedas de frases en más de 70 formatos de documentos. Utiliza opciones avanzadas e indexación para agilizar el proceso de búsqueda."
+  },
+  "operations": {
+    "title": "Capacidades de búsqueda avanzadas",
+    "description": "Aprovecha las potentes características de búsqueda para obtener resultados más rápidos y precisos."
+  },
+  "examples": {
+    "comment_1": "Especifica el camino para almacenar el índice de búsqueda",
+    "comment_2": "Configura la carpeta que contiene los documentos",
+    "comment_3": "Configura los parámetros de búsqueda",
+    "comment_4": "Ejecuta la consulta de búsqueda"
+  },
+  "steps": {
+    "title": "Cómo encontrar frases en documentos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita la búsqueda de frases en documentos {{FileFormatUp}}. Aplica diferentes opciones de búsqueda para refinar los resultados en aplicaciones de {{EnvName}}.",
+      "step_1": "Configura una carpeta para el índice de búsqueda.",
+      "step_2": "Define la carpeta que contiene archivos {{FileFormatUp}}.",
+      "step_3": "Configura los parámetros de búsqueda.",
+      "step_4": "Recupera y procesa los resultados de búsqueda."
+    }
+  },
+  "code_1": {
+    "title": "Uso de técnicas de búsqueda avanzadas",
+    "content": "Aprende a construir consultas para buscar en {{FileFormatUp}}.",
+    "comment_1": "Define el directorio del índice de búsqueda",
+    "comment_2": "Establece el camino hacia los documentos objetivo",
+    "comment_3": "Crea una consulta para la frase deseada",
+    "comment_4": "Recupera los resultados de búsqueda",
+    "comment_5": "Procesa y utiliza los resultados"
+  }
+}

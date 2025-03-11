@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Trova testo in {{FileFormatUp}} con {{ProdShortName}} in {{EnvNameShort}}",
+    "description": "Utilizza {{ProdFullName}} con {{ProgLang}} per cercare testo in modo efficiente in vari formati di documento."
+  },
+  "header": {
+    "title": "Soluzione intelligente per la ricerca di documenti",
+    "description": "Localizza testo in diversi formati di documento con {{ProdFullName}}. Crea query di ricerca avanzate all'interno delle tue applicazioni {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Prova Gratis"
+  },
+  "about": {
+    "title": "Introduzione a {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una libreria ad alte prestazioni per la ricerca di testo completo e l'indicizzazione dei documenti. Supporta oltre 70 tipi di file, inclusi PDF, Word, PowerPoint, Excel, immagini e archivi ZIP, garantendo risultati rapidi e accurati."
+  },
+  "more_features": {
+    "title": "Capacità avanzate di ricerca e indicizzazione",
+    "description": "{{ProdFullName}} offre potenti strumenti di ricerca e indicizzazione del testo in oltre 70 formati di documento, facilitando la ricerca e l'organizzazione delle informazioni.",
+    "image_description": "Vantaggi chiave di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ricerca del testo completa",
+      "content": "Trova testo in più tipi di documento, inclusi PDF, documenti Word, presentazioni PowerPoint e fogli di calcolo. Usa corrispondenze esatte, ricerca fuzzy e caratteri jolly per risultati più raffinati."
+    },
+    "feature_2": {
+      "title": "Indicizzazione efficiente per grandi quantità di dati",
+      "content": "Accelera le ricerche creando indici strutturati, facilitando il recupero di informazioni da grandi collezioni di documenti."
+    },
+    "feature_3": {
+      "title": "Supporta oltre 80 lingue",
+      "content": "Cerca all'interno di documenti in diverse lingue, con riconoscimento automatico di vari formati di parole e layout di tastiera."
+    },
+    "feature_4": {
+      "title": "Impostazioni di ricerca personalizzate",
+      "content": "Regola le opzioni di ricerca come la distinzione tra maiuscole e minuscole, filtri di data e esclusioni di parole per ottenere risultati precisi."
+    }
+  },
+  "formats": {
+    "title": "Cerca in una varietà di documenti",
+    "description": "{{ProdShortName}} funziona con oltre 70 formati di file, inclusi documenti d'ufficio, garantendo ricerche rapide e accurate con supporto per l'indicizzazione."
+  },
+  "operations": {
+    "title": "Esplora le caratteristiche chiave",
+    "description": "Scopri le funzionalità di ricerca ad alta velocità progettate per migliorare l'efficienza e l'accuratezza."
+  },
+  "examples": {
+    "comment_1": "Specifica la directory per il salvataggio dell'indice di ricerca",
+    "comment_2": "Scegli la cartella contenente i documenti da cercare",
+    "comment_3": "Abilita la ricerca per omofoni per parole che suonano simili",
+    "comment_4": "Esegui una query di ricerca complessa"
+  },
+  "steps": {
+    "title": "Esegui ricerca in file {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ti consente di eseguire ricerche in file {{FileFormatUp}}, affinando i risultati nelle applicazioni {{EnvName}}.",
+      "step_1": "Definisci una cartella di archiviazione per l'indice di ricerca.",
+      "step_2": "Seleziona una cartella con file {{FileFormatUp}}.",
+      "step_3": "Imposta parametri di ricerca aggiuntivi.",
+      "step_4": "Esegui la ricerca e analizza i risultati."
+    }
+  },
+  "code_1": {
+    "title": "Utilizzo della ricerca per documenti {{FileFormatUp}}",
+    "content": "Questo esempio mostra come utilizzare query di ricerca all'interno di documenti {{FileFormatUp}}.",
+    "comment_1": "Imposta la directory per l'indicizzazione della ricerca",
+    "comment_2": "Fornisci il percorso del file per il salvataggio del documento",
+    "comment_3": "Inserisci la password per i file protetti",
+    "comment_4": "Abilita la ricerca fuzzy per il rilevamento di parole simili",
+    "comment_5": "Estrai i risultati della ricerca",
+    "comment_6": "Elabora e verifica i risultati"
+  }
+}

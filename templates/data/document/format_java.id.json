@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Temukan teks dalam dokumen {{FileFormatUp}} dengan {{ProdShortName}} untuk {{EnvNameShort}}",
+    "description": "{{ProdFullName}} membantu pengembang {{ProgLang}} untuk cepat mencari teks dalam berbagai format dokumen."
+  },
+  "header": {
+    "title": "Pencarian teks dokumen yang cerdas",
+    "description": "Dengan {{ProdFullName}}, Anda dapat dengan mulus mencari dan mengekstrak teks dari berbagai jenis dokumen di aplikasi {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Dapatkan Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Apa yang dilakukan {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah pustaka pencarian dan pengindeksan dokumen yang kuat yang mendukung lebih dari 70 format file, termasuk PDF, Word, PowerPoint, Excel, gambar, dan arsip ZIP. Ini memungkinkan kemampuan pencarian yang cepat, akurat, dan dapat diskalakan untuk koleksi dokumen besar."
+  },
+  "more_features": {
+    "title": "Kemampuan pencarian dan pengindeksan yang ditingkatkan",
+    "description": "{{ProdFullName}} menyederhanakan pencarian teks dan pengindeksan di lebih dari 70 format dokumen, menyediakan alat yang efisien untuk mengelola dan mengambil informasi dengan cepat.",
+    "image_description": "Fitur Inti dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Pencarian teks yang komprehensif",
+      "content": "Temukan teks di berbagai format dokumen seperti PDF, dokumen Word, presentasi PowerPoint, dan spreadsheet. Gunakan pencocokan yang tepat, pencarian kabur, dan operator wildcard untuk hasil pencarian yang lebih terperinci."
+    },
+    "feature_2": {
+      "title": "Pengindeksan yang dioptimalkan untuk data besar",
+      "content": "Buat indeks terstruktur untuk mempercepat pencarian, memudahkan navigasi melalui repositori dokumen yang besar secara efisien."
+    },
+    "feature_3": {
+      "title": "Mendukung berbagai bahasa",
+      "content": "Lakukan pencarian dalam lebih dari 80 bahasa dengan dukungan bawaan untuk berbagai tata letak keyboard dan variasi morfologi kata, meningkatkan akurasi."
+    },
+    "feature_4": {
+      "title": "Pengaturan pencarian yang fleksibel",
+      "content": "Sesuaikan pencarian dengan opsi seperti sensitif terhadap kapitalisasi, pemfilteran berdasarkan tanggal, dan kemampuan untuk mengecualikan kata tertentu untuk hasil yang tepat."
+    }
+  },
+  "formats": {
+    "title": "Temukan informasi di dokumen {{FileFormatUp}} dengan {{ProdShortName}}",
+    "description": "{{ProdShortName}} mendukung lebih dari 70 format, termasuk file kantor, memungkinkan pencarian cepat dengan fitur pengindeksan canggih."
+  },
+  "operations": {
+    "title": "Ikhtisar fitur kunci",
+    "description": "Temukan fungsi pencarian teks berkinerja tinggi yang dirancang untuk efisiensi dan ketepatan."
+  },
+  "examples": {
+    "comment_1": "Tentukan direktori untuk menyimpan indeks pencarian",
+    "comment_2": "Tentukan folder yang berisi dokumen yang dapat dicari",
+    "comment_3": "Aktifkan pencarian homofon untuk mencocokkan kata dengan pengucapan serupa",
+    "comment_4": "Jalankan kueri pencarian yang canggih"
+  },
+  "steps": {
+    "title": "Lakukan pencarian teks dalam file {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memudahkan pencarian file {{FileFormatUp}} menggunakan logika canggih dan pengindeksan, meningkatkan akurasi pencarian dalam aplikasi {{EnvName}}.",
+      "step_1": "Siapkan direktori untuk menyimpan indeks pencarian.",
+      "step_2": "Pilih folder yang berisi file {{FileFormatUp}}.",
+      "step_3": "Tentukan opsi pencarian tambahan.",
+      "step_4": "Jalankan pencarian dan analisis hasilnya."
+    }
+  },
+  "code_1": {
+    "title": "Menerapkan kueri pencarian canggih",
+    "content": "Contoh ini menggambarkan bagaimana menggunakan kueri pencarian untuk mencari dalam dokumen {{FileFormatUp}} secara efisien.",
+    "comment_1": "Tentukan direktori untuk pengindeksan pencarian",
+    "comment_2": "Berikan jalur file untuk dokumen",
+    "comment_3": "Masukkan kata sandi untuk dokumen terenkripsi",
+    "comment_4": "Aktifkan pencarian kabur untuk mendeteksi kata-kata serupa",
+    "comment_5": "Ambil hasil pencarian",
+    "comment_6": "Proses dan analisis hasil pencarian"
+  }
+}

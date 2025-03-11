@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Encontre texto em {{FileFormatUp}} com {{ProdShortName}} em {{EnvNameShort}}",
+    "description": "Utilize {{ProdFullName}} com {{ProgLang}} para pesquisar texto de forma eficiente em vários formatos de documentos."
+  },
+  "header": {
+    "title": "Solução de busca de documentos inteligente",
+    "description": "Localize texto em diferentes formatos de documentos usando {{ProdFullName}}. Crie consultas de busca avançadas em suas aplicações {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Experimente Gratuitamente"
+  },
+  "about": {
+    "title": "Introdução ao {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma biblioteca de alto desempenho para busca de texto completo e indexação de documentos. Suporta mais de 70 tipos de arquivos, incluindo PDF, Word, PowerPoint, Excel, imagens e arquivos ZIP, garantindo resultados rápidos e precisos."
+  },
+  "more_features": {
+    "title": "Capacidades avançadas de busca e indexação",
+    "description": "{{ProdFullName}} fornece ferramentas poderosas de pesquisa e indexação de texto em mais de 70 formatos de documentos, facilitando a localização e organização de informações.",
+    "image_description": "Principais Benefícios do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Busca de texto abrangente",
+      "content": "Localize texto em múltiplos tipos de documentos, incluindo PDFs, documentos do Word, apresentações do PowerPoint e planilhas. Use correspondências exatas, busca difusa e curingas para resultados refinados."
+    },
+    "feature_2": {
+      "title": "Indexação eficiente para grandes volumes de dados",
+      "content": "Acelere as buscas criando índices estruturados, facilitando a recuperação de informações de grandes coleções de documentos."
+    },
+    "feature_3": {
+      "title": "Suporte a mais de 80 idiomas",
+      "content": "Pesquise em documentos em diferentes idiomas, com reconhecimento automático de várias formas de palavras e layouts de teclado."
+    },
+    "feature_4": {
+      "title": "Configurações de pesquisa personalizadas",
+      "content": "Ajuste as opções de pesquisa, como sensibilidade ao caso, filtros de data e exclusões de palavras para obter resultados precisos."
+    }
+  },
+  "formats": {
+    "title": "Pesquise em uma variedade de documentos",
+    "description": "{{ProdShortName}} funciona com mais de 70 formatos de arquivo, incluindo documentos de escritório, garantindo buscas rápidas e precisas com suporte à indexação."
+  },
+  "operations": {
+    "title": "Explore recursos principais",
+    "description": "Descubra recursos de busca de alta velocidade projetados para aumentar a eficiência e precisão."
+  },
+  "examples": {
+    "comment_1": "Especifique o diretório para armazenamento do índice de busca",
+    "comment_2": "Escolha a pasta que contém os documentos a serem pesquisados",
+    "comment_3": "Ative a busca por homônimos para palavras que soam semelhantes",
+    "comment_4": "Execute uma consulta de busca complexa"
+  },
+  "steps": {
+    "title": "Realizar busca em arquivos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite executar buscas em arquivos {{FileFormatUp}}, refinando resultados em aplicações {{EnvName}}.",
+      "step_1": "Defina uma pasta de armazenamento para o índice de busca.",
+      "step_2": "Selecione uma pasta com arquivos {{FileFormatUp}}.",
+      "step_3": "Defina parâmetros de busca adicionais.",
+      "step_4": "Execute a busca e analise os resultados."
+    }
+  },
+  "code_1": {
+    "title": "Usando busca para documentos {{FileFormatUp}}",
+    "content": "Este exemplo mostra como usar consultas de busca dentro de documentos {{FileFormatUp}}.",
+    "comment_1": "Defina o diretório para indexação de buscas",
+    "comment_2": "Forneça o caminho do arquivo para armazenamento do documento",
+    "comment_3": "Insira a senha para arquivos protegidos",
+    "comment_4": "Ative a busca difusa para detecção de palavras semelhantes",
+    "comment_5": "Extraia os resultados da busca",
+    "comment_6": "Procese e revise os resultados"
+  }
+}

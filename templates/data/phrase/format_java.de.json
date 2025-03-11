@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Suchphrasen in {{FileFormatUp}} mit {{EnvNameShort}} finden",
+    "description": "{{ProdFullName}} erweitert {{ProgLang}} Anwendungen um fortschrittliche Suchfunktionen für Dokumenteninhalte."
+  },
+  "header": {
+    "title": "Phrasen in Dokumenten finden",
+    "description": "Lokalisieren Sie schnell spezifische Phrasen mit {{ProdFullName}}. Fügen Sie leistungsstarke Suchfunktionen zu Ihren {{EnvNameShort}} Anwendungen hinzu.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Herunterladen"
+  },
+  "about": {
+    "title": "{{ProdShortName}} Funktionen",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine robuste Bibliothek zum Indizieren und Suchen von Text innerhalb von Dokumenten. Sie unterstützt über 70 Dateiformate, darunter PDFs, Word-Dokumente, Excel-Tabellen, Bilder und ZIP-Dateien, um schnelle und präzise Suchergebnisse zu gewährleisten."
+  },
+  "more_features": {
+    "title": "Erforschen Sie die Dokumentensuchmaschine von {{EnvNameShort}}",
+    "description": "{{ProdFullName}} ermöglicht die Phrasensuche in über 70 Dateiformaten. Finden und organisieren Sie Daten mithilfe fortschrittlicher Suchfunktionen.",
+    "image_description": "Wesentliche Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Phrasensuche",
+      "content": "Lokalisieren Sie exakte Phrasen in Geschäftsdokumenten, wie PDFs, Word-Dateien, Präsentationen und Tabellen. Verwenden Sie Platzhalter und andere Optionen, wenn die genaue Phrase unbekannt ist."
+    },
+    "feature_2": {
+      "title": "Optimierte Datenindizierung",
+      "content": "Beschleunigen Sie die Dokumentensuche, indem Sie Suchindizes erstellen und wiederverwenden. Die Indizierung organisiert Daten effizient für schnellere und genauere Suchen."
+    },
+    "feature_3": {
+      "title": "Mehrsprachige Kompatibilität",
+      "content": "Durchsuchen Sie Dokumente in über 80 Sprachen. Unterstützt verschiedene Tastaturlayouts und morphologische Analysen zur Verbesserung der Suchgenauigkeit."
+    },
+    "feature_4": {
+      "title": "Erweiterte Suchoptionen",
+      "content": "Passen Sie Suchen mit Groß-/Kleinschreibung, unscharfen Suchen, homophonen Anpassungen, Dokumentfilterung und anderen leistungsstarken Funktionen an."
+    }
+  },
+  "formats": {
+    "title": "Suchphrasen in Geschäftsdokumenten",
+    "description": "{{ProdShortName}} ermöglicht die Phrasensuche in über 70 Dokumentenformaten. Nutzen Sie fortschrittliche Optionen und Indizierung für effiziente Suchen."
+  },
+  "operations": {
+    "title": "Erweiterte Suchfunktionen",
+    "description": "Nutzen Sie modernste Suchfunktionen für verbesserte Genauigkeit und Leistung."
+  },
+  "examples": {
+    "comment_1": "Definieren Sie den Pfad des Suchindex",
+    "comment_2": "Geben Sie den Ordner mit den Dokumenten an",
+    "comment_3": "Stellen Sie die Suchpräferenzen ein",
+    "comment_4": "Führen Sie die Suchanfrage aus"
+  },
+  "steps": {
+    "title": "So finden Sie Phrasen in {{FileFormatUp}} Dokumenten",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vereinfacht die Phrasensuche in {{FileFormatUp}} Dokumenten. Verwenden Sie verschiedene Optionen, um die Suchergebnisse in {{EnvName}} Anwendungen zu verfeinern.",
+      "step_1": "Erstellen Sie ein Verzeichnis für den Suchindex.",
+      "step_2": "Geben Sie den Ordner mit {{FileFormatUp}} Dateien an.",
+      "step_3": "Passen Sie die Suchparameter an.",
+      "step_4": "Rufen Sie die Suchergebnisse ab und analysieren Sie diese."
+    }
+  },
+  "code_1": {
+    "title": "Nutzung fortschrittlicher Suchmethoden",
+    "content": "Erfahren Sie, wie Sie Abfragen für die Suche in {{FileFormatUp}} erstellen.",
+    "comment_1": "Definieren Sie das Verzeichnis für den Suchindex",
+    "comment_2": "Setzen Sie den Pfad zu den Ziel-Dokumenten",
+    "comment_3": "Erstellen Sie eine Suchanfrage für eine spezifische Phrase",
+    "comment_4": "Rufen Sie die Suchergebnisse ab",
+    "comment_5": "Verarbeiten und nutzen Sie die abgerufenen Ergebnisse"
+  }
+}

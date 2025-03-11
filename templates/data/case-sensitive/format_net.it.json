@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Ricerca Sensibile al Caso in {{FileFormatUp}} Utilizzando {{EnvNameShort}}",
+    "description": "L'API {{ProdFullName}} consente agli sviluppatori {{ProgLang}} di eseguire ricerche sensibili al caso su vari documenti."
+  },
+  "header": {
+    "title": "Ricerca Sensibile al Caso",
+    "description": "{{ProdFullName}} consente di creare query di ricerca avanzate sensibili al caso all'interno delle tue applicazioni {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica Gratis"
+  },
+  "about": {
+    "title": "Che cos'è {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una libreria robusta per la ricerca di testo e l'indicizzazione nei documenti. Supporta oltre 70 formati di file, inclusi PDF, Word, PowerPoint, Excel, immagini e file ZIP, garantendo una gestione efficiente di grandi volumi di dati."
+  },
+  "more_features": {
+    "title": "Funzionalità Avanzate per la Ricerca e l'Indicizzazione dei Documenti",
+    "description": "La libreria {{ProdFullName}} semplifica la ricerca di testo e l'indicizzazione in oltre 70 formati di file. Trova e gestisci informazioni in modo efficace con potenti strumenti di ricerca.",
+    "image_description": "Caratteristiche Principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ricerca Testo Avanzata",
+      "content": "Cerca testo in vari formati di file, inclusi PDF, documenti Word, fogli di calcolo e presentazioni. Utilizza opzioni come corrispondenze esatte, ricerca fuzzy e caratteri jolly per risultati precisi."
+    },
+    "feature_2": {
+      "title": "Indicizzazione di Grandi Dataset",
+      "content": "Crea e mantieni indici per ricerche più rapide. Un'indicizzazione organizzata semplifica la ricerca di collezioni estese di documenti."
+    },
+    "feature_3": {
+      "title": "Supporto Multilingue",
+      "content": "Cerca attraverso documenti in oltre 80 lingue, con supporto per diverse tastiere e forme delle parole per risultati più accurati."
+    },
+    "feature_4": {
+      "title": "Opzioni di Ricerca Personalizzabili",
+      "content": "Personalizza le impostazioni di ricerca con sensibilità al caso, filtri di intervallo di date e la possibilità di escludere parole o dati specifici durante l'indicizzazione."
+    }
+  },
+  "formats": {
+    "title": "Cerca Formati Documentali Popolari",
+    "description": "{{ProdShortName}} supporta oltre 70 formati di file. Personalizza le regole di ricerca e utilizza l'indicizzazione per risparmiare tempo e sforzi."
+  },
+  "operations": {
+    "title": "Scopri le Caratteristiche Chiave",
+    "description": "Esplora funzionalità di ricerca avanzate ed efficienti."
+  },
+  "examples": {
+    "comment_1": "Imposta il percorso alla cartella dell'indice",
+    "comment_2": "Specifica la cartella contenente i documenti da cercare",
+    "comment_3": "Attiva la ricerca sensibile al caso nelle opzioni",
+    "comment_4": "Esegui la ricerca"
+  },
+  "steps": {
+    "title": "Come Eseguire una Ricerca Sensibile al Caso in Documenti {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) semplifica la ricerca sensibile al caso in documenti {{FileFormatUp}}. Usalo per affinare i risultati nelle applicazioni {{EnvName}}.",
+      "step_1": "Definisci la cartella per memorizzare l'indice di ricerca.",
+      "step_2": "Scegli la cartella contenente file {{FileFormatUp}}.",
+      "step_3": "Esegui la ricerca e recupera i risultati.",
+      "step_4": "Elabora i risultati."
+    }
+  },
+  "code_1": {
+    "title": "Utilizzo di Query di Ricerca Sensibili al Caso",
+    "content": "Questo esempio mostra come utilizzare query sensibili al caso per la ricerca di documenti {{FileFormatUp}}.",
+    "comment_1": "Imposta la cartella per l'indice di ricerca",
+    "comment_2": "Specifica il percorso ai documenti da cercare",
+    "comment_3": "Crea una query di ricerca",
+    "comment_4": "Attiva le opzioni di ricerca sensibile al caso",
+    "comment_5": "Cerca testo nei documenti",
+    "comment_6": "Elabora i risultati della ricerca"
+  }
+}

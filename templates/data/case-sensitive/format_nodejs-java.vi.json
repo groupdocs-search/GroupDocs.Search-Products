@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Thực hiện tìm kiếm phân biệt chữ hoa chữ thường trong {{FileFormatUp}} với {{EnvNameShort}}",
+    "description": "API {{ProdFullName}} cho phép các nhà phát triển {{ProgLang}} thực hiện tìm kiếm phân biệt chữ hoa chữ thường trên các loại tài liệu khác nhau."
+  },
+  "header": {
+    "title": "Tìm kiếm phân biệt chữ hoa chữ thường",
+    "description": "{{ProdFullName}} cho phép bạn triển khai chức năng tìm kiếm phân biệt chữ hoa chữ thường nâng cao trong các ứng dụng {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "{{ProdShortName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một thư viện mạnh mẽ để tìm kiếm và lập chỉ mục văn bản trong các tài liệu. Nó hỗ trợ hơn 70 định dạng, bao gồm PDF, Word, Excel, PowerPoint, hình ảnh và tệp ZIP, cho phép xử lý hiệu quả một lượng lớn dữ liệu."
+  },
+  "more_features": {
+    "title": "Tính năng chính cho Tìm kiếm và Lập chỉ mục Tài liệu",
+    "description": "Với {{ProdFullName}}, bạn có thể tìm kiếm và lập chỉ mục văn bản trong hơn 70 định dạng tệp. Truy cập và tổ chức thông tin một cách hiệu quả bằng các công cụ tìm kiếm nâng cao.",
+    "image_description": "Các Tính năng Chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tìm kiếm Văn bản Toàn diện",
+      "content": "Tìm kiếm văn bản trong nhiều loại tài liệu như PDF, tệp Word, bảng tính và bài thuyết trình. Sử dụng các tùy chọn như tìm kiếm chính xác, tìm kiếm mờ và ký tự đại diện để có kết quả chính xác."
+    },
+    "feature_2": {
+      "title": "Lập chỉ mục Dữ liệu Hiệu quả",
+      "content": "Tạo và quản lý các chỉ mục để tăng tốc độ tìm kiếm. Lập chỉ mục giúp bạn tổ chức và nhanh chóng xác định dữ liệu trong các bộ sưu tập tài liệu lớn."
+    },
+    "feature_3": {
+      "title": "Hỗ trợ Nhiều Ngôn ngữ",
+      "content": "Tìm kiếm các tài liệu bằng hơn 80 ngôn ngữ với hỗ trợ cho các bố cục bàn phím và biến thể từ vựng đa dạng, đảm bảo kết quả tìm kiếm chính xác."
+    },
+    "feature_4": {
+      "title": "Cài đặt Tìm kiếm Tùy chỉnh",
+      "content": "Điều chỉnh cài đặt tìm kiếm, bao gồm phân biệt chữ hoa chữ thường, bộ lọc theo ngày, và loại trừ các thuật ngữ hoặc dữ liệu nhất định trong quá trình lập chỉ mục."
+    }
+  },
+  "formats": {
+    "title": "Định dạng Tài liệu Tương thích",
+    "description": "{{ProdShortName}} hỗ trợ hơn 70 định dạng tài liệu. Tùy chỉnh các tùy chọn tìm kiếm của bạn và tiết kiệm thời gian với việc lập chỉ mục."
+  },
+  "operations": {
+    "title": "Chức năng Chính",
+    "description": "Khám phá các tính năng nâng cao cho việc tìm kiếm tài liệu nhanh chóng và chính xác."
+  },
+  "examples": {
+    "comment_1": "Xác định đường dẫn cho thư mục chỉ mục",
+    "comment_2": "Đặt thư mục chứa các tài liệu cần tìm",
+    "comment_3": "Kích hoạt tìm kiếm phân biệt chữ hoa chữ thường trong cài đặt",
+    "comment_4": "Thực hiện tìm kiếm"
+  },
+  "steps": {
+    "title": "Các bước để thực hiện tìm kiếm phân biệt chữ hoa chữ thường trong các tệp {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp bạn thực hiện tìm kiếm phân biệt chữ hoa chữ thường trong các tệp {{FileFormatUp}}, nâng cao quy trình làm việc {{EnvName}} của bạn.",
+      "step_1": "Thiết lập một thư mục để lưu trữ chỉ mục tìm kiếm.",
+      "step_2": "Chọn thư mục chứa các tệp {{FileFormatUp}}.",
+      "step_3": "Chạy tìm kiếm và nhận kết quả.",
+      "step_4": "Xử lý và sử dụng kết quả."
+    }
+  },
+  "code_1": {
+    "title": "Ví dụ: Triển khai Tìm kiếm Phân biệt Chữ hoa Chữ thường",
+    "content": "Ví dụ này trình bày cách thực hiện tìm kiếm phân biệt chữ hoa chữ thường cho các tài liệu {{FileFormatUp}}.",
+    "comment_1": "Định nghĩa thư mục cho chỉ mục tìm kiếm",
+    "comment_2": "Cung cấp đường dẫn đến thư mục tài liệu",
+    "comment_3": "Thiết lập một truy vấn tìm kiếm",
+    "comment_4": "Kích hoạt cài đặt tìm kiếm phân biệt chữ hoa chữ thường",
+    "comment_5": "Tìm kiếm văn bản trong các tài liệu",
+    "comment_6": "Xử lý và xử lý kết quả"
+  }
+}

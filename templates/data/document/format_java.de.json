@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Text in {{FileFormatUp}}-Dokumenten mit {{ProdShortName}} für {{EnvNameShort}} finden",
+    "description": "{{ProdFullName}} unterstützt {{ProgLang}}-Entwickler dabei, Texte schnell in verschiedenen Dokumentformaten zu durchsuchen."
+  },
+  "header": {
+    "title": "Intelligente Textsuche in Dokumenten",
+    "description": "Mit {{ProdFullName}} können Sie nahtlos Texte aus verschiedenen Dokumenttypen in Ihren {{EnvNameShort}}-Anwendungen durchsuchen und extrahieren.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion erhalten"
+  },
+  "about": {
+    "title": "Was macht {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine leistungsstarke Bibliothek zur Dokumentensuche und -indizierung, die über 70 Dateiformate unterstützt, darunter PDF, Word, PowerPoint, Excel, Bilder und ZIP-Archive. Sie ermöglicht schnelle, präzise und skalierbare Suchfunktionen für große Dokumentensammlungen."
+  },
+  "more_features": {
+    "title": "Erweiterte Such- und Indizierungsfunktionen",
+    "description": "{{ProdFullName}} vereinfacht die Textsuche und Indizierung in über 70 Dokumentformaten und bietet effiziente Werkzeuge, um Informationen schnell zu verwalten und abzurufen.",
+    "image_description": "Kernfunktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Umfassende Textsuche",
+      "content": "Finden Sie Texte in mehreren Dokumentformaten wie PDFs, Word-Dokumenten, PowerPoint-Präsentationen und Tabellen. Nutzen Sie exakte Übereinstimmungen, unscharfe Suche und Wildcard-Operatoren für verfeinerte Suchergebnisse."
+    },
+    "feature_2": {
+      "title": "Optimierte Indizierung für große Datenmengen",
+      "content": "Erstellen Sie strukturierte Indizes, um Suchvorgänge zu beschleunigen und effizient durch umfangreiche Dokumentenbestände zu navigieren."
+    },
+    "feature_3": {
+      "title": "Unterstützt mehrere Sprachen",
+      "content": "Führen Sie Suchen in über 80 Sprachen durch, mit integrierter Unterstützung für unterschiedliche Tastaturlayouts und Wortmorphologievariationen, um die Genauigkeit zu erhöhen."
+    },
+    "feature_4": {
+      "title": "Flexible Suchoptionen",
+      "content": "Passen Sie Suchen mit Optionen wie Groß- und Kleinschreibung, datumsbasiertem Filtern und der Möglichkeit, spezifische Wörter auszuschließen, für präzise Ergebnisse an."
+    }
+  },
+  "formats": {
+    "title": "Informationen in {{FileFormatUp}}-Dokumenten mit {{ProdShortName}} finden",
+    "description": "{{ProdShortName}} unterstützt über 70 Formate, einschließlich Office-Dateien, und ermöglicht schnelle Suchen mit fortschrittlichen Indizierungsfunktionen."
+  },
+  "operations": {
+    "title": "Überblick über die Hauptfunktionen",
+    "description": "Entdecken Sie leistungsstarke Textsuchfunktionen, die für Effizienz und Präzision entwickelt wurden."
+  },
+  "examples": {
+    "comment_1": "Verzeichnis für die Speicherung des Suchindex festlegen",
+    "comment_2": "Ordner angeben, der durchsuchbare Dokumente enthält",
+    "comment_3": "Homophon-Suche aktivieren, um Wörter mit ähnlicher Aussprache zu erfassen",
+    "comment_4": "Führen Sie eine erweiterte Suchanfrage aus"
+  },
+  "steps": {
+    "title": "Durchsuchung von Texten in {{FileFormatUp}}-Dateien durchführen",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht es, {{FileFormatUp}}-Dateien mithilfe komplexer Logik und Indizierung zu durchsuchen, was die Suchgenauigkeit in {{EnvName}}-Anwendungen verbessert.",
+      "step_1": "Richten Sie ein Verzeichnis zur Speicherung des Suchindexes ein.",
+      "step_2": "Wählen Sie einen Ordner mit {{FileFormatUp}}-Dateien aus.",
+      "step_3": "Definieren Sie zusätzliche Suchoptionen.",
+      "step_4": "Führen Sie die Suche aus und analysieren Sie die Ergebnisse."
+    }
+  },
+  "code_1": {
+    "title": "Implementierung fortgeschrittener Suchabfragen",
+    "content": "Dieses Beispiel zeigt, wie man Suchabfragen verwendet, um effizient in {{FileFormatUp}}-Daten zu suchen.",
+    "comment_1": "Verzeichnis für die Suchindizierung festlegen",
+    "comment_2": "Dateipfad für die Dokumente angeben",
+    "comment_3": "Passwort für verschlüsselte Dokumente eingeben",
+    "comment_4": "Unscharfe Suche aktivieren, um ähnliche Wörter zu erkennen",
+    "comment_5": "Suchergebnisse abrufen",
+    "comment_6": "Suchergebnisse verarbeiten und analysieren"
+  }
+}

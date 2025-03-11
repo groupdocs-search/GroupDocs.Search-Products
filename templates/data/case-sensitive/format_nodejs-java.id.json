@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Lakukan Pencarian Sensi Huruf Besar di {{FileFormatUp}} dengan {{EnvNameShort}}",
+    "description": "API {{ProdFullName}} memungkinkan pengembang {{ProgLang}} untuk melakukan pencarian sensi huruf besar di berbagai jenis dokumen."
+  },
+  "header": {
+    "title": "Pencarian Sensi Huruf Besar",
+    "description": "{{ProdFullName}} memungkinkan Anda mengimplementasikan fungsi pencarian sensi huruf besar yang canggih dalam aplikasi {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Gratis"
+  },
+  "about": {
+    "title": "Apa itu {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah perpustakaan yang kuat untuk mencari dan mengindeks teks dalam dokumen. Ini mendukung lebih dari 70 format, termasuk PDF, Word, Excel, Presentasi, gambar, dan file ZIP, memungkinkan penanganan data dalam jumlah besar secara efisien."
+  },
+  "more_features": {
+    "title": "Fitur Utama untuk Pencarian dan Pengindeksan Dokumen",
+    "description": "Dengan {{ProdFullName}}, Anda dapat mencari dan mengindeks teks dalam lebih dari 70 format file. Akses dan atur informasi dengan mudah menggunakan alat pencarian yang canggih.",
+    "image_description": "Fitur Inti dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Pencarian Teks Komprehensif",
+      "content": "Temukan teks dalam berbagai jenis dokumen seperti PDF, file Word, spreadsheet, dan presentasi. Gunakan opsi seperti pencocokan tepat, pencarian fuzzy, dan wildcard untuk hasil yang akurat."
+    },
+    "feature_2": {
+      "title": "Pengindeksan Data yang Efisien",
+      "content": "Buat dan kelola indeks untuk mempercepat pencarian. Pengindeksan membantu Anda mengatur dan dengan cepat menemukan data dalam koleksi dokumen yang besar."
+    },
+    "feature_3": {
+      "title": "Mendukung Banyak Bahasa",
+      "content": "Cari dokumen dalam lebih dari 80 bahasa dengan dukungan untuk berbagai tata letak keyboard dan variasi kata, memastikan hasil pencarian yang akurat."
+    },
+    "feature_4": {
+      "title": "Pengaturan Pencarian yang Dapat Disesuaikan",
+      "content": "Sesuaikan pengaturan pencarian, termasuk sensi huruf besar, filter tanggal, dan pengecualian istilah atau data tertentu selama pengindeksan."
+    }
+  },
+  "formats": {
+    "title": "Format Dokumen yang Kompatibel",
+    "description": "{{ProdShortName}} mendukung lebih dari 70 format dokumen. Sesuaikan opsi pencarian Anda dan hemat waktu dengan pengindeksan."
+  },
+  "operations": {
+    "title": "Fungsi Utama",
+    "description": "Jelajahi fitur canggih untuk pencarian dokumen yang cepat dan tepat."
+  },
+  "examples": {
+    "comment_1": "Tentukan jalur untuk folder indeks",
+    "comment_2": "Setel folder yang berisi dokumen untuk dicari",
+    "comment_3": "Aktifkan pencarian sensi huruf besar dalam pengaturan",
+    "comment_4": "Lakukan pencarian"
+  },
+  "steps": {
+    "title": "Langkah untuk Melakukan Pencarian Sensi Huruf Besar di File {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memudahkan melakukan pencarian sensi huruf besar di file {{FileFormatUp}}, meningkatkan alur kerja {{EnvName}} Anda.",
+      "step_1": "Siapkan folder untuk menyimpan indeks pencarian.",
+      "step_2": "Pilih folder yang berisi file {{FileFormatUp}}.",
+      "step_3": "Jalankan pencarian dan dapatkan hasilnya.",
+      "step_4": "Proses dan gunakan hasilnya."
+    }
+  },
+  "code_1": {
+    "title": "Contoh: Implementasi Pencarian Sensi Huruf Besar",
+    "content": "Contoh ini menunjukkan cara melakukan pencarian sensi huruf besar untuk dokumen {{FileFormatUp}}.",
+    "comment_1": "Tentukan folder untuk indeks pencarian",
+    "comment_2": "Berikan jalur ke folder dokumen",
+    "comment_3": "Atur kueri pencarian",
+    "comment_4": "Aktifkan pengaturan pencarian sensi huruf besar",
+    "comment_5": "Cari teks dalam dokumen",
+    "comment_6": "Proses dan tangani hasilnya"
+  }
+}

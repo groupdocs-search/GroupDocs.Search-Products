@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Boolesche Suche in {{FileFormatUp}} mit {{ProgLang}}",
+    "description": "Mit {{ProdFullName}} können Entwickler Dokumentensuchen mithilfe von Booleschen Operatoren wie AND, OR und NOT durchführen."
+  },
+  "header": {
+    "title": "Boolesche Textsuche",
+    "description": "Nutzen Sie {{ProdFullName}}, um in Ihren {{EnvNameShort}}-Projekten komplexe boolesche (AND, OR, NOT) Suchanfragen zu erstellen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine vielseitige Bibliothek, die für die Textsuche und Datenindizierung in Dokumenten entwickelt wurde. Sie unterstützt über 70 Dateitypen, darunter PDF, Word, Excel, PowerPoint-Bilder und ZIP-Archive, und ermöglicht effiziente Suchen in großen Datenmengen."
+  },
+  "more_features": {
+    "title": "Leistungsstarke Werkzeuge für Dokumentensuche und Indizierung",
+    "description": "{{ProdFullName}} vereinfacht die Textsuche und Datenindizierung für über 70 Formate. Ihre fortschrittlichen Werkzeuge ermöglichen es Ihnen, Inhalte mühelos zu finden und zu verwalten.",
+    "image_description": "Wichtige Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Umfassende Textsuche",
+      "content": "Suchen Sie über mehrere Formate wie PDFs, Word-Dokumente, Präsentationen, Tabellenkalkulationen und mehr. Nutzen Sie Optionen wie exakte Übereinstimmungen, unscharfe Suche und Platzhalterabfragen zur Verfeinerung der Ergebnisse."
+    },
+    "feature_2": {
+      "title": "Effiziente Datenindizierung",
+      "content": "Erstellen und pflegen Sie Indizes für schnellere Dokumentensuchen. Diese Funktion organisiert Daten effizient, was die Handhabung großer Dokumentensammlungen erleichtert."
+    },
+    "feature_3": {
+      "title": "Mehrsprachige Unterstützung",
+      "content": "Suchen Sie in Dokumenten, die in über 80 Sprachen verfasst sind. Steigern Sie die Genauigkeit durch morphologische Wortformen und verschiedene Tastaturlayouts."
+    },
+    "feature_4": {
+      "title": "Flexible Suchanpassung",
+      "content": "Passen Sie die Sucheinstellungen mit Funktionen wie Groß-/Kleinschreibung, Datumsbereichsfiltern und Ausschlüssen zur Verfeinerung Ihrer Ergebnisse an."
+    }
+  },
+  "formats": {
+    "title": "Beliebte Dokumentformate durchsuchen",
+    "description": "{{ProdShortName}} unterstützt über 70 Dateiformate, sodass Sie Suchregeln anpassen und die Indizierung nutzen können, um die Leistung zu optimieren."
+  },
+  "operations": {
+    "title": "Wichtige Funktionen auf einen Blick",
+    "description": "Entfesseln Sie leistungsstarke und effiziente Suchfähigkeiten"
+  },
+  "examples": {
+    "comment_1": "Legen Sie den Pfad für den Indexordner fest",
+    "comment_2": "Geben Sie den Ordnerpfad mit den Dokumenten für die Suche an",
+    "comment_3": "Führen Sie eine Suche mit einer komplexen Abfrage aus"
+  },
+  "steps": {
+    "title": "So führen Sie Boolesche Suchen in {{FileFormatUp}}-Dokumenten durch",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht zielgerichtete Textsuchen in {{FileFormatUp}}-Dokumenten. Mit Unterstützung für boolesche Bedingungen können Sie die Suchgenauigkeit in {{EnvName}}-Anwendungen erhöhen.",
+      "step_1": "Geben Sie den Ordner an, in dem der Suchindex gespeichert werden soll.",
+      "step_2": "Wählen Sie den Ordner mit den {{FileFormatUp}}-Dokumenten aus.",
+      "step_3": "Führen Sie die Suchanfrage aus und rufen Sie die Ergebnisse ab.",
+      "step_4": "Verarbeiten Sie die erhaltenen Ergebnisse."
+    }
+  },
+  "code_1": {
+    "title": "Verwendung komplexer Boolescher Suchabfragen",
+    "content": "Dieses Beispiel demonstriert, wie Boolesche Suchen in {{FileFormatUp}}-Dateien durchgeführt werden.",
+    "comment_1": "Legen Sie den Ordner für den Suchindex fest",
+    "comment_2": "Geben Sie den Pfad zu den zu durchsuchenden Dokumenten an",
+    "comment_3": "Bauen Sie die Abfrage mithilfe Boolescher Logik auf",
+    "comment_4": "Rufen Sie die Suchergebnisse ab",
+    "comment_5": "Verarbeiten Sie die abgerufenen Ergebnisse"
+  }
+}

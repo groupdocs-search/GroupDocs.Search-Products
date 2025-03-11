@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Buscar frases en {{FileFormatUp}} utilizando {{EnvNameShort}}",
+    "description": "{{ProdFullName}} mejora las aplicaciones de {{ProgLang}} con potentes capacidades de búsqueda de frases para el contenido de los documentos."
+  },
+  "header": {
+    "title": "Buscar frases en documentos",
+    "description": "Encuentra frases específicas rápidamente con {{ProdFullName}}. Integra una funcionalidad de búsqueda eficiente en tus aplicaciones de {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar"
+  },
+  "about": {
+    "title": "Funciones de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una poderosa biblioteca para indexar y buscar texto en documentos. Soporta más de 70 formatos de archivo, incluidos PDF, documentos de Word, hojas de Excel, imágenes y archivos ZIP, lo que permite obtener resultados de búsqueda rápidos y precisos."
+  },
+  "more_features": {
+    "title": "Descubre el motor de búsqueda de documentos de {{EnvNameShort}}",
+    "description": "{{ProdFullName}} permite búsquedas de frases en más de 70 formatos de archivo. Localiza y gestiona datos con capacidades avanzadas de búsqueda.",
+    "image_description": "Características clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Búsqueda de frases",
+      "content": "Busca frases exactas en documentos de negocios, incluyendo PDF, archivos de Word, presentaciones y hojas de cálculo. Utiliza caracteres comodín y otras opciones si la frase exacta es desconocida."
+    },
+    "feature_2": {
+      "title": "Indexación eficiente de datos",
+      "content": "Crea y reutiliza índices de búsqueda para acelerar las búsquedas de documentos. La indexación estructura los datos de manera eficiente, haciendo que las búsquedas de frases sean más rápidas."
+    },
+    "feature_3": {
+      "title": "Soporte multilingüe",
+      "content": "Busca documentos en más de 80 idiomas. Soporta diferentes distribuciones de teclado y formas morfológicas de palabras para mayor precisión en las búsquedas."
+    },
+    "feature_4": {
+      "title": "Opciones de búsqueda flexibles",
+      "content": "Personaliza las búsquedas con características como sensibilidad a mayúsculas, búsqueda difusa y homófonas, filtrado de documentos y más."
+    }
+  },
+  "formats": {
+    "title": "Búsqueda de frases en documentos de negocios",
+    "description": "{{ProdShortName}} soporta búsquedas en más de 70 formatos de documentos. Utiliza opciones avanzadas e indexación para agilizar tu proceso de búsqueda."
+  },
+  "operations": {
+    "title": "Características avanzadas",
+    "description": "Utiliza funciones de búsqueda potentes y eficientes."
+  },
+  "examples": {
+    "comment_1": "Ruta para almacenar el índice de búsqueda",
+    "comment_2": "Carpeta que contiene documentos",
+    "comment_3": "Configurar opciones de búsqueda",
+    "comment_4": "Ejecutar la búsqueda"
+  },
+  "steps": {
+    "title": "Cómo buscar frases en documentos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifica la búsqueda en documentos {{FileFormatUp}}. Utiliza diversas opciones para refinizar los resultados de búsqueda en aplicaciones {{EnvName}}.",
+      "step_1": "Configura la carpeta del índice de búsqueda.",
+      "step_2": "Especifica la carpeta que contiene archivos {{FileFormatUp}}.",
+      "step_3": "Configura la configuración de búsqueda.",
+      "step_4": "Recupera y procesa los resultados de búsqueda."
+    }
+  },
+  "code_1": {
+    "title": "Uso de técnicas de búsqueda avanzadas",
+    "content": "Aprende a crear consultas para buscar en {{FileFormatUp}}.",
+    "comment_1": "Especificar la carpeta para el índice de búsqueda",
+    "comment_2": "Establecer la ruta a los documentos para la búsqueda",
+    "comment_3": "Crear una consulta para una frase específica",
+    "comment_4": "Recuperar los resultados de búsqueda",
+    "comment_5": "Procesar y utilizar los resultados"
+  }
+}

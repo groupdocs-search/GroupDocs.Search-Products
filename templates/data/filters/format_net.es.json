@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Buscar en documentos {{FileFormatUp}} usando {{EnvNameShort}}",
+    "description": "{{ProdFullName}} mejora las aplicaciones {{ProgLang}} con búsqueda de texto eficiente en varios formatos de documentos empresariales."
+  },
+  "header": {
+    "title": "Buscar texto en documentos empresariales",
+    "description": "{{ProdFullName}} permite búsquedas de texto potentes y flexibles en tus documentos. Integra fácilmente la funcionalidad de búsqueda en aplicaciones {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar gratis"
+  },
+  "about": {
+    "title": "¿Qué es {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una poderosa biblioteca para la búsqueda de texto eficiente e indexación de documentos. Soporta más de 70 formatos de archivo, incluidos documentos estándar de la industria como PDF, Word, Excel y PowerPoint. Mejora el rendimiento de búsqueda con resultados rápidos y precisos."
+  },
+  "more_features": {
+    "title": "Funciones avanzadas de búsqueda",
+    "description": "{{ProdFullName}} permite búsquedas de texto sofisticadas en más de 70 formatos de archivo. La indexación mejora la eficiencia de búsqueda y ayuda a gestionar el contenido de los documentos de manera efectiva.",
+    "image_description": "Principales características de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Búsqueda de texto avanzada",
+      "content": "Extrae texto relevante de documentos empresariales populares, incluidos PDFs, archivos de Word, presentaciones y hojas de cálculo. Soporta múltiples técnicas de búsqueda como búsqueda difusa, detección de homófonos y comodines."
+    },
+    "feature_2": {
+      "title": "Indexación optimizada para búsquedas rápidas",
+      "content": "Construye y reutiliza índices de búsqueda para mejorar la velocidad de búsqueda. La indexación optimiza el rendimiento al buscar en grandes colecciones de documentos."
+    },
+    "feature_3": {
+      "title": "Soporte para múltiples idiomas",
+      "content": "Realiza búsquedas en documentos escritos en más de 80 idiomas. Detecta diferentes configuraciones de teclado y variaciones de palabras para mejorar la precisión."
+    },
+    "feature_4": {
+      "title": "Configuraciones de búsqueda flexibles",
+      "content": "Refina los resultados de búsqueda con opciones personalizables, incluyendo filtros, expresiones regulares y configuraciones de sensibilidad a mayúsculas."
+    }
+  },
+  "formats": {
+    "title": "Encuentra datos en tus documentos empresariales",
+    "description": "{{ProdShortName}} soporta más de 70 formatos de archivo, permitiendo el procesamiento y la búsqueda eficiente de documentos de oficina populares."
+  },
+  "operations": {
+    "title": "Características clave",
+    "description": "Realiza búsquedas de datos precisas y eficientes."
+  },
+  "examples": {
+    "comment_1": "Ruta para almacenar el índice de búsqueda reutilizable",
+    "comment_2": "Carpeta que contiene documentos",
+    "comment_3": "Buscar solo dentro de formatos de archivo específicos",
+    "comment_4": "Recuperar resultados de búsqueda"
+  },
+  "steps": {
+    "title": "Cómo buscar en datos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite búsquedas de texto eficientes en documentos {{FileFormatUp}}, lo que lo hace ideal para aplicaciones {{EnvName}}.",
+      "step_1": "Configura una carpeta para almacenar el índice de búsqueda.",
+      "step_2": "Selecciona la carpeta que contiene tus archivos.",
+      "step_3": "Configura las opciones de búsqueda para procesar solo documentos {{FileFormatUp}}.",
+      "step_4": "Ejecuta la búsqueda y recupera resultados."
+    }
+  },
+  "code_1": {
+    "title": "Filtrar documentos para ser procesados",
+    "content": "Aprende a restringir las búsquedas de documentos utilizando filtros.",
+    "comment_1": "Configura un índice que excluya ciertos formatos de archivo",
+    "comment_2": "Especifica el directorio de los documentos",
+    "comment_3": "Recupera resultados de búsqueda",
+    "comment_4": "Procesa y usa los resultados de búsqueda"
+  }
+}

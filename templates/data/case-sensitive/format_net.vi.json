@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Tìm kiếm phân biệt chữ hoa trong {{FileFormatUp}} sử dụng {{EnvNameShort}}",
+    "description": "API {{ProdFullName}} cho phép các nhà phát triển {{ProgLang}} thực hiện các tìm kiếm phân biệt chữ hoa trong nhiều tài liệu."
+  },
+  "header": {
+    "title": "Tìm kiếm phân biệt chữ hoa",
+    "description": "{{ProdFullName}} giúp tạo các truy vấn tìm kiếm phân biệt chữ hoa phức tạp trong ứng dụng {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải Xuống Miễn Phí"
+  },
+  "about": {
+    "title": "{{ProdShortName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một thư viện mạnh mẽ cho việc tìm kiếm và lập chỉ mục văn bản trong các tài liệu. Nó hỗ trợ hơn 70 định dạng tệp, bao gồm PDF, Word, PowerPoint, Excel, hình ảnh và tệp ZIP, đảm bảo xử lý hiệu quả các khối lượng dữ liệu lớn."
+  },
+  "more_features": {
+    "title": "Tính Năng Nâng Cao cho Tìm Kiếm và Lập Chỉ Mục Tài Liệu",
+    "description": "Thư viện {{ProdFullName}} đơn giản hóa việc tìm kiếm văn bản và lập chỉ mục trên hơn 70 định dạng tệp. Tìm và quản lý thông tin một cách hiệu quả với các công cụ tìm kiếm mạnh mẽ.",
+    "image_description": "Các Tính Năng Chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tìm Kiếm Văn Bản Nâng Cao",
+      "content": "Tìm kiếm văn bản trong nhiều định dạng tệp khác nhau, bao gồm PDF, tài liệu Word, bảng tính và bài thuyết trình. Sử dụng các tùy chọn như tìm kiếm chính xác, tìm kiếm không chính xác và ký tự đại diện để có kết quả chính xác."
+    },
+    "feature_2": {
+      "title": "Lập Chỉ Mục Tập Dữ Liệu Lớn",
+      "content": "Xây dựng và duy trì các chỉ mục để tìm kiếm nhanh hơn. Lập chỉ mục có tổ chức giúp tìm kiếm các bộ sưu tập tài liệu lớn một cách dễ dàng."
+    },
+    "feature_3": {
+      "title": "Hỗ Trợ Đa Ngôn Ngữ",
+      "content": "Tìm kiếm trong các tài liệu bằng hơn 80 ngôn ngữ, với hỗ trợ cho các bố trí bàn phím và hình thức từ khác nhau để có kết quả chính xác hơn."
+    },
+    "feature_4": {
+      "title": "Tùy Chỉnh Tùy Chọn Tìm Kiếm",
+      "content": "Tùy chỉnh cài đặt tìm kiếm với phân biệt chữ hoa, bộ lọc khoảng thời gian và khả năng loại trừ các từ hoặc dữ liệu cụ thể trong quá trình lập chỉ mục."
+    }
+  },
+  "formats": {
+    "title": "Tìm Kiếm Các Định Dạng Tài Liệu Phổ Biến",
+    "description": "{{ProdShortName}} hỗ trợ hơn 70 định dạng tệp. Tùy chỉnh quy tắc tìm kiếm và sử dụng lập chỉ mục để tiết kiệm thời gian và công sức."
+  },
+  "operations": {
+    "title": "Khám Phá Các Tính Năng Chính",
+    "description": "Khám phá các chức năng tìm kiếm tiên tiến và hiệu quả."
+  },
+  "examples": {
+    "comment_1": "Đặt đường dẫn đến thư mục chỉ mục",
+    "comment_2": "Chỉ định thư mục chứa các tài liệu cần tìm",
+    "comment_3": "Bật tìm kiếm phân biệt chữ hoa trong tùy chọn",
+    "comment_4": "Chạy tìm kiếm"
+  },
+  "steps": {
+    "title": "Cách Thực Hiện Tìm Kiếm Phân Biệt Chữ Hoa trong Tài Liệu {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) đơn giản hóa tìm kiếm phân biệt chữ hoa trong các tài liệu {{FileFormatUp}}. Sử dụng để tinh chỉnh kết quả trong các ứng dụng {{EnvName}}.",
+      "step_1": "Xác định thư mục để lưu trữ chỉ mục tìm kiếm.",
+      "step_2": "Chọn thư mục chứa tệp {{FileFormatUp}}.",
+      "step_3": "Chạy tìm kiếm và lấy kết quả.",
+      "step_4": "Xử lý các kết quả."
+    }
+  },
+  "code_1": {
+    "title": "Sử Dụng Các Truy Vấn Tìm Kiếm Phân Biệt Chữ Hoa",
+    "content": "Ví dụ này cho thấy cách sử dụng các truy vấn phân biệt chữ hoa để tìm kiếm trong các tài liệu {{FileFormatUp}}.",
+    "comment_1": "Đặt thư mục cho chỉ mục tìm kiếm",
+    "comment_2": "Xác định đường dẫn đến các tài liệu cần tìm",
+    "comment_3": "Tạo một truy vấn tìm kiếm",
+    "comment_4": "Bật các tùy chọn tìm kiếm phân biệt chữ hoa",
+    "comment_5": "Tìm kiếm văn bản trong các tài liệu",
+    "comment_6": "Xử lý các kết quả tìm kiếm"
+  }
+}

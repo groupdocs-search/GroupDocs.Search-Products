@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Cerca in documenti {{FileFormatUp}} utilizzando {{EnvNameShort}}",
+    "description": "{{ProdFullName}} aggiunge potenti capacità di ricerca testuale alle applicazioni {{ProgLang}}, supportando vari formati di documenti aziendali."
+  },
+  "header": {
+    "title": "Trova testo in documenti aziendali",
+    "description": "{{ProdFullName}} consente di cercare testo in documenti utilizzando query flessibili e precise. Integra facilmente la funzionalità di ricerca nelle applicazioni {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratuitamente"
+  },
+  "about": {
+    "title": "Cos'è {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una libreria robusta per una ricerca testuale rapida e l'indicizzazione dei documenti. Supporta oltre 70 formati di file, inclusi standard del settore come PDF, Word, Excel e PowerPoint. Migliora le tue applicazioni con capacità di ricerca ad alta velocità e precisione."
+  },
+  "more_features": {
+    "title": "Capacità di ricerca avanzate",
+    "description": "{{ProdFullName}} offre una ricerca testuale avanzata su più di 70 formati di file. L'indicizzazione accelera le ricerche e migliora l'efficienza nella gestione dei documenti.",
+    "image_description": "Caratteristiche principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ricerca testuale potente",
+      "content": "Trova testo in formati di documenti popolari come PDF, file Word, presentazioni e fogli di calcolo. Supporta diversi metodi di ricerca, inclusi ricerca fuzzy, omofoni e caratteri jolly."
+    },
+    "feature_2": {
+      "title": "Indicizzazione ottimizzata per prestazioni migliori",
+      "content": "Crea e riutilizza indici di ricerca per migliorare la velocità e l'efficienza delle ricerche, specialmente in grandi collezioni di documenti."
+    },
+    "feature_3": {
+      "title": "Supporto per ricerca multilingue",
+      "content": "Cerca all'interno di documenti scritti in oltre 80 lingue. Rileva diverse impostazioni della tastiera e variazioni di parole per una maggiore precisione."
+    },
+    "feature_4": {
+      "title": "Opzioni di ricerca personalizzabili",
+      "content": "Affina i risultati di ricerca con filtri, espressioni regolari e altre impostazioni di ricerca avanzate."
+    }
+  },
+  "formats": {
+    "title": "Cerca in documenti aziendali",
+    "description": "{{ProdShortName}} supporta oltre 70 formati di file, rendendo semplice la ricerca in documenti d’ufficio ampiamente utilizzati."
+  },
+  "operations": {
+    "title": "Caratteristiche chiave",
+    "description": "Esegui ricerche testuali precise ed efficienti."
+  },
+  "examples": {
+    "comment_1": "Directory per memorizzare l'indice di ricerca riutilizzabile",
+    "comment_2": "Cartella contenente i documenti",
+    "comment_3": "Filtra le ricerche per formato di documento",
+    "comment_4": "Recupera i risultati della ricerca"
+  },
+  "steps": {
+    "title": "Come cercare in documenti {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) consente ricerche testuali rapide ed efficienti in documenti {{FileFormatUp}}, perfette per applicazioni {{EnvName}}.",
+      "step_1": "Specifica una cartella per memorizzare l'indice di ricerca.",
+      "step_2": "Seleziona la cartella contenente i tuoi documenti.",
+      "step_3": "Configura le opzioni di ricerca per limitare i risultati ai documenti {{FileFormatUp}}.",
+      "step_4": "Esegui la ricerca e ottieni i risultati."
+    }
+  },
+  "code_1": {
+    "title": "Filtra i documenti prima della ricerca",
+    "content": "Scopri come affinare le ricerche utilizzando filtri.",
+    "comment_1": "Imposta un indice che esclude determinati formati di file.",
+    "comment_2": "Specifica il percorso di archiviazione dei documenti.",
+    "comment_3": "Recupera i risultati della ricerca.",
+    "comment_4": "Elabora e utilizza i risultati della ricerca."
+  }
+}

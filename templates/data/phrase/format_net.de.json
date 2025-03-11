@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Suchphrasen in {{FileFormatUp}} mit {{EnvNameShort}}",
+    "description": "{{ProdFullName}} verbessert {{ProgLang}}-Anwendungen mit leistungsstarken Suchfunktionen für Dokumenteninhalt."
+  },
+  "header": {
+    "title": "Nach Phrasen in Dokumenten suchen",
+    "description": "Finden Sie spezifische Phrasen schnell mit {{ProdFullName}}. Integrieren Sie eine effiziente Suchfunktionalität in Ihre {{EnvNameShort}}-Anwendungen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Herunterladen"
+  },
+  "about": {
+    "title": "{{ProdShortName}}-Funktionen",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine leistungsstarke Bibliothek zum Indizieren und Durchsuchen von Text in Dokumenten. Sie unterstützt über 70 Dateiformate, darunter PDFs, Word-Dokumente, Excel-Tabellen, Bilder und ZIP-Dateien, und ermöglicht schnelle und präzise Suchergebnisse."
+  },
+  "more_features": {
+    "title": "Entdecken Sie die Dokumentensuchmaschine von {{EnvNameShort}}",
+    "description": "{{ProdFullName}} ermöglicht die Phrasensuche in über 70 Dateiformaten. Lokalisieren und verwalten Sie Daten mit fortschrittlichen Suchfunktionen.",
+    "image_description": "Hauptmerkmale von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Phrasensuche",
+      "content": "Suchen Sie nach genauen Phrasen in Geschäftsdokumenten, einschließlich PDFs, Word-Dateien, Präsentationen und Tabellenkalkulationen. Verwenden Sie Platzhalter und andere Optionen, wenn die genaue Phrase unbekannt ist."
+    },
+    "feature_2": {
+      "title": "Effizientes Datenindizieren",
+      "content": "Erstellen und verwenden Sie Suchindizes, um Dokumentensuchen zu beschleunigen. Indizierung strukturiert Daten effizient, sodass Phrasensuchen schneller erfolgen."
+    },
+    "feature_3": {
+      "title": "Mehrsprachige Unterstützung",
+      "content": "Durchsuchen Sie Dokumente in über 80 Sprachen. Unterstützt verschiedene Tastaturlayouts und morphologische Wortformen für eine genauere Suche."
+    },
+    "feature_4": {
+      "title": "Flexible Suchoptionen",
+      "content": "Passen Sie Suchanfragen mit Funktionen wie Groß-/Kleinschreibung, unscharfer Suche und Homophon-Suche sowie Dokumentfilterung an."
+    }
+  },
+  "formats": {
+    "title": "Phrasensuche in Geschäftsdokumenten",
+    "description": "{{ProdShortName}} unterstützt Suchen in über 70 Dokumentformaten. Nutzen Sie erweiterte Optionen und Indizierung, um Ihren Suchprozess zu optimieren."
+  },
+  "operations": {
+    "title": "Erweiterte Funktionen",
+    "description": "Nutzen Sie leistungsstarke und effiziente Suchfunktionen."
+  },
+  "examples": {
+    "comment_1": "Pfad zum Speichern des Suchindex",
+    "comment_2": "Ordner mit Dokumenten",
+    "comment_3": "Suchoptionen konfigurieren",
+    "comment_4": "Die Suche ausführen"
+  },
+  "steps": {
+    "title": "So suchen Sie nach Phrasen in {{FileFormatUp}}-Dokumenten",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vereinfacht die Suche in {{FileFormatUp}}-Dokumenten. Verwenden Sie verschiedene Optionen, um Suchergebnisse in {{EnvName}}-Anwendungen zu verfeinern.",
+      "step_1": "Richten Sie den Ordner für den Suchindex ein.",
+      "step_2": "Geben Sie den Ordner an, der {{FileFormatUp}}-Dateien enthält.",
+      "step_3": "Konfigurieren Sie die Sucheinstellungen.",
+      "step_4": "Holen Sie die Suchergebnisse ab und verarbeiten Sie diese."
+    }
+  },
+  "code_1": {
+    "title": "Verwendung fortgeschrittener Suchtechniken",
+    "content": "Erfahren Sie, wie Sie Abfragen für die Suche in {{FileFormatUp}} erstellen.",
+    "comment_1": "Geben Sie den Ordner für den Suchindex an",
+    "comment_2": "Legen Sie den Pfad zu den Dokumenten für die Suche fest",
+    "comment_3": "Erstellen Sie eine Abfrage für eine spezifische Phrase",
+    "comment_4": "Holen Sie die Suchergebnisse ab",
+    "comment_5": "Verarbeiten und nutzen Sie die Ergebnisse"
+  }
+}

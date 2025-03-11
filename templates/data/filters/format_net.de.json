@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "In {{FileFormatUp}}-Dokumenten suchen mit {{EnvNameShort}}",
+    "description": "{{ProdFullName}} verbessert {{ProgLang}}-Anwendungen mit effizienter Textsuche über verschiedene Geschäftsdateiformate."
+  },
+  "header": {
+    "title": "Text in Geschäftsdokumenten suchen",
+    "description": "{{ProdFullName}} ermöglicht leistungsstarke und flexible Textsuche in Ihren Dokumenten. Integrieren Sie die Suchfunktionalität nahtlos in {{EnvNameShort}}-Anwendungen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Was ist {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine leistungsstarke Bibliothek für effiziente Textsuche und Dokumentenindizierung. Sie unterstützt über 70 Dateiformate, einschließlich branchenüblicher Dokumente wie PDF, Word, Excel und PowerPoint. Verbessern Sie die Suchleistung mit schnellen und genauen Ergebnissen."
+  },
+  "more_features": {
+    "title": "Erweiterte Suchfunktionen",
+    "description": "{{ProdFullName}} ermöglicht aufwendige Textsuchen in mehr als 70 Dateiformaten. Die Indizierung verbessert die Sucheffizienz und hilft, Dokumenteninhalte effektiv zu verwalten.",
+    "image_description": "Hauptfunktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Erweiterte Textsuche",
+      "content": "Extrahieren Sie relevante Texte aus beliebten Geschäftsdokumenten, einschließlich PDFs, Word-Dokumenten, Präsentationen und Tabellenkalkulationen. Unterstützt mehrere Suchtechniken wie unscharfe Suche, Homophon-Erkennung und Platzhalter."
+    },
+    "feature_2": {
+      "title": "Optimierte Indizierung für schnellere Suchen",
+      "content": "Erstellen und wiederverwenden Sie Suchindizes, um die Suchgeschwindigkeit zu erhöhen. Die Indizierung optimiert die Leistung bei der Suche in großen Dokumentensammlungen."
+    },
+    "feature_3": {
+      "title": "Unterstützung mehrerer Sprachen",
+      "content": "Führen Sie Suchen in Dokumenten in über 80 Sprachen durch. Erkennt verschiedene Tastaturlayouts und Wortvariationen zur Verbesserung der Genauigkeit."
+    },
+    "feature_4": {
+      "title": "Flexible Sucheinstellungen",
+      "content": "Verfeinern Sie Suchergebnisse mit anpassbaren Optionen, einschließlich Filter, reguläre Ausdrücke und Einstellungen zur Groß-/Kleinschreibung."
+    }
+  },
+  "formats": {
+    "title": "Daten in Ihren Geschäftsdokumenten finden",
+    "description": "{{ProdShortName}} unterstützt über 70 Dateiformate und ermöglicht eine effiziente Verarbeitung und Suche von beliebten Büro-Dokumenten."
+  },
+  "operations": {
+    "title": "Hauptfunktionen",
+    "description": "Führen Sie präzise und effiziente Datensuchen durch."
+  },
+  "examples": {
+    "comment_1": "Pfad zum Speichern des wiederverwendbaren Suchindex",
+    "comment_2": "Ordner mit Dokumenten",
+    "comment_3": "Nur innerhalb spezifischer Dateiformate suchen",
+    "comment_4": "Suchergebnisse abrufen"
+  },
+  "steps": {
+    "title": "So suchen Sie in {{FileFormatUp}}-Daten",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht effiziente Textsuchen in {{FileFormatUp}}-Dokumenten, was es ideal für {{EnvName}}-Anwendungen macht.",
+      "step_1": "Richten Sie einen Ordner zum Speichern des Suchindex ein.",
+      "step_2": "Wählen Sie den Ordner mit Ihren Dateien aus.",
+      "step_3": "Konfigurieren Sie die Sucheinstellungen, um nur {{FileFormatUp}}-Dokumente zu verarbeiten.",
+      "step_4": "Führen Sie die Suche aus und rufen Sie die Ergebnisse ab."
+    }
+  },
+  "code_1": {
+    "title": "Dokumente filtern, die verarbeitet werden sollen",
+    "content": "Erfahren Sie, wie Sie Dokumentensuchen mit Filtern eingrenzen können.",
+    "comment_1": "Richten Sie einen Index ein, der bestimmte Dateiformate ausschließt.",
+    "comment_2": "Geben Sie das Dokumentenverzeichnis an.",
+    "comment_3": "Rufen Sie die Suchergebnisse ab.",
+    "comment_4": "Verarbeiten und nutzen Sie die Suchergebnisse."
+  }
+}

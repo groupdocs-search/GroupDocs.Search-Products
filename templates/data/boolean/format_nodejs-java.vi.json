@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Tìm kiếm boolean {{FileFormatUp}} qua {{EnvNameShort}}",
+    "description": "Sử dụng API {{ProdFullName}} để thực hiện các tìm kiếm nâng cao trong nội dung tài liệu với các toán tử boolean như AND, OR và NOT, phù hợp cho các nhà phát triển {{ProgLang}}."
+  },
+  "header": {
+    "title": "Thực hiện tìm kiếm logic boolean",
+    "description": "Với {{ProdFullName}}, bạn có thể tạo các truy vấn tìm kiếm nâng cao bằng cách sử dụng các toán tử boolean (AND, OR, NOT) một cách liền mạch trong môi trường {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải Ngay"
+  },
+  "about": {
+    "title": "{{ProdShortName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một công cụ mạnh mẽ để tìm kiếm và lập chỉ mục văn bản trong các tài liệu. Nó hỗ trợ hơn 70 định dạng như PDF, Word, Excel, PowerPoint, hình ảnh và tệp ZIP, giúp xử lý lượng thông tin lớn một cách hiệu quả."
+  },
+  "more_features": {
+    "title": "Công cụ mạnh mẽ cho việc tìm kiếm và lập chỉ mục tài liệu",
+    "description": "{{ProdFullName}} đơn giản hóa việc tìm kiếm và lập chỉ mục văn bản cho hơn 70 loại tệp, giúp bạn tìm và quản lý thông tin nhanh chóng và chính xác.",
+    "image_description": "Các tính năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tìm kiếm văn bản nâng cao",
+      "content": "Tìm văn bản nhanh chóng qua nhiều định dạng như PDF, tài liệu Word, thuyết trình và bảng tính. Sử dụng các tính năng như tìm kiếm chính xác, tìm kiếm wildcard và tìm kiếm mờ để đạt kết quả chính xác."
+    },
+    "feature_2": {
+      "title": "Lập chỉ mục dữ liệu hiệu quả",
+      "content": "Xây dựng và quản lý các chỉ mục để tăng tốc độ tìm kiếm trong các bộ sưu tập tài liệu lớn. Lập chỉ mục đảm bảo truy cập nhanh chóng và có cấu trúc vào dữ liệu của bạn."
+    },
+    "feature_3": {
+      "title": "Hỗ trợ đa ngôn ngữ",
+      "content": "Tìm kiếm trong các tài liệu viết bằng hơn 80 ngôn ngữ. Hỗ trợ hình thái và khả năng tương thích với bố cục bàn phím nâng cao kết quả tìm kiếm trong các ngôn ngữ khác nhau."
+    },
+    "feature_4": {
+      "title": "Cài đặt tìm kiếm linh hoạt",
+      "content": "Tùy chỉnh tìm kiếm của bạn bằng cách kích hoạt độ nhạy chữ hoa chữ thường, áp dụng bộ lọc ngày, hoặc bỏ qua các từ và dữ liệu cụ thể trong quá trình lập chỉ mục."
+    }
+  },
+  "formats": {
+    "title": "Tìm kiếm các định dạng tài liệu phổ biến",
+    "description": "{{ProdShortName}} hỗ trợ hơn 70 định dạng tệp, cung cấp các quy tắc tìm kiếm linh hoạt và lập chỉ mục hiệu quả để tiết kiệm thời gian và công sức."
+  },
+  "operations": {
+    "title": "Các khả năng chính của {{ProdShortName}}",
+    "description": "Khám phá các tính năng tìm kiếm nâng cao, hiệu quả và tùy chỉnh."
+  },
+  "examples": {
+    "comment_1": "Đặt vị trí cho thư mục chỉ mục",
+    "comment_2": "Xác định thư mục chứa các tài liệu để tìm kiếm",
+    "comment_3": "Thực hiện truy vấn tìm kiếm với logic nâng cao"
+  },
+  "steps": {
+    "title": "Cách tìm kiếm trong các tài liệu {{FileFormatUp}} sử dụng các toán tử boolean",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép bạn tìm kiếm nội dung trong các tệp {{FileFormatUp}} một cách hiệu quả. Với logic boolean, bạn có thể tinh chỉnh các truy vấn tìm kiếm của mình trong các ứng dụng {{EnvName}} để nâng cao độ chính xác.",
+      "step_1": "Thiết lập thư mục để lưu trữ chỉ mục tìm kiếm.",
+      "step_2": "Chọn thư mục chứa các tệp {{FileFormatUp}} để tìm kiếm.",
+      "step_3": "Chạy truy vấn tìm kiếm và lấy kết quả.",
+      "step_4": "Xử lý và phân tích kết quả tìm kiếm."
+    }
+  },
+  "code_1": {
+    "title": "Ví dụ về tìm kiếm boolean nâng cao",
+    "content": "Ví dụ này minh họa cách tạo các truy vấn dựa trên Boolean để tìm kiếm nội dung trong các tài liệu {{FileFormatUp}}.",
+    "comment_1": "Định nghĩa thư mục cho chỉ mục tìm kiếm",
+    "comment_2": "Cung cấp vị trí của các tài liệu để tìm kiếm",
+    "comment_3": "Xây dựng truy vấn sử dụng các toán tử boolean",
+    "comment_4": "Lấy kết quả tìm kiếm",
+    "comment_5": "Xử lý và sử dụng kết quả tìm kiếm"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Buscar frases en {{FileFormatUp}} usando {{EnvNameShort}}",
+    "description": "{{ProdFullName}} mejora las aplicaciones {{ProgLang}} con capacidades avanzadas de búsqueda de frases en el contenido de los documentos."
+  },
+  "header": {
+    "title": "Encuentra frases en documentos",
+    "description": "Localiza rápidamente frases específicas con {{ProdFullName}}. Incorpora funcionalidades de búsqueda potentes en tus aplicaciones {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar"
+  },
+  "about": {
+    "title": "Funciones de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una biblioteca robusta para indexar y buscar texto dentro de documentos. Soporta más de 70 formatos de archivo, incluyendo PDFs, documentos de Word, hojas de cálculo de Excel, imágenes y archivos ZIP, asegurando resultados de búsqueda rápidos y precisos."
+  },
+  "more_features": {
+    "title": "Explora el motor de búsqueda de documentos de {{EnvNameShort}}",
+    "description": "{{ProdFullName}} permite búsquedas de frases en más de 70 formatos de archivo. Encuentra y organiza datos utilizando características de búsqueda avanzadas.",
+    "image_description": "Capacidades clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Búsqueda de frases",
+      "content": "Localiza frases exactas en documentos de negocio, tales como PDFs, archivos de Word, presentaciones y hojas de cálculo. Utiliza comodines y otras opciones cuando la frase exacta no se conoce."
+    },
+    "feature_2": {
+      "title": "Indexación de datos optimizada",
+      "content": "Acelera las búsquedas en documentos creando y reutilizando índices de búsqueda. La indexación organiza datos de manera eficiente para búsquedas más rápidas y precisas."
+    },
+    "feature_3": {
+      "title": "Compatibilidad multilingüe",
+      "content": "Busca documentos en más de 80 idiomas. Soporta diferentes configuraciones de teclado y análisis morfológico para mejorar la precisión de búsqueda."
+    },
+    "feature_4": {
+      "title": "Opciones de búsqueda avanzadas",
+      "content": "Personaliza las búsquedas con sensibilidad a mayúsculas, búsqueda difusa, coincidencia de homófonos, filtrado de documentos y otras características potentes."
+    }
+  },
+  "formats": {
+    "title": "Buscar frases en documentos de negocio",
+    "description": "{{ProdShortName}} permite búsquedas de frases en más de 70 formatos de documentos. Aprovecha opciones avanzadas e indexación para búsquedas eficientes."
+  },
+  "operations": {
+    "title": "Capacidades de búsqueda avanzadas",
+    "description": "Utiliza funcionalidades de búsqueda de vanguardia para mejorar la precisión y el rendimiento."
+  },
+  "examples": {
+    "comment_1": "Define la ruta del índice de búsqueda",
+    "comment_2": "Especifica la carpeta que contiene documentos",
+    "comment_3": "Establece preferencias de búsqueda",
+    "comment_4": "Ejecuta la consulta de búsqueda"
+  },
+  "steps": {
+    "title": "Cómo encontrar frases en documentos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifica la búsqueda de frases en documentos {{FileFormatUp}}. Utiliza diversas opciones para refinar los resultados de búsqueda en aplicaciones {{EnvName}}.",
+      "step_1": "Crea un directorio para el índice de búsqueda.",
+      "step_2": "Especifica la carpeta con archivos {{FileFormatUp}}.",
+      "step_3": "Ajusta los parámetros de búsqueda.",
+      "step_4": "Recupera y analiza los resultados de búsqueda."
+    }
+  },
+  "code_1": {
+    "title": "Utilizando métodos de búsqueda avanzados",
+    "content": "Aprende cómo construir consultas para buscar en {{FileFormatUp}}.",
+    "comment_1": "Define el directorio para el índice de búsqueda",
+    "comment_2": "Establece la ruta a los documentos de destino",
+    "comment_3": "Crea una consulta de búsqueda para una frase específica",
+    "comment_4": "Obtén los resultados de la búsqueda",
+    "comment_5": "Procesa y utiliza los resultados recuperados"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Búsqueda boolean en {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Con {{ProdFullName}}, los desarrolladores pueden realizar búsquedas de documentos utilizando operadores booleanos como AND, OR y NOT."
+  },
+  "header": {
+    "title": "Búsqueda de texto booleano",
+    "description": "Utiliza {{ProdFullName}} para crear consultas de búsqueda booleanas avanzadas (AND, OR, NOT) en tus proyectos de {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Gratis"
+  },
+  "about": {
+    "title": "Acerca de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una biblioteca versátil diseñada para la búsqueda de texto y la indexación de datos en documentos. Soporta más de 70 tipos de archivos, incluidos PDF, Word, Excel, presentaciones de PowerPoint, imágenes y archivos ZIP, lo que permite realizar búsquedas eficientes a través de grandes colecciones de datos."
+  },
+  "more_features": {
+    "title": "Herramientas poderosas para la búsqueda e indexación de documentos",
+    "description": "{{ProdFullName}} simplifica las búsquedas de texto y la indexación de datos para más de 70 formatos. Sus herramientas avanzadas te permiten encontrar y gestionar contenido sin esfuerzo.",
+    "image_description": "Características clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Búsqueda de texto integral",
+      "content": "Busca en múltiples formatos como PDFs, documentos de Word, presentaciones, hojas de cálculo y más. Utiliza opciones como coincidencia exacta, búsqueda difusa y consultas con caracteres comodín para refinar los resultados."
+    },
+    "feature_2": {
+      "title": "Indexación de datos eficiente",
+      "content": "Crea y mantén índices para búsquedas de documentos más rápidas. Esta función organiza los datos de manera eficiente, facilitando el manejo de grandes colecciones de documentos."
+    },
+    "feature_3": {
+      "title": "Soporte multilingüe",
+      "content": "Busca en documentos escritos en más de 80 idiomas. Mejora la precisión aprovechando las formas morfológicas de las palabras y diferentes distribuciones de teclado."
+    },
+    "feature_4": {
+      "title": "Personalización flexible de la búsqueda",
+      "content": "Ajusta la configuración de búsqueda con características como sensibilidad a mayúsculas, filtros de rango de fechas y exclusiones para refinar tus resultados."
+    }
+  },
+  "formats": {
+    "title": "Buscar formatos de documentos populares",
+    "description": "{{ProdShortName}} soporta más de 70 formatos de archivo, permitiéndote personalizar las reglas de búsqueda y utilizar la indexación para optimizar el rendimiento."
+  },
+  "operations": {
+    "title": "Características clave de un vistazo",
+    "description": "Desbloquea poderosas y eficientes capacidades de búsqueda."
+  },
+  "examples": {
+    "comment_1": "Establece la ruta para la carpeta del índice",
+    "comment_2": "Proporciona la ruta de la carpeta que contiene los documentos para la búsqueda",
+    "comment_3": "Ejecuta una búsqueda con una consulta compleja"
+  },
+  "steps": {
+    "title": "Cómo realizar búsquedas booleanas en documentos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite realizar búsquedas de texto dentro de documentos {{FileFormatUp}}. Con soporte para condiciones booleanas, puedes mejorar la precisión de las búsquedas en aplicaciones de {{EnvName}}.",
+      "step_1": "Especifica la carpeta para almacenar el índice de búsqueda.",
+      "step_2": "Selecciona la carpeta que contiene documentos {{FileFormatUp}}.",
+      "step_3": "Ejecuta la consulta de búsqueda y recupera los resultados.",
+      "step_4": "Procesa los resultados obtenidos."
+    }
+  },
+  "code_1": {
+    "title": "Uso de consultas complejas de búsqueda booleanas",
+    "content": "Este ejemplo demuestra cómo realizar búsquedas booleanas en archivos {{FileFormatUp}}.",
+    "comment_1": "Establece la carpeta para el índice de búsqueda",
+    "comment_2": "Proporciona la ruta a los documentos a buscar",
+    "comment_3": "Construye la consulta utilizando lógica boolean",
+    "comment_4": "Recupera los resultados de búsqueda",
+    "comment_5": "Procesa los resultados recuperados"
+  }
+}

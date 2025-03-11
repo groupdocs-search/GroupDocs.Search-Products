@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Esegui ricerche sensibili al maiuscolo in {{FileFormatUp}} con {{EnvNameShort}}",
+    "description": "L'API {{ProdFullName}} consente agli sviluppatori {{ProgLang}} di eseguire ricerche sensibili al maiuscolo su diversi tipi di documento."
+  },
+  "header": {
+    "title": "Ricerca Sensibile al Maiuscolo",
+    "description": "{{ProdFullName}} ti permette di implementare funzionalità avanzate di ricerca sensibile al maiuscolo nelle tue applicazioni {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica Gratuitamente"
+  },
+  "about": {
+    "title": "Cos'è {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una potente libreria per cercare e indicizzare testo in documenti. Supporta oltre 70 formati, tra cui PDF, Word, Excel, PowerPoint, immagini e file ZIP, consentendo una gestione efficiente di grandi volumi di dati."
+  },
+  "more_features": {
+    "title": "Caratteristiche Principali per la Ricerca e Indicizzazione dei Documenti",
+    "description": "Con {{ProdFullName}}, puoi ricercare e indicizzare testo in oltre 70 formati di file. Accedi e organizza le informazioni con facilità utilizzando strumenti di ricerca avanzati.",
+    "image_description": "Caratteristiche Principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ricerca Testuale Completa",
+      "content": "Trova testo in vari tipi di documento come PDF, file Word, fogli di calcolo e presentazioni. Utilizza opzioni come corrispondenze esatte, ricerche fuzzy e caratteri jolly per risultati accurati."
+    },
+    "feature_2": {
+      "title": "Indicizzazione Dati Efficiente",
+      "content": "Crea e gestisci indici per velocizzare le ricerche. L'indicizzazione aiuta a organizzare e localizzare rapidamente i dati in ampie raccolte di documenti."
+    },
+    "feature_3": {
+      "title": "Supporta Più Lingue",
+      "content": "Cerca documenti in oltre 80 lingue con supporto per layout di tastiera diversi e variazioni di parole, garantendo risultati di ricerca accurati."
+    },
+    "feature_4": {
+      "title": "Impostazioni di Ricerca Personalizzabili",
+      "content": "Regola le impostazioni di ricerca, inclusa la sensibilità al caso, i filtri di data e l'esclusione di termini o dati specifici durante l'indicizzazione."
+    }
+  },
+  "formats": {
+    "title": "Formati di Documento Compatibili",
+    "description": "{{ProdShortName}} supporta oltre 70 formati di documento. Personalizza le tue opzioni di ricerca e risparmia tempo con l'indicizzazione."
+  },
+  "operations": {
+    "title": "Funzionalità Chiave",
+    "description": "Esplora caratteristiche avanzate per ricerche documentali veloci e precise."
+  },
+  "examples": {
+    "comment_1": "Specifica il percorso per la cartella dell'indice",
+    "comment_2": "Imposta la cartella contenente i documenti da cercare",
+    "comment_3": "Abilita la ricerca sensibile al maiuscolo nelle impostazioni",
+    "comment_4": "Esegui la ricerca"
+  },
+  "steps": {
+    "title": "Passaggi per Eseguire Ricerche Sensibili al Maiuscolo nei File {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) rende semplice eseguire ricerche sensibili al maiuscolo nei file {{FileFormatUp}}, migliorando i tuoi flussi di lavoro {{EnvName}}.",
+      "step_1": "Configura una cartella per memorizzare l'indice di ricerca.",
+      "step_2": "Seleziona la cartella contenente i file {{FileFormatUp}}.",
+      "step_3": "Esegui la ricerca e ottieni i risultati.",
+      "step_4": "Elabora e utilizza i risultati."
+    }
+  },
+  "code_1": {
+    "title": "Esempio: Implementazione della Ricerca Sensibile al Maiuscolo",
+    "content": "Questo esempio dimostra come eseguire ricerche sensibili al maiuscolo per documenti {{FileFormatUp}}.",
+    "comment_1": "Definisci la cartella per l'indice di ricerca",
+    "comment_2": "Fornisci il percorso della cartella dei documenti",
+    "comment_3": "Configura una query di ricerca",
+    "comment_4": "Attiva le impostazioni di ricerca sensibili al maiuscolo",
+    "comment_5": "Cerca il testo nei documenti",
+    "comment_6": "Elabora e gestisci i risultati"
+  }
+}

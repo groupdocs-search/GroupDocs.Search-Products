@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Realiza Búsquedas Sensibles a Mayúsculas en {{FileFormatUp}} con {{EnvNameShort}}",
+    "description": "La API {{ProdFullName}} ayuda a los desarrolladores de {{ProgLang}} a realizar búsquedas sensibles a mayúsculas en múltiples tipos de documentos."
+  },
+  "header": {
+    "title": "Búsqueda de Documentos Sensible a Mayúsculas",
+    "description": "{{ProdFullName}} te permite implementar una funcionalidad precisa de búsqueda sensible a mayúsculas en tus proyectos de {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obténlo Gratis"
+  },
+  "about": {
+    "title": "Conoce {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una herramienta versátil para la búsqueda y el indexado de texto en diversos documentos. Soporta más de 70 formatos como PDFs, archivos de Word, presentaciones de PowerPoint, hojas de Excel, imágenes y archivos ZIP, lo que te permite manejar eficientemente conjuntos de datos extensos."
+  },
+  "more_features": {
+    "title": "Herramientas Mejoradas de Búsqueda e Indexado",
+    "description": "Con {{ProdFullName}}, puedes optimizar la búsqueda de documentos e indexado para más de 70 formatos, facilitando la localización y organización de información.",
+    "image_description": "Características Destacadas de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Búsqueda de Texto Flexible",
+      "content": "Realiza búsquedas en documentos como PDFs, archivos de Word, hojas de cálculo y presentaciones. Utiliza herramientas como coincidencia exacta, búsqueda difusa y soporte para caracteres comodín para refinar tus resultados."
+    },
+    "feature_2": {
+      "title": "Gestión Eficiente de Índices",
+      "content": "Organiza e indexa grandes conjuntos de datos para mejorar la velocidad y el rendimiento de búsqueda al manejar colecciones de documentos grandes."
+    },
+    "feature_3": {
+      "title": "Soporte para Idiomas Globales",
+      "content": "Realiza búsquedas en más de 80 idiomas, adaptándose a diferentes disposiciones de teclado y variaciones lingüísticas para una mejor precisión."
+    },
+    "feature_4": {
+      "title": "Filtros de Búsqueda Personalizables",
+      "content": "Ajusta los criterios de búsqueda con opciones como sensibilidad a mayúsculas, filtrado por rangos de fechas y exclusión de palabras o datos no deseados durante el indexado."
+    }
+  },
+  "formats": {
+    "title": "Formatos de Archivo Soportados para Búsqueda",
+    "description": "{{ProdShortName}} trabaja con más de 70 formatos de documentos populares, ofreciendo configuraciones de búsqueda personalizables e indexado eficiente."
+  },
+  "operations": {
+    "title": "Resumen de Características Clave",
+    "description": "Descubre las capacidades de búsqueda robustas y efectivas que ofrece {{ProdFullName}}."
+  },
+  "examples": {
+    "comment_1": "Define la ubicación para el almacenamiento del índice",
+    "comment_2": "Indica la carpeta que contiene los documentos a buscar",
+    "comment_3": "Activa el modo sensible a mayúsculas en la configuración de búsqueda",
+    "comment_4": "Ejecuta la búsqueda"
+  },
+  "steps": {
+    "title": "Guía para Búsqueda Sensible a Mayúsculas en Archivos {{FileFormatUp}}",
+    "content": {
+      "title": "Usando [{{ProdShortName}}]({{PlatformLink}}), puedes realizar búsquedas sensibles a mayúsculas en documentos {{FileFormatUp}}, mejorando tus proyectos de {{EnvName}}.",
+      "step_1": "Establece la carpeta para almacenar el índice de búsqueda.",
+      "step_2": "Selecciona la carpeta que contiene archivos {{FileFormatUp}}.",
+      "step_3": "Ejecuta la búsqueda sensible a mayúsculas y recoge los resultados.",
+      "step_4": "Procesa y utiliza los resultados de búsqueda."
+    }
+  },
+  "code_1": {
+    "title": "Ejemplo: Consultas de Búsqueda Sensible a Mayúsculas",
+    "content": "Este ejemplo demuestra cómo implementar búsquedas sensibles a mayúsculas para documentos {{FileFormatUp}}.",
+    "comment_1": "Define el directorio para el índice de búsqueda",
+    "comment_2": "Especifica la ubicación de la carpeta de documentos",
+    "comment_3": "Configura una consulta de búsqueda",
+    "comment_4": "Activa la sensibilidad a mayúsculas en las opciones de búsqueda",
+    "comment_5": "Realiza la búsqueda de documentos",
+    "comment_6": "Procesa los resultados recuperados"
+  }
+}

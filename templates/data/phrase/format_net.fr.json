@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Recherche de phrases dans {{FileFormatUp}} utilisant {{EnvNameShort}}",
+    "description": "{{ProdFullName}} enrichit les applications {{ProgLang}} avec des capacités de recherche de phrases puissantes pour le contenu des documents."
+  },
+  "header": {
+    "title": "Rechercher des phrases dans des documents",
+    "description": "Trouvez rapidement des phrases spécifiques avec {{ProdFullName}}. Intégrez une fonctionnalité de recherche efficace dans vos applications {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger"
+  },
+  "about": {
+    "title": "Fonctionnalités de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une bibliothèque puissante pour indexer et rechercher du texte dans des documents. Elle supporte plus de 70 formats de fichiers, y compris les PDF, les documents Word, les feuilles Excel, les images et les fichiers ZIP, permettant d'obtenir des résultats de recherche rapides et précis."
+  },
+  "more_features": {
+    "title": "Découvrez le moteur de recherche de documents {{EnvNameShort}}",
+    "description": "{{ProdFullName}} permet des recherches par phrase à travers plus de 70 formats de fichiers. Localisez et gérez les données avec des capacités de recherche avancées.",
+    "image_description": "Fonctionnalités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Recherche de phrases",
+      "content": "Recherchez des phrases exactes dans des documents professionnels, y compris les PDF, les fichiers Word, les présentations et les feuilles de calcul. Utilisez des caractères génériques et d'autres options si la phrase exacte est inconnue."
+    },
+    "feature_2": {
+      "title": "Indexation des données efficace",
+      "content": "Créez et réutilisez des index de recherche pour accélérer les recherches de documents. L'indexation structure les données de manière efficace, rendant les recherches de phrases plus rapides."
+    },
+    "feature_3": {
+      "title": "Support multilingue",
+      "content": "Recherchez des documents dans plus de 80 langues. Supporte différents agencements de clavier et formes morphologiques pour une meilleure précision de recherche."
+    },
+    "feature_4": {
+      "title": "Options de recherche flexibles",
+      "content": "Personnalisez les recherches avec des fonctionnalités telles que la sensibilité à la casse, la recherche floue et homophone, le filtrage de documents et plus encore."
+    }
+  },
+  "formats": {
+    "title": "Recherche de phrases dans des documents professionnels",
+    "description": "{{ProdShortName}} prend en charge les recherches dans plus de 70 formats de documents. Utilisez des options avancées et l'indexation pour rationaliser votre processus de recherche."
+  },
+  "operations": {
+    "title": "Fonctionnalités avancées",
+    "description": "Tirez parti de fonctionnalités de recherche puissantes et efficaces."
+  },
+  "examples": {
+    "comment_1": "Chemin pour stocker l'index de recherche",
+    "comment_2": "Dossier contenant des documents",
+    "comment_3": "Configurer les options de recherche",
+    "comment_4": "Exécuter la recherche"
+  },
+  "steps": {
+    "title": "Comment rechercher des phrases dans des documents {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifie la recherche dans des documents {{FileFormatUp}}. Utilisez différentes options pour affiner les résultats de recherche dans les applications {{EnvName}}.",
+      "step_1": "Configurer le dossier de l'index de recherche.",
+      "step_2": "Spécifiez le dossier contenant les fichiers {{FileFormatUp}}.",
+      "step_3": "Configurer les paramètres de recherche.",
+      "step_4": "Récupérer et traiter les résultats de recherche."
+    }
+  },
+  "code_1": {
+    "title": "Utilisation de techniques de recherche avancées",
+    "content": "Apprenez à créer des requêtes pour rechercher dans {{FileFormatUp}}.",
+    "comment_1": "Spécifiez le dossier pour l'index de recherche",
+    "comment_2": "Définissez le chemin vers les documents pour la recherche",
+    "comment_3": "Créez une requête pour une phrase spécifique",
+    "comment_4": "Récupérez les résultats de recherche",
+    "comment_5": "Traitez et utilisez les résultats"
+  }
+}

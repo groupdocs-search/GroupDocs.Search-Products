@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Cari {{FileFormatUp}} di {{EnvNameShort}} menggunakan operator boolean",
+    "description": "API {{ProdFullName}} memungkinkan pengembang {{ProgLang}} untuk mencari konten dokumen menggunakan operator boolean seperti AND, OR, dan NOT."
+  },
+  "header": {
+    "title": "Pencarian teks logika boolean",
+    "description": "{{ProdFullName}} memudahkan pembuatan kueri pencarian lanjutan menggunakan operator boolean (AND, OR, NOT) dalam aplikasi {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Gratis"
+  },
+  "about": {
+    "title": "Apa itu {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah pustaka komprehensif untuk mencari dan mengindeks teks dalam dokumen. Ini mendukung lebih dari 70 format file, seperti PDF, Word, PowerPoint, Excel, gambar, dan file ZIP, memungkinkan pemrosesan yang efisien dari sejumlah besar informasi."
+  },
+  "more_features": {
+    "title": "Jelajahi fitur-fitur canggih untuk pencarian dan pengindeksan dokumen",
+    "description": "Pustaka {{ProdFullName}} menyederhanakan pencarian teks dan pengindeksan untuk lebih dari 70 format file. Temukan dan kelola informasi dengan alat pencarian canggih.",
+    "image_description": "Fitur utama dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Pencarian teks yang kuat",
+      "content": "Cari teks di berbagai jenis file, termasuk PDF, dokumen Word, presentasi PowerPoint, dan spreadsheet. Gunakan fitur seperti pencocokan tepat, pencarian fuzzy, dan wildcard untuk memperhalus hasil."
+    },
+    "feature_2": {
+      "title": "Indeks set data besar",
+      "content": "Buat dan kelola indeks untuk pencarian yang lebih cepat. Pengindeksan menyusun dan mengorganisir data, membuatnya lebih mudah untuk mencari koleksi dokumen yang luas."
+    },
+    "feature_3": {
+      "title": "Mendukung berbagai bahasa",
+      "content": "Cari dokumen dalam lebih dari 80 bahasa, dengan dukungan untuk berbagai tata letak keyboard dan bentuk kata morfologis untuk meningkatkan akurasi pencarian."
+    },
+    "feature_4": {
+      "title": "Opsi pencarian yang dapat disesuaikan",
+      "content": "Sesuaikan pengaturan pencarian dengan fitur seperti sensitif terhadap huruf besar/kecil, filter rentang tanggal, dan kemampuan untuk mengecualikan kata atau data tertentu selama pengindeksan."
+    }
+  },
+  "formats": {
+    "title": "Cari di berbagai format dokumen populer",
+    "description": "{{ProdShortName}} mendukung lebih dari 70 format file. Sesuaikan aturan pencarian dan manfaatkan pengindeksan untuk menghemat waktu dan usaha."
+  },
+  "operations": {
+    "title": "Temukan fitur-fitur kunci",
+    "description": "Jelajahi fungsi pencarian yang canggih dan efisien."
+  },
+  "examples": {
+    "comment_1": "Tentukan jalur ke folder indeks",
+    "comment_2": "Tentukan folder yang berisi dokumen untuk dicari",
+    "comment_3": "Lakukan pencarian menggunakan kueri kompleks"
+  },
+  "steps": {
+    "title": "Cara mencari konten dokumen {{FileFormatUp}} menggunakan logika boolean",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) membuat pencarian konten dokumen {{FileFormatUp}} menjadi sederhana. Ini menyediakan kondisi pencarian logika Boolean untuk memperhalus hasil di aplikasi {{EnvName}}.",
+      "step_1": "Tentukan folder untuk menyimpan indeks pencarian.",
+      "step_2": "Pilih folder yang berisi file {{FileFormatUp}}.",
+      "step_3": "Jalankan pencarian dan ambil hasilnya.",
+      "step_4": "Proses hasilnya."
+    }
+  },
+  "code_1": {
+    "title": "Menggunakan kueri pencarian boolean yang canggih",
+    "content": "Contoh ini menunjukkan bagaimana menerapkan kueri boolean untuk mencari dokumen {{FileFormatUp}}.",
+    "comment_1": "Tetapkan folder untuk indeks pencarian",
+    "comment_2": "Tentukan jalur ke dokumen yang akan dicari",
+    "comment_3": "Buat kueri pencarian menggunakan logika Boolean",
+    "comment_4": "Ambil hasil pencarian",
+    "comment_5": "Proses hasil pencarian"
+  }
+}

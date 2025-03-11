@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Pencarian Boolean {{FileFormatUp}} melalui {{EnvNameShort}}",
+    "description": "Gunakan API {{ProdFullName}} untuk melaksanakan pencarian lanjutan dalam konten dokumen dengan operator boolean seperti AND, OR, dan NOT, yang dirancang untuk pengembang {{ProgLang}}."
+  },
+  "header": {
+    "title": "Lakukan pencarian logika boolean",
+    "description": "Dengan {{ProdFullName}}, Anda dapat membuat kueri pencarian lanjutan menggunakan operator boolean (AND, OR, NOT) tanpa hambatan dalam lingkungan {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Sekarang"
+  },
+  "about": {
+    "title": "Apa itu {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah alat yang kuat untuk mencari dan mengindeks teks dalam dokumen. Ini mendukung lebih dari 70 format seperti PDF, Word, Excel, PowerPoint, gambar, dan file ZIP, sehingga memudahkan pemrosesan sejumlah besar informasi secara efisien."
+  },
+  "more_features": {
+    "title": "Alat canggih untuk pencarian dan pengindeksan dokumen",
+    "description": "{{ProdFullName}} menyederhanakan pencarian teks dan pengindeksan untuk lebih dari 70 jenis file, membantu Anda menemukan dan mengelola informasi dengan lebih cepat dan akurat.",
+    "image_description": "Fitur utama {{ProdShortName}}",
+    "feature_1": {
+      "title": "Pencarian teks yang ditingkatkan",
+      "content": "Temukan teks dengan cepat di berbagai format seperti PDF, dokumen Word, presentasi, dan spreadsheet. Gunakan fitur seperti pencocokan tepat, pencarian wildcard, dan pencarian fuzzy untuk hasil yang akurat."
+    },
+    "feature_2": {
+      "title": "Pengindeksan data yang efisien",
+      "content": "Bangun dan kelola indeks untuk mempercepat pencarian dalam koleksi dokumen besar. Pengindeksan memastikan akses cepat dan terstruktur ke data Anda."
+    },
+    "feature_3": {
+      "title": "Dukungan multibahasa",
+      "content": "Cari di dokumen yang ditulis dalam lebih dari 80 bahasa. Dukungan morfologi dan kompatibilitas tata letak keyboard meningkatkan hasil pencarian dalam berbagai bahasa."
+    },
+    "feature_4": {
+      "title": "Pengaturan pencarian yang fleksibel",
+      "content": "Kustomisasi pencarian Anda dengan mengaktifkan sensitivitas huruf, menerapkan filter tanggal, atau melewatkan kata dan data tertentu selama pengindeksan."
+    }
+  },
+  "formats": {
+    "title": "Cari format dokumen populer",
+    "description": "{{ProdShortName}} mendukung lebih dari 70 format file, menyediakan aturan pencarian yang fleksibel dan pengindeksan yang efisien untuk menghemat waktu dan usaha."
+  },
+  "operations": {
+    "title": "Kemampuan utama {{ProdShortName}}",
+    "description": "Buka fitur pencarian yang canggih, efisien, dan dapat disesuaikan."
+  },
+  "examples": {
+    "comment_1": "Setel lokasi untuk folder indeks",
+    "comment_2": "Tentukan folder yang berisi dokumen untuk dicari",
+    "comment_3": "Laksanakan kueri pencarian dengan logika lanjutan"
+  },
+  "steps": {
+    "title": "Cara mencari dalam dokumen {{FileFormatUp}} menggunakan operator boolean",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memungkinkan Anda mencari konten dalam file {{FileFormatUp}} dengan efektif. Dengan logika boolean, Anda dapat menyempurnakan kueri pencarian Anda dalam aplikasi {{EnvName}} untuk akurasi yang lebih baik.",
+      "step_1": "Siapkan folder untuk menyimpan indeks pencarian.",
+      "step_2": "Pilih folder yang berisi file {{FileFormatUp}} untuk pencarian.",
+      "step_3": "Jalankan kueri pencarian dan ambil hasilnya.",
+      "step_4": "Proses dan analisis hasil pencarian."
+    }
+  },
+  "code_1": {
+    "title": "Contoh pencarian boolean lanjutan",
+    "content": "Contoh ini menunjukkan cara membuat kueri berbasis Boolean untuk mencari konten dalam dokumen {{FileFormatUp}}.",
+    "comment_1": "Tentukan folder untuk indeks pencarian",
+    "comment_2": "Berikan lokasi dokumen untuk dicari",
+    "comment_3": "Buat kueri menggunakan operator Boolean",
+    "comment_4": "Ambil hasil pencarian",
+    "comment_5": "Proses dan gunakan hasil pencarian"
+  }
+}

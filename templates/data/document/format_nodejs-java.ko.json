@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "{{EnvNameShort}}에서 {{FileFormatUp}}의 텍스트 검색하기 - {{ProdShortName}}",
+    "description": "{{ProgLang}}와 함께 {{ProdFullName}}를 사용하여 다양한 문서 형식에서 텍스트를 효율적으로 검색하세요."
+  },
+  "header": {
+    "title": "스마트 문서 검색 솔루션",
+    "description": "{{ProdFullName}}를 사용하여 다양한 문서 형식에서 텍스트를 찾으세요. {{EnvNameShort}} 애플리케이션 내에서 고급 검색 쿼리를 작성할 수 있습니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 체험하기"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 소개",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})은 고성능 풀 텍스트 검색 및 문서 인덱싱을 위한 라이브러리입니다. PDF, Word, PowerPoint, Excel, 이미지 및 ZIP 아카이브를 포함한 70개 이상의 파일 형식을 지원하여 빠르고 정확한 결과를 보장합니다."
+  },
+  "more_features": {
+    "title": "고급 검색 및 인덱싱 기능",
+    "description": "{{ProdFullName}}은 70개 이상의 문서 형식에서 강력한 텍스트 검색 및 인덱싱 도구를 제공하여 정보를 쉽게 찾고 정리할 수 있게 합니다.",
+    "image_description": "{{ProdShortName}}의 주요 이점",
+    "feature_1": {
+      "title": "종합 텍스트 검색",
+      "content": "PDF, Word 문서, PowerPoint 프레젠테이션 및 스프레드시트를 포함한 다양한 문서 유형에서 텍스트를 찾습니다. 정밀한 결과를 위해 정확한 일치, 퍼지 검색 및 와일드카드를 사용하세요."
+    },
+    "feature_2": {
+      "title": "대량 데이터에 대한 효율적인 인덱싱",
+      "content": "구조화된 인덱스를 생성하여 검색을 가속화하며 대량의 문서 컬렉션에서 정보를 더 쉽게 검색할 수 있게 합니다."
+    },
+    "feature_3": {
+      "title": "80개 이상의 언어 지원",
+      "content": "다양한 언어의 문서에서 검색하며, 다양한 단어 형태와 키보드 레이아웃을 자동으로 인식합니다."
+    },
+    "feature_4": {
+      "title": "사용자 정의 검색 설정",
+      "content": "정확한 결과를 얻기 위해 대소문자 구분, 날짜 필터 및 단어 제외와 같은 검색 옵션을 조정하세요."
+    }
+  },
+  "formats": {
+    "title": "다양한 문서에서 검색하기",
+    "description": "{{ProdShortName}}은 사무 문서를 포함한 70개 이상의 파일 형식과 함께 작동하여 인덱싱 지원으로 빠르고 정확한 검색을 보장합니다."
+  },
+  "operations": {
+    "title": "주요 기능 탐색",
+    "description": "효율성과 정확성을 향상시키기 위해 설계된 고속 검색 기능을 발견하세요."
+  },
+  "examples": {
+    "comment_1": "검색 인덱스 저장을 위한 디렉토리 지정",
+    "comment_2": "검색할 문서가 포함된 폴더 선택",
+    "comment_3": "유사하게 들리는 단어에 대한 동음 이의어 검색 활성화",
+    "comment_4": "복잡한 검색 쿼리 실행"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} 파일에서 검색 수행",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})를 통해 {{FileFormatUp}} 파일에서 검색을 수행하여 {{EnvName}} 애플리케이션 내에서 결과를 정제할 수 있습니다.",
+      "step_1": "검색 인덱스를 위한 저장 폴더 정의.",
+      "step_2": "{{FileFormatUp}} 파일이 있는 폴더 선택.",
+      "step_3": "추가 검색 매개변수 설정.",
+      "step_4": "검색을 실행하고 결과 분석."
+    }
+  },
+  "code_1": {
+    "title": "{{FileFormatUp}} 문서에서 검색 사용하기",
+    "content": "이 예시는 {{FileFormatUp}} 문서 내에서 검색 쿼리를 사용하는 방법을 보여줍니다.",
+    "comment_1": "검색 인덱스를 위한 디렉토리 설정",
+    "comment_2": "문서 저장을 위한 파일 경로 제공",
+    "comment_3": "보호된 파일의 비밀번호 입력",
+    "comment_4": "유사 단어 탐지를 위한 퍼지 검색 활성화",
+    "comment_5": "검색 결과 추출",
+    "comment_6": "결과 처리 및 검토"
+  }
+}

@@ -1,0 +1,289 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2025-03-11T15:59:36
+draft: false
+lang: fa
+format: Txt
+product: "Search"
+product_tag: "search"
+platform: "Java"
+platform_tag: "java"
+
+############################# Head ############################
+head_title: "جستجو در مدارک TXT با استفاده از Java"
+head_description: "GroupDocs.Search for Java به برنامه‌های Java امکان جستجوی متنی قدرتمند را اضافه می‌کند و از فرمت‌های مختلف مدارک تجاری پشتیبانی می‌کند."
+
+############################# Header ############################
+title: "یافتن متن در مدارک تجاری" 
+description: "GroupDocs.Search for Java به شما این امکان را می‌دهد که با استفاده از پرس و جوهای انعطاف‌پذیر و دقیق، متن را در مدارک جستجو کنید. عملکرد جستجو را به راحتی در برنامه‌های Java خود یکپارچه کنید."
+subtitle: "GroupDocs.Search for Java" 
+
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "دانلود رایگان"
+      link: "https://releases.groupdocs.com/search/java/"
+      
+############################# About ############################
+about:
+    enable: true
+    title: "GroupDocs.Search چیست؟"
+    link: "/search/java/"
+    link_title: "بیشتر بدانید"
+    picture: "about_search.svg" # 480 X 400
+    content: |
+       [GroupDocs.Search for Java](/search/java/) یک کتابخانه قوی برای جستجوی سریع متن و فهرست‌سازی مدارک است. این کتابخانه از بیش از 70 فرمت فایل، از جمله استانداردهای صنعتی مانند PDF، Word، Excel و PowerPoint پشتیبانی می‌کند. برنامه‌های خود را با قابلیت‌های جستجو سریع و دقیق بهبود دهید.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "چگونه در مدارک TXT جستجو کنیم"
+    content: |
+      [GroupDocs.Search](/search/java/) امکان جستجوهای سریع و کارآمد متن در مدارک TXT را فراهم می‌کند که برای برنامه‌های Java ایده‌آل است.
+      
+      1. یک پوشه برای ذخیره فهرست جستجو مشخص کنید.
+      2. پوشه‌ای را که شامل مدارک شما است انتخاب کنید.
+      3. گزینه‌های جستجو را پیکربندی کنید تا نتایج به مدارک TXT محدود شود.
+      4. جستجو را اجرا کرده و نتایج را دریافت کنید.
+   
+    code:
+      platform: "java"
+      copy_title: "کپی"
+      result_enable: true
+      result_link: "/examples/search/search_all.pdf"
+      result_title: "{common-content.format-code.result_title}"
+      install:
+        command_title: "Maven XML"
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-search</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "برای کپی کلیک کنید"
+        copy_done: "کپی شد"
+      links:
+        #  loop
+        - title: "مثال‌های بیشتر"
+          link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Java/"
+        #  loop
+        - title: "مستندات"
+          link: "https://docs.groupdocs.com/search/java/"
+          
+      content: |
+        ```java {style=abap}
+        // مسیر برای ذخیره فهرست جستجوی قابل استفاده مجدد
+        Index index = new Index("c:/MyIndex");
+
+        // پوشه‌ای که شامل مدارک است
+        index.add("c:/MyDocuments");
+
+        // فیلتر کردن جستجوها بر اساس فرمت مدارک
+        SearchOptions options = new SearchOptions();
+        options.SearchDocumentFilter = 
+            SearchDocumentFilter.createFileExtension(".txt");
+
+        // دریافت نتایج جستجو
+        SearchResult result = index.search("Lorem");
+        ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "قابلیت‌های جستجوی پیشرفته"
+  description: "GroupDocs.Search for Java جستجوی متنی پیشرفته‌ای را در بیش از 70 فرمت فایل ارائه می‌دهد. فهرست‌سازی، جستجوها را سرعت می‌بخشد و کارایی مدیریت مدارک را افزایش می‌دهد."
+  image: "/img/search/features_filters.webp" # 500x500 px
+  image_description: "ویژگی‌های کلیدی GroupDocs.Search"
+  features:
+    # feature loop
+    - title: "جستجوی متنی قدرتمند"
+      content: "یافتن متن در فرمت‌های محبوب مدارک مانند PDF، فایل‌های Word، ارایه‌ها و صفحه‌گسترده‌ها. از روش‌های جستجوی متعدد از جمله جستجوی فازی، هم‌صدایی و کاراکترهای جایگزین پشتیبانی می‌کند."
+
+    # feature loop
+    - title: "فهرست‌گذاری بهینه شده برای عملکرد بهتر"
+      content: "ایجاد و استفاده مجدد از فهرست‌های جستجو برای افزایش سرعت و کارایی جستجو، به ویژه در مجموعه‌های بزرگ مدارک."
+
+    # feature loop
+    - title: "پشتیبانی از جستجوی چند زبانه"
+      content: "جستجو در مدارکی که به بیش از 80 زبان نوشته شده‌اند. تشخیص چیدمان‌های صفحه‌کلید مختلف و واریسیون‌های کلمات برای دقت بیشتر."
+
+    # feature loop
+    - title: "گزینه‌های جستجوی قابل تنظیم"
+      content: "نتایج جستجو را با فیلترها، عبارات منظم و سایر تنظیمات جستجوی پیشرفته محدود کنید."
+      
+  code_samples_ext:
+    # code sample ext loop
+    - title: "فیلتر مدارک قبل از جستجو"
+      content: |
+        یاد بگیرید چگونه با استفاده از فیلترها جستجوها را پالایش کنید
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // راه‌اندازی فهرستی که برخی فرمت‌های فایل را استثنا می‌کند
+          IndexSettings settings = new IndexSettings();
+          DocumentFilter fileExtensionFilter = 
+            DocumentFilter.createFileExtension(".odp", ".png", ".rtf");
+
+          DocumentFilter invertedFilter = DocumentFilter.createNot(fileExtensionFilter);
+          settings.setDocumentFilter(invertedFilter);
+
+          Index index = new Index("c:/MyIndex", settings);
+              
+          // مشخص کردن مسیر ذخیره‌سازی مدارک
+          index.add("c:/MyDocuments");
+
+          // دریافت نتایج جستجو
+          SearchResult result = index.search("Lorem", options);
+          
+          // فرآیند و استفاده از نتایج جستجو
+          System.out.println("Documents: " + result.getDocumentCount());
+          System.out.println("Occurrences: " + result.getDocumentCount());
+          ```
+        platform: "java"
+        copy_title: "کپی"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-search</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "برای کپی کلیک کنید"
+          copy_done: "کپی شد"
+        top_links:
+          #  loop
+          - title: "{common-content.format-code.result_title_bottom}"
+            icon: "download"
+            link: "/examples/search/formats/searchfilters.txt"
+        links:
+          #  loop
+          - title: "مثال‌های بیشتر"
+            link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Java/"
+          #  loop
+          - title: "مستندات"
+            link: "https://docs.groupdocs.com/search/java/"
+            
+
+            
+
+
+############################## Actions ############################
+
+actions:
+  enable: true
+  title: "آماده شروع هستید؟"
+  description: "امکانات GroupDocs.Search را به صورت رایگان امتحان کنید یا درخواست مجوز دهید"
+  items:
+    #  loop
+    - title: "دانلود Maven"
+      link: "https://releases.groupdocs.com/search/java/"
+      color: "red"
+        #  loop
+    - title: "مجوزدهی"
+      link: "https://purchase.groupdocs.com/pricing/search/java/"
+      color: "light"
+
+
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "ویژگی‌های کلیدی"
+    exclude: "filters"
+    description: "انجام جستجوهای دقیق و کارآمد متن."
+    items: 
+          
+        # operation loop 1
+        - name: "{common-content.operations.boolean.name}"
+          operation: "boolean"
+          link: "/search/java/boolean/txt/"
+          description: "{common-content.operations.boolean.description}"
+
+        # operation loop 2
+        - name: "{common-content.operations.case-sensitive.name}"
+          operation: "case-sensitive"
+          link: "/search/java/case-sensitive/txt/"
+          description: "{common-content.operations.case-sensitive.description}"
+
+        # operation loop 3
+        - name: "{common-content.operations.document.name}"
+          operation: "document"
+          link: "/search/java/document/txt/"
+          description: "{common-content.operations.document.description}"
+
+        # operation loop 4
+        - name: "{common-content.operations.filters.name}"
+          operation: "filters"
+          link: "/search/java/filters/txt/"
+          description: "{common-content.operations.filters.description}"
+
+        # operation loop 5
+        - name: "{common-content.operations.phrase.name}"
+          operation: "phrase"
+          link: "/search/java/phrase/txt/"
+          description: "{common-content.operations.phrase.description}"
+          
+        
+          
+############################# More Formats ########################
+more_formats:
+    enable: true
+    title: "جستجو در مدارک تجاری"
+    exclude: "TXT"
+    description: "GroupDocs.Search از بیش از 70 فرمت فایل پشتیبانی می‌کند و جستجو در مدارک اداری پرکاربرد را آسان می‌سازد."
+    items: 
+        # format loop 1
+        - name: ""
+          format: "DOCX"
+          link: "/search/java/filters/docx/"
+          description: "مدرک مایکروسافت ورد Open XML"
+          
+        # format loop 2
+        - name: ""
+          format: "PDF"
+          link: "/search/java/filters/pdf/"
+          description: "فرمت مدرک قابل حمل Adobe"
+          
+        # format loop 3
+        - name: ""
+          format: "PPTX"
+          link: "/search/java/filters/pptx/"
+          description: "ارائه PowerPoint Open XML"
+
+        # format loop 4
+        - name: ""
+          format: "TXT"
+          link: "/search/java/filters/txt/"
+          description: "مدرک متنی"
+          
+        # format loop 5
+        - name: ""
+          format: "XLSX"
+          link: "/search/java/filters/xlsx/"
+          description: "جدول محتوای Open XML مایکروسافت اکسل"
+  
+
+---

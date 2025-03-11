@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Effectuer des recherches sensibles à la casse dans {{FileFormatUp}} avec {{EnvNameShort}}",
+    "description": "L'API {{ProdFullName}} permet aux développeurs {{ProgLang}} d'exécuter des recherches sensibles à la casse sur différents types de documents."
+  },
+  "header": {
+    "title": "Recherche Sensible à la Casse",
+    "description": "{{ProdFullName}} vous permet d'implémenter des fonctionnalités de recherche avancées sensibles à la casse dans vos applications {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger Gratuitement"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une bibliothèque puissante pour la recherche et l'indexation de texte dans les documents. Elle prend en charge plus de 70 formats, y compris les PDFs, Word, Excel, PowerPoint, les images et les fichiers ZIP, permettant ainsi de gérer efficacement de grandes quantités de données."
+  },
+  "more_features": {
+    "title": "Fonctionnalités Clés pour la Recherche et l'Indexation de Documents",
+    "description": "Avec {{ProdFullName}}, vous pouvez rechercher et indexer facilement du texte dans plus de 70 formats de fichiers. Accédez et organisez les informations sans effort grâce à des outils de recherche avancés.",
+    "image_description": "Fonctionnalités Principales de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Recherche de Texte Complète",
+      "content": "Trouvez du texte dans divers types de documents comme les PDFs, les fichiers Word, les tableurs et les présentations. Utilisez des options telles que les correspondances exactes, les recherches floues et les jokers pour des résultats précis."
+    },
+    "feature_2": {
+      "title": "Indexation de Données Efficace",
+      "content": "Créez et gérez des index pour accélérer les recherches. L'indexation vous aide à organiser et à localiser rapidement des données dans de grandes collections de documents."
+    },
+    "feature_3": {
+      "title": "Prise en Charge de Plusieurs Langues",
+      "content": "Recherchez des documents en plus de 80 langues avec prise en charge de divers agencements de clavier et variations de mots, assurant des résultats de recherche précis."
+    },
+    "feature_4": {
+      "title": "Paramètres de Recherche Personnalisables",
+      "content": "Ajustez les paramètres de recherche, y compris la sensibilité à la casse, les filtres de date et l'exclusion de termes ou données spécifiques lors de l'indexation."
+    }
+  },
+  "formats": {
+    "title": "Formats de Documents Compatibles",
+    "description": "{{ProdShortName}} prend en charge plus de 70 formats de documents. Personnalisez vos options de recherche et gagnez du temps avec l'indexation."
+  },
+  "operations": {
+    "title": "Fonctionnalités Clés",
+    "description": "Explorez des fonctionnalités avancées pour une recherche de documents rapide et précise."
+  },
+  "examples": {
+    "comment_1": "Spécifiez le chemin du dossier de l'index",
+    "comment_2": "Définissez le dossier contenant les documents à rechercher",
+    "comment_3": "Activez la recherche sensible à la casse dans les paramètres",
+    "comment_4": "Exécutez la recherche"
+  },
+  "steps": {
+    "title": "Étapes pour Effectuer des Recherches Sensibles à la Casse dans des Fichiers {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilite la réalisation de recherches sensibles à la casse dans des fichiers {{FileFormatUp}}, améliorant ainsi vos flux de travail {{EnvName}}.",
+      "step_1": "Configurez un dossier pour stocker l'index de recherche.",
+      "step_2": "Sélectionnez le dossier contenant les fichiers {{FileFormatUp}}.",
+      "step_3": "Exécutez la recherche et obtenez les résultats.",
+      "step_4": "Traitez et utilisez les résultats."
+    }
+  },
+  "code_1": {
+    "title": "Exemple : Mise en Œuvre de la Recherche Sensible à la Casse",
+    "content": "Cet exemple démontre comment effectuer des recherches sensibles à la casse pour des documents {{FileFormatUp}}.",
+    "comment_1": "Définissez le dossier pour l'index de recherche",
+    "comment_2": "Fournissez le chemin vers le dossier de documents",
+    "comment_3": "Configurez une requête de recherche",
+    "comment_4": "Activez les paramètres de recherche sensible à la casse",
+    "comment_5": "Recherchez le texte dans les documents",
+    "comment_6": "Traitez et gérez les résultats"
+  }
+}

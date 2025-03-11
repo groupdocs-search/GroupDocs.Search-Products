@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Encuentra texto en documentos {{FileFormatUp}} con {{ProdShortName}} para {{EnvNameShort}}",
+    "description": "{{ProdFullName}} ayuda a los desarrolladores de {{ProgLang}} a buscar rápidamente texto en varios formatos de documentos."
+  },
+  "header": {
+    "title": "Búsqueda inteligente de texto en documentos",
+    "description": "Con {{ProdFullName}}, puedes buscar y extraer texto sin dificultades de múltiples tipos de documentos en tus aplicaciones de {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtén una prueba gratuita"
+  },
+  "about": {
+    "title": "¿Qué hace {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una robusta biblioteca de búsqueda e indexación de documentos que soporta más de 70 formatos de archivo, incluidos PDF, Word, PowerPoint, Excel, imágenes y archivos ZIP. Permite capacidades de búsqueda rápidas, precisas y escalables para grandes colecciones de documentos."
+  },
+  "more_features": {
+    "title": "Capacidades mejoradas de búsqueda e indexación",
+    "description": "{{ProdFullName}} simplifica la búsqueda de texto e indexación en más de 70 formatos de documentos, proporcionando herramientas eficientes para administrar y recuperar información rápidamente.",
+    "image_description": "Características principales de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Búsqueda de texto exhaustiva",
+      "content": "Encuentra texto en múltiples formatos de documentos como PDFs, documentos de Word, presentaciones de PowerPoint y hojas de cálculo. Usa coincidencias exactas, búsqueda difusa y operadores comodín para resultados de búsqueda refinados."
+    },
+    "feature_2": {
+      "title": "Indexación optimizada para grandes datos",
+      "content": "Crea índices estructurados para acelerar las búsquedas, facilitando la navegación a través de extensos repositorios de documentos de manera eficiente."
+    },
+    "feature_3": {
+      "title": "Soporte para múltiples idiomas",
+      "content": "Realiza búsquedas en más de 80 idiomas con soporte integrado para diferentes distribuciones de teclado y variaciones de morfología de palabras, mejorando así la precisión."
+    },
+    "feature_4": {
+      "title": "Configuraciones de búsqueda flexibles",
+      "content": "Personaliza las búsquedas con opciones como sensibilidad a mayúsculas, filtrado basado en fechas y la capacidad de excluir palabras específicas para resultados precisos."
+    }
+  },
+  "formats": {
+    "title": "Encuentra información en documentos {{FileFormatUp}} con {{ProdShortName}}",
+    "description": "{{ProdShortName}} soporta más de 70 formatos, incluidos archivos de oficina, habilitando búsquedas rápidas con características avanzadas de indexación."
+  },
+  "operations": {
+    "title": "Descripción general de características clave",
+    "description": "Descubre funcionalidades de búsqueda de texto de alto rendimiento diseñadas para eficiencia y precisión."
+  },
+  "examples": {
+    "comment_1": "Establecer el directorio para almacenar el índice de búsqueda",
+    "comment_2": "Especificar la carpeta que contiene documentos buscables",
+    "comment_3": "Activar la búsqueda de homófonos para coincidir palabras con pronunciación similar",
+    "comment_4": "Ejecutar una consulta de búsqueda avanzada"
+  },
+  "steps": {
+    "title": "Realizar búsquedas textuales en archivos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita la búsqueda en archivos {{FileFormatUp}} utilizando lógica sofisticada e indexación, mejorando la precisión de búsqueda en aplicaciones {{EnvName}}.",
+      "step_1": "Configura un directorio para almacenar el índice de búsqueda.",
+      "step_2": "Selecciona una carpeta que contenga archivos {{FileFormatUp}}.",
+      "step_3": "Define opciones adicionales de búsqueda.",
+      "step_4": "Ejecuta la búsqueda y analiza los resultados."
+    }
+  },
+  "code_1": {
+    "title": "Implementación de consultas de búsqueda avanzadas",
+    "content": "Este ejemplo ilustra cómo utilizar consultas de búsqueda para buscar dentro de documentos {{FileFormatUp}} de manera eficiente.",
+    "comment_1": "Definir el directorio para la indexación de búsqueda",
+    "comment_2": "Proporcionar la ruta del archivo para los documentos",
+    "comment_3": "Ingresar la contraseña para documentos encriptados",
+    "comment_4": "Activar la búsqueda difusa para detectar palabras similares",
+    "comment_5": "Obtener los resultados de la búsqueda",
+    "comment_6": "Procesar y analizar los resultados de la búsqueda"
+  }
+}

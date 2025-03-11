@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Buscar {{FileFormatUp}} en {{EnvNameShort}} utilizando operadores booleanos",
+    "description": "La API de {{ProdFullName}} permite a los desarrolladores de {{ProgLang}} buscar contenido de documentos utilizando operadores booleanos como AND, OR y NOT."
+  },
+  "header": {
+    "title": "Búsqueda de texto con lógica booleana",
+    "description": "{{ProdFullName}} facilita la creación de consultas de búsqueda avanzadas utilizando operadores booleanos (AND, OR, NOT) dentro de tus aplicaciones {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Gratis"
+  },
+  "about": {
+    "title": "¿Qué es {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una biblioteca completa para buscar e indexar texto en documentos. Soporta más de 70 formatos de archivo, como PDF, Word, PowerPoint, Excel, imágenes y archivos ZIP, lo que permite un procesamiento eficiente de grandes volúmenes de información."
+  },
+  "more_features": {
+    "title": "Explora características avanzadas para búsqueda e indexación de documentos",
+    "description": "La biblioteca {{ProdFullName}} simplifica la búsqueda de texto y la indexación para más de 70 formatos de archivo. Localiza y gestiona información de manera efectiva con herramientas de búsqueda avanzadas.",
+    "image_description": "Características principales de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Búsqueda de texto poderosa",
+      "content": "Busca texto a través de varios tipos de archivos, incluidos PDFs, documentos de Word, presentaciones de PowerPoint y hojas de cálculo. Utiliza funciones como coincidencias exactas, búsquedas difusas y comodines para refinar resultados."
+    },
+    "feature_2": {
+      "title": "Indexar grandes conjuntos de datos",
+      "content": "Crea y mantiene índices para búsquedas más rápidas. La indexación estructura y organiza los datos, facilitando la búsqueda en colecciones extensas de documentos."
+    },
+    "feature_3": {
+      "title": "Soporte para múltiples idiomas",
+      "content": "Busca documentos en más de 80 idiomas, con soporte para diferentes disposiciones de teclado y formas morfológicas de palabras que mejoran la precisión de búsqueda."
+    },
+    "feature_4": {
+      "title": "Opciones de búsqueda personalizables",
+      "content": "Ajusta la configuración de búsqueda con funciones como sensibilidad a mayúsculas, filtros de rango de fechas y la posibilidad de excluir palabras o datos específicos durante la indexación."
+    }
+  },
+  "formats": {
+    "title": "Buscar en formatos de documento populares",
+    "description": "{{ProdShortName}} soporta más de 70 formatos de archivo. Personaliza las reglas de búsqueda y aprovecha la indexación para ahorrar tiempo y esfuerzo."
+  },
+  "operations": {
+    "title": "Descubre características clave",
+    "description": "Explora funcionalidades de búsqueda avanzadas y eficientes."
+  },
+  "examples": {
+    "comment_1": "Configura la ruta a la carpeta del índice",
+    "comment_2": "Especifica la carpeta que contiene los documentos a buscar",
+    "comment_3": "Ejecuta una búsqueda utilizando una consulta compleja"
+  },
+  "steps": {
+    "title": "Cómo buscar contenido de documentos {{FileFormatUp}} utilizando lógica booleana",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) hace que buscar contenido de documentos {{FileFormatUp}} sea sencillo. Proporciona condiciones de búsqueda de lógica booleana para refinar los resultados en aplicaciones {{EnvName}}.",
+      "step_1": "Especifica la carpeta para almacenar el índice de búsqueda.",
+      "step_2": "Elige la carpeta que contiene archivos {{FileFormatUp}}.",
+      "step_3": "Ejecuta la búsqueda y recupera los resultados.",
+      "step_4": "Procesa los resultados."
+    }
+  },
+  "code_1": {
+    "title": "Usando consultas de búsqueda booleanas avanzadas",
+    "content": "Este ejemplo demuestra cómo aplicar consultas booleanas para buscar documentos {{FileFormatUp}}.",
+    "comment_1": "Establece la carpeta para el índice de búsqueda",
+    "comment_2": "Especifica la ruta a los documentos a buscar",
+    "comment_3": "Crea una consulta de búsqueda utilizando lógica booleana",
+    "comment_4": "Recupera los resultados de búsqueda",
+    "comment_5": "Procesa los resultados de búsqueda"
+  }
+}

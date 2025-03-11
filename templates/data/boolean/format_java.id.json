@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Pencarian Boolean di {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "Dengan {{ProdFullName}}, pengembang dapat melakukan pencarian dokumen menggunakan operator Boolean seperti AND, OR, dan NOT."
+  },
+  "header": {
+    "title": "Pencarian teks Boolean",
+    "description": "Gunakan {{ProdFullName}} untuk membuat kueri pencarian boolean (AND, OR, NOT) yang canggih dalam proyek {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah pustaka serbaguna yang dirancang untuk pencarian teks dan pengindeksan data dalam dokumen. Ini mendukung lebih dari 70 tipe file, termasuk PDF, Word, Excel, PowerPoint, gambar, dan arsip ZIP, yang memungkinkan pencarian efisien melalui kumpulan data besar."
+  },
+  "more_features": {
+    "title": "Alat kuat untuk pencarian dan pengindeksan dokumen",
+    "description": "{{ProdFullName}} menyederhanakan pencarian teks dan pengindeksan data untuk lebih dari 70 format. Alat canggihnya memungkinkan Anda menemukan dan mengelola konten dengan efektif.",
+    "image_description": "Fitur utama {{ProdShortName}}",
+    "feature_1": {
+      "title": "Pencarian teks yang komprehensif",
+      "content": "Telusuri melalui berbagai format seperti PDF, dokumen Word, presentasi, spreadsheet, dan lainnya. Gunakan opsi seperti pencocokan tepat, pencarian fuzzy, dan kueri wildcard untuk memperhalus hasil."
+    },
+    "feature_2": {
+      "title": "Pengindeksan data yang efisien",
+      "content": "Bangun dan pertahankan indeks untuk pencarian dokumen yang lebih cepat. Fitur ini mengorganisir data dengan efisien, memudahkan penanganan koleksi dokumen besar."
+    },
+    "feature_3": {
+      "title": "Dukungan multi-bahasa",
+      "content": "Lakukan pencarian dalam dokumen yang ditulis dalam lebih dari 80 bahasa. Tingkatkan akurasi dengan memanfaatkan bentuk kata morfologis dan berbagai tata letak keyboard."
+    },
+    "feature_4": {
+      "title": "Kustomisasi pencarian yang fleksibel",
+      "content": "Sesuaikan pengaturan pencarian dengan fitur-fitur seperti sensitivitas huruf, filter rentang tanggal, dan pengecualian untuk memperhalus hasil Anda."
+    }
+  },
+  "formats": {
+    "title": "Cari format dokumen populer",
+    "description": "{{ProdShortName}} mendukung lebih dari 70 format file, memungkinkan Anda menyesuaikan aturan pencarian dan menggunakan pengindeksan untuk mengoptimalkan kinerja."
+  },
+  "operations": {
+    "title": "Fitur utama dalam satu pandangan",
+    "description": "Buka kemampuan pencarian yang kuat dan efisien"
+  },
+  "examples": {
+    "comment_1": "Tentukan jalur untuk folder indeks",
+    "comment_2": "Berikan jalur folder yang berisi dokumen untuk pencarian",
+    "comment_3": "Jalankan pencarian dengan kueri kompleks"
+  },
+  "steps": {
+    "title": "Cara melakukan pencarian boolean dalam dokumen {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memfasilitasi pencarian teks dalam dokumen {{FileFormatUp}}. Dengan dukungan untuk kondisi boolean, Anda dapat meningkatkan akurasi pencarian dalam aplikasi {{EnvName}}.",
+      "step_1": "Tentukan folder untuk menyimpan indeks pencarian.",
+      "step_2": "Pilih folder yang berisi dokumen {{FileFormatUp}}.",
+      "step_3": "Jalankan kueri pencarian dan ambil hasilnya.",
+      "step_4": "Proses hasil yang diperoleh."
+    }
+  },
+  "code_1": {
+    "title": "Menggunakan kueri pencarian boolean yang kompleks",
+    "content": "Contoh ini menunjukkan cara melakukan pencarian Boolean dalam file {{FileFormatUp}}.",
+    "comment_1": "Tentukan folder untuk indeks pencarian",
+    "comment_2": "Berikan jalur ke dokumen untuk dicari",
+    "comment_3": "Bangun kueri menggunakan logika Boolean",
+    "comment_4": "Ambil hasil pencarian",
+    "comment_5": "Proses hasil yang diperoleh"
+  }
+}

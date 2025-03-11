@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "在{{FileFormatUp}}中使用{{EnvNameShort}}进行区分大小写的搜索",
+    "description": "{{ProdFullName}} API帮助{{ProgLang}}开发人员在多种文档类型中进行区分大小写的搜索。"
+  },
+  "header": {
+    "title": "区分大小写的文档搜索",
+    "description": "{{ProdFullName}}允许您在{{EnvNameShort}}项目中实现精确的区分大小写搜索功能。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费获取"
+  },
+  "about": {
+    "title": "了解{{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})是一个多功能文本搜索和索引工具，支持各种文档的搜索。它支持超过70种格式，如PDF、Word文件、PowerPoint演示文稿、Excel表格、图像和ZIP文件，使您能够高效处理大型数据集。"
+  },
+  "more_features": {
+    "title": "增强的搜索和索引工具",
+    "description": "使用{{ProdFullName}}，您可以优化超过70种格式的文档搜索和索引，使定位和组织信息更加高效。",
+    "image_description": "{{ProdShortName}}的亮点",
+    "feature_1": {
+      "title": "灵活的文本搜索",
+      "content": "在PDF、Word文件、电子表格和演示文稿中进行搜索。使用准确匹配、模糊搜索和通配符支持等工具，进一步细化搜索结果。"
+    },
+    "feature_2": {
+      "title": "高效的索引管理",
+      "content": "组织和索引大型数据集，以提高处理大文件集合时的搜索速度和性能。"
+    },
+    "feature_3": {
+      "title": "支持全球语言",
+      "content": "支持超过80种语言的搜索，适应不同的键盘布局和语言变体，以提高搜索准确性。"
+    },
+    "feature_4": {
+      "title": "可自定义的搜索过滤器",
+      "content": "可通过大小写敏感性、日期范围过滤和在索引期间排除不需要的词或数据等选项调整搜索条件。"
+    }
+  },
+  "formats": {
+    "title": "支持的搜索文件格式",
+    "description": "{{ProdShortName}}支持超过70种流行的文档格式，提供可自定义的搜索设置和高效的索引功能。"
+  },
+  "operations": {
+    "title": "关键特性概述",
+    "description": "探索{{ProdFullName}}提供的强大而有效的搜索能力。"
+  },
+  "examples": {
+    "comment_1": "定义索引存储的位置",
+    "comment_2": "指向包含要搜索的文档的文件夹",
+    "comment_3": "在搜索设置中启用区分大小写的模式",
+    "comment_4": "执行搜索"
+  },
+  "steps": {
+    "title": "在{{FileFormatUp}}文件中进行区分大小写搜索的指南",
+    "content": {
+      "title": "使用[{{ProdShortName}}]({{PlatformLink}})，您可以在{{FileFormatUp}}文档中执行区分大小写的搜索，从而增强您的{{EnvName}}项目。",
+      "step_1": "设置用于存储搜索索引的文件夹。",
+      "step_2": "选择包含{{FileFormatUp}}文件的文件夹。",
+      "step_3": "运行区分大小写的搜索并收集结果。",
+      "step_4": "处理并使用搜索结果。"
+    }
+  },
+  "code_1": {
+    "title": "示例：区分大小写的搜索查询",
+    "content": "此示例演示了如何对{{FileFormatUp}}文档实施区分大小写的搜索。",
+    "comment_1": "定义搜索索引的目录",
+    "comment_2": "指定文档文件夹的位置",
+    "comment_3": "设置搜索查询",
+    "comment_4": "在搜索选项中启用区分大小写",
+    "comment_5": "执行文档搜索",
+    "comment_6": "处理检索到的结果"
+  }
+}

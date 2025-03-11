@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Recherche dans les documents {{FileFormatUp}} avec {{EnvNameShort}}",
+    "description": "{{ProdFullName}} améliore les applications {{ProgLang}} avec une recherche textuelle efficace à travers divers formats de documents commerciaux."
+  },
+  "header": {
+    "title": "Rechercher du texte dans les documents commerciaux",
+    "description": "{{ProdFullName}} permet des recherches textuelles puissantes et flexibles dans vos documents. Intégrez facilement la fonctionnalité de recherche dans les applications {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Téléchargez gratuitement"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une bibliothèque puissante pour une recherche textuelle efficace et l'indexation de documents. Elle prend en charge plus de 70 formats de fichiers, y compris des documents à normes industrielles tels que PDF, Word, Excel et PowerPoint. Améliorez les performances de recherche avec des résultats rapides et précis."
+  },
+  "more_features": {
+    "title": "Fonctionnalités avancées de recherche",
+    "description": "{{ProdFullName}} permet des recherches textuelles sophistiquées à travers plus de 70 formats de fichiers. L'indexation améliore l'efficacité de la recherche et aide à gérer le contenu des documents de manière efficace.",
+    "image_description": "Fonctionnalités principales de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Recherche textuelle avancée",
+      "content": "Extraire du texte pertinent de documents commerciaux populaires, y compris des PDF, des fichiers Word, des présentations et des tableurs. Prend en charge plusieurs techniques de recherche telles que la recherche floue, la détection d'homophones et les caractères génériques."
+    },
+    "feature_2": {
+      "title": "Indexation optimisée pour des recherches plus rapides",
+      "content": "Créez et réutilisez des index de recherche pour améliorer la vitesse de recherche. L'indexation optimise les performances lors de la recherche à travers de grandes collections de documents."
+    },
+    "feature_3": {
+      "title": "Support pour plusieurs langues",
+      "content": "Effectuez des recherches dans des documents écrits en plus de 80 langues. Détecte différents claviers et variations de mots pour améliorer la précision."
+    },
+    "feature_4": {
+      "title": "Paramètres de recherche flexibles",
+      "content": "Affinez les résultats de recherche avec des options personnalisables, y compris des filtres, des expressions régulières et des paramètres de sensibilité à la casse."
+    }
+  },
+  "formats": {
+    "title": "Trouvez des données dans vos documents commerciaux",
+    "description": "{{ProdShortName}} prend en charge plus de 70 formats de fichiers, permettant un traitement et une recherche efficaces de documents de bureau populaires."
+  },
+  "operations": {
+    "title": "Fonctionnalités clés",
+    "description": "Effectuez des recherches de données précises et efficaces."
+  },
+  "examples": {
+    "comment_1": "Chemin pour stocker l'index de recherche réutilisable",
+    "comment_2": "Dossier contenant des documents",
+    "comment_3": "Rechercher uniquement dans des formats de fichiers spécifiques",
+    "comment_4": "Récupérer les résultats de recherche"
+  },
+  "steps": {
+    "title": "Comment rechercher des données dans {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permet des recherches textuelles efficaces dans les documents {{FileFormatUp}}, ce qui le rend idéal pour les applications {{EnvName}}.",
+      "step_1": "Configurez un dossier pour stocker l'index de recherche.",
+      "step_2": "Sélectionnez le dossier contenant vos fichiers.",
+      "step_3": "Configurez les options de recherche pour traiter uniquement les documents {{FileFormatUp}}.",
+      "step_4": "Exécutez la recherche et récupérez les résultats."
+    }
+  },
+  "code_1": {
+    "title": "Filtrer les documents à traiter",
+    "content": "Apprenez à affiner les recherches de documents à l'aide de filtres",
+    "comment_1": "Configurez un index qui exclut certains formats de fichiers",
+    "comment_2": "Spécifiez le répertoire des documents",
+    "comment_3": "Récupérez les résultats de recherche",
+    "comment_4": "Traitez et utilisez le résultat de la recherche"
+  }
+}

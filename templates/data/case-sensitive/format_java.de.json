@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Fall-Insensitive Suchen in {{FileFormatUp}} mit {{EnvNameShort}}",
+    "description": "Die {{ProdFullName}} API unterstützt {{ProgLang}} Entwickler bei der Durchführung von groß-/kleinschreibungssensitiven Suchen über mehrere Dokumenttypen."
+  },
+  "header": {
+    "title": "Groß-/Kleinschreibungssensitive Dokumentensuche",
+    "description": "{{ProdFullName}} ermöglicht Ihnen die Implementierung präziser, groß-/kleinschreibungssensitiver Suchfunktionen in Ihren {{EnvNameShort}} Projekten.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos Erhalten"
+  },
+  "about": {
+    "title": "Erfahren Sie mehr über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist ein vielseitiges Tool für die Textsuche und Indizierung über verschiedene Dokumente hinweg. Es unterstützt über 70 Formate wie PDFs, Word-Dateien, PowerPoint-Präsentationen, Excel-Tabellen, Bilder und ZIPs, sodass Sie umfangreiche Datensätze effizient verwalten können."
+  },
+  "more_features": {
+    "title": "Erweiterte Such- und Indizierungswerkzeuge",
+    "description": "Mit {{ProdFullName}} können Sie die Dokumentensuche und Indizierung für mehr als 70 Formate optimieren, was das Auffinden und Organisieren von Informationen erleichtert.",
+    "image_description": "Highlights von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Flexibele Textsuche",
+      "content": "Durchsuchen Sie Dokumente wie PDFs, Word-Dateien, Tabellenkalkulationen und Präsentationen. Nutzen Sie Funktionen wie exakte Übereinstimmungen, unscharfe Suche und Platzhalterunterstützung zur Verfeinerung Ihrer Ergebnisse."
+    },
+    "feature_2": {
+      "title": "Effizientes Indexmanagement",
+      "content": "Organisieren und indizieren Sie große Datensätze, um die Suchgeschwindigkeit und -leistung beim Bearbeiten großer Dokumentensammlungen zu verbessern."
+    },
+    "feature_3": {
+      "title": "Unterstützung verschiedener Sprachen",
+      "content": "Führen Sie Suchen in über 80 Sprachen durch und berücksichtigen Sie verschiedene Tastaturlayouts und sprachliche Variationen für bessere Genauigkeit."
+    },
+    "feature_4": {
+      "title": "Anpassbare Suchfilter",
+      "content": "Passen Sie die Suchkriterien mit Optionen wie Groß-/Kleinschreibungssensitivität, Datumsbereichsfilterung und dem Ausschluss unerwünschter Wörter oder Daten während der Indizierung an."
+    }
+  },
+  "formats": {
+    "title": "Unterstützte Dateiformate für Suchen",
+    "description": "{{ProdShortName}} arbeitet mit über 70 gängigen Dokumentformaten, bietet anpassbare Suchoptionen und effiziente Indizierung."
+  },
+  "operations": {
+    "title": "Überblick über die Hauptfunktionen",
+    "description": "Entdecken Sie die robusten und effektiven Suchmöglichkeiten, die {{ProdFullName}} bietet."
+  },
+  "examples": {
+    "comment_1": "Legen Sie den Speicherort für den Index fest",
+    "comment_2": "Weisen Sie auf den Ordner hin, der die zu durchsuchenden Dokumente enthält",
+    "comment_3": "Aktivieren Sie den groß-/kleinschreibungssensitiven Modus in den Sucheinstellungen",
+    "comment_4": "Führen Sie die Suche aus"
+  },
+  "steps": {
+    "title": "Leitfaden zur groß-/kleinschreibungssensitiven Suche in {{FileFormatUp}} Dateien",
+    "content": {
+      "title": "Mit [{{ProdShortName}}]({{PlatformLink}}) können Sie groß-/kleinschreibungssensitive Suchen in {{FileFormatUp}} Dokumenten durchführen und Ihre {{EnvName}} Projekte erweitern.",
+      "step_1": "Legen Sie den Ordner für die Speicherung des Suchindex fest.",
+      "step_2": "Wählen Sie den Ordner mit {{FileFormatUp}} Dateien aus.",
+      "step_3": "Führen Sie die groß-/kleinschreibungssensitive Suche aus und sammeln Sie die Ergebnisse.",
+      "step_4": "Verarbeiten und nutzen Sie die Suchergebnisse."
+    }
+  },
+  "code_1": {
+    "title": "Beispiel: Groß-/Kleinschreibungssensitive Suchabfragen",
+    "content": "Dieses Beispiel zeigt, wie Sie groß-/kleinschreibungssensitive Suchen für {{FileFormatUp}} Dokumente implementieren können.",
+    "comment_1": "Definieren Sie das Verzeichnis für den Suchindex",
+    "comment_2": "Geben Sie den Speicherort des Dokumentenordners an",
+    "comment_3": "Richten Sie eine Suchanfrage ein",
+    "comment_4": "Aktivieren Sie die Groß-/Kleinschreibungssensitivität in den Suchoptionen",
+    "comment_5": "Führen Sie die Dokumentensuche durch",
+    "comment_6": "Verarbeiten Sie die abgerufenen Ergebnisse"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Tìm kiếm văn bản trong tài liệu {{FileFormatUp}} với {{ProdShortName}} cho {{EnvNameShort}}",
+    "description": "{{ProdFullName}} hỗ trợ các lập trình viên {{ProgLang}} tìm kiếm văn bản nhanh chóng trong nhiều định dạng tài liệu khác nhau."
+  },
+  "header": {
+    "title": "Tìm kiếm văn bản tài liệu thông minh",
+    "description": "Với {{ProdFullName}}, bạn có thể tìm kiếm và trích xuất văn bản từ nhiều loại tài liệu trong ứng dụng {{EnvNameShort}} của bạn một cách liền mạch.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Nhận bản dùng thử miễn phí"
+  },
+  "about": {
+    "title": "{{ProdShortName}} có chức năng gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một thư viện tìm kiếm và lập chỉ mục tài liệu mạnh mẽ hỗ trợ hơn 70 định dạng tệp, bao gồm PDF, Word, PowerPoint, Excel, hình ảnh và các tệp ZIP. Nó cho phép tìm kiếm nhanh chóng, chính xác và quy mô cho những bộ sưu tập tài liệu lớn."
+  },
+  "more_features": {
+    "title": "Khả năng tìm kiếm và lập chỉ mục nâng cao",
+    "description": "{{ProdFullName}} đơn giản hóa việc tìm kiếm văn bản và lập chỉ mục trên hơn 70 định dạng tài liệu, cung cấp các công cụ hiệu quả để quản lý và truy xuất thông tin một cách nhanh chóng.",
+    "image_description": "Các Tính năng Chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tìm kiếm văn bản toàn diện",
+      "content": "Tìm văn bản trên nhiều định dạng tài liệu như PDF, tài liệu Word, bài thuyết trình PowerPoint và bảng tính. Sử dụng các kết quả chính xác, tìm kiếm không chính xác và toán tử đại diện cho các kết quả tìm kiếm tinh vi."
+    },
+    "feature_2": {
+      "title": "Tối ưu hóa lập chỉ mục cho dữ liệu lớn",
+      "content": "Tạo các chỉ mục có cấu trúc để tăng tốc độ tìm kiếm, giúp dễ dàng điều hướng qua các kho tài liệu rộng lớn một cách hiệu quả."
+    },
+    "feature_3": {
+      "title": "Hỗ trợ nhiều ngôn ngữ",
+      "content": "Thực hiện tìm kiếm bằng hơn 80 ngôn ngữ với hỗ trợ tích hợp cho các bố trí bàn phím khác nhau và sự biến thể hình thái từ, cải thiện độ chính xác."
+    },
+    "feature_4": {
+      "title": "Cài đặt tìm kiếm linh hoạt",
+      "content": "Tùy chỉnh tìm kiếm với các tùy chọn như độ nhạy chữ hoa chữ thường, lọc theo ngày và khả năng loại trừ các từ cụ thể để có kết quả chính xác."
+    }
+  },
+  "formats": {
+    "title": "Tìm thông tin trên tài liệu {{FileFormatUp}} với {{ProdShortName}}",
+    "description": "{{ProdShortName}} hỗ trợ hơn 70 định dạng, bao gồm các tệp văn phòng, cho phép tìm kiếm nhanh chóng với các tính năng lập chỉ mục nâng cao."
+  },
+  "operations": {
+    "title": "Tổng quan về các tính năng chính",
+    "description": "Khám phá các chức năng tìm kiếm văn bản hiệu suất cao được thiết kế cho hiệu quả và độ chính xác."
+  },
+  "examples": {
+    "comment_1": "Đặt thư mục để lưu trữ chỉ mục tìm kiếm",
+    "comment_2": "Xác định thư mục chứa các tài liệu có thể tìm kiếm",
+    "comment_3": "Kích hoạt tìm kiếm đồng âm để khớp các từ phát âm tương tự",
+    "comment_4": "Thực thi một truy vấn tìm kiếm nâng cao"
+  },
+  "steps": {
+    "title": "Thực hiện tìm kiếm văn bản trong các tệp {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp bạn tìm kiếm các tệp {{FileFormatUp}} với logic và lập chỉ mục tinh vi, cải thiện sự chính xác trong các ứng dụng {{EnvName}}.",
+      "step_1": "Thiết lập một thư mục để lưu chỉ mục tìm kiếm.",
+      "step_2": "Chọn một thư mục chứa các tệp {{FileFormatUp}}.",
+      "step_3": "Định nghĩa các tùy chọn tìm kiếm bổ sung.",
+      "step_4": "Thực hiện tìm kiếm và phân tích kết quả."
+    }
+  },
+  "code_1": {
+    "title": "Thực hiện các truy vấn tìm kiếm nâng cao",
+    "content": "Ví dụ này minh họa cách sử dụng các truy vấn tìm kiếm để tìm kiếm trong các tài liệu {{FileFormatUp}} một cách hiệu quả.",
+    "comment_1": "Định nghĩa thư mục để lập chỉ mục tìm kiếm",
+    "comment_2": "Cung cấp đường dẫn tệp cho các tài liệu",
+    "comment_3": "Nhập mật khẩu cho các tài liệu được mã hóa",
+    "comment_4": "Kích hoạt tìm kiếm không chính xác để phát hiện các từ tương tự",
+    "comment_5": "Lấy kết quả tìm kiếm",
+    "comment_6": "Xử lý và phân tích kết quả tìm kiếm"
+  }
+}

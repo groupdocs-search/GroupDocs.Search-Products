@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "在 {{FileFormatUp}} 文档中搜索，使用 {{EnvNameShort}}",
+    "description": "{{ProdFullName}} 通过高效的文本搜索增强 {{ProgLang}} 应用程序，以支持各种商业文档格式。"
+  },
+  "header": {
+    "title": "在商务文档中搜索文本",
+    "description": "{{ProdFullName}} 使您能够在文档中进行强大且灵活的文本搜索。将搜索功能无缝集成到 {{EnvNameShort}} 应用程序中。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 是什么？",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一个强大的库，用于高效的文本搜索和文档索引。它支持超过 70 种文件格式，包括行业标准的文档，如 PDF、Word、Excel 和 PowerPoint。提高搜索性能，获得快速且准确的结果。"
+  },
+  "more_features": {
+    "title": "高级搜索功能",
+    "description": "{{ProdFullName}} 使您能够在超过 70 种文件格式中进行复杂的文本搜索。索引提高搜索效率，帮助有效管理文档内容。",
+    "image_description": "{{ProdShortName}} 的主要功能",
+    "feature_1": {
+      "title": "高级文本搜索",
+      "content": "从流行的商业文档中提取相关文本，包括 PDF、Word 文件、演示文稿和电子表格。支持多种搜索技术，如模糊搜索、同音词检测和通配符。"
+    },
+    "feature_2": {
+      "title": "优化的索引以加快搜索",
+      "content": "构建和重用搜索索引以提高搜索速度。索引在搜索大型文档集合时优化性能。"
+    },
+    "feature_3": {
+      "title": "支持多种语言",
+      "content": "在超过 80 种语言编写的文档中进行搜索。自动检测不同的键盘布局和单词变体，以提高准确性。"
+    },
+    "feature_4": {
+      "title": "灵活的搜索设置",
+      "content": "通过可自定义的选项（包括过滤器、正则表达式和大小写敏感性设置）来细化搜索结果。"
+    }
+  },
+  "formats": {
+    "title": "在您的商务文档中查找数据",
+    "description": "{{ProdShortName}} 支持 70+ 种文件格式，允许高效处理和搜索流行的办公文档。"
+  },
+  "operations": {
+    "title": "关键功能",
+    "description": "执行准确高效的数据搜索。"
+  },
+  "examples": {
+    "comment_1": "存储可重用搜索索引的路径",
+    "comment_2": "包含文档的文件夹",
+    "comment_3": "仅在特定文件格式中搜索",
+    "comment_4": "检索搜索结果"
+  },
+  "steps": {
+    "title": "如何在 {{FileFormatUp}} 数据中搜索",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 使在 {{FileFormatUp}} 文档中进行高效文本搜索成为可能，非常适合 {{EnvName}} 应用程序。",
+      "step_1": "设置一个用于存储搜索索引的文件夹。",
+      "step_2": "选择包含您文件的文件夹。",
+      "step_3": "配置搜索选项，仅处理 {{FileFormatUp}} 文档。",
+      "step_4": "执行搜索并检索结果。"
+    }
+  },
+  "code_1": {
+    "title": "过滤待处理的文档",
+    "content": "了解如何使用过滤器缩小文档搜索范围",
+    "comment_1": "设置索引以排除某些文件格式",
+    "comment_2": "指定文档目录",
+    "comment_3": "检索搜索结果",
+    "comment_4": "处理并使用搜索输出"
+  }
+}

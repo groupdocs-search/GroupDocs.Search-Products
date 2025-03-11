@@ -1,0 +1,258 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2025-03-11T15:59:34
+draft: false
+lang: fa
+format: Xlsx
+product: "Search"
+product_tag: "search"
+platform: ".NET"
+platform_tag: "net"
+
+############################# Head ############################
+head_title: "جستجوی اسناد XLSX در .NET با GroupDocs.Search"
+head_description: "از GroupDocs.Search for .NET برای انجام جستجوهای متنی کارآمد در قالب‌های مختلف اسنادی با C# استفاده کنید."
+
+############################# Header ############################
+title: "جستجوی پیشرفته متن اسناد" 
+description: "GroupDocs.Search for .NET جستجوی متن در قالب‌های محبوب اسنادی را ساده می‌کند و به شما اجازه می‌دهد تا کوئری‌های جستجوی قوی در برنامه‌های .NET خود ایجاد کنید."
+subtitle: "GroupDocs.Search for .NET" 
+
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "دانلود رایگان"
+      link: "https://releases.groupdocs.com/search/net/"
+      
+############################# About ############################
+about:
+    enable: true
+    title: "GroupDocs.Search چه‌چیزی است؟"
+    link: "/search/net/"
+    link_title: "بیشتر بدانید"
+    picture: "about_search.svg" # 480 X 400
+    content: |
+       [GroupDocs.Search for .NET](/search/net/) یک کتابخانه قدرتمند طراحی شده برای جستجو و ایندکس‌گذاری متن کامل در اسناد است. این کتابخانه از بیش از ۷۰ فرمت فایل پشتیبانی می‌کند، از جمله PDF، Word، PowerPoint، Excel، تصاویر و فایل‌های ZIP، که اطمینان از نتایج جستجوی سریع و دقیق را فراهم می‌آورد.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "چگونه در اسناد XLSX جستجوی متنی را انجام دهیم"
+    content: |
+      [GroupDocs.Search](/search/net/) عملیات جستجوی پیشرفته محتوا را در اسناد XLSX امکان‌پذیر می‌سازد و اجازه می‌دهد نتایج جستجوی دقیقتری در برنامه‌های .NET داشته باشید.
+      
+      1. پوشه‌ای را برای ذخیره ایندکس جستجو راه‌اندازی کنید.
+      2. پوشه‌ای را انتخاب کنید که شامل فایل‌های XLSX است.
+      3. گزینه‌های جستجوی اضافی را پیکربندی کنید.
+      4. جستجو را اجرا کرده و نتایج را مرور کنید.
+   
+    code:
+      platform: "net"
+      copy_title: "کپی"
+      result_enable: true
+      result_link: "/examples/search/search_all.pdf"
+      result_title: "{common-content.format-code.result_title}"
+      install:
+        command: "dotnet add package GroupDocs.Search"
+        copy_tip: "برای کپی کلیک کنید"
+        copy_done: "کپی شد"
+      links:
+        #  loop
+        - title: "مثال‌های بیشتر"
+          link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
+        #  loop
+        - title: "مستندات"
+          link: "https://docs.groupdocs.com/search/net/"
+          
+      content: |
+        ```csharp {style=abap}
+        // مسیر ایندکس جستجو را تعریف کنید
+        Index index = new Index("c:/MyIndex");
+
+        // پوشه‌ای را که شامل اسناد است انتخاب کنید که باید جستجو شوند
+        index.Add("c:/MyDocuments");
+
+        // جستجوی هم‌صدا را برای پیدا کردن کلمات مشابه فعال کنید
+        SearchOptions options = new SearchOptions();
+        options.UseHomophoneSearch = true;
+
+        // یک کوئری جستجوی پیچیده را اجرا کنید
+        SearchResult result = index.Search("metis", options);
+        ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "ویژگی‌های پیشرفته جستجو و ایندکس‌گذاری"
+  description: "GroupDocs.Search for .NET جستجو و ایندکس‌گذاری متن را در بیش از ۷۰ فرمت فایل تقویت می‌کند و ابزارهای کارآمدی برای پیدا کردن و مدیریت اطلاعات ارائه می‌دهد."
+  image: "/img/search/features_document.webp" # 500x500 px
+  image_description: "ویژگی‌های کلیدی GroupDocs.Search"
+  features:
+    # feature loop
+    - title: "جستجوی متن قدرتمند"
+      content: "برای جستجوی متن در انواع مختلف اسناد، از جمله PDFها، اسناد Word، ارائه‌های PowerPoint و صفحه‌گسترده‌ها استفاده کنید. از ویژگی‌هایی مانند تطابق دقیق، جستجوی مبهم و کاراکترهای جایگزین برای دقیق‌تر کردن نتایج خود استفاده کنید."
+
+    # feature loop
+    - title: "ایندکس‌گذاری سریع برای مجموعه‌های داده بزرگ"
+      content: "ایندکس‌های جستجو را برای بازیابی سریع اطلاعات ایجاد و مدیریت کنید. ایندکس‌گذاری جستجوها را در مجموعه‌های گسترده اسنادی بهینه می‌کند."
+
+    # feature loop
+    - title: "پشتیبانی چندزبانه"
+      content: "جستجوها را در بیش از ۸۰ زبان انجام دهید، با پشتیبانی از طرح‌های صفحه‌کلید مختلف و واریانت‌های واژه برای بهبود دقت."
+
+    # feature loop
+    - title: "تنظیمات جستجو قابل تنظیم"
+      content: "پارامترهای جستجو را با گزینه‌هایی مانند حساسیت به حروف بزرگ و کوچک، فیلترهای بازه تاریخی و exclusions کلمات برای نتایج بهتر سفارشی کنید."
+      
+  code_samples_ext:
+    # code sample ext loop
+    - title: "اجرای کوئری‌های جستجوی پیشرفته"
+      content: |
+        این مثال نشان می‌دهد که چگونه می‌توان کوئری‌های جستجو را برای اسناد XLSX اعمال کرد.
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // پوشه‌ای را برای ایندکس جستجو تعریف کنید
+          Index index = new Index("c:/MyIndex");
+              
+          // مسیر فایل‌های سند را مشخص کنید
+          index.Add("c:/MyDocuments");
+
+          // یک رمز عبور برای اسناد محافظت‌شده ارائه دهید
+          index.Dictionaries.DocumentPasswords.Add("protected.xlsx", "123456");
+
+          // جستجوی مبهم را برای پیدا کردن کلمات مشابه فعال کنید
+          SearchOptions options = new SearchOptions();
+          options.FuzzySearch.Enabled = true;
+          options.FuzzySearch.FuzzyAlgorithm = new SimilarityLevel(0.8);
+
+          // نتایج جستجو را بازیابی کنید
+          SearchResult result = index.Search("Loarem", options);
+          
+          // خروجی جستجو را پردازش کنید
+          Console.WriteLine("Documents: " + result.DocumentCount);
+          Console.WriteLine("Occurrences: " + result.OccurrenceCount);
+          ```
+        platform: "net"
+        copy_title: "کپی"
+        install:
+          command: "dotnet add package GroupDocs.Search"
+          copy_tip: "برای کپی کلیک کنید"
+          copy_done: "کپی شد"
+        top_links:
+          #  loop
+          - title: "{common-content.format-code.result_title_bottom}"
+            icon: "download"
+            link: "/examples/search/formats/searchdocument.xlsx"
+        links:
+          #  loop
+          - title: "مثال‌های بیشتر"
+            link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
+          #  loop
+          - title: "مستندات"
+            link: "https://docs.groupdocs.com/search/net/"
+            
+
+            
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "آماده شروع هستید؟"
+  description: "امکانات GroupDocs.Search را به صورت رایگان امتحان کنید یا درخواست مجوز دهید"
+  items:
+    #  loop
+    - title: "دانلود Nuget"
+      link: "https://releases.groupdocs.com/search/net/"
+      color: "red"
+        #  loop
+    - title: "مجوزدهی"
+      link: "https://purchase.groupdocs.com/pricing/search/net/"
+      color: "light"
+
+
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "اکتشاف ویژگی‌های کلیدی"
+    exclude: "document"
+    description: "از قابلیت‌های جستجوی پیشرفته و با عملکرد بالا بهره‌مند شوید."
+    items: 
+          
+        # operation loop 1
+        - name: "{common-content.operations.boolean.name}"
+          operation: "boolean"
+          link: "/search/net/boolean/xlsx/"
+          description: "{common-content.operations.boolean.description}"
+
+        # operation loop 2
+        - name: "{common-content.operations.case-sensitive.name}"
+          operation: "case-sensitive"
+          link: "/search/net/case-sensitive/xlsx/"
+          description: "{common-content.operations.case-sensitive.description}"
+
+        # operation loop 3
+        - name: "{common-content.operations.document.name}"
+          operation: "document"
+          link: "/search/net/document/xlsx/"
+          description: "{common-content.operations.document.description}"
+
+        # operation loop 4
+        - name: "{common-content.operations.filters.name}"
+          operation: "filters"
+          link: "/search/net/filters/xlsx/"
+          description: "{common-content.operations.filters.description}"
+
+        # operation loop 5
+        - name: "{common-content.operations.phrase.name}"
+          operation: "phrase"
+          link: "/search/net/phrase/xlsx/"
+          description: "{common-content.operations.phrase.description}"
+          
+        
+          
+############################# More Formats ########################
+more_formats:
+    enable: true
+    title: "جستجو در اسناد تجاری شما"
+    exclude: "XLSX"
+    description: "GroupDocs.Search از بیش از ۷۰ فرمت فایل پشتیبانی می‌کند، از جمله اسناد اداری، که جستجوهای سریع و کارآمد با قابلیت‌های ایندکس‌گذاری را امکان‌پذیر می‌سازد."
+    items: 
+        # format loop 1
+        - name: ""
+          format: "DOCX"
+          link: "/search/net/document/docx/"
+          description: "مدرک مایکروسافت ورد Open XML"
+          
+        # format loop 2
+        - name: ""
+          format: "PDF"
+          link: "/search/net/document/pdf/"
+          description: "فرمت مدرک قابل حمل Adobe"
+          
+        # format loop 3
+        - name: ""
+          format: "PPTX"
+          link: "/search/net/document/pptx/"
+          description: "ارائه PowerPoint Open XML"
+
+        # format loop 4
+        - name: ""
+          format: "TXT"
+          link: "/search/net/document/txt/"
+          description: "مدرک متنی"
+          
+        # format loop 5
+        - name: ""
+          format: "XLSX"
+          link: "/search/net/document/xlsx/"
+          description: "جدول محتوای Open XML مایکروسافت اکسل"
+  
+
+---

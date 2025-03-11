@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}}에서 구문 검색 수행하기 - {{ProdFullName}}",
+    "description": "{{ProdFullName}}는 문서 콘텐츠에 대한 고급 구문 검색 기능으로 {{ProgLang}} 애플리케이션을 향상시킵니다."
+  },
+  "header": {
+    "title": "문서에서 구문 찾기",
+    "description": "{{ProdFullName}}를 사용하여 특정 구문을 신속하게 찾아보세요. {{EnvNameShort}} 애플리케이션에 강력한 검색 기능을 추가하세요.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "다운로드"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 기능",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 문서 내 텍스트 색인화 및 검색을 위한 강력한 라이브러리입니다. PDF, Word 문서, Excel 스프레드시트, 이미지 및 ZIP 파일을 포함하여 70개 이상의 파일 형식을 지원하여 빠르고 정확한 검색 결과를 보장합니다."
+  },
+  "more_features": {
+    "title": "{{EnvNameShort}} 문서 검색 엔진 탐색",
+    "description": "{{ProdFullName}}는 70개 이상의 파일 형식에서 구문 검색을 지원합니다. 고급 검색 기능을 사용하여 데이터를 쉽게 찾고 정리할 수 있습니다.",
+    "image_description": "{{ProdShortName}}의 주요 기능",
+    "feature_1": {
+      "title": "구문 검색",
+      "content": "PDF, Word 파일, 프레젠테이션 및 스프레드시트와 같은 비즈니스 문서에서 정확한 구문을 찾습니다. 정확한 구문이 알려지지 않은 경우 와일드카드 및 기타 옵션을 사용하세요."
+    },
+    "feature_2": {
+      "title": "최적화된 데이터 색인화",
+      "content": "검색 인덱스를 생성하고 재사용하여 문서 검색 속도를 높입니다. 색인화는 데이터를 효율적으로 정리하여 더 빠르고 정확한 검색을 가능하게 합니다."
+    },
+    "feature_3": {
+      "title": "다국어 호환성",
+      "content": "80개 이상의 언어로 문서를 검색하세요. 다양한 키보드 레이아웃과 형태소 분석을 지원하여 검색 정밀도를 향상시킵니다."
+    },
+    "feature_4": {
+      "title": "고급 검색 옵션",
+      "content": "대소문자 구분, 퍼지 검색, 동음이의어 일치, 문서 필터링 및 기타 강력한 기능으로 검색을 사용자 맞춤화하세요."
+    }
+  },
+  "formats": {
+    "title": "비즈니스 문서에서 구문 검색",
+    "description": "{{ProdShortName}}는 70개 이상의 문서 형식에서 구문 검색을 가능하게 합니다. 효율적인 검색을 위해 고급 옵션 및 색인화 기능을 활용하세요."
+  },
+  "operations": {
+    "title": "고급 검색 기능",
+    "description": "개선된 정확도와 성능을 위한 최첨단 검색 기능을 활용하세요."
+  },
+  "examples": {
+    "comment_1": "검색 인덱스 경로 정의",
+    "comment_2": "문서가 있는 폴더 지정",
+    "comment_3": "검색 기본 설정 설정",
+    "comment_4": "검색 쿼리 실행"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} 문서에서 구문 찾는 방법",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})는 {{FileFormatUp}} 문서에서 구문 검색을 간소화합니다. {{EnvName}} 애플리케이션에서 검색 결과를 개선하기 위해 다양한 옵션을 사용하세요.",
+      "step_1": "검색 인덱스 디렉토리 생성.",
+      "step_2": "{{FileFormatUp}} 파일이 있는 폴더 지정.",
+      "step_3": "검색 매개변수 조정.",
+      "step_4": "검색 결과를 검색하고 분석."
+    }
+  },
+  "code_1": {
+    "title": "고급 검색 방법 활용하기",
+    "content": "{{FileFormatUp}}에서 검색 쿼리 구성 방법을 배워보세요.",
+    "comment_1": "검색 인덱스의 디렉토리 정의",
+    "comment_2": "대상 문서의 경로 설정",
+    "comment_3": "특정 구문을 위한 검색 쿼리 생성",
+    "comment_4": "검색 결과 가져오기",
+    "comment_5": "가져온 결과 처리 및 활용"
+  }
+}

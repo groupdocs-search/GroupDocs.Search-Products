@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Cerca in documenti {{FileFormatUp}} utilizzando {{EnvNameShort}}",
+    "description": "{{ProdFullName}} potenzia le applicazioni {{ProgLang}} con ricerche testuali efficienti in vari formati di documenti aziendali."
+  },
+  "header": {
+    "title": "Cerca testo in documenti aziendali",
+    "description": "{{ProdFullName}} consente ricerche di testo potenti e flessibili nei tuoi documenti. Integra facilmente la funzionalità di ricerca nelle applicazioni {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratuitamente"
+  },
+  "about": {
+    "title": "Cos'è {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una potente libreria per una ricerca testuale efficiente e l'indicizzazione dei documenti. Supporta oltre 70 formati di file, inclusi documenti standard del settore come PDF, Word, Excel e PowerPoint. Migliora le prestazioni di ricerca con risultati rapidi e accurati."
+  },
+  "more_features": {
+    "title": "Funzionalità di ricerca avanzate",
+    "description": "{{ProdFullName}} consente ricerche di testo sofisticate in oltre 70 formati di file. L'indicizzazione migliora l'efficienza della ricerca e aiuta a gestire efficacemente il contenuto dei documenti.",
+    "image_description": "Caratteristiche principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ricerca testuale avanzata",
+      "content": "Estrai testo rilevante da documenti aziendali popolari, inclusi PDF, file Word, presentazioni e fogli di calcolo. Supporta diverse tecniche di ricerca come ricerca approssimata, rilevamento di omofoni e caratteri jolly."
+    },
+    "feature_2": {
+      "title": "Indicizzazione ottimizzata per ricerche più veloci",
+      "content": "Crea e riutilizza indici di ricerca per migliorare la velocità di ricerca. L'indicizzazione ottimizza le prestazioni quando si cercano ampie collezioni di documenti."
+    },
+    "feature_3": {
+      "title": "Supporto per più lingue",
+      "content": "Esegui ricerche in documenti scritti in oltre 80 lingue. Rileva diverse disposizioni di tastiera e variazioni di parole per migliorare l'accuratezza."
+    },
+    "feature_4": {
+      "title": "Impostazioni di ricerca flessibili",
+      "content": "Affina i risultati di ricerca con opzioni personalizzabili, incluse filtri, espressioni regolari e impostazioni di sensibilità al maiuscolo."
+    }
+  },
+  "formats": {
+    "title": "Trova dati nei tuoi documenti aziendali",
+    "description": "{{ProdShortName}} supporta oltre 70 formati di file, consentendo un'elaborazione e una ricerca efficienti di documenti d'ufficio popolari."
+  },
+  "operations": {
+    "title": "Caratteristiche chiave",
+    "description": "Esegui ricerche di dati accurate ed efficienti."
+  },
+  "examples": {
+    "comment_1": "Percorso per memorizzare l'indice di ricerca riutilizzabile",
+    "comment_2": "Cartella contenente documenti",
+    "comment_3": "Cerca solo all'interno di formati di file specifici",
+    "comment_4": "Recupera i risultati della ricerca"
+  },
+  "steps": {
+    "title": "Come cercare nei dati {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) consente ricerche testuali efficienti in documenti {{FileFormatUp}}, rendendolo ideale per applicazioni {{EnvName}}.",
+      "step_1": "Imposta una cartella per memorizzare l'indice di ricerca.",
+      "step_2": "Seleziona la cartella contenente i tuoi file.",
+      "step_3": "Configura le opzioni di ricerca per elaborare solo documenti {{FileFormatUp}}.",
+      "step_4": "Esegui la ricerca e recupera i risultati."
+    }
+  },
+  "code_1": {
+    "title": "Filtra i documenti da elaborare",
+    "content": "Scopri come restringere le ricerche di documenti usando filtri",
+    "comment_1": "Configura un indice che esclude determinati formati di file",
+    "comment_2": "Specifica la directory dei documenti",
+    "comment_3": "Recupera i risultati della ricerca",
+    "comment_4": "Elabora e utilizza l'output della ricerca"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Tìm kiếm trong các tài liệu {{FileFormatUp}} bằng {{EnvNameShort}}",
+    "description": "{{ProdFullName}} thêm chức năng tìm kiếm văn bản mạnh mẽ vào các ứng dụng {{ProgLang}}, hỗ trợ nhiều định dạng tài liệu doanh nghiệp."
+  },
+  "header": {
+    "title": "Tìm văn bản trong các tài liệu kinh doanh",
+    "description": "{{ProdFullName}} cho phép bạn tìm kiếm văn bản trong các tài liệu bằng các truy vấn linh hoạt và chính xác. Tích hợp chức năng tìm kiếm vào các ứng dụng {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về miễn phí"
+  },
+  "about": {
+    "title": "{{ProdShortName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một thư viện mạnh mẽ cho tìm kiếm văn bản nhanh và lập chỉ mục tài liệu. Nó hỗ trợ hơn 70 định dạng tệp, bao gồm các tiêu chuẩn trong ngành như PDF, Word, Excel và PowerPoint. Nâng cao ứng dụng của bạn với những khả năng tìm kiếm chính xác và tốc độ cao."
+  },
+  "more_features": {
+    "title": "Khả năng tìm kiếm nâng cao",
+    "description": "{{ProdFullName}} cung cấp khả năng tìm kiếm văn bản nâng cao trong hơn 70 định dạng tệp. Việc lập chỉ mục giúp tăng tốc độ tìm kiếm và cải thiện hiệu quả quản lý tài liệu.",
+    "image_description": "Các tính năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tìm kiếm văn bản mạnh mẽ",
+      "content": "Tìm văn bản trong các định dạng tài liệu phổ biến như PDF, tệp Word, bài thuyết trình và bảng tính. Hỗ trợ nhiều phương pháp tìm kiếm, bao gồm tìm kiếm mờ, âm đồng và ký tự đại diện."
+    },
+    "feature_2": {
+      "title": "Lập chỉ mục tối ưu cho hiệu suất tốt hơn",
+      "content": "Tạo và tái sử dụng chỉ mục tìm kiếm để nâng cao tốc độ và hiệu quả tìm kiếm, đặc biệt là trong các bộ sưu tập tài liệu lớn."
+    },
+    "feature_3": {
+      "title": "Hỗ trợ tìm kiếm đa ngôn ngữ",
+      "content": "Tìm kiếm trong các tài liệu viết bằng hơn 80 ngôn ngữ. Phát hiện các kiểu bàn phím khác nhau và các biến thể từ ngữ để cải thiện độ chính xác."
+    },
+    "feature_4": {
+      "title": "Tùy chọn tìm kiếm có thể tùy chỉnh",
+      "content": "Thu hẹp kết quả tìm kiếm với các bộ lọc, biểu thức chính quy và các cài đặt tìm kiếm nâng cao khác."
+    }
+  },
+  "formats": {
+    "title": "Tìm kiếm trong các tài liệu kinh doanh",
+    "description": "{{ProdShortName}} hỗ trợ hơn 70 định dạng tệp, giúp bạn dễ dàng tìm kiếm trong các tài liệu văn phòng được sử dụng rộng rãi."
+  },
+  "operations": {
+    "title": "Các tính năng chính",
+    "description": "Thực hiện các tìm kiếm văn bản chính xác và hiệu quả."
+  },
+  "examples": {
+    "comment_1": "Thư mục để lưu trữ chỉ mục tìm kiếm tái sử dụng",
+    "comment_2": "Thư mục chứa các tài liệu",
+    "comment_3": "Lọc tìm kiếm theo định dạng tài liệu",
+    "comment_4": "Lấy kết quả tìm kiếm"
+  },
+  "steps": {
+    "title": "Cách tìm kiếm trong các tài liệu {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép tìm kiếm văn bản nhanh và hiệu quả trong các tài liệu {{FileFormatUp}}, hoàn hảo cho các ứng dụng {{EnvName}}.",
+      "step_1": "Chỉ định một thư mục để lưu trữ chỉ mục tìm kiếm.",
+      "step_2": "Chọn thư mục chứa các tài liệu của bạn.",
+      "step_3": "Cấu hình các tùy chọn tìm kiếm để giới hạn kết quả ở các tài liệu {{FileFormatUp}}.",
+      "step_4": "Chạy tìm kiếm và nhận được kết quả."
+    }
+  },
+  "code_1": {
+    "title": "Lọc tài liệu trước khi tìm kiếm",
+    "content": "Tìm hiểu cách tinh chỉnh tìm kiếm bằng cách sử dụng bộ lọc.",
+    "comment_1": "Thiết lập một chỉ mục loại trừ một số định dạng tệp nhất định.",
+    "comment_2": "Chỉ định đường dẫn lưu trữ tài liệu.",
+    "comment_3": "Lấy kết quả tìm kiếm.",
+    "comment_4": "Xử lý và sử dụng các kết quả tìm kiếm."
+  }
+}

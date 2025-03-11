@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Tìm kiếm cụm từ trong {{FileFormatUp}} sử dụng {{EnvNameShort}}",
+    "description": "{{ProdFullName}} nâng cao các ứng dụng {{ProgLang}} với khả năng tìm kiếm cụm từ tiên tiến cho nội dung tài liệu."
+  },
+  "header": {
+    "title": "Tìm cụm từ trong tài liệu",
+    "description": "Nhanh chóng định vị các cụm từ cụ thể với {{ProdFullName}}. Thêm chức năng tìm kiếm mạnh mẽ vào các ứng dụng {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về"
+  },
+  "about": {
+    "title": "Các tính năng của {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một thư viện mạnh mẽ để lập chỉ mục và tìm kiếm văn bản trong tài liệu. Nó hỗ trợ hơn 70 định dạng tệp, bao gồm PDF, tài liệu Word, bảng tính Excel, hình ảnh và tệp ZIP, đảm bảo kết quả tìm kiếm nhanh chóng và chính xác."
+  },
+  "more_features": {
+    "title": "Khám phá công cụ tìm kiếm tài liệu {{EnvNameShort}}",
+    "description": "{{ProdFullName}} cho phép tìm kiếm cụm từ trong hơn 70 định dạng tệp. Tìm kiếm và tổ chức dữ liệu một cách hiệu quả bằng cách sử dụng các tính năng tìm kiếm tiên tiến.",
+    "image_description": "Các khả năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tìm kiếm cụm từ",
+      "content": "Xác định các cụm từ chính xác trong các tài liệu kinh doanh, chẳng hạn như PDF, tệp Word, thuyết trình và bảng tính. Sử dụng ký tự đại diện và các tùy chọn khác khi cụm từ chính xác không rõ ràng."
+    },
+    "feature_2": {
+      "title": "Tối ưu hóa lập chỉ mục dữ liệu",
+      "content": "Tăng tốc độ tìm kiếm tài liệu bằng cách tạo và tái sử dụng các chỉ mục tìm kiếm. Việc lập chỉ mục giúp tổ chức dữ liệu một cách hiệu quả để tìm kiếm nhanh hơn và chính xác hơn."
+    },
+    "feature_3": {
+      "title": "Tương thích đa ngôn ngữ",
+      "content": "Tìm kiếm tài liệu bằng hơn 80 ngôn ngữ khác nhau. Hỗ trợ các bố cục bàn phím khác nhau và phân tích hình thái để cải thiện độ chính xác của tìm kiếm."
+    },
+    "feature_4": {
+      "title": "Tùy chọn tìm kiếm nâng cao",
+      "content": "Tùy chỉnh tìm kiếm với độ nhạy cảm với chữ hoa, tìm kiếm mờ, kết hợp đồng âm, lọc tài liệu và nhiều tính năng mạnh mẽ khác."
+    }
+  },
+  "formats": {
+    "title": "Tìm kiếm cụm từ trong tài liệu kinh doanh",
+    "description": "{{ProdShortName}} cho phép tìm kiếm cụm từ trong hơn 70 định dạng tài liệu. Tận dụng các tùy chọn tiên tiến và lập chỉ mục cho việc tìm kiếm hiệu quả."
+  },
+  "operations": {
+    "title": "Khả năng tìm kiếm nâng cao",
+    "description": "Sử dụng các chức năng tìm kiếm tiên tiến để cải thiện độ chính xác và hiệu suất."
+  },
+  "examples": {
+    "comment_1": "Định nghĩa đường dẫn chỉ mục tìm kiếm",
+    "comment_2": "Chỉ định thư mục chứa tài liệu",
+    "comment_3": "Cài đặt tùy chọn tìm kiếm",
+    "comment_4": "Thực hiện truy vấn tìm kiếm"
+  },
+  "steps": {
+    "title": "Cách tìm cụm từ trong tài liệu {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) đơn giản hóa việc tìm kiếm cụm từ trong các tài liệu {{FileFormatUp}}. Sử dụng nhiều tùy chọn khác nhau để tinh chỉnh kết quả tìm kiếm trong các ứng dụng {{EnvName}}.",
+      "step_1": "Tạo một thư mục chỉ mục tìm kiếm.",
+      "step_2": "Chỉ định thư mục chứa các tệp {{FileFormatUp}}.",
+      "step_3": "Điều chỉnh các tham số tìm kiếm.",
+      "step_4": "Lấy và phân tích kết quả tìm kiếm."
+    }
+  },
+  "code_1": {
+    "title": "Sử dụng các phương pháp tìm kiếm nâng cao",
+    "content": "Tìm hiểu cách xây dựng truy vấn để tìm kiếm trong {{FileFormatUp}}.",
+    "comment_1": "Định nghĩa thư mục cho chỉ mục tìm kiếm",
+    "comment_2": "Cài đặt đường dẫn đến các tài liệu mục tiêu",
+    "comment_3": "Tạo một truy vấn tìm kiếm cho một cụm từ cụ thể",
+    "comment_4": "Lấy kết quả tìm kiếm",
+    "comment_5": "Xử lý và sử dụng các kết quả đã lấy"
+  }
+}

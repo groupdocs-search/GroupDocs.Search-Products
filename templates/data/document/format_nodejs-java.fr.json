@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Trouvez du texte dans {{FileFormatUp}} avec {{ProdShortName}} dans {{EnvNameShort}}",
+    "description": "Utilisez {{ProdFullName}} avec {{ProgLang}} pour rechercher du texte efficacement dans divers formats de documents."
+  },
+  "header": {
+    "title": "Solution de recherche documentaire intelligente",
+    "description": "Localisez rapidement du texte dans différents formats de documents grâce à {{ProdFullName}}. Créez des requêtes de recherche avancées au sein de vos applications {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Essayez gratuitement"
+  },
+  "about": {
+    "title": "Introduction à {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une bibliothèque haute performance pour la recherche en texte intégral et l'indexation de documents. Elle prend en charge plus de 70 types de fichiers, y compris PDF, Word, PowerPoint, Excel, images et archives ZIP, garantissant des résultats rapides et précis."
+  },
+  "more_features": {
+    "title": "Capacités avancées de recherche et d'indexation",
+    "description": "{{ProdFullName}} offre des outils puissants de recherche textuelle et d'indexation à travers plus de 70 formats de documents, facilitant la recherche et l'organisation des informations.",
+    "image_description": "Principaux avantages de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Recherche textuelle exhaustive",
+      "content": "Localisez du texte dans plusieurs types de documents, y compris des PDF, des documents Word, des présentations PowerPoint et des tableurs. Utilisez des correspondances exactes, des recherches floues et des caractères génériques pour des résultats affinés."
+    },
+    "feature_2": {
+      "title": "Indexation efficace pour les grandes données",
+      "content": "Accélérez les recherches en créant des index structurés, facilitant la récupération d'informations à partir de grandes collections de documents."
+    },
+    "feature_3": {
+      "title": "Prend en charge plus de 80 langues",
+      "content": "Recherchez dans des documents de différentes langues, avec reconnaissance automatique de diverses formes de mots et dispositions de clavier."
+    },
+    "feature_4": {
+      "title": "Paramètres de recherche personnalisés",
+      "content": "Ajustez les options de recherche telles que la sensibilité à la casse, les filtres de date et les exclusions de mots pour obtenir des résultats précis."
+    }
+  },
+  "formats": {
+    "title": "Recherchez dans une variété de documents",
+    "description": "{{ProdShortName}} fonctionne avec plus de 70 formats de fichiers, y compris les documents de bureau, garantissant des recherches rapides et précises avec un support d'indexation."
+  },
+  "operations": {
+    "title": "Explorez les fonctionnalités clés",
+    "description": "Découvrez des fonctionnalités de recherche à haute vitesse conçues pour améliorer l'efficacité et la précision."
+  },
+  "examples": {
+    "comment_1": "Spécifiez le répertoire pour le stockage de l'index de recherche",
+    "comment_2": "Choisissez le dossier contenant les documents à rechercher",
+    "comment_3": "Activez la recherche par homophones pour des mots similaires",
+    "comment_4": "Exécutez une requête de recherche complexe"
+  },
+  "steps": {
+    "title": "Effectuer une recherche dans des fichiers {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vous permet d'exécuter des recherches dans des fichiers {{FileFormatUp}}, en affinant les résultats dans les applications {{EnvName}}.",
+      "step_1": "Définissez un dossier de stockage pour l'index de recherche.",
+      "step_2": "Sélectionnez un dossier contenant des fichiers {{FileFormatUp}}.",
+      "step_3": "Définissez des paramètres de recherche supplémentaires.",
+      "step_4": "Exécutez la recherche et analysez les résultats."
+    }
+  },
+  "code_1": {
+    "title": "Utiliser la recherche pour les documents {{FileFormatUp}}",
+    "content": "Cet exemple montre comment utiliser des requêtes de recherche dans des documents {{FileFormatUp}}.",
+    "comment_1": "Définissez le répertoire pour l'indexation de recherche",
+    "comment_2": "Fournissez le chemin du fichier pour le stockage des documents",
+    "comment_3": "Entrez le mot de passe pour les fichiers protégés",
+    "comment_4": "Activez la recherche floue pour la détection de mots similaires",
+    "comment_5": "Extrayez les résultats de recherche",
+    "comment_6": "Traitez et examinez les résultats"
+  }
+}

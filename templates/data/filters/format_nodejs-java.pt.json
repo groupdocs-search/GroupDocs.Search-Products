@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Pesquisar em documentos {{FileFormatUp}} usando {{EnvNameShort}}",
+    "description": "{{ProdFullName}} adiciona capacidades de busca de texto rápidas e precisas para aplicações {{ProgLang}}, suportando múltiplos formatos de documento."
+  },
+  "header": {
+    "title": "Encontre texto em documentos de negócios",
+    "description": "{{ProdFullName}} oferece funcionalidades de busca poderosas e flexíveis para documentos. Integre a busca de texto em aplicações {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar gratuitamente"
+  },
+  "about": {
+    "title": "O que é {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma biblioteca robusta de busca e indexação que permite a recuperação rápida de texto em documentos. Suporta mais de 70 formatos de arquivo, incluindo PDFs, Word, Excel e PowerPoint, garantindo buscas precisas e eficientes."
+  },
+  "more_features": {
+    "title": "Recursos avançados de busca",
+    "description": "{{ProdFullName}} aumenta a eficiência da busca em documentos indexando mais de 70 formatos de arquivo. Otimize a recuperação de conteúdo com técnicas de busca avançadas.",
+    "image_description": "Principais recursos do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Busca abrangente de texto",
+      "content": "Extraia e localize texto em formatos de documento populares, como PDFs, arquivos do Word, planilhas e apresentações. Suporta busca difusa, homófonos e consultas com caracteres coringa."
+    },
+    "feature_2": {
+      "title": "Indexação otimizada para desempenho",
+      "content": "Acelere as buscas criando índices reutilizáveis. Melhora a velocidade e a eficiência ao lidar com grandes coleções de documentos."
+    },
+    "feature_3": {
+      "title": "Suporte a múltiplas línguas",
+      "content": "Busque em documentos em mais de 80 idiomas. Reconhece layouts de teclado e variações de palavras para melhor precisão."
+    },
+    "feature_4": {
+      "title": "Opções de busca personalizáveis",
+      "content": "Ajuste os resultados da busca com filtros, expressões regulares, sensibilidade a maiúsculas e minúsculas e outras configurações flexíveis."
+    }
+  },
+  "formats": {
+    "title": "Buscar em diversos formatos de documento",
+    "description": "{{ProdShortName}} suporta mais de 70 tipos de arquivo, permitindo busca eficiente de texto em vários documentos de escritório e negócios."
+  },
+  "operations": {
+    "title": "Funcionalidades chave",
+    "description": "Realize buscas de texto rápidas e precisas em documentos."
+  },
+  "examples": {
+    "comment_1": "Defina um diretório para armazenar o índice de busca",
+    "comment_2": "Especifique a pasta que contém os documentos pesquisáveis",
+    "comment_3": "Restringa a busca a formatos de arquivo específicos",
+    "comment_4": "Recupere e processe os resultados da busca"
+  },
+  "steps": {
+    "title": "Como realizar uma busca em documentos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) torna a busca de texto em documentos {{FileFormatUp}} simples e eficiente para aplicações {{EnvName}}.",
+      "step_1": "Crie um diretório para armazenar o índice de busca.",
+      "step_2": "Escolha a pasta que contém os documentos.",
+      "step_3": "Defina as opções de busca para incluir apenas arquivos {{FileFormatUp}}.",
+      "step_4": "Execute a busca e recupere os resultados."
+    }
+  },
+  "code_1": {
+    "title": "Filtrar documentos pesquisáveis",
+    "content": "Aprenda a refinar buscas de documentos usando filtros.",
+    "comment_1": "Configure um índice para excluir formatos de arquivo indesejados",
+    "comment_2": "Especifique o diretório contendo os documentos",
+    "comment_3": "Recupere e exiba os resultados da busca",
+    "comment_4": "Processe a saída da busca para uso posterior"
+  }
+}

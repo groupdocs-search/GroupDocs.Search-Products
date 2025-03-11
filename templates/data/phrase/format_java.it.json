@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Cerca frasi in {{FileFormatUp}} utilizzando {{EnvNameShort}}",
+    "description": "{{ProdFullName}} potenzia le applicazioni {{ProgLang}} con avanzate capacità di ricerca di frasi nei contenuti dei documenti."
+  },
+  "header": {
+    "title": "Trova frasi nei documenti",
+    "description": "Individua rapidamente frasi specifiche con {{ProdFullName}}. Aggiungi funzionalità di ricerca potenti alle tue applicazioni {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica"
+  },
+  "about": {
+    "title": "Caratteristiche di {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una libreria robusta per indicizzare e cercare testo all'interno dei documenti. Supporta oltre 70 formati di file, tra cui PDF, documenti Word, fogli di calcolo Excel, immagini e file ZIP, garantendo risultati di ricerca rapidi e precisi."
+  },
+  "more_features": {
+    "title": "Esplora il motore di ricerca documentale {{EnvNameShort}}",
+    "description": "{{ProdFullName}} consente ricerche di frasi in oltre 70 formati di file. Trova e organizza facilmente i dati utilizzando funzionalità di ricerca avanzate.",
+    "image_description": "Capacità principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ricerca per frase",
+      "content": "Individua frasi esatte in documenti aziendali, come PDF, file Word, presentazioni e fogli di calcolo. Utilizza caratteri jolly e altre opzioni quando la frase esatta non è nota."
+    },
+    "feature_2": {
+      "title": "Indicizzazione dei dati ottimizzata",
+      "content": "Accelera le ricerche nei documenti creando e riutilizzando indici di ricerca. L'indicizzazione organizza i dati in modo efficiente per ricerche più veloci e accurate."
+    },
+    "feature_3": {
+      "title": "Compatibilità multi-lingua",
+      "content": "Cerca documenti in oltre 80 lingue. Supporta diverse impostazioni di tastiera e analisi morfologica per migliorare la precisione della ricerca."
+    },
+    "feature_4": {
+      "title": "Opzioni di ricerca avanzate",
+      "content": "Personalizza le ricerche con sensibilità al maiuscolo, ricerca fuzzy, corrispondenza di omofoni, filtraggio dei documenti e altre funzionalità potenti."
+    }
+  },
+  "formats": {
+    "title": "Cerca frasi in documenti aziendali",
+    "description": "{{ProdShortName}} abilita ricerche di frasi in oltre 70 formati di documenti. Sfrutta opzioni avanzate e indicizzazione per ricerche efficienti."
+  },
+  "operations": {
+    "title": "Capacità di ricerca avanzate",
+    "description": "Utilizza funzionalità di ricerca all'avanguardia per migliorare la precisione e le prestazioni."
+  },
+  "examples": {
+    "comment_1": "Definisci il percorso dell'indice di ricerca",
+    "comment_2": "Specifica la cartella contenente i documenti",
+    "comment_3": "Imposta le preferenze di ricerca",
+    "comment_4": "Esegui la query di ricerca"
+  },
+  "steps": {
+    "title": "Come trovare frasi in documenti {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) semplifica la ricerca di frasi in documenti {{FileFormatUp}}. Utilizza varie opzioni per affinare i risultati di ricerca nelle applicazioni {{EnvName}}.",
+      "step_1": "Crea una directory per l'indice di ricerca.",
+      "step_2": "Specifica la cartella con i file {{FileFormatUp}}.",
+      "step_3": "Regola i parametri di ricerca.",
+      "step_4": "Recupera e analizza i risultati della ricerca."
+    }
+  },
+  "code_1": {
+    "title": "Utilizzo di metodi di ricerca avanzati",
+    "content": "Scopri come costruire query per cercare in {{FileFormatUp}}.",
+    "comment_1": "Definisci la directory per l'indice di ricerca",
+    "comment_2": "Imposta il percorso per i documenti target",
+    "comment_3": "Crea una query di ricerca per una frase specifica",
+    "comment_4": "Recupera i risultati della ricerca",
+    "comment_5": "Elabora e utilizza i risultati recuperati"
+  }
+}

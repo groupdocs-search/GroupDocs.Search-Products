@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Suchanfragen in {{FileFormatUp}} mit {{EnvNameShort}}",
+    "description": "{{ProdFullName}} fügt leistungsstarke Suchfunktionalitäten für Phrasen zu {{ProgLang}}-Anwendungen hinzu, um die Dokumentensuche effizienter zu gestalten."
+  },
+  "header": {
+    "title": "Phrasen in Dokumenten finden",
+    "description": "Mit {{ProdFullName}} gezielt spezifische Phrasen schnell lokalisieren. Integrieren Sie schnelle und präzise Suchfunktionen in Ihre {{EnvNameShort}}-Anwendungen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Herunterladen"
+  },
+  "about": {
+    "title": "{{ProdShortName}}-Funktionen",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine leistungsstarke Bibliothek für das Indizieren und Durchsuchen von Texten in Dokumenten. Sie unterstützt über 70 Dateiformate, einschließlich PDF, Word-Dokumente, Excel-Tabellen, Bilder und ZIP-Archive, um genaue und schnelle Suchergebnisse zu gewährleisten."
+  },
+  "more_features": {
+    "title": "Entdecken Sie die Dokumentensuchmaschine von {{EnvNameShort}}",
+    "description": "{{ProdFullName}} ermöglicht Phrasensuchen über mehr als 70 Dateiformate, wodurch das Finden und Organisieren von Daten mit fortschrittlichen Suchfunktionen vereinfacht wird.",
+    "image_description": "Wesentliche Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Phrasensuche",
+      "content": "Finden Sie exakte Phrasen in Geschäftsdokumenten wie PDFs, Word-Dateien, Präsentationen und Tabellen. Nutzen Sie Platzhalter und flexible Suchoptionen, wenn die vollständige Phrase unbekannt ist."
+    },
+    "feature_2": {
+      "title": "Optimierte Datenindizierung",
+      "content": "Steigern Sie die Suchleistung durch die Erstellung wiederverwendbarer Indizes. Strukturierte Indizierung beschleunigt die Dokumentensuche und verbessert die Genauigkeit."
+    },
+    "feature_3": {
+      "title": "Mehrsprachige Kompatibilität",
+      "content": "Durchsuchen Sie Dokumente in über 80 Sprachen mit Unterstützung für verschiedene Tastaturlayouts und morphologische Wortvariationen, um präzise Ergebnisse zu erzielen."
+    },
+    "feature_4": {
+      "title": "Erweiterte Suchoptionen",
+      "content": "Passen Sie Suchvorgänge mit Groß-/Kleinschreibung, unscharfer Übereinstimmung, Homophon-Erkennung, Dokumentenfilterung und anderen leistungsstarken Funktionen an."
+    }
+  },
+  "formats": {
+    "title": "Phrasen in Geschäftsdokumenten suchen",
+    "description": "{{ProdShortName}} unterstützt die Phrasensuche in über 70 Dokumentformaten. Nutzen Sie erweiterte Optionen und Indizierung, um den Suchprozess zu optimieren."
+  },
+  "operations": {
+    "title": "Erweiterte Suchfunktionen",
+    "description": "Nutzen Sie leistungsstarke Suchfunktionen für schnellere und genauere Ergebnisse."
+  },
+  "examples": {
+    "comment_1": "Geben Sie den Speicherort für den Suchindex an",
+    "comment_2": "Legen Sie den Ordner mit den Dokumenten fest",
+    "comment_3": "Konfigurieren Sie die Suchparameter",
+    "comment_4": "Führen Sie die Suchabfrage aus"
+  },
+  "steps": {
+    "title": "So finden Sie Phrasen in {{FileFormatUp}}-Dokumenten",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) erleichtert die Phrasensuche in {{FileFormatUp}}-Dokumenten. Wenden Sie verschiedene Suchoptionen an, um die Ergebnisse in {{EnvName}}-Anwendungen zu verfeinern.",
+      "step_1": "Richten Sie einen Ordner für den Suchindex ein.",
+      "step_2": "Definieren Sie den Ordner, der {{FileFormatUp}}-Dateien enthält.",
+      "step_3": "Konfigurieren Sie die Suchparameter.",
+      "step_4": "Holen Sie sich die Suchergebnisse und verarbeiten Sie diese."
+    }
+  },
+  "code_1": {
+    "title": "Verwendung fortgeschrittener Suchtechniken",
+    "content": "Erfahren Sie, wie Sie Abfragen zum Suchen in {{FileFormatUp}} erstellen.",
+    "comment_1": "Definieren Sie das Verzeichnis des Suchindexes",
+    "comment_2": "Legen Sie den Pfad zu den Ziel-Dokumenten fest",
+    "comment_3": "Erstellen Sie eine Abfrage für die gewünschte Phrase",
+    "comment_4": "Holen Sie sich die Suchergebnisse",
+    "comment_5": "Verarbeiten und nutzen Sie die Ergebnisse"
+  }
+}

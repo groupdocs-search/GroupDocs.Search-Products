@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Pesquisa Booleana em {{FileFormatUp}} com {{ProgLang}}",
+    "description": "Com {{ProdFullName}}, desenvolvedores podem realizar buscas em documentos utilizando operadores booleanos como AND, OR e NOT."
+  },
+  "header": {
+    "title": "Pesquisa de texto booleana",
+    "description": "Utilize {{ProdFullName}} para criar consultas avançadas de busca booleana (AND, OR, NOT) em seus projetos {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixe Gratuitamente"
+  },
+  "about": {
+    "title": "Sobre {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma biblioteca versátil projetada para busca de texto e indexação de dados em documentos. Ela suporta mais de 70 tipos de arquivos, incluindo PDF, Word, Excel, PowerPoint, imagens e arquivos ZIP, permitindo buscas eficientes em grandes coleções de dados."
+  },
+  "more_features": {
+    "title": "Ferramentas poderosas para busca e indexação de documentos",
+    "description": "{{ProdFullName}} simplifica buscas de texto e indexação de dados para mais de 70 formatos. Suas ferramentas avançadas permitem encontrar e gerenciar conteúdos de forma eficiente.",
+    "image_description": "Principais recursos do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Busca de texto abrangente",
+      "content": "Pesquise entre múltiplos formatos como PDFs, documentos do Word, apresentações, planilhas e mais. Utilize opções como correspondência exata, busca difusa e consultas com caracteres curinga para refinar os resultados."
+    },
+    "feature_2": {
+      "title": "Indexação de dados eficiente",
+      "content": "Crie e mantenha índices para buscas de documentos mais rápidas. Este recurso organiza os dados de forma eficiente, facilitando o manuseio de grandes coleções de documentos."
+    },
+    "feature_3": {
+      "title": "Suporte a múltiplas línguas",
+      "content": "Pesquise em documentos escritos em mais de 80 idiomas. Aumente a precisão aproveitando formas morfológicas de palavras e diferentes layouts de teclado."
+    },
+    "feature_4": {
+      "title": "Personalização flexível da busca",
+      "content": "Ajuste as configurações de busca com recursos como sensibilidade a maiúsculas, filtros de intervalo de datas e exclusões para refinar seus resultados."
+    }
+  },
+  "formats": {
+    "title": "Pesquise formatos de documentos populares",
+    "description": "{{ProdShortName}} suporta mais de 70 formatos de arquivo, permitindo que você personalize regras de busca e utilize indexação para otimizar o desempenho."
+  },
+  "operations": {
+    "title": "Principais recursos em um relance",
+    "description": "Desbloqueie capacidades de busca poderosas e eficientes"
+  },
+  "examples": {
+    "comment_1": "Defina o caminho para a pasta do índice",
+    "comment_2": "Forneça o caminho da pasta que contém documentos para a busca",
+    "comment_3": "Execute uma busca com uma consulta complexa"
+  },
+  "steps": {
+    "title": "Como realizar buscas booleanas em documentos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite buscas de texto dentro de documentos {{FileFormatUp}}. Com suporte a condições booleanas, você pode aumentar a precisão da busca em aplicações {{EnvName}}.",
+      "step_1": "Especifique a pasta para armazenar o índice de busca.",
+      "step_2": "Selecione a pasta que contém documentos {{FileFormatUp}}.",
+      "step_3": "Execute a consulta de busca e recupere os resultados.",
+      "step_4": "Processar os resultados obtidos."
+    }
+  },
+  "code_1": {
+    "title": "Usando consultas de busca booleana complexas",
+    "content": "Este exemplo demonstra como realizar buscas booleanas em arquivos {{FileFormatUp}}.",
+    "comment_1": "Defina a pasta para o índice de busca",
+    "comment_2": "Forneça o caminho para os documentos a serem pesquisados",
+    "comment_3": "Construa a consulta utilizando lógica booleana",
+    "comment_4": "Recupere os resultados da busca",
+    "comment_5": "Processar os resultados recuperados"
+  }
+}

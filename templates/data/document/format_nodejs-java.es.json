@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Encuentra texto en {{FileFormatUp}} con {{ProdShortName}} en {{EnvNameShort}}",
+    "description": "Utiliza {{ProdFullName}} con {{ProgLang}} para buscar texto de manera eficiente en varios formatos de documentos."
+  },
+  "header": {
+    "title": "Solución inteligente de búsqueda de documentos",
+    "description": "Localiza texto en diferentes formatos de documentos utilizando {{ProdFullName}}. Crea consultas de búsqueda avanzadas dentro de tus aplicaciones {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Prueba Gratis"
+  },
+  "about": {
+    "title": "Introducción a {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una biblioteca de alto rendimiento para la búsqueda de texto completo e indexación de documentos. Soporta más de 70 tipos de archivos, incluyendo PDF, Word, PowerPoint, Excel, imágenes y archivos ZIP, asegurando resultados rápidos y precisos."
+  },
+  "more_features": {
+    "title": "Capacidades avanzadas de búsqueda e indexación",
+    "description": "{{ProdFullName}} proporciona potentes herramientas de búsqueda de texto e indexación a través de más de 70 formatos de documentos, facilitando la búsqueda y organización de información.",
+    "image_description": "Beneficios clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Búsqueda de texto integral",
+      "content": "Localiza texto en múltiples tipos de documentos, incluyendo PDFs, documentos de Word, presentaciones de PowerPoint y hojas de cálculo. Utiliza coincidencias exactas, búsqueda difusa y comodines para resultados refinados."
+    },
+    "feature_2": {
+      "title": "Indexación eficiente para grandes volúmenes de datos",
+      "content": "Acelera las búsquedas creando índices estructurados, facilitando la recuperación de información de colecciones de documentos grandes."
+    },
+    "feature_3": {
+      "title": "Soporta más de 80 idiomas",
+      "content": "Realiza búsquedas en documentos en diferentes idiomas, con reconocimiento automático de diversas formas de palabras y distribuciones de teclado."
+    },
+    "feature_4": {
+      "title": "Configuraciones de búsqueda personalizadas",
+      "content": "Ajusta opciones de búsqueda como sensibilidad a mayúsculas, filtros de fecha y exclusiones de palabras para obtener resultados precisos."
+    }
+  },
+  "formats": {
+    "title": "Busca en una variedad de documentos",
+    "description": "{{ProdShortName}} funciona con más de 70 formatos de archivo, incluyendo documentos de oficina, asegurando búsquedas rápidas y precisas con soporte de indexación."
+  },
+  "operations": {
+    "title": "Explora características clave",
+    "description": "Descubre características de búsqueda de alta velocidad diseñadas para mejorar la eficiencia y precisión."
+  },
+  "examples": {
+    "comment_1": "Especifica el directorio para el almacenamiento del índice de búsqueda",
+    "comment_2": "Elige la carpeta que contiene los documentos a buscar",
+    "comment_3": "Habilita la búsqueda de homófonos para palabras que suenan similares",
+    "comment_4": "Ejecuta una consulta de búsqueda compleja"
+  },
+  "steps": {
+    "title": "Realiza búsqueda en archivos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) te permite ejecutar búsquedas en archivos {{FileFormatUp}}, refinando resultados en aplicaciones {{EnvName}}.",
+      "step_1": "Define una carpeta de almacenamiento para el índice de búsqueda.",
+      "step_2": "Selecciona una carpeta con archivos {{FileFormatUp}}.",
+      "step_3": "Establece parámetros de búsqueda adicionales.",
+      "step_4": "Ejecuta la búsqueda y analiza los resultados."
+    }
+  },
+  "code_1": {
+    "title": "Uso de la búsqueda para documentos {{FileFormatUp}}",
+    "content": "Este ejemplo muestra cómo utilizar consultas de búsqueda dentro de documentos {{FileFormatUp}}.",
+    "comment_1": "Establecer el directorio para la indexación de búsqueda",
+    "comment_2": "Proporcionar la ruta del archivo para el almacenamiento del documento",
+    "comment_3": "Introducir la contraseña para archivos protegidos",
+    "comment_4": "Habilitar búsqueda difusa para detección de palabras similares",
+    "comment_5": "Extraer resultados de búsqueda",
+    "comment_6": "Procesar y revisar los resultados"
+  }
+}

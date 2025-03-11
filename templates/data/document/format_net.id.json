@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Cari dokumen {{FileFormatUp}} di {{EnvNameShort}} dengan {{ProdShortName}}",
+    "description": "Gunakan {{ProdFullName}} untuk melakukan pencarian teks yang efisien dalam berbagai format dokumen dengan {{ProgLang}}."
+  },
+  "header": {
+    "title": "Pencarian teks dokumen yang canggih",
+    "description": "{{ProdFullName}} mempermudah pencarian teks dalam format dokumen populer, memungkinkan Anda untuk membuat kueri pencarian yang kuat dalam aplikasi {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Secara Gratis"
+  },
+  "about": {
+    "title": "Apa itu {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah pustaka yang kuat dirancang untuk pencarian dan pengindeksan teks penuh dalam dokumen. Ini mendukung lebih dari 70 format file, termasuk PDF, Word, PowerPoint, Excel, gambar, dan file ZIP, memastikan hasil pencarian yang cepat dan akurat."
+  },
+  "more_features": {
+    "title": "Fitur pencarian dan pengindeksan yang canggih",
+    "description": "{{ProdFullName}} meningkatkan pencarian teks dan pengindeksan di lebih dari 70 format file, menyediakan alat yang efisien untuk menemukan dan mengelola informasi.",
+    "image_description": "Fitur Utama dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Pencarian teks yang kuat",
+      "content": "Cari teks di berbagai jenis dokumen, termasuk PDF, dokumen Word, presentasi PowerPoint, dan spreadsheet. Gunakan fitur seperti pencocokan tepat, pencarian fuzzy, dan wildcard untuk memperhalus hasil Anda."
+    },
+    "feature_2": {
+      "title": "Pengindeksan cepat untuk set data besar",
+      "content": "Buat dan kelola indeks pencarian untuk pengambilan informasi yang cepat. Pengindeksan mengoptimalkan pencarian di koleksi dokumen yang besar."
+    },
+    "feature_3": {
+      "title": "Dukungan multi-bahasa",
+      "content": "Lakukan pencarian dalam lebih dari 80 bahasa, dengan dukungan untuk berbagai tata letak keyboard dan variasi kata untuk meningkatkan akurasi."
+    },
+    "feature_4": {
+      "title": "Pengaturan pencarian yang dapat disesuaikan",
+      "content": "Sesuaikan parameter pencarian dengan opsi seperti sensitivitas huruf besar, filter rentang tanggal, dan pengecualian kata untuk hasil yang lebih baik."
+    }
+  },
+  "formats": {
+    "title": "Cari di dokumen bisnis Anda",
+    "description": "{{ProdShortName}} mendukung lebih dari 70 format file, termasuk dokumen kantor, memungkinkan pencarian yang cepat dan efisien dengan kemampuan pengindeksan."
+  },
+  "operations": {
+    "title": "Jelajahi fitur utama",
+    "description": "Manfaatkan fungsionalitas pencarian yang canggih dan berkinerja tinggi."
+  },
+  "examples": {
+    "comment_1": "Tentukan jalur untuk indeks pencarian",
+    "comment_2": "Pilih folder yang berisi dokumen yang akan dicari",
+    "comment_3": "Aktifkan pencarian homofon untuk menemukan kata yang terdengar mirip",
+    "comment_4": "Jalankan kueri pencarian yang kompleks"
+  },
+  "steps": {
+    "title": "Cara melakukan pencarian teks di dokumen {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memungkinkan operasi pencarian konten canggih dalam dokumen {{FileFormatUp}}, memungkinkan hasil pencarian yang lebih terperinci dalam aplikasi {{EnvName}}.",
+      "step_1": "Siapkan folder untuk menyimpan indeks pencarian.",
+      "step_2": "Pilih folder yang berisi file {{FileFormatUp}}.",
+      "step_3": "Konfigurasi opsi pencarian tambahan.",
+      "step_4": "Jalankan pencarian dan tinjau hasilnya."
+    }
+  },
+  "code_1": {
+    "title": "Melakukan kueri pencarian yang canggih",
+    "content": "Contoh ini menunjukkan bagaimana menerapkan kueri pencarian untuk dokumen {{FileFormatUp}}.",
+    "comment_1": "Tentukan folder untuk indeks pencarian",
+    "comment_2": "Tentukan jalur ke file dokumen",
+    "comment_3": "Berikan kata sandi untuk dokumen yang dilindungi",
+    "comment_4": "Aktifkan pencarian fuzzy untuk menemukan kata yang mirip",
+    "comment_5": "Ambil hasil pencarian",
+    "comment_6": "Proses output pencarian"
+  }
+}

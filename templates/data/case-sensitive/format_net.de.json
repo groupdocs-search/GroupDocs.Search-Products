@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Groß- und Kleinschreibungssensible Suche in {{FileFormatUp}} mit {{EnvNameShort}}",
+    "description": "Die {{ProdFullName}} API ermöglicht es {{ProgLang}} Entwicklern, groß- und kleinschreibungssensible Suchen in verschiedenen Dokumenten durchzuführen."
+  },
+  "header": {
+    "title": "Groß- und Kleinschreibungssensible Suche",
+    "description": "{{ProdFullName}} ermöglicht die Erstellung von fortgeschrittenen, groß- und kleinschreibungssensiblen Suchanfragen innerhalb Ihrer {{EnvNameShort}} Anwendungen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos Herunterladen"
+  },
+  "about": {
+    "title": "Was ist {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine leistungsstarke Bibliothek für die Textsuche und -indizierung in Dokumenten. Sie unterstützt über 70 Dateiformate, einschließlich PDF, Word, PowerPoint, Excel, Bilder und ZIP-Dateien, und gewährleistet eine effiziente Handhabung großer Datenmengen."
+  },
+  "more_features": {
+    "title": "Fortgeschrittene Funktionen für die Dokumentensuche und -indizierung",
+    "description": "Die {{ProdFullName}} Bibliothek vereinfacht die Textsuche und Indizierung über 70+ Dateiformate. Finden und verwalten Sie Informationen mit leistungsstarken Suchwerkzeugen.",
+    "image_description": "Hauptfunktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Erweiterte Textsuche",
+      "content": "Durchsuchen Sie Text in verschiedenen Dateiformaten, darunter PDFs, Word-Dokumente, Tabellenkalkulationen und Präsentationen. Nutzen Sie Optionen wie exakte Übereinstimmungen, unscharfe Suche und Platzhalter für präzise Ergebnisse."
+    },
+    "feature_2": {
+      "title": "Indizierung großer Datensätze",
+      "content": "Erstellen und pflegen Sie Indizes für schnellere Suchen. Organisierte Indizierung vereinfacht das Durchsuchen umfangreicher Dokumentensammlungen."
+    },
+    "feature_3": {
+      "title": "Mehrsprachige Unterstützung",
+      "content": "Durchsuchen Sie Dokumente in über 80 Sprachen, mit Unterstützung für verschiedene Tastaturlayouts und Wortformen für genauere Ergebnisse."
+    },
+    "feature_4": {
+      "title": "Anpassbare Suchoptionen",
+      "content": "Passen Sie die Suchparameter mit Groß-/Kleinschreibungssensitivität, Datumsbereichsfiltern und der Möglichkeit, spezifische Wörter oder Daten während der Indizierung auszuschließen, an."
+    }
+  },
+  "formats": {
+    "title": "Beliebte Dokumentenformate durchsuchen",
+    "description": "{{ProdShortName}} unterstützt über 70 Dateiformate. Passen Sie die Suchregeln an und nutzen Sie die Indizierung, um Zeit und Aufwand zu sparen."
+  },
+  "operations": {
+    "title": "Entdecken Sie die Hauptfunktionen",
+    "description": "Erforschen Sie fortschrittliche und effiziente Suchfunktionen."
+  },
+  "examples": {
+    "comment_1": "Legt den Pfad zum Indexordner fest",
+    "comment_2": "Geben Sie den Ordner an, der die zu durchsuchenden Dokumente enthält",
+    "comment_3": "Aktivieren Sie die groß- und kleinschreibungssensitive Suche in den Optionen",
+    "comment_4": "Führen Sie die Suche aus"
+  },
+  "steps": {
+    "title": "So führen Sie eine groß- und kleinschreibungssensible Suche in {{FileFormatUp}} Dokumenten durch",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vereinfacht die groß- und kleinschreibungssensible Suche in {{FileFormatUp}} Dokumenten. Nutzen Sie es, um die Ergebnisse in {{EnvName}} Anwendungen zu verfeinern.",
+      "step_1": "Definieren Sie den Ordner zur Speicherung des Suchindexes.",
+      "step_2": "Wählen Sie den Ordner mit {{FileFormatUp}} Dateien aus.",
+      "step_3": "Führen Sie die Suche aus und erhalten Sie die Ergebnisse.",
+      "step_4": "Verarbeiten Sie die Ergebnisse."
+    }
+  },
+  "code_1": {
+    "title": "Verwendung groß- und kleinschreibungssensibler Suchanfragen",
+    "content": "Dieses Beispiel zeigt, wie man groß- und kleinschreibungssensible Suchanfragen zur Suche in {{FileFormatUp}} Dokumenten verwendet.",
+    "comment_1": "Legen Sie den Ordner für den Suchindex fest",
+    "comment_2": "Geben Sie den Pfad zu den zu durchsuchenden Dokumenten an",
+    "comment_3": "Erstellen Sie eine Suchanfrage",
+    "comment_4": "Aktivieren Sie die Optionen für die groß- und kleinschreibungssensible Suche",
+    "comment_5": "Suchen Sie nach Text in den Dokumenten",
+    "comment_6": "Verarbeiten Sie die Suchergebnisse"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Tìm kiếm tài liệu {{FileFormatUp}} trong {{EnvNameShort}} với {{ProdShortName}}",
+    "description": "Sử dụng {{ProdFullName}} để thực hiện các tìm kiếm văn bản hiệu quả trong nhiều định dạng tài liệu khác nhau với {{ProgLang}}."
+  },
+  "header": {
+    "title": "Tìm kiếm văn bản tài liệu nâng cao",
+    "description": "{{ProdFullName}} đơn giản hóa việc tìm kiếm văn bản trong các định dạng tài liệu phổ biến, cho phép bạn tạo các truy vấn tìm kiếm mạnh mẽ trong các ứng dụng {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về miễn phí"
+  },
+  "about": {
+    "title": "{{ProdShortName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một thư viện mạnh mẽ được thiết kế cho việc tìm kiếm và lập chỉ mục toàn văn trong các tài liệu. Nó hỗ trợ hơn 70 định dạng tệp, bao gồm PDF, Word, PowerPoint, Excel, hình ảnh và tệp ZIP, đảm bảo kết quả tìm kiếm nhanh chóng và chính xác."
+  },
+  "more_features": {
+    "title": "Các tính năng tìm kiếm và lập chỉ mục nâng cao",
+    "description": "{{ProdFullName}} nâng cao việc tìm kiếm văn bản và lập chỉ mục trên hơn 70 định dạng tệp, cung cấp các công cụ hiệu quả để xác định và quản lý thông tin.",
+    "image_description": "Các tính năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tìm kiếm văn bản mạnh mẽ",
+      "content": "Tìm kiếm văn bản trên nhiều loại tài liệu khác nhau, bao gồm PDF, tài liệu Word, bài thuyết trình PowerPoint và bảng tính. Sử dụng các tính năng như khớp chính xác, tìm kiếm mờ, và ký tự đại diện để tinh chỉnh kết quả của bạn."
+    },
+    "feature_2": {
+      "title": "Lập chỉ mục nhanh cho các tập dữ liệu lớn",
+      "content": "Tạo và quản lý các chỉ mục tìm kiếm để truy xuất thông tin nhanh chóng. Việc lập chỉ mục tối ưu hóa tìm kiếm trên các bộ sưu tập tài liệu rộng lớn."
+    },
+    "feature_3": {
+      "title": "Hỗ trợ đa ngôn ngữ",
+      "content": "Thực hiện tìm kiếm bằng hơn 80 ngôn ngữ, với hỗ trợ cho các bố cục bàn phím khác nhau và các biến thể từ để cải thiện độ chính xác."
+    },
+    "feature_4": {
+      "title": "Cài đặt tìm kiếm tùy chỉnh",
+      "content": "Tinh chỉnh các tham số tìm kiếm với các tùy chọn như phân biệt chữ hoa chữ thường, bộ lọc khoảng thời gian, và loại trừ từ để có kết quả tốt hơn."
+    }
+  },
+  "formats": {
+    "title": "Tìm kiếm trên các tài liệu doanh nghiệp của bạn",
+    "description": "{{ProdShortName}} hỗ trợ hơn 70 định dạng tệp, bao gồm các tài liệu văn phòng, cho phép tìm kiếm nhanh chóng và hiệu quả với khả năng lập chỉ mục."
+  },
+  "operations": {
+    "title": "Khám phá các tính năng chính",
+    "description": "Tận dụng các chức năng tìm kiếm nâng cao và hiệu suất cao."
+  },
+  "examples": {
+    "comment_1": "Định nghĩa đường dẫn cho chỉ mục tìm kiếm",
+    "comment_2": "Chọn thư mục chứa các tài liệu cần tìm kiếm",
+    "comment_3": "Kích hoạt tìm kiếm đồng âm để tìm các từ phát âm giống nhau",
+    "comment_4": "Thực hiện một truy vấn tìm kiếm phức tạp"
+  },
+  "steps": {
+    "title": "Cách thực hiện tìm kiếm văn bản trong tài liệu {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép thực hiện các thao tác tìm kiếm nội dung nâng cao trong các tài liệu {{FileFormatUp}}, cho kết quả tìm kiếm tinh chỉnh trong các ứng dụng {{EnvName}}.",
+      "step_1": "Thiết lập thư mục để lưu trữ chỉ mục tìm kiếm.",
+      "step_2": "Chọn thư mục chứa các tệp {{FileFormatUp}}.",
+      "step_3": "Cấu hình các tùy chọn tìm kiếm bổ sung.",
+      "step_4": "Chạy tìm kiếm và xem xét các kết quả."
+    }
+  },
+  "code_1": {
+    "title": "Thực hiện các truy vấn tìm kiếm nâng cao",
+    "content": "Ví dụ này minh họa cách áp dụng các truy vấn tìm kiếm cho các tài liệu {{FileFormatUp}}.",
+    "comment_1": "Định nghĩa thư mục cho chỉ mục tìm kiếm",
+    "comment_2": "Chỉ định đường dẫn đến các tệp tài liệu",
+    "comment_3": "Cung cấp mật khẩu cho các tài liệu được bảo vệ",
+    "comment_4": "Kích hoạt tìm kiếm mờ để tìm các từ tương tự",
+    "comment_5": "Lấy kết quả tìm kiếm",
+    "comment_6": "Xử lý kết quả tìm kiếm"
+  }
+}

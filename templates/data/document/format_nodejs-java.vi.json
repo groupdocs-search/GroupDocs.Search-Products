@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Tìm kiếm văn bản trong {{FileFormatUp}} với {{ProdShortName}} trên {{EnvNameShort}}",
+    "description": "Sử dụng {{ProdFullName}} với {{ProgLang}} để tìm kiếm văn bản một cách hiệu quả trong nhiều định dạng tài liệu khác nhau."
+  },
+  "header": {
+    "title": "Giải pháp tìm kiếm tài liệu thông minh",
+    "description": "Xác định vị trí văn bản trong các định dạng tài liệu khác nhau bằng cách sử dụng {{ProdFullName}}. Tạo các truy vấn tìm kiếm nâng cao trong các ứng dụng {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Thử nghiệm miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một thư viện hiệu suất cao cho tìm kiếm toàn văn và lập chỉ mục tài liệu. Nó hỗ trợ hơn 70 định dạng tệp, bao gồm PDF, Word, PowerPoint, Excel, hình ảnh và các lưu trữ ZIP, đảm bảo kết quả nhanh chóng và chính xác."
+  },
+  "more_features": {
+    "title": "Khả năng tìm kiếm và lập chỉ mục nâng cao",
+    "description": "{{ProdFullName}} cung cấp các công cụ tìm kiếm văn bản và lập chỉ mục mạnh mẽ trên hơn 70 định dạng tài liệu, giúp bạn dễ dàng tìm kiếm và tổ chức thông tin.",
+    "image_description": "Lợi ích chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tìm kiếm văn bản toàn diện",
+      "content": "Xác định vị trí văn bản trong nhiều loại tài liệu, bao gồm PDF, tài liệu Word, bài thuyết trình PowerPoint và bảng tính. Sử dụng các truy vấn chính xác, tìm kiếm mờ và ký tự đại diện để có kết quả tinh chỉnh."
+    },
+    "feature_2": {
+      "title": "Lập chỉ mục hiệu quả cho dữ liệu lớn",
+      "content": "Tăng tốc độ tìm kiếm bằng cách tạo các chỉ mục có cấu trúc, giúp dễ dàng truy xuất thông tin từ các tập tài liệu lớn."
+    },
+    "feature_3": {
+      "title": "Hỗ trợ hơn 80 ngôn ngữ",
+      "content": "Tìm kiếm trong các tài liệu bằng các ngôn ngữ khác nhau, với khả năng nhận dạng tự động các dạng từ và bố cục bàn phím khác nhau."
+    },
+    "feature_4": {
+      "title": "Cài đặt tìm kiếm tùy chỉnh",
+      "content": "Điều chỉnh các tùy chọn tìm kiếm như phân biệt chữ hoa chữ thường, bộ lọc ngày tháng và loại trừ từ để có được kết quả chính xác."
+    }
+  },
+  "formats": {
+    "title": "Tìm kiếm trong nhiều loại tài liệu",
+    "description": "{{ProdShortName}} hoạt động với hơn 70 định dạng tệp, bao gồm tài liệu văn phòng, đảm bảo kết quả tìm kiếm nhanh chóng và chính xác với hỗ trợ lập chỉ mục."
+  },
+  "operations": {
+    "title": "Khám phá các tính năng chính",
+    "description": "Khám phá những tính năng tìm kiếm tốc độ cao được thiết kế để nâng cao hiệu suất và độ chính xác."
+  },
+  "examples": {
+    "comment_1": "Xác định thư mục cho việc lưu trữ chỉ mục tìm kiếm",
+    "comment_2": "Chọn thư mục chứa tài liệu để tìm kiếm",
+    "comment_3": "Bật tìm kiếm đồng âm cho các từ có âm giống nhau",
+    "comment_4": "Thực hiện một truy vấn tìm kiếm phức tạp"
+  },
+  "steps": {
+    "title": "Thực hiện tìm kiếm trong các tệp {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép bạn thực hiện tìm kiếm trong các tệp {{FileFormatUp}}, tinh chỉnh kết quả trong các ứng dụng {{EnvName}}.",
+      "step_1": "Xác định một thư mục lưu trữ cho chỉ mục tìm kiếm.",
+      "step_2": "Chọn một thư mục chứa các tệp {{FileFormatUp}}.",
+      "step_3": "Thiết lập thêm các tham số tìm kiếm.",
+      "step_4": "Chạy tìm kiếm và phân tích kết quả."
+    }
+  },
+  "code_1": {
+    "title": "Sử dụng tìm kiếm cho các tài liệu {{FileFormatUp}}",
+    "content": "Ví dụ này cho thấy cách sử dụng các truy vấn tìm kiếm trong các tài liệu {{FileFormatUp}}.",
+    "comment_1": "Thiết lập thư mục cho việc lập chỉ mục tìm kiếm",
+    "comment_2": "Cung cấp đường dẫn đến tệp để lưu trữ tài liệu",
+    "comment_3": "Nhập mật khẩu cho các tệp bảo vệ",
+    "comment_4": "Bật tìm kiếm mờ để phát hiện từ tương tự",
+    "comment_5": "Trích xuất kết quả tìm kiếm",
+    "comment_6": "Xử lý và xem xét các kết quả"
+  }
+}

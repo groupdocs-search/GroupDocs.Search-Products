@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Suche in {{FileFormatUp}}-Dokumenten mit {{EnvNameShort}}",
+    "description": "{{ProdFullName}} fügt {{ProgLang}}-Anwendungen schnelle und präzise Textsuchfunktionen hinzu und unterstützt mehrere Dokumentformate."
+  },
+  "header": {
+    "title": "Text in Geschäftsdokumenten finden",
+    "description": "{{ProdFullName}} bietet leistungsstarke und flexible Suchfunktionen für Dokumente. Integrieren Sie die Textsuche in {{EnvNameShort}}-Anwendungen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Was ist {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine robuste Such- und Indexierungsbibliothek, die ein schnelles Abrufen von Text in Dokumenten ermöglicht. Sie unterstützt über 70 Dateiformate, darunter PDFs, Word, Excel und PowerPoint, um präzise und effiziente Suchen zu gewährleisten."
+  },
+  "more_features": {
+    "title": "Erweiterte Suchfunktionen",
+    "description": "{{ProdFullName}} verbessert die Effizienz der Dokumentensuche durch die Indizierung von über 70 Dateiformaten. Optimieren Sie das Abrufen von Inhalten mit fortschrittlichen Suchtechniken.",
+    "image_description": "Hauptmerkmale von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Umfassende Textsuche",
+      "content": "Extrahieren und lokalisieren Sie Text in gängigen Dokumentformaten, wie PDFs, Word-Dokumenten, Tabellenkalkulationen und Präsentationen. Unterstützt unscharfe Suchen, Homophone und Wildcard-Abfragen."
+    },
+    "feature_2": {
+      "title": "Optimierte Indizierung für Leistung",
+      "content": "Beschleunigen Sie Suchen durch Erstellung wiederverwendbarer Indizes. Erhöht Geschwindigkeit und Effizienz beim Arbeiten mit großen Dokumentensammlungen."
+    },
+    "feature_3": {
+      "title": "Mehrsprachige Unterstützung",
+      "content": "Durchsuchen Sie Dokumente in über 80 Sprachen. Erkennt Tastaturlayouts und Wortvariationen für bessere Genauigkeit."
+    },
+    "feature_4": {
+      "title": "Anpassbare Suchoptionen",
+      "content": "Feinabstimmung der Suchergebnisse mit Filtern, regulären Ausdrücken, Groß-/Kleinschreibung und anderen flexiblen Einstellungen."
+    }
+  },
+  "formats": {
+    "title": "Suche in verschiedenen Dokumentformaten",
+    "description": "{{ProdShortName}} unterstützt über 70 Dateitypen, die eine effiziente Textsuche in verschiedenen Office- und Geschäftsdokumenten ermöglichen."
+  },
+  "operations": {
+    "title": "Hauptfunktionen",
+    "description": "Führen Sie schnelle und präzise Textsuchen in Dokumenten durch."
+  },
+  "examples": {
+    "comment_1": "Definieren Sie ein Verzeichnis zum Speichern des Suchindex",
+    "comment_2": "Geben Sie den Ordner mit durchsuchbaren Dokumenten an",
+    "comment_3": "Suchen Sie nur in bestimmten Dateiformaten",
+    "comment_4": "Rufen Sie die Suchergebnisse ab und verarbeiten Sie sie"
+  },
+  "steps": {
+    "title": "Wie man in {{FileFormatUp}}-Dokumenten eine Suche durchführt",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) macht das Suchen von Text in {{FileFormatUp}}-Dokumenten einfach und effizient für {{EnvName}}-Anwendungen.",
+      "step_1": "Erstellen Sie ein Verzeichnis zum Speichern des Suchindex.",
+      "step_2": "Wählen Sie den Ordner aus, der die Dokumente enthält.",
+      "step_3": "Stellen Sie die Suchoptionen so ein, dass nur {{FileFormatUp}}-Dateien einbezogen werden.",
+      "step_4": "Starten Sie die Suche und rufen Sie die Ergebnisse ab."
+    }
+  },
+  "code_1": {
+    "title": "Durchsuchbare Dokumente filtern",
+    "content": "Erfahren Sie, wie Sie Dokumentensuchen mit Filtern verfeinern.",
+    "comment_1": "Konfigurieren Sie einen Index, um unerwünschte Dateiformate auszuschließen",
+    "comment_2": "Geben Sie das Verzeichnis mit Dokumenten an",
+    "comment_3": "Rufen Sie die Suchergebnisse ab und zeigen Sie sie an",
+    "comment_4": "Verarbeiten Sie die Suchausgaben für eine weitere Verwendung"
+  }
+}

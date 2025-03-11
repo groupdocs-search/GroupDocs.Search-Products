@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "使用适用于{{EnvNameShort}}的{{ProdShortName}}在{{FileFormatUp}}文档中查找文本",
+    "description": "{{ProdFullName}} 帮助 {{ProgLang}} 开发者快速在各种文档格式中搜索文本。"
+  },
+  "header": {
+    "title": "智能文档文本搜索",
+    "description": "使用 {{ProdFullName}}，您可以在您的 {{EnvNameShort}} 应用程序中无缝搜索和提取多种文档类型的文本。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "获取免费试用"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 是做什么的？",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一个强大的文档搜索和索引库，支持超过 70 种文件格式，包括 PDF、Word、PowerPoint、Excel、图像和 ZIP 压缩档案。它为大规模文档集合提供快速、精确和可扩展的搜索功能。"
+  },
+  "more_features": {
+    "title": "增强的搜索和索引能力",
+    "description": "{{ProdFullName}} 简化了跨 70 多种文档格式的文本搜索和索引，提供高效工具以快速管理和检索信息。",
+    "image_description": "{{ProdShortName}} 的核心功能",
+    "feature_1": {
+      "title": "全面的文本搜索",
+      "content": "在多种文档格式中查找文本，例如 PDF、Word 文档、PowerPoint 演示文稿和电子表格。使用精确匹配、模糊搜索和通配符运算符以获得细致的搜索结果。"
+    },
+    "feature_2": {
+      "title": "针对大型数据的优化索引",
+      "content": "创建结构化索引以加速搜索，使您能够高效地浏览大量文档库。"
+    },
+    "feature_3": {
+      "title": "支持多种语言",
+      "content": "在 80 多种语言中进行搜索，内置支持不同的键盘布局和词语形态变化，提高精确度。"
+    },
+    "feature_4": {
+      "title": "灵活的搜索设置",
+      "content": "通过选项如大小写敏感、基于日期的过滤以及排除特定单词的能力来自定义搜索，以获得精确结果。"
+    }
+  },
+  "formats": {
+    "title": "使用 {{ProdShortName}} 在 {{FileFormatUp}} 文档中查找信息",
+    "description": "{{ProdShortName}} 支持超过 70 种格式，包括办公文件，启用快速搜索和高级索引功能。"
+  },
+  "operations": {
+    "title": "主要功能概述",
+    "description": "探索旨在提高效率和精确度的高性能文本搜索功能。"
+  },
+  "examples": {
+    "comment_1": "设置用于存储搜索索引的目录",
+    "comment_2": "指定包含可搜索文档的文件夹",
+    "comment_3": "启用同音词搜索以匹配发音相似的单词",
+    "comment_4": "执行高级搜索查询"
+  },
+  "steps": {
+    "title": "在 {{FileFormatUp}} 文件中执行文本搜索",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 使得在 {{FileFormatUp}} 文件中使用复杂的逻辑和索引进行搜索变得简单，从而提高 {{EnvName}} 应用程序中的搜索准确性。",
+      "step_1": "设置一个目录以存储搜索索引。",
+      "step_2": "选择一个包含 {{FileFormatUp}} 文件的文件夹。",
+      "step_3": "定义额外的搜索选项。",
+      "step_4": "执行搜索并分析结果。"
+    }
+  },
+  "code_1": {
+    "title": "实现高级搜索查询",
+    "content": "此示例演示如何有效地使用搜索查询在 {{FileFormatUp}} 文档中进行搜索。",
+    "comment_1": "定义搜索索引的目录",
+    "comment_2": "提供文档的文件路径",
+    "comment_3": "输入加密文档的密码",
+    "comment_4": "启用模糊搜索以检测相似单词",
+    "comment_5": "获取搜索结果",
+    "comment_6": "处理和分析搜索结果"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Thực hiện tìm kiếm nhạy cảm với chữ hoa trong {{FileFormatUp}} với {{EnvNameShort}}",
+    "description": "API {{ProdFullName}} giúp các lập trình viên {{ProgLang}} thực hiện tìm kiếm nhạy cảm với chữ hoa trên nhiều loại tài liệu."
+  },
+  "header": {
+    "title": "Tìm Kiếm Tài Liệu Nhạy Cảm Với Chữ Hoa",
+    "description": "{{ProdFullName}} cho phép bạn triển khai chức năng tìm kiếm chính xác nhạy cảm với chữ hoa trong các dự án {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Nhận Miễn Phí"
+  },
+  "about": {
+    "title": "Tìm Hiểu Về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một công cụ đa năng cho việc tìm kiếm và lập chỉ mục văn bản trên nhiều tài liệu khác nhau. Nó hỗ trợ hơn 70 định dạng như PDF, tệp Word, bài thuyết trình PowerPoint, bảng tính Excel, hình ảnh và file ZIP, giúp bạn hiệu quả xử lý các tập dữ liệu lớn."
+  },
+  "more_features": {
+    "title": "Công Cụ Tìm Kiếm và Lập Chỉ Mục Nâng Cao",
+    "description": "Với {{ProdFullName}}, bạn có thể hợp lý hóa việc tìm kiếm và lập chỉ mục tài liệu cho hơn 70 định dạng, giúp việc tìm kiếm và tổ chức thông tin trở nên dễ dàng hơn.",
+    "image_description": "Các điểm nổi bật của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tìm Kiếm Văn Bản Linh Hoạt",
+      "content": "Tìm kiếm qua các tài liệu như PDF, tệp Word, bảng tính và bài thuyết trình một cách hiệu quả. Sử dụng các công cụ như tìm kiếm chính xác, tìm kiếm mờ và hỗ trợ ký tự đại diện để làm rõ kết quả."
+    },
+    "feature_2": {
+      "title": "Quản Lý Chỉ Mục Hiệu Quả",
+      "content": "Tổ chức và lập chỉ mục các tập dữ liệu lớn để cải thiện tốc độ tìm kiếm và hiệu suất khi xử lý các bộ sưu tập tài liệu lớn."
+    },
+    "feature_3": {
+      "title": "Hỗ Trợ Ngôn Ngữ Toàn Cầu",
+      "content": "Thực hiện tìm kiếm trên hơn 80 ngôn ngữ, phục vụ cho các bố cục bàn phím khác nhau và các biến thể ngôn ngữ để đạt được độ chính xác tốt hơn."
+    },
+    "feature_4": {
+      "title": "Bộ Lọc Tìm Kiếm Tùy Chỉnh",
+      "content": "Điều chỉnh tiêu chí tìm kiếm với các tùy chọn như nhạy cảm với chữ hoa, lọc theo khoảng thời gian và loại trừ các từ hoặc dữ liệu không mong muốn trong quá trình lập chỉ mục."
+    }
+  },
+  "formats": {
+    "title": "Định Dạng Tệp Được Hỗ Trợ Cho Tìm Kiếm",
+    "description": "{{ProdShortName}} hoạt động với hơn 70 định dạng tài liệu phổ biến, cung cấp các cài đặt tìm kiếm tùy chỉnh và lập chỉ mục hiệu quả."
+  },
+  "operations": {
+    "title": "Tổng Quan Các Tính Năng Chính",
+    "description": "Khám phá khả năng tìm kiếm mạnh mẽ và hiệu quả mà {{ProdFullName}} cung cấp."
+  },
+  "examples": {
+    "comment_1": "Định nghĩa vị trí lưu trữ chỉ mục",
+    "comment_2": "Trỏ đến thư mục chứa tài liệu để tìm kiếm",
+    "comment_3": "Kích hoạt chế độ nhạy cảm với chữ hoa trong cài đặt tìm kiếm",
+    "comment_4": "Thực hiện tìm kiếm"
+  },
+  "steps": {
+    "title": "Hướng Dẫn Tìm Kiếm Nhạy Cảm Với Chữ Hoa Trong Tệp {{FileFormatUp}}",
+    "content": {
+      "title": "Sử dụng [{{ProdShortName}}]({{PlatformLink}}), bạn có thể thực hiện tìm kiếm nhạy cảm với chữ hoa trong các tài liệu {{FileFormatUp}}, nâng cao các dự án {{EnvName}} của bạn.",
+      "step_1": "Đặt thư mục để lưu trữ chỉ mục tìm kiếm.",
+      "step_2": "Chọn thư mục chứa các tệp {{FileFormatUp}}.",
+      "step_3": "Chạy tìm kiếm nhạy cảm với chữ hoa và thu thập kết quả.",
+      "step_4": "Xử lý và sử dụng các kết quả tìm kiếm."
+    }
+  },
+  "code_1": {
+    "title": "Ví Dụ: Tìm Kiếm Nhạy Cảm Với Chữ Hoa",
+    "content": "Ví dụ này minh họa cách thực hiện tìm kiếm nhạy cảm với chữ hoa cho các tài liệu {{FileFormatUp}}.",
+    "comment_1": "Định nghĩa thư mục cho chỉ mục tìm kiếm",
+    "comment_2": "Chỉ định vị trí của thư mục tài liệu",
+    "comment_3": "Thiết lập một truy vấn tìm kiếm",
+    "comment_4": "Kích hoạt tính năng nhạy cảm với chữ hoa trong tùy chọn tìm kiếm",
+    "comment_5": "Thực hiện tìm kiếm tài liệu",
+    "comment_6": "Xử lý các kết quả đã thu thập"
+  }
+}

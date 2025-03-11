@@ -1,0 +1,258 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2025-03-11T15:59:37
+draft: false
+lang: uk
+format: Docx
+product: "Search"
+product_tag: "search"
+platform: ".NET"
+platform_tag: "net"
+
+############################# Head ############################
+head_title: "Пошук у документах DOCX з використанням .NET"
+head_description: "GroupDocs.Search for .NET покращує додатки C# завдяки ефективному текстовому пошуку в різних форматах бізнес-документів."
+
+############################# Header ############################
+title: "Пошук тексту в бізнес-документах" 
+description: "GroupDocs.Search for .NET забезпечує потужні та гнучкі текстові запити у ваших документах. Інтегруйте функціональність пошуку в додатки .NET."
+subtitle: "GroupDocs.Search for .NET" 
+
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Скачати безкоштовно"
+      link: "https://releases.groupdocs.com/search/net/"
+      
+############################# About ############################
+about:
+    enable: true
+    title: "Що таке GroupDocs.Search?"
+    link: "/search/net/"
+    link_title: "Дізнатися більше"
+    picture: "about_search.svg" # 480 X 400
+    content: |
+       [GroupDocs.Search for .NET](/search/net/) — потужна бібліотека для ефективного текстового пошуку та індексації документів. Вона підтримує понад 70 форматів файлів, включаючи стандартні документи, такі як PDF, Word, Excel та PowerPoint. Поліпшуйте продуктивність пошуку з швидкими та точними результатами.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "Як шукати у даних DOCX"
+    content: |
+      [GroupDocs.Search](/search/net/) забезпечує ефективний текстовий пошук у документах DOCX, що робить його ідеальним для додатків .NET.
+      
+      1. Налаштуйте папку для зберігання пошукового індексу.
+      2. Виберіть папку, що містить ваші файли.
+      3. Налаштуйте параметри пошуку для обробки лише документів DOCX.
+      4. Виконайте пошук та отримайте результати.
+   
+    code:
+      platform: "net"
+      copy_title: "Копіювати"
+      result_enable: true
+      result_link: "/examples/search/search_all.pdf"
+      result_title: "{common-content.format-code.result_title}"
+      install:
+        command: "dotnet add package GroupDocs.Search"
+        copy_tip: "клікніть для копіювання"
+        copy_done: "скопійовано"
+      links:
+        #  loop
+        - title: "Більше прикладів"
+          link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
+        #  loop
+        - title: "Документація"
+          link: "https://docs.groupdocs.com/search/net/"
+          
+      content: |
+        ```csharp {style=abap}
+        // Шлях для збереження повторно використовуваного пошукового індексу
+        Index index = new Index("c:/MyIndex");
+
+        // Папка з документами
+        index.Add("c:/MyDocuments");
+
+        // Шукати лише у певних форматах файлів
+        SearchOptions options = new SearchOptions();
+        options.SearchDocumentFilter = 
+            SearchDocumentFilter.CreateFileExtension(".docx");
+
+        // Отримати результати пошуку
+        SearchResult result = index.Search("Lorem", options);
+        ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Розширені функції пошуку"
+  description: "GroupDocs.Search for .NET забезпечує складні текстові запити по більше ніж 70 форматах файлів. Індексація підвищує ефективність пошуку та допомагає ефективно керувати вмістом документів."
+  image: "/img/search/features_filters.webp" # 500x500 px
+  image_description: "Основні функції GroupDocs.Search"
+  features:
+    # feature loop
+    - title: "Розширений текстовий пошук"
+      content: "Витягайте релевантний текст з популярних бізнес-документів, включаючи PDF, файли Word, презентації та електронні таблиці. Підтримує кілька методів пошуку, таких як нечіткий пошук, виявлення однозвучності та підстановочні знаки."
+
+    # feature loop
+    - title: "Оптимізована індексація для швидших пошуків"
+      content: "Створюйте та повторно використовуйте пошукові індекси для покращення швидкості пошуку. Індексація оптимізує продуктивність при пошуку серед великих колекцій документів."
+
+    # feature loop
+    - title: "Підтримка кількох мов"
+      content: "Виконуйте пошук у документах, написаних більш ніж 80 мовами. Визначає різні розкладки клавіатури та варіанти слів для підвищення точності."
+
+    # feature loop
+    - title: "Гнучкі налаштування пошуку"
+      content: "Уточнюйте результати пошуку з допомогою налаштовуваних опцій, включаючи фільтри, регулярні вирази та налаштування чутливості до регістру."
+      
+  code_samples_ext:
+    # code sample ext loop
+    - title: "Фільтруйте документи для обробки"
+      content: |
+        Дізнайтеся, як звузити пошук документів за допомогою фільтрів.
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Налаштуйте індекс, який виключає певні формати файлів.
+          IndexSettings settings = new IndexSettings();
+          DocumentFilter fileExtensionFilter = 
+            DocumentFilter.CreateFileExtension(".odp", ".png", ".rtf");
+
+          DocumentFilter invertedFilter = DocumentFilter.CreateNot(fileExtensionFilter);
+          settings.DocumentFilter = invertedFilter;
+
+          Index index = new Index("c:/MyIndex", settings);
+              
+          // Вкажіть директорію документів.
+          index.Add("c:/MyDocuments");
+
+          // Отримайте результати пошуку.
+          SearchResult result = index.Search("Lorem");
+          
+          // Обробіть та використовуйте вихідні дані пошуку.
+          Console.WriteLine("Documents: " + result.DocumentCount);
+          Console.WriteLine("Occurrences: " + result.OccurrenceCount);
+          ```
+        platform: "net"
+        copy_title: "Копіювати"
+        install:
+          command: "dotnet add package GroupDocs.Search"
+          copy_tip: "клікніть для копіювання"
+          copy_done: "скопійовано"
+        top_links:
+          #  loop
+          - title: "{common-content.format-code.result_title_bottom}"
+            icon: "download"
+            link: "/examples/search/formats/searchfilters.docx"
+        links:
+          #  loop
+          - title: "Більше прикладів"
+            link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
+          #  loop
+          - title: "Документація"
+            link: "https://docs.groupdocs.com/search/net/"
+            
+
+            
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готові почати?"
+  description: "Спробуйте функції GroupDocs.Search безкоштовно або запитайте ліцензію"
+  items:
+    #  loop
+    - title: "завантаження Nuget"
+      link: "https://releases.groupdocs.com/search/net/"
+      color: "red"
+        #  loop
+    - title: "Ліцензування"
+      link: "https://purchase.groupdocs.com/pricing/search/net/"
+      color: "light"
+
+
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "Ключові функції"
+    exclude: "filters"
+    description: "Виконуйте точні та ефективні пошуки даних."
+    items: 
+          
+        # operation loop 1
+        - name: "{common-content.operations.boolean.name}"
+          operation: "boolean"
+          link: "/search/net/boolean/docx/"
+          description: "{common-content.operations.boolean.description}"
+
+        # operation loop 2
+        - name: "{common-content.operations.case-sensitive.name}"
+          operation: "case-sensitive"
+          link: "/search/net/case-sensitive/docx/"
+          description: "{common-content.operations.case-sensitive.description}"
+
+        # operation loop 3
+        - name: "{common-content.operations.document.name}"
+          operation: "document"
+          link: "/search/net/document/docx/"
+          description: "{common-content.operations.document.description}"
+
+        # operation loop 4
+        - name: "{common-content.operations.filters.name}"
+          operation: "filters"
+          link: "/search/net/filters/docx/"
+          description: "{common-content.operations.filters.description}"
+
+        # operation loop 5
+        - name: "{common-content.operations.phrase.name}"
+          operation: "phrase"
+          link: "/search/net/phrase/docx/"
+          description: "{common-content.operations.phrase.description}"
+          
+        
+          
+############################# More Formats ########################
+more_formats:
+    enable: true
+    title: "Знайдіть дані у ваших бізнес-документах"
+    exclude: "DOCX"
+    description: "GroupDocs.Search підтримує понад 70 форматів файлів, що дозволяє ефективно обробляти та шукати популярні офісні документи."
+    items: 
+        # format loop 1
+        - name: ""
+          format: "DOCX"
+          link: "/search/net/filters/docx/"
+          description: "Документ Microsoft Word Open XML"
+          
+        # format loop 2
+        - name: ""
+          format: "PDF"
+          link: "/search/net/filters/pdf/"
+          description: "Adobe Portable Document Format"
+          
+        # format loop 3
+        - name: ""
+          format: "PPTX"
+          link: "/search/net/filters/pptx/"
+          description: "Презентація PowerPoint Open XML"
+
+        # format loop 4
+        - name: ""
+          format: "TXT"
+          link: "/search/net/filters/txt/"
+          description: "Текстовий документ"
+          
+        # format loop 5
+        - name: ""
+          format: "XLSX"
+          link: "/search/net/filters/xlsx/"
+          description: "Таблиця Microsoft Excel Open XML"
+  
+
+---

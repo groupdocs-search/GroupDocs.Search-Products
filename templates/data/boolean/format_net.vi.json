@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Tìm kiếm {{FileFormatUp}} trong {{EnvNameShort}} sử dụng các toán tử boolean",
+    "description": "API {{ProdFullName}} cho phép các lập trình viên {{ProgLang}} tìm kiếm nội dung tài liệu bằng các toán tử boolean như AND, OR và NOT."
+  },
+  "header": {
+    "title": "Tìm kiếm văn bản theo logic boolean",
+    "description": "{{ProdFullName}} giúp tạo các truy vấn tìm kiếm nâng cao bằng cách sử dụng các toán tử boolean (AND, OR, NOT) trong ứng dụng {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải Xuống Miễn Phí"
+  },
+  "about": {
+    "title": "{{ProdShortName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một thư viện toàn diện cho việc tìm kiếm và lập chỉ mục văn bản trong các tài liệu. Nó hỗ trợ hơn 70 định dạng tệp, chẳng hạn như PDF, Word, PowerPoint, Excel, hình ảnh và tệp ZIP, giúp xử lý hiệu quả lượng thông tin lớn."
+  },
+  "more_features": {
+    "title": "Khám phá các tính năng nâng cao cho tìm kiếm và lập chỉ mục tài liệu",
+    "description": "Thư viện {{ProdFullName}} đơn giản hóa việc tìm kiếm và lập chỉ mục văn bản cho hơn 70 định dạng tệp. Tìm kiếm và quản lý thông tin một cách dễ dàng với các công cụ tìm kiếm nâng cao.",
+    "image_description": "Các tính năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tìm kiếm văn bản mạnh mẽ",
+      "content": "Tìm kiếm văn bản trong nhiều loại tệp khác nhau, bao gồm PDF, tài liệu Word, bài thuyết trình PowerPoint và bảng tính. Sử dụng các tính năng như khớp chính xác, tìm kiếm mờ và ký tự đại diện để tinh chỉnh kết quả."
+    },
+    "feature_2": {
+      "title": "Lập chỉ mục tập dữ liệu lớn",
+      "content": "Tạo và duy trì các chỉ mục để tìm kiếm nhanh hơn. Lập chỉ mục cấu trúc và tổ chức dữ liệu, giúp dễ dàng tìm kiếm các bộ sưu tập tài liệu rộng lớn."
+    },
+    "feature_3": {
+      "title": "Hỗ trợ nhiều ngôn ngữ",
+      "content": "Tìm kiếm tài liệu bằng hơn 80 ngôn ngữ, với hỗ trợ các kiểu bàn phím khác nhau và các hình thức từ ngữ hình thái để nâng cao độ chính xác trong tìm kiếm."
+    },
+    "feature_4": {
+      "title": "Tùy chọn tìm kiếm có thể tùy chỉnh",
+      "content": "Điều chỉnh cài đặt tìm kiếm với các tính năng như nhạy cảm với chữ hoa, bộ lọc theo khoảng thời gian, và khả năng loại trừ các từ hoặc dữ liệu cụ thể trong quá trình lập chỉ mục."
+    }
+  },
+  "formats": {
+    "title": "Tìm kiếm trên các định dạng tài liệu phổ biến",
+    "description": "{{ProdShortName}} hỗ trợ hơn 70 định dạng tệp. Tùy chỉnh quy tắc tìm kiếm và tận dụng lập chỉ mục để tiết kiệm thời gian và công sức."
+  },
+  "operations": {
+    "title": "Khám phá các tính năng chính",
+    "description": "Khám phá các chức năng tìm kiếm nâng cao và hiệu quả."
+  },
+  "examples": {
+    "comment_1": "Đặt đường dẫn đến thư mục chỉ mục",
+    "comment_2": "Chỉ định thư mục chứa tài liệu để tìm kiếm",
+    "comment_3": "Thực hiện tìm kiếm sử dụng truy vấn phức tạp"
+  },
+  "steps": {
+    "title": "Cách tìm kiếm nội dung tài liệu {{FileFormatUp}} sử dụng logic boolean",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp việc tìm kiếm nội dung tài liệu {{FileFormatUp}} trở nên đơn giản. Nó cung cấp các điều kiện tìm kiếm logic boolean để làm rõ kết quả trong các ứng dụng {{EnvName}}.",
+      "step_1": "Chỉ định thư mục để lưu trữ chỉ mục tìm kiếm.",
+      "step_2": "Chọn thư mục chứa các tệp {{FileFormatUp}}.",
+      "step_3": "Thực hiện tìm kiếm và nhận kết quả.",
+      "step_4": "Xử lý kết quả."
+    }
+  },
+  "code_1": {
+    "title": "Sử dụng các truy vấn tìm kiếm boolean nâng cao",
+    "content": "Ví dụ này minh họa cách áp dụng các truy vấn boolean để tìm kiếm các tài liệu {{FileFormatUp}}.",
+    "comment_1": "Đặt thư mục cho chỉ mục tìm kiếm",
+    "comment_2": "Chỉ định đường dẫn đến các tài liệu cần tìm kiếm",
+    "comment_3": "Tạo một truy vấn tìm kiếm sử dụng logic boolean",
+    "comment_4": "Lấy các kết quả tìm kiếm",
+    "comment_5": "Xử lý các kết quả tìm kiếm"
+  }
+}

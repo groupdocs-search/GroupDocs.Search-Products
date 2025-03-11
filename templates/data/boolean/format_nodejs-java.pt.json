@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Busca booleana em {{FileFormatUp}} via {{EnvNameShort}}",
+    "description": "Utilize a API {{ProdFullName}} para realizar buscas avançadas no conteúdo de documentos com operadores booleanos como AND, OR e NOT, adaptada para desenvolvedores {{ProgLang}}."
+  },
+  "header": {
+    "title": "Realize buscas com lógica booleana",
+    "description": "Com {{ProdFullName}}, você pode criar consultas de busca avançadas usando operadores booleanos (AND, OR, NOT) de forma integrada no seu ambiente {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Agora"
+  },
+  "about": {
+    "title": "O que é {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma ferramenta robusta para buscar e indexar texto em documentos. Suporta mais de 70 formatos como PDF, Word, Excel, PowerPoint, imagens e arquivos ZIP, facilitando o processamento eficiente de grandes volumes de informações."
+  },
+  "more_features": {
+    "title": "Ferramentas poderosas para pesquisa e indexação de documentos",
+    "description": "{{ProdFullName}} otimiza a busca de texto e a indexação para mais de 70 tipos de arquivos, ajudando você a encontrar e gerenciar informações mais rápido e com precisão.",
+    "image_description": "Recursos principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Busca de texto aprimorada",
+      "content": "Encontre texto rapidamente em vários formatos, como PDFs, documentos Word, apresentações e planilhas. Utilize recursos como correspondências exatas, buscas por wildcards e busca difusa para resultados precisos."
+    },
+    "feature_2": {
+      "title": "Indexação de dados eficiente",
+      "content": "Crie e gerencie índices para acelerar buscas em grandes coleções de documentos. A indexação assegura acesso rápido e estruturado aos seus dados."
+    },
+    "feature_3": {
+      "title": "Suporte multilingue",
+      "content": "Busque em documentos escritos em mais de 80 idiomas. O suporte morfológico e a compatibilidade com layouts de teclado melhoram os resultados da busca em diferentes idiomas."
+    },
+    "feature_4": {
+      "title": "Configurações de busca flexíveis",
+      "content": "Personalize sua busca ativando a sensibilidade a maiúsculas e minúsculas, aplicando filtros de data ou ignorando palavras e dados específicos durante a indexação."
+    }
+  },
+  "formats": {
+    "title": "Busque formatos de documentos populares",
+    "description": "{{ProdShortName}} suporta mais de 70 formatos de arquivo, proporcionando regras de busca flexíveis e indexação eficiente para economizar tempo e esforço."
+  },
+  "operations": {
+    "title": "Principais capacidades do {{ProdShortName}}",
+    "description": "Desbloqueie recursos de busca avançados, eficientes e personalizáveis."
+  },
+  "examples": {
+    "comment_1": "Defina a localização da pasta do índice",
+    "comment_2": "Especifique a pasta contendo os documentos para pesquisa",
+    "comment_3": "Execute uma consulta de busca com lógica avançada"
+  },
+  "steps": {
+    "title": "Como buscar em documentos {{FileFormatUp}} usando operadores booleanos",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite que você busque conteúdo em arquivos {{FileFormatUp}} de forma eficaz. Com a lógica booleana, você pode refinar suas consultas de busca em aplicações {{EnvName}} para uma maior precisão.",
+      "step_1": "Configure a pasta para armazenar o índice de busca.",
+      "step_2": "Selecione a pasta contendo arquivos {{FileFormatUp}} para a busca.",
+      "step_3": "Execute a consulta de busca e recupere os resultados.",
+      "step_4": "Processe e analise os resultados da busca."
+    }
+  },
+  "code_1": {
+    "title": "Exemplo de busca booleana avançada",
+    "content": "Este exemplo demonstra como criar consultas baseadas em Booleana para buscar conteúdo em documentos {{FileFormatUp}}.",
+    "comment_1": "Defina a pasta para o índice de busca",
+    "comment_2": "Forneça a localização dos documentos a serem pesquisados",
+    "comment_3": "Construa uma consulta usando operadores booleanos",
+    "comment_4": "Recupere os resultados da busca",
+    "comment_5": "Processe e utilize os resultados da busca"
+  }
+}

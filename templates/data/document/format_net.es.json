@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Buscar documentos {{FileFormatUp}} en {{EnvNameShort}} con {{ProdShortName}}",
+    "description": "Utilice {{ProdFullName}} para realizar búsquedas textuales eficientes en varios formatos de documento con {{ProgLang}}."
+  },
+  "header": {
+    "title": "Búsqueda avanzada de texto en documentos",
+    "description": "{{ProdFullName}} simplifica la búsqueda de texto en formatos de documentos populares, permitiéndole crear consultas de búsqueda potentes en sus aplicaciones de {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Gratis"
+  },
+  "about": {
+    "title": "¿Qué es {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una biblioteca potente diseñada para la búsqueda y el indexado de texto completo en documentos. Soporta más de 70 formatos de archivo, incluyendo PDF, Word, PowerPoint, Excel, imágenes y archivos ZIP, asegurando resultados de búsqueda rápidos y precisos."
+  },
+  "more_features": {
+    "title": "Funciones avanzadas de búsqueda e indexación",
+    "description": "{{ProdFullName}} mejora la búsqueda de texto y la indexación en más de 70 formatos de archivo, proporcionando herramientas eficientes para localizar y gestionar información.",
+    "image_description": "Características clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Búsqueda de texto potente",
+      "content": "Busque texto en múltiples tipos de documentos, incluidos PDFs, documentos de Word, presentaciones de PowerPoint y hojas de cálculo. Utilice características como coincidencias exactas, búsqueda difusa y comodines para refinar sus resultados."
+    },
+    "feature_2": {
+      "title": "Indexación rápida para grandes conjuntos de datos",
+      "content": "Cree y gestione índices de búsqueda para una recuperación rápida de información. La indexación optimiza las búsquedas en colecciones extensas de documentos."
+    },
+    "feature_3": {
+      "title": "Soporte multilingüe",
+      "content": "Realice búsquedas en más de 80 idiomas, con soporte para diferentes distribuciones de teclado y variaciones de palabras para mejorar la precisión."
+    },
+    "feature_4": {
+      "title": "Configuraciones de búsqueda personalizables",
+      "content": "Ajuste los parámetros de búsqueda con opciones como sensibilidad a mayúsculas, filtros de rango de fechas y exclusiones de palabras para obtener mejores resultados."
+    }
+  },
+  "formats": {
+    "title": "Busque en sus documentos empresariales",
+    "description": "{{ProdShortName}} admite más de 70 formatos de archivo, incluidos documentos de oficina, permitiendo búsquedas rápidas y eficientes con capacidades de indexación."
+  },
+  "operations": {
+    "title": "Explore las características clave",
+    "description": "Aproveche las funcionalidades de búsqueda avanzadas y de alto rendimiento."
+  },
+  "examples": {
+    "comment_1": "Defina la ruta para el índice de búsqueda",
+    "comment_2": "Seleccione la carpeta que contiene los documentos a buscar",
+    "comment_3": "Habilite la búsqueda de homófonos para encontrar palabras que suenan similares",
+    "comment_4": "Ejecute una consulta de búsqueda compleja"
+  },
+  "steps": {
+    "title": "Cómo realizar una búsqueda de texto en documentos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite operaciones de búsqueda de contenido avanzadas en documentos {{FileFormatUp}}, permitiendo resultados de búsqueda refinados en aplicaciones {{EnvName}}.",
+      "step_1": "Configure la carpeta para almacenar el índice de búsqueda.",
+      "step_2": "Elija la carpeta que contiene archivos {{FileFormatUp}}.",
+      "step_3": "Configure opciones de búsqueda adicionales.",
+      "step_4": "Ejecute la búsqueda y revise los resultados."
+    }
+  },
+  "code_1": {
+    "title": "Ejecutando consultas de búsqueda avanzadas",
+    "content": "Este ejemplo demuestra cómo aplicar consultas de búsqueda para documentos {{FileFormatUp}}.",
+    "comment_1": "Defina la carpeta para el índice de búsqueda",
+    "comment_2": "Especifique la ruta a los archivos del documento",
+    "comment_3": "Proporcione una contraseña para documentos protegidos",
+    "comment_4": "Habilite la búsqueda difusa para encontrar palabras similares",
+    "comment_5": "Recupere los resultados de la búsqueda",
+    "comment_6": "Procese la salida de la búsqueda"
+  }
+}

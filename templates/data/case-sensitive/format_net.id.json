@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Pencarian Sensitif Huruf pada {{FileFormatUp}} Menggunakan {{EnvNameShort}}",
+    "description": "API {{ProdFullName}} memungkinkan pengembang {{ProgLang}} untuk melakukan pencarian sensitif huruf di berbagai dokumen."
+  },
+  "header": {
+    "title": "Pencarian Sensitif Huruf",
+    "description": "{{ProdFullName}} memungkinkan Anda untuk membuat kueri pencarian sensitif huruf yang canggih dalam aplikasi {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Gratis"
+  },
+  "about": {
+    "title": "Apa itu {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah perpustakaan yang kuat untuk pencarian teks dan pengindeksan dalam dokumen. Ini mendukung lebih dari 70 format file, termasuk PDF, Word, PowerPoint, Excel, gambar, dan file ZIP, memastikan penanganan data besar yang efisien."
+  },
+  "more_features": {
+    "title": "Fitur Canggih untuk Pencarian dan Pengindeksan Dokumen",
+    "description": "Perpustakaan {{ProdFullName}} menyederhanakan pencarian teks dan pengindeksan di lebih dari 70 format file. Temukan dan kelola informasi dengan alat pencarian yang kuat.",
+    "image_description": "Fitur Utama {{ProdShortName}}",
+    "feature_1": {
+      "title": "Pencarian Teks Canggih",
+      "content": "Cari teks di berbagai format file, termasuk PDF, dokumen Word, spreadsheet, dan presentasi. Gunakan opsi seperti kecocokan tepat, pencarian kabur, dan wildcard untuk hasil yang akurat."
+    },
+    "feature_2": {
+      "title": "Indeks Data Besar",
+      "content": "Bangun dan kelola indeks untuk pencarian yang lebih cepat. Pengindeksan yang terorganisir menyederhanakan pencarian koleksi dokumen yang luas."
+    },
+    "feature_3": {
+      "title": "Dukungan Multi-Bahasa",
+      "content": "Cari dalam dokumen yang menggunakan lebih dari 80 bahasa, dengan dukungan untuk berbagai tata letak keyboard dan bentuk kata untuk hasil yang lebih akurat."
+    },
+    "feature_4": {
+      "title": "Opsi Pencarian yang Dapat Disesuaikan",
+      "content": "Sesuaikan pengaturan pencarian dengan sensitivitas huruf, filter rentang tanggal, dan kemampuan untuk mengecualikan kata-kata atau data tertentu selama pengindeksan."
+    }
+  },
+  "formats": {
+    "title": "Cari Format Dokumen Populer",
+    "description": "{{ProdShortName}} mendukung lebih dari 70 format file. Sesuaikan aturan pencarian dan gunakan pengindeksan untuk menghemat waktu dan usaha."
+  },
+  "operations": {
+    "title": "Temukan Fitur Utama",
+    "description": "Jelajahi fungsi pencarian yang canggih dan efisien."
+  },
+  "examples": {
+    "comment_1": "Tentukan jalur ke folder indeks",
+    "comment_2": "Tentukan folder yang berisi dokumen untuk dicari",
+    "comment_3": "Aktifkan pencarian sensitif huruf di opsi",
+    "comment_4": "Jalankan pencarian"
+  },
+  "steps": {
+    "title": "Cara Melakukan Pencarian Sensitif Huruf di Dokumen {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) menyederhanakan pencarian sensitif huruf dalam dokumen {{FileFormatUp}}. Gunakan ini untuk memperbaiki hasil di aplikasi {{EnvName}}.",
+      "step_1": "Tentukan folder untuk menyimpan indeks pencarian.",
+      "step_2": "Pilih folder yang berisi file {{FileFormatUp}}.",
+      "step_3": "Jalankan pencarian dan ambil hasilnya.",
+      "step_4": "Proses hasil pencarian."
+    }
+  },
+  "code_1": {
+    "title": "Menggunakan Kuasi Pencarian Sensitif Huruf",
+    "content": "Contoh ini menunjukkan cara menggunakan kueri sensitif huruf untuk mencari dokumen {{FileFormatUp}}.",
+    "comment_1": "Tentukan folder untuk indeks pencarian",
+    "comment_2": "Tentukan jalur ke dokumen yang akan dicari",
+    "comment_3": "Buat kueri pencarian",
+    "comment_4": "Aktifkan opsi pencarian sensitif huruf",
+    "comment_5": "Cari teks dalam dokumen",
+    "comment_6": "Proses hasil pencarian"
+  }
+}

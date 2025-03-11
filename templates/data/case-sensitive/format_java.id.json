@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Lakukan Pencarian Sensitif Huruf di {{FileFormatUp}} dengan {{EnvNameShort}}",
+    "description": "API {{ProdFullName}} membantu pengembang {{ProgLang}} untuk menjalankan pencarian yang peka terhadap huruf di berbagai jenis dokumen."
+  },
+  "header": {
+    "title": "Pencarian Dokumen Sensitif Huruf",
+    "description": "{{ProdFullName}} memungkinkan Anda untuk mengimplementasikan fungsi pencarian yang tepat dan peka terhadap huruf dalam proyek {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Dapatkan Secara Gratis"
+  },
+  "about": {
+    "title": "Pelajari Tentang {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah alat serbaguna untuk pencarian teks dan pengindeksan di berbagai dokumen. Alat ini mendukung lebih dari 70 format seperti PDF, file Word, presentasi PowerPoint, lembar Excel, gambar, dan ZIP, memungkinkan Anda untuk menangani kumpulan data besar secara efisien."
+  },
+  "more_features": {
+    "title": "Alat Pencarian dan Pengindeksan yang Ditingkatkan",
+    "description": "Dengan {{ProdFullName}}, Anda dapat menyederhanakan pencarian dokumen dan pengindeksan untuk lebih dari 70 format, memudahkan Anda menemukan dan mengorganisasi informasi.",
+    "image_description": "Sorotan dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Pencarian Teks yang Fleksibel",
+      "content": "Telusuri dokumen seperti PDF, file Word, spreadsheet, dan presentasi. Gunakan alat seperti pencocokan tepat, pencarian fuzzy, dan dukungan karakter joker untuk memperhalus hasil Anda."
+    },
+    "feature_2": {
+      "title": "Manajemen Indeks yang Efisien",
+      "content": "Atur dan indeks dataset besar untuk meningkatkan kecepatan dan performa pencarian saat menangani koleksi dokumen yang besar."
+    },
+    "feature_3": {
+      "title": "Dukungan untuk Bahasa Global",
+      "content": "Lakukan pencarian dalam lebih dari 80 bahasa, mendukung berbagai tata letak keyboard dan variasi linguistik untuk akurasi yang lebih baik."
+    },
+    "feature_4": {
+      "title": "Filter Pencarian yang Dapat Disesuaikan",
+      "content": "Sesuaikan kriteria pencarian dengan opsi seperti sensitivitas huruf, filter rentang tanggal, dan pengecualian kata atau data yang tidak diinginkan selama pengindeksan."
+    }
+  },
+  "formats": {
+    "title": "Format File yang Didukung untuk Pencarian",
+    "description": "{{ProdShortName}} bekerja dengan lebih dari 70 format dokumen populer, menawarkan pengaturan pencarian yang dapat disesuaikan dan pengindeksan yang efisien."
+  },
+  "operations": {
+    "title": "Ikhtisar Fitur Utama",
+    "description": "Temukan kemampuan pencarian yang kuat dan efektif yang ditawarkan oleh {{ProdFullName}}."
+  },
+  "examples": {
+    "comment_1": "Tentukan lokasi untuk penyimpanan indeks",
+    "comment_2": "Tunjuk ke folder yang berisi dokumen untuk dicari",
+    "comment_3": "Aktifkan mode sensitif huruf di pengaturan pencarian",
+    "comment_4": "Laksanakan pencarian"
+  },
+  "steps": {
+    "title": "Panduan untuk Pencarian Sensitif Huruf di File {{FileFormatUp}}",
+    "content": {
+      "title": "Dengan [{{ProdShortName}}]({{PlatformLink}}), Anda dapat melakukan pencarian sensitif huruf dalam dokumen {{FileFormatUp}}, meningkatkan proyek {{EnvName}} Anda.",
+      "step_1": "Tetapkan folder untuk menyimpan indeks pencarian.",
+      "step_2": "Pilih folder yang berisi file {{FileFormatUp}}.",
+      "step_3": "Jalankan pencarian sensitif huruf dan kumpulkan hasilnya.",
+      "step_4": "Proses dan gunakan hasil pencarian."
+    }
+  },
+  "code_1": {
+    "title": "Contoh: Kueri Pencarian Sensitif Huruf",
+    "content": "Contoh ini menunjukkan cara mengimplementasikan pencarian sensitif huruf untuk dokumen {{FileFormatUp}}.",
+    "comment_1": "Tentukan direktori untuk indeks pencarian",
+    "comment_2": "Tentukan lokasi folder dokumen",
+    "comment_3": "Siapkan kueri pencarian",
+    "comment_4": "Aktifkan sensitivitas huruf di opsi pencarian",
+    "comment_5": "Lakukan pencarian dokumen",
+    "comment_6": "Proses hasil yang diambil"
+  }
+}

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-14T11:10:46
+date:  2025-03-14T13:26:02
 draft: false
 lang: ru
 format: Pdf
@@ -16,7 +16,7 @@ head_title: "Поиск PDF в .NET с использованием логиче
 head_description: "API GroupDocs.Search for .NET позволяет разработчикам C# искать содержимое документов, используя логические операторы, такие как AND, OR и NOT."
 
 ############################# Header ############################
-title: "Поиск текста с использованием логической логики" 
+title: "Поиск текста с использованием булевой логики" 
 description: "GroupDocs.Search for .NET упрощает создание сложных поисковых запросов с использованием логических операторов (AND, OR, NOT) в ваших приложениях .NET."
 subtitle: "GroupDocs.Search for .NET" 
 
@@ -40,7 +40,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Как искать содержимое документа PDF с использованием логической логики"
+    title: "Как искать содержимое документа PDF с использованием булевой логики"
     content: |
       [GroupDocs.Search](/search/net/) упрощает поиск содержимого документа PDF. Она предоставляет условия поиска с логикой Boolean для уточнения результатов в приложениях .NET.
       
@@ -118,7 +118,7 @@ more_features:
           // Укажите путь к документам для поиска
           index.Add("c:/MyDocuments");
 
-          // Создайте поисковый запрос с использованием логической логики
+          // Создайте поисковый запрос с использованием булевой логики
           SearchQuery wordQuery1 = SearchQuery.CreateWordQuery("Lorem");
           SearchQuery wordQuery2 = SearchQuery.CreateWordQuery("ipsum");
           SearchQuery booleanQuery = SearchQuery.CreateAndQuery(wordQuery1, wordQuery2);

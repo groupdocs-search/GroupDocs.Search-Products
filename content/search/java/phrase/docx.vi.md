@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:39
+date:  2025-03-14T11:10:53
 draft: false
 lang: vi
 format: Docx
@@ -54,7 +54,7 @@ steps:
       copy_title: "Sao chép"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Kết quả tìm kiếm"
       install:
         command_title: "Maven XML"
         command: |
@@ -73,7 +73,7 @@ steps:
               <url>https://repository.groupdocs.com/repo/</url>
             </repository>
           </repositories>
-        copy_tip: "nhấp để sao chép"
+        copy_tip: "nhấn để sao chép"
         copy_done: "đã sao chép"
       links:
         #  loop
@@ -174,11 +174,11 @@ more_features:
                 <url>https://repository.groupdocs.com/repo/</url>
               </repository>
             </repositories>
-          copy_tip: "nhấp để sao chép"
+          copy_tip: "nhấn để sao chép"
           copy_done: "đã sao chép"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Tải xuống kết quả"
             icon: "download"
             link: "/examples/search/formats/searchphrase.docx"
         links:
@@ -198,7 +198,7 @@ more_features:
 actions:
   enable: true
   title: "Sẵn sàng để bắt đầu?"
-  description: "Thử nghiệm các tính năng của GroupDocs.Search miễn phí hoặc yêu cầu giấy phép"
+  description: "Hãy thử các tính năng của GroupDocs.Search miễn phí hoặc yêu cầu giấy phép"
   items:
     #  loop
     - title: "Tải xuống Maven"
@@ -219,34 +219,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Tìm kiếm theo điều kiện"
           operation: "boolean"
           link: "/search/java/boolean/docx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Tìm thông tin trong tài liệu sử dụng các điều kiện boolean"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Tìm kiếm phân biệt chữ hoa chữ thường"
           operation: "case-sensitive"
           link: "/search/java/case-sensitive/docx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Cải thiện độ chính xác của tìm kiếm bằng cách xem xét sự phân biệt chữ hoa chữ thường"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Lập chỉ mục tài liệu"
           operation: "document"
           link: "/search/java/document/docx/"
-          description: "{common-content.operations.document.description}"
+          description: "Lập chỉ mục tài liệu một lần và tái sử dụng chỉ mục cho nhiều lần tìm kiếm"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Bộ lọc tìm kiếm"
           operation: "filters"
           link: "/search/java/filters/docx/"
-          description: "{common-content.operations.filters.description}"
+          description: "Sử dụng bộ lọc để thu hẹp dữ liệu đang được xử lý"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Cụm từ chính xác"
           operation: "phrase"
           link: "/search/java/phrase/docx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Tìm kiếm một câu hoặc cụm từ cụ thể"
           
         
           
@@ -258,31 +258,31 @@ more_formats:
     description: "GroupDocs.Search cho phép tìm kiếm cụm từ trong hơn 70 định dạng tài liệu. Tận dụng các tùy chọn tiên tiến và lập chỉ mục cho việc tìm kiếm hiệu quả."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Tìm kiếm cụm từ trong DOCX"
           format: "DOCX"
           link: "/search/java/phrase/docx/"
           description: "Tài liệu Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "Tìm kiếm cụm từ trong PDF"
           format: "PDF"
           link: "/search/java/phrase/pdf/"
-          description: "Định dạng tài liệu di động Adobe"
+          description: "Định dạng Tài liệu Di động Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "Tìm kiếm cụm từ trong PPTX"
           format: "PPTX"
           link: "/search/java/phrase/pptx/"
-          description: "Bản trình bày PowerPoint Open XML"
+          description: "Bài thuyết trình PowerPoint Open XML"
 
         # format loop 4
-        - name: ""
+        - name: "Tìm kiếm cụm từ trong TXT"
           format: "TXT"
           link: "/search/java/phrase/txt/"
           description: "Tài liệu văn bản"
           
         # format loop 5
-        - name: ""
+        - name: "Tìm kiếm cụm từ trong XLSX"
           format: "XLSX"
           link: "/search/java/phrase/xlsx/"
           description: "Bảng tính Microsoft Excel Open XML"

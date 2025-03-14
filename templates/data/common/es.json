@@ -1,93 +1,68 @@
 {
   "common-content": {
     "format-formats": {
-      "csv": {
-        "name": "Buscar en CSV",
-        "description": "Valores Separados por Comas"
-      },
-      "doc": {
-        "name": "Buscar en DOC",
-        "description": "Documento de Microsoft Word 97 - 2007"
-      },
       "docx": {
         "name": "Buscar en DOCX",
         "description": "Documento de Microsoft Word Open XML"
-      },
-      "eml": {
-        "name": "Buscar en EML",
-        "description": "Mensaje de Correo Electrónico"
-      },
-      "epub": {
-        "name": "Buscar en EPUB",
-        "description": "Archivo Open eBook"
-      },
-      "fb2": {
-        "name": "Buscar en FB2",
-        "description": "Archivo FictionBook"
-      },
-      "md": {
-        "name": "Buscar en MD",
-        "description": "Lenguaje Markdown"
-      },
-      "odp": {
-        "name": "Buscar en ODP",
-        "description": "Formato de Presentación OpenDocument"
-      },
-      "one": {
-        "name": "Buscar en ONE",
-        "description": "Documento OneNote"
       },
       "pdf": {
         "name": "Buscar en PDF",
         "description": "Formato de Documento Portátil de Adobe"
       },
-      "pps": {
-        "name": "Buscar en PPS",
-        "description": "Presentación de PowerPoint"
-      },
-      "ppt": {
-        "name": "Buscar en PPT",
-        "description": "Presentación de PowerPoint 97-2003"
-      },
       "pptx": {
         "name": "Buscar en PPTX",
         "description": "Presentación Open XML de PowerPoint"
-      },
-      "pst": {
-        "name": "Buscar en PST",
-        "description": "Archivo de Almacenamiento de Información Personal de Outlook"
-      },
-      "rtf": {
-        "name": "Buscar en RTF",
-        "description": "Formato de Texto Enriquecido"
-      },
-      "tsv": {
-        "name": "Buscar en TSV",
-        "description": "Valores Separados por Tabulaciones"
       },
       "txt": {
         "name": "Buscar en TXT",
         "description": "Documento de Texto"
       },
-      "xls": {
-        "name": "Buscar en XLS",
-        "description": "Libro de Trabajo de Microsoft Excel 97-2003"
-      },
       "xlsx": {
         "name": "Buscar en XLSX",
         "description": "Hoja de Cálculo Open XML de Microsoft Excel"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "Búsqueda booleana en PDF",
+        "docx": "Búsqueda booleana en DOCX",
+        "xlsx": "Búsqueda booleana en XLSX",
+        "pptx": "Búsqueda booleana en PPTX",
+        "txt": "Búsqueda booleana en TXT"
       },
-      "xml": {
-        "name": "Buscar en XML",
-        "description": "Archivo XML"
+      "case-sensitive": {
+        "pdf": "Búsqueda sensible a mayúsculas y minúsculas en PDF",
+        "docx": "Búsqueda sensible a mayúsculas y minúsculas en DOCX",
+        "xlsx": "Búsqueda sensible a mayúsculas y minúsculas en XLSX",
+        "pptx": "Búsqueda sensible a mayúsculas y minúsculas en PPTX",
+        "txt": "Búsqueda sensible a mayúsculas y minúsculas en TXT"
       },
-      "zip": {
-        "name": "Buscar en ZIP",
-        "description": "Archivo Zip"
+      "document": {
+        "pdf": "Buscar en documento PDF",
+        "docx": "Buscar en documento DOCX",
+        "xlsx": "Buscar en documento XLSX",
+        "pptx": "Buscar en documento PPTX",
+        "txt": "Buscar en documento TXT"
+      },
+      "filters": {
+        "pdf": "Filtros de búsqueda para PDF",
+        "docx": "Filtros de búsqueda para DOCX",
+        "xlsx": "Filtros de búsqueda para XLSX",
+        "pptx": "Filtros de búsqueda para PPTX",
+        "txt": "Filtros de búsqueda para TXT"
+      },
+      "phrase": {
+        "pdf": "Búsqueda de frase en PDF",
+        "docx": "Búsqueda de frase en DOCX",
+        "xlsx": "Búsqueda de frase en XLSX",
+        "pptx": "Búsqueda de frase en PPTX",
+        "txt": "Búsqueda de frase en TXT"
       }
     },
     "format-code": {
       "copy_title": "Copiar",
+      "result_title": "Resultado de búsqueda",
+      "result_title_bottom": "Descargar resultado",
       "copy_tip": "haz clic para copiar",
       "copy_done": "copiado",
       "links": {
@@ -96,13 +71,35 @@
       }
     },
     "format-actions": {
-      "title": "¿Listo para comenzar?",
-      "description": "Prueba las características de {{ProdShortName}} de forma gratuita o solicita una licencia",
+      "title": "¿Listo para empezar?",
+      "description": "Prueba las funciones de {{ProdShortName}} gratis o solicita una licencia",
       "comment_1": "Descarga de {{PackageStoreName}}",
-      "comment_2": "Licenciamiento"
+      "comment_2": "Licencias"
     },
     "texts": {
-      "learn_more": "Aprende más"
+      "learn_more": "Saber más"
+    },
+    "operations": {
+      "boolean": {
+        "name": "Búsqueda por condición",
+        "description": "Encuentra información en documentos usando condiciones booleanas"
+      },
+      "case-sensitive": {
+        "name": "Búsqueda sensible a mayúsculas y minúsculas",
+        "description": "Mejora la precisión de la búsqueda considerando la sensibilidad de mayúsculas"
+      },
+      "document": {
+        "name": "Indexación de documentos",
+        "description": "Indexa documentos una vez y reutiliza el índice para múltiples búsquedas"
+      },
+      "filters": {
+        "name": "Filtros de búsqueda",
+        "description": "Utiliza filtros para reducir los datos procesados"
+      },
+      "phrase": {
+        "name": "Frase exacta",
+        "description": "Busca una oración o frase específica"
+      }
     }
   }
 }

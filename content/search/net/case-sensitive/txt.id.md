@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:32
+date:  2025-03-14T11:10:47
 draft: false
 lang: id
 format: Txt
@@ -54,14 +54,14 @@ steps:
       copy_title: "Salin"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Hasil pencarian"
       install:
         command: "dotnet add package GroupDocs.Search"
         copy_tip: "klik untuk menyalin"
-        copy_done: "disalin"
+        copy_done: "tersalin"
       links:
         #  loop
-        - title: "Lebih banyak contoh"
+        - title: "Contoh lebih lanjut"
           link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
         #  loop
         - title: "Dokumentasi"
@@ -141,15 +141,15 @@ more_features:
         install:
           command: "dotnet add package GroupDocs.Search"
           copy_tip: "klik untuk menyalin"
-          copy_done: "disalin"
+          copy_done: "tersalin"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Unduh hasil"
             icon: "download"
             link: "/examples/search/formats/searchcase-sensitive.txt"
         links:
           #  loop
-          - title: "Lebih banyak contoh"
+          - title: "Contoh lebih lanjut"
             link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
           #  loop
           - title: "Dokumentasi"
@@ -164,10 +164,10 @@ more_features:
 actions:
   enable: true
   title: "Siap untuk memulai?"
-  description: "Cobalah fitur GroupDocs.Search secara gratis atau minta lisensi"
+  description: "Coba fitur GroupDocs.Search secara gratis atau minta lisensi"
   items:
     #  loop
-    - title: "Unduhan Nuget"
+    - title: "unduh Nuget"
       link: "https://releases.groupdocs.com/search/net/"
       color: "red"
         #  loop
@@ -185,34 +185,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Cari berdasarkan kondisi"
           operation: "boolean"
           link: "/search/net/boolean/txt/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Temukan informasi dalam dokumen menggunakan kondisi boolean"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Pencarian sensitif huruf"
           operation: "case-sensitive"
           link: "/search/net/case-sensitive/txt/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Tingkatkan akurasi pencarian dengan mempertimbangkan sensitivitas huruf"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Pengindeksan dokumen"
           operation: "document"
           link: "/search/net/document/txt/"
-          description: "{common-content.operations.document.description}"
+          description: "Indeks dokumen sekali dan gunakan indeks untuk beberapa pencarian"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Filter pencarian"
           operation: "filters"
           link: "/search/net/filters/txt/"
-          description: "{common-content.operations.filters.description}"
+          description: "Gunakan filter untuk mempersempit data yang diproses"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Frasa tepat"
           operation: "phrase"
           link: "/search/net/phrase/txt/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Cari kalimat atau frasa tertentu"
           
         
           
@@ -224,34 +224,34 @@ more_formats:
     description: "GroupDocs.Search mendukung lebih dari 70 format file. Sesuaikan aturan pencarian dan gunakan pengindeksan untuk menghemat waktu dan usaha."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Pencarian DOCX sensitif huruf"
           format: "DOCX"
           link: "/search/net/case-sensitive/docx/"
-          description: "Dokumen Microsoft Word Open XML"
+          description: "Dokumen Open XML Microsoft Word"
           
         # format loop 2
-        - name: ""
+        - name: "Pencarian PDF sensitif huruf"
           format: "PDF"
           link: "/search/net/case-sensitive/pdf/"
           description: "Format Dokumen Portabel Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "Pencarian PPTX sensitif huruf"
           format: "PPTX"
           link: "/search/net/case-sensitive/pptx/"
-          description: "Presentasi PowerPoint Open XML"
+          description: "Presentasi Open XML PowerPoint"
 
         # format loop 4
-        - name: ""
+        - name: "Pencarian TXT sensitif huruf"
           format: "TXT"
           link: "/search/net/case-sensitive/txt/"
           description: "Dokumen Teks"
           
         # format loop 5
-        - name: ""
+        - name: "Pencarian XLSX sensitif huruf"
           format: "XLSX"
           link: "/search/net/case-sensitive/xlsx/"
-          description: "Spreadsheet Microsoft Excel Open XML"
+          description: "Spreadsheet Open XML Microsoft Excel"
   
 
 ---

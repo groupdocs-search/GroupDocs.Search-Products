@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:29
+date:  2025-03-14T11:10:45
 draft: false
 lang: pt
 format: Pdf
@@ -54,7 +54,7 @@ steps:
       copy_title: "Copiar"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Resultado da busca"
       install:
         command_title: "Maven XML"
         command: |
@@ -169,7 +169,7 @@ more_features:
           copy_done: "copiado"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Baixar resultado"
             icon: "download"
             link: "/examples/search/formats/searchboolean.pdf"
         links:
@@ -210,34 +210,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Busca por condição"
           operation: "boolean"
           link: "/search/java/boolean/pdf/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Encontre informações em documentos usando condições booleanas"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Busca sensível a maiúsculas"
           operation: "case-sensitive"
           link: "/search/java/case-sensitive/pdf/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Aprimore a precisão da busca considerando a sensibilidade a maiúsculas"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Indexação de documentos"
           operation: "document"
           link: "/search/java/document/pdf/"
-          description: "{common-content.operations.document.description}"
+          description: "Indexe documentos uma vez e reutilize o índice para múltiplas buscas"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Filtros de busca"
           operation: "filters"
           link: "/search/java/filters/pdf/"
-          description: "{common-content.operations.filters.description}"
+          description: "Use filtros para restringir os dados processados"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Frase exata"
           operation: "phrase"
           link: "/search/java/phrase/pdf/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Busque por uma frase ou sentença específica"
           
         
           
@@ -249,31 +249,31 @@ more_formats:
     description: "GroupDocs.Search suporta mais de 70 formatos de arquivo, permitindo que você personalize regras de busca e utilize indexação para otimizar o desempenho."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Busca booleana em DOCX"
           format: "DOCX"
           link: "/search/java/boolean/docx/"
           description: "Documento Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "Busca booleana em PDF"
           format: "PDF"
           link: "/search/java/boolean/pdf/"
           description: "Formato de Documento Portátil Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "Busca booleana em PPTX"
           format: "PPTX"
           link: "/search/java/boolean/pptx/"
           description: "Apresentação PowerPoint Open XML"
 
         # format loop 4
-        - name: ""
+        - name: "Busca booleana em TXT"
           format: "TXT"
           link: "/search/java/boolean/txt/"
           description: "Documento de Texto"
           
         # format loop 5
-        - name: ""
+        - name: "Busca booleana em XLSX"
           format: "XLSX"
           link: "/search/java/boolean/xlsx/"
           description: "Planilha Microsoft Excel Open XML"

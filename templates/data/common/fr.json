@@ -1,93 +1,68 @@
 {
   "common-content": {
     "format-formats": {
-      "csv": {
-        "name": "Rechercher dans CSV",
-        "description": "Valeurs Séparées par des Virgules"
-      },
-      "doc": {
-        "name": "Rechercher dans DOC",
-        "description": "Document Microsoft Word 97 - 2007"
-      },
       "docx": {
-        "name": "Rechercher dans DOCX",
+        "name": "Recherche dans DOCX",
         "description": "Document Open XML de Microsoft Word"
       },
-      "eml": {
-        "name": "Rechercher dans EML",
-        "description": "Message E-Mail"
-      },
-      "epub": {
-        "name": "Rechercher dans EPUB",
-        "description": "Fichier Open eBook"
-      },
-      "fb2": {
-        "name": "Rechercher dans FB2",
-        "description": "Fichier FictionBook"
-      },
-      "md": {
-        "name": "Rechercher dans MD",
-        "description": "Langage Markdown"
-      },
-      "odp": {
-        "name": "Rechercher dans ODP",
-        "description": "Format de Présentation OpenDocument"
-      },
-      "one": {
-        "name": "Rechercher dans ONE",
-        "description": "Document OneNote"
-      },
       "pdf": {
-        "name": "Rechercher dans PDF",
-        "description": "Format de Document Portable Adobe"
-      },
-      "pps": {
-        "name": "Rechercher dans PPS",
-        "description": "Diaporama PowerPoint"
-      },
-      "ppt": {
-        "name": "Rechercher dans PPT",
-        "description": "Présentation PowerPoint 97-2003"
+        "name": "Recherche dans PDF",
+        "description": "Format de document portable Adobe"
       },
       "pptx": {
-        "name": "Rechercher dans PPTX",
-        "description": "Présentation Open XML PowerPoint"
-      },
-      "pst": {
-        "name": "Rechercher dans PST",
-        "description": "Fichier de Stockage d'Informations Personnelles Outlook"
-      },
-      "rtf": {
-        "name": "Rechercher dans RTF",
-        "description": "Format de Texte Enrichi"
-      },
-      "tsv": {
-        "name": "Rechercher dans TSV",
-        "description": "Valeurs Séparées par des Tabulations"
+        "name": "Recherche dans PPTX",
+        "description": "Présentation Open XML de PowerPoint"
       },
       "txt": {
-        "name": "Rechercher dans TXT",
-        "description": "Document Texte"
-      },
-      "xls": {
-        "name": "Rechercher dans XLS",
-        "description": "Classeur Microsoft Excel 97-2003"
+        "name": "Recherche dans TXT",
+        "description": "Document texte"
       },
       "xlsx": {
-        "name": "Rechercher dans XLSX",
-        "description": "Feuille de Calcul Open XML Microsoft Excel"
+        "name": "Recherche dans XLSX",
+        "description": "Tableur Open XML de Microsoft Excel"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "Recherche booléenne dans PDF",
+        "docx": "Recherche booléenne dans DOCX",
+        "xlsx": "Recherche booléenne dans XLSX",
+        "pptx": "Recherche booléenne dans PPTX",
+        "txt": "Recherche booléenne dans TXT"
       },
-      "xml": {
-        "name": "Rechercher dans XML",
-        "description": "Fichier XML"
+      "case-sensitive": {
+        "pdf": "Recherche sensible à la casse dans PDF",
+        "docx": "Recherche sensible à la casse dans DOCX",
+        "xlsx": "Recherche sensible à la casse dans XLSX",
+        "pptx": "Recherche sensible à la casse dans PPTX",
+        "txt": "Recherche sensible à la casse dans TXT"
       },
-      "zip": {
-        "name": "Rechercher dans ZIP",
-        "description": "Archive Zip"
+      "document": {
+        "pdf": "Recherche dans le document PDF",
+        "docx": "Recherche dans le document DOCX",
+        "xlsx": "Recherche dans le document XLSX",
+        "pptx": "Recherche dans le document PPTX",
+        "txt": "Recherche dans le document TXT"
+      },
+      "filters": {
+        "pdf": "Filtres de recherche pour PDF",
+        "docx": "Filtres de recherche pour DOCX",
+        "xlsx": "Filtres de recherche pour XLSX",
+        "pptx": "Filtres de recherche pour PPTX",
+        "txt": "Filtres de recherche pour TXT"
+      },
+      "phrase": {
+        "pdf": "Recherche de phrase dans PDF",
+        "docx": "Recherche de phrase dans DOCX",
+        "xlsx": "Recherche de phrase dans XLSX",
+        "pptx": "Recherche de phrase dans PPTX",
+        "txt": "Recherche de phrase dans TXT"
       }
     },
     "format-code": {
       "copy_title": "Copier",
+      "result_title": "Résultat de la recherche",
+      "result_title_bottom": "Télécharger le résultat",
       "copy_tip": "cliquez pour copier",
       "copy_done": "copié",
       "links": {
@@ -98,11 +73,33 @@
     "format-actions": {
       "title": "Prêt à commencer ?",
       "description": "Essayez les fonctionnalités de {{ProdShortName}} gratuitement ou demandez une licence",
-      "comment_1": "Téléchargement de {{PackageStoreName}}",
+      "comment_1": "Téléchargement {{PackageStoreName}}",
       "comment_2": "Licences"
     },
     "texts": {
       "learn_more": "En savoir plus"
+    },
+    "operations": {
+      "boolean": {
+        "name": "Recherche par condition",
+        "description": "Trouvez des informations dans les documents en utilisant des conditions booléennes"
+      },
+      "case-sensitive": {
+        "name": "Recherche sensible à la casse",
+        "description": "Améliorez la précision de la recherche en tenant compte de la casse"
+      },
+      "document": {
+        "name": "Indexation de documents",
+        "description": "Indexez les documents une fois et réutilisez l'index pour plusieurs recherches"
+      },
+      "filters": {
+        "name": "Filtres de recherche",
+        "description": "Utilisez des filtres pour affiner les données traitées"
+      },
+      "phrase": {
+        "name": "Phrase exacte",
+        "description": "Recherchez une phrase ou une expression spécifique"
+      }
     }
   }
 }

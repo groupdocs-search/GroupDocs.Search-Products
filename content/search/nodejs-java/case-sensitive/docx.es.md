@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:33
+date:  2025-03-14T11:10:48
 draft: false
 lang: es
 format: Docx
@@ -32,7 +32,7 @@ about:
     enable: true
     title: "¿Qué es GroupDocs.Search?"
     link: "/search/nodejs-java/"
-    link_title: "Aprende más"
+    link_title: "Saber más"
     picture: "about_search.svg" # 480 X 400
     content: |
        [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) es una potente biblioteca para buscar e indexar texto en documentos. Soporta más de 70 formatos, incluyendo PDF, Word, Excel, PowerPoint, imágenes y archivos ZIP, lo que permite manejar eficientemente grandes cantidades de datos.
@@ -54,7 +54,7 @@ steps:
       copy_title: "Copiar"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Resultado de búsqueda"
       install:
         command: "npm i @groupdocs/groupdocs.search"
         copy_tip: "haz clic para copiar"
@@ -148,7 +148,7 @@ more_features:
           copy_done: "copiado"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Descargar resultado"
             icon: "download"
             link: "/examples/search/formats/searchcase-sensitive.docx"
         links:
@@ -167,15 +167,15 @@ more_features:
 
 actions:
   enable: true
-  title: "¿Listo para comenzar?"
-  description: "Prueba las características de GroupDocs.Search de forma gratuita o solicita una licencia"
+  title: "¿Listo para empezar?"
+  description: "Prueba las funciones de GroupDocs.Search gratis o solicita una licencia"
   items:
     #  loop
     - title: "Descarga de NPM"
       link: "https://releases.groupdocs.com/search/nodejs-java/"
       color: "red"
         #  loop
-    - title: "Licenciamiento"
+    - title: "Licencias"
       link: "https://purchase.groupdocs.com/pricing/search/nodejs-java/"
       color: "light"
 
@@ -189,34 +189,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Búsqueda por condición"
           operation: "boolean"
           link: "/search/nodejs-java/boolean/docx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Encuentra información en documentos usando condiciones booleanas"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Búsqueda sensible a mayúsculas y minúsculas"
           operation: "case-sensitive"
           link: "/search/nodejs-java/case-sensitive/docx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Mejora la precisión de la búsqueda considerando la sensibilidad de mayúsculas"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Indexación de documentos"
           operation: "document"
           link: "/search/nodejs-java/document/docx/"
-          description: "{common-content.operations.document.description}"
+          description: "Indexa documentos una vez y reutiliza el índice para múltiples búsquedas"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Filtros de búsqueda"
           operation: "filters"
           link: "/search/nodejs-java/filters/docx/"
-          description: "{common-content.operations.filters.description}"
+          description: "Utiliza filtros para reducir los datos procesados"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Frase exacta"
           operation: "phrase"
           link: "/search/nodejs-java/phrase/docx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Busca una oración o frase específica"
           
         
           
@@ -228,31 +228,31 @@ more_formats:
     description: "GroupDocs.Search es compatible con más de 70 formatos de documento. Personaliza tus opciones de búsqueda y ahorra tiempo con la indexación."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Búsqueda sensible a mayúsculas y minúsculas en DOCX"
           format: "DOCX"
           link: "/search/nodejs-java/case-sensitive/docx/"
           description: "Documento de Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "Búsqueda sensible a mayúsculas y minúsculas en PDF"
           format: "PDF"
           link: "/search/nodejs-java/case-sensitive/pdf/"
           description: "Formato de Documento Portátil de Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "Búsqueda sensible a mayúsculas y minúsculas en PPTX"
           format: "PPTX"
           link: "/search/nodejs-java/case-sensitive/pptx/"
           description: "Presentación Open XML de PowerPoint"
 
         # format loop 4
-        - name: ""
+        - name: "Búsqueda sensible a mayúsculas y minúsculas en TXT"
           format: "TXT"
           link: "/search/nodejs-java/case-sensitive/txt/"
           description: "Documento de Texto"
           
         # format loop 5
-        - name: ""
+        - name: "Búsqueda sensible a mayúsculas y minúsculas en XLSX"
           format: "XLSX"
           link: "/search/nodejs-java/case-sensitive/xlsx/"
           description: "Hoja de Cálculo Open XML de Microsoft Excel"

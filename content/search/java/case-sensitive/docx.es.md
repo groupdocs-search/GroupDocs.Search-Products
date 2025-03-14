@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:31
+date:  2025-03-14T11:10:47
 draft: false
 lang: es
 format: Docx
@@ -32,7 +32,7 @@ about:
     enable: true
     title: "Conoce GroupDocs.Search"
     link: "/search/java/"
-    link_title: "Aprende más"
+    link_title: "Saber más"
     picture: "about_search.svg" # 480 X 400
     content: |
        [GroupDocs.Search for Java](/search/java/) es una herramienta versátil para la búsqueda y el indexado de texto en diversos documentos. Soporta más de 70 formatos como PDFs, archivos de Word, presentaciones de PowerPoint, hojas de Excel, imágenes y archivos ZIP, lo que te permite manejar eficientemente conjuntos de datos extensos.
@@ -54,7 +54,7 @@ steps:
       copy_title: "Copiar"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Resultado de búsqueda"
       install:
         command_title: "Maven XML"
         command: |
@@ -175,7 +175,7 @@ more_features:
           copy_done: "copiado"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Descargar resultado"
             icon: "download"
             link: "/examples/search/formats/searchcase-sensitive.docx"
         links:
@@ -194,15 +194,15 @@ more_features:
 
 actions:
   enable: true
-  title: "¿Listo para comenzar?"
-  description: "Prueba las características de GroupDocs.Search de forma gratuita o solicita una licencia"
+  title: "¿Listo para empezar?"
+  description: "Prueba las funciones de GroupDocs.Search gratis o solicita una licencia"
   items:
     #  loop
     - title: "Descarga de Maven"
       link: "https://releases.groupdocs.com/search/java/"
       color: "red"
         #  loop
-    - title: "Licenciamiento"
+    - title: "Licencias"
       link: "https://purchase.groupdocs.com/pricing/search/java/"
       color: "light"
 
@@ -216,34 +216,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Búsqueda por condición"
           operation: "boolean"
           link: "/search/java/boolean/docx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Encuentra información en documentos usando condiciones booleanas"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Búsqueda sensible a mayúsculas y minúsculas"
           operation: "case-sensitive"
           link: "/search/java/case-sensitive/docx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Mejora la precisión de la búsqueda considerando la sensibilidad de mayúsculas"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Indexación de documentos"
           operation: "document"
           link: "/search/java/document/docx/"
-          description: "{common-content.operations.document.description}"
+          description: "Indexa documentos una vez y reutiliza el índice para múltiples búsquedas"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Filtros de búsqueda"
           operation: "filters"
           link: "/search/java/filters/docx/"
-          description: "{common-content.operations.filters.description}"
+          description: "Utiliza filtros para reducir los datos procesados"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Frase exacta"
           operation: "phrase"
           link: "/search/java/phrase/docx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Busca una oración o frase específica"
           
         
           
@@ -255,31 +255,31 @@ more_formats:
     description: "GroupDocs.Search trabaja con más de 70 formatos de documentos populares, ofreciendo configuraciones de búsqueda personalizables e indexado eficiente."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Búsqueda sensible a mayúsculas y minúsculas en DOCX"
           format: "DOCX"
           link: "/search/java/case-sensitive/docx/"
           description: "Documento de Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "Búsqueda sensible a mayúsculas y minúsculas en PDF"
           format: "PDF"
           link: "/search/java/case-sensitive/pdf/"
           description: "Formato de Documento Portátil de Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "Búsqueda sensible a mayúsculas y minúsculas en PPTX"
           format: "PPTX"
           link: "/search/java/case-sensitive/pptx/"
           description: "Presentación Open XML de PowerPoint"
 
         # format loop 4
-        - name: ""
+        - name: "Búsqueda sensible a mayúsculas y minúsculas en TXT"
           format: "TXT"
           link: "/search/java/case-sensitive/txt/"
           description: "Documento de Texto"
           
         # format loop 5
-        - name: ""
+        - name: "Búsqueda sensible a mayúsculas y minúsculas en XLSX"
           format: "XLSX"
           link: "/search/java/case-sensitive/xlsx/"
           description: "Hoja de Cálculo Open XML de Microsoft Excel"

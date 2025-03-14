@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:30
+date:  2025-03-14T11:10:46
 draft: false
 lang: ru
 format: Txt
@@ -54,7 +54,7 @@ steps:
       copy_title: "Копировать"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Результат поиска"
       install:
         command: "dotnet add package GroupDocs.Search"
         copy_tip: "нажмите, чтобы скопировать"
@@ -138,7 +138,7 @@ more_features:
           copy_done: "скопировано"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Скачать результат"
             icon: "download"
             link: "/examples/search/formats/searchboolean.txt"
         links:
@@ -158,7 +158,7 @@ more_features:
 actions:
   enable: true
   title: "Готовы начать?"
-  description: "Попробуйте возможности GroupDocs.Search бесплатно или запросите лицензию"
+  description: "Попробуйте функции GroupDocs.Search бесплатно или запросите лицензию"
   items:
     #  loop
     - title: "Скачивание Nuget"
@@ -179,34 +179,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Поиск по условию"
           operation: "boolean"
           link: "/search/net/boolean/txt/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Находите информацию в документах, используя булевы условия"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Чувствительный к регистру поиск"
           operation: "case-sensitive"
           link: "/search/net/case-sensitive/txt/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Улучшите точность поиска, учитывая регистр"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Индексирование документов"
           operation: "document"
           link: "/search/net/document/txt/"
-          description: "{common-content.operations.document.description}"
+          description: "Индексируйте документы один раз и повторно используйте индекс для множества поисков"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Поисковые фильтры"
           operation: "filters"
           link: "/search/net/filters/txt/"
-          description: "{common-content.operations.filters.description}"
+          description: "Используйте фильтры для уточнения обрабатываемых данных"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Точная фраза"
           operation: "phrase"
           link: "/search/net/phrase/txt/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Ищите конкретное предложение или фразу"
           
         
           
@@ -218,31 +218,31 @@ more_formats:
     description: "GroupDocs.Search поддерживает более 70 форматов файлов. Настраивайте правила поиска и используйте индексирование, чтобы сэкономить время и усилия."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Булевый поиск в DOCX"
           format: "DOCX"
           link: "/search/net/boolean/docx/"
           description: "Документ Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "Булевый поиск в PDF"
           format: "PDF"
           link: "/search/net/boolean/pdf/"
           description: "Формат переносимого документа Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "Булевый поиск в PPTX"
           format: "PPTX"
           link: "/search/net/boolean/pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop 4
-        - name: ""
+        - name: "Булевый поиск в TXT"
           format: "TXT"
           link: "/search/net/boolean/txt/"
           description: "Текстовый документ"
           
         # format loop 5
-        - name: ""
+        - name: "Булевый поиск в XLSX"
           format: "XLSX"
           link: "/search/net/boolean/xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"

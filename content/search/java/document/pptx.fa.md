@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:34
+date:  2025-03-14T11:10:49
 draft: false
 lang: fa
 format: Pptx
@@ -32,7 +32,7 @@ about:
     enable: true
     title: "وظیفه GroupDocs.Search چیست؟"
     link: "/search/java/"
-    link_title: "بیشتر بدانید"
+    link_title: "بیشتر بیاموزید"
     picture: "about_search.svg" # 480 X 400
     content: |
        [GroupDocs.Search for Java](/search/java/) یک کتابخانه جستجو و فهرست‌سازی اسناد قدرتمند است که از بیش از 70 فرمت فایل، از جمله PDF، Word، PowerPoint، Excel، تصاویر و آرشیوهای ZIP پشتیبانی می‌کند. این امکان را برای جستجوی سریع، دقیق و مقیاس‌پذیر در مجموعه‌های بزرگ اسناد فراهم می‌کند.
@@ -54,7 +54,7 @@ steps:
       copy_title: "کپی"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "نتیجه جستجو"
       install:
         command_title: "Maven XML"
         command: |
@@ -176,7 +176,7 @@ more_features:
           copy_done: "کپی شد"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "دانلود نتیجه"
             icon: "download"
             link: "/examples/search/formats/searchdocument.pptx"
         links:
@@ -196,7 +196,7 @@ more_features:
 actions:
   enable: true
   title: "آماده شروع هستید؟"
-  description: "امکانات GroupDocs.Search را به صورت رایگان امتحان کنید یا درخواست مجوز دهید"
+  description: "ویژگی‌های GroupDocs.Search را رایگان امتحان کنید یا درخواست مجوز دهید"
   items:
     #  loop
     - title: "دانلود Maven"
@@ -217,34 +217,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "جستجو با شرط"
           operation: "boolean"
           link: "/search/java/boolean/pptx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "یافتن اطلاعات در اسناد با استفاده از شرایط بولی"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "جستجوی حساس به حروف بزرگ و کوچک"
           operation: "case-sensitive"
           link: "/search/java/case-sensitive/pptx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "دقت جستجو را با در نظر گرفتن حساسیت حروف افزایش دهید"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "شاخص‌گذاری اسناد"
           operation: "document"
           link: "/search/java/document/pptx/"
-          description: "{common-content.operations.document.description}"
+          description: "اسناد را یک‌بار شاخص‌گذاری کنید و از شاخص برای جستجوهای متعدد استفاده کنید"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "فیلترهای جستجو"
           operation: "filters"
           link: "/search/java/filters/pptx/"
-          description: "{common-content.operations.filters.description}"
+          description: "از فیلترها برای محدود کردن داده‌های پردازش‌شده استفاده کنید"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "عبارت دقیق"
           operation: "phrase"
           link: "/search/java/phrase/pptx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "جستجو برای یک جمله یا عبارت خاص"
           
         
           
@@ -256,34 +256,34 @@ more_formats:
     description: "GroupDocs.Search از بیش از 70 فرمت پشتیبانی می‌کند که شامل فایل‌های اداری بوده و امکان جستجوهای سریع با قابلیت‌های پیشرفته فهرست‌سازی را فراهم می‌کند."
     items: 
         # format loop 1
-        - name: ""
+        - name: "جستجو در سند DOCX"
           format: "DOCX"
           link: "/search/java/document/docx/"
-          description: "مدرک مایکروسافت ورد Open XML"
+          description: "سند XML باز مایکروسافت ورد"
           
         # format loop 2
-        - name: ""
+        - name: "جستجو در سند PDF"
           format: "PDF"
           link: "/search/java/document/pdf/"
-          description: "فرمت مدرک قابل حمل Adobe"
+          description: "فرمت سند قابل حمل Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "جستجو در سند PPTX"
           format: "PPTX"
           link: "/search/java/document/pptx/"
-          description: "ارائه PowerPoint Open XML"
+          description: "ارائه XML باز پاورپوینت"
 
         # format loop 4
-        - name: ""
+        - name: "جستجو در سند TXT"
           format: "TXT"
           link: "/search/java/document/txt/"
-          description: "مدرک متنی"
+          description: "سند متنی"
           
         # format loop 5
-        - name: ""
+        - name: "جستجو در سند XLSX"
           format: "XLSX"
           link: "/search/java/document/xlsx/"
-          description: "جدول محتوای Open XML مایکروسافت اکسل"
+          description: "برگه XML باز مایکروسافت اکسل"
   
 
 ---

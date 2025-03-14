@@ -1,94 +1,69 @@
 {
   "common-content": {
     "format-formats": {
-      "csv": {
-        "name": "在 CSV 中查找",
-        "description": "逗号分隔值"
-      },
-      "doc": {
-        "name": "在 DOC 中查找",
-        "description": "Microsoft Word 97 - 2007 文档"
-      },
       "docx": {
-        "name": "在 DOCX 中查找",
+        "name": "在 DOCX 中搜索",
         "description": "Microsoft Word Open XML 文档"
       },
-      "eml": {
-        "name": "在 EML 中查找",
-        "description": "电子邮件消息"
-      },
-      "epub": {
-        "name": "在 EPUB 中查找",
-        "description": "开放电子书文件"
-      },
-      "fb2": {
-        "name": "在 FB2 中查找",
-        "description": "小说书籍文件"
-      },
-      "md": {
-        "name": "在 MD 中查找",
-        "description": "Markdown 语言"
-      },
-      "odp": {
-        "name": "在 ODP 中查找",
-        "description": "开放文档演示格式"
-      },
-      "one": {
-        "name": "在 ONE 中查找",
-        "description": "OneNote 文档"
-      },
       "pdf": {
-        "name": "在 PDF 中查找",
-        "description": "Adobe 便携式文档格式"
-      },
-      "pps": {
-        "name": "在 PPS 中查找",
-        "description": "PowerPoint 幻灯片放映"
-      },
-      "ppt": {
-        "name": "在 PPT 中查找",
-        "description": "PowerPoint 演示文稿 97-2003"
+        "name": "在 PDF 中搜索",
+        "description": "Adobe 可移植文档格式"
       },
       "pptx": {
-        "name": "在 PPTX 中查找",
+        "name": "在 PPTX 中搜索",
         "description": "PowerPoint Open XML 演示文稿"
       },
-      "pst": {
-        "name": "在 PST 中查找",
-        "description": "Outlook 个人信息存储文件"
-      },
-      "rtf": {
-        "name": "在 RTF 中查找",
-        "description": "富文本格式"
-      },
-      "tsv": {
-        "name": "在 TSV 中查找",
-        "description": "制表符分隔值"
-      },
       "txt": {
-        "name": "在 TXT 中查找",
-        "description": "文本文档"
-      },
-      "xls": {
-        "name": "在 XLS 中查找",
-        "description": "Microsoft Excel 工作簿 97-2003"
+        "name": "在 TXT 中搜索",
+        "description": "文本文件"
       },
       "xlsx": {
-        "name": "在 XLSX 中查找",
+        "name": "在 XLSX 中搜索",
         "description": "Microsoft Excel Open XML 电子表格"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "PDF 布尔搜索",
+        "docx": "DOCX 布尔搜索",
+        "xlsx": "XLSX 布尔搜索",
+        "pptx": "PPTX 布尔搜索",
+        "txt": "TXT 布尔搜索"
       },
-      "xml": {
-        "name": "在 XML 中查找",
-        "description": "XML 文件"
+      "case-sensitive": {
+        "pdf": "PDF 大小写敏感搜索",
+        "docx": "DOCX 大小写敏感搜索",
+        "xlsx": "XLSX 大小写敏感搜索",
+        "pptx": "PPTX 大小写敏感搜索",
+        "txt": "TXT 大小写敏感搜索"
       },
-      "zip": {
-        "name": "在 ZIP 中查找",
-        "description": "压缩文件"
+      "document": {
+        "pdf": "在 PDF 文档中搜索",
+        "docx": "在 DOCX 文档中搜索",
+        "xlsx": "在 XLSX 文档中搜索",
+        "pptx": "在 PPTX 文档中搜索",
+        "txt": "在 TXT 文档中搜索"
+      },
+      "filters": {
+        "pdf": "PDF 搜索过滤器",
+        "docx": "DOCX 搜索过滤器",
+        "xlsx": "XLSX 搜索过滤器",
+        "pptx": "PPTX 搜索过滤器",
+        "txt": "TXT 搜索过滤器"
+      },
+      "phrase": {
+        "pdf": "PDF 短语搜索",
+        "docx": "DOCX 短语搜索",
+        "xlsx": "XLSX 短语搜索",
+        "pptx": "PPTX 短语搜索",
+        "txt": "TXT 短语搜索"
       }
     },
     "format-code": {
       "copy_title": "复制",
-      "copy_tip": "点击以复制",
+      "result_title": "搜索结果",
+      "result_title_bottom": "下载结果",
+      "copy_tip": "点击复制",
       "copy_done": "已复制",
       "links": {
         "title_1": "更多示例",
@@ -97,12 +72,34 @@
     },
     "format-actions": {
       "title": "准备好开始了吗？",
-      "description": "免费试用 {{ProdShortName}} 的功能或请求许可证",
+      "description": "免费试用 {{ProdShortName}} 的功能或申请许可证",
       "comment_1": "{{PackageStoreName}} 下载",
-      "comment_2": "许可证"
+      "comment_2": "许可"
     },
     "texts": {
       "learn_more": "了解更多"
+    },
+    "operations": {
+      "boolean": {
+        "name": "条件搜索",
+        "description": "使用布尔条件在文档中查找信息"
+      },
+      "case-sensitive": {
+        "name": "区分大小写搜索",
+        "description": "通过考虑大小写敏感性提高搜索准确性"
+      },
+      "document": {
+        "name": "文档索引",
+        "description": "一次索引文档，然后为多次搜索重用索引"
+      },
+      "filters": {
+        "name": "搜索过滤器",
+        "description": "使用过滤器缩小处理的数据范围"
+      },
+      "phrase": {
+        "name": "精确短语",
+        "description": "搜索特定的句子或短语"
+      }
     }
   }
 }

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:40
+date:  2025-03-14T11:10:53
 draft: false
 lang: it
 format: Pptx
@@ -54,7 +54,7 @@ steps:
       copy_title: "Copia"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Risultato della ricerca"
       install:
         command: "dotnet add package GroupDocs.Search"
         copy_tip: "clicca per copiare"
@@ -147,7 +147,7 @@ more_features:
           copy_done: "copiato"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Scarica risultato"
             icon: "download"
             link: "/examples/search/formats/searchphrase.pptx"
         links:
@@ -167,7 +167,7 @@ more_features:
 actions:
   enable: true
   title: "Pronto per iniziare?"
-  description: "Prova le funzionalità di GroupDocs.Search gratuitamente oppure richiedi una licenza"
+  description: "Prova le funzionalità di GroupDocs.Search gratuitamente o richiedi una licenza"
   items:
     #  loop
     - title: "Download di Nuget"
@@ -188,34 +188,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Ricerca per condizione"
           operation: "boolean"
           link: "/search/net/boolean/pptx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Trova informazioni nei documenti utilizzando condizioni booleane"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Ricerca case-sensitive"
           operation: "case-sensitive"
           link: "/search/net/case-sensitive/pptx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Migliora l'accuratezza della ricerca considerando la sensibilità al maiuscolo"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Indicizzazione documentale"
           operation: "document"
           link: "/search/net/document/pptx/"
-          description: "{common-content.operations.document.description}"
+          description: "Indicizza i documenti una volta e riutilizza l'indice per più ricerche"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Filtri di ricerca"
           operation: "filters"
           link: "/search/net/filters/pptx/"
-          description: "{common-content.operations.filters.description}"
+          description: "Utilizza i filtri per restringere i dati trattati"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Frase esatta"
           operation: "phrase"
           link: "/search/net/phrase/pptx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Cerca una specifica frase o espressione"
           
         
           
@@ -227,31 +227,31 @@ more_formats:
     description: "GroupDocs.Search supporta ricerche in oltre 70 formati di documento. Utilizza opzioni avanzate e indicizzazione per semplificare il tuo processo di ricerca."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Ricerca frase in DOCX"
           format: "DOCX"
           link: "/search/net/phrase/docx/"
           description: "Documento Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "Ricerca frase in PDF"
           format: "PDF"
           link: "/search/net/phrase/pdf/"
-          description: "Formato Documento Portabile Adobe"
+          description: "Formato di Documento Portatile Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "Ricerca frase in PPTX"
           format: "PPTX"
           link: "/search/net/phrase/pptx/"
           description: "Presentazione PowerPoint Open XML"
 
         # format loop 4
-        - name: ""
+        - name: "Ricerca frase in TXT"
           format: "TXT"
           link: "/search/net/phrase/txt/"
           description: "Documento di Testo"
           
         # format loop 5
-        - name: ""
+        - name: "Ricerca frase in XLSX"
           format: "XLSX"
           link: "/search/net/phrase/xlsx/"
           description: "Foglio di calcolo Microsoft Excel Open XML"

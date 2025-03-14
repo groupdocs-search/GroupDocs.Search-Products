@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:39
+date:  2025-03-14T11:10:52
 draft: false
 lang: ko
 format: Txt
@@ -54,7 +54,7 @@ steps:
       copy_title: "복사"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "검색 결과"
       install:
         command_title: "Maven XML"
         command: |
@@ -73,11 +73,11 @@ steps:
               <url>https://repository.groupdocs.com/repo/</url>
             </repository>
           </repositories>
-        copy_tip: "복사하려면 클릭"
-        copy_done: "복사됨"
+        copy_tip: "클릭하여 복사"
+        copy_done: "복사 완료"
       links:
         #  loop
-        - title: "더 많은 예제"
+        - title: "자세한 예시"
           link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Java/"
         #  loop
         - title: "문서화"
@@ -174,16 +174,16 @@ more_features:
                 <url>https://repository.groupdocs.com/repo/</url>
               </repository>
             </repositories>
-          copy_tip: "복사하려면 클릭"
-          copy_done: "복사됨"
+          copy_tip: "클릭하여 복사"
+          copy_done: "복사 완료"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "결과 다운로드"
             icon: "download"
             link: "/examples/search/formats/searchphrase.txt"
         links:
           #  loop
-          - title: "더 많은 예제"
+          - title: "자세한 예시"
             link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Java/"
           #  loop
           - title: "문서화"
@@ -198,7 +198,7 @@ more_features:
 actions:
   enable: true
   title: "시작할 준비가 되셨습니까?"
-  description: "GroupDocs.Search 기능을 무료로 시험해 보거나 라이센스를 요청하세요."
+  description: "GroupDocs.Search의 기능을 무료로 체험하거나 라이센스를 요청해 보십시오."
   items:
     #  loop
     - title: "Maven 다운로드"
@@ -219,34 +219,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "조건부 검색"
           operation: "boolean"
           link: "/search/java/boolean/txt/"
-          description: "{common-content.operations.boolean.description}"
+          description: "부울 조건을 사용하여 문서에서 정보 찾기"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "대소문자 구분 검색"
           operation: "case-sensitive"
           link: "/search/java/case-sensitive/txt/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "대소문자 구분을 고려하여 검색 정확도를 향상"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "문서 색인화"
           operation: "document"
           link: "/search/java/document/txt/"
-          description: "{common-content.operations.document.description}"
+          description: "문서를 한 번 색인화하고 여러 검색에 재사용"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "검색 필터"
           operation: "filters"
           link: "/search/java/filters/txt/"
-          description: "{common-content.operations.filters.description}"
+          description: "처리 중인 데이터를 좁혀주기 위해 필터 사용"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "정확한 구문"
           operation: "phrase"
           link: "/search/java/phrase/txt/"
-          description: "{common-content.operations.phrase.description}"
+          description: "특정 문장이나 구문 검색"
           
         
           
@@ -258,34 +258,34 @@ more_formats:
     description: "GroupDocs.Search는 70개 이상의 문서 형식에서 구문 검색을 가능하게 합니다. 효율적인 검색을 위해 고급 옵션 및 색인화 기능을 활용하세요."
     items: 
         # format loop 1
-        - name: ""
+        - name: "DOCX 구문 검색"
           format: "DOCX"
           link: "/search/java/phrase/docx/"
-          description: "Microsoft Word Open XML 문서"
+          description: "마이크로소프트 워드 오픈 XML 문서"
           
         # format loop 2
-        - name: ""
+        - name: "PDF 구문 검색"
           format: "PDF"
           link: "/search/java/phrase/pdf/"
-          description: "Adobe 휴대용 문서 형식"
+          description: "어도비 휴대용 문서 형식"
           
         # format loop 3
-        - name: ""
+        - name: "PPTX 구문 검색"
           format: "PPTX"
           link: "/search/java/phrase/pptx/"
-          description: "PowerPoint Open XML 프레젠테이션"
+          description: "파워포인트 오픈 XML 프레젠테이션"
 
         # format loop 4
-        - name: ""
+        - name: "TXT 구문 검색"
           format: "TXT"
           link: "/search/java/phrase/txt/"
           description: "텍스트 문서"
           
         # format loop 5
-        - name: ""
+        - name: "XLSX 구문 검색"
           format: "XLSX"
           link: "/search/java/phrase/xlsx/"
-          description: "Microsoft Excel Open XML 스프레드시트"
+          description: "마이크로소프트 엑셀 오픈 XML 스프레드시트"
   
 
 ---

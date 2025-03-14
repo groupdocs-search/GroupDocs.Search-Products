@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:30
+date:  2025-03-14T11:10:46
 draft: false
 lang: fa
 format: Pdf
@@ -32,7 +32,7 @@ about:
     enable: true
     title: "GroupDocs.Search چیست؟"
     link: "/search/nodejs-java/"
-    link_title: "بیشتر بدانید"
+    link_title: "بیشتر بیاموزید"
     picture: "about_search.svg" # 480 X 400
     content: |
        [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) ابزاری قدرتمند برای جستجو و نمایه‌سازی متن درون اسناد است. این ابزار از بیش از 70 فرمت مانند PDF، Word، Excel، PowerPoint، تصاویر و فایل‌های ZIP پشتیبانی می‌کند و به طور مؤثر پردازش اطلاعات زیاد را تسهیل می‌کند.
@@ -54,7 +54,7 @@ steps:
       copy_title: "کپی"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "نتیجه جستجو"
       install:
         command: "npm i @groupdocs/groupdocs.search"
         copy_tip: "برای کپی کلیک کنید"
@@ -142,7 +142,7 @@ more_features:
           copy_done: "کپی شد"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "دانلود نتیجه"
             icon: "download"
             link: "/examples/search/formats/searchboolean.pdf"
         links:
@@ -162,7 +162,7 @@ more_features:
 actions:
   enable: true
   title: "آماده شروع هستید؟"
-  description: "امکانات GroupDocs.Search را به صورت رایگان امتحان کنید یا درخواست مجوز دهید"
+  description: "ویژگی‌های GroupDocs.Search را رایگان امتحان کنید یا درخواست مجوز دهید"
   items:
     #  loop
     - title: "دانلود NPM"
@@ -183,34 +183,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "جستجو با شرط"
           operation: "boolean"
           link: "/search/nodejs-java/boolean/pdf/"
-          description: "{common-content.operations.boolean.description}"
+          description: "یافتن اطلاعات در اسناد با استفاده از شرایط بولی"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "جستجوی حساس به حروف بزرگ و کوچک"
           operation: "case-sensitive"
           link: "/search/nodejs-java/case-sensitive/pdf/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "دقت جستجو را با در نظر گرفتن حساسیت حروف افزایش دهید"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "شاخص‌گذاری اسناد"
           operation: "document"
           link: "/search/nodejs-java/document/pdf/"
-          description: "{common-content.operations.document.description}"
+          description: "اسناد را یک‌بار شاخص‌گذاری کنید و از شاخص برای جستجوهای متعدد استفاده کنید"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "فیلترهای جستجو"
           operation: "filters"
           link: "/search/nodejs-java/filters/pdf/"
-          description: "{common-content.operations.filters.description}"
+          description: "از فیلترها برای محدود کردن داده‌های پردازش‌شده استفاده کنید"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "عبارت دقیق"
           operation: "phrase"
           link: "/search/nodejs-java/phrase/pdf/"
-          description: "{common-content.operations.phrase.description}"
+          description: "جستجو برای یک جمله یا عبارت خاص"
           
         
           
@@ -222,34 +222,34 @@ more_formats:
     description: "GroupDocs.Search از بیش از 70 فرمت فایل پشتیبانی می‌کند و قوانین جستجوی انعطاف‌پذیر و نمایه‌سازی کارآمد را برای صرفه‌جویی در زمان و تلاش فراهم می‌کند."
     items: 
         # format loop 1
-        - name: ""
+        - name: "جستجوی بولی در DOCX"
           format: "DOCX"
           link: "/search/nodejs-java/boolean/docx/"
-          description: "مدرک مایکروسافت ورد Open XML"
+          description: "سند XML باز مایکروسافت ورد"
           
         # format loop 2
-        - name: ""
+        - name: "جستجوی بولی در PDF"
           format: "PDF"
           link: "/search/nodejs-java/boolean/pdf/"
-          description: "فرمت مدرک قابل حمل Adobe"
+          description: "فرمت سند قابل حمل Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "جستجوی بولی در PPTX"
           format: "PPTX"
           link: "/search/nodejs-java/boolean/pptx/"
-          description: "ارائه PowerPoint Open XML"
+          description: "ارائه XML باز پاورپوینت"
 
         # format loop 4
-        - name: ""
+        - name: "جستجوی بولی در TXT"
           format: "TXT"
           link: "/search/nodejs-java/boolean/txt/"
-          description: "مدرک متنی"
+          description: "سند متنی"
           
         # format loop 5
-        - name: ""
+        - name: "جستجوی بولی در XLSX"
           format: "XLSX"
           link: "/search/nodejs-java/boolean/xlsx/"
-          description: "جدول محتوای Open XML مایکروسافت اکسل"
+          description: "برگه XML باز مایکروسافت اکسل"
   
 
 ---

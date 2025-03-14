@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:31
+date:  2025-03-14T11:10:47
 draft: false
 lang: de
 format: Xlsx
@@ -32,7 +32,7 @@ about:
     enable: true
     title: "Erfahren Sie mehr über GroupDocs.Search"
     link: "/search/java/"
-    link_title: "Erfahren Sie mehr"
+    link_title: "Mehr Erfahren"
     picture: "about_search.svg" # 480 X 400
     content: |
        [GroupDocs.Search for Java](/search/java/) ist ein vielseitiges Tool für die Textsuche und Indizierung über verschiedene Dokumente hinweg. Es unterstützt über 70 Formate wie PDFs, Word-Dateien, PowerPoint-Präsentationen, Excel-Tabellen, Bilder und ZIPs, sodass Sie umfangreiche Datensätze effizient verwalten können.
@@ -54,7 +54,7 @@ steps:
       copy_title: "Kopieren"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Suchergebnis"
       install:
         command_title: "Maven XML"
         command: |
@@ -73,7 +73,7 @@ steps:
               <url>https://repository.groupdocs.com/repo/</url>
             </repository>
           </repositories>
-        copy_tip: "Klicken zum Kopieren"
+        copy_tip: "Klicken, um zu kopieren"
         copy_done: "kopiert"
       links:
         #  loop
@@ -171,11 +171,11 @@ more_features:
                 <url>https://repository.groupdocs.com/repo/</url>
               </repository>
             </repositories>
-          copy_tip: "Klicken zum Kopieren"
+          copy_tip: "Klicken, um zu kopieren"
           copy_done: "kopiert"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Ergebnis herunterladen"
             icon: "download"
             link: "/examples/search/formats/searchcase-sensitive.xlsx"
         links:
@@ -194,7 +194,7 @@ more_features:
 
 actions:
   enable: true
-  title: "Bereit zum Starten?"
+  title: "Bereit, loszulegen?"
   description: "Testen Sie die Funktionen von GroupDocs.Search kostenlos oder fordern Sie eine Lizenz an"
   items:
     #  loop
@@ -216,34 +216,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Suche nach Bedingungen"
           operation: "boolean"
           link: "/search/java/boolean/xlsx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Informationen in Dokumenten anhand boolescher Bedingungen finden"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Groß- und kleinschreibungssensitive Suche"
           operation: "case-sensitive"
           link: "/search/java/case-sensitive/xlsx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Verbessern Sie die Suchgenauigkeit, indem Sie die Groß- und Kleinschreibung berücksichtigen"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Dokumentenindizierung"
           operation: "document"
           link: "/search/java/document/xlsx/"
-          description: "{common-content.operations.document.description}"
+          description: "Indizieren Sie Dokumente einmal und verwenden Sie den Index für mehrere Suchen"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Suchfilter"
           operation: "filters"
           link: "/search/java/filters/xlsx/"
-          description: "{common-content.operations.filters.description}"
+          description: "Verwenden Sie Filter, um die verarbeiteten Daten einzugrenzen"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Exakte Phrase"
           operation: "phrase"
           link: "/search/java/phrase/xlsx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Nach einem bestimmten Satz oder einer bestimmten Phrase suchen"
           
         
           
@@ -255,34 +255,34 @@ more_formats:
     description: "GroupDocs.Search arbeitet mit über 70 gängigen Dokumentformaten, bietet anpassbare Suchoptionen und effiziente Indizierung."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Groß- und kleinschreibungssensitive Suche in DOCX"
           format: "DOCX"
           link: "/search/java/case-sensitive/docx/"
-          description: "Microsoft Word Open XML Dokument"
+          description: "Microsoft Word Open XML-Dokument"
           
         # format loop 2
-        - name: ""
+        - name: "Groß- und kleinschreibungssensitive Suche in PDF"
           format: "PDF"
           link: "/search/java/case-sensitive/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: ""
+        - name: "Groß- und kleinschreibungssensitive Suche in PPTX"
           format: "PPTX"
           link: "/search/java/case-sensitive/pptx/"
-          description: "PowerPoint Open XML Präsentation"
+          description: "PowerPoint Open XML-Präsentation"
 
         # format loop 4
-        - name: ""
+        - name: "Groß- und kleinschreibungssensitive Suche in TXT"
           format: "TXT"
           link: "/search/java/case-sensitive/txt/"
           description: "Textdokument"
           
         # format loop 5
-        - name: ""
+        - name: "Groß- und kleinschreibungssensitive Suche in XLSX"
           format: "XLSX"
           link: "/search/java/case-sensitive/xlsx/"
-          description: "Microsoft Excel Open XML Tabelle"
+          description: "Microsoft Excel Open XML-Spreadsheet"
   
 
 ---

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:32
+date:  2025-03-14T11:10:47
 draft: false
 lang: ja
 format: Xlsx
@@ -32,7 +32,7 @@ about:
     enable: true
     title: "GroupDocs.Searchとは何ですか？"
     link: "/search/net/"
-    link_title: "詳細を見る"
+    link_title: "さらに詳しく"
     picture: "about_search.svg" # 480 X 400
     content: |
        [GroupDocs.Search for .NET](/search/net/)は、文書内のテキスト検索およびインデックス作成を効率的に行うための強力なライブラリです。PDF、Word、PowerPoint、Excel、画像、ZIPファイルなど、70以上のファイル形式をサポートしており、大量データの取り扱いを確実にします。
@@ -54,7 +54,7 @@ steps:
       copy_title: "コピー"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "検索結果"
       install:
         command: "dotnet add package GroupDocs.Search"
         copy_tip: "クリックしてコピー"
@@ -64,7 +64,7 @@ steps:
         - title: "さらに例を見る"
           link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
         #  loop
-        - title: "ドキュメンテーション"
+        - title: "ドキュメント"
           link: "https://docs.groupdocs.com/search/net/"
           
       content: |
@@ -144,7 +144,7 @@ more_features:
           copy_done: "コピーしました"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "結果をダウンロード"
             icon: "download"
             link: "/examples/search/formats/searchcase-sensitive.xlsx"
         links:
@@ -152,7 +152,7 @@ more_features:
           - title: "さらに例を見る"
             link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
           #  loop
-          - title: "ドキュメンテーション"
+          - title: "ドキュメント"
             link: "https://docs.groupdocs.com/search/net/"
             
 
@@ -164,7 +164,7 @@ more_features:
 actions:
   enable: true
   title: "始める準備はできましたか？"
-  description: "GroupDocs.Searchの機能を無料で試すか、ライセンスをリクエストしてください"
+  description: "GroupDocs.Searchの機能を無料で試すか、ライセンスを要求してください"
   items:
     #  loop
     - title: "Nugetのダウンロード"
@@ -185,34 +185,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "条件による検索"
           operation: "boolean"
           link: "/search/net/boolean/xlsx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "ブール条件を使用してドキュメント内の情報を見つける"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "大文字小文字を区別した検索"
           operation: "case-sensitive"
           link: "/search/net/case-sensitive/xlsx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "大文字小文字を考慮することで検索の精度を向上させる"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "ドキュメントのインデックス作成"
           operation: "document"
           link: "/search/net/document/xlsx/"
-          description: "{common-content.operations.document.description}"
+          description: "ドキュメントを一度インデックス化し、複数の検索にインデックスを再利用する"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "検索フィルター"
           operation: "filters"
           link: "/search/net/filters/xlsx/"
-          description: "{common-content.operations.filters.description}"
+          description: "処理するデータを絞り込むためにフィルターを使用する"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "正確なフレーズ"
           operation: "phrase"
           link: "/search/net/phrase/xlsx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "特定の文やフレーズを検索する"
           
         
           
@@ -224,34 +224,34 @@ more_formats:
     description: "GroupDocs.Searchは70以上のファイル形式をサポートします。検索ルールをカスタマイズし、インデックス作成を活用して時間と労力を節約しましょう。"
     items: 
         # format loop 1
-        - name: ""
+        - name: "DOCXの大文字小文字を区別した検索"
           format: "DOCX"
           link: "/search/net/case-sensitive/docx/"
-          description: "Microsoft Word オープンXMLドキュメント"
+          description: "Microsoft Word Open XMLドキュメント"
           
         # format loop 2
-        - name: ""
+        - name: "PDFの大文字小文字を区別した検索"
           format: "PDF"
           link: "/search/net/case-sensitive/pdf/"
-          description: "Adobeポータブルドキュメント形式"
+          description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: ""
+        - name: "PPTXの大文字小文字を区別した検索"
           format: "PPTX"
           link: "/search/net/case-sensitive/pptx/"
-          description: "PowerPointオープンXMLプレゼンテーション"
+          description: "PowerPoint Open XMLプレゼンテーション"
 
         # format loop 4
-        - name: ""
+        - name: "TXTの大文字小文字を区別した検索"
           format: "TXT"
           link: "/search/net/case-sensitive/txt/"
           description: "テキストドキュメント"
           
         # format loop 5
-        - name: ""
+        - name: "XLSXの大文字小文字を区別した検索"
           format: "XLSX"
           link: "/search/net/case-sensitive/xlsx/"
-          description: "Microsoft ExcelオープンXMLスプレッドシート"
+          description: "Microsoft Excel Open XMLスプレッドシート"
   
 
 ---

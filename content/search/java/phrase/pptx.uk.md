@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:39
+date:  2025-03-14T11:10:53
 draft: false
 lang: uk
 format: Pptx
@@ -54,7 +54,7 @@ steps:
       copy_title: "Копіювати"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Результат пошуку"
       install:
         command_title: "Maven XML"
         command: |
@@ -73,7 +73,7 @@ steps:
               <url>https://repository.groupdocs.com/repo/</url>
             </repository>
           </repositories>
-        copy_tip: "клікніть для копіювання"
+        copy_tip: "клікніть, щоб скопіювати"
         copy_done: "скопійовано"
       links:
         #  loop
@@ -174,11 +174,11 @@ more_features:
                 <url>https://repository.groupdocs.com/repo/</url>
               </repository>
             </repositories>
-          copy_tip: "клікніть для копіювання"
+          copy_tip: "клікніть, щоб скопіювати"
           copy_done: "скопійовано"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Завантажити результат"
             icon: "download"
             link: "/examples/search/formats/searchphrase.pptx"
         links:
@@ -197,11 +197,11 @@ more_features:
 
 actions:
   enable: true
-  title: "Готові почати?"
+  title: "Готові розпочати?"
   description: "Спробуйте функції GroupDocs.Search безкоштовно або запитайте ліцензію"
   items:
     #  loop
-    - title: "завантаження Maven"
+    - title: "Завантажити Maven"
       link: "https://releases.groupdocs.com/search/java/"
       color: "red"
         #  loop
@@ -219,34 +219,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Пошук за умовою"
           operation: "boolean"
           link: "/search/java/boolean/pptx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Знайти інформацію в документах, використовуючи логічні умови"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Пошук чутливий до регістру"
           operation: "case-sensitive"
           link: "/search/java/case-sensitive/pptx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Покращте точність пошуку, враховуючи чутливість до регістру"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Індексація документів"
           operation: "document"
           link: "/search/java/document/pptx/"
-          description: "{common-content.operations.document.description}"
+          description: "Індексуйте документи один раз та повторно використовуйте індекс для кількох пошуків"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Фільтри пошуку"
           operation: "filters"
           link: "/search/java/filters/pptx/"
-          description: "{common-content.operations.filters.description}"
+          description: "Використовуйте фільтри для звуження оброблюваних даних"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Точна фраза"
           operation: "phrase"
           link: "/search/java/phrase/pptx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Шукайте конкретне речення або фразу"
           
         
           
@@ -258,31 +258,31 @@ more_formats:
     description: "GroupDocs.Search дозволяє шукати фрази у більш ніж 70 форматах документів. Використовуйте розширені опції та індексування для ефективних пошуків."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Пошук фрази у DOCX"
           format: "DOCX"
           link: "/search/java/phrase/docx/"
           description: "Документ Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "Пошук фрази у PDF"
           format: "PDF"
           link: "/search/java/phrase/pdf/"
-          description: "Adobe Portable Document Format"
+          description: "Формат Adobe Portable Document"
           
         # format loop 3
-        - name: ""
+        - name: "Пошук фрази у PPTX"
           format: "PPTX"
           link: "/search/java/phrase/pptx/"
           description: "Презентація PowerPoint Open XML"
 
         # format loop 4
-        - name: ""
+        - name: "Пошук фрази у TXT"
           format: "TXT"
           link: "/search/java/phrase/txt/"
           description: "Текстовий документ"
           
         # format loop 5
-        - name: ""
+        - name: "Пошук фрази у XLSX"
           format: "XLSX"
           link: "/search/java/phrase/xlsx/"
           description: "Таблиця Microsoft Excel Open XML"

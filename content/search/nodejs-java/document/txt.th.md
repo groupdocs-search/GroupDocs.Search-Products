@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:35
+date:  2025-03-14T11:10:50
 draft: false
 lang: th
 format: Txt
@@ -54,7 +54,7 @@ steps:
       copy_title: "คัดลอก"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "ผลการค้นหา"
       install:
         command: "npm i @groupdocs/groupdocs.search"
         copy_tip: "คลิกเพื่อคัดลอก"
@@ -64,7 +64,7 @@ steps:
         - title: "ตัวอย่างเพิ่มเติม"
           link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Node.js-via-Java/"
         #  loop
-        - title: "เอกสาร"
+        - title: "เอกสารประกอบ"
           link: "https://docs.groupdocs.com/search/nodejs-java/"
           
       content: |
@@ -149,7 +149,7 @@ more_features:
           copy_done: "คัดลอกแล้ว"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "ดาวน์โหลดผลลัพธ์"
             icon: "download"
             link: "/examples/search/formats/searchdocument.txt"
         links:
@@ -157,7 +157,7 @@ more_features:
           - title: "ตัวอย่างเพิ่มเติม"
             link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Node.js-via-Java/"
           #  loop
-          - title: "เอกสาร"
+          - title: "เอกสารประกอบ"
             link: "https://docs.groupdocs.com/search/nodejs-java/"
             
 
@@ -168,8 +168,8 @@ more_features:
 
 actions:
   enable: true
-  title: "พร้อมเริ่มต้นแล้วหรือยัง?"
-  description: "ทดลองคุณสมบัติของ GroupDocs.Search ฟรี หรือขอใบอนุญาต"
+  title: "พร้อมที่จะเริ่มต้นแล้วหรือยัง?"
+  description: "ทดลองฟีเจอร์ของ GroupDocs.Search ฟรีหรือขอใบอนุญาต"
   items:
     #  loop
     - title: "ดาวน์โหลด NPM"
@@ -190,34 +190,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "ค้นหาตามเงื่อนไข"
           operation: "boolean"
           link: "/search/nodejs-java/boolean/txt/"
-          description: "{common-content.operations.boolean.description}"
+          description: "ค้นหาข้อมูลในเอกสารโดยใช้เงื่อนไขเชิงบูลีน"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "การค้นหาตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก"
           operation: "case-sensitive"
           link: "/search/nodejs-java/case-sensitive/txt/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "เพิ่มความแม่นยำในการค้นหาด้วยการพิจารณาความแตกต่างของตัวพิมพ์"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "การจัดทำดัชนีเอกสาร"
           operation: "document"
           link: "/search/nodejs-java/document/txt/"
-          description: "{common-content.operations.document.description}"
+          description: "จัดทำดัชนีเอกสารเพียงครั้งเดียวและนำกลับมาใช้ใหม่สำหรับการค้นหาหลายครั้ง"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "ตัวกรองการค้นหา"
           operation: "filters"
           link: "/search/nodejs-java/filters/txt/"
-          description: "{common-content.operations.filters.description}"
+          description: "ใช้ตัวกรองเพื่อลดปริมาณข้อมูลที่ถูกประมวลผล"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "ประโยคที่แน่นอน"
           operation: "phrase"
           link: "/search/nodejs-java/phrase/txt/"
-          description: "{common-content.operations.phrase.description}"
+          description: "ค้นหาประโยคหรือลำดับคำเฉพาะ"
           
         
           
@@ -229,31 +229,31 @@ more_formats:
     description: "GroupDocs.Search ทำงานร่วมกับไฟล์กว่า 70 รูปแบบ รวมถึงเอกสารสำนักงาน เพื่อให้การค้นหาที่รวดเร็วและแม่นยำพร้อมการสนับสนุนการจัดทำดัชนี."
     items: 
         # format loop 1
-        - name: ""
+        - name: "ค้นหาในเอกสาร DOCX"
           format: "DOCX"
           link: "/search/nodejs-java/document/docx/"
           description: "เอกสาร Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "ค้นหาในเอกสาร PDF"
           format: "PDF"
           link: "/search/nodejs-java/document/pdf/"
-          description: "รูปแบบเอกสารพกพา Adobe"
+          description: "รูปแบบเอกสารที่พกพาของ Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "ค้นหาในเอกสาร PPTX"
           format: "PPTX"
           link: "/search/nodejs-java/document/pptx/"
           description: "การนำเสนอ PowerPoint Open XML"
 
         # format loop 4
-        - name: ""
+        - name: "ค้นหาในเอกสาร TXT"
           format: "TXT"
           link: "/search/nodejs-java/document/txt/"
           description: "เอกสารข้อความ"
           
         # format loop 5
-        - name: ""
+        - name: "ค้นหาในเอกสาร XLSX"
           format: "XLSX"
           link: "/search/nodejs-java/document/xlsx/"
           description: "สเปรดชีต Microsoft Excel Open XML"

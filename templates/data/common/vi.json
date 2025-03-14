@@ -1,94 +1,69 @@
 {
   "common-content": {
     "format-formats": {
-      "csv": {
-        "name": "Tìm kiếm trong CSV",
-        "description": "Giá trị phân tách bằng dấu phẩy"
-      },
-      "doc": {
-        "name": "Tìm kiếm trong DOC",
-        "description": "Tài liệu Microsoft Word 97 - 2007"
-      },
       "docx": {
         "name": "Tìm kiếm trong DOCX",
         "description": "Tài liệu Microsoft Word Open XML"
       },
-      "eml": {
-        "name": "Tìm kiếm trong EML",
-        "description": "Thư điện tử"
-      },
-      "epub": {
-        "name": "Tìm kiếm trong EPUB",
-        "description": "Tập tin eBook mở"
-      },
-      "fb2": {
-        "name": "Tìm kiếm trong FB2",
-        "description": "Tập tin FictionBook"
-      },
-      "md": {
-        "name": "Tìm kiếm trong MD",
-        "description": "Ngôn ngữ Markdown"
-      },
-      "odp": {
-        "name": "Tìm kiếm trong ODP",
-        "description": "Định dạng trình bày OpenDocument"
-      },
-      "one": {
-        "name": "Tìm kiếm trong ONE",
-        "description": "Tài liệu OneNote"
-      },
       "pdf": {
         "name": "Tìm kiếm trong PDF",
-        "description": "Định dạng tài liệu di động Adobe"
-      },
-      "pps": {
-        "name": "Tìm kiếm trong PPS",
-        "description": "Trình chiếu PowerPoint"
-      },
-      "ppt": {
-        "name": "Tìm kiếm trong PPT",
-        "description": "Bản trình bày PowerPoint 97-2003"
+        "description": "Định dạng Tài liệu Di động Adobe"
       },
       "pptx": {
         "name": "Tìm kiếm trong PPTX",
-        "description": "Bản trình bày PowerPoint Open XML"
-      },
-      "pst": {
-        "name": "Tìm kiếm trong PST",
-        "description": "Tập tin cá nhân Outlook"
-      },
-      "rtf": {
-        "name": "Tìm kiếm trong RTF",
-        "description": "Định dạng văn bản phong phú"
-      },
-      "tsv": {
-        "name": "Tìm kiếm trong TSV",
-        "description": "Giá trị phân tách bằng tab"
+        "description": "Bài thuyết trình PowerPoint Open XML"
       },
       "txt": {
         "name": "Tìm kiếm trong TXT",
         "description": "Tài liệu văn bản"
       },
-      "xls": {
-        "name": "Tìm kiếm trong XLS",
-        "description": "Bảng tính Microsoft Excel 97-2003"
-      },
       "xlsx": {
         "name": "Tìm kiếm trong XLSX",
         "description": "Bảng tính Microsoft Excel Open XML"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "Tìm kiếm PDF theo điều kiện",
+        "docx": "Tìm kiếm DOCX theo điều kiện",
+        "xlsx": "Tìm kiếm XLSX theo điều kiện",
+        "pptx": "Tìm kiếm PPTX theo điều kiện",
+        "txt": "Tìm kiếm TXT theo điều kiện"
       },
-      "xml": {
-        "name": "Tìm kiếm trong XML",
-        "description": "Tập tin XML"
+      "case-sensitive": {
+        "pdf": "Tìm kiếm phân biệt chữ hoa chữ thường trong PDF",
+        "docx": "Tìm kiếm phân biệt chữ hoa chữ thường trong DOCX",
+        "xlsx": "Tìm kiếm phân biệt chữ hoa chữ thường trong XLSX",
+        "pptx": "Tìm kiếm phân biệt chữ hoa chữ thường trong PPTX",
+        "txt": "Tìm kiếm phân biệt chữ hoa chữ thường trong TXT"
       },
-      "zip": {
-        "name": "Tìm kiếm trong ZIP",
-        "description": "Tập tin lưu trữ ZIP"
+      "document": {
+        "pdf": "Tìm kiếm trong tài liệu PDF",
+        "docx": "Tìm kiếm trong tài liệu DOCX",
+        "xlsx": "Tìm kiếm trong tài liệu XLSX",
+        "pptx": "Tìm kiếm trong tài liệu PPTX",
+        "txt": "Tìm kiếm trong tài liệu TXT"
+      },
+      "filters": {
+        "pdf": "Bộ lọc tìm kiếm cho PDF",
+        "docx": "Bộ lọc tìm kiếm cho DOCX",
+        "xlsx": "Bộ lọc tìm kiếm cho XLSX",
+        "pptx": "Bộ lọc tìm kiếm cho PPTX",
+        "txt": "Bộ lọc tìm kiếm cho TXT"
+      },
+      "phrase": {
+        "pdf": "Tìm kiếm cụm từ trong PDF",
+        "docx": "Tìm kiếm cụm từ trong DOCX",
+        "xlsx": "Tìm kiếm cụm từ trong XLSX",
+        "pptx": "Tìm kiếm cụm từ trong PPTX",
+        "txt": "Tìm kiếm cụm từ trong TXT"
       }
     },
     "format-code": {
       "copy_title": "Sao chép",
-      "copy_tip": "nhấp để sao chép",
+      "result_title": "Kết quả tìm kiếm",
+      "result_title_bottom": "Tải xuống kết quả",
+      "copy_tip": "nhấn để sao chép",
       "copy_done": "đã sao chép",
       "links": {
         "title_1": "Thêm ví dụ",
@@ -97,12 +72,34 @@
     },
     "format-actions": {
       "title": "Sẵn sàng để bắt đầu?",
-      "description": "Thử nghiệm các tính năng của {{ProdShortName}} miễn phí hoặc yêu cầu giấy phép",
+      "description": "Hãy thử các tính năng của {{ProdShortName}} miễn phí hoặc yêu cầu giấy phép",
       "comment_1": "Tải xuống {{PackageStoreName}}",
       "comment_2": "Giấy phép"
     },
     "texts": {
       "learn_more": "Tìm hiểu thêm"
+    },
+    "operations": {
+      "boolean": {
+        "name": "Tìm kiếm theo điều kiện",
+        "description": "Tìm thông tin trong tài liệu sử dụng các điều kiện boolean"
+      },
+      "case-sensitive": {
+        "name": "Tìm kiếm phân biệt chữ hoa chữ thường",
+        "description": "Cải thiện độ chính xác của tìm kiếm bằng cách xem xét sự phân biệt chữ hoa chữ thường"
+      },
+      "document": {
+        "name": "Lập chỉ mục tài liệu",
+        "description": "Lập chỉ mục tài liệu một lần và tái sử dụng chỉ mục cho nhiều lần tìm kiếm"
+      },
+      "filters": {
+        "name": "Bộ lọc tìm kiếm",
+        "description": "Sử dụng bộ lọc để thu hẹp dữ liệu đang được xử lý"
+      },
+      "phrase": {
+        "name": "Cụm từ chính xác",
+        "description": "Tìm kiếm một câu hoặc cụm từ cụ thể"
+      }
     }
   }
 }

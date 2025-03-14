@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:32
+date:  2025-03-14T11:10:48
 draft: false
 lang: zh
 format: Txt
@@ -54,10 +54,10 @@ steps:
       copy_title: "复制"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "搜索结果"
       install:
         command: "dotnet add package GroupDocs.Search"
-        copy_tip: "点击以复制"
+        copy_tip: "点击复制"
         copy_done: "已复制"
       links:
         #  loop
@@ -140,11 +140,11 @@ more_features:
         copy_title: "复制"
         install:
           command: "dotnet add package GroupDocs.Search"
-          copy_tip: "点击以复制"
+          copy_tip: "点击复制"
           copy_done: "已复制"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "下载结果"
             icon: "download"
             link: "/examples/search/formats/searchcase-sensitive.txt"
         links:
@@ -164,14 +164,14 @@ more_features:
 actions:
   enable: true
   title: "准备好开始了吗？"
-  description: "免费试用 GroupDocs.Search 的功能或请求许可证"
+  description: "免费试用 GroupDocs.Search 的功能或申请许可证"
   items:
     #  loop
     - title: "Nuget 下载"
       link: "https://releases.groupdocs.com/search/net/"
       color: "red"
         #  loop
-    - title: "许可证"
+    - title: "许可"
       link: "https://purchase.groupdocs.com/pricing/search/net/"
       color: "light"
 
@@ -185,34 +185,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "条件搜索"
           operation: "boolean"
           link: "/search/net/boolean/txt/"
-          description: "{common-content.operations.boolean.description}"
+          description: "使用布尔条件在文档中查找信息"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "区分大小写搜索"
           operation: "case-sensitive"
           link: "/search/net/case-sensitive/txt/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "通过考虑大小写敏感性提高搜索准确性"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "文档索引"
           operation: "document"
           link: "/search/net/document/txt/"
-          description: "{common-content.operations.document.description}"
+          description: "一次索引文档，然后为多次搜索重用索引"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "搜索过滤器"
           operation: "filters"
           link: "/search/net/filters/txt/"
-          description: "{common-content.operations.filters.description}"
+          description: "使用过滤器缩小处理的数据范围"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "精确短语"
           operation: "phrase"
           link: "/search/net/phrase/txt/"
-          description: "{common-content.operations.phrase.description}"
+          description: "搜索特定的句子或短语"
           
         
           
@@ -224,31 +224,31 @@ more_formats:
     description: "GroupDocs.Search支持70多种文件格式。自定义搜索规则并使用索引来节省时间和精力。"
     items: 
         # format loop 1
-        - name: ""
+        - name: "DOCX 大小写敏感搜索"
           format: "DOCX"
           link: "/search/net/case-sensitive/docx/"
           description: "Microsoft Word Open XML 文档"
           
         # format loop 2
-        - name: ""
+        - name: "PDF 大小写敏感搜索"
           format: "PDF"
           link: "/search/net/case-sensitive/pdf/"
-          description: "Adobe 便携式文档格式"
+          description: "Adobe 可移植文档格式"
           
         # format loop 3
-        - name: ""
+        - name: "PPTX 大小写敏感搜索"
           format: "PPTX"
           link: "/search/net/case-sensitive/pptx/"
           description: "PowerPoint Open XML 演示文稿"
 
         # format loop 4
-        - name: ""
+        - name: "TXT 大小写敏感搜索"
           format: "TXT"
           link: "/search/net/case-sensitive/txt/"
-          description: "文本文档"
+          description: "文本文件"
           
         # format loop 5
-        - name: ""
+        - name: "XLSX 大小写敏感搜索"
           format: "XLSX"
           link: "/search/net/case-sensitive/xlsx/"
           description: "Microsoft Excel Open XML 电子表格"

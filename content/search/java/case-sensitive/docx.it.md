@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:31
+date:  2025-03-14T11:10:47
 draft: false
 lang: it
 format: Docx
@@ -54,7 +54,7 @@ steps:
       copy_title: "Copia"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Risultato della ricerca"
       install:
         command_title: "Maven XML"
         command: |
@@ -175,7 +175,7 @@ more_features:
           copy_done: "copiato"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Scarica risultato"
             icon: "download"
             link: "/examples/search/formats/searchcase-sensitive.docx"
         links:
@@ -195,7 +195,7 @@ more_features:
 actions:
   enable: true
   title: "Pronto per iniziare?"
-  description: "Prova le funzionalità di GroupDocs.Search gratuitamente oppure richiedi una licenza"
+  description: "Prova le funzionalità di GroupDocs.Search gratuitamente o richiedi una licenza"
   items:
     #  loop
     - title: "Download di Maven"
@@ -216,34 +216,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Ricerca per condizione"
           operation: "boolean"
           link: "/search/java/boolean/docx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Trova informazioni nei documenti utilizzando condizioni booleane"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Ricerca case-sensitive"
           operation: "case-sensitive"
           link: "/search/java/case-sensitive/docx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Migliora l'accuratezza della ricerca considerando la sensibilità al maiuscolo"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Indicizzazione documentale"
           operation: "document"
           link: "/search/java/document/docx/"
-          description: "{common-content.operations.document.description}"
+          description: "Indicizza i documenti una volta e riutilizza l'indice per più ricerche"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Filtri di ricerca"
           operation: "filters"
           link: "/search/java/filters/docx/"
-          description: "{common-content.operations.filters.description}"
+          description: "Utilizza i filtri per restringere i dati trattati"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Frase esatta"
           operation: "phrase"
           link: "/search/java/phrase/docx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Cerca una specifica frase o espressione"
           
         
           
@@ -255,31 +255,31 @@ more_formats:
     description: "GroupDocs.Search lavora con oltre 70 formati di documento popolari, offrendo impostazioni di ricerca personalizzabili e un'indicizzazione efficiente."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Ricerca case-sensitive in DOCX"
           format: "DOCX"
           link: "/search/java/case-sensitive/docx/"
           description: "Documento Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "Ricerca case-sensitive in PDF"
           format: "PDF"
           link: "/search/java/case-sensitive/pdf/"
-          description: "Formato Documento Portabile Adobe"
+          description: "Formato di Documento Portatile Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "Ricerca case-sensitive in PPTX"
           format: "PPTX"
           link: "/search/java/case-sensitive/pptx/"
           description: "Presentazione PowerPoint Open XML"
 
         # format loop 4
-        - name: ""
+        - name: "Ricerca case-sensitive in TXT"
           format: "TXT"
           link: "/search/java/case-sensitive/txt/"
           description: "Documento di Testo"
           
         # format loop 5
-        - name: ""
+        - name: "Ricerca case-sensitive in XLSX"
           format: "XLSX"
           link: "/search/java/case-sensitive/xlsx/"
           description: "Foglio di calcolo Microsoft Excel Open XML"

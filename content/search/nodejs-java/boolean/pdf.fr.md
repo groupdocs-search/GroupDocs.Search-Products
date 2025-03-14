@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:30
+date:  2025-03-14T11:10:46
 draft: false
 lang: fr
 format: Pdf
@@ -54,7 +54,7 @@ steps:
       copy_title: "Copier"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Résultat de la recherche"
       install:
         command: "npm i @groupdocs/groupdocs.search"
         copy_tip: "cliquez pour copier"
@@ -142,7 +142,7 @@ more_features:
           copy_done: "copié"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Télécharger le résultat"
             icon: "download"
             link: "/examples/search/formats/searchboolean.pdf"
         links:
@@ -165,7 +165,7 @@ actions:
   description: "Essayez les fonctionnalités de GroupDocs.Search gratuitement ou demandez une licence"
   items:
     #  loop
-    - title: "Téléchargement de NPM"
+    - title: "Téléchargement NPM"
       link: "https://releases.groupdocs.com/search/nodejs-java/"
       color: "red"
         #  loop
@@ -183,34 +183,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Recherche par condition"
           operation: "boolean"
           link: "/search/nodejs-java/boolean/pdf/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Trouvez des informations dans les documents en utilisant des conditions booléennes"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Recherche sensible à la casse"
           operation: "case-sensitive"
           link: "/search/nodejs-java/case-sensitive/pdf/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Améliorez la précision de la recherche en tenant compte de la casse"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Indexation de documents"
           operation: "document"
           link: "/search/nodejs-java/document/pdf/"
-          description: "{common-content.operations.document.description}"
+          description: "Indexez les documents une fois et réutilisez l'index pour plusieurs recherches"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Filtres de recherche"
           operation: "filters"
           link: "/search/nodejs-java/filters/pdf/"
-          description: "{common-content.operations.filters.description}"
+          description: "Utilisez des filtres pour affiner les données traitées"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Phrase exacte"
           operation: "phrase"
           link: "/search/nodejs-java/phrase/pdf/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Recherchez une phrase ou une expression spécifique"
           
         
           
@@ -222,34 +222,34 @@ more_formats:
     description: "GroupDocs.Search prend en charge plus de 70 formats de fichiers, offrant des règles de recherche flexibles et une indexation efficace pour gagner du temps et des efforts."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Recherche booléenne dans DOCX"
           format: "DOCX"
           link: "/search/nodejs-java/boolean/docx/"
           description: "Document Open XML de Microsoft Word"
           
         # format loop 2
-        - name: ""
+        - name: "Recherche booléenne dans PDF"
           format: "PDF"
           link: "/search/nodejs-java/boolean/pdf/"
-          description: "Format de Document Portable Adobe"
+          description: "Format de document portable Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "Recherche booléenne dans PPTX"
           format: "PPTX"
           link: "/search/nodejs-java/boolean/pptx/"
-          description: "Présentation Open XML PowerPoint"
+          description: "Présentation Open XML de PowerPoint"
 
         # format loop 4
-        - name: ""
+        - name: "Recherche booléenne dans TXT"
           format: "TXT"
           link: "/search/nodejs-java/boolean/txt/"
-          description: "Document Texte"
+          description: "Document texte"
           
         # format loop 5
-        - name: ""
+        - name: "Recherche booléenne dans XLSX"
           format: "XLSX"
           link: "/search/nodejs-java/boolean/xlsx/"
-          description: "Feuille de Calcul Open XML Microsoft Excel"
+          description: "Tableur Open XML de Microsoft Excel"
   
 
 ---

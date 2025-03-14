@@ -1,108 +1,105 @@
 {
   "common-content": {
     "format-formats": {
-      "csv": {
-        "name": "Temukan dalam CSV",
-        "description": "Nilai Terpisah Koma"
-      },
-      "doc": {
-        "name": "Temukan dalam DOC",
-        "description": "Dokumen Microsoft Word 97 - 2007"
-      },
       "docx": {
-        "name": "Temukan dalam DOCX",
-        "description": "Dokumen Microsoft Word Open XML"
-      },
-      "eml": {
-        "name": "Temukan dalam EML",
-        "description": "Pesan E-Mail"
-      },
-      "epub": {
-        "name": "Temukan dalam EPUB",
-        "description": "File eBook Terbuka"
-      },
-      "fb2": {
-        "name": "Temukan dalam FB2",
-        "description": "File FictionBook"
-      },
-      "md": {
-        "name": "Temukan dalam MD",
-        "description": "Bahasa Markdown"
-      },
-      "odp": {
-        "name": "Temukan dalam ODP",
-        "description": "Format Presentasi OpenDocument"
-      },
-      "one": {
-        "name": "Temukan dalam ONE",
-        "description": "Dokumen OneNote"
+        "name": "Cari di DOCX",
+        "description": "Dokumen Open XML Microsoft Word"
       },
       "pdf": {
-        "name": "Temukan dalam PDF",
+        "name": "Cari di PDF",
         "description": "Format Dokumen Portabel Adobe"
       },
-      "pps": {
-        "name": "Temukan dalam PPS",
-        "description": "Tayangan Slide PowerPoint"
-      },
-      "ppt": {
-        "name": "Temukan dalam PPT",
-        "description": "Presentasi PowerPoint 97-2003"
-      },
       "pptx": {
-        "name": "Temukan dalam PPTX",
-        "description": "Presentasi PowerPoint Open XML"
-      },
-      "pst": {
-        "name": "Temukan dalam PST",
-        "description": "File Penyimpanan Informasi Pribadi Outlook"
-      },
-      "rtf": {
-        "name": "Temukan dalam RTF",
-        "description": "Format Teks Kaya"
-      },
-      "tsv": {
-        "name": "Temukan dalam TSV",
-        "description": "Nilai Terpisah Tab"
+        "name": "Cari di PPTX",
+        "description": "Presentasi Open XML PowerPoint"
       },
       "txt": {
-        "name": "Temukan dalam TXT",
+        "name": "Cari di TXT",
         "description": "Dokumen Teks"
       },
-      "xls": {
-        "name": "Temukan dalam XLS",
-        "description": "Workbook Microsoft Excel 97-2003"
-      },
       "xlsx": {
-        "name": "Temukan dalam XLSX",
-        "description": "Spreadsheet Microsoft Excel Open XML"
+        "name": "Cari di XLSX",
+        "description": "Spreadsheet Open XML Microsoft Excel"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "Cari PDF dengan kondisi logika",
+        "docx": "Cari DOCX dengan kondisi logika",
+        "xlsx": "Cari XLSX dengan kondisi logika",
+        "pptx": "Cari PPTX dengan kondisi logika",
+        "txt": "Cari TXT dengan kondisi logika"
       },
-      "xml": {
-        "name": "Temukan dalam XML",
-        "description": "File XML"
+      "case-sensitive": {
+        "pdf": "Pencarian PDF sensitif huruf",
+        "docx": "Pencarian DOCX sensitif huruf",
+        "xlsx": "Pencarian XLSX sensitif huruf",
+        "pptx": "Pencarian PPTX sensitif huruf",
+        "txt": "Pencarian TXT sensitif huruf"
       },
-      "zip": {
-        "name": "Temukan dalam ZIP",
-        "description": "Arsip Zip"
+      "document": {
+        "pdf": "Cari dalam dokumen PDF",
+        "docx": "Cari dalam dokumen DOCX",
+        "xlsx": "Cari dalam dokumen XLSX",
+        "pptx": "Cari dalam dokumen PPTX",
+        "txt": "Cari dalam dokumen TXT"
+      },
+      "filters": {
+        "pdf": "Filter pencarian untuk PDF",
+        "docx": "Filter pencarian untuk DOCX",
+        "xlsx": "Filter pencarian untuk XLSX",
+        "pptx": "Filter pencarian untuk PPTX",
+        "txt": "Filter pencarian untuk TXT"
+      },
+      "phrase": {
+        "pdf": "Pencarian frasa PDF",
+        "docx": "Pencarian frasa DOCX",
+        "xlsx": "Pencarian frasa XLSX",
+        "pptx": "Pencarian frasa PPTX",
+        "txt": "Pencarian frasa TXT"
       }
     },
     "format-code": {
       "copy_title": "Salin",
+      "result_title": "Hasil pencarian",
+      "result_title_bottom": "Unduh hasil",
       "copy_tip": "klik untuk menyalin",
-      "copy_done": "disalin",
+      "copy_done": "tersalin",
       "links": {
-        "title_1": "Lebih banyak contoh",
+        "title_1": "Contoh lebih lanjut",
         "title_2": "Dokumentasi"
       }
     },
     "format-actions": {
       "title": "Siap untuk memulai?",
-      "description": "Cobalah fitur {{ProdShortName}} secara gratis atau minta lisensi",
-      "comment_1": "Unduhan {{PackageStoreName}}",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "comment_1": "unduh {{PackageStoreName}}",
       "comment_2": "Lisensi"
     },
     "texts": {
       "learn_more": "Pelajari lebih lanjut"
+    },
+    "operations": {
+      "boolean": {
+        "name": "Cari berdasarkan kondisi",
+        "description": "Temukan informasi dalam dokumen menggunakan kondisi boolean"
+      },
+      "case-sensitive": {
+        "name": "Pencarian sensitif huruf",
+        "description": "Tingkatkan akurasi pencarian dengan mempertimbangkan sensitivitas huruf"
+      },
+      "document": {
+        "name": "Pengindeksan dokumen",
+        "description": "Indeks dokumen sekali dan gunakan indeks untuk beberapa pencarian"
+      },
+      "filters": {
+        "name": "Filter pencarian",
+        "description": "Gunakan filter untuk mempersempit data yang diproses"
+      },
+      "phrase": {
+        "name": "Frasa tepat",
+        "description": "Cari kalimat atau frasa tertentu"
+      }
     }
   }
 }

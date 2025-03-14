@@ -1,93 +1,68 @@
 {
   "common-content": {
     "format-formats": {
-      "csv": {
-        "name": "جستجو در CSV",
-        "description": "مقادیر جدا شده با ویرگول"
-      },
-      "doc": {
-        "name": "جستجو در DOC",
-        "description": "مدرک مایکروسافت ورد 97 - 2007"
-      },
       "docx": {
         "name": "جستجو در DOCX",
-        "description": "مدرک مایکروسافت ورد Open XML"
-      },
-      "eml": {
-        "name": "جستجو در EML",
-        "description": "پیام ایمیل"
-      },
-      "epub": {
-        "name": "جستجو در EPUB",
-        "description": "فایل کتاب الکترونیکی Open"
-      },
-      "fb2": {
-        "name": "جستجو در FB2",
-        "description": "فایل FictionBook"
-      },
-      "md": {
-        "name": "جستجو در MD",
-        "description": "زبان Markdown"
-      },
-      "odp": {
-        "name": "جستجو در ODP",
-        "description": "فرمت ارائه OpenDocument"
-      },
-      "one": {
-        "name": "جستجو در ONE",
-        "description": "مدرک OneNote"
+        "description": "سند XML باز مایکروسافت ورد"
       },
       "pdf": {
         "name": "جستجو در PDF",
-        "description": "فرمت مدرک قابل حمل Adobe"
-      },
-      "pps": {
-        "name": "جستجو در PPS",
-        "description": "نمایش اسلاید PowerPoint"
-      },
-      "ppt": {
-        "name": "جستجو در PPT",
-        "description": "ارائه PowerPoint 97-2003"
+        "description": "فرمت سند قابل حمل Adobe"
       },
       "pptx": {
         "name": "جستجو در PPTX",
-        "description": "ارائه PowerPoint Open XML"
-      },
-      "pst": {
-        "name": "جستجو در PST",
-        "description": "فایل مرکز اطلاعات شخصی Outlook"
-      },
-      "rtf": {
-        "name": "جستجو در RTF",
-        "description": "فرمت متن غنی"
-      },
-      "tsv": {
-        "name": "جستجو در TSV",
-        "description": "مقادیر جدا شده با تب"
+        "description": "ارائه XML باز پاورپوینت"
       },
       "txt": {
         "name": "جستجو در TXT",
-        "description": "مدرک متنی"
-      },
-      "xls": {
-        "name": "جستجو در XLS",
-        "description": "دفتر کار مایکروسافت اکسل 97-2003"
+        "description": "سند متنی"
       },
       "xlsx": {
         "name": "جستجو در XLSX",
-        "description": "جدول محتوای Open XML مایکروسافت اکسل"
+        "description": "برگه XML باز مایکروسافت اکسل"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "جستجوی بولی در PDF",
+        "docx": "جستجوی بولی در DOCX",
+        "xlsx": "جستجوی بولی در XLSX",
+        "pptx": "جستجوی بولی در PPTX",
+        "txt": "جستجوی بولی در TXT"
       },
-      "xml": {
-        "name": "جستجو در XML",
-        "description": "فایل XML"
+      "case-sensitive": {
+        "pdf": "جستجوی حساس به حروف بزرگ و کوچک PDF",
+        "docx": "جستجوی حساس به حروف بزرگ و کوچک DOCX",
+        "xlsx": "جستجوی حساس به حروف بزرگ و کوچک XLSX",
+        "pptx": "جستجوی حساس به حروف بزرگ و کوچک PPTX",
+        "txt": "جستجوی حساس به حروف بزرگ و کوچک TXT"
       },
-      "zip": {
-        "name": "جستجو در ZIP",
-        "description": "آرشیو Zip"
+      "document": {
+        "pdf": "جستجو در سند PDF",
+        "docx": "جستجو در سند DOCX",
+        "xlsx": "جستجو در سند XLSX",
+        "pptx": "جستجو در سند PPTX",
+        "txt": "جستجو در سند TXT"
+      },
+      "filters": {
+        "pdf": "فیلترهای جستجو برای PDF",
+        "docx": "فیلترهای جستجو برای DOCX",
+        "xlsx": "فیلترهای جستجو برای XLSX",
+        "pptx": "فیلترهای جستجو برای PPTX",
+        "txt": "فیلترهای جستجو برای TXT"
+      },
+      "phrase": {
+        "pdf": "جستجوی عبارت در PDF",
+        "docx": "جستجوی عبارت در DOCX",
+        "xlsx": "جستجوی عبارت در XLSX",
+        "pptx": "جستجوی عبارت در PPTX",
+        "txt": "جستجوی عبارت در TXT"
       }
     },
     "format-code": {
       "copy_title": "کپی",
+      "result_title": "نتیجه جستجو",
+      "result_title_bottom": "دانلود نتیجه",
       "copy_tip": "برای کپی کلیک کنید",
       "copy_done": "کپی شد",
       "links": {
@@ -97,12 +72,34 @@
     },
     "format-actions": {
       "title": "آماده شروع هستید؟",
-      "description": "امکانات {{ProdShortName}} را به صورت رایگان امتحان کنید یا درخواست مجوز دهید",
+      "description": "ویژگی‌های {{ProdShortName}} را رایگان امتحان کنید یا درخواست مجوز دهید",
       "comment_1": "دانلود {{PackageStoreName}}",
       "comment_2": "مجوزدهی"
     },
     "texts": {
-      "learn_more": "بیشتر بدانید"
+      "learn_more": "بیشتر بیاموزید"
+    },
+    "operations": {
+      "boolean": {
+        "name": "جستجو با شرط",
+        "description": "یافتن اطلاعات در اسناد با استفاده از شرایط بولی"
+      },
+      "case-sensitive": {
+        "name": "جستجوی حساس به حروف بزرگ و کوچک",
+        "description": "دقت جستجو را با در نظر گرفتن حساسیت حروف افزایش دهید"
+      },
+      "document": {
+        "name": "شاخص‌گذاری اسناد",
+        "description": "اسناد را یک‌بار شاخص‌گذاری کنید و از شاخص برای جستجوهای متعدد استفاده کنید"
+      },
+      "filters": {
+        "name": "فیلترهای جستجو",
+        "description": "از فیلترها برای محدود کردن داده‌های پردازش‌شده استفاده کنید"
+      },
+      "phrase": {
+        "name": "عبارت دقیق",
+        "description": "جستجو برای یک جمله یا عبارت خاص"
+      }
     }
   }
 }

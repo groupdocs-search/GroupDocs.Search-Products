@@ -1,108 +1,105 @@
 {
   "common-content": {
     "format-formats": {
-      "csv": {
-        "name": "ค้นหาใน CSV",
-        "description": "ค่าที่คั่นด้วยเครื่องหมายจุลภาค"
-      },
-      "doc": {
-        "name": "ค้นหาใน DOC",
-        "description": "เอกสาร Microsoft Word 97 - 2007"
-      },
       "docx": {
         "name": "ค้นหาใน DOCX",
         "description": "เอกสาร Microsoft Word Open XML"
       },
-      "eml": {
-        "name": "ค้นหาใน EML",
-        "description": "ข้อความอีเมล"
-      },
-      "epub": {
-        "name": "ค้นหาใน EPUB",
-        "description": "ไฟล์ eBook แบบเปิด"
-      },
-      "fb2": {
-        "name": "ค้นหาใน FB2",
-        "description": "ไฟล์ FictionBook"
-      },
-      "md": {
-        "name": "ค้นหาใน MD",
-        "description": "ภาษา Markdown"
-      },
-      "odp": {
-        "name": "ค้นหาใน ODP",
-        "description": "รูปแบบการนำเสนอ OpenDocument"
-      },
-      "one": {
-        "name": "ค้นหาใน ONE",
-        "description": "เอกสาร OneNote"
-      },
       "pdf": {
         "name": "ค้นหาใน PDF",
-        "description": "รูปแบบเอกสารพกพา Adobe"
-      },
-      "pps": {
-        "name": "ค้นหาใน PPS",
-        "description": "การนำเสนอ PowerPoint"
-      },
-      "ppt": {
-        "name": "ค้นหาใน PPT",
-        "description": "การนำเสนอ PowerPoint 97-2003"
+        "description": "รูปแบบเอกสารที่พกพาของ Adobe"
       },
       "pptx": {
         "name": "ค้นหาใน PPTX",
         "description": "การนำเสนอ PowerPoint Open XML"
       },
-      "pst": {
-        "name": "ค้นหาใน PST",
-        "description": "ไฟล์ข้อมูลส่วนบุคคลของ Outlook"
-      },
-      "rtf": {
-        "name": "ค้นหาใน RTF",
-        "description": "รูปแบบข้อความริช"
-      },
-      "tsv": {
-        "name": "ค้นหาใน TSV",
-        "description": "ค่าที่คั่นด้วยแท็บ"
-      },
       "txt": {
         "name": "ค้นหาใน TXT",
         "description": "เอกสารข้อความ"
       },
-      "xls": {
-        "name": "ค้นหาใน XLS",
-        "description": "สมุดงาน Microsoft Excel 97-2003"
-      },
       "xlsx": {
         "name": "ค้นหาใน XLSX",
         "description": "สเปรดชีต Microsoft Excel Open XML"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "ค้นหาตามเงื่อนไขใน PDF",
+        "docx": "ค้นหาตามเงื่อนไขใน DOCX",
+        "xlsx": "ค้นหาตามเงื่อนไขใน XLSX",
+        "pptx": "ค้นหาตามเงื่อนไขใน PPTX",
+        "txt": "ค้นหาตามเงื่อนไขใน TXT"
       },
-      "xml": {
-        "name": "ค้นหาใน XML",
-        "description": "ไฟล์ XML"
+      "case-sensitive": {
+        "pdf": "การค้นหา PDF ตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก",
+        "docx": "การค้นหา DOCX ตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก",
+        "xlsx": "การค้นหา XLSX ตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก",
+        "pptx": "การค้นหา PPTX ตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก",
+        "txt": "การค้นหา TXT ตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก"
       },
-      "zip": {
-        "name": "ค้นหาใน ZIP",
-        "description": "ไฟล์ Zip"
+      "document": {
+        "pdf": "ค้นหาในเอกสาร PDF",
+        "docx": "ค้นหาในเอกสาร DOCX",
+        "xlsx": "ค้นหาในเอกสาร XLSX",
+        "pptx": "ค้นหาในเอกสาร PPTX",
+        "txt": "ค้นหาในเอกสาร TXT"
+      },
+      "filters": {
+        "pdf": "ตัวกรองการค้นหาสำหรับ PDF",
+        "docx": "ตัวกรองการค้นหาสำหรับ DOCX",
+        "xlsx": "ตัวกรองการค้นหาสำหรับ XLSX",
+        "pptx": "ตัวกรองการค้นหาสำหรับ PPTX",
+        "txt": "ตัวกรองการค้นหาสำหรับ TXT"
+      },
+      "phrase": {
+        "pdf": "การค้นหาประโยคใน PDF",
+        "docx": "การค้นหาประโยคใน DOCX",
+        "xlsx": "การค้นหาประโยคใน XLSX",
+        "pptx": "การค้นหาประโยคใน PPTX",
+        "txt": "การค้นหาประโยคใน TXT"
       }
     },
     "format-code": {
       "copy_title": "คัดลอก",
+      "result_title": "ผลการค้นหา",
+      "result_title_bottom": "ดาวน์โหลดผลลัพธ์",
       "copy_tip": "คลิกเพื่อคัดลอก",
       "copy_done": "คัดลอกแล้ว",
       "links": {
         "title_1": "ตัวอย่างเพิ่มเติม",
-        "title_2": "เอกสาร"
+        "title_2": "เอกสารประกอบ"
       }
     },
     "format-actions": {
-      "title": "พร้อมเริ่มต้นแล้วหรือยัง?",
-      "description": "ทดลองคุณสมบัติของ {{ProdShortName}} ฟรี หรือขอใบอนุญาต",
+      "title": "พร้อมที่จะเริ่มต้นแล้วหรือยัง?",
+      "description": "ทดลองฟีเจอร์ของ {{ProdShortName}} ฟรีหรือขอใบอนุญาต",
       "comment_1": "ดาวน์โหลด {{PackageStoreName}}",
       "comment_2": "การอนุญาต"
     },
     "texts": {
       "learn_more": "เรียนรู้เพิ่มเติม"
+    },
+    "operations": {
+      "boolean": {
+        "name": "ค้นหาตามเงื่อนไข",
+        "description": "ค้นหาข้อมูลในเอกสารโดยใช้เงื่อนไขเชิงบูลีน"
+      },
+      "case-sensitive": {
+        "name": "การค้นหาตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก",
+        "description": "เพิ่มความแม่นยำในการค้นหาด้วยการพิจารณาความแตกต่างของตัวพิมพ์"
+      },
+      "document": {
+        "name": "การจัดทำดัชนีเอกสาร",
+        "description": "จัดทำดัชนีเอกสารเพียงครั้งเดียวและนำกลับมาใช้ใหม่สำหรับการค้นหาหลายครั้ง"
+      },
+      "filters": {
+        "name": "ตัวกรองการค้นหา",
+        "description": "ใช้ตัวกรองเพื่อลดปริมาณข้อมูลที่ถูกประมวลผล"
+      },
+      "phrase": {
+        "name": "ประโยคที่แน่นอน",
+        "description": "ค้นหาประโยคหรือลำดับคำเฉพาะ"
+      }
     }
   }
 }

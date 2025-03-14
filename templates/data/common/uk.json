@@ -1,94 +1,69 @@
 {
   "common-content": {
     "format-formats": {
-      "csv": {
-        "name": "Знайти в CSV",
-        "description": "Текстові дані, розділені комами"
-      },
-      "doc": {
-        "name": "Знайти в DOC",
-        "description": "Документ Microsoft Word 97 - 2007"
-      },
       "docx": {
-        "name": "Знайти в DOCX",
+        "name": "Пошук у DOCX",
         "description": "Документ Microsoft Word Open XML"
       },
-      "eml": {
-        "name": "Знайти в EML",
-        "description": "Електронне повідомлення"
-      },
-      "epub": {
-        "name": "Знайти в EPUB",
-        "description": "Файл відкритої електронної книги"
-      },
-      "fb2": {
-        "name": "Знайти в FB2",
-        "description": "Файл FictionBook"
-      },
-      "md": {
-        "name": "Знайти в MD",
-        "description": "Мова Markdown"
-      },
-      "odp": {
-        "name": "Знайти в ODP",
-        "description": "Формат презентації OpenDocument"
-      },
-      "one": {
-        "name": "Знайти в ONE",
-        "description": "Документ OneNote"
-      },
       "pdf": {
-        "name": "Знайти в PDF",
-        "description": "Adobe Portable Document Format"
-      },
-      "pps": {
-        "name": "Знайти в PPS",
-        "description": "Слайд-шоу PowerPoint"
-      },
-      "ppt": {
-        "name": "Знайти в PPT",
-        "description": "Презентація PowerPoint 97-2003"
+        "name": "Пошук у PDF",
+        "description": "Формат Adobe Portable Document"
       },
       "pptx": {
-        "name": "Знайти в PPTX",
+        "name": "Пошук у PPTX",
         "description": "Презентація PowerPoint Open XML"
       },
-      "pst": {
-        "name": "Знайти в PST",
-        "description": "Файл особистої інформації Outlook"
-      },
-      "rtf": {
-        "name": "Знайти в RTF",
-        "description": "Формат багатого тексту"
-      },
-      "tsv": {
-        "name": "Знайти в TSV",
-        "description": "Значення, розділені табуляцією"
-      },
       "txt": {
-        "name": "Знайти в TXT",
+        "name": "Пошук у TXT",
         "description": "Текстовий документ"
       },
-      "xls": {
-        "name": "Знайти в XLS",
-        "description": "Робоча книга Microsoft Excel 97-2003"
-      },
       "xlsx": {
-        "name": "Знайти в XLSX",
+        "name": "Пошук у XLSX",
         "description": "Таблиця Microsoft Excel Open XML"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "Логічний пошук у PDF",
+        "docx": "Логічний пошук у DOCX",
+        "xlsx": "Логічний пошук у XLSX",
+        "pptx": "Логічний пошук у PPTX",
+        "txt": "Логічний пошук у TXT"
       },
-      "xml": {
-        "name": "Знайти в XML",
-        "description": "XML файл"
+      "case-sensitive": {
+        "pdf": "Чутливий до регістру пошук у PDF",
+        "docx": "Чутливий до регістру пошук у DOCX",
+        "xlsx": "Чутливий до регістру пошук у XLSX",
+        "pptx": "Чутливий до регістру пошук у PPTX",
+        "txt": "Чутливий до регістру пошук у TXT"
       },
-      "zip": {
-        "name": "Знайти в ZIP",
-        "description": "Архів ZIP"
+      "document": {
+        "pdf": "Пошук у документі PDF",
+        "docx": "Пошук у документі DOCX",
+        "xlsx": "Пошук у документі XLSX",
+        "pptx": "Пошук у документі PPTX",
+        "txt": "Пошук у документі TXT"
+      },
+      "filters": {
+        "pdf": "Фільтри для пошуку у PDF",
+        "docx": "Фільтри для пошуку у DOCX",
+        "xlsx": "Фільтри для пошуку у XLSX",
+        "pptx": "Фільтри для пошуку у PPTX",
+        "txt": "Фільтри для пошуку у TXT"
+      },
+      "phrase": {
+        "pdf": "Пошук фрази у PDF",
+        "docx": "Пошук фрази у DOCX",
+        "xlsx": "Пошук фрази у XLSX",
+        "pptx": "Пошук фрази у PPTX",
+        "txt": "Пошук фрази у TXT"
       }
     },
     "format-code": {
       "copy_title": "Копіювати",
-      "copy_tip": "клікніть для копіювання",
+      "result_title": "Результат пошуку",
+      "result_title_bottom": "Завантажити результат",
+      "copy_tip": "клікніть, щоб скопіювати",
       "copy_done": "скопійовано",
       "links": {
         "title_1": "Більше прикладів",
@@ -96,13 +71,35 @@
       }
     },
     "format-actions": {
-      "title": "Готові почати?",
+      "title": "Готові розпочати?",
       "description": "Спробуйте функції {{ProdShortName}} безкоштовно або запитайте ліцензію",
-      "comment_1": "завантаження {{PackageStoreName}}",
+      "comment_1": "Завантажити {{PackageStoreName}}",
       "comment_2": "Ліцензування"
     },
     "texts": {
       "learn_more": "Дізнатися більше"
+    },
+    "operations": {
+      "boolean": {
+        "name": "Пошук за умовою",
+        "description": "Знайти інформацію в документах, використовуючи логічні умови"
+      },
+      "case-sensitive": {
+        "name": "Пошук чутливий до регістру",
+        "description": "Покращте точність пошуку, враховуючи чутливість до регістру"
+      },
+      "document": {
+        "name": "Індексація документів",
+        "description": "Індексуйте документи один раз та повторно використовуйте індекс для кількох пошуків"
+      },
+      "filters": {
+        "name": "Фільтри пошуку",
+        "description": "Використовуйте фільтри для звуження оброблюваних даних"
+      },
+      "phrase": {
+        "name": "Точна фраза",
+        "description": "Шукайте конкретне речення або фразу"
+      }
     }
   }
 }

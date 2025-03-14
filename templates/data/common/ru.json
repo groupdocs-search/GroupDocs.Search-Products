@@ -1,93 +1,68 @@
 {
   "common-content": {
     "format-formats": {
-      "csv": {
-        "name": "Поиск в CSV",
-        "description": "Значения, разделенные запятой"
-      },
-      "doc": {
-        "name": "Поиск в DOC",
-        "description": "Документ Microsoft Word 97 - 2007"
-      },
       "docx": {
         "name": "Поиск в DOCX",
         "description": "Документ Microsoft Word Open XML"
-      },
-      "eml": {
-        "name": "Поиск в EML",
-        "description": "Сообщение электронной почты"
-      },
-      "epub": {
-        "name": "Поиск в EPUB",
-        "description": "Файл открытой электронной книги"
-      },
-      "fb2": {
-        "name": "Поиск в FB2",
-        "description": "Файл FictionBook"
-      },
-      "md": {
-        "name": "Поиск в MD",
-        "description": "Язык разметки Markdown"
-      },
-      "odp": {
-        "name": "Поиск в ODP",
-        "description": "Формат презентации OpenDocument"
-      },
-      "one": {
-        "name": "Поиск в ONE",
-        "description": "Документ OneNote"
       },
       "pdf": {
         "name": "Поиск в PDF",
         "description": "Формат переносимого документа Adobe"
       },
-      "pps": {
-        "name": "Поиск в PPS",
-        "description": "Слайд-шоу PowerPoint"
-      },
-      "ppt": {
-        "name": "Поиск в PPT",
-        "description": "Презентация PowerPoint 97-2003"
-      },
       "pptx": {
         "name": "Поиск в PPTX",
         "description": "Презентация PowerPoint Open XML"
-      },
-      "pst": {
-        "name": "Поиск в PST",
-        "description": "Файл личного хранилища информации Outlook"
-      },
-      "rtf": {
-        "name": "Поиск в RTF",
-        "description": "Формат удобного текста"
-      },
-      "tsv": {
-        "name": "Поиск в TSV",
-        "description": "Значения, разделенные табуляцией"
       },
       "txt": {
         "name": "Поиск в TXT",
         "description": "Текстовый документ"
       },
-      "xls": {
-        "name": "Поиск в XLS",
-        "description": "Рабочая книга Microsoft Excel 97-2003"
-      },
       "xlsx": {
         "name": "Поиск в XLSX",
         "description": "Электронная таблица Microsoft Excel Open XML"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "Булевый поиск в PDF",
+        "docx": "Булевый поиск в DOCX",
+        "xlsx": "Булевый поиск в XLSX",
+        "pptx": "Булевый поиск в PPTX",
+        "txt": "Булевый поиск в TXT"
       },
-      "xml": {
-        "name": "Поиск в XML",
-        "description": "XML файл"
+      "case-sensitive": {
+        "pdf": "Чувствительный к регистру поиск в PDF",
+        "docx": "Чувствительный к регистру поиск в DOCX",
+        "xlsx": "Чувствительный к регистру поиск в XLSX",
+        "pptx": "Чувствительный к регистру поиск в PPTX",
+        "txt": "Чувствительный к регистру поиск в TXT"
       },
-      "zip": {
-        "name": "Поиск в ZIP",
-        "description": "ZIP-архив"
+      "document": {
+        "pdf": "Поиск в документе PDF",
+        "docx": "Поиск в документе DOCX",
+        "xlsx": "Поиск в документе XLSX",
+        "pptx": "Поиск в документе PPTX",
+        "txt": "Поиск в документе TXT"
+      },
+      "filters": {
+        "pdf": "Поиск с фильтрами для PDF",
+        "docx": "Поиск с фильтрами для DOCX",
+        "xlsx": "Поиск с фильтрами для XLSX",
+        "pptx": "Поиск с фильтрами для PPTX",
+        "txt": "Поиск с фильтрами для TXT"
+      },
+      "phrase": {
+        "pdf": "Поиск фразы в PDF",
+        "docx": "Поиск фразы в DOCX",
+        "xlsx": "Поиск фразы в XLSX",
+        "pptx": "Поиск фразы в PPTX",
+        "txt": "Поиск фразы в TXT"
       }
     },
     "format-code": {
       "copy_title": "Копировать",
+      "result_title": "Результат поиска",
+      "result_title_bottom": "Скачать результат",
       "copy_tip": "нажмите, чтобы скопировать",
       "copy_done": "скопировано",
       "links": {
@@ -97,12 +72,34 @@
     },
     "format-actions": {
       "title": "Готовы начать?",
-      "description": "Попробуйте возможности {{ProdShortName}} бесплатно или запросите лицензию",
+      "description": "Попробуйте функции {{ProdShortName}} бесплатно или запросите лицензию",
       "comment_1": "Скачивание {{PackageStoreName}}",
       "comment_2": "Лицензирование"
     },
     "texts": {
       "learn_more": "Узнать больше"
+    },
+    "operations": {
+      "boolean": {
+        "name": "Поиск по условию",
+        "description": "Находите информацию в документах, используя булевы условия"
+      },
+      "case-sensitive": {
+        "name": "Чувствительный к регистру поиск",
+        "description": "Улучшите точность поиска, учитывая регистр"
+      },
+      "document": {
+        "name": "Индексирование документов",
+        "description": "Индексируйте документы один раз и повторно используйте индекс для множества поисков"
+      },
+      "filters": {
+        "name": "Поисковые фильтры",
+        "description": "Используйте фильтры для уточнения обрабатываемых данных"
+      },
+      "phrase": {
+        "name": "Точная фраза",
+        "description": "Ищите конкретное предложение или фразу"
+      }
     }
   }
 }

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:37
+date:  2025-03-14T11:10:51
 draft: false
 lang: de
 format: Xlsx
@@ -32,7 +32,7 @@ about:
     enable: true
     title: "Was ist GroupDocs.Search?"
     link: "/search/net/"
-    link_title: "Erfahren Sie mehr"
+    link_title: "Mehr Erfahren"
     picture: "about_search.svg" # 480 X 400
     content: |
        [GroupDocs.Search for .NET](/search/net/) ist eine leistungsstarke Bibliothek für effiziente Textsuche und Dokumentenindizierung. Sie unterstützt über 70 Dateiformate, einschließlich branchenüblicher Dokumente wie PDF, Word, Excel und PowerPoint. Verbessern Sie die Suchleistung mit schnellen und genauen Ergebnissen.
@@ -54,10 +54,10 @@ steps:
       copy_title: "Kopieren"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Suchergebnis"
       install:
         command: "dotnet add package GroupDocs.Search"
-        copy_tip: "Klicken zum Kopieren"
+        copy_tip: "Klicken, um zu kopieren"
         copy_done: "kopiert"
       links:
         #  loop
@@ -141,11 +141,11 @@ more_features:
         copy_title: "Kopieren"
         install:
           command: "dotnet add package GroupDocs.Search"
-          copy_tip: "Klicken zum Kopieren"
+          copy_tip: "Klicken, um zu kopieren"
           copy_done: "kopiert"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Ergebnis herunterladen"
             icon: "download"
             link: "/examples/search/formats/searchfilters.xlsx"
         links:
@@ -164,7 +164,7 @@ more_features:
 
 actions:
   enable: true
-  title: "Bereit zum Starten?"
+  title: "Bereit, loszulegen?"
   description: "Testen Sie die Funktionen von GroupDocs.Search kostenlos oder fordern Sie eine Lizenz an"
   items:
     #  loop
@@ -186,34 +186,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Suche nach Bedingungen"
           operation: "boolean"
           link: "/search/net/boolean/xlsx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Informationen in Dokumenten anhand boolescher Bedingungen finden"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Groß- und kleinschreibungssensitive Suche"
           operation: "case-sensitive"
           link: "/search/net/case-sensitive/xlsx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Verbessern Sie die Suchgenauigkeit, indem Sie die Groß- und Kleinschreibung berücksichtigen"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Dokumentenindizierung"
           operation: "document"
           link: "/search/net/document/xlsx/"
-          description: "{common-content.operations.document.description}"
+          description: "Indizieren Sie Dokumente einmal und verwenden Sie den Index für mehrere Suchen"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Suchfilter"
           operation: "filters"
           link: "/search/net/filters/xlsx/"
-          description: "{common-content.operations.filters.description}"
+          description: "Verwenden Sie Filter, um die verarbeiteten Daten einzugrenzen"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Exakte Phrase"
           operation: "phrase"
           link: "/search/net/phrase/xlsx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Nach einem bestimmten Satz oder einer bestimmten Phrase suchen"
           
         
           
@@ -225,34 +225,34 @@ more_formats:
     description: "GroupDocs.Search unterstützt über 70 Dateiformate und ermöglicht eine effiziente Verarbeitung und Suche von beliebten Büro-Dokumenten."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Suchfilter für DOCX"
           format: "DOCX"
           link: "/search/net/filters/docx/"
-          description: "Microsoft Word Open XML Dokument"
+          description: "Microsoft Word Open XML-Dokument"
           
         # format loop 2
-        - name: ""
+        - name: "Suchfilter für PDF"
           format: "PDF"
           link: "/search/net/filters/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: ""
+        - name: "Suchfilter für PPTX"
           format: "PPTX"
           link: "/search/net/filters/pptx/"
-          description: "PowerPoint Open XML Präsentation"
+          description: "PowerPoint Open XML-Präsentation"
 
         # format loop 4
-        - name: ""
+        - name: "Suchfilter für TXT"
           format: "TXT"
           link: "/search/net/filters/txt/"
           description: "Textdokument"
           
         # format loop 5
-        - name: ""
+        - name: "Suchfilter für XLSX"
           format: "XLSX"
           link: "/search/net/filters/xlsx/"
-          description: "Microsoft Excel Open XML Tabelle"
+          description: "Microsoft Excel Open XML-Spreadsheet"
   
 
 ---

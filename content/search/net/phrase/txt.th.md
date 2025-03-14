@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:40
+date:  2025-03-14T11:10:53
 draft: false
 lang: th
 format: Txt
@@ -54,7 +54,7 @@ steps:
       copy_title: "คัดลอก"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "ผลการค้นหา"
       install:
         command: "dotnet add package GroupDocs.Search"
         copy_tip: "คลิกเพื่อคัดลอก"
@@ -64,7 +64,7 @@ steps:
         - title: "ตัวอย่างเพิ่มเติม"
           link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
         #  loop
-        - title: "เอกสาร"
+        - title: "เอกสารประกอบ"
           link: "https://docs.groupdocs.com/search/net/"
           
       content: |
@@ -147,7 +147,7 @@ more_features:
           copy_done: "คัดลอกแล้ว"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "ดาวน์โหลดผลลัพธ์"
             icon: "download"
             link: "/examples/search/formats/searchphrase.txt"
         links:
@@ -155,7 +155,7 @@ more_features:
           - title: "ตัวอย่างเพิ่มเติม"
             link: "https://github.com/groupdocs-search/GroupDocs.Search-for-.NET/"
           #  loop
-          - title: "เอกสาร"
+          - title: "เอกสารประกอบ"
             link: "https://docs.groupdocs.com/search/net/"
             
 
@@ -166,8 +166,8 @@ more_features:
 
 actions:
   enable: true
-  title: "พร้อมเริ่มต้นแล้วหรือยัง?"
-  description: "ทดลองคุณสมบัติของ GroupDocs.Search ฟรี หรือขอใบอนุญาต"
+  title: "พร้อมที่จะเริ่มต้นแล้วหรือยัง?"
+  description: "ทดลองฟีเจอร์ของ GroupDocs.Search ฟรีหรือขอใบอนุญาต"
   items:
     #  loop
     - title: "ดาวน์โหลด Nuget"
@@ -188,34 +188,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "ค้นหาตามเงื่อนไข"
           operation: "boolean"
           link: "/search/net/boolean/txt/"
-          description: "{common-content.operations.boolean.description}"
+          description: "ค้นหาข้อมูลในเอกสารโดยใช้เงื่อนไขเชิงบูลีน"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "การค้นหาตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก"
           operation: "case-sensitive"
           link: "/search/net/case-sensitive/txt/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "เพิ่มความแม่นยำในการค้นหาด้วยการพิจารณาความแตกต่างของตัวพิมพ์"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "การจัดทำดัชนีเอกสาร"
           operation: "document"
           link: "/search/net/document/txt/"
-          description: "{common-content.operations.document.description}"
+          description: "จัดทำดัชนีเอกสารเพียงครั้งเดียวและนำกลับมาใช้ใหม่สำหรับการค้นหาหลายครั้ง"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "ตัวกรองการค้นหา"
           operation: "filters"
           link: "/search/net/filters/txt/"
-          description: "{common-content.operations.filters.description}"
+          description: "ใช้ตัวกรองเพื่อลดปริมาณข้อมูลที่ถูกประมวลผล"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "ประโยคที่แน่นอน"
           operation: "phrase"
           link: "/search/net/phrase/txt/"
-          description: "{common-content.operations.phrase.description}"
+          description: "ค้นหาประโยคหรือลำดับคำเฉพาะ"
           
         
           
@@ -227,31 +227,31 @@ more_formats:
     description: "GroupDocs.Search สนับสนุนการค้นหาใน 70+ รูปแบบเอกสาร ใช้ตัวเลือกขั้นสูงและการจัดทำดัชนีเพื่อลดความซับซ้อนในกระบวนการค้นหาของคุณ."
     items: 
         # format loop 1
-        - name: ""
+        - name: "การค้นหาประโยคใน DOCX"
           format: "DOCX"
           link: "/search/net/phrase/docx/"
           description: "เอกสาร Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "การค้นหาประโยคใน PDF"
           format: "PDF"
           link: "/search/net/phrase/pdf/"
-          description: "รูปแบบเอกสารพกพา Adobe"
+          description: "รูปแบบเอกสารที่พกพาของ Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "การค้นหาประโยคใน PPTX"
           format: "PPTX"
           link: "/search/net/phrase/pptx/"
           description: "การนำเสนอ PowerPoint Open XML"
 
         # format loop 4
-        - name: ""
+        - name: "การค้นหาประโยคใน TXT"
           format: "TXT"
           link: "/search/net/phrase/txt/"
           description: "เอกสารข้อความ"
           
         # format loop 5
-        - name: ""
+        - name: "การค้นหาประโยคใน XLSX"
           format: "XLSX"
           link: "/search/net/phrase/xlsx/"
           description: "สเปรดชีต Microsoft Excel Open XML"

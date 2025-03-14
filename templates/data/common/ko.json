@@ -1,108 +1,105 @@
 {
   "common-content": {
     "format-formats": {
-      "csv": {
-        "name": "CSV에서 찾기",
-        "description": "쉼표로 구분된 값"
-      },
-      "doc": {
-        "name": "DOC에서 찾기",
-        "description": "Microsoft Word 97 - 2007 문서"
-      },
       "docx": {
-        "name": "DOCX에서 찾기",
-        "description": "Microsoft Word Open XML 문서"
-      },
-      "eml": {
-        "name": "EML에서 찾기",
-        "description": "이메일 메시지"
-      },
-      "epub": {
-        "name": "EPUB에서 찾기",
-        "description": "오픈 eBook 파일"
-      },
-      "fb2": {
-        "name": "FB2에서 찾기",
-        "description": "FictionBook 파일"
-      },
-      "md": {
-        "name": "MD에서 찾기",
-        "description": "마크다운 언어"
-      },
-      "odp": {
-        "name": "ODP에서 찾기",
-        "description": "OpenDocument 프레젠테이션 형식"
-      },
-      "one": {
-        "name": "ONE에서 찾기",
-        "description": "OneNote 문서"
+        "name": "DOCX에서 검색",
+        "description": "마이크로소프트 워드 오픈 XML 문서"
       },
       "pdf": {
-        "name": "PDF에서 찾기",
-        "description": "Adobe 휴대용 문서 형식"
-      },
-      "pps": {
-        "name": "PPS에서 찾기",
-        "description": "PowerPoint 슬라이드 쇼"
-      },
-      "ppt": {
-        "name": "PPT에서 찾기",
-        "description": "PowerPoint 프레젠테이션 97-2003"
+        "name": "PDF에서 검색",
+        "description": "어도비 휴대용 문서 형식"
       },
       "pptx": {
-        "name": "PPTX에서 찾기",
-        "description": "PowerPoint Open XML 프레젠테이션"
-      },
-      "pst": {
-        "name": "PST에서 찾기",
-        "description": "Outlook 개인 정보 저장소 파일"
-      },
-      "rtf": {
-        "name": "RTF에서 찾기",
-        "description": "리치 텍스트 형식"
-      },
-      "tsv": {
-        "name": "TSV에서 찾기",
-        "description": "탭으로 구분된 값"
+        "name": "PPTX에서 검색",
+        "description": "파워포인트 오픈 XML 프레젠테이션"
       },
       "txt": {
-        "name": "TXT에서 찾기",
+        "name": "TXT에서 검색",
         "description": "텍스트 문서"
       },
-      "xls": {
-        "name": "XLS에서 찾기",
-        "description": "Microsoft Excel 통합 문서 97-2003"
-      },
       "xlsx": {
-        "name": "XLSX에서 찾기",
-        "description": "Microsoft Excel Open XML 스프레드시트"
+        "name": "XLSX에서 검색",
+        "description": "마이크로소프트 엑셀 오픈 XML 스프레드시트"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "PDF 조건부 검색",
+        "docx": "DOCX 조건부 검색",
+        "xlsx": "XLSX 조건부 검색",
+        "pptx": "PPTX 조건부 검색",
+        "txt": "TXT 조건부 검색"
       },
-      "xml": {
-        "name": "XML에서 찾기",
-        "description": "XML 파일"
+      "case-sensitive": {
+        "pdf": "PDF 대소문자 구분 검색",
+        "docx": "DOCX 대소문자 구분 검색",
+        "xlsx": "XLSX 대소문자 구분 검색",
+        "pptx": "PPTX 대소문자 구분 검색",
+        "txt": "TXT 대소문자 구분 검색"
       },
-      "zip": {
-        "name": "ZIP에서 찾기",
-        "description": "ZIP 아카이브"
+      "document": {
+        "pdf": "PDF 문서에서 검색",
+        "docx": "DOCX 문서에서 검색",
+        "xlsx": "XLSX 문서에서 검색",
+        "pptx": "PPTX 문서에서 검색",
+        "txt": "TXT 문서에서 검색"
+      },
+      "filters": {
+        "pdf": "PDF 검색 필터",
+        "docx": "DOCX 검색 필터",
+        "xlsx": "XLSX 검색 필터",
+        "pptx": "PPTX 검색 필터",
+        "txt": "TXT 검색 필터"
+      },
+      "phrase": {
+        "pdf": "PDF 구문 검색",
+        "docx": "DOCX 구문 검색",
+        "xlsx": "XLSX 구문 검색",
+        "pptx": "PPTX 구문 검색",
+        "txt": "TXT 구문 검색"
       }
     },
     "format-code": {
       "copy_title": "복사",
-      "copy_tip": "복사하려면 클릭",
-      "copy_done": "복사됨",
+      "result_title": "검색 결과",
+      "result_title_bottom": "결과 다운로드",
+      "copy_tip": "클릭하여 복사",
+      "copy_done": "복사 완료",
       "links": {
-        "title_1": "더 많은 예제",
+        "title_1": "자세한 예시",
         "title_2": "문서화"
       }
     },
     "format-actions": {
       "title": "시작할 준비가 되셨습니까?",
-      "description": "{{ProdShortName}} 기능을 무료로 시험해 보거나 라이센스를 요청하세요.",
+      "description": "{{ProdShortName}}의 기능을 무료로 체험하거나 라이센스를 요청해 보십시오.",
       "comment_1": "{{PackageStoreName}} 다운로드",
       "comment_2": "라이센스"
     },
     "texts": {
       "learn_more": "자세히 알아보기"
+    },
+    "operations": {
+      "boolean": {
+        "name": "조건부 검색",
+        "description": "부울 조건을 사용하여 문서에서 정보 찾기"
+      },
+      "case-sensitive": {
+        "name": "대소문자 구분 검색",
+        "description": "대소문자 구분을 고려하여 검색 정확도를 향상"
+      },
+      "document": {
+        "name": "문서 색인화",
+        "description": "문서를 한 번 색인화하고 여러 검색에 재사용"
+      },
+      "filters": {
+        "name": "검색 필터",
+        "description": "처리 중인 데이터를 좁혀주기 위해 필터 사용"
+      },
+      "phrase": {
+        "name": "정확한 구문",
+        "description": "특정 문장이나 구문 검색"
+      }
     }
   }
 }

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:33
+date:  2025-03-14T11:10:48
 draft: false
 lang: ru
 format: Pdf
@@ -54,7 +54,7 @@ steps:
       copy_title: "Копировать"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Результат поиска"
       install:
         command: "npm i @groupdocs/groupdocs.search"
         copy_tip: "нажмите, чтобы скопировать"
@@ -148,7 +148,7 @@ more_features:
           copy_done: "скопировано"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Скачать результат"
             icon: "download"
             link: "/examples/search/formats/searchcase-sensitive.pdf"
         links:
@@ -168,7 +168,7 @@ more_features:
 actions:
   enable: true
   title: "Готовы начать?"
-  description: "Попробуйте возможности GroupDocs.Search бесплатно или запросите лицензию"
+  description: "Попробуйте функции GroupDocs.Search бесплатно или запросите лицензию"
   items:
     #  loop
     - title: "Скачивание NPM"
@@ -189,34 +189,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Поиск по условию"
           operation: "boolean"
           link: "/search/nodejs-java/boolean/pdf/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Находите информацию в документах, используя булевы условия"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Чувствительный к регистру поиск"
           operation: "case-sensitive"
           link: "/search/nodejs-java/case-sensitive/pdf/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Улучшите точность поиска, учитывая регистр"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Индексирование документов"
           operation: "document"
           link: "/search/nodejs-java/document/pdf/"
-          description: "{common-content.operations.document.description}"
+          description: "Индексируйте документы один раз и повторно используйте индекс для множества поисков"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Поисковые фильтры"
           operation: "filters"
           link: "/search/nodejs-java/filters/pdf/"
-          description: "{common-content.operations.filters.description}"
+          description: "Используйте фильтры для уточнения обрабатываемых данных"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Точная фраза"
           operation: "phrase"
           link: "/search/nodejs-java/phrase/pdf/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Ищите конкретное предложение или фразу"
           
         
           
@@ -228,31 +228,31 @@ more_formats:
     description: "GroupDocs.Search поддерживает более 70 форматов документов. Настройте параметры поиска и сэкономьте время на индексацию."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Чувствительный к регистру поиск в DOCX"
           format: "DOCX"
           link: "/search/nodejs-java/case-sensitive/docx/"
           description: "Документ Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "Чувствительный к регистру поиск в PDF"
           format: "PDF"
           link: "/search/nodejs-java/case-sensitive/pdf/"
           description: "Формат переносимого документа Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "Чувствительный к регистру поиск в PPTX"
           format: "PPTX"
           link: "/search/nodejs-java/case-sensitive/pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop 4
-        - name: ""
+        - name: "Чувствительный к регистру поиск в TXT"
           format: "TXT"
           link: "/search/nodejs-java/case-sensitive/txt/"
           description: "Текстовый документ"
           
         # format loop 5
-        - name: ""
+        - name: "Чувствительный к регистру поиск в XLSX"
           format: "XLSX"
           link: "/search/nodejs-java/case-sensitive/xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"

@@ -1,93 +1,68 @@
 {
   "common-content": {
     "format-formats": {
-      "csv": {
-        "name": "Encontrar em CSV",
-        "description": "Valores Separados por Vírgula"
-      },
-      "doc": {
-        "name": "Encontrar em DOC",
-        "description": "Documento Microsoft Word 97 - 2007"
-      },
       "docx": {
-        "name": "Encontrar em DOCX",
+        "name": "Buscar em DOCX",
         "description": "Documento Microsoft Word Open XML"
       },
-      "eml": {
-        "name": "Encontrar em EML",
-        "description": "Mensagem de E-Mail"
-      },
-      "epub": {
-        "name": "Encontrar em EPUB",
-        "description": "Arquivo Open eBook"
-      },
-      "fb2": {
-        "name": "Encontrar em FB2",
-        "description": "Arquivo FictionBook"
-      },
-      "md": {
-        "name": "Encontrar em MD",
-        "description": "Linguagem Markdown"
-      },
-      "odp": {
-        "name": "Encontrar em ODP",
-        "description": "Formato de Apresentação OpenDocument"
-      },
-      "one": {
-        "name": "Encontrar em ONE",
-        "description": "Documento OneNote"
-      },
       "pdf": {
-        "name": "Encontrar em PDF",
+        "name": "Buscar em PDF",
         "description": "Formato de Documento Portátil Adobe"
       },
-      "pps": {
-        "name": "Encontrar em PPS",
-        "description": "Apresentação PowerPoint"
-      },
-      "ppt": {
-        "name": "Encontrar em PPT",
-        "description": "Apresentação PowerPoint 97-2003"
-      },
       "pptx": {
-        "name": "Encontrar em PPTX",
+        "name": "Buscar em PPTX",
         "description": "Apresentação PowerPoint Open XML"
       },
-      "pst": {
-        "name": "Encontrar em PST",
-        "description": "Arquivo de Armazenamento de Informações Pessoais do Outlook"
-      },
-      "rtf": {
-        "name": "Encontrar em RTF",
-        "description": "Formato de Texto Rico"
-      },
-      "tsv": {
-        "name": "Encontrar em TSV",
-        "description": "Valores Separados por Tabulação"
-      },
       "txt": {
-        "name": "Encontrar em TXT",
+        "name": "Buscar em TXT",
         "description": "Documento de Texto"
       },
-      "xls": {
-        "name": "Encontrar em XLS",
-        "description": "Pasta de Trabalho Microsoft Excel 97-2003"
-      },
       "xlsx": {
-        "name": "Encontrar em XLSX",
+        "name": "Buscar em XLSX",
         "description": "Planilha Microsoft Excel Open XML"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "Busca booleana em PDF",
+        "docx": "Busca booleana em DOCX",
+        "xlsx": "Busca booleana em XLSX",
+        "pptx": "Busca booleana em PPTX",
+        "txt": "Busca booleana em TXT"
       },
-      "xml": {
-        "name": "Encontrar em XML",
-        "description": "Arquivo XML"
+      "case-sensitive": {
+        "pdf": "Busca sensível a maiúsculas em PDF",
+        "docx": "Busca sensível a maiúsculas em DOCX",
+        "xlsx": "Busca sensível a maiúsculas em XLSX",
+        "pptx": "Busca sensível a maiúsculas em PPTX",
+        "txt": "Busca sensível a maiúsculas em TXT"
       },
-      "zip": {
-        "name": "Encontrar em ZIP",
-        "description": "Arquivo Zip"
+      "document": {
+        "pdf": "Buscar no documento PDF",
+        "docx": "Buscar no documento DOCX",
+        "xlsx": "Buscar no documento XLSX",
+        "pptx": "Buscar no documento PPTX",
+        "txt": "Buscar no documento TXT"
+      },
+      "filters": {
+        "pdf": "Filtros de busca para PDF",
+        "docx": "Filtros de busca para DOCX",
+        "xlsx": "Filtros de busca para XLSX",
+        "pptx": "Filtros de busca para PPTX",
+        "txt": "Filtros de busca para TXT"
+      },
+      "phrase": {
+        "pdf": "Busca de frases em PDF",
+        "docx": "Busca de frases em DOCX",
+        "xlsx": "Busca de frases em XLSX",
+        "pptx": "Busca de frases em PPTX",
+        "txt": "Busca de frases em TXT"
       }
     },
     "format-code": {
       "copy_title": "Copiar",
+      "result_title": "Resultado da busca",
+      "result_title_bottom": "Baixar resultado",
       "copy_tip": "clique para copiar",
       "copy_done": "copiado",
       "links": {
@@ -103,6 +78,28 @@
     },
     "texts": {
       "learn_more": "Saiba mais"
+    },
+    "operations": {
+      "boolean": {
+        "name": "Busca por condição",
+        "description": "Encontre informações em documentos usando condições booleanas"
+      },
+      "case-sensitive": {
+        "name": "Busca sensível a maiúsculas",
+        "description": "Aprimore a precisão da busca considerando a sensibilidade a maiúsculas"
+      },
+      "document": {
+        "name": "Indexação de documentos",
+        "description": "Indexe documentos uma vez e reutilize o índice para múltiplas buscas"
+      },
+      "filters": {
+        "name": "Filtros de busca",
+        "description": "Use filtros para restringir os dados processados"
+      },
+      "phrase": {
+        "name": "Frase exata",
+        "description": "Busque por uma frase ou sentença específica"
+      }
     }
   }
 }

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:32
+date:  2025-03-14T11:10:47
 draft: false
 lang: th
 format: Docx
@@ -54,7 +54,7 @@ steps:
       copy_title: "คัดลอก"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "ผลการค้นหา"
       install:
         command_title: "Maven XML"
         command: |
@@ -80,7 +80,7 @@ steps:
         - title: "ตัวอย่างเพิ่มเติม"
           link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Java/"
         #  loop
-        - title: "เอกสาร"
+        - title: "เอกสารประกอบ"
           link: "https://docs.groupdocs.com/search/java/"
           
       content: |
@@ -175,7 +175,7 @@ more_features:
           copy_done: "คัดลอกแล้ว"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "ดาวน์โหลดผลลัพธ์"
             icon: "download"
             link: "/examples/search/formats/searchcase-sensitive.docx"
         links:
@@ -183,7 +183,7 @@ more_features:
           - title: "ตัวอย่างเพิ่มเติม"
             link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Java/"
           #  loop
-          - title: "เอกสาร"
+          - title: "เอกสารประกอบ"
             link: "https://docs.groupdocs.com/search/java/"
             
 
@@ -194,8 +194,8 @@ more_features:
 
 actions:
   enable: true
-  title: "พร้อมเริ่มต้นแล้วหรือยัง?"
-  description: "ทดลองคุณสมบัติของ GroupDocs.Search ฟรี หรือขอใบอนุญาต"
+  title: "พร้อมที่จะเริ่มต้นแล้วหรือยัง?"
+  description: "ทดลองฟีเจอร์ของ GroupDocs.Search ฟรีหรือขอใบอนุญาต"
   items:
     #  loop
     - title: "ดาวน์โหลด Maven"
@@ -216,34 +216,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "ค้นหาตามเงื่อนไข"
           operation: "boolean"
           link: "/search/java/boolean/docx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "ค้นหาข้อมูลในเอกสารโดยใช้เงื่อนไขเชิงบูลีน"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "การค้นหาตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก"
           operation: "case-sensitive"
           link: "/search/java/case-sensitive/docx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "เพิ่มความแม่นยำในการค้นหาด้วยการพิจารณาความแตกต่างของตัวพิมพ์"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "การจัดทำดัชนีเอกสาร"
           operation: "document"
           link: "/search/java/document/docx/"
-          description: "{common-content.operations.document.description}"
+          description: "จัดทำดัชนีเอกสารเพียงครั้งเดียวและนำกลับมาใช้ใหม่สำหรับการค้นหาหลายครั้ง"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "ตัวกรองการค้นหา"
           operation: "filters"
           link: "/search/java/filters/docx/"
-          description: "{common-content.operations.filters.description}"
+          description: "ใช้ตัวกรองเพื่อลดปริมาณข้อมูลที่ถูกประมวลผล"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "ประโยคที่แน่นอน"
           operation: "phrase"
           link: "/search/java/phrase/docx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "ค้นหาประโยคหรือลำดับคำเฉพาะ"
           
         
           
@@ -255,31 +255,31 @@ more_formats:
     description: "GroupDocs.Search ทำงานร่วมกับรูปแบบเอกสารยอดนิยมกว่า 70 รูปแบบ เสนอการตั้งค่าการค้นหาที่ปรับแต่งได้และการจัดทำดัชนีที่มีประสิทธิภาพ"
     items: 
         # format loop 1
-        - name: ""
+        - name: "การค้นหา DOCX ตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก"
           format: "DOCX"
           link: "/search/java/case-sensitive/docx/"
           description: "เอกสาร Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "การค้นหา PDF ตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก"
           format: "PDF"
           link: "/search/java/case-sensitive/pdf/"
-          description: "รูปแบบเอกสารพกพา Adobe"
+          description: "รูปแบบเอกสารที่พกพาของ Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "การค้นหา PPTX ตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก"
           format: "PPTX"
           link: "/search/java/case-sensitive/pptx/"
           description: "การนำเสนอ PowerPoint Open XML"
 
         # format loop 4
-        - name: ""
+        - name: "การค้นหา TXT ตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก"
           format: "TXT"
           link: "/search/java/case-sensitive/txt/"
           description: "เอกสารข้อความ"
           
         # format loop 5
-        - name: ""
+        - name: "การค้นหา XLSX ตัวพิมพ์ใหญ่ตัวพิมพ์เล็ก"
           format: "XLSX"
           link: "/search/java/case-sensitive/xlsx/"
           description: "สเปรดชีต Microsoft Excel Open XML"

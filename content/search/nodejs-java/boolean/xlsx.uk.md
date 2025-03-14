@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:30
+date:  2025-03-14T11:10:46
 draft: false
 lang: uk
 format: Xlsx
@@ -54,10 +54,10 @@ steps:
       copy_title: "Копіювати"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Результат пошуку"
       install:
         command: "npm i @groupdocs/groupdocs.search"
-        copy_tip: "клікніть для копіювання"
+        copy_tip: "клікніть, щоб скопіювати"
         copy_done: "скопійовано"
       links:
         #  loop
@@ -138,11 +138,11 @@ more_features:
         copy_title: "Копіювати"
         install:
           command: "npm i @groupdocs/groupdocs.search"
-          copy_tip: "клікніть для копіювання"
+          copy_tip: "клікніть, щоб скопіювати"
           copy_done: "скопійовано"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Завантажити результат"
             icon: "download"
             link: "/examples/search/formats/searchboolean.xlsx"
         links:
@@ -161,11 +161,11 @@ more_features:
 
 actions:
   enable: true
-  title: "Готові почати?"
+  title: "Готові розпочати?"
   description: "Спробуйте функції GroupDocs.Search безкоштовно або запитайте ліцензію"
   items:
     #  loop
-    - title: "завантаження NPM"
+    - title: "Завантажити NPM"
       link: "https://releases.groupdocs.com/search/nodejs-java/"
       color: "red"
         #  loop
@@ -183,34 +183,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Пошук за умовою"
           operation: "boolean"
           link: "/search/nodejs-java/boolean/xlsx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Знайти інформацію в документах, використовуючи логічні умови"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Пошук чутливий до регістру"
           operation: "case-sensitive"
           link: "/search/nodejs-java/case-sensitive/xlsx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Покращте точність пошуку, враховуючи чутливість до регістру"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Індексація документів"
           operation: "document"
           link: "/search/nodejs-java/document/xlsx/"
-          description: "{common-content.operations.document.description}"
+          description: "Індексуйте документи один раз та повторно використовуйте індекс для кількох пошуків"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Фільтри пошуку"
           operation: "filters"
           link: "/search/nodejs-java/filters/xlsx/"
-          description: "{common-content.operations.filters.description}"
+          description: "Використовуйте фільтри для звуження оброблюваних даних"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Точна фраза"
           operation: "phrase"
           link: "/search/nodejs-java/phrase/xlsx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Шукайте конкретне речення або фразу"
           
         
           
@@ -222,31 +222,31 @@ more_formats:
     description: "GroupDocs.Search підтримує понад 70 форматів файлів, надаючи гнучкі правила пошуку і ефективну індексацію для економії часу та зусиль."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Логічний пошук у DOCX"
           format: "DOCX"
           link: "/search/nodejs-java/boolean/docx/"
           description: "Документ Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "Логічний пошук у PDF"
           format: "PDF"
           link: "/search/nodejs-java/boolean/pdf/"
-          description: "Adobe Portable Document Format"
+          description: "Формат Adobe Portable Document"
           
         # format loop 3
-        - name: ""
+        - name: "Логічний пошук у PPTX"
           format: "PPTX"
           link: "/search/nodejs-java/boolean/pptx/"
           description: "Презентація PowerPoint Open XML"
 
         # format loop 4
-        - name: ""
+        - name: "Логічний пошук у TXT"
           format: "TXT"
           link: "/search/nodejs-java/boolean/txt/"
           description: "Текстовий документ"
           
         # format loop 5
-        - name: ""
+        - name: "Логічний пошук у XLSX"
           format: "XLSX"
           link: "/search/nodejs-java/boolean/xlsx/"
           description: "Таблиця Microsoft Excel Open XML"

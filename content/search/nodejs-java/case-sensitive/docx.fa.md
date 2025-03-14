@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:33
+date:  2025-03-14T11:10:48
 draft: false
 lang: fa
 format: Docx
@@ -32,7 +32,7 @@ about:
     enable: true
     title: "چیست GroupDocs.Search؟"
     link: "/search/nodejs-java/"
-    link_title: "بیشتر بدانید"
+    link_title: "بیشتر بیاموزید"
     picture: "about_search.svg" # 480 X 400
     content: |
        [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) یک کتابخانه قدرتمند برای جستجو و نمایه‌سازی متن در اسناد است. این کتابخانه از بیش از 70 فرمت پشتیبانی می‌کند، از جمله PDF، Word، Excel، PowerPoint، تصاویر و فایل‌های ZIP، که مدیریت بخش‌های بزرگ داده‌ای را آسان می‌کند.
@@ -54,7 +54,7 @@ steps:
       copy_title: "کپی"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "نتیجه جستجو"
       install:
         command: "npm i @groupdocs/groupdocs.search"
         copy_tip: "برای کپی کلیک کنید"
@@ -148,7 +148,7 @@ more_features:
           copy_done: "کپی شد"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "دانلود نتیجه"
             icon: "download"
             link: "/examples/search/formats/searchcase-sensitive.docx"
         links:
@@ -168,7 +168,7 @@ more_features:
 actions:
   enable: true
   title: "آماده شروع هستید؟"
-  description: "امکانات GroupDocs.Search را به صورت رایگان امتحان کنید یا درخواست مجوز دهید"
+  description: "ویژگی‌های GroupDocs.Search را رایگان امتحان کنید یا درخواست مجوز دهید"
   items:
     #  loop
     - title: "دانلود NPM"
@@ -189,34 +189,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "جستجو با شرط"
           operation: "boolean"
           link: "/search/nodejs-java/boolean/docx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "یافتن اطلاعات در اسناد با استفاده از شرایط بولی"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "جستجوی حساس به حروف بزرگ و کوچک"
           operation: "case-sensitive"
           link: "/search/nodejs-java/case-sensitive/docx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "دقت جستجو را با در نظر گرفتن حساسیت حروف افزایش دهید"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "شاخص‌گذاری اسناد"
           operation: "document"
           link: "/search/nodejs-java/document/docx/"
-          description: "{common-content.operations.document.description}"
+          description: "اسناد را یک‌بار شاخص‌گذاری کنید و از شاخص برای جستجوهای متعدد استفاده کنید"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "فیلترهای جستجو"
           operation: "filters"
           link: "/search/nodejs-java/filters/docx/"
-          description: "{common-content.operations.filters.description}"
+          description: "از فیلترها برای محدود کردن داده‌های پردازش‌شده استفاده کنید"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "عبارت دقیق"
           operation: "phrase"
           link: "/search/nodejs-java/phrase/docx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "جستجو برای یک جمله یا عبارت خاص"
           
         
           
@@ -228,34 +228,34 @@ more_formats:
     description: "GroupDocs.Search از بیش از 70 فرمت سند پشتیبانی می‌کند. گزینه‌های جستجوی خود را سفارشی کنید و زمان خود را با نمایه‌سازی صرفه‌جویی کنید."
     items: 
         # format loop 1
-        - name: ""
+        - name: "جستجوی حساس به حروف بزرگ و کوچک DOCX"
           format: "DOCX"
           link: "/search/nodejs-java/case-sensitive/docx/"
-          description: "مدرک مایکروسافت ورد Open XML"
+          description: "سند XML باز مایکروسافت ورد"
           
         # format loop 2
-        - name: ""
+        - name: "جستجوی حساس به حروف بزرگ و کوچک PDF"
           format: "PDF"
           link: "/search/nodejs-java/case-sensitive/pdf/"
-          description: "فرمت مدرک قابل حمل Adobe"
+          description: "فرمت سند قابل حمل Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "جستجوی حساس به حروف بزرگ و کوچک PPTX"
           format: "PPTX"
           link: "/search/nodejs-java/case-sensitive/pptx/"
-          description: "ارائه PowerPoint Open XML"
+          description: "ارائه XML باز پاورپوینت"
 
         # format loop 4
-        - name: ""
+        - name: "جستجوی حساس به حروف بزرگ و کوچک TXT"
           format: "TXT"
           link: "/search/nodejs-java/case-sensitive/txt/"
-          description: "مدرک متنی"
+          description: "سند متنی"
           
         # format loop 5
-        - name: ""
+        - name: "جستجوی حساس به حروف بزرگ و کوچک XLSX"
           format: "XLSX"
           link: "/search/nodejs-java/case-sensitive/xlsx/"
-          description: "جدول محتوای Open XML مایکروسافت اکسل"
+          description: "برگه XML باز مایکروسافت اکسل"
   
 
 ---

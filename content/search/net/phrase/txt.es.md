@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:40
+date:  2025-03-14T11:10:53
 draft: false
 lang: es
 format: Txt
@@ -32,7 +32,7 @@ about:
     enable: true
     title: "Funciones de GroupDocs.Search"
     link: "/search/net/"
-    link_title: "Aprende más"
+    link_title: "Saber más"
     picture: "about_search.svg" # 480 X 400
     content: |
        [GroupDocs.Search for .NET](/search/net/) es una poderosa biblioteca para indexar y buscar texto en documentos. Soporta más de 70 formatos de archivo, incluidos PDF, documentos de Word, hojas de Excel, imágenes y archivos ZIP, lo que permite obtener resultados de búsqueda rápidos y precisos.
@@ -54,7 +54,7 @@ steps:
       copy_title: "Copiar"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Resultado de búsqueda"
       install:
         command: "dotnet add package GroupDocs.Search"
         copy_tip: "haz clic para copiar"
@@ -147,7 +147,7 @@ more_features:
           copy_done: "copiado"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Descargar resultado"
             icon: "download"
             link: "/examples/search/formats/searchphrase.txt"
         links:
@@ -166,15 +166,15 @@ more_features:
 
 actions:
   enable: true
-  title: "¿Listo para comenzar?"
-  description: "Prueba las características de GroupDocs.Search de forma gratuita o solicita una licencia"
+  title: "¿Listo para empezar?"
+  description: "Prueba las funciones de GroupDocs.Search gratis o solicita una licencia"
   items:
     #  loop
     - title: "Descarga de Nuget"
       link: "https://releases.groupdocs.com/search/net/"
       color: "red"
         #  loop
-    - title: "Licenciamiento"
+    - title: "Licencias"
       link: "https://purchase.groupdocs.com/pricing/search/net/"
       color: "light"
 
@@ -188,34 +188,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Búsqueda por condición"
           operation: "boolean"
           link: "/search/net/boolean/txt/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Encuentra información en documentos usando condiciones booleanas"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Búsqueda sensible a mayúsculas y minúsculas"
           operation: "case-sensitive"
           link: "/search/net/case-sensitive/txt/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Mejora la precisión de la búsqueda considerando la sensibilidad de mayúsculas"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Indexación de documentos"
           operation: "document"
           link: "/search/net/document/txt/"
-          description: "{common-content.operations.document.description}"
+          description: "Indexa documentos una vez y reutiliza el índice para múltiples búsquedas"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Filtros de búsqueda"
           operation: "filters"
           link: "/search/net/filters/txt/"
-          description: "{common-content.operations.filters.description}"
+          description: "Utiliza filtros para reducir los datos procesados"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Frase exacta"
           operation: "phrase"
           link: "/search/net/phrase/txt/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Busca una oración o frase específica"
           
         
           
@@ -227,31 +227,31 @@ more_formats:
     description: "GroupDocs.Search soporta búsquedas en más de 70 formatos de documentos. Utiliza opciones avanzadas e indexación para agilizar tu proceso de búsqueda."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Búsqueda de frase en DOCX"
           format: "DOCX"
           link: "/search/net/phrase/docx/"
           description: "Documento de Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "Búsqueda de frase en PDF"
           format: "PDF"
           link: "/search/net/phrase/pdf/"
           description: "Formato de Documento Portátil de Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "Búsqueda de frase en PPTX"
           format: "PPTX"
           link: "/search/net/phrase/pptx/"
           description: "Presentación Open XML de PowerPoint"
 
         # format loop 4
-        - name: ""
+        - name: "Búsqueda de frase en TXT"
           format: "TXT"
           link: "/search/net/phrase/txt/"
           description: "Documento de Texto"
           
         # format loop 5
-        - name: ""
+        - name: "Búsqueda de frase en XLSX"
           format: "XLSX"
           link: "/search/net/phrase/xlsx/"
           description: "Hoja de Cálculo Open XML de Microsoft Excel"

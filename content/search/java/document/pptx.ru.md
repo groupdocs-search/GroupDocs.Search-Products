@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:34
+date:  2025-03-14T11:10:49
 draft: false
 lang: ru
 format: Pptx
@@ -54,7 +54,7 @@ steps:
       copy_title: "Копировать"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "Результат поиска"
       install:
         command_title: "Maven XML"
         command: |
@@ -176,7 +176,7 @@ more_features:
           copy_done: "скопировано"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "Скачать результат"
             icon: "download"
             link: "/examples/search/formats/searchdocument.pptx"
         links:
@@ -196,7 +196,7 @@ more_features:
 actions:
   enable: true
   title: "Готовы начать?"
-  description: "Попробуйте возможности GroupDocs.Search бесплатно или запросите лицензию"
+  description: "Попробуйте функции GroupDocs.Search бесплатно или запросите лицензию"
   items:
     #  loop
     - title: "Скачивание Maven"
@@ -217,34 +217,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "Поиск по условию"
           operation: "boolean"
           link: "/search/java/boolean/pptx/"
-          description: "{common-content.operations.boolean.description}"
+          description: "Находите информацию в документах, используя булевы условия"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "Чувствительный к регистру поиск"
           operation: "case-sensitive"
           link: "/search/java/case-sensitive/pptx/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "Улучшите точность поиска, учитывая регистр"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "Индексирование документов"
           operation: "document"
           link: "/search/java/document/pptx/"
-          description: "{common-content.operations.document.description}"
+          description: "Индексируйте документы один раз и повторно используйте индекс для множества поисков"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "Поисковые фильтры"
           operation: "filters"
           link: "/search/java/filters/pptx/"
-          description: "{common-content.operations.filters.description}"
+          description: "Используйте фильтры для уточнения обрабатываемых данных"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "Точная фраза"
           operation: "phrase"
           link: "/search/java/phrase/pptx/"
-          description: "{common-content.operations.phrase.description}"
+          description: "Ищите конкретное предложение или фразу"
           
         
           
@@ -256,31 +256,31 @@ more_formats:
     description: "GroupDocs.Search поддерживает более 70 форматов, включая офисные файлы, что обеспечивает быстрый поиск с расширенными функциями индексирования."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Поиск в документе DOCX"
           format: "DOCX"
           link: "/search/java/document/docx/"
           description: "Документ Microsoft Word Open XML"
           
         # format loop 2
-        - name: ""
+        - name: "Поиск в документе PDF"
           format: "PDF"
           link: "/search/java/document/pdf/"
           description: "Формат переносимого документа Adobe"
           
         # format loop 3
-        - name: ""
+        - name: "Поиск в документе PPTX"
           format: "PPTX"
           link: "/search/java/document/pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop 4
-        - name: ""
+        - name: "Поиск в документе TXT"
           format: "TXT"
           link: "/search/java/document/txt/"
           description: "Текстовый документ"
           
         # format loop 5
-        - name: ""
+        - name: "Поиск в документе XLSX"
           format: "XLSX"
           link: "/search/java/document/xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"

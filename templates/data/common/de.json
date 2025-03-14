@@ -1,94 +1,69 @@
 {
   "common-content": {
     "format-formats": {
-      "csv": {
-        "name": "In CSV suchen",
-        "description": "Kommagetrennte Werte"
-      },
-      "doc": {
-        "name": "In DOC suchen",
-        "description": "Microsoft Word 97 - 2007 Dokument"
-      },
       "docx": {
-        "name": "In DOCX suchen",
-        "description": "Microsoft Word Open XML Dokument"
-      },
-      "eml": {
-        "name": "In EML suchen",
-        "description": "E-Mail-Nachricht"
-      },
-      "epub": {
-        "name": "In EPUB suchen",
-        "description": "Open eBook Datei"
-      },
-      "fb2": {
-        "name": "In FB2 suchen",
-        "description": "FictionBook Datei"
-      },
-      "md": {
-        "name": "In MD suchen",
-        "description": "Markdown-Sprache"
-      },
-      "odp": {
-        "name": "In ODP suchen",
-        "description": "OpenDocument Präsentationsformat"
-      },
-      "one": {
-        "name": "In ONE suchen",
-        "description": "OneNote Dokument"
+        "name": "Suche in DOCX",
+        "description": "Microsoft Word Open XML-Dokument"
       },
       "pdf": {
-        "name": "In PDF suchen",
+        "name": "Suche in PDF",
         "description": "Adobe Portable Document Format"
       },
-      "pps": {
-        "name": "In PPS suchen",
-        "description": "PowerPoint-Präsentation"
-      },
-      "ppt": {
-        "name": "In PPT suchen",
-        "description": "PowerPoint Präsentation 97-2003"
-      },
       "pptx": {
-        "name": "In PPTX suchen",
-        "description": "PowerPoint Open XML Präsentation"
-      },
-      "pst": {
-        "name": "In PST suchen",
-        "description": "Outlook persönliche Informationsdatei"
-      },
-      "rtf": {
-        "name": "In RTF suchen",
-        "description": "Rich Text Format"
-      },
-      "tsv": {
-        "name": "In TSV suchen",
-        "description": "Tabulatorgetrennte Werte"
+        "name": "Suche in PPTX",
+        "description": "PowerPoint Open XML-Präsentation"
       },
       "txt": {
-        "name": "In TXT suchen",
+        "name": "Suche in TXT",
         "description": "Textdokument"
       },
-      "xls": {
-        "name": "In XLS suchen",
-        "description": "Microsoft Excel Arbeitsmappe 97-2003"
-      },
       "xlsx": {
-        "name": "In XLSX suchen",
-        "description": "Microsoft Excel Open XML Tabelle"
+        "name": "Suche in XLSX",
+        "description": "Microsoft Excel Open XML-Spreadsheet"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "Boolesche Suche in PDF",
+        "docx": "Boolesche Suche in DOCX",
+        "xlsx": "Boolesche Suche in XLSX",
+        "pptx": "Boolesche Suche in PPTX",
+        "txt": "Boolesche Suche in TXT"
       },
-      "xml": {
-        "name": "In XML suchen",
-        "description": "XML Datei"
+      "case-sensitive": {
+        "pdf": "Groß- und kleinschreibungssensitive Suche in PDF",
+        "docx": "Groß- und kleinschreibungssensitive Suche in DOCX",
+        "xlsx": "Groß- und kleinschreibungssensitive Suche in XLSX",
+        "pptx": "Groß- und kleinschreibungssensitive Suche in PPTX",
+        "txt": "Groß- und kleinschreibungssensitive Suche in TXT"
       },
-      "zip": {
-        "name": "In ZIP suchen",
-        "description": "Zip-Archiv"
+      "document": {
+        "pdf": "Suche im PDF-Dokument",
+        "docx": "Suche im DOCX-Dokument",
+        "xlsx": "Suche im XLSX-Dokument",
+        "pptx": "Suche im PPTX-Dokument",
+        "txt": "Suche im TXT-Dokument"
+      },
+      "filters": {
+        "pdf": "Suchfilter für PDF",
+        "docx": "Suchfilter für DOCX",
+        "xlsx": "Suchfilter für XLSX",
+        "pptx": "Suchfilter für PPTX",
+        "txt": "Suchfilter für TXT"
+      },
+      "phrase": {
+        "pdf": "Phrase Suche in PDF",
+        "docx": "Phrase Suche in DOCX",
+        "xlsx": "Phrase Suche in XLSX",
+        "pptx": "Phrase Suche in PPTX",
+        "txt": "Phrase Suche in TXT"
       }
     },
     "format-code": {
       "copy_title": "Kopieren",
-      "copy_tip": "Klicken zum Kopieren",
+      "result_title": "Suchergebnis",
+      "result_title_bottom": "Ergebnis herunterladen",
+      "copy_tip": "Klicken, um zu kopieren",
       "copy_done": "kopiert",
       "links": {
         "title_1": "Weitere Beispiele",
@@ -96,13 +71,35 @@
       }
     },
     "format-actions": {
-      "title": "Bereit zum Starten?",
+      "title": "Bereit, loszulegen?",
       "description": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos oder fordern Sie eine Lizenz an",
       "comment_1": "{{PackageStoreName}} Download",
       "comment_2": "Lizenzierung"
     },
     "texts": {
-      "learn_more": "Erfahren Sie mehr"
+      "learn_more": "Mehr Erfahren"
+    },
+    "operations": {
+      "boolean": {
+        "name": "Suche nach Bedingungen",
+        "description": "Informationen in Dokumenten anhand boolescher Bedingungen finden"
+      },
+      "case-sensitive": {
+        "name": "Groß- und kleinschreibungssensitive Suche",
+        "description": "Verbessern Sie die Suchgenauigkeit, indem Sie die Groß- und Kleinschreibung berücksichtigen"
+      },
+      "document": {
+        "name": "Dokumentenindizierung",
+        "description": "Indizieren Sie Dokumente einmal und verwenden Sie den Index für mehrere Suchen"
+      },
+      "filters": {
+        "name": "Suchfilter",
+        "description": "Verwenden Sie Filter, um die verarbeiteten Daten einzugrenzen"
+      },
+      "phrase": {
+        "name": "Exakte Phrase",
+        "description": "Nach einem bestimmten Satz oder einer bestimmten Phrase suchen"
+      }
     }
   }
 }

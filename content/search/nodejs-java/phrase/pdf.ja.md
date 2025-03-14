@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-11T15:59:40
+date:  2025-03-14T11:10:53
 draft: false
 lang: ja
 format: Pdf
@@ -32,7 +32,7 @@ about:
     enable: true
     title: "GroupDocs.Search の機能"
     link: "/search/nodejs-java/"
-    link_title: "詳細を見る"
+    link_title: "さらに詳しく"
     picture: "about_search.svg" # 480 X 400
     content: |
        [GroupDocs.Search for Node.js via Java](/search/nodejs-java/) は、文書内のテキストをインデックス化し検索するための高性能ライブラリです。70 以上のファイル形式をサポートしており、PDF、Word 文書、Excel スプレッドシート、画像、ZIP アーカイブなど、正確かつ迅速な検索結果を保証します。
@@ -54,7 +54,7 @@ steps:
       copy_title: "コピー"
       result_enable: true
       result_link: "/examples/search/search_all.pdf"
-      result_title: "{common-content.format-code.result_title}"
+      result_title: "検索結果"
       install:
         command: "npm i @groupdocs/groupdocs.search"
         copy_tip: "クリックしてコピー"
@@ -64,7 +64,7 @@ steps:
         - title: "さらに例を見る"
           link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Node.js-via-Java/"
         #  loop
-        - title: "ドキュメンテーション"
+        - title: "ドキュメント"
           link: "https://docs.groupdocs.com/search/nodejs-java/"
           
       content: |
@@ -151,7 +151,7 @@ more_features:
           copy_done: "コピーしました"
         top_links:
           #  loop
-          - title: "{common-content.format-code.result_title_bottom}"
+          - title: "結果をダウンロード"
             icon: "download"
             link: "/examples/search/formats/searchphrase.pdf"
         links:
@@ -159,7 +159,7 @@ more_features:
           - title: "さらに例を見る"
             link: "https://github.com/groupdocs-search/GroupDocs.Search-for-Node.js-via-Java/"
           #  loop
-          - title: "ドキュメンテーション"
+          - title: "ドキュメント"
             link: "https://docs.groupdocs.com/search/nodejs-java/"
             
 
@@ -171,7 +171,7 @@ more_features:
 actions:
   enable: true
   title: "始める準備はできましたか？"
-  description: "GroupDocs.Searchの機能を無料で試すか、ライセンスをリクエストしてください"
+  description: "GroupDocs.Searchの機能を無料で試すか、ライセンスを要求してください"
   items:
     #  loop
     - title: "NPMのダウンロード"
@@ -192,34 +192,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "{common-content.operations.boolean.name}"
+        - name: "条件による検索"
           operation: "boolean"
           link: "/search/nodejs-java/boolean/pdf/"
-          description: "{common-content.operations.boolean.description}"
+          description: "ブール条件を使用してドキュメント内の情報を見つける"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
+        - name: "大文字小文字を区別した検索"
           operation: "case-sensitive"
           link: "/search/nodejs-java/case-sensitive/pdf/"
-          description: "{common-content.operations.case-sensitive.description}"
+          description: "大文字小文字を考慮することで検索の精度を向上させる"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
+        - name: "ドキュメントのインデックス作成"
           operation: "document"
           link: "/search/nodejs-java/document/pdf/"
-          description: "{common-content.operations.document.description}"
+          description: "ドキュメントを一度インデックス化し、複数の検索にインデックスを再利用する"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
+        - name: "検索フィルター"
           operation: "filters"
           link: "/search/nodejs-java/filters/pdf/"
-          description: "{common-content.operations.filters.description}"
+          description: "処理するデータを絞り込むためにフィルターを使用する"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
+        - name: "正確なフレーズ"
           operation: "phrase"
           link: "/search/nodejs-java/phrase/pdf/"
-          description: "{common-content.operations.phrase.description}"
+          description: "特定の文やフレーズを検索する"
           
         
           
@@ -231,34 +231,34 @@ more_formats:
     description: "GroupDocs.Search は、70 以上の文書形式でフレーズ検索をサポートします。高度なオプションやインデックス化を利用して、検索プロセスを効率化してください。"
     items: 
         # format loop 1
-        - name: ""
+        - name: "DOCXのフレーズ検索"
           format: "DOCX"
           link: "/search/nodejs-java/phrase/docx/"
-          description: "Microsoft Word オープンXMLドキュメント"
+          description: "Microsoft Word Open XMLドキュメント"
           
         # format loop 2
-        - name: ""
+        - name: "PDFのフレーズ検索"
           format: "PDF"
           link: "/search/nodejs-java/phrase/pdf/"
-          description: "Adobeポータブルドキュメント形式"
+          description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: ""
+        - name: "PPTXのフレーズ検索"
           format: "PPTX"
           link: "/search/nodejs-java/phrase/pptx/"
-          description: "PowerPointオープンXMLプレゼンテーション"
+          description: "PowerPoint Open XMLプレゼンテーション"
 
         # format loop 4
-        - name: ""
+        - name: "TXTのフレーズ検索"
           format: "TXT"
           link: "/search/nodejs-java/phrase/txt/"
           description: "テキストドキュメント"
           
         # format loop 5
-        - name: ""
+        - name: "XLSXのフレーズ検索"
           format: "XLSX"
           link: "/search/nodejs-java/phrase/xlsx/"
-          description: "Microsoft ExcelオープンXMLスプレッドシート"
+          description: "Microsoft Excel Open XMLスプレッドシート"
   
 
 ---
